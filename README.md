@@ -1,6 +1,6 @@
 # Digital Ally ThermoVu DTM-600 Research Release
 
-Public release package for authorized security research on the Digital Ally ThermoVu DTM-600 facial-recognition and thermal access-control device. The device analyzed in this release is a Uniview/OEM OET-213H-NB-family target running HiSilicon firmware with LAPI, ONVIF/SOAP, RTSP, PACS/access-control, and local face-template storage surfaces.
+Public release package for independent security research on the Digital Ally ThermoVu DTM-600 facial-recognition and thermal access-control device. The device analyzed in this release is a Uniview/OEM OET-213H-NB-family target running HiSilicon firmware with LAPI, ONVIF/SOAP, RTSP, PACS/access-control, and local face-template storage surfaces.
 
 This repository keeps the useful documentation, findings, evidence summaries, source tools, generated test artifacts, and selected device-derived evidence while excluding local workflow state, raw oversized firmware/software archives, private agent instructions, virtual environments, Burp project databases, and personal biometric source images.
 
