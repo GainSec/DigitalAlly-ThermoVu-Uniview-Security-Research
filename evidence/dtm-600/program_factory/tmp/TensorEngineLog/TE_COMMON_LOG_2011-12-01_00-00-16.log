@@ -1,0 +1,198 @@
+[11/12/01 00:00:16][0x78d3f450][   INFO] ISF Log Init Success.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Log Task Name: /var/log/TensorEngineLog/TE
+[11/12/01 00:00:16][0x78d3f450][   INFO] Common Log Rotation Size: 256 KB.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Channel Log Rotation Size: 256 KB.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Log Max Size: 1024 KB.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Console Log Enable: false
+[11/12/01 00:00:16][0x78d3f450][   INFO] TensorEngine GlobalInitializing...
+[11/12/01 00:00:16][0x78d3f450][   INFO]  _______                        ______             _            
+[11/12/01 00:00:16][0x78d3f450][   INFO] |__   __|                      |  ____|           (_)           
+[11/12/01 00:00:16][0x78d3f450][   INFO]    | | ___ _ __  ___  ___  _ __| |__   _ __   __ _ _ _ __   ___ 
+[11/12/01 00:00:16][0x78d3f450][   INFO]    | |/ _ \ '_ \/ __|/ _ \| '__|  __| | '_ \ / _` | | '_ \ / _ \
+[11/12/01 00:00:16][0x78d3f450][   INFO]    | |  __/ | | \__ \ (_) | |  | |____| | | | (_| | | | | |  __/
+[11/12/01 00:00:16][0x78d3f450][   INFO]    |_|\___|_| |_|___/\___/|_|  |______|_| |_|\__, |_|_| |_|\___|
+[11/12/01 00:00:16][0x78d3f450][   INFO]                                               __/ |             
+[11/12/01 00:00:16][0x78d3f450][   INFO]                                              |___/              
+[11/12/01 00:00:16][0x78d3f450][   INFO] Version: TensorEngineVer0.91-hi3516dv300-32bit. Powered by huangyuanjie/h02679.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Working Path: "/program/www/skin/default_1/images"
+[11/12/01 00:00:16][0x78d3f450][   INFO] Env Params: {"LogPrefix":"TensorEngineLog/TE","ConsoleLogEnable":false,"DebugLogEnable":false,"CommonLogRotationSize":256,"ChannelLogRotationSize":256,"LogMaxSize":1024,"PlatformInitialize":true,"PlatformRelease":true,"PluginPrefix":"Hisi","InternalPluginPrefix":"HisiPlugin","GlobalEngineType":"ThreadedEngine","GlobalExecEnable":true,"GlobalExecQueueSize":5000,"GlobalExecThreadNum":1,"DeviceExecEnable":false,"DeviceQueueSize":5000,"SupportDeviceNum":8,"SimulationServerIP":"192.180.40.35","SimulationServerCMDPort":"8888","SimulationServerResultPort":"8889","SimulationEncodeEnable":false}
+[11/12/01 00:00:16][0x78d3f450][   INFO] NeedPlatformInitialize.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Hisi MPI SYS Init.
+[11/12/01 00:00:16][0x78d3f450][   INFO] GlobalExecutor is Stopping...
+[11/12/01 00:00:16][0x78d3f450][   INFO] GlobalExecutor is Stopped.
+[11/12/01 00:00:16][0x78d3f450][   INFO] GlobalExecutor is Starting...
+[11/12/01 00:00:16][0x78d3f450][   INFO] Name: GlobalExec_Processor0 ThreadQueueProcessor created!
+[11/12/01 00:00:16][0x78d3f450][   INFO] DefaultExecutor: GlobalExec Started.  Thread Num: 1
+[11/12/01 00:00:16][0x78d3f450][   INFO] DefaultExecutor: GlobalExec Created. Queue Size: 5000 Thread Num: 1
+[11/12/01 00:00:16][0x78d3f450][   INFO] GlobalExecutor is Started.
+[11/12/01 00:00:16][0x78d3f450][   INFO] Loading DLL/so Path: /program/factory/models/TensorEngineEnv/Hisi Can Only Load Once.
+[11/12/01 00:00:16][0x76446450][   INFO] Name: GlobalExec_Processor0 ThreadQueueProcessor Thread Starting...
+[11/12/01 00:00:16][0x78d3f450][   INFO] AlgoDLLLoader Initialized.
+[11/12/01 00:00:16][0x76446450][   INFO] Tag: GlobalExec_Processor0_HeartBeater Heart Beater Created!
+[11/12/01 00:00:16][0x76446450][   INFO] RuntimeMonitor Started!
+[11/12/01 00:00:16][0x76446450][   INFO] Tag: GlobalExec_Processor0_HeartBeater Heart Beater registered!
+[11/12/01 00:00:16][0x78d3f450][   INFO] Loading DLL/so : /program/factory/models/TensorEngineEnv/Hisi/libTensorEngineModuleHisi.so
+[11/12/01 00:00:16][0x75c46450][   INFO] RuntimeMonitor Thread Starting...
+[11/12/01 00:00:17][0x78d3f450][   INFO] Initializing DLL/so: libTensorEngineModuleHisi.so
+[11/12/01 00:00:17][0x78d3f450][   INFO] Internal Plug Path: /program/factory/models/TensorEngineEnv/HisiPlugin
+[11/12/01 00:00:17][0x78d3f450][   INFO] Global Init Params: cpu_task_affinity:1 cpu_task_affinity:1 custom_plugin_lib_path : "/program/factory/models/TensorEngineEnv/HisiPlugin"
+[11/12/01 00:00:17][0x78d3f450][   INFO] Hisi Runtime GlobalInitialize.
+[11/12/01 00:00:17][0x78d3f450][   INFO] Registering Algos: PlateDetV1_HISI, SearchPeople_HISI, Classification_HISI, PersonOpenpose_HISI, faceDetCop_IveBGRInput_HISI, faceDetCop_HISI, VNPDetCop_IveBGRInput_HISI, VNPDetCop_HISI, Classification_IveBGRInput_HISI, faceRec_HISI, Align_HISI, faceDetYOLO_IveYuvInput_HISI, OCR_HISI, VNPDetCop_IveYUVInput_HISI, PlateDet_HISI, AlignDet_HISI, Classification_IveYuvInput_HISI, Detection_HISI, Openpose_HISI, faceDetYOLO_HISI, faceDetCop_IveYuvInput_HISI, PersonFCNYuvInput_HISI, PersonFCN_HISI, faceDetYOLO_IveBGRInput_HISI, facebodyDetYOLO_HISI, FeatureMap_HISI, facebodyDetYOLO_IveBGRInput_HISI, PersonFCN_New_HISI, VehicleType_HISI, STM_live_HISI, faceRetri_HISI, facebodyDetYOLO_IveYuvInput_HISI
+[11/12/01 00:00:17][0x78d3f450][   INFO] Current registered Algos: facebodyDetYOLO_IveYuvInput_HISI, faceRetri_HISI, STM_live_HISI, VehicleType_HISI, PersonFCN_New_HISI, facebodyDetYOLO_IveBGRInput_HISI, FeatureMap_HISI, facebodyDetYOLO_HISI, faceDetYOLO_IveBGRInput_HISI, PersonFCN_HISI, faceRec_HISI, Classification_IveBGRInput_HISI, VNPDetCop_HISI, VNPDetCop_IveBGRInput_HISI, faceDetCop_HISI, SearchPeople_HISI, PlateDetV1_HISI, faceDetCop_IveBGRInput_HISI, faceDetYOLO_IveYuvInput_HISI, faceDetYOLO_HISI, Openpose_HISI, Classification_HISI, PersonOpenpose_HISI, Align_HISI, OCR_HISI, VNPDetCop_IveYUVInput_HISI, PlateDet_HISI, AlignDet_HISI, Classification_IveYuvInput_HISI, Detection_HISI, faceDetCop_IveYuvInput_HISI, PersonFCNYuvInput_HISI
+[11/12/01 00:00:17][0x78d3f450][   INFO] TensorEngine GlobalInitialized.
+[11/12/01 00:00:17][0x78d3f450][   INFO] TensorEngine Already GlobalInitialized. Count: 1
+[11/12/01 00:00:17][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:17][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:17][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x Is Constructing...
+[11/12/01 00:00:20][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:22][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:40][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:40][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x Batch Initialized.
+[11/12/01 00:00:40][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x Batch Initialized.
+[11/12/01 00:00:40][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x Batch Initialized.
+[11/12/01 00:00:40][0x78d3f450][   INFO] AddSession: 0
+[11/12/01 00:00:40][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:40][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:40][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:40][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/faceAlign5_Model_r37_3516x Is Constructing...
+[11/12/01 00:00:40][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:40][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:40][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] AddSession: 1
+[11/12/01 00:00:41][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x Is Constructing...
+[11/12/01 00:00:41][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:41][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] AddSession: 2
+[11/12/01 00:00:41][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x Is Constructing...
+[11/12/01 00:00:41][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:41][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x Batch Initialized.
+[11/12/01 00:00:41][0x78d3f450][   INFO] AddSession: 3
+[11/12/01 00:00:41][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x
+[11/12/01 00:00:41][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x Is Constructing...
+[11/12/01 00:00:41][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:41][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:42][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x Batch Initialized.
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x Batch Initialized.
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x Batch Initialized.
+[11/12/01 00:00:42][0x78d3f450][   INFO] AddSession: 4
+[11/12/01 00:00:42][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x
+[11/12/01 00:00:42][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:42][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504 Is Constructing...
+[11/12/01 00:00:42][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:42][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:42][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504 Set BUFFER NUM to 3
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504 Batch Initialized.
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504 Batch Initialized.
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504 Batch Initialized.
+[11/12/01 00:00:42][0x78d3f450][   INFO] AddSession: 5
+[11/12/01 00:00:42][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:42][0x78d3f450][   INFO] Creating Async Session... Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:42][0x78d3f450][   INFO] CreatingAlgo...  Type: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:42][0x78d3f450][   INFO] Algo Type: faceDetYOLO_HISI Model File: /program/factory/models/model/Yolo_0808_512_r37_3516x Is Constructing...
+[11/12/01 00:00:43][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:43][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:44][0x78d3f450][   INFO] Type: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:44][0x78d3f450][   INFO] Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x Batch Initialized.
+[11/12/01 00:00:44][0x78d3f450][   INFO] Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x Batch Initialized.
+[11/12/01 00:00:44][0x78d3f450][   INFO] Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x Batch Initialized.
+[11/12/01 00:00:44][0x78d3f450][   INFO] AddSession: 6
+[11/12/01 00:00:44][0x78d3f450][   INFO] Created Async Session Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:44][0x78d3f450][   INFO] Creating Async Session... Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x
+[11/12/01 00:00:44][0x78d3f450][   INFO] CreatingAlgo...  Type: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x
+[11/12/01 00:00:44][0x78d3f450][   INFO] Algo Type: faceDetYOLO_HISI Model File: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x Is Constructing...
+[11/12/01 00:00:44][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:44][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:45][0x78d3f450][   INFO] Type: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:45][0x78d3f450][   INFO] Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x Batch Initialized.
+[11/12/01 00:00:45][0x78d3f450][   INFO] Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x Batch Initialized.
+[11/12/01 00:00:45][0x78d3f450][   INFO] Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x Batch Initialized.
+[11/12/01 00:00:45][0x78d3f450][   INFO] AddSession: 7
+[11/12/01 00:00:45][0x78d3f450][   INFO] Created Async Session Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x
+[11/12/01 00:00:45][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:45][0x78d3f450][   INFO] CreatingAlgo...  Type: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:45][0x78d3f450][   INFO] Algo Type: Classification_HISI Model File: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x Is Constructing...
+[11/12/01 00:00:45][0x78d3f450][   INFO] Decrypt_Optimal: src = vMat()!
+[11/12/01 00:00:45][0x78d3f450][   INFO] LoadEncryptedModel Success.
+[11/12/01 00:00:46][0x78d3f450][   INFO] Type: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x Set BUFFER NUM to 3
+[11/12/01 00:00:46][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x Batch Initialized.
+[11/12/01 00:00:46][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x Batch Initialized.
+[11/12/01 00:00:46][0x78d3f450][   INFO] Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x Batch Initialized.
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 8
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] CircularBufferImpl Initialized!
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 9
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: faceDetYOLO_HISI Model: /program/factory/models/model/faceDetect_yolo_h512_w288_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 10
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 11
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/STM_liveness_Model_spe_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 12
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/Liveness_1frame_Model_1004_33w_merge_specify_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] CircularBufferImpl Initialized!
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 13
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 14
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/Quality_Angle_71000_005_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] CircularBufferImpl Initialized!
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 15
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 16
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 17
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 18
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 19
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 20
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: faceDetYOLO_HISI Model: /program/factory/models/model/Yolo_0808_512_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 21
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/faceAlign5_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 22
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/faceRec_4110_fc256_Model_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 23
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/FaceAttr_dv300_int8_ry41_4504
+[11/12/01 00:00:46][0x78d3f450][   INFO] Creating Async Session... Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] AddSession: 24
+[11/12/01 00:00:46][0x78d3f450][   INFO] Created Async Session Algo: Classification_HISI Model: /program/factory/models/model/safeHelmet_Model_v0104_hign_r37_3516x
+[11/12/01 00:00:46][0x78d3f450][   INFO] RemoveSession: 15
+[11/12/01 00:00:46][0x78d3f450][   INFO] RemoveSession: 19
+[11/12/01 00:00:46][0x78d3f450][   INFO] RemoveSession: 18
+[11/12/01 00:00:46][0x78d3f450][   INFO] RemoveSession: 17
+[11/12/01 00:00:46][0x78d3f450][   INFO] RemoveSession: 16

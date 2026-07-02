@@ -1,0 +1,68 @@
+2011-12-01 00:00:05.158 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:05.158 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:05.159 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:05.159 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:04.622 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:04.622 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:04.623 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:04.624 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:04.629 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:04.630 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:04.630 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:04.631 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:04.675 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:04.675 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:04.676 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:04.677 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:04.635 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:04.635 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:04.636 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:04.637 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.887 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.887 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.888 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.889 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.830 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.831 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.832 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.832 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 01:35:26.562 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 01:35:26.562 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 01:35:26.563 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 01:35:26.564 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.738 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.738 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.739 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.740 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:03:18.829 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:03:18.829 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:03:18.830 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:03:18.833 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.933 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.933 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.934 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.935 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.745 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.745 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.746 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.747 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:04.004 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:04.004 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:04.005 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:04.005 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.905 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.905 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.906 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.907 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.917 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.918 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.918 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.924 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:03.960 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:03.960 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:03.961 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:03.962 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]
+2011-12-01 00:00:04.100 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:04.100 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:04.101 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:04.101 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]

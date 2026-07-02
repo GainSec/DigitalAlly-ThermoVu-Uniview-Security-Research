@@ -1,0 +1,49 @@
+
+[VGS] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:45]
+
+
+-----MODULE PARAM--------------------------------------------------------
+    max_job_num   max_task_num   max_node_num bVgsHdrSupport
+            128            200            200              0
+
+-----RECENT JOB INFO1----------------------------------------------------
+   SeqNo ModName  JobHdl TaskNum   State      InSize     OutSize    CostTime      HwTime
+       0    vpss      43       1  Proced     2073600     2073600        7126        6969
+       1      vi      51       0  Proced           0           0         245           0
+       2      vi      33       2  Proced     4147200     4147200        3278        3134
+       3      vo      22       1  Proced      614400      460720        2860        2684
+       4      vo      86       1  Proced      614400      460720        6462        2405
+       5    vpss     117       1  Proced     2073600     2073600        7055        6947
+       6      vi     101       0  Proced           0           0         318           0
+       7      vi      66       2  Proced     4147200     4147200        4045        3143
+
+-----RECENT JOB INFO2----------------------------------------------------
+   SeqNo    CmpMode CropEn CoverEn VhdrEn OsdEn ZmeEn LBAEn LumaEn FpdEn QuickCopyEn RotateEn StitchEn ByPassEn
+       0 NONE->NONE      0       0      0     0     0     0      0     0           0        0        0        0
+       1 NONE->NONE      0       0      0     0     0     0      0     0           0        0        0        1
+       2 NONE->NONE      0       0      0     0     0     0      0     0           0        1        0        0
+       3 NONE->NONE      0       0      0     1     1     0      0     0           0        0        0        0
+       4 NONE->NONE      0       0      0     1     1     0      0     0           0        0        0        0
+       5 NONE->NONE      0       0      0     0     0     0      0     0           0        0        0        0
+       6 NONE->NONE      0       0      0     0     0     0      0     0           0        0        0        1
+       7 NONE->NONE      0       0      0     0     0     0      0     0           0        1        0        0
+
+-----MAX WASTE TIME JOB INFO1--------------------------------------------
+   SeqNo ModName  JobHdl TaskNum   State      InSize     OutSize    CostTime      HwTime
+       0    vpss      16       1  Proced     2073600     2073600        9423        6964
+
+-----MAX WASTE TIME JOB INFO2--------------------------------------------
+   SeqNo    CmpMode CropEn CoverEn VhdrEn OsdEn ZmeEn LBAEn LumaEn FpdEn QuickCopyEn RotateEn StitchEn ByPassEn
+       0 NONE->NONE      0       0      0     0     0     0      0     0           0        0        0        0
+
+-----VGS JOB STATUS------------------------------------------------------
+   Success      Fail    Cancel  AllJobNum    FreeNum   BeginNum    BusyNum ProcingNum
+     52725         0         0        128        128          0          0          0
+
+-----VGS TASK STATUS-----------------------------------------------------
+   Success      Fail    Cancel AllTaskNum    FreeNum    BusyNum
+     68148         0         0        200        200          0
+
+-----VGS NODE STATUS-----------------------------------------------------
+   AllNodeNum     BusyNum     MinFree    MaxInJob  SubmitFail   IntFail
+          200           0         197           2           0         0

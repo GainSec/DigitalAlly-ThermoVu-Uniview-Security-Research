@@ -1,0 +1,17 @@
+"Required Fields","Required Fields","Picture Path","Card Type","Card No.","Card Type","Card No.","Effective Time","Expiration Time","Template Name","Comment"
+*No.,*Name,Face Picture,Card Type 1,Card No. 1,Card Type 2,Card No. 2,Effective Time,Expiration Time,Time Template Name,Comment
+60001,ghost_3pct,<RELEASE_ROOT>/STEALTH_BYPASS/ghost_3pct.jpg,,,,,,,,stealth_test
+60002,ghost_5pct,<RELEASE_ROOT>/STEALTH_BYPASS/ghost_5pct.jpg,,,,,,,,stealth_test
+60003,ghost_10pct,<RELEASE_ROOT>/STEALTH_BYPASS/ghost_10pct.jpg,,,,,,,,stealth_test
+60004,ghost_15pct,<RELEASE_ROOT>/STEALTH_BYPASS/ghost_15pct.jpg,,,,,,,,stealth_test
+60005,layered_2pct,<RELEASE_ROOT>/STEALTH_BYPASS/layered_2pct.jpg,,,,,,,,stealth_test
+60006,layered_3pct,<RELEASE_ROOT>/STEALTH_BYPASS/layered_3pct.jpg,,,,,,,,stealth_test
+60007,layered_5pct,<RELEASE_ROOT>/STEALTH_BYPASS/layered_5pct.jpg,,,,,,,,stealth_test
+60008,layered_10pct,<RELEASE_ROOT>/STEALTH_BYPASS/layered_10pct.jpg,,,,,,,,stealth_test
+60009,brightness_hidden_2pct,<RELEASE_ROOT>/STEALTH_BYPASS/brightness_hidden_2pct.jpg,,,,,,,,stealth_test
+60010,brightness_hidden_5pct,<RELEASE_ROOT>/STEALTH_BYPASS/brightness_hidden_5pct.jpg,,,,,,,,stealth_test
+60011,faint_contrast5,<RELEASE_ROOT>/STEALTH_BYPASS/faint_contrast5.jpg,,,,,,,,stealth_test
+60012,faint_contrast10,<RELEASE_ROOT>/STEALTH_BYPASS/faint_contrast10.jpg,,,,,,,,stealth_test
+60013,faint_contrast15,<RELEASE_ROOT>/STEALTH_BYPASS/faint_contrast15.jpg,,,,,,,,stealth_test
+60014,highfreq_5pct,<RELEASE_ROOT>/STEALTH_BYPASS/highfreq_5pct.jpg,,,,,,,,stealth_test
+60015,highfreq_10pct,<RELEASE_ROOT>/STEALTH_BYPASS/highfreq_10pct.jpg,,,,,,,,stealth_test

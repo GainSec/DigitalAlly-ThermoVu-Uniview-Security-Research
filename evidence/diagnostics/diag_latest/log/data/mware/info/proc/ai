@@ -1,0 +1,23 @@
+
+[AI] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time: [Jan 14 2019, 20:23:45]
+
+-----AI DEV ATTR----------------------------------------------------------------
+AiDev WorkMod   SampR  BitWid  ChnCnt  ClkSel SoundMod  PoiNum  ExFlag  FrmNum
+
+-----AI DEV STATUS0-------------------------------------------------------------
+AiDev     IntCnt    fifoCnt    buffInt FrmTime MaxFrmTime TranLen IsrTime 
+
+-----AI DEV STATUS1-------------------------------------------------------------
+AiDev MaxIsrTime      CBPhy  CBSize    ROffSet    WOffSet
+
+-----AI DEV EXTEND STATUS-------------------------------------------------------
+AiDev enTrack   bMute  Volume
+
+-----AI CHN STATUS--------------------------------------------------------------
+AiDev   AiChn   State     BufFul UsrQueLost UsrFrmDepth   u32Data0   u32Data1    UserGet    UserRls
+
+-----AI CHN RESAMPLE STATUS-----------------------------------------------------
+AiDev AiChn   State  bResmp  PoiNum   InSampR  OutSampR
+
+-----AI CHN VQE STATUS0---------------------------------------------------------
+AiDev AiChn   State bVqe workmod    RATE  PoiNum bAgc  bEq bHpf bRnr bHdr bDrc  WrFile

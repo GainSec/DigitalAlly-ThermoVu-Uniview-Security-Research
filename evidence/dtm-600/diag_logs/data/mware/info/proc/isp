@@ -1,0 +1,127 @@
+
+[ISP] Version: [Hi3516CV500_ISP_V1.0.0.0 B00 Release], Build Time[Jun 29 2020, 13:51:50]
+
+
+--------------------------------------------------------------------------------------------------
+------------------------------------- ISP PROC PIPE[0] ------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+-----MODULE/CONTROL PARAM--------------------------------------------------------------------------
+    ProcParam    StatIntvl    UpdatePos   IntBothalf   IntTimeout    PwmNumber   PortIntDelay
+           30            1            0            0          200            3              0
+
+-----ISP Mode--------------------------------------------------------------------------------------
+      StitchMode     RunningMode
+          NORMAL         OFFLINE
+
+-----DRV INFO-------------------------------------------------------------------------------------
+     ViPipe     IntCnt       IntT    MaxIntT    IntGapT    MaxGapT   IntRat IspResetCnt  IspBeStaLost
+          0      15516       4574       5510      40020     321393       25           8             0
+
+              PtIntCnt     PtIntT  PtMaxIntT  PtIntGapT  PtMaxGapT PtIntRat SensorCfgT  SensorMaxT
+                     0          0          0          0          0        0       4125        4204
+
+-----PubAttr INFO---------------------------------------------------------------------------------
+        WndX        WndY        WndW        WndH        SnsW        SnsH       Bayer
+           0           0        1920        1080        1920        1080        BGGR
+
+
+-----SNAPATTR INFO--------------------------------------------------------------------------------
+    SnapType    PipeMode      OPType   ProFrmNum
+      NORMAL        NONE        Auto           3
+
+-----FrameWDR INFO------------------------------------------------------------------
+           MdtEn         LongThr        ShortThr
+               1            3008            4032
+
+-----Black Level Actual INFO--------------------------------------------------------------
+            BlcR           BlcGr           BlcGb            BlcB
+             255             255             255             255
+
+-----BAYERNR INFO----------------------------------------------------------------------------
+          Enable     NrLscEnable      CoarseStr0      CoarseStr1      CoarseStr2      CoarseStr3
+               1               0             120             110             110             120
+
+-----DRC INFO------------------------------------------------------------------
+              En          ManuEn        Strength
+               1               1              60
+
+-----DEMOSAIC INFO-------------------------------------------------------------
+          Enable
+               1
+
+-----FPN CORRECT INFO------------------------------------------------------------
+      En OpType Strength Offset
+       0  --       --      --
+
+-----SHARPEN INFO--------------------------------------------------------------
+      bSharpenEn
+               1
+LumaWgt 0--7:
+      82      91     100     109     118     127     127     127
+
+LumaWgt 8--15:
+     127     127     127     127     127     127     127     127
+
+LumaWgt 16--23:
+     127     127     127     127     127     127     127     127
+
+LumaWgt 24--31:
+     127     127     127     127     127     127     127     127
+
+TextureStr 0--7:
+     180     196     211     227     240     253     264     275
+
+TextureStr 8--15:
+     284     290     296     301     306     309     312     313
+
+TextureStr 16--23:
+     313     310     307     302     295     288     279     270
+
+TextureStr 24--31:
+     260     250     240     230     220     210     201     193
+
+EdgeStr 0--7:
+     214     220     228     237     246     255     264     274
+
+EdgeStr 8--15:
+     283     291     298     305     310     313     315     315
+
+EdgeStr 16--23:
+     313     307     299     289     277     264     249     233
+
+EdgeStr 24--31:
+     216     198     180     162     145     128     112      97
+
+ TextureFreq    EdgeFreq   OverShoot  UnderShoot ShootSupStr  DetailCtrl EdgeFiltStr       RGain       GGain       BGain    SkinGain 
+         180         120          55          64           8         130          53          31          31          31          31
+
+ ShootSupAdj DetailCtrlThr  MaxSharpGain    SkinUmax    SkinUmin    SkinVmax    SkinVmin
+           4           180            60         128         100         150         135
+
+
+-----EDGEMARK INFO--------------------------------------------------------------------------------------------------
+         bEnable       Threshold           Color
+               0             100        16711680
+
+-----LDCI INFO-----------------------------------------------------------------------------------------------------------
+      Enable      Manual   GaussLPFSigma    HePosWgt  HePosSigma   HePosMean    HeNegWgt  HeNegSigma   HeNegMean     BlcCtrl
+           0           1              20          34          80          20          40          80           0           5
+
+-----PreGamma INFO--------------------------------------------------------------
+          Enable
+               0
+
+-----HLC INFO--------------------------------------------------------------
+          Enable         LumaThr      LumaTarget
+               0             248              10
+
+-----DetailEnhance INFO----------------------------------------------------------------------------
+          Enable        enOpType      GlobalGain          GainHF          GainLF
+               1               1             150               9               9
+
+--------------------------------------------------------------------------------------------------
+----------------------------------------- ISP PROC END[0] ---------------------------------------
+--------------------------------------------------------------------------------------------------
+
+

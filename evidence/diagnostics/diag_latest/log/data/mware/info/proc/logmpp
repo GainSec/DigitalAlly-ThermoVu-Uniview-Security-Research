@@ -1,0 +1,32 @@
+-----LOG BUFFER STATE----------------------------------------------------------
+MaxLen  ReadPos WritePos ButtPos
+ 64(KB)       0     1028   65536
+
+-----CURRENT LOG LEVEL---------------------------------------------------------
+vb	:  3
+sys	:  3
+region	:  3
+chnl	:  3
+vpss	:  3
+venc	:  3
+h264e	:  3
+jpege	:  3
+h265e	:  3
+jpegd	:  3
+vo	:  3
+vi	:  3
+dis	:  3
+rc	:  3
+aio	:  3
+ai	:  3
+ao	:  3
+aenc	:  3
+adec	:  3
+vpu	:  3
+isp	:  3
+ive	:  3
+vfmw	:  3
+gdc	:  3
+tde	:  3
+vgs	:  3
+svp_nnie	:  3

@@ -1,0 +1,22 @@
+Update time:2011-12-01 00:13:51
+======================================================================
+                           Start update                               
+======================================================================
+[MW_CTRL_ParseParameter] Update By Image 
+
+[MW_CTRL_ParseParameter] update all
+
+program: src[program.bin] 		 dst[/cache/update/program.bin]
+uboot:   src[u-boot.bin] 		 dst[/cache/update/u-boot.bin]
+version: src[VERSION] 		 dst[/cache/update/VERSION]
+uimage:  src[uimage.bin] 		 dst[/cache/update/uimage.bin]
+Patch:   src[] 		 dst[]
+bootlogo:Src[] 		 Dst[]
+
+[MW_CTRL_GetDrvParameter] Ver Type[QPTS-B2209] Program[QPTSV200R002B09D003SP70CEN001] Uimage[ V2.2] Uboot[]
+
+Invalid IP address
+Format              : update [protocol] remote file [option]
+Get detail help     : update -help(-h)
+get trap addr: IP[0.0.0.0] Port[162]
+

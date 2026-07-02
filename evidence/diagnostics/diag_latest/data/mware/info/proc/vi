@@ -1,0 +1,158 @@
+
+[VI] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:45]
+
+
+-------------------------------MODULE PARAM ---------------------------------------------------------------------------
+      DetectErrFrame        DropErrFrame
+                   0                   0
+
+-------------------------------VI MODE -------------------------------------------------------------
+  Pipe0Mode   Pipe1Mode   Pipe2Mode
+    offline     offline     offline
+-------------------------------VPSS MODE -----------------------------------------------------------
+  Pipe0Mode   Pipe1Mode   Pipe2Mode
+    offline     offline     offline
+
+-------------------------------VI DEV ATTR1----------------------------------------------------------------------------
+  DevID   DevEn  BindPipe     Width    Height               IntfM     WkM     ComMsk0     ComMsk1   ScanM
+      0       Y         Y      1920      1080                MIPI    1Mux    fff00000           0       P
+
+-------------------------------VI DEV ATTR2----------------------------------------------------------------------------
+  DevID   AD0   AD1   AD2   AD3     Seq  DataType   DataRev    BasW    BasH   HReph   VReph   WDRMode  CacheLine  DataRate
+      0    -1    -1    -1    -1     N/A       RGB         N    1920    1080    NONE    NONE      None       1080        X1
+
+-------------------------------VI BIND ATTR----------------------------------------------------------------------------
+   DevID PipeNum              PipeId
+       0       1                   0
+
+-------------------------------VI DEV TIMING ATTR----------------------------------------------------------------------
+  DevID DevTimingEn  DevFrmRate  DevWidth   DevHeight
+
+-------------------------------VI PIPE ATTR1---------------------------------------------------------------------------
+  PipeID  BypassMode YuvSkip IspBypass     Width    Height    PixFmt  BitWidth    NrEn SharpenEn  CompressMode
+       0  BypassNone       N         N      1920      1080     RAW12        12       Y         N          Line
+
+-------------------------------VI PIPE ATTR2---------------------------------------------------------------------------
+  DiscProPic    SrcFRate    DstFRate FrameSource  RepeatMode   VCNum     IntType EarlyLine
+           N          -1          -1         DEV        NONE       0       START         0
+
+-------------------------------VI PIPE CROP ATTR-----------------------------------------------------------------------
+  PipeID CropEn    CoorX   CoorY   Width  Height
+
+-------------------------------VI PIPE NR ATTR-------------------------------------------------------------------------
+  PipeID        BitWidth    CompressMode          PixFmt          RefSrc            Intf         Version         OptMode
+       0               8           Frame           SP420             RFR            NR_X           VER_2          MANUAL
+
+-------------------------------VI PIPE NRX_V2 PARAM--------------------------------------------------------------------
+  PipeID         ISO      SFS1      SFS2      SFS4      SFN0      SFN1      SFN3      STH1      STH3
+       0         110        20        20        20         0         6         5        40        20
+
+-------------------------------VI PIPE USER PIC ATTR-------------------------------------------------------------------
+  PipeID  Enable   ChnID    Mode BgColor   PicID   Width  Height  Stride  PixFmt  PoolID         PhyAddr
+
+-------------------------------VI PIPE DUMP ATTR-----------------------------------------------------------------------
+  PipeID    Enable     Depth
+
+-------------------------------VI PIPE BNR DUMP ATTR-------------------------------------------------------------------
+  PipeID    Enable     Depth
+
+-------------------------------VI CHN ATTR1----------------------------------------------------------------------------
+  PipeID   ChnID   Width    Height    Mirror    Flip    SrcFRate    DstFRate    PixFmt      VideoFmt  DynamicRange
+       0       0    1920      1080         N       N          -1          -1     SP420        LINEAR          SDR8
+
+-------------------------------VI CHN ATTR2----------------------------------------------------------------------------
+  CompressMode     Depth     Align
+          None         0         0
+
+-------------------------------VI EXTCHN ATTR1-------------------------------------------------------------------------
+  PipeID   ChnID  Source  SrcChn   Width    Height    SrcFRate    DstFRate    PixFmt  DynamicRange  CompressMode     Depth
+
+-------------------------------VI EXTCHN ATTR2-------------------------------------------------------------------------
+  Align
+
+-------------------------------VI CHN LOW DELAY ATTR-------------------------------------------------------------------
+  PipeID   ChnID  Enable  LineCnt   Effect
+       0       0       N        0        N
+
+-------------------------------VI CHN CROP INFO------------------------------------------------------------------------
+  PipeID   ChnID  CropEn  CoorType   CoorX   CoorY   Width  Height   TrimX   TrimY TrimWid TrimHgt
+       0       0       N       RIT       0       0       0       0       0       0    1920    1080
+
+-------------------------------VI CHN ROTATION INFO--------------------------------------------------------------------
+  PipeID   ChnID    Rotation
+       0       0          90
+
+-------------------------------VI CHN LDC INFO-------------------------------------------------------------------------
+  PipeID   ChnID  Enable  Aspect  XRatio  YRatio   XYRatio   XOffset   YOffset     DistortionRatio
+       0       0       N       Y       0       0        50         0         0                 250
+
+-------------------------------VI CHN LDCV2 INFO-------------------------------------------------------------------------
+
+-------------------------------VI CHN ROTATIO_EX INFO------------------------------------------------------------------
+  PipeID   ChnID  Enable  ViewType   Angle   XOffset   YOffset     Width    Height
+       0       0       N       ALL       0         0         0         0         0
+
+-------------------------------VI CHN SPREAD INFO----------------------------------------------------------------------
+  PipeID   ChnID  Enable    OutW    OutH      Coef
+       0       0       N       0       0         0
+
+-------------------------------VI EXTCHN FISHEYE ATTR------------------------------------------------------------------
+  PipeID   ChnID  Enable  MntMode  RgnNum  BgEnable  BgColor  LMF  HOffset  VOffset  TCoef   FStrength
+
+-------------------------------VI EXTCHN FISHEYE REGION ATTR-----------------------------------------------------------
+  PipeID   ChnID  RgnIndex  ViewMode  InRadius  OutRadius  Pan  Tilt  HorZoom  VerZoom  OutX  OutY  OutW  OutH
+
+-------------------------------VI DIS CONFIG INFO1---------------------------------------------------------------------
+  PipeID   ChnID        Mode  Motion PdtType  BufNum CropRatio FrmRate   GyroRange  GyroBitWidth   CamSteady   Scale
+
+-------------------------------VI DIS ATTR INFO------------------------------------------------------------------------
+  PipeID   ChnID  DisChn    Enable GdcBypass      MovSub      Roef     Timelag   ViewAngle  bStillCrop    HorLimit    VerLimit
+
+-------------------------------VI SNAP ATTR INFO-----------------------------------------------------------------------
+  PipeID    Type  bLoadCCM  FrameCnt  rptTimes    bZSL  FrmDepth  RollbaskMs  Interval
+
+-------------------------------VI SNAP STATUS INFO---------------------------------------------------------------------
+  Status bDoublePipe VideoPipe  SnapPipe     VcNum ProDelayInt
+
+-------------------------------VI CHN OUTPUT RESOLUTION----------------------------------------------------------------
+  PipeID   ChnID  Enable  Mirror    Flip   Width  Height  PixFmt  VideoFmt  DynamicRange  CompressMode FrameRate
+       0       0       Y       N       N    1080    1920   SP420    LINEAR          SDR8          None        25
+
+-------------------------------VI PIPE STATUS--------------------------------------------------------------------------
+  PipeID  Enable    IntCnt FrameRate LostFrame  VbFail   Width  Height
+       0       Y     28935        25         0       0    1920    1080
+
+-------------------------------VI CHN STATUS---------------------------------------------------------------------------
+  PipeID   ChnID  Enable FrameRate LostFrame  VbFail   Width  Height
+       0       0       Y        25         0       0    1080    1920
+
+-------------------------------VI PIPE Statistic-----------------------------------------------------------------------
+  PipeID     RecvPic     LostCnt      BufCnt   CurSoftTm   MaxSoftTm   CurTaskTm   MaxTaskTm   LowBandWidth  BeBufNum
+       0       28933           0           0         227         557        5679        6635              0         0
+
+-------------------------------VI HW STATISTIC-------------------------------------------------------------------------
+  ProcIdx    HWCostTm MaxHWCostTm    CycleCnt MaxCycleCnt
+        0        4847        6215           0           0
+
+-------------------------------VI PROC OFFLINE IRQ STATISTIC----------------------------------------------------------
+ ProcIdx       SubmitCnt          IntCnt         ListCnt  TmOutCnt BusErrCnt  DcmpErrCnt StartErrCnt  NodeIdErrCnt
+       0           28996           28996           28996         0         0           0           0             0
+
+-------------------------------VI PROC ONLINE IRQ STATISTIC-----------------------------------------------------------
+ ProcIdx          IntCnt     FrmStartCnt FrmErrCnt  FrmFlowCnt BusErrCnt    DcmpErrCnt  CfgLossCnt
+       0               0               0         0           0         0             0           0
+
+-------------------------------VI PROC COST TIME STATISTIC-----------------------------------------------------------
+ ProcIdx    IntCntPerSec MaxIntCntPerSec  CurIntCostTm  MaxIntCostTm  TotalIntCostTm   IntTmPerSec  MaxIntTmPerSec
+       0              25              30           685          1000         9416128          8303           12897
+
+-------------------------------VI DEV DETECT INFO----------------------------------------------------------------------
+   DevID  ValidWidth ValidHeight  TotalWidth
+       0        1920        1080       14079
+
+-------------------------------VI BAS DETECT INFO----------------------------------------------------------------------
+   DevID  ValidWidth ValidHeight  TotalWidth
+
+-------------------------------VI ISP DETECT INFO----------------------------------------------------------------------
+   ISPID  ValidWidth ValidHeight  TotalWidth
+       0        1920        1080       14079

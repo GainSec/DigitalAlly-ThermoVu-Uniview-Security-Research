@@ -1,0 +1,21 @@
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:28.09%, User:19.48%, Sys:7.37%, idle:71.91%, IOw:0.00%, sirq:1.25%, irq:0.00%
+K:   22596 kB
+U:  201228 kB
+V:    7988 kB
+MA: 393724 kB
+MF: 285160 kB
+X:    2900 kB
+VH: 130436 kB
+VR:  71336 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:29.64%, User:21.79%, Sys:6.85%, idle:70.36%, IOw:0.00%, sirq:1.00%, irq:0.00%
+K:   33064 kB
+U:  209248 kB
+V:    7988 kB
+MA: 387188 kB
+MF: 266324 kB
+X:    3248 kB
+VH: 130436 kB
+VR:  73476 kB

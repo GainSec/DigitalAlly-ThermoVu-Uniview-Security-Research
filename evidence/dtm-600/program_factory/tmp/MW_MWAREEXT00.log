@@ -1,0 +1,340 @@
+12-01 00:00:04 039[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98dc3008
+12-01 00:00:04 048[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98dc446c,
+12-01 00:00:04 048[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x995c446c,
+12-01 00:00:04 048[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:-1
+12-01 00:00:04 049[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x995cb99c,
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:49
+12-01 00:00:04 049[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x995d2ecc,
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:-1 WriteFd:51
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:50
+12-01 00:00:04 049[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x997d2ecc,
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:51
+12-01 00:00:04 050[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99cda490,
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:-1 WriteFd:55
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:54 WriteFd:55
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:50
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:-1
+12-01 00:00:04 051[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:57
+12-01 00:00:04 051[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:04 051[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:56
+12-01 00:00:04 071[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:03 257[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98df1008
+12-01 00:00:03 265[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98df246c,
+12-01 00:00:03 266[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x995f246c,
+12-01 00:00:03 266[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:-1
+12-01 00:00:03 266[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:49
+12-01 00:00:03 266[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x995f999c,
+12-01 00:00:03 267[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x99600ecc,
+12-01 00:00:03 267[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:-1
+12-01 00:00:03 267[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:53
+12-01 00:00:03 267[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99800ecc,
+12-01 00:00:03 267[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:50 WriteFd:51
+12-01 00:00:03 268[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99d08490,
+12-01 00:00:03 268[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:50 WriteFd:51
+12-01 00:00:03 268[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:54
+12-01 00:00:03 268[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:-1 WriteFd:57
+12-01 00:00:03 268[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:56 WriteFd:54
+12-01 00:00:03 268[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:55 WriteFd:57
+12-01 00:00:03 269[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:58 WriteFd:-1
+12-01 00:00:03 269[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:58 WriteFd:59
+12-01 00:00:03 277[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:03 264[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98df1008
+12-01 00:00:03 273[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98df246c,
+12-01 00:00:03 273[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x995f246c,
+12-01 00:00:03 273[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:-1
+12-01 00:00:03 274[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x995f999c,
+12-01 00:00:03 274[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:49
+12-01 00:00:03 274[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x99600ecc,
+12-01 00:00:03 274[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:50 WriteFd:-1
+12-01 00:00:03 274[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:50 WriteFd:51
+12-01 00:00:03 274[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99800ecc,
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:52
+12-01 00:00:03 275[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99d08490,
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:55
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:54 WriteFd:52
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:56 WriteFd:-1
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:56 WriteFd:57
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:55
+12-01 00:00:03 275[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:58 WriteFd:-1
+12-01 00:00:03 276[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:58 WriteFd:59
+12-01 00:00:03 288[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:03 273[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98d7c008
+12-01 00:00:03 285[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98d7d46c,
+12-01 00:00:03 286[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x9957d46c,
+12-01 00:00:03 286[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:-1
+12-01 00:00:03 287[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:49
+12-01 00:00:03 286[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x9958499c,
+12-01 00:00:03 287[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x9958becc,
+12-01 00:00:03 287[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:-1
+12-01 00:00:03 287[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:53
+12-01 00:00:03 287[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x9978becc,
+12-01 00:00:03 287[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:50 WriteFd:-1
+12-01 00:00:03 288[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99c93490,
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:54
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:56 WriteFd:54
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:50 WriteFd:51
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:55 WriteFd:58
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:57
+12-01 00:00:03 288[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:-1 WriteFd:58
+12-01 00:00:03 297[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:03 260[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98dc3008
+12-01 00:00:03 268[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98dc446c,
+12-01 00:00:03 269[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x995c446c,
+12-01 00:00:03 269[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:-1
+12-01 00:00:03 269[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x995cb99c,
+12-01 00:00:03 269[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:49
+12-01 00:00:03 270[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x995d2ecc,
+12-01 00:00:03 270[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:-1 WriteFd:51
+12-01 00:00:03 270[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:51
+12-01 00:00:03 270[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x997d2ecc,
+12-01 00:00:03 270[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:53
+12-01 00:00:03 270[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99cda490,
+12-01 00:00:03 270[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:54 WriteFd:53
+12-01 00:00:03 271[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:55 WriteFd:-1
+12-01 00:00:03 271[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:57 WriteFd:50
+12-01 00:00:03 271[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:57 WriteFd:-1
+12-01 00:00:03 271[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:03 271[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:58
+12-01 00:00:03 271[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:55 WriteFd:56
+12-01 00:00:03 280[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 892[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x985c3008
+12-01 00:00:02 901[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x985c446c,
+12-01 00:00:02 902[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98dc446c,
+12-01 00:00:02 902[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 902[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98dcb99c,
+12-01 00:00:02 902[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 902[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98dd2ecc,
+12-01 00:00:02 903[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:-1
+12-01 00:00:02 903[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:55
+12-01 00:00:02 903[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:53
+12-01 00:00:02 903[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x98fd2ecc,
+12-01 00:00:02 903[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:56 WriteFd:53
+12-01 00:00:02 903[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:-1
+12-01 00:00:02 903[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x994da490,
+12-01 00:00:02 903[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:02 904[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:60
+12-01 00:00:02 904[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:57
+12-01 00:00:02 904[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:-1 WriteFd:61
+12-01 00:00:02 904[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:62 WriteFd:61
+12-01 00:00:02 918[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 761[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x985c1008
+12-01 00:00:02 771[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x985c246c,
+12-01 00:00:02 771[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98dc246c,
+12-01 00:00:02 771[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 772[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 772[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98dc999c,
+12-01 00:00:02 772[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:54
+12-01 00:00:02 772[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98dd0ecc,
+12-01 00:00:02 772[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:-1 WriteFd:55
+12-01 00:00:02 772[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x98fd0ecc,
+12-01 00:00:02 772[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:56 WriteFd:55
+12-01 00:00:02 773[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x994d8490,
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:57 WriteFd:-1
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:57 WriteFd:58
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:54
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:61
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:60 WriteFd:62
+12-01 00:00:02 773[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:62
+12-01 00:00:02 782[I(0)][queue.c-1217]QUEUE_Init end
+12-01 01:35:25 276[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98e21008
+12-01 01:35:25 310[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98e2246c,
+12-01 01:35:25 311[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x9962246c,
+12-01 01:35:25 311[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x9962999c,
+12-01 01:35:25 311[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x99630ecc,
+12-01 01:35:25 312[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99830ecc,
+12-01 01:35:25 312[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99d38490,
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:-1 WriteFd:56
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:-1
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:51
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:59 WriteFd:-1
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:57 WriteFd:54
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:59 WriteFd:50
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:52 WriteFd:56
+12-01 01:35:25 316[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:57 WriteFd:-1
+12-01 01:35:25 334[I(0)][queue.c-1217]QUEUE_Init end
+12-01 01:35:25 338[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:61 WriteFd:-1
+12-01 01:35:25 338[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:61 WriteFd:53
+12-01 01:35:25 338[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:62 WriteFd:55
+12-01 01:35:25 338[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:62 WriteFd:-1
+12-01 00:00:02 715[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98621008
+12-01 00:00:02 726[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x9862246c,
+12-01 00:00:02 726[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98e2246c,
+12-01 00:00:02 727[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 727[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 727[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98e2999c,
+12-01 00:00:02 727[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:-1
+12-01 00:00:02 727[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98e30ecc,
+12-01 00:00:02 728[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:54
+12-01 00:00:02 728[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99030ecc,
+12-01 00:00:02 728[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:55 WriteFd:-1
+12-01 00:00:02 728[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99538490,
+12-01 00:00:02 728[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:55 WriteFd:57
+12-01 00:00:02 728[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:56 WriteFd:-1
+12-01 00:00:02 729[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:61 WriteFd:-1
+12-01 00:00:02 729[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:61 WriteFd:60
+12-01 00:00:02 729[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:02 729[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:62
+12-01 00:00:02 729[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:56 WriteFd:58
+12-01 00:00:02 737[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:03:17 735[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98dae008
+12-01 00:03:17 750[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98daf46c,
+12-01 00:03:17 750[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x995af46c,
+12-01 00:03:17 750[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:50 WriteFd:-1
+12-01 00:03:17 751[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:50 WriteFd:51
+12-01 00:03:17 751[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x995b699c,
+12-01 00:03:17 751[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x995bdecc,
+12-01 00:03:17 751[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:52
+12-01 00:03:17 751[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:52
+12-01 00:03:17 752[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x997bdecc,
+12-01 00:03:17 752[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:-1
+12-01 00:03:17 752[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99cc5490,
+12-01 00:03:17 752[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:55
+12-01 00:03:17 752[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:-1
+12-01 00:03:17 753[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:56
+12-01 00:03:17 753[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:03:17 754[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:58
+12-01 00:03:17 755[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:61 WriteFd:60
+12-01 00:03:17 755[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:61 WriteFd:-1
+12-01 00:03:17 763[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 850[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98619008
+12-01 00:00:02 863[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x9861a46c,
+12-01 00:00:02 863[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98e1a46c,
+12-01 00:00:02 864[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98e2199c,
+12-01 00:00:02 864[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:52 WriteFd:-1
+12-01 00:00:02 864[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98e28ecc,
+12-01 00:00:02 865[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:52 WriteFd:53
+12-01 00:00:02 865[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99028ecc,
+12-01 00:00:02 865[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:56 WriteFd:-1
+12-01 00:00:02 865[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:56 WriteFd:57
+12-01 00:00:02 865[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99530490,
+12-01 00:00:02 865[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:55 WriteFd:54
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:-1 WriteFd:59
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:60
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:58 WriteFd:59
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:60
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:61 WriteFd:62
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:61 WriteFd:-1
+12-01 00:00:02 866[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:55 WriteFd:54
+12-01 00:00:02 875[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 774[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x985f1008
+12-01 00:00:02 785[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x985f246c,
+12-01 00:00:02 786[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98df246c,
+12-01 00:00:02 786[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 786[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 787[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:-1
+12-01 00:00:02 786[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98df999c,
+12-01 00:00:02 787[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98e00ecc,
+12-01 00:00:02 787[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:55 WriteFd:-1
+12-01 00:00:02 787[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99000ecc,
+12-01 00:00:02 787[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:54
+12-01 00:00:02 787[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:55 WriteFd:56
+12-01 00:00:02 788[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99508490,
+12-01 00:00:02 788[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:-1 WriteFd:59
+12-01 00:00:02 788[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:-1
+12-01 00:00:02 788[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:60 WriteFd:59
+12-01 00:00:02 788[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:61 WriteFd:-1
+12-01 00:00:02 788[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:61 WriteFd:62
+12-01 00:00:02 788[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:58
+12-01 00:00:02 797[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 949[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x9859a008
+12-01 00:00:02 958[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x9859b46c,
+12-01 00:00:02 959[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98d9b46c,
+12-01 00:00:02 959[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 959[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98da299c,
+12-01 00:00:02 959[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 959[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98da9ecc,
+12-01 00:00:02 959[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:-1
+12-01 00:00:02 960[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:55
+12-01 00:00:02 960[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x98fa9ecc,
+12-01 00:00:02 960[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:56
+12-01 00:00:02 960[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x994b1490,
+12-01 00:00:02 960[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:56
+12-01 00:00:02 960[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:53
+12-01 00:00:02 961[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:59 WriteFd:53
+12-01 00:00:02 961[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:60 WriteFd:-1
+12-01 00:00:02 961[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:60 WriteFd:61
+12-01 00:00:02 961[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:-1 WriteFd:62
+12-01 00:00:02 961[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:58 WriteFd:62
+12-01 00:00:02 972[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 843[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98614008
+12-01 00:00:02 852[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x9861546c,
+12-01 00:00:02 852[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98e1546c,
+12-01 00:00:02 852[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 853[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98e1c99c,
+12-01 00:00:02 853[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 853[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98e23ecc,
+12-01 00:00:02 853[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:55 WriteFd:-1
+12-01 00:00:02 853[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:55 WriteFd:54
+12-01 00:00:02 853[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:-1 WriteFd:56
+12-01 00:00:02 853[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:53 WriteFd:56
+12-01 00:00:02 854[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99023ecc,
+12-01 00:00:02 854[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:58
+12-01 00:00:02 854[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x9952b490,
+12-01 00:00:02 854[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:02 854[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:60
+12-01 00:00:02 854[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:58
+12-01 00:00:02 855[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:62 WriteFd:61
+12-01 00:00:02 855[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:62 WriteFd:-1
+12-01 00:00:02 869[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 905[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98621008
+12-01 00:00:02 914[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x9862246c,
+12-01 00:00:02 915[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98e2246c,
+12-01 00:00:02 915[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 915[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 915[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98e2999c,
+12-01 00:00:02 916[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98e30ecc,
+12-01 00:00:02 916[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:-1
+12-01 00:00:02 916[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:55
+12-01 00:00:02 916[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x99030ecc,
+12-01 00:00:02 916[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:-1
+12-01 00:00:02 916[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99538490,
+12-01 00:00:02 917[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:57
+12-01 00:00:02 917[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:57
+12-01 00:00:02 917[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:56
+12-01 00:00:02 917[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:02 917[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:62 WriteFd:-1
+12-01 00:00:02 917[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:62 WriteFd:61
+12-01 00:00:02 921[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:60
+12-01 00:00:02 926[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:02 892[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x985de008
+12-01 00:00:02 908[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x985df46c,
+12-01 00:00:02 909[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98ddf46c,
+12-01 00:00:02 909[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:02 910[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98de699c,
+12-01 00:00:02 910[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:02 910[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98dedecc,
+12-01 00:00:02 910[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:53
+12-01 00:00:02 911[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:55 WriteFd:53
+12-01 00:00:02 911[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x98fedecc,
+12-01 00:00:02 911[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:-1 WriteFd:56
+12-01 00:00:02 911[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:54 WriteFd:56
+12-01 00:00:02 911[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:-1 WriteFd:57
+12-01 00:00:02 911[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:57
+12-01 00:00:02 911[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x994f5490,
+12-01 00:00:02 911[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:02 912[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:61 WriteFd:-1
+12-01 00:00:02 912[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:59 WriteFd:60
+12-01 00:00:02 912[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:61 WriteFd:62
+12-01 00:00:02 921[I(0)][queue.c-1217]QUEUE_Init end
+12-01 00:00:03 022[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x985e0008
+12-01 00:00:03 030[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x985e146c,
+12-01 00:00:03 031[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x98de146c,
+12-01 00:00:03 031[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:-1
+12-01 00:00:03 031[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:51 WriteFd:52
+12-01 00:00:03 031[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x98de899c,
+12-01 00:00:03 032[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x98defecc,
+12-01 00:00:03 032[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:55 WriteFd:-1
+12-01 00:00:03 032[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:55 WriteFd:56
+12-01 00:00:03 032[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x98fefecc,
+12-01 00:00:03 032[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:54
+12-01 00:00:03 033[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x994f7490,
+12-01 00:00:03 033[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:-1
+12-01 00:00:03 033[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:57 WriteFd:58
+12-01 00:00:03 032[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:54
+12-01 00:00:03 033[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:-1 WriteFd:60
+12-01 00:00:03 033[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:60
+12-01 00:00:03 033[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:62 WriteFd:-1
+12-01 00:00:03 033[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:62 WriteFd:61
+12-01 00:00:03 048[I(0)][queue.c-1217]QUEUE_Init end

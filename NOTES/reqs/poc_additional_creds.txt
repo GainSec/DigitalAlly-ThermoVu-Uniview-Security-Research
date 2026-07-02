@@ -1,0 +1,21 @@
+# Additional Hardcoded Credentials
+# Source: config/config_a.xml
+# SHA256: 0b25b07dc650e05a565daf66c4787120450a52d655f5fa293c9aaf5a5a73648f
+
+## PTZ/BoxDome Integration (Line 21702-21703)
+Username: admin
+Password: 12345
+Port: 80
+
+## WiFi SOAP AP (Line 65-76)
+Key: 12345678
+AuthMode: 0 (Open)
+EncrypType: 0
+
+## YJ NAS Server (Line 802-804)
+Password: nullpassword
+IP: 0.0.0.0 (unconfigured)
+
+## PPPoE (default_cfg.xml:24-28)
+Username: user
+Password: admin (MD5: 21232f297a57a5a743894a0e4a801fc3)

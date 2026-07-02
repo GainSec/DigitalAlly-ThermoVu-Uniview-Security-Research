@@ -1,0 +1,86 @@
+
+[VB] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:44]
+
+-----VB PUB CONFIG--------------------------------------------------------------
+MaxPoolCnt
+       512
+-----VB SUPPLEMENT ATTR---------------------------------------------------------
+  Config    Size   VbCnt
+       0       0      39
+-----COMMON POOL CONFIG---------------------------------------------------------
+PoolId         0         1         2         3         4         5         6         7         8         9        10        11        12        13        14        15
+Size     3136320    635904   3110400   3110400   4297200         0         0         0         0         0         0         0         0         0         0         0
+Count         16         6         6         2         2         0         0         0         0         0         0         0         0         0         0         0
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+0       0xa087d000          0x0                 1       -1     3136512   16      10      7       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     
+11    0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     
+10    0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     
+3     0     0     1     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     
+13    0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+8     0     0     1     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   0     0     2     1     0     0     0     0     0     0     3     0     2     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+1       0xa385a000          0x0                 1       -1     635904    6       6       5       
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+2       0xa3bff000          0x0                 1       -1     3110400   6       4       2       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+5     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+0     0     1     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   1     1     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+3       0xa4dcd000          0x0                 1       -1     3110400   2       1       0       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+4       0xa53bd000          0x0                 1       -1     4297216   2       2       2       
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+5       0xa653c000          0x0                 0       -2     395520    1       0       0       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+6       0xa659d000          0x0                 0       -2     395520    1       0       0       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+7       0xa65fe000          0x0                 0       -2     3156480   1       0       0       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+8       0xa6901000          0x0                 0       -2     3156480   1       0       0       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+
+--------------------------------------------------------------------------------
+PoolId  PhysAddr            VirtAddr            IsComm  Owner  BlkSz     BlkCnt  Free    MinFree 
+9       0xab22c000          0x0                 0       -2     933888    3       0       0       
+BLK   VI    VO    VGS   VENC  VDEC  H265E H264E JPEGE H264D JPEGD VPSS  DIS   USER  PCIV  AI    AENC  RC    VFMW  GDC   AVS   RECT  MATCH 
+2     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+1     0     1     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+Sum   0     3     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     
+

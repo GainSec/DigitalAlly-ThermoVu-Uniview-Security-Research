@@ -1,0 +1,20 @@
+#!/bin/sh
+
+MNT=$(/bin/mount | grep "mmcblk0")
+if [ -e /dev/mmcblk0 -a "$MNT" = "" ];then
+    mkdir -p /mnt/sdcard
+	# Add by j04315 添加修复超时参数，替换fsck.fat工具支持超时退出，超时时间单位秒
+	echo "==== fsck.fat begin , timeout:15s====" | tee -a /tmp/fsckrecords.log
+	/sbin/fsck.fat -p -V -v /dev/mmcblk0p1 15 >> /tmp/fsckrecords.log
+	FSCK_RESULT=$?
+	echo "==== FSCK_RESULT = $FSCK_RESULT ====" | tee -a /tmp/fsckrecords.log
+	echo "==== fsck.fat end ====" | tee -a /tmp/fsckrecords.log
+	# End add by j04315 
+	# Added by g05675, 2019/5/15
+	# IPCD71116: sd卡设备生成core文件为0字节问题暂且修改规避，不影响问题定位
+	/bin/mount -tvfat -o umask=077 /dev/mmcblk0p1 /mnt/sdcard
+	# End add
+    if [ $? -ne 0 ];then      
+        /bin/mount -tvfat /dev/mmcblk0 /mnt/sdcard
+    fi
+fi

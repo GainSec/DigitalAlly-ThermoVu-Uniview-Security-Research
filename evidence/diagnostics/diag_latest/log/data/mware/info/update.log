@@ -1,0 +1,53 @@
+Update time:2011-12-01 00:11:30
+======================================================================
+                           Start update                               
+======================================================================
+[MW_CTRL_ParseParameter] Update By Image 
+
+[MW_CTRL_ParseParameter] update all
+
+program: src[program.bin] 		 dst[/cache/update/program.bin]
+uboot:   src[u-boot.bin] 		 dst[/cache/update/u-boot.bin]
+version: src[VERSION] 		 dst[/cache/update/VERSION]
+uimage:  src[uimage.bin] 		 dst[/cache/update/uimage.bin]
+Patch:   src[] 		 dst[]
+bootlogo:Src[] 		 Dst[]
+
+[MW_CTRL_GetDrvParameter] Ver Type[QPTS-B2209] Program[QPTSV200R002B09D003SP15CENB02LJ01] Uimage[] Uboot[]
+web update
+all image exist
+[MW_CTRL_CheckUpdateVersion] Begin
+
+[MW_GetVerFileInfo] VERSION VerType[QPTS-2209]
+
+   Version Info
+     Current Version: [QPTSV200R002B09D003SP15CENB02LJ01] VerType: [QPTS-B2209]
+     Update  Version: [QPTSV200R002B09D003SP70CEN001] VerType: [QPTS-2209] VerNewType: [] ProgramChkSum: [19ecef4519043c3db34a9e0f89a4a388]
+     Kernel bUpdate: [1] CurVer: [] CompVer: [V1.0] NewVer: [V1.0] UimageChkSum: [916921619a63a311c0794fbe2ae5acd8]
+     Program bUpdate:[1]  CurVer: [QPTSV200R002B09D003SP15CENB02LJ01] CompVer: [swift] NewVer: [QPTSV200R002B09D003SP70CEN001] ChkSum: [19ecef4519043c3db34a9e0f89a4a388]
+
+ chkSum[/cache/update/uimage.bin] OK
+
+ chkSum[/cache/update/program.bin] OK
+  ProgramInfoVerType = [QPTS-2209] 
+ 
+[MW_CTRL_CheckUpdateVersion] Match
+
+check bIsdecode[1]
+
+Start update uimage Mode:0
+
+bZipMode[0][1] bIsDecode Cmd[mmcwrite /cache/update/uimage.bin /dev/mtd_kernel 128 11409528 >/dev/null 2>>/var/log/update.log]Uimage:Offset[128] Size[11409528]
+
+#########
+Start update program Mode:0
+###################################################
+############################################################
+############################################################
+########################
+ program szSystemCmd[mmcwrite /cache/update/program.bin /dev/mtd_program ext4 128 230006504 >/dev/null 2>>/var/log/update.log]
+####################################
+###################################################
+Read snmp config file [/etc/snmp.conf] failed when trap update status
+
+Update success, system will reboot right now

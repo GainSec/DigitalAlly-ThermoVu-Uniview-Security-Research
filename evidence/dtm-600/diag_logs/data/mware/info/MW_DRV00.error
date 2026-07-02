@@ -1,0 +1,15 @@
+12-01 00:00:01 073[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:01 123[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:05 156[E][hilib_vpss_base.c-759]VPSS_SetExtChnAttr failed with [0xa0078003]
+12-01 00:00:05 156[E][hilib_vpss_base.c-1658]Vpss start chn[6] failed
+12-01 00:00:05 156[E][hilib_vpss_base.c-1837]Vpss chn[6] start failed
+12-01 00:00:05 156[E][hilib_vpss_base.c-2004]Vpss set chn[6] param fail
+12-01 00:00:05 156[E][hilib_vpss_base.c-2256]Vpss set que[7] param failed
+12-01 00:00:05 157[E][hilib_vpss_base.c-3513]Vpss cmd[0x4001] do failed
+12-01 00:00:05 157[E][drv_process_qpts.c-1158]Set vpss que[7] param failed
+12-01 00:00:19 196[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:19 197[E][drv_gpio.c-1427]errno :22
+12-01 00:00:20 337[E][hilib_vo_base.c-1090]pstVideoChninfo width:520 hight:887 startX:40 startY:0
+12-01 00:00:20 338[E][hilib_vpss_base.c-776]VPSS_SetChnCrop start
+12-01 00:05:20 091[E][hilib_venc_base.c-2268]Encode Link Not Create!!!
+12-01 00:10:11 355[E][hilib_venc_base.c-2268]Encode Link Not Create!!!

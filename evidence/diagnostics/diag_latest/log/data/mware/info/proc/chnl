@@ -1,0 +1,64 @@
+
+[CHNL] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:45]
+
+
+Total Chnl Scheduler Count: 3 
+
+-----SCHEDULER 0 INFO----------------------------------------------------------
+   SchdlId    VpuNum
+         0         1
+
+-----VPU INFO------------------------------------------------------------------
+   VpuId    Name   State      IntCnt     TimeCnt      VpuCnt  ErrCnt      InqCnt     StartOk     StartNo      Config   Reset
+       0  VEDU_0   PAUSE      144687      115768       28919       0      172435       28919           0       28919       0
+
+-----CHNL STATE----------------------------------------------------------------
+  ChnlId    Prio    Type  TskNum   State      InqCnt     StartOk     StartNo      IntPro
+       0       0  H264E        0    IDLE      172422       28916           0       28916
+
+-----CHNL PERF-----------------------------------------------------------------
+  ChnlId        Type   StartCost     IntCost    IntCostL      HWCost     HWCycle     HWCostL   HWCostAcc
+       0      H264E            0           0           0           0           0           0           0
+
+-----CHNL CURRENT RUN STATE----------------------------------------------------
+   VpuId     VpuName      ChnlId        Type
+  No running channel here
+
+-----SCHEDULER 1 INFO----------------------------------------------------------
+   SchdlId    VpuNum
+         1         1
+
+-----VPU INFO------------------------------------------------------------------
+   VpuId    Name   State      IntCnt     TimeCnt      VpuCnt  ErrCnt      InqCnt     StartOk     StartNo      Config   Reset
+       0  JPGE_0   PAUSE       99055       99054           1       0       97869           1           0           1       0
+
+-----CHNL STATE----------------------------------------------------------------
+  ChnlId    Prio    Type  TskNum   State      InqCnt     StartOk     StartNo      IntPro
+       3       0  JPEGE        0    IDLE       97869           1           0           1
+
+-----CHNL PERF-----------------------------------------------------------------
+  ChnlId        Type   StartCost     IntCost    IntCostL      HWCost     HWCycle     HWCostL   HWCostAcc
+       3      JPEGE            0           0           0           0           0           0           0
+
+-----CHNL CURRENT RUN STATE----------------------------------------------------
+   VpuId     VpuName      ChnlId        Type
+  No running channel here
+
+-----SCHEDULER 2 INFO----------------------------------------------------------
+   SchdlId    VpuNum
+         2         1
+
+-----VPU INFO------------------------------------------------------------------
+   VpuId    Name   State      IntCnt     TimeCnt      VpuCnt  ErrCnt      InqCnt     StartOk     StartNo      Config   Reset
+       0 JPEGD_0   PAUSE      116955      116955           0       0           0           0           0           0       0
+
+-----CHNL STATE----------------------------------------------------------------
+  ChnlId    Prio    Type  TskNum   State      InqCnt     StartOk     StartNo      IntPro
+
+-----CHNL PERF-----------------------------------------------------------------
+  ChnlId        Type   StartCost     IntCost    IntCostL      HWCost     HWCycle     HWCostL   HWCostAcc
+
+-----CHNL CURRENT RUN STATE----------------------------------------------------
+   VpuId     VpuName      ChnlId        Type
+  No running channel here
+

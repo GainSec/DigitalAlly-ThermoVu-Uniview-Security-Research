@@ -1,0 +1,29 @@
+"Required Fields, Maximum 15 Characters","Required Fields, Maximum 20 Characters","Picture Path","Card Type","Card No.","Card Type","Card No.","Effective Time","Expiration Time","Template Name","Comment"
+*No.,*Name,Face Picture,Card Type 1,Card No. 1,Card Type 2,Card No. 2,Effective Time,Expiration Time,Time Template Name,Comment
+30001,combo_c1.15_r+15,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.15_r+15.jpg,,,,,,,,adversarial_0
+30002,combo_c1.15_r+25,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.15_r+25.jpg,,,,,,,,adversarial_1
+30003,combo_c1.15_r+35,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.15_r+35.jpg,,,,,,,,adversarial_2
+30004,combo_c1.20_r+15,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.20_r+15.jpg,,,,,,,,adversarial_3
+30005,combo_c1.20_r+25,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.20_r+25.jpg,,,,,,,,adversarial_4
+30006,combo_c1.20_r+35,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.20_r+35.jpg,,,,,,,,adversarial_5
+30007,combo_c1.25_r+15,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.25_r+15.jpg,,,,,,,,adversarial_6
+30008,combo_c1.25_r+25,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.25_r+25.jpg,,,,,,,,adversarial_7
+30009,combo_c1.25_r+35,<RELEASE_ROOT>/ADVERSARIAL_FACES/combo_c1.25_r+35.jpg,,,,,,,,adversarial_8
+30010,contrast_1.28,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.28.jpg,,,,,,,,adversarial_9
+30011,contrast_1.30,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.30.jpg,,,,,,,,adversarial_10
+30012,contrast_1.32,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.32.jpg,,,,,,,,adversarial_11
+30013,contrast_1.34,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.34.jpg,,,,,,,,adversarial_12
+30014,contrast_1.36,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.36.jpg,,,,,,,,adversarial_13
+30015,contrast_1.38,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.38.jpg,,,,,,,,adversarial_14
+30016,contrast_1.40,<RELEASE_ROOT>/ADVERSARIAL_FACES/contrast_1.40.jpg,,,,,,,,adversarial_15
+30018,noise_imperceptible_,<RELEASE_ROOT>/ADVERSARIAL_FACES/noise_imperceptible_2.jpg,,,,,,,,adversarial_17
+30019,noise_imperceptible_,<RELEASE_ROOT>/ADVERSARIAL_FACES/noise_imperceptible_4.jpg,,,,,,,,adversarial_18
+30022,red_shift_+10,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+10.jpg,,,,,,,,adversarial_21
+30023,red_shift_+15,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+15.jpg,,,,,,,,adversarial_22
+30024,red_shift_+20,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+20.jpg,,,,,,,,adversarial_23
+30025,red_shift_+25,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+25.jpg,,,,,,,,adversarial_24
+30026,red_shift_+30,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+30.jpg,,,,,,,,adversarial_25
+30027,red_shift_+35,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+35.jpg,,,,,,,,adversarial_26
+30028,red_shift_+40,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+40.jpg,,,,,,,,adversarial_27
+30029,red_shift_+45,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+45.jpg,,,,,,,,adversarial_28
+30030,red_shift_+50,<RELEASE_ROOT>/ADVERSARIAL_FACES/red_shift_+50.jpg,,,,,,,,adversarial_29

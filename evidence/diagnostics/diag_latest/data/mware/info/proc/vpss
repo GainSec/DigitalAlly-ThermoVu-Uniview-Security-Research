@@ -1,0 +1,105 @@
+
+[VPSS] Version: [Hi3516CV500_MPP_V1.0.0.0 B010 Release], Build Time[Apr 17 2019, 20:55:30]
+
+
+-------------------------------MODULE PARAM-----------------------------------------------------------------
+ vpss_vb_source    bOneBufferforLowDelay      vpss_split_node_num              bHdrSupport
+              0                        0                        3                        0
+
+-------------------------------VPSS GRP ATTR----------------------------------------------------------------
+   GrpID    MaxW    MaxH      PixFmt    DRange  SrcFRate  DstFRate bUserCtrl    NrEn    NrType    RefCmp  MotionMode
+       0    1080    1920   YVU-SP420      SDR8        -1        -1         Y       Y     VIDEO         N      Normal
+
+-------------------------------VPSS CHN ATTR----------------------------------------------------------------
+   GrpID  PhyChnID  Enable    Mode  MirrorEn  FlipEn  SrcFRate  DstFRate Depth  Aspect  videoX  videoY  videoW  videoH     BgColor
+       0         0       Y    USER         N       Y        -1        -1     1    NONE       0       0    1080    1920         0x0
+       0         1       Y    USER         N       Y        -1        -1     0    NONE       0       0    1080    1920         0x0
+       0         2       Y    USER         N       Y        -1        -1     0    NONE       0       0     600    1068         0x0
+
+-------------------------------VPSS EXT-CHN ATTR------------------------------------------------------------
+   GrpID   ExtChnID  Enable  SrcChn   Width  Height  SrcFRate  DstFRate   Depth
+        0         3       Y       0    1080    1920        -1        -1       1
+        0         5       Y       1     576     720        -1        -1       0
+        0         6       Y       0    1080    1920        -1        -1       0
+
+-------------------------------VPSS GRP CROP INFO-----------------------------------------------------------
+   GrpID  CropEn  CoorType   CoorX   CoorY   Width  Height    OriW    OriH   TrimX   TrimY TrimWid TrimHgt
+       0       N       RAT       0       0       0       0
+
+-------------------------------VPSS CHN CROP INFO-----------------------------------------------------------
+   GrpID   ChnID  CropEn  CoorType   CoorX   CoorY   Width  Height   TrimX   TrimY TrimWid TrimHgt
+       0       0       N       RAT       0       0       0       0
+       0       1       N       RAT       0       0       0       0
+       0       2       Y       ABS       0      22     600    1024       0      22     600    1024
+       0       3       N       RAT       0       0       0       0
+       0       5       N       RAT       0       0       0       0
+       0       6       N       RAT       0       0       0       0
+
+-------------------------------VPSS GRP PIC QUEUE-----------------------------------------------------------
+   GrpID  FreeLen0  BusyLen0     Delay    Backup
+       0         9         0         0         0
+
+-------------------------------VPSS GRP WORK STATUS---------------------------------------------------------
+   GrpID    RecvPic0 ViLost0 VdecLost0       NewDo   OldDo NewUnDo     OldUnDo     StartFl  bStart  CostTm MaxCostTm
+       0       28935       0         0       28935       0       0           0           0       Y    84704294197849
+
+-------------------------------VPSS CHN OUTPUT RESOLUTION---------------------------------------------------
+   GrpID   ChnID  Enable   Width  Height      Pixfmt    Videofmt      DRange    Compress  SendOk   FrameRate
+       0       0       Y    1080    1920   YVU-SP420      LINEAR        SDR8           N       0          25
+       0       1       Y    1080    1920   YVU-SP420      LINEAR        SDR8           N   28935          25
+       0       2       Y     600    1024   YVU-SP420      LINEAR        SDR8           N   28417          25
+       0       3       Y    1080    1920   YVU-SP420      LINEAR        SDR8           N       0          25
+       0       5       Y     576     720   YVU-SP420      LINEAR        SDR8           N       0           0
+       0       6       Y    1080    1920   YVU-SP420      LINEAR        SDR8           N       0           0
+
+-------------------------------VPSS 3DNR X PARAM------------------------------------------------------------
+-------------------------------VPSS GPR0 3DNR PARAM-------------------------------------
+   GrpID    Intf   Version   OptMode       ISO     Ref
+       0    NR_X     VER_2    MANUAL       110       1
+   NRyEn_1                   NRyEn_2                   NRyEn_3                   NRyEn_4
+         1                         1                         1                         1
+    SFS2_1                    SFS2_2                    SFS2_3                    SFS2_4
+        31                        40                        20                        32
+    SFS4_1                    SFS4_2                    SFS4_3                    SFS4_4
+        50                        60                        11                        32
+    TFS0_1      TFS1_1        TFS0_2      TFS1_2
+         0          10             9           0
+   MATH0_1     MATH1_1       MATH0_2     MATH1_2
+         0         207           125           0
+
+-------------------------------VPSS CHN ROTATE INFO---------------------------------------------------------
+   GrpID   ChnID  Rotate
+
+-------------------------------VPSS CHN LDC INFO------------------------------------------------------------
+   GrpID   ChnID  Enable  Aspect  XRatio  YRatio   XYRatio   XOffset   YOffset     DistortionRatio
+
+-------------------------------VPSS CHN ROTATIO_EX INFO-----------------------------------------------------
+   GrpID   ChnID  Enable  ViewType   Angle   XOffset   YOffset     Width    Height
+
+-------------------------------VPSS CHN SPREAD INFO---------------------------------------------------------
+   GrpID   ChnID  Enable    OutW    OutH      Coef
+
+-------------------------------VPSS EXTCHN FISHEYE ATTR-----------------------------------------------------
+   GrpID   ChnID  Enable  MntMode  RgnNum  BgEnable  BgColor  LMF  HOffset  VOffset  TCoef   FStrength
+
+-------------------------------VPSS EXTCHN FISHEYE REGION ATTR----------------------------------------------
+   GrpID   ChnID  RgnIndex  ViewMode  InRadius  OutRadius  Pan  Tilt  HorZoom  VerZoom  OutX  OutY  OutW  OutH
+
+-------------------------------VPSS CHN LOWDELAY ATTR-------------------------------------------------------
+   GrpID   ChnID  Enable   LineCnt   OneBufEnable   OneBufAddr
+
+-------------------------------FRAME INTERRUPT ATTR---------------------------------------------------------
+   GrpID        IntType      EarlyLine
+       0          START              0
+
+-------------------------------DRV WORK STATUS--------------------------------------------------------------
+       StartSuc0       StartSuc1         LinkInt   StartErr0  NodeIdErr0   StartErr1  NodeIdErr1      BusErr
+           28997               0           28997           0           0           0           0           0
+
+-------------------------------DRV NODE QUEUE---------------------------------------------------------------
+   FreeNum   WaitNum  Busy00  Busy01    Sel0  Busy10  Busy11    Sel1    Proc
+        17         0       0       0       1       0       0       0       0
+
+-------------------------------INT WORK STATUS--------------------------------------------------------------
+     CntPerSec  MaxCntPerSec        CostTm    MostCostTm  CostTmPerSec MCostTmPerSec
+            25            30          1195       -776717         38143       -771944

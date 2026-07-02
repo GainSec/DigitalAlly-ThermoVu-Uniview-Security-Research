@@ -1,0 +1,4 @@
+2011-12-01 00:00:05.158 af_ctrl.c-1017      @CtrlInit                 [INF][AF]Ctrl Other Lens
+2011-12-01 00:00:05.158 af_ctrl.c-5997      @OtherLens_Init           [INF][AF]Do nothing
+2011-12-01 00:00:05.159 af_ctrl.c-8559      @AF_Init                  [INF][AF]AF Init ok, Lens[f000], Plat:[8]
+2011-12-01 00:00:05.159 af_ctrl.c-10039     @AF_GetLensType           [INF][AF]AFLensType:[9]

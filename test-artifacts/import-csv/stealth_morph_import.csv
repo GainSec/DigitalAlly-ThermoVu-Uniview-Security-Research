@@ -1,0 +1,24 @@
+"Required Fields","Required Fields","Picture Path","Card Type","Card No.","Card Type","Card No.","Effective Time","Expiration Time","Template Name","Comment"
+*No.,*Name,Face Picture,Card Type 1,Card No. 1,Card Type 2,Card No. 2,Effective Time,Expiration Time,Time Template Name,Comment
+80001,blend_05pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_05pct.jpg,,,,,,,,stealth_morph
+80002,blend_08pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_08pct.jpg,,,,,,,,stealth_morph
+80003,blend_10pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_10pct.jpg,,,,,,,,stealth_morph
+80004,blend_15pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_15pct.jpg,,,,,,,,stealth_morph
+80005,blend_20pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_20pct.jpg,,,,,,,,stealth_morph
+80006,blend_25pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_25pct.jpg,,,,,,,,stealth_morph
+80007,blend_30pct,<RELEASE_ROOT>/STEALTH_MORPH/blend_30pct.jpg,,,,,,,,stealth_morph
+80008,inverted_03pct,<RELEASE_ROOT>/STEALTH_MORPH/inverted_03pct.jpg,,,,,,,,stealth_morph
+80009,inverted_05pct,<RELEASE_ROOT>/STEALTH_MORPH/inverted_05pct.jpg,,,,,,,,stealth_morph
+80010,inverted_08pct,<RELEASE_ROOT>/STEALTH_MORPH/inverted_08pct.jpg,,,,,,,,stealth_morph
+80011,inverted_10pct,<RELEASE_ROOT>/STEALTH_MORPH/inverted_10pct.jpg,,,,,,,,stealth_morph
+80012,edges_05pct,<RELEASE_ROOT>/STEALTH_MORPH/edges_05pct.jpg,,,,,,,,stealth_morph
+80013,edges_10pct,<RELEASE_ROOT>/STEALTH_MORPH/edges_10pct.jpg,,,,,,,,stealth_morph
+80014,edges_15pct,<RELEASE_ROOT>/STEALTH_MORPH/edges_15pct.jpg,,,,,,,,stealth_morph
+80015,edges_20pct,<RELEASE_ROOT>/STEALTH_MORPH/edges_20pct.jpg,,,,,,,,stealth_morph
+80016,ghost_08pct,<RELEASE_ROOT>/STEALTH_MORPH/ghost_08pct.jpg,,,,,,,,stealth_morph
+80017,ghost_10pct,<RELEASE_ROOT>/STEALTH_MORPH/ghost_10pct.jpg,,,,,,,,stealth_morph
+80018,ghost_12pct,<RELEASE_ROOT>/STEALTH_MORPH/ghost_12pct.jpg,,,,,,,,stealth_morph
+80019,ghost_15pct,<RELEASE_ROOT>/STEALTH_MORPH/ghost_15pct.jpg,,,,,,,,stealth_morph
+80020,red_channel_10pct,<RELEASE_ROOT>/STEALTH_MORPH/red_channel_10pct.jpg,,,,,,,,stealth_morph
+80021,red_channel_20pct,<RELEASE_ROOT>/STEALTH_MORPH/red_channel_20pct.jpg,,,,,,,,stealth_morph
+80022,red_channel_30pct,<RELEASE_ROOT>/STEALTH_MORPH/red_channel_30pct.jpg,,,,,,,,stealth_morph

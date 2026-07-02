@@ -1,0 +1,42 @@
+#!/bin/sh
+#---------mkfs.vfat sd card-----------
+
+sd_format()
+{
+    dev=$1
+    MNT=$(mount | grep /$dev)
+    #检测SD卡是否挂载成功
+    if [ "$MNT" != "" ]; then
+        umount /dev/$dev
+        if [ $? -eq 0 ]; then
+            echo "umount /dev/$dev ok, will exec format"
+        else
+            echo "umount /dev/$dev failed"
+        fi
+    #提示未挂载成功
+    else
+        echo "mount /dev/$dev failed, exec format "
+    fi
+    mkfs.vfat /dev/$dev
+    if [ $? -eq 0 ]; then
+        echo "mkfs.vfat /dev/$dev format ok"
+    else
+        echo "mkfs.vfat /dev/$dev format failed"
+    fi
+}
+
+if [ -r /dev/mmcblk0p1 ]; then
+    sd_format mmcblk0p1
+elif [ -r /dev/mmcblk0 ]; then
+    sd_format mmcblk0
+else
+    echo "No /dev/mmcblk0 and no partition, please check it"
+fi
+
+if [ -r /dev/mmcblk1p1 ]; then
+    sd_format mmcblk1p1
+elif [ -r /dev/mmcblk1 ]; then
+    sd_format mmcblk1
+else
+    echo "No /dev/mmcblk1 and no partition, please check it"
+fi

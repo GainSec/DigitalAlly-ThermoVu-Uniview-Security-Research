@@ -1,0 +1,69 @@
+
+[VO] Version: [Hi3516CV500_MPP_V1.0.0.0 B010 Release], Build Time[Jul  3 2019, 21:37:31]
+
+-----DEVICE CONFIG-------------------------------------------------------------------
+   DevId   DevEn       Mux1       Mux2       Mux3      IntfSync        BkClr  DevFrt
+       0       Y       MIPI                                USER          0x0      60
+
+-----DEVICE CLOCK INFO-------------------------------------------------------------------
+   DevId   DevEn  ClkSource   FbDiv    Frac     RefDiv   PostDiv1  PostDiv2   LCDMCLK  VoDevDiv  VoPreDiv ClkReverse
+       0       Y        PLL      23 1385798          2          3         2                   1         1          Y
+
+-----MODULE PARAM-----------------------------
+ transparentTransmit    ExitDev  WbcBgBlackEn DevClkExtEn
+                   N          Y             N           N
+
+-----VIDEO LAYER STATUS 1----------------------------------------------------------------------------------------
+ LayerId VideoEn ClustMode  PixFmt    ImgW    ImgH   DispX   DispY   DispW   DispH DispFrt DoubFrm   DstDyRg Decompress
+       0       Y         N   SP420     600    1024       0       0     600    1024      50       N      SDR8          N
+
+-----VIDEO LAYER STATUS 2(continue)------------------------------------------------------------------------------
+ LayerId VideoEn  Toleration  Priority EnChNum  Matrix    Luma    Cont     Hue    Satu
+       0       Y    10000000         0       1       3      50      50      50      50
+
+-----VIDEO LAYER STATUS 3(continue)------------------------------------------------------------------------------
+ LayerId   DevId  SetBeg  SetEnd PartitionMode bSDVgsBypass   u32BufLen
+       0       0       N       N        Single            N           3
+
+-----VIDEO LAYER STATUS 4(continue)------------------------------------------------------------------------------
+ LayerId AspectRatioMode     X     Y     Width     Height     BgColor
+
+-----VIDEO LAYER STATUS 5(continue)------------------------------------------------------------------------------
+ LayerId   BoundaryWidth          Color0          Color1
+
+-----VIDEO LAYER STATUS 6(continue)------------------------------------------------------------------------------
+ LayerId    CropEn       X       Y   Width  Height
+       0         N
+
+-----CHN BASIC INFO ---------------------------------------------------------------
+ LayerId   ChnId ChnEn  Prio DeFlk  ChnX  ChnY  ChnW  ChnH DispX DispY bSnap Field RotAngle
+       0       0     Y     0     N    40     0   520   886    -1    -1     N  both        0
+
+-----CHN PLAY INFO 1---------------------------------------------------------------------------------------------------------------------
+ LayerId   ChnId   Batch  Show Pause  Step Revrs Refsh Thrshd ChnFrt   ChnGap
+       0       0       N     Y     N     N     N     N      3     50    20000
+
+-----CHN PLAY INFO 2(continue)-----------------------------------------------------------------------------------------------------------
+ LayerId   ChnId           DisplayPts               PrePts              CurrPts             ScalePts               SetPts           RecvCurPts
+       0       0           1177102226           1177102226           1177102226                    0                   -1                    0
+
+-----BySingle CHN STATUS 1----------------------------------------------------------------------------------------------------------------
+ LayerId   ChnId   Job     Task QueryLCnt SendLCnt     QCnt     SCnt    ChRpt     DRpt ShouD Dsped b2Scl      ChnAddr     DispAddr
+       0       0     0    56671         0        0        0    28416    28255        1     1     2     N   0xa3ef6600   0xab310000
+
+-----BySingle CHN STATUS 2(continue)------------------------------------------------------------------------------------------------------
+ LayerId   ChnId bBorder BorderWidth   Color  ChnFreeNum  ChnBusyNum DispFreeNum DispBusyNum
+       0       0       N           0       0           9           0          12           1
+
+-----BySingle CHN STATUS 3(continue)--------------------------------------------------------
+ LayerId ChnId AspectRatioMode     X     Y     Width     Height     BgColor     CompressMode
+       0     0            NONE     0     0         0          0         0x0             NONE
+
+-----CHN OTHER INFO--------------------------------------------------------------
+ LayerId   ChnId   bZoom   ZmTyp   ZoomX   ZoomY   ZoomW   ZoomH    SrcW    SrcH
+       0       0       N       0       0       0       0       0     600    1024
+
+
+-----GRAPHIC LAYER CSC PARAM-----------------------------
+ LAYERID  Matrix    Luma    Cont     Hue    Satu
+       0       0      50      50      50      50

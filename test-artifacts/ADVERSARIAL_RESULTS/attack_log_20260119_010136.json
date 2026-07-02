@@ -1,0 +1,30 @@
+{
+  "timestamp": "20260119_010136",
+  "method": "simba",
+  "config": {
+    "epsilon": "16",
+    "step_size": "4",
+    "max_queries": "100",
+    "patience": "50",
+    "target_similarity": "0.82",
+    "query_delay": "0.5",
+    "num_restarts": "3",
+    "output_dir": "ADVERSARIAL_RESULTS",
+    "save_intermediate": "True",
+    "save_interval": "50"
+  },
+  "cover_image": "CANDIDATE_FACES/large_02_face.jpg",
+  "target_template": "user_target_template.bin",
+  "device": "192.168.30.178",
+  "result": {
+    "success": false,
+    "best_similarity": 0.0,
+    "queries": {
+      "total_queries": 3,
+      "successful_queries": 0,
+      "face_detection_failures": 0,
+      "success_rate": 0.0
+    }
+  },
+  "history": []
+}

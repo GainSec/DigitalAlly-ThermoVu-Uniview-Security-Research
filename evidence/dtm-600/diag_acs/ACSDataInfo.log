@@ -1,0 +1,45 @@
+==============================================================
+                      ACSDataInfo.log
+==============================================================
+
+[Used/Capacity]: People[0/10000] Face[0/10000] Card[0/20000] Lib[2/16]
+
+LibInfo[1]: ID[3] Type[3] PersonNum[0] FaceNum[0] LastChange[0] Name[DefaultEmployeeLib]
+
+LibInfo[2]: ID[4] Type[4] PersonNum[0] FaceNum[0] LastChange[0] Name[DefaultVisitorLib]
+>>ls -lh
+total 724
+-rw-------    1 root     root         424 Dec  1 00:10 ACSDataInfo.log
+drwx------    2 root     root        4.0K Dec  1 00:05 AlarmPic
+-rw-------    1 root     root          90 Nov 30 16:00 EG_Room_IP.xml
+drwx------    2 root     root        4.0K Nov 30 16:00 LangFlagEn
+-rw-------    1 root     root       31.0K Dec  1 00:10 OET-213H-NB_192.168.30.178_config.tgz
+drwx------    2 root     root        4.0K Nov 30 16:00 TimeTemplate
+drwx------    2 root     root        4.0K Nov 30 16:00 ValidationTemplate
+drwx------    4 root     root        4.0K Dec  1 00:00 WorkLibFile
+drwx------    5 root     root        4.0K Nov 30 16:00 channel01
+-rw-------    1 root     root       56.9K Dec  1 00:10 config_all.tgz
+-rw-------    1 root     root      334.9K Dec  1 00:10 ipcsystemreport.tgz
+-rw-------    1 root     root      250.7K Dec  1 00:10 log.tgz
+drwx------    3 root     root        4.0K Dec  1 00:10 mware
+drwx------    3 root     root        4.0K Dec  1 00:00 tmp
+>>du -h
+12.0K	./WorkLibFile/3
+12.0K	./WorkLibFile/4
+36.0K	./WorkLibFile
+28.0K	./TimeTemplate
+4.0K	./LangFlagEn
+4.0K	./AlarmPic
+28.0K	./ValidationTemplate
+4.0K	./mware/log
+8.0K	./mware
+4.0K	./tmp/LibFile
+8.0K	./tmp
+4.0K	./channel01/sub03/recycle
+8.0K	./channel01/sub03
+4.0K	./channel01/sub07/recycle
+16.0K	./channel01/sub07
+4.0K	./channel01/sub05/recycle
+16.0K	./channel01/sub05
+44.0K	./channel01
+856.0K	.

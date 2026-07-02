@@ -1,0 +1,6 @@
+open serial sucess[3]
+serious name is:/dev/ttyAMA1
+get old version
+read fail(0/22)
+fail Get_Old_Version TempBoardType TempSensorModel, McuLoadMode:1
+no need to update mcu

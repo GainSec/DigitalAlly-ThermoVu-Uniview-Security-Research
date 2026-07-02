@@ -1,0 +1,8 @@
+[2011-12-01 00:00:46 360][iw_acs_face.c-14389][Apply] LibFile LibID[3] Begin
+[2011-12-01 00:00:46 631][iw_acs_face.c-14423][Apply] [mv -f /data/tmp/LibFile/3/* /data/WorkLibFile/3 1>/dev/null 2>&1] ok
+[2011-12-01 00:00:46 641][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:46 709][iw_acs_face.c-14467][Apply] LibID[3] All Ok
+[2011-12-01 00:00:48 558][iw_acs_face.c-14389][Apply] LibFile LibID[4] Begin
+[2011-12-01 00:00:48 717][iw_acs_face.c-14423][Apply] [mv -f /data/tmp/LibFile/4/* /data/WorkLibFile/4 1>/dev/null 2>&1] ok
+[2011-12-01 00:00:48 730][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:48 801][iw_acs_face.c-14467][Apply] LibID[4] All Ok

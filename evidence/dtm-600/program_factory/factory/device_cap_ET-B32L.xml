@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MWare>
+	<!--  设备运行类型  -->
+	<DeviceType>1</DeviceType>
+	<!--  产品类型：SmartIPC  -->
+	<ProductType>10</ProductType>
+	<!--  设备支持的兼容类型数目  -->
+	<Compatibility>1</Compatibility>
+	<!--  MIB相关信息：默认  -->
+	<System>
+		<ObjectID>1,3,6,1,4,1,25506,1,703</ObjectID>
+		<ObjectIDLen>9</ObjectIDLen>
+		<SDKUserNum>32</SDKUserNum> 
+		<!--  是否支持系统时钟  -->
+        <SetRTCTime>1</SetRTCTime> 
+	</System>
+	<!--  串口  -->
+	<Serial>
+	    <!--  驱动初始化通道  -->
+		<Channel>1,53,55</Channel>
+		<!--  串口模式  -->
+		<!--  104 身份证模式  -->
+		<!--  106 闸机模式A(汉武) -->
+		<!--  107 闸机模式B(德宝)  -->
+		<!--  108 未配置  -->
+		<!--  109 门磁模式  -->
+		<!--  110 蓝牙模式  -->
+		<!--  111 二维码模式  -->
+		<!--  112 IC卡模式  -->
+		<!--  113 安全模块  -->
+		<!--  114 中控二合一读卡器模式  -->
+		<!--  115 闸机模式C(自研8223) -->
+		<!--  116 闸机模式D(宏创威) -->
+		<Serial1>
+			<Type>RS485</Type>
+			<Mode>108,113,115</Mode>
+		</Serial1>
+		<Serial53>
+			<Type>RS232</Type>
+			<Mode>104,106,111,114,116</Mode>
+		</Serial53>
+		<Serial55>
+			<Type>RS232</Type>
+			<Mode>112</Mode>
+		</Serial55>
+		<!--  web显示使能通道  -->
+		<EnableChannel>1,53,55</EnableChannel>
+	</Serial>
+	<!--  韦根口  -->
+	<Wiegand>
+		<WiegandInChl>1</WiegandInChl>
+		<WiegandOutChl>21</WiegandOutChl>
+		<!--  韦根协议  -->
+		<!--  0 无  -->
+		<!--  1 韦根26协议 -->
+		<!--  2 韦根34协议  -->
+		<WiegandType>0,1,2</WiegandType>
+		<EnableChannel>1,21</EnableChannel>
+		<!--  格式类型  -->
+		<!--  1 正序 -->
+		<!--  2 逆序 -->
+		<Format>1,2</Format>
+	</Wiegand>
+	<!--  USB  -->
+	<UsbOutDevice>
+		<!--  类型  -->
+		<!--  1 4G -->
+		<!--  2 身份证读卡器 -->
+		<!--  3 U盘 -->
+		<Type>1,2,3</Type>
+	</UsbOutDevice>
+	<!--  网口  -->
+	<Network>
+		<DDNS>
+			<!--  DDNS类型  -->
+			<!--  0 DynDNS  -->
+			<!--  1 NO-IP  -->
+			<!--  2 EZDDNS  -->
+			<Mode>0,1,2</Mode>
+		</DDNS>
+		<IPType>
+		    <!--  IP类型  -->
+			<!--  0 静态IP  -->
+			<!--  1 PPPOE  -->
+			<!--  2 DHCP  -->
+			<Mode>0,1,2</Mode>
+		</IPType>
+		<!--  是否支持宇视云  -->
+		<Mycloud>1</Mycloud>
+		<!--  是否支持UPNP  -->
+		<UPNP>1</UPNP>
+		<!--  是否支持UNP  -->
+		<UNP>1</UNP>
+		<!--  网口个数  -->
+		<NetNum>1</NetNum>
+		<!--  网口参数  -->
+		<Net0>
+			<NetName>eth0</NetName>
+			<ElecPort>0</ElecPort>
+			<RayPort>0</RayPort>
+		</Net0>
+		<!--  通用FTP(告警联动-上传FTP)  -->
+		<BasicFTP>1</BasicFTP>
+		<!--  邮件 (告警联动-邮件联动)  -->
+		<Email>1</Email>
+	</Network>
+	<!--  编码能力  -->
+	<Encode>
+		<!-- 支持的最大流的个数  -->
+		<MaxStream>1</MaxStream>
+		<!--   图像采集制式：Windth*Hight*Framerate  -->
+		<VinMode>1920*1080*60,1920*1080*50,1920*1080*30,1920*1080*25</VinMode>
+		<!--  web与ONVIF使用的主流分辨率选项：Windth*Hight  -->
+		<Resolution>1920*1080,1280*720,720*576,704*288,352*288</Resolution>
+		<Resolution1>1920*1080,1280*720,720*576,704*288,352*288</Resolution1>
+		<Resolution2>720*576,704*288,352*288</Resolution2>
+		<!--  视频编码格式  -->
+		<!--  3 MJPEG  -->
+		<!--  6 H.264  -->
+		<!--  13 H.265  -->
+		<EncodeFormat>3,6,13</EncodeFormat>
+		<Block16x16>
+			<!--  H.264的编码能力  -->
+			<EncodeCap6>
+				<ALONE>1215000</ALONE>
+			</EncodeCap6>
+			<!--  MJPEG编码比例  -->
+			<EncodeCap3>
+				<CONV>1:1</CONV>
+			</EncodeCap3>
+		</Block16x16>
+		<!-- 限制主流不能切分辨率 -->
+		<NoModifyMainPicSize>1</NoModifyMainPicSize>
+		<!--  通用抓图  -->
+		<BasicJPEG>1</BasicJPEG>
+		<MJPEGFrameRateLimit>
+			<!--  MJPEG最小帧率 -->
+			<Default>5</Default>
+			<!--  MJPEG最小帧率 -->
+			<PicSize>720*576</PicSize>
+			<!--  MJPEG抓图大小 -->
+			<LessThan>15</LessThan>
+		</MJPEGFrameRateLimit>
+		<!--  SVC模式 -->
+		<SvcMode>1</SvcMode>
+	</Encode>
+	<!--  硬件  -->
+	<Hardware>
+		<SwitchIn>
+			<!--  输入开关量的数目和列表  -->
+			<Channel>0,1,2,3</Channel>
+			<!--  输入开关量的类型：0-普通输入开关量 1-消防报警 2-防拆报警 3-门磁报警 -->
+			<Channel0>
+				<Type>1</Type>
+			</Channel0>
+			<Channel1>
+				<Type>2</Type>
+			</Channel1>
+			<Channel2>
+				<Type>3</Type>
+			</Channel2>
+		</SwitchIn>
+		<SwitchOut>
+		    <Channel>0,1,2</Channel>
+		</SwitchOut>
+		<!--是否支持BNC输出-->
+		<BNC>1</BNC>
+		<!--是否支持MBF镜头控制-->
+		<MBF>1</MBF>
+		<DDR>1</DDR>
+		<!-- IO端口 -->
+		<IOPort>
+			<!-- web控制显示屏闪灯、爆闪灯、雨刷、触发抓拍、频爆一体灯-->
+			<PPort>0</PPort>
+			<FPort>
+				<!-- IO输出口个数 -->
+				<Number>2</Number>
+				<FPort0>
+				<!-- IO输出口模式 -->
+				<!-- 5 闸机  -->
+				<!-- 6 门锁  -->
+				<!-- 7 门禁按钮  -->
+				<!-- 8 告警输出  -->
+					<Mode>5</Mode>
+				</FPort0>
+				<FPort1>
+					<Mode>5,8</Mode>
+				</FPort1>
+			</FPort>
+		</IOPort>
+		<!-- 灯光状态 -->
+		<LightStatus>
+		<!-- 0 不支持 -->
+		<!-- 1 支持 -->
+			<WhiteLight>0</WhiteLight>
+			<GreenLight>0</GreenLight>
+			<RedLight>0</RedLight>
+		</LightStatus>
+	</Hardware>
+	<!--  软件功能  -->
+	<Function>
+		<!--  是否支持区域增强  -->
+		<ROI>1</ROI>
+		<!-- 是否支持媒体流 -->
+		<MediaStream>1</MediaStream>
+		<!-- 是否支持补丁升级 -->
+		<PatchUpdate>1</PatchUpdate>
+		<!-- 演示功能 -->
+		<Demo>
+			<!-- 是否支持低延时模式 -->
+			<LowDelay>1</LowDelay>
+			<!-- 是否支持数据包发送模式 -->
+			<SendMode>1</SendMode>
+			<!-- 是否支持特殊镜头 -->
+			<SpecialLens>1</SpecialLens>
+		</Demo>
+		<!--  1:half ball 2:bullet 3:gun 4:ball 5:IPCamera 6:PtzIPCamera  -->
+		<NewGuardPresetTime>1</NewGuardPresetTime>
+		<!-- 是否支持夏令时 -->
+		<DST>1</DST>
+		<!--  是否支持实时状态更新 -->
+		<RealtimeStatus>1</RealtimeStatus>
+	</Function>
+	<!--  屏幕菜单式调节方式(on-screen display)  -->
+	<OSD>
+		<InfoOSD>
+			<!--  类型  -->
+			<!--  1 自定义 -->
+			<!--  2 时间 -->
+			<!--  7 预置位 -->
+			<!--  10 串口信息 -->
+			<!--  14 人数统计OSD -->
+			<!--  15 网口OSD -->
+			<!--  16 时间 -->
+			<!--  17 日期 -->
+			<!--  20 滚动OSD -->
+			<!--  21 图片OSD -->
+			<!--  26 体温-->
+			<Mode>1,2,7,10,14,15,16,17,20,21,26</Mode>
+			<!--  信息OSD数量，默认为8个 -->
+			<Number>8</Number>
+			<Area>8</Area> 
+            <Line>8</Line>
+		</InfoOSD>
+		<!--  支持遮盖  -->
+		<CoverOSD>
+			<Number>8</Number>
+		</CoverOSD>
+		<!--  OSD风格 -->
+		<FontStyle>
+			<!--  0 背景 -->
+			<!--  1 描边 -->
+			<!--  2 空心 -->
+			<!--  3 正常 -->
+			<Mode>0,1,2,3</Mode>
+		</FontStyle>
+		<!--  OSD字体 -->
+		<!--  0 无 -->
+		<!--  1 中 -->
+		<!--  2 小 -->
+		<!--  3 特大 -->
+		<FontSize>
+			<Mode>0,1,2,3</Mode>
+		</FontSize>
+		<!--  OSD最小间距 -->
+		<!--  0 无 -->
+		<!--  1 一个字节间隙 -->
+		<!--  2 两个字节间隙 -->
+		<Margin>
+			<Mode>0,1,2</Mode>
+		</Margin>
+		<Colour>0</Colour>
+	</OSD>
+	<!--  音频  -->
+	<Audio>
+		<!-- 支持的音频格式 -->
+		<!--   1 G.711A  -->
+		<!--   2 G.711U  -->
+		<!--   6 AAC-LC  -->
+		<Mode>1,2,6</Mode>
+		<AudioIn>
+			<!--  随路音频的数量和列表  -->
+			<AssociatedAudio>0</AssociatedAudio>
+			<!--  音频输入通道数目和列表  -->
+			<IndependentAudio />
+			<!-- 设备支持的语音对讲使用的音频输入通道 --> 
+            <VoiceIntercomIn>0</VoiceIntercomIn>
+		</AudioIn>
+		<!--  是否支持噪声抑制 -->
+		<NoiseReduction>1</NoiseReduction>
+		<SampleRate>
+		    <!--  支持G.711A的采样率：0-8K采样率 -->
+			<Mode1>0</Mode1>
+			<!--  支持G.711U的采样率：0-8K采样率 -->
+			<Mode2>0</Mode2>
+			<!--  支持AAC-LC的采样率：0-8K采样率；1-16K采样率；6-48K采样率； -->
+			<Mode6>0,1,6</Mode6>
+		</SampleRate>
+	</Audio>
+	<!--  流  -->
+	<Video>
+		<MediaStream>
+			<!--  设备支持的流的数目  -->
+			<StreamNum>20</StreamNum>
+			<!--  设备支持的每通道单播流数目  -->
+			<UniCastPerChannel>30</UniCastPerChannel>
+			<!--  设备支持的每通道多播流数目  -->
+			<MultiCastPerChannel>1</MultiCastPerChannel>
+		</MediaStream>
+		<!--  获取一个I帧组所需缓冲的最大buffer size  -->
+		<FrameBuffer>4096</FrameBuffer>
+		<!--  最大比特率  -->
+		<MaxBitRate>50</MaxBitRate>
+	</Video>
+	<!--  告警  -->
+	<Alarm>
+		<SmartAlarm>
+			<!--  是否支持消防报警  -->
+			<FireControl>1</FireControl>      
+			<!--  是否支持防拆报警  -->  
+			<AntiDemolition>0</AntiDemolition>
+			<!--  是否支持门磁报警  -->  
+			<DoorStatus>0</DoorStatus>
+			<!--  是否支持安检门报警  -->  
+			<SecurityDoor>1</SecurityDoor>
+		</SmartAlarm>
+	</Alarm>
+    <!--  储存  -->
+	<Stor>
+		<!-- 支持的存储资源 --> 
+		<!-- 0: 储存卡 --> 
+		<!-- 1：网络硬盘 --> 
+		<Storage> 
+			<Mode>0</Mode> 
+			<VideoDownload>1</VideoDownload> 
+		</Storage> 
+		<!--  设备支持的单通道上的存储流数  -->
+		<StorStreamNum>5</StorStreamNum>
+		<!--  单张图片共享内存最大值，单位为KB  -->
+		<PicMaxMemory>300</PicMaxMemory>
+		<!--  合成照片上限数(卡口:1, 电警:3)  -->
+		<ComplexPicNum>4</ComplexPicNum>
+		<!--  缓存的最大图片数，对于深度人脸，支持40人并发，该能力取82，其他设备为20  -->
+		<BufferMaxPicNum>82</BufferMaxPicNum>
+		<!--  目录下允许的最大文件数  -->
+		<DirMaxFileNum>200</DirMaxFileNum>
+		<!--  违章照片缓存最大值  -->
+		<!--  (历史)单张照片数据由于发送缓存满发送失败重复尝试的次数  -->
+		<TcpSendRetryNum>150</TcpSendRetryNum>
+		<!--  (历史)单张照片发送失败重复发送前sleep时间，单位ms  -->
+		<TcpSendFailSleepTime>20</TcpSendFailSleepTime>
+		<!--  (实时)单张照片数据由于发送缓存满发送失败重复尝试的次数  -->
+		<RealTcpSendRetryNum>2</RealTcpSendRetryNum>
+		<!--  (实时)单张照片发送失败重复发送前sleep时间，单位ms  -->
+		<RealTcpSendFailSleepTime>25</RealTcpSendFailSleepTime>
+		<!--  间隔多少个二级索引与磁盘同步一次  -->
+		<StorIpsanFlushNum>16</StorIpsanFlushNum>
+		<!--  上传至BM的缓存补录文件格式 对应值: MP_STORAGE_TYPE_E  -->
+		<StorBMFileType>1</StorBMFileType>
+	</Stor>
+	<!--  服务器  -->
+	<Server>
+		<!--  是否支持NTP服务器  -->
+		<NTP>1</NTP>
+		<!--  是否支持VM服务器  -->
+		<VMServer>1</VMServer>
+		<!--  是否支持BM服务器  -->
+		<BMServer>1</BMServer>
+		<!--  智能服务器  -->
+		<SmartTms>
+			<!-- 智能服务器是否支持平台通信类型 -->
+			<Protocol>
+				<!--  协议类型  -->
+				<!--  1 UN-V2(长连接)  -->
+				<!--  4 FTP  -->
+				<!--  1074 KTP对接  -->
+				<!--  1080 门禁订阅上报  -->
+				<!--  1081 万睿对接  -->
+				<!--  1082 感知对接  -->
+				<!--  1083 LAPI长连接-V1.0  -->
+				<!--  1084 LAPI长连接-V2.0  -->
+				<Mode>1,4,1074,1081,1082,1083,1084</Mode>
+				<!--  协议子类型(Mode为1时有效)  -->
+				<!--  2011 检测模式  -->
+				<!--  2025 多模式核验  -->
+				<!--  6130 人证核验  -->
+				<SubMode>2011,2025,6130</SubMode>
+			</Protocol>
+			<Protocol2>
+				<Mode>1,4</Mode>
+				<SubMode>2011,2025,6130</SubMode>
+			</Protocol2>
+		</SmartTms>
+		<!--  定时发送联机信号时间间隔, 单位:ms  -->
+		<TmsRegIntervalTime>10000</TmsRegIntervalTime>
+		<!--  连续发送联机信号未收到响应个数上限(上限达到则认为断开)  -->
+		<TmsOfflineCount>3</TmsOfflineCount>
+	</Server>
+	<!-- 图像能力 -->
+	<Image>
+		<!-- 基础场景 -->
+		<!--  0 自定义  -->
+		<!--  1 室内  -->
+		<!--  2 通用  -->
+		<!--  3 车牌  -->
+		<!--  4 星光  -->
+		<!--  5 客观  -->
+		<!--  6 高感光  -->
+		<!--  7 道路强光抑制  -->
+		<!--  8 宽动态  -->
+		<!--  9 标准  -->
+		<!--  10 明亮  -->
+		<!--  11 艳丽  -->
+		<!--  12 园区强光抑制  -->
+		<!--  30 二维码  -->
+		<Scene>
+			<Mode>2,9,10,11,7,12,8,30,0</Mode>
+		</Scene>
+		<!--  图像类型  -->
+		<!--  0 视频图像  -->
+		<!--  1 抓拍图像  -->
+		<ImageType>0</ImageType>
+		<Video>
+			<Exposure>
+				<!--  曝光模式  -->
+				<!--  1 自动曝光  -->
+				<!--  2 手动曝光  -->
+				<!--  3 自定义曝光  -->
+				<!--  4 快门优先  -->
+				<!--  5 光圈优先  -->
+				<!--  6 增益优先  -->
+				<!--  7 室内 50HZ  -->
+				<!--  8 室内 60HZ  -->
+				<!--  9 低拖影  -->
+				<Mode>1,2,3,7,8,9</Mode>
+				<!--  快门  -->
+				<Shutter>
+					<!--  快门时间单位 0: us, 1: 1/s  -->
+					<Unit>1</Unit>
+					<!--  是否支持慢快门  -->
+					<SlowShutter>1</SlowShutter>
+					<!--  快门范围 (us)  -->
+					<Range>100000,1</Range>
+					<!--  最小快门调节  -->
+					<FastRange>100000,25</FastRange>
+					<!--  最大快门调节  -->
+					<SlowRange>100000,25</SlowRange>
+				</Shutter>
+				<!--  增益  -->
+				<Gain>
+					<!--  增益范围 (db)  -->
+					<Range>0,100</Range>
+					<!--  最小增益调节  -->
+					<MinRange>0,100</MinRange>
+					<!--  最大增益调节  -->
+					<MaxRange>0,100</MaxRange>
+				</Gain>
+				<!--  昼夜切换  -->
+				<DayNight>
+					<!--  昼夜模式  -->
+					<!--  1 自动模式  -->
+					<!--  2 手动模式  -->
+					<!--  3 彩转黑开关量联动模式  -->
+					<Mode>1,2,3</Mode>
+					<Time>
+						<!--  昼夜切换时间范围(s)  -->
+						<Range>3,120</Range>
+					</Time>
+				</DayNight>
+				<!--  测光  -->
+				<Metering>
+					<!--  测光模式  -->
+					<!--  1 中央测光  -->
+					<!--  2 区域测光  -->
+					<!--  3 强光抑制  -->
+					<!--  5 人脸测光  -->
+					<!--  6 点测光 -->
+				    <!--  7 智能测光 -->
+					<Mode>1,2,5,6,7</Mode>
+				</Metering>
+				<!--  是否支持曝光补偿 -->
+				<Compensate>1</Compensate>
+				<!--  宽动态  -->
+				<WDR>
+					<!--  宽动态模式  -->
+					<!--  1 自动宽动态  -->
+					<!--  2 手动宽动态  -->
+					<Mode>1,2</Mode>
+					<!--  是否支持宽动态灵敏度  -->
+					<Sensitivity>1</Sensitivity>
+				</WDR>
+			</Exposure>
+			<!--  白平衡  -->
+			<WhiteBalance>
+				<!--  白平衡模式  -->
+				<!-- 1 自动 -->
+				<!-- 2 微调 -->
+				<!-- 3 室内  -->
+				<!-- 4 室外 -->
+				<!-- 5 自动水银灯 -->
+				<!-- 6 夜间微调  -->
+				<!-- 7 自动钠灯 -->
+				<!-- 8 锁定 -->
+				<!-- 10 自动2 -->
+				<Mode>1,2,4,6,7,8,10</Mode>
+			</WhiteBalance>
+			<!-- 图像增强  -->
+			<Enhance>
+				<!--  是否支持亮度调节  -->
+				<Brightness>1</Brightness>
+				<!--  是否支持对比度调节  -->
+				<Contrast>1</Contrast>
+				<!--  是否支持饱和度调节  -->
+				<Saturation>1</Saturation>
+				<Sharpness>
+					<!--  锐度模式  -->
+					<!--  1 自动  -->
+					<!--  2 手动  -->
+					<Mode>2</Mode>
+				</Sharpness>
+				<Denoise>
+					<!--  是否支持2D降噪  -->
+					<_2D>1</_2D>
+					<!--  是否支持3D降噪  -->
+					<_3D>1</_3D>
+				</Denoise>
+				<Mirror>
+					<!--  走廊、镜像模式  -->
+					<!--  1 垂直翻转  -->
+					<!--  2 水平翻转  -->
+					<!--  3 垂直水平翻转  -->
+					<!--  4 顺时针旋转90度  -->
+					<!--  5 逆时针旋转90度  -->
+					<!--  6 逆时针旋转90度 + 水平翻转  -->
+					<Mode>1,2,3,4,5,6</Mode>
+				</Mirror>
+			</Enhance>
+			<Defog>
+				<!--  透雾模式  -->
+				<!--  1 自动透雾  -->
+				<!--  2 手动透雾  -->
+				<Mode>1,2</Mode>
+			</Defog>
+			<LedCtrl>
+				<LightMode>
+					<!-- 1 无 -->
+					<!-- 2 白光灯 -->
+					<!-- 3 红外灯 -->
+					<!-- 4 保护灯 -->
+					<!-- 5 激光灯 -->
+					<Mode>2</Mode>
+				</LightMode>
+				<WhiteCtrl>
+					<!-- 1 全局兼顾 -->
+					<!-- 2 过曝抑制 -->
+					<!-- 3 预置道路模式 -->
+					<!-- 4 手动模式 -->
+					<!-- 5 预置园区模式 -->
+					<Mode>4,8</Mode>
+					<!--  白灯默认控制模式  -->
+					<DefaultMode>4</DefaultMode>
+					<!--  白灯组数  -->
+					<LedNum>1</LedNum>
+				</WhiteCtrl>
+				<!--  白灯控制使能  -->
+				<LedCtrlEnable>1</LedCtrlEnable>
+			</LedCtrl>
+		</Video>
+	</Image>
+	<MmiCustom>
+		<!--  是否支持屏保模式  -->
+		<ScreenTimer>1</ScreenTimer>
+		<!--  是否支持Logo及提示  -->
+		<LogoEnable>1</LogoEnable>
+	</MmiCustom>
+	<!--  SDK最大登录用户  -->
+	<SDKUserNum>32</SDKUserNum>
+	<!--  总码流大小限制 单位：M  -->
+	<MaxBitRate>50</MaxBitRate>
+	<!--  智能 -->
+	<Intelligent>
+		<!--  智能类型  -->
+		<!--  0 Hisi智能（Hisi半球）  -->
+		<!--  1 通用智能（智能枪、球） -->
+		<!--  2 卡口智能 -->
+		<!--  3 电警智能 -->
+		<!--  4 停车场 -->
+		<!--  5 Smart IPC -->
+		<IVAType>
+			<Mode>5</Mode>
+		</IVAType>
+		<!--  是否支持人脸计数  -->
+		<SmartPeopleCount>1</SmartPeopleCount>
+		<!--  人脸相关能力  -->
+		<!--  1 人脸检测  -->
+		<!--  2 人脸优选  -->
+		<!--  3 人脸识别  -->
+		<!--  4 人脸属性  -->
+		<!--  5 人体关联  -->
+		<FaceFunc>1,3,4</FaceFunc>
+		<!--  是否支持人脸小图优化功能  -->
+		<FacePictureOptimization>1</FacePictureOptimization>
+	</Intelligent>
+	<!--  PTS相关能力集节点  -->
+	<ACS>
+	    <!--  是否支持速通门  -->
+		<FaceVGPro>0</FaceVGPro>
+		<!--  是否支持门禁  -->
+		<EntranceGuard>1</EntranceGuard>
+		<!--  是否支持红外双目-->
+		<DoubleEye>0</DoubleEye>
+		<!--  活体等级  -->
+		<!--  0 低等  -->
+		<!--  1 中等  -->
+		<!--  2 高等  -->
+		<LivenessGrade>0,1,2</LivenessGrade>
+		<!--  是否支持二维码  -->
+		<QRCodeIsSupport>0</QRCodeIsSupport>
+		<!--  是否支持蓝牙  -->
+		<BlueToothIsSupport>0</BlueToothIsSupport>
+		<!--  是否支持读卡器控制  -->
+		<ReaderCtrlIsSupport>0</ReaderCtrlIsSupport>
+		<!--  算法人脸模型相关  -->
+		<FaceModel>
+			<!--  是否支持简单模型  -->
+			<SupportSimpleModel>1</SupportSimpleModel>
+			<!--  是否支持复杂模型  -->
+			<SupportHardModel>0</SupportHardModel>
+		</FaceModel>
+		<!--  联动动作  -->
+		<LinkAction>
+			<!--  32: 联动开门 -->
+			<!--  33: 联动状态灯提示 -->
+			<!--  34: 联动语音提示 -->
+			<!--  35: 联动人机提示 -->
+			<!--  36: 联动韦根输出 -->
+			<!--  核验成功联动动作  -->
+			<CheckSuccess>32,33,34,35,36</CheckSuccess>
+			<!--  核验失败联动动作  -->
+			<CheckFail>33,34,35</CheckFail>
+		</LinkAction>
+		<MemberLib>
+		    <!--  支持的人脸库类型  -->
+			<!--  0 默认无效 -->
+			<!--  1 黑名单 -->
+			<!--  2 灰名单/陌生人 -->
+			<!--  3 员工 -->
+			<!--  4 访客 -->
+			<Type>3,4</Type>
+			<!--  卡证信息  -->
+			<Identification>
+				<!--  支持的证卡类型  -->
+				<!--  0 身份证 -->
+				<!--  1 IC卡 -->
+				<!--  2 护照 -->
+				<!--  3 行驶证 -->
+				<!--  4 人员密码 -->
+				<!--  99 其他 -->
+				<Type>0,1</Type>
+				<!--  卡证信息最大个数  -->
+				<MaxNum>2</MaxNum>
+			</Identification>
+			<!--  人员时间模板最大个数  -->
+			<TimeTemplateMaxNum>16</TimeTemplateMaxNum>
+			<TimeTemplateExceptionMaxNum>16</TimeTemplateExceptionMaxNum>
+			<!--  核验模板最大个数  -->
+			<VerifyTemplateMaxNum>16</VerifyTemplateMaxNum>
+			<!--  库容相关 -->
+			<LibCapacity>
+				<!--  最大人员容量 -->
+				<MaxPeopleNum>20000</MaxPeopleNum>
+				<!--  最大人脸容量 -->
+				<MaxFaceNum>20000</MaxFaceNum>
+				<!--  最大卡证容量 -->
+				<MaxCardNum>40000</MaxCardNum>
+			</LibCapacity>
+			<!--  人脸照片相关 -->
+			<Image>
+				<!--  人脸照片类型 0：JPG -->
+				<Type>0</Type>
+				<!--  单个人脸照片最大个数 -->
+				<MaxNum>6</MaxNum>
+				<!--  人脸照片最大值 单位：K -->
+				<MaxSize>512</MaxSize>
+				<!--  人脸照片最小值 单位：K -->
+				<MinSize>10</MinSize>
+			</Image>
+		</MemberLib>
+		<!--  设备工作模式 -->
+		<!--  1 普通门禁模式;  -->
+		<!--  2 录入模式;  -->
+		<!--  5 可视对讲门禁模式;  -->
+		<!--  6 室内机模式;  -->
+		<!--  8 考勤模式;  -->
+		<DevWorkMode>1</DevWorkMode>
+		<!--  核验 -->
+		<Verification>
+			<!--  核验模式 -->
+			<!--  1 人证核验 -->
+			<!--  2 号码白名单 -->
+			<!--  3 人脸白名单 -->
+			<!--  4 密码比对 -->
+			<!--  5 人证核验+号码白名单 -->
+			<!--  6 号码白名单+人脸白名单 -->
+			<!--  7 人证核验+刷卡 -->
+			<Staff>1,2,3,4,5,6</Staff>
+			<Vistor>1,2,3,4,5,6</Vistor>
+			<Black>16,256</Black>
+		</Verification>
+		<Attribute>
+			<!--属性模式 -->
+			<!--  1 安全帽 -->
+			<!--  2 口罩 -->
+			<!--  3 体温 -->
+			<!--  4 健康码 -->
+			<Mode>1,2,3</Mode>
+		</Attribute>
+		<RecordReport>
+			<!-- 核验记录上报使用场景 -->
+			<!-- 0: 通用场景 -->
+			<!-- 1：云服务场景（APP使用） -->
+			<SceneMode>0,1</SceneMode>
+		</RecordReport>
+		<!-- 屏幕分辨率 -->
+		<Screen>
+			<ScreenWidth>600</ScreenWidth>
+			<ScreenHeight>1024</ScreenHeight>
+		</Screen>
+		<!-- 支持可配置的语音类型：0中文简体 1英文 2中文繁体 35日文 36韩文 -->
+		<Language>0,1</Language>
+	</ACS>
+</MWare>

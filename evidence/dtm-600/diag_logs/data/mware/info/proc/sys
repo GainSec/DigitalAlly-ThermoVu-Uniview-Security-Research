@@ -1,0 +1,39 @@
+
+[SYS] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:45]
+
+
+-----MODULE STATUS--------------------------------------------------------------
+  Status
+     run
+
+-----SCALE COEFF INFO-----------------------------------------------------------
+            RangeLevel   RangeValue    HorLum    HorChr    VerLum    VerChr
+           RANGE_0   (    0,  8/64)   LEVEL_0   LEVEL_0   LEVEL_0   LEVEL_0
+           RANGE_1   [ 8/64, 10/64)   LEVEL_1   LEVEL_1   LEVEL_1   LEVEL_1
+           RANGE_2   [10/64, 15/64)   LEVEL_2   LEVEL_2   LEVEL_2   LEVEL_2
+           RANGE_3   [15/64, 19/64)   LEVEL_3   LEVEL_3   LEVEL_3   LEVEL_3
+           RANGE_4   [19/64, 24/64)   LEVEL_4   LEVEL_4   LEVEL_4   LEVEL_4
+           RANGE_5   [24/64, 29/64)   LEVEL_5   LEVEL_5   LEVEL_5   LEVEL_5
+           RANGE_6   [29/64, 33/64)   LEVEL_6   LEVEL_6   LEVEL_6   LEVEL_6
+           RANGE_7   [33/64, 35/64)   LEVEL_7   LEVEL_7   LEVEL_7   LEVEL_7
+           RANGE_8   [35/64, 38/64)   LEVEL_8   LEVEL_8   LEVEL_8   LEVEL_8
+           RANGE_9   [38/64, 42/64)   LEVEL_9   LEVEL_9   LEVEL_9   LEVEL_9
+           RANGE_10  [42/64, 45/64)  LEVEL_10  LEVEL_10  LEVEL_10  LEVEL_10
+           RANGE_11  [45/64, 48/64)  LEVEL_11  LEVEL_11  LEVEL_11  LEVEL_11
+           RANGE_12  [48/64, 51/64)  LEVEL_12  LEVEL_12  LEVEL_12  LEVEL_12
+           RANGE_13  [51/64, 53/64)  LEVEL_13  LEVEL_13  LEVEL_13  LEVEL_13
+           RANGE_14  [53/64, 55/64)  LEVEL_14  LEVEL_14  LEVEL_14  LEVEL_14
+           RANGE_15  [55/64, 57/64)  LEVEL_15  LEVEL_15  LEVEL_15  LEVEL_15
+           RANGE_16  [57/64, 60/64)  LEVEL_16  LEVEL_16  LEVEL_16  LEVEL_16
+           RANGE_17  [60/64,     1]  LEVEL_17  LEVEL_17  LEVEL_17  LEVEL_17
+           RANGE_18  (    1,   MAX)  LEVEL_18  LEVEL_18  LEVEL_18  LEVEL_18
+
+-----MEM TABLE------------------------------------------------------------------
+     Mod         ModName     Dev     Chn         MmzName
+
+-----BIND RELATION TABLE--------------------------------------------------------
+  FirMod  FirDev  FirChn  SecMod  SecDev  SecChn  TirMod  TirDev  TirChn    SendCnt     rstCnt
+    vpss       0       1    venc       0       0    null       0       0          0          0
+    vpss       0       2      vo       0       0    null       0       0          0          0
+      vi       0       0    vpss       0       1    venc       0       0      15411          0
+      vi       0       0    vpss       0       2      vo       0       0      15411          0

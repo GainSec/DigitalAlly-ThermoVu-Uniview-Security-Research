@@ -1,0 +1,24 @@
+<<WebInfo>>
+  Scene:2, Luma:66
+  Bright:128, Sat:128, Contr:128, Hue:128, Sharpen:128, 2D:128, 3D:128, MirMode:6
+  AEMode:1, Shut:100, Gain:0, Iris:160, MinShut:12000, MaxShut:50, MinGain:0
+  MaxGain:36, MinIris:960, MaxIris:160, ExpComp:0, MetrMode:4
+  SlowEn:0, SlowAttr:12, WDREn:0, WDRLevel:5, WDROnSen:5, WDROffSen:5
+  AntiFlicker:0, DNMode:0, DNSense:5, DNTime:3
+  LedType:1, CtrlMode:3, LedNear:500, LedMid:0, LedFar:0, Angle:6000
+  WBMode:0, RedOff:0, BlueOff:0
+  DefogEn:0, DefLevel:5, ExtMode:2, Percent:0, ExtIrisMode:0
+<<SocInfo>>
+  SnsMode:0, AutoStop:0, BuildInfo:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y, LensType:0
+  Luma:50, Sat:44, Contr:51, Hue:50
+  HiAEAlg:0, ExpTarget:66, Luma:66, Shut:50, Gain:26, ISO:2132, Iris:268435455
+  ExpMAX:0, ExpTime:0, AGain:0, DGain:0, ISPDGain:0
+  DRCEn:1, DRCStren:7
+  EnvLux:27379, DynFunc:0, DynVal:0, N2DVal:38000, D2NVal:8500, LDR:0
+  DayNight:1, LEDVal:0
+  AreaNum:989, N2DThrRatio:1, RGRatio:76, BGRatio:50, IrPercent:0
+  AlgType:1, WBMode:0, CTemp:3721, RGain:1407, GGain:1089, BGain:2436, Speed:128
+  WhiteLel:65535, BlackLel:0, GRGain:13193, GBGain:16339, GSum:65535, RGStrth:128, BGStrth:128
+  HighTemp:10000, LowTemp:2000, OutStats:0
+  WdrMode:0, OvExpThr:175, HighNum:9, DarkLuma:61, GainWdr:0
+  DehazeStr:0

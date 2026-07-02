@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <PAGE_100>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_114><source></source><translation>Welcome</translation></ITEM_114> 
+        <ITEM_120><source></source><translation>Employee</translation></ITEM_120> 
+        <ITEM_123><source></source><translation>Visitor</translation></ITEM_123> 
+        <ITEM_133><source></source><translation>Please close to the face frame</translation></ITEM_133> 
+        <ITEM_157><source>Please Scan QRCode</source><translation>Please Scan QRCode</translation></ITEM_157>
+        <ITEM_159><source></source><translation>测温区</translation></ITEM_159>
+        <ITEM_185><source></source><translation>Total :</translation></ITEM_185>
+        <ITEM_187><source></source><translation>Normal :</translation></ITEM_187>
+    </PAGE_100>  
+    <PAGE_111>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_103><source>Cancle</source><translation>Back</translation></ITEM_103>         
+        <ITEM_106><source>help</source><translation>See Help</translation></ITEM_106>   
+        <ITEM_107><source>DisCribe</source><translation>Please enter Room No. and then press OK.</translation></ITEM_107>    
+        <ITEM_108><source>DisCribe</source><translation>Please enter your room or personal password and then press OK.</translation></ITEM_108>    
+        <ITEM_111><source>1 Unit</source><translation>Unit 1</translation></ITEM_111>       
+        <ITEM_112><source>2 Unit</source><translation>Unit 2</translation></ITEM_112>       
+        <ITEM_113><source>3 Unit</source><translation>Unit 3</translation></ITEM_113>      
+        <ITEM_115><source>test</source><translation>Recognized successfully. Door opened.</translation></ITEM_115>  
+        <ITEM_116><source>test</source><translation>Wrong password. Please try again.</translation></ITEM_116>
+        <ITEM_118><source>test</source><translation>Unscheduled successfully</translation></ITEM_118> 		
+		<ITEM_119><source>test</source><translation>Verification succeeded.Please measure temperature</translation></ITEM_119> 		
+    </PAGE_111>
+    <PAGE_113>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_102><source>test</source><translation>Activation Config</translation></ITEM_102>         
+    </PAGE_113> 
+    <PAGE_112>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_111><source></source><translation>Waiting</translation></ITEM_111>
+        <ITEM_112><source></source><translation>Answering</translation></ITEM_112> 
+        <ITEM_113><source></source><translation>Calling</translation></ITEM_113> 
+        <ITEM_120><source></source><translation>Hanging Up</translation></ITEM_120> 
+        <ITEM_121><source></source><translation>Call Rejected</translation></ITEM_121> 
+        <ITEM_122><source></source><translation>Overtime hang-up</translation></ITEM_122> 
+        <ITEM_123><source></source><translation>Unable to Connect</translation></ITEM_123> 
+        <ITEM_124><source></source><translation>The household you are calling is busy.</translation></ITEM_124>
+        <ITEM_125><source></source><translation>No Answer</translation></ITEM_125>
+        <ITEM_126><source></source><translation>Network Failure</translation></ITEM_126>
+        <ITEM_127><source></source><translation>Incorrect password configured for the outdoor station.</translation></ITEM_127>
+        <ITEM_130><source></source><translation>Call Management Center</translation></ITEM_130>
+        <ITEM_131><source></source><translation>Call Reception</translation></ITEM_131>
+        <ITEM_132><source></source><translation>Call Director</translation></ITEM_132>
+        <ITEM_133><source></source><translation>Room No.</translation></ITEM_133>
+    </PAGE_112>	
+    <PAGE_114>		
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>Basic Info</translation></ITEM_102>
+        <ITEM_103><source></source><translation>Model</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>Firmware Version</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>Hardware Version</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>Boot Version</translation></ITEM_106> 
+        <ITEM_107><source></source><translation>Serial No.</translation></ITEM_107> 
+        <ITEM_108><source></source><translation>Network</translation></ITEM_108> 
+        <ITEM_109><source></source><translation>MAC Address</translation></ITEM_109>
+        <ITEM_110><source></source><translation>System Time</translation></ITEM_110>
+        <ITEM_111><source></source><translation>Operation Time</translation></ITEM_111>
+        <ITEM_112><source></source><translation>Management Server</translation></ITEM_112>
+        <ITEM_113><source></source><translation>Edge Storage</translation></ITEM_113>
+        <ITEM_135><source></source><translation>Day(s)</translation></ITEM_135>
+        <ITEM_136><source></source><translation>Hour(s)</translation></ITEM_136>
+        <ITEM_137><source></source><translation>Minute(s)</translation></ITEM_137>
+        <ITEM_138><source></source><translation>Offline</translation></ITEM_138>
+        <ITEM_139><source></source><translation>Online</translation></ITEM_139>
+        <ITEM_140><source></source><translation>Non-existent</translation></ITEM_140>
+        <ITEM_141><source></source><translation>fault</translation></ITEM_141>
+        <ITEM_142><source></source><translation>detecting</translation></ITEM_142>
+        <ITEM_143><source></source><translation>Normal</translation></ITEM_143>
+    </PAGE_114>
+    <PAGE_115>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_101><source>test</source><translation>Basic Info</translation></ITEM_101>         
+        <ITEM_102><source>test</source><translation>Name</translation></ITEM_102>   
+        <ITEM_103><source>test</source><translation>Gender</translation></ITEM_103>    
+        <ITEM_104><source>test</source><translation>Card No.</translation></ITEM_104>    
+        <ITEM_105><source>test</source><translation>ID No.</translation></ITEM_105>       
+        <ITEM_106><source>test</source><translation>Face Picture</translation></ITEM_106>
+        <ITEM_107><source>test</source><translation>Male</translation></ITEM_107>       
+        <ITEM_108><source>test</source><translation>Female</translation></ITEM_108>       
+        <ITEM_109><source>test</source><translation>Face Library</translation></ITEM_109>       
+        <ITEM_111><source>test</source><translation> </translation></ITEM_111>       
+        <ITEM_112><source>test</source><translation> </translation></ITEM_112>              
+        <ITEM_120><source>test</source><translation>Save</translation></ITEM_120>      
+        <ITEM_130><source>test</source><translation>User Management</translation></ITEM_130>  		
+    </PAGE_115>  
+    <PAGE_116>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>Network Setting</translation></ITEM_102>
+        <ITEM_103><source></source><translation>Cable ports</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>Access to IP</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>Dual-network isolation</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>IP Address</translation></ITEM_106> 
+        <ITEM_107><source></source><translation>Subnet Mask</translation></ITEM_107> 
+        <ITEM_108><source></source><translation>Default Gateway</translation></ITEM_108> 
+    </PAGE_116>
+    <PAGE_117>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_105><source>test</source><translation>Please face the camera.</translation></ITEM_105>         
+        <ITEM_106><source>test</source><translation>Confirm</translation></ITEM_106> 		
+    </PAGE_117>  
+    <PAGE_118>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_102><source>test</source><translation>Device Location</translation></ITEM_102>         
+        <ITEM_103><source></source><translation>Management Center IP</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>Community</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>Building</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>Configurable Units</translation></ITEM_106>  
+        <ITEM_107><source></source><translation>Unit</translation></ITEM_107>
+        <ITEM_108><source></source><translation>Unit</translation></ITEM_108>
+        <ITEM_109><source></source><translation>Unit</translation></ITEM_109>
+        <ITEM_110><source></source><translation>Unit</translation></ITEM_110>
+    </PAGE_118>
+    <PAGE_119>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>Password Configuration</translation></ITEM_102>
+        <ITEM_103><source></source><translation>Enable</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>Yes</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>No</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>Password</translation></ITEM_106> 
+        <ITEM_107><source></source><translation>Confirm</translation></ITEM_107> 
+        <ITEM_108><source></source><translation>Tip: Please enter an 8-character password.</translation></ITEM_108> 
+    </PAGE_119>      
+    <PAGE_120>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>Please enter the password.</translation></ITEM_102>
+        <ITEM_103><source></source><translation>Please enter your password again.</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>Inconsistent input, please re-enter</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>At least two from the following are required: uppercase letter(A-Z), lowercase letter(a-z), digit(0-9), underscore(_) and hyphen(-).</translation></ITEM_105> 
+        <ITEM_110><source></source><translation>OK</translation></ITEM_110>
+        <ITEM_108><source></source><translation>Tip: Please enter an 8-32 character password.</translation></ITEM_108>		
+    </PAGE_120> 
+    <PAGE_121>
+         <ITEM_0><source></source><translation></translation></ITEM_0> 
+         <ITEM_101><source></source><translation>Please enter the password.</translation></ITEM_101>
+         <ITEM_103><source></source><translation>Incorrect Password</translation></ITEM_103> 
+    </PAGE_121>    
+    <PAGE_122>
+         <ITEM_0><source></source><translation></translation></ITEM_0> 
+         <ITEM_101><source></source><translation>Old Password</translation></ITEM_101>
+         <ITEM_102><source></source><translation>New Password</translation></ITEM_102> 
+         <ITEM_103><source></source><translation>Confirm</translation></ITEM_103> 
+         <ITEM_104><source></source><translation>Tip: Please enter an 8-character password.At least two from the following are required: uppercase letter(A-Z), lowercase letter(a-z), digit(0-9), underscore(_) and hyphen(-).</translation></ITEM_104> 
+         <ITEM_110><source></source><translation>Activation Password</translation></ITEM_110> 
+    </PAGE_122>
+	<PAGE_123>
+		<ITEM_0><source></source><translation></translation></ITEM_0>
+		<ITEM_101><source></source><translation>Device Restart</translation></ITEM_101>
+		<ITEM_102><source></source><translation>Config Management</translation></ITEM_102>
+		<ITEM_103><source></source><translation>Restore factory defaults including network and user settings.</translation></ITEM_103>
+		<ITEM_110><source></source><translation>Device Maintenance</translation></ITEM_110>
+		<ITEM_111><source></source><translation>Restart</translation></ITEM_111>
+		<ITEM_112><source></source><translation>Default</translation></ITEM_112>
+    </PAGE_123>	
+    <PAGE_126>
+         <ITEM_0><source></source><translation></translation></ITEM_0> 
+         <ITEM_102><source></source><translation>Authentication scene</translation></ITEM_102>
+         <ITEM_104><source></source><translation>Tip: For more authentication configuration, please log into the web interface.</translation></ITEM_104> 
+         <ITEM_105><source></source><translation>Temperature Range</translation></ITEM_105>
+         <ITEM_106><source></source><translation>Temperature Alarm Threshold</translation></ITEM_106>
+         <ITEM_107><source></source><translation>Tip: Exceeding the alarm threshold is abnormal high temperature.</translation></ITEM_107> 			
+         <ITEM_108><source></source><translation>测温方式</translation></ITEM_108>
+         <ITEM_109><source></source><translation>Mask Detection</translation></ITEM_109>			
+         <ITEM_110><source></source><translation>℃ ~</translation></ITEM_110>
+         <ITEM_111><source></source><translation>℃</translation></ITEM_111>	
+         <ITEM_112><source></source><translation>℃</translation></ITEM_112>	
+         <ITEM_115><source></source><translation>Temperature Unit</translation></ITEM_115>
+         <ITEM_116><source></source><translation>   ℃</translation></ITEM_116>	
+         <ITEM_117><source></source><translation>   ℉</translation></ITEM_117>	
+         <ITEM_122><source></source><translation>   测额温</translation></ITEM_122>	
+         <ITEM_123><source></source><translation>   测腕温</translation></ITEM_123>			
+         <ITEM_124><source></source><translation>   Temperature Measurement Only</translation></ITEM_124> 
+         <ITEM_125><source></source><translation>   Face Recognition + Temperature Measurement</translation></ITEM_125>
+         <ITEM_126><source></source><translation>   Face Authentication + Temperature Measurement</translation></ITEM_126>	
+         <ITEM_127><source></source><translation>   人证比对测温</translation></ITEM_127>
+    </PAGE_126>  	
+    <ERR>
+        <TEXT_1022>
+            <source>Param failed.</source>
+            <translation>Setting the parameter(s) failed.</translation>
+        </TEXT_1022>
+    </ERR>	
+    <TIP>
+        <TEXT_1001><source>test</source><translation>Recognized successfully. Door opened.</translation></TEXT_1001>   
+        <TEXT_1002><source>test</source><translation>Wrong password. Please try again.</translation></TEXT_1002> 
+        <TEXT_1003><source>test</source><translation>Registered successfully. Continue?</translation></TEXT_1003> 
+        <TEXT_1004><source>test</source><translation>Registration failed.</translation></TEXT_1004>   
+        <TEXT_1005><source>test</source><translation>Settings changed. Save the changed settings?</translation></TEXT_1005>
+        <TEXT_1006><source>test</source><translation>Saved successfully.</translation></TEXT_1006>
+        <TEXT_1007><source>test</source><translation>Recognition failed.</translation></TEXT_1007>        
+        <TEXT_1008><source>test</source><translation>Please enter your name.</translation></TEXT_1008>      
+        <TEXT_1009><source>test</source><translation>At least one is required: card No./ID No./photo.</translation></TEXT_1009>  
+        <TEXT_1010><source>test</source><translation>No change has been made.</translation></TEXT_1010> 
+        <TEXT_1011><source>test</source><translation>Parameter cannot be empty.</translation></TEXT_1011>
+        <TEXT_1012><source>test</source><translation>Unit No. must be unique.</translation></TEXT_1012>
+        <TEXT_1013><source>test</source><translation>Unit No. cannot be 0.</translation></TEXT_1013>       
+        <TEXT_1014><source>test</source><translation>Building No. cannot be 0.</translation></TEXT_1014>
+        <TEXT_1015><source>test</source><translation>Invalid IP Address</translation></TEXT_1015>
+        <TEXT_1016><source>test</source><translation>Invalid Subnet Mask</translation></TEXT_1016>
+        <TEXT_1017><source>test</source><translation>Invalid Gateway Address</translation></TEXT_1017>
+        <TEXT_1018><source>test</source><translation>Invalid Combination of IP Address and Subnet Mask.</translation></TEXT_1018>
+        <TEXT_1019><source>test</source><translation>IP Address Conflict</translation></TEXT_1019>	
+        <TEXT_1020><source>test</source><translation>Admin password cannot be empty.</translation></TEXT_1020>
+        <TEXT_1021><source>test</source><translation>The entered passwords do not match.</translation></TEXT_1021>
+        <TEXT_1022><source>test</source><translation>Invalid password. Please set an 8-character password.</translation></TEXT_1022> 	  	
+        <TEXT_1023><source>test</source><translation>Weak password. Please try again.</translation></TEXT_1023>        
+        <TEXT_1024><source>test</source><translation>Invalid password format.</translation></TEXT_1024>        
+        <TEXT_1025><source>test</source><translation>Incorrect old password.</translation></TEXT_1025>
+        <TEXT_1026><source>test</source><translation>Upper temperature value must be greater than lower temperature value.</translation></TEXT_1026> 		
+        <TEXT_1027><source>test</source><translation>Lower temperature value must be greater than 30℃.</translation></TEXT_1027> 	
+        <TEXT_1028><source>test</source><translation>Upper temperature value must be less than 45℃.</translation></TEXT_1028> 	
+        <TEXT_1029><source>test</source><translation>Temperature alarm threshold must be between 30℃ to 45℃.</translation></TEXT_1029> 	
+        <TEXT_1030><source>test</source><translation>Device will restart. Continue?</translation></TEXT_1030> 
+        <TEXT_1031><source>test</source><translation>Device will restore basic default settings and restart. Continue?</translation></TEXT_1031> 
+        <TEXT_1032><source>test</source><translation>Device will restore all factory default settings and restart. Continue?</translation></TEXT_1032>
+        <TEXT_1033><source>test</source><translation>Lower temperature value must be greater than 86℉.</translation></TEXT_1033> 	
+        <TEXT_1034><source>test</source><translation>Upper temperature value must be less than 113℉.</translation></TEXT_1034> 	
+        <TEXT_1035><source>test</source><translation>Temperature alarm threshold must be between 86℉ to 113℉.</translation></TEXT_1035> 	
+        <TEXT_1036><source>test</source><translation>The alarm temperature value should be in the valid temperature range.</translation></TEXT_1036>
+		<TEXT_1050><source>test</source><translation>Processing Failed</translation></TEXT_1050>            
+
+    </TIP>    
+</root>

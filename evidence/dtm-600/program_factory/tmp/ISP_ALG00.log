@@ -1,0 +1,442 @@
+2011-12-01 00:00:01.151 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {8982,2879,1374}
+2011-12-01 00:00:01.151 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.151 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.152 awb_statselect.c-563@AWB_SS_Init              [INF][AWB]SS module init!
+2011-12-01 00:00:01.152 isp_awb.c-99        @AWB_Init                 [INF][AWB]awb handle init done! id=0 type=0
+2011-12-01 00:00:01.399 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.400 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.400 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.400 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.400 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.400 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.402 adn_conf.c-5084     @CONF_GetAdnMinLux        [INF][ADN]Adn Min Envlux = 39
+2011-12-01 00:00:01.402 adn_conf.c-4575     @CONF_GetSwitchMethod     [INF][ADN]ADN IRDevice = 1, LDRDevice = 0, UseSoft = 1, UseLdr = 0
+2011-12-01 00:00:01.402 adn_conf.c-4591     @CONF_GetSwitchMethod     [INF][ADN]ADN SwitchMethod = 0
+2011-12-01 00:00:01.403 adn_conf.c-4945     @CONF_GetParamPtr         [INF][ADN]ADN ulPlatformType = 7, ulStructType = 16, ulSensorType = 48, ET-S51H_SC2310
+2011-12-01 00:00:01.403 adn_conf.c-4954     @CONF_GetParamPtr         [ERR][ADN]ADN ppstCfgProduct is NULL
+2011-12-01 00:00:01.403 adn_conf.c-5010     @CONF_GetParamPtr         [ERR][ADN]pstSoftParam is NULL
+2011-12-01 00:00:01.416 adn_conf.c-5045     @CONF_GetParamPtr         [ERR][ADN]pstLdrParam is NULL
+2011-12-01 00:00:01.416 adn_stat.c-1060     @ADN_STAT_Init            [WRN][ADN]STAT_GetParamPtr fail
+2011-12-01 00:00:01.416 adn_stat.c-1075     @ADN_STAT_Init            [INF][ADN]STAT: Lin_Exp[796000: 1 10000 100 45] Hdr_Exp[796000: 1 10000 100 45]
+2011-12-01 00:00:01.967 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[0]
+2011-12-01 00:00:03.629 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.630 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.630 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.630 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.630 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.630 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.630 adn_ctrl.c-578      @ADN_CTRL_SetDNCfg        [INF][ADN]Set DayNight Mode[0] Sense[2] Time[3]
+2011-12-01 00:00:03.696 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[5]
+2011-12-01 00:00:03.726 ae2_video.c-2029    @VID_Ctrl                 [ERR][AE]Not support cmd 219
+2011-12-01 00:00:03.733 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:03.733 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.733 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.733 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.733 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.733 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.733 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.765 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.766 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.767 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:04.072 led_ctrl.c-1234     @LED_CTRL_SetSwitchCond   [WRN][LED]Set cond is invalid value
+2011-12-01 00:00:04.087 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:04.087 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.087 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.087 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.087 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:07.067 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2172] Exp[20000, 2850, 7] SwitchCnt[1]
+2011-12-01 00:00:11.027 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[411217] Exp[10000, 271, 63] SwitchCnt[2]
+2011-12-01 00:00:13.449 led_ctrl.c-1158     @LED_CTRL_SetCtrlCfg      [INF][LED]Set Method[0], Strength[500 0 0 6000]
+2011-12-01 00:00:13.449 led_ctrl.c-1203     @LED_CTRL_SetCond         [INF][LED]Set Cond[0 8 0 8]
+2011-12-01 00:00:14.318 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2172] Exp[20000, 2850, 7] SwitchCnt[3]
+2011-12-01 00:00:16.078 isp_interface.c-1978@_ISP_SetImageStableCallback [INF][BP]func entry
+2011-12-01 00:00:18.038 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[215399] Exp[10000, 542, 66] SwitchCnt[4]
+2011-12-01 00:00:21.839 adn_ctrl.c-1109     @ADN_CTRL_Run             [INF][ADN]Open the Function of Dynamic
+2011-12-01 00:00:21.839 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2172] Exp[20000, 2850, 7] SwitchCnt[5]
+1970-01-01 04:34:14.076 isp_log.c-529       @IBP_LOG_Init             [INF][BP]bp log init success!
+1970-01-01 04:34:14.077 isp_module.c-1512   @MOD_InitProcEpoll        [INF][BP]proc ISP init epoll done! epollFd=4 socketFd=3
+1970-01-01 04:34:14.078 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP_CMD] start
+1970-01-01 04:34:14.078 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP_CMD] success, module id 0x90000002
+1970-01-01 04:34:14.078 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP] start
+1970-01-01 04:34:14.078 isp_module.c-1421   @MOD_ModuleThreadProc     [INF][BP]enter module thread: szModuleName=ISP_CMD ulProcID=0xbfffffff ulModuleID=0x90000002
+1970-01-01 04:34:14.078 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP] success, module id 0x9fffffff
+1970-01-01 04:34:14.078 isp_module.c-1364   @MOD_ProcThreadProc       [INF][BP]enter proc thread: szModuleName=ISP ulProcID=0xbfffffff ulModuleID=0x9fffffff
+1970-01-01 04:34:14.079 isp_module.c-1752   @MOD_SysInit              [INF][BP]module sys init succeed! procName=ISP procID=0xbfffffff
+2011-12-01 00:00:00.993 isp_log.c-529       @IBP_LOG_Init             [INF][BP]bp log init success!
+2011-12-01 00:00:00.995 isp_module.c-1512   @MOD_InitProcEpoll        [INF][BP]proc ISP init epoll done! epollFd=15 socketFd=14
+2011-12-01 00:00:00.995 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP_CMD] start
+2011-12-01 00:00:00.996 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP_CMD] success, module id 0x90000002
+2011-12-01 00:00:00.996 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP] start
+2011-12-01 00:00:00.996 isp_module.c-1421   @MOD_ModuleThreadProc     [INF][BP]enter module thread: szModuleName=ISP_CMD ulProcID=0xbfffffff ulModuleID=0x90000002
+2011-12-01 00:00:00.996 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP] success, module id 0x9fffffff
+2011-12-01 00:00:00.996 isp_module.c-1752   @MOD_SysInit              [INF][BP]module sys init succeed! procName=ISP procID=0xbfffffff
+2011-12-01 00:00:00.996 isp_module.c-1364   @MOD_ProcThreadProc       [INF][BP]enter proc thread: szModuleName=ISP ulProcID=0xbfffffff ulModuleID=0x9fffffff
+2011-12-01 00:00:01.089 ae2_cfg.c-785       @CFG_Init                 [INF][AE]CFG init done!
+2011-12-01 00:00:01.090 isp_util.c-204      @__ISP_div0_lu            [WRN][BP]in file=ae2_video.c line=1532: div 0 detected! divdend=30 divisor=0
+2011-12-01 00:00:01.090 ae2_stat.c-2982     @STAT_Init                [INF][AE]STAT init done!
+2011-12-01 00:00:01.090 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:01.091 ae2_fac.c-982       @FAC_Init                 [INF][AE]FAC init done!
+2011-12-01 00:00:01.091 ae2_tar_disc.c-1001 @TAR_RefCompInit          [INF][AE]Ref comp init!
+2011-12-01 00:00:01.091 ae2_tar_cont.c-300  @TAR_SpotCompInit         [INF][AE]Spot comp init done!
+2011-12-01 00:00:01.091 ae2_tar.c-2672      @TAR_Init                 [INF][AE]TAR init done!
+2011-12-01 00:00:01.092 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.092 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.092 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.092 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.092 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.093 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.093 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:01.093 ae2_el.c-3148       @EL_Init                  [INF][AE]EL init done!
+2011-12-01 00:00:01.093 ae2_debug.c-677     @DBG_Init                 [INF][AE]DEBUG init done!
+2011-12-01 00:00:01.093 isp_ae2.c-101       @AE2_Init                 [INF][AE]AE init done! szPlatName=HI3516DV300 HandleId=0 HandleType=0
+2011-12-01 00:00:01.115 awb_wzslice.c-973   @AWB_WZS_Slice            [INF][AWB]stCustomWZone.ulLutNum illegal! change to butt
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {465,1317,4906,6084}->(0,5)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {518,1368,3980,4943}->(5,9)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {570,1443,3237,4042}->(9,12)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {651,1707,2197,3348}->(12,16)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1016,2049,1450,2602}->(16,19)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1495,2150,1232,2110}->(19,20)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1841,2606,1058,1970}->(20,22)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {2444,3274,938,1842}->(22,25)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {3190,4313,859,1733}->(25,30)
+2011-12-01 00:00:01.116 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {4272,5717,782,1658}->(30,37)
+2011-12-01 00:00:01.116 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {465,1275,5852,6100}->(0,4)
+2011-12-01 00:00:01.116 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {475,1285,5617,5871}->(4,8)
+2011-12-01 00:00:01.116 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {485,1295,5382,5642}->(8,11)
+2011-12-01 00:00:01.116 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {495,1305,5147,5413}->(11,15)
+2011-12-01 00:00:01.116 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {505,1315,4912,5184}->(15,18)
+2011-12-01 00:00:01.117 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {518,1329,4682,4949}->(18,21)
+2011-12-01 00:00:01.117 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {531,1341,4454,4725}->(21,24)
+2011-12-01 00:00:01.117 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {544,1353,4226,4501}->(24,27)
+2011-12-01 00:00:01.117 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {557,1365,3998,4277}->(27,30)
+2011-12-01 00:00:01.117 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {570,1393,3740,4047}->(30,33)
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {465,675,5865,6090}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {665,875,5868,6093}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {865,1075,5871,6096}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {1065,1275,5874,6099}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {475,685,5621,5868}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {675,884,5630,5871}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {875,1083,5639,5874}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {1075,1282,5648,5877}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {486,762,5399,5633}
+2011-12-01 00:00:01.117 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {752,1028,5404,5645}
+2011-12-01 00:00:01.117 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {1496,891,5500}
+2011-12-01 00:00:01.117 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {1766,943,4349}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {2029,995,3673}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {2534,1099,2912}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {4617,1624,1884}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {5758,1820,1676}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {6764,2172,1526}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {8982,2879,1374}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.118 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.118 awb_statselect.c-563@AWB_SS_Init              [INF][AWB]SS module init!
+2011-12-01 00:00:01.119 isp_awb.c-99        @AWB_Init                 [INF][AWB]awb handle init done! id=0 type=0
+2011-12-01 00:00:01.357 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.357 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.357 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.357 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.357 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.357 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.359 adn_conf.c-5084     @CONF_GetAdnMinLux        [INF][ADN]Adn Min Envlux = 39
+2011-12-01 00:00:01.359 adn_conf.c-4575     @CONF_GetSwitchMethod     [INF][ADN]ADN IRDevice = 1, LDRDevice = 0, UseSoft = 1, UseLdr = 0
+2011-12-01 00:00:01.359 adn_conf.c-4591     @CONF_GetSwitchMethod     [INF][ADN]ADN SwitchMethod = 0
+2011-12-01 00:00:01.359 adn_conf.c-4945     @CONF_GetParamPtr         [INF][ADN]ADN ulPlatformType = 7, ulStructType = 16, ulSensorType = 48, ET-S51H_SC2310
+2011-12-01 00:00:01.359 adn_conf.c-4954     @CONF_GetParamPtr         [ERR][ADN]ADN ppstCfgProduct is NULL
+2011-12-01 00:00:01.359 adn_conf.c-5010     @CONF_GetParamPtr         [ERR][ADN]pstSoftParam is NULL
+2011-12-01 00:00:01.376 adn_conf.c-5045     @CONF_GetParamPtr         [ERR][ADN]pstLdrParam is NULL
+2011-12-01 00:00:01.376 adn_stat.c-1060     @ADN_STAT_Init            [WRN][ADN]STAT_GetParamPtr fail
+2011-12-01 00:00:01.376 adn_stat.c-1075     @ADN_STAT_Init            [INF][ADN]STAT: Lin_Exp[796000: 1 10000 100 45] Hdr_Exp[796000: 1 10000 100 45]
+2011-12-01 00:00:01.976 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[0]
+2011-12-01 00:00:03.658 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.658 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.658 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.658 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.659 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.659 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.659 adn_ctrl.c-578      @ADN_CTRL_SetDNCfg        [INF][ADN]Set DayNight Mode[0] Sense[2] Time[3]
+2011-12-01 00:00:03.685 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[5]
+2011-12-01 00:00:03.755 ae2_video.c-2029    @VID_Ctrl                 [ERR][AE]Not support cmd 219
+2011-12-01 00:00:03.762 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:03.762 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.762 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.762 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.762 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.762 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.762 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.815 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.815 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.816 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:04.090 led_ctrl.c-1234     @LED_CTRL_SetSwitchCond   [WRN][LED]Set cond is invalid value
+2011-12-01 00:00:04.106 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:04.106 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.106 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.106 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.106 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:06.786 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[1551] Exp[20000, 2850, 5] SwitchCnt[1]
+2011-12-01 00:00:10.845 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[385108] Exp[10000, 271, 59] SwitchCnt[2]
+2011-12-01 00:00:13.766 led_ctrl.c-1158     @LED_CTRL_SetCtrlCfg      [INF][LED]Set Method[0], Strength[500 0 0 6000]
+2011-12-01 00:00:13.766 led_ctrl.c-1203     @LED_CTRL_SetCond         [INF][LED]Set Cond[0 8 0 8]
+2011-12-01 00:00:14.446 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[1551] Exp[20000, 2850, 5] SwitchCnt[3]
+2011-12-01 00:00:15.226 isp_interface.c-1978@_ISP_SetImageStableCallback [INF][BP]func entry
+2011-12-01 00:00:18.338 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[202345] Exp[10000, 542, 62] SwitchCnt[4]
+2011-12-01 00:00:33.176 adn_ctrl.c-1109     @ADN_CTRL_Run             [INF][ADN]Open the Function of Dynamic
+2011-12-01 00:00:33.176 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2482] Exp[20000, 2850, 8] SwitchCnt[5]
+1970-01-01 04:45:16.265 isp_log.c-529       @IBP_LOG_Init             [INF][BP]bp log init success!
+1970-01-01 04:45:16.266 isp_module.c-1512   @MOD_InitProcEpoll        [INF][BP]proc ISP init epoll done! epollFd=4 socketFd=3
+1970-01-01 04:45:16.267 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP_CMD] start
+1970-01-01 04:45:16.267 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP_CMD] success, module id 0x90000002
+1970-01-01 04:45:16.267 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP] start
+1970-01-01 04:45:16.267 isp_module.c-1421   @MOD_ModuleThreadProc     [INF][BP]enter module thread: szModuleName=ISP_CMD ulProcID=0xbfffffff ulModuleID=0x90000002
+1970-01-01 04:45:16.268 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP] success, module id 0x9fffffff
+1970-01-01 04:45:16.268 isp_module.c-1752   @MOD_SysInit              [INF][BP]module sys init succeed! procName=ISP procID=0xbfffffff
+1970-01-01 04:45:16.268 isp_module.c-1364   @MOD_ProcThreadProc       [INF][BP]enter proc thread: szModuleName=ISP ulProcID=0xbfffffff ulModuleID=0x9fffffff
+2011-12-01 00:00:00.994 isp_log.c-529       @IBP_LOG_Init             [INF][BP]bp log init success!
+2011-12-01 00:00:00.996 isp_module.c-1512   @MOD_InitProcEpoll        [INF][BP]proc ISP init epoll done! epollFd=15 socketFd=14
+2011-12-01 00:00:00.996 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP_CMD] start
+2011-12-01 00:00:00.997 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP_CMD] success, module id 0x90000002
+2011-12-01 00:00:00.997 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP] start
+2011-12-01 00:00:00.997 isp_module.c-1421   @MOD_ModuleThreadProc     [INF][BP]enter module thread: szModuleName=ISP_CMD ulProcID=0xbfffffff ulModuleID=0x90000002
+2011-12-01 00:00:00.997 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP] success, module id 0x9fffffff
+2011-12-01 00:00:00.997 isp_module.c-1752   @MOD_SysInit              [INF][BP]module sys init succeed! procName=ISP procID=0xbfffffff
+2011-12-01 00:00:00.998 isp_module.c-1364   @MOD_ProcThreadProc       [INF][BP]enter proc thread: szModuleName=ISP ulProcID=0xbfffffff ulModuleID=0x9fffffff
+2011-12-01 00:00:01.093 ae2_cfg.c-785       @CFG_Init                 [INF][AE]CFG init done!
+2011-12-01 00:00:01.093 isp_util.c-204      @__ISP_div0_lu            [WRN][BP]in file=ae2_video.c line=1532: div 0 detected! divdend=30 divisor=0
+2011-12-01 00:00:01.094 ae2_stat.c-2982     @STAT_Init                [INF][AE]STAT init done!
+2011-12-01 00:00:01.094 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:01.094 ae2_fac.c-982       @FAC_Init                 [INF][AE]FAC init done!
+2011-12-01 00:00:01.095 ae2_tar_disc.c-1001 @TAR_RefCompInit          [INF][AE]Ref comp init!
+2011-12-01 00:00:01.095 ae2_tar_cont.c-300  @TAR_SpotCompInit         [INF][AE]Spot comp init done!
+2011-12-01 00:00:01.095 ae2_tar.c-2672      @TAR_Init                 [INF][AE]TAR init done!
+2011-12-01 00:00:01.096 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.096 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.096 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.096 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.096 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.097 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.097 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:01.097 ae2_el.c-3148       @EL_Init                  [INF][AE]EL init done!
+2011-12-01 00:00:01.097 ae2_debug.c-677     @DBG_Init                 [INF][AE]DEBUG init done!
+2011-12-01 00:00:01.097 isp_ae2.c-101       @AE2_Init                 [INF][AE]AE init done! szPlatName=HI3516DV300 HandleId=0 HandleType=0
+2011-12-01 00:00:01.120 awb_wzslice.c-973   @AWB_WZS_Slice            [INF][AWB]stCustomWZone.ulLutNum illegal! change to butt
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {465,1317,4906,6084}->(0,5)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {518,1368,3980,4943}->(5,9)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {570,1443,3237,4042}->(9,12)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {651,1707,2197,3348}->(12,16)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1016,2049,1450,2602}->(16,19)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1495,2150,1232,2110}->(19,20)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1841,2606,1058,1970}->(20,22)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {2444,3274,938,1842}->(22,25)
+2011-12-01 00:00:01.120 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {3190,4313,859,1733}->(25,30)
+2011-12-01 00:00:01.121 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {4272,5717,782,1658}->(30,37)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {465,1275,5852,6100}->(0,4)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {475,1285,5617,5871}->(4,8)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {485,1295,5382,5642}->(8,11)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {495,1305,5147,5413}->(11,15)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {505,1315,4912,5184}->(15,18)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {518,1329,4682,4949}->(18,21)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {531,1341,4454,4725}->(21,24)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {544,1353,4226,4501}->(24,27)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {557,1365,3998,4277}->(27,30)
+2011-12-01 00:00:01.121 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {570,1393,3740,4047}->(30,33)
+2011-12-01 00:00:01.121 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {465,675,5865,6090}
+2011-12-01 00:00:01.121 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {665,875,5868,6093}
+2011-12-01 00:00:01.121 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {865,1075,5871,6096}
+2011-12-01 00:00:01.121 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {1065,1275,5874,6099}
+2011-12-01 00:00:01.122 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {475,685,5621,5868}
+2011-12-01 00:00:01.122 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {675,884,5630,5871}
+2011-12-01 00:00:01.122 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {875,1083,5639,5874}
+2011-12-01 00:00:01.122 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {1075,1282,5648,5877}
+2011-12-01 00:00:01.122 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {486,762,5399,5633}
+2011-12-01 00:00:01.122 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {752,1028,5404,5645}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {1496,891,5500}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {1766,943,4349}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {2029,995,3673}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {2534,1099,2912}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {4617,1624,1884}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {5758,1820,1676}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {6764,2172,1526}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {8982,2879,1374}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.122 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.123 awb_statselect.c-563@AWB_SS_Init              [INF][AWB]SS module init!
+2011-12-01 00:00:01.123 isp_awb.c-99        @AWB_Init                 [INF][AWB]awb handle init done! id=0 type=0
+2011-12-01 00:00:01.370 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.371 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.371 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.371 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.371 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.371 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.373 adn_conf.c-5084     @CONF_GetAdnMinLux        [INF][ADN]Adn Min Envlux = 39
+2011-12-01 00:00:01.374 adn_conf.c-4575     @CONF_GetSwitchMethod     [INF][ADN]ADN IRDevice = 1, LDRDevice = 0, UseSoft = 1, UseLdr = 0
+2011-12-01 00:00:01.374 adn_conf.c-4591     @CONF_GetSwitchMethod     [INF][ADN]ADN SwitchMethod = 0
+2011-12-01 00:00:01.374 adn_conf.c-4945     @CONF_GetParamPtr         [INF][ADN]ADN ulPlatformType = 7, ulStructType = 16, ulSensorType = 48, ET-S51H_SC2310
+2011-12-01 00:00:01.374 adn_conf.c-4954     @CONF_GetParamPtr         [ERR][ADN]ADN ppstCfgProduct is NULL
+2011-12-01 00:00:01.374 adn_conf.c-5010     @CONF_GetParamPtr         [ERR][ADN]pstSoftParam is NULL
+2011-12-01 00:00:01.387 adn_conf.c-5045     @CONF_GetParamPtr         [ERR][ADN]pstLdrParam is NULL
+2011-12-01 00:00:01.387 adn_stat.c-1060     @ADN_STAT_Init            [WRN][ADN]STAT_GetParamPtr fail
+2011-12-01 00:00:01.387 adn_stat.c-1075     @ADN_STAT_Init            [INF][ADN]STAT: Lin_Exp[796000: 1 10000 100 45] Hdr_Exp[796000: 1 10000 100 45]
+2011-12-01 00:00:01.997 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[0]
+2011-12-01 00:00:03.689 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.689 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.689 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.689 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.689 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.690 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.690 adn_ctrl.c-578      @ADN_CTRL_SetDNCfg        [INF][ADN]Set DayNight Mode[0] Sense[2] Time[3]
+2011-12-01 00:00:03.706 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[5]
+2011-12-01 00:00:03.786 ae2_video.c-2029    @VID_Ctrl                 [ERR][AE]Not support cmd 219
+2011-12-01 00:00:03.792 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:03.793 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.793 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.793 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.793 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.793 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.793 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.826 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.827 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.827 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:04.106 led_ctrl.c-1234     @LED_CTRL_SetSwitchCond   [WRN][LED]Set cond is invalid value
+2011-12-01 00:00:04.133 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:04.133 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.133 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.133 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.133 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:13.161 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[1551] Exp[20000, 2850, 5] SwitchCnt[1]
+2011-12-01 00:00:13.927 led_ctrl.c-1158     @LED_CTRL_SetCtrlCfg      [INF][LED]Set Method[0], Strength[500 0 0 6000]
+2011-12-01 00:00:13.928 led_ctrl.c-1203     @LED_CTRL_SetCond         [INF][LED]Set Cond[0 8 0 8]
+2011-12-01 00:00:16.247 isp_interface.c-1978@_ISP_SetImageStableCallback [INF][BP]func entry
+2011-12-01 00:00:17.217 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[213027] Exp[10000, 465, 56] SwitchCnt[2]
+2011-12-01 00:00:33.210 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2172] Exp[20000, 2850, 7] SwitchCnt[3]
+2011-12-01 00:00:37.121 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[205608] Exp[10000, 542, 63] SwitchCnt[4]
+2011-12-01 00:00:43.622 adn_ctrl.c-1109     @ADN_CTRL_Run             [INF][ADN]Open the Function of Dynamic
+2011-12-01 00:00:43.623 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2172] Exp[20000, 2850, 7] SwitchCnt[5]
+1970-01-01 05:01:32.387 isp_log.c-529       @IBP_LOG_Init             [INF][BP]bp log init success!
+1970-01-01 05:01:32.388 isp_module.c-1512   @MOD_InitProcEpoll        [INF][BP]proc ISP init epoll done! epollFd=4 socketFd=3
+1970-01-01 05:01:32.388 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP_CMD] start
+1970-01-01 05:01:32.389 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP_CMD] success, module id 0x90000002
+1970-01-01 05:01:32.389 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP] start
+1970-01-01 05:01:32.389 isp_module.c-1421   @MOD_ModuleThreadProc     [INF][BP]enter module thread: szModuleName=ISP_CMD ulProcID=0xbfffffff ulModuleID=0x90000002
+1970-01-01 05:01:32.389 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP] success, module id 0x9fffffff
+1970-01-01 05:01:32.390 isp_module.c-1752   @MOD_SysInit              [INF][BP]module sys init succeed! procName=ISP procID=0xbfffffff
+1970-01-01 05:01:32.389 isp_module.c-1364   @MOD_ProcThreadProc       [INF][BP]enter proc thread: szModuleName=ISP ulProcID=0xbfffffff ulModuleID=0x9fffffff
+2011-12-01 00:00:01.004 isp_log.c-529       @IBP_LOG_Init             [INF][BP]bp log init success!
+2011-12-01 00:00:01.005 isp_module.c-1512   @MOD_InitProcEpoll        [INF][BP]proc ISP init epoll done! epollFd=15 socketFd=14
+2011-12-01 00:00:01.006 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP_CMD] start
+2011-12-01 00:00:01.006 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP_CMD] success, module id 0x90000002
+2011-12-01 00:00:01.007 isp_module.c-1823   @MOD_RegModule            [INF][BP]register module [ISP] start
+2011-12-01 00:00:01.007 isp_module.c-1421   @MOD_ModuleThreadProc     [INF][BP]enter module thread: szModuleName=ISP_CMD ulProcID=0xbfffffff ulModuleID=0x90000002
+2011-12-01 00:00:01.007 isp_module.c-1902   @MOD_RegModule            [INF][BP]register module [ISP] success, module id 0x9fffffff
+2011-12-01 00:00:01.007 isp_module.c-1752   @MOD_SysInit              [INF][BP]module sys init succeed! procName=ISP procID=0xbfffffff
+2011-12-01 00:00:01.007 isp_module.c-1364   @MOD_ProcThreadProc       [INF][BP]enter proc thread: szModuleName=ISP ulProcID=0xbfffffff ulModuleID=0x9fffffff
+2011-12-01 00:00:01.100 ae2_cfg.c-785       @CFG_Init                 [INF][AE]CFG init done!
+2011-12-01 00:00:01.100 isp_util.c-204      @__ISP_div0_lu            [WRN][BP]in file=ae2_video.c line=1532: div 0 detected! divdend=30 divisor=0
+2011-12-01 00:00:01.100 ae2_stat.c-2982     @STAT_Init                [INF][AE]STAT init done!
+2011-12-01 00:00:01.101 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:01.101 ae2_fac.c-982       @FAC_Init                 [INF][AE]FAC init done!
+2011-12-01 00:00:01.102 ae2_tar_disc.c-1001 @TAR_RefCompInit          [INF][AE]Ref comp init!
+2011-12-01 00:00:01.102 ae2_tar_cont.c-300  @TAR_SpotCompInit         [INF][AE]Spot comp init done!
+2011-12-01 00:00:01.102 ae2_tar.c-2672      @TAR_Init                 [INF][AE]TAR init done!
+2011-12-01 00:00:01.103 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.103 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.103 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.103 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.103 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.103 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.103 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:01.103 ae2_el.c-3148       @EL_Init                  [INF][AE]EL init done!
+2011-12-01 00:00:01.104 ae2_debug.c-677     @DBG_Init                 [INF][AE]DEBUG init done!
+2011-12-01 00:00:01.104 isp_ae2.c-101       @AE2_Init                 [INF][AE]AE init done! szPlatName=HI3516DV300 HandleId=0 HandleType=0
+2011-12-01 00:00:01.126 awb_wzslice.c-973   @AWB_WZS_Slice            [INF][AWB]stCustomWZone.ulLutNum illegal! change to butt
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {465,1317,4906,6084}->(0,5)
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {518,1368,3980,4943}->(5,9)
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {570,1443,3237,4042}->(9,12)
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {651,1707,2197,3348}->(12,16)
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1016,2049,1450,2602}->(16,19)
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1495,2150,1232,2110}->(19,20)
+2011-12-01 00:00:01.126 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {1841,2606,1058,1970}->(20,22)
+2011-12-01 00:00:01.127 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {2444,3274,938,1842}->(22,25)
+2011-12-01 00:00:01.127 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {3190,4313,859,1733}->(25,30)
+2011-12-01 00:00:01.127 awb_conf.c-939      @CONF_Log                 [INF][AWB]UV awb cfg: num:10 {4272,5717,782,1658}->(30,37)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {465,1275,5852,6100}->(0,4)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {475,1285,5617,5871}->(4,8)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {485,1295,5382,5642}->(8,11)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {495,1305,5147,5413}->(11,15)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {505,1315,4912,5184}->(15,18)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {518,1329,4682,4949}->(18,21)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {531,1341,4454,4725}->(21,24)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {544,1353,4226,4501}->(24,27)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {557,1365,3998,4277}->(27,30)
+2011-12-01 00:00:01.127 awb_conf.c-951      @CONF_Log                 [INF][AWB]UV awb cfg: num:37 {570,1393,3740,4047}->(30,33)
+2011-12-01 00:00:01.127 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {465,675,5865,6090}
+2011-12-01 00:00:01.127 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {665,875,5868,6093}
+2011-12-01 00:00:01.127 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {865,1075,5871,6096}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {1065,1275,5874,6099}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {475,685,5621,5868}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {675,884,5630,5871}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {875,1083,5639,5874}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {1075,1282,5648,5877}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {486,762,5399,5633}
+2011-12-01 00:00:01.128 awb_conf.c-961      @CONF_Log                 [INF][AWB]UV awb cfg: num:118 {752,1028,5404,5645}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {1496,891,5500}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {1766,943,4349}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {2029,995,3673}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {2534,1099,2912}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {4617,1624,1884}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {5758,1820,1676}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {6764,2172,1526}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {8982,2879,1374}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.128 awb_conf.c-969      @CONF_Log                 [INF][AWB]UV awb cfg: {10941,3586,1297}
+2011-12-01 00:00:01.129 awb_statselect.c-563@AWB_SS_Init              [INF][AWB]SS module init!
+2011-12-01 00:00:01.129 isp_awb.c-99        @AWB_Init                 [INF][AWB]awb handle init done! id=0 type=0
+2011-12-01 00:00:01.372 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 5
+2011-12-01 00:00:01.372 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/22500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.372 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.372 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/30 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.372 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/30,1/30 snsgain=24,62 ispgain=0,0 led=0,0]
+2011-12-01 00:00:01.372 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=3 [iris=1000,1000 shutter=1/30,1/30 snsgain=62,62 ispgain=0,18 led=0,0]
+2011-12-01 00:00:01.374 adn_conf.c-5084     @CONF_GetAdnMinLux        [INF][ADN]Adn Min Envlux = 39
+2011-12-01 00:00:01.374 adn_conf.c-4575     @CONF_GetSwitchMethod     [INF][ADN]ADN IRDevice = 1, LDRDevice = 0, UseSoft = 1, UseLdr = 0
+2011-12-01 00:00:01.375 adn_conf.c-4591     @CONF_GetSwitchMethod     [INF][ADN]ADN SwitchMethod = 0
+2011-12-01 00:00:01.375 adn_conf.c-4945     @CONF_GetParamPtr         [INF][ADN]ADN ulPlatformType = 7, ulStructType = 16, ulSensorType = 48, ET-S51H_SC2310
+2011-12-01 00:00:01.375 adn_conf.c-4954     @CONF_GetParamPtr         [ERR][ADN]ADN ppstCfgProduct is NULL
+2011-12-01 00:00:01.375 adn_conf.c-5010     @CONF_GetParamPtr         [ERR][ADN]pstSoftParam is NULL
+2011-12-01 00:00:01.388 adn_conf.c-5045     @CONF_GetParamPtr         [ERR][ADN]pstLdrParam is NULL
+2011-12-01 00:00:01.388 adn_stat.c-1060     @ADN_STAT_Init            [WRN][ADN]STAT_GetParamPtr fail
+2011-12-01 00:00:01.388 adn_stat.c-1075     @ADN_STAT_Init            [INF][ADN]STAT: Lin_Exp[796000: 1 10000 100 45] Hdr_Exp[796000: 1 10000 100 45]
+2011-12-01 00:00:01.986 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[0]
+2011-12-01 00:00:03.828 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.829 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.829 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.829 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.829 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.829 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.829 adn_ctrl.c-578      @ADN_CTRL_SetDNCfg        [INF][ADN]Set DayNight Mode[0] Sense[2] Time[3]
+2011-12-01 00:00:03.895 adn_ctrl.c-613      @ADN_CTRL_SetHdrCfg       [INF][ADN]Set Hdr Mode[0] Level[5]
+2011-12-01 00:00:03.925 ae2_video.c-2029    @VID_Ctrl                 [ERR][AE]Not support cmd 219
+2011-12-01 00:00:03.932 ae2_fac_sns.c-268   @CalcSnsGainParam         [INF][AE]Sns gain min=0 max=1364992
+2011-12-01 00:00:03.932 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:03.932 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.932 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.932 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.932 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:03.933 ae2_el.c-2218       @ExpLineLocate            [WRN][AE]Exp line no located, use line 2
+2011-12-01 00:00:03.962 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.962 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:03.963 ae2_stat.c-2710     @STAT_SetMirrorMode       [INF][AE]STAT_SetMirrorMode
+2011-12-01 00:00:04.256 led_ctrl.c-1234     @LED_CTRL_SetSwitchCond   [WRN][LED]Set cond is invalid value
+2011-12-01 00:00:04.276 ae2_el.c-2076       @ExpLinePrint             [INF][AE]Exp line sum 4
+2011-12-01 00:00:04.276 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/13500,1/100 snsgain=0,0 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.276 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/100,1/100 snsgain=0,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.276 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=1 [iris=1000,1000 shutter=1/100,1/50 snsgain=24,24 ispgain=0,0 led=0,0]
+2011-12-01 00:00:04.276 ae2_el.c-2096       @ExpLinePrint             [INF][AE]Factype=2 [iris=1000,1000 shutter=1/50,1/50 snsgain=24,29 ispgain=0,0 led=0,0]
+2011-12-01 00:00:08.618 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[1861] Exp[20000, 2850, 6] SwitchCnt[1]
+2011-12-01 00:00:12.667 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[385108] Exp[10000, 271, 59] SwitchCnt[2]
+2011-12-01 00:00:14.001 led_ctrl.c-1158     @LED_CTRL_SetCtrlCfg      [INF][LED]Set Method[0], Strength[500 0 0 6000]
+2011-12-01 00:00:14.001 led_ctrl.c-1203     @LED_CTRL_SetCond         [INF][LED]Set Cond[0 8 0 8]
+2011-12-01 00:00:16.176 isp_interface.c-1978@_ISP_SetImageStableCallback [INF][BP]func entry
+2011-12-01 00:00:19.987 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[1861] Exp[20000, 2850, 6] SwitchCnt[3]
+2011-12-01 00:00:23.707 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[205608] Exp[10000, 542, 63] SwitchCnt[4]
+2011-12-01 00:00:28.096 adn_ctrl.c-1109     @ADN_CTRL_Run             [INF][ADN]Open the Function of Dynamic
+2011-12-01 00:00:28.096 adn_ctrl.c-1124     @ADN_CTRL_Run             [INF][ADN]EnvLux[2172] Exp[20000, 2850, 7] SwitchCnt[5]

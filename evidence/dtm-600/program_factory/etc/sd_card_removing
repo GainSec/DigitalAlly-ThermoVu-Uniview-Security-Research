@@ -1,0 +1,13 @@
+#!/bin/sh
+sync
+if [ ! -e /dev/mmcblk0p1 ]
+then
+umount /mnt/sdcard
+rm -rf /mnt/sdcard
+fi
+
+if [ ! -e /dev/mmcblk1p1 ]
+then
+umount /mnt/sdcard1
+rm -rf /mnt/sdcard1
+fi

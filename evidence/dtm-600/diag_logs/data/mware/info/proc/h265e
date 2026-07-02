@@ -1,0 +1,44 @@
+
+[H265E] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:44]
+
+-----MODULE PARAM--------------------------------------------------------------
+      OnePack      H265eVBSource        PowerSaveEn        MiniBufMode       bQpHstgrmEn
+            0                  2                  1                  0                 0
+-----CHN ATTR------------------------------------------------------------------
+     ID  MaxWidth MaxHeight     Width    Height   Profile   C2GEn   BufSize   ByFrame   GopMode   MaxStrCnt
+
+-----PICTURE INFO--------------------------------------------------------------
+     ID     EncdStart   EncdSucceed        Lost        Disc       Pskip      Recode      RlsStr     UnrdStr
+
+-----STREAM BUFFER-------------------------------------------------------------
+     ID     Base                  RdTail      RdHead      WrTail      WrHead      DataLen     BufFree     
+-----RefParam INFO-------------------------------------------------------------
+     ID      EnPred        Base     Enhance         UsedFrame      MaxUsedFrame    RcnRefShareBuf
+
+-----ROIBG INFO------------------------------------------------------------------
+     ID   BgSrcFr   BgTarFr
+
+-----Syntax INFO1--------------------------------------------------------------
+     ID SlcspltEn   Slcsize   IntraRefresh    RefreshMode     RefreshNum   QpOfIDR
+
+-----Syntax INFO2--------------------------------------------------------------
+     ID    DblkEn    Tc      Beta   Saoluma Saochroma  EntrpyFlag
+
+-----Syntax INFO3--------------------------------------------------------------
+     ID  TimInfFlag   NumInTick    TimeScal     DiffOne
+
+-----Pu INFO-------------------------------------------------------------------
+     ID   ConsIntra IntraSmoothing
+
+-----Trans INFO----------------------------------------------------------------
+     ID  CbQpOffset  CrQpOffset
+
+-----Foreground && Scene INFO-------------------------------------------------------------------
+     ID  ForegroundSkipCoef  BackgroundSkipCoef SceneMode
+
+-----CuPrediction-------------------------------------------------------------------
+     ID  PredMode  Inter8Cost Inter16Cost Inter32Cost Inter64Cost  Intra4Cost  Intra8Cost Intra16Cost Intra32Cost 
+
+-----SkipBias-------------------------------------------------------------------
+     ID     SkipBiasEn      Gain    Offset      ForegroundCost      BackgroundCost
+

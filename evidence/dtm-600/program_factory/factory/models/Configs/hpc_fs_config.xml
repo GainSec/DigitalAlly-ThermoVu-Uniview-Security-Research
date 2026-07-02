@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skipcount>
+    <vc_video_synopsis>6</vc_video_synopsis>
+    <vc_video_playback>8</vc_video_playback>
+    <vc_video_info_surveillance>4</vc_video_info_surveillance>
+    <vc_video_info_traffic>6</vc_video_info_traffic>
+    <vc_pic2pic>0</vc_pic2pic>
+    <vc_image>0</vc_image>
+    <vc_image_detect>0</vc_image_detect>
+	<fs_video>2</fs_video>
+</skipcount>

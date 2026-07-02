@@ -1,0 +1,73 @@
+
+[RGN] Version: [Hi3516CV500_MPP_V1.0.0.0 B010 Release], Build Time[Sep 23 2019, 15:07:13]
+
+
+-----REGION STATUS OF OVERLAY------------------------------------------------------------
+ Hdl     Type     Used    PiFmt        W        H  BgColor              Phy             Virt   Stride
+   0        0        N        9      456       52        0         a6123300         e33ac300      960
+   1        0        N        9      264       52        0         a6137500         e33c7500      576
+  11        0        N        9      456       52        0         aec5a000         e50a0000      960
+  12        0        N        9      120       52        0         aec73000         e5098000      256
+
+-----REGION STATUS OF OVERLAY BUF USED---------------------------------------------------
+ Hdl     Type  CnvsNum     buf0     buf1     buf2     buf3     buf4     buf5
+   0        0        2        0        0        0        0        0        0
+   1        0        2        0        0        0        0        0        0
+  11        0        2        0        0        0        0        0        0
+  12        0        2        0        0        0        0        0        0
+
+-----REGION CALL VGS STATUS OF OVERLAY---------------------------------------------------
+ Hdl     CallCnt      JobSuc     JobFail     TaskSuc    TaskFail      EndSuc     EndFail
+   0           0           0           0           0           0           0           0
+   1           0           0           0           0           0           0           0
+  11           0           0           0           0           0           0           0
+  12           0           0           0           0           0           0           0
+
+-----REGION CHN STATUS OF OVERLAY--------------------------------------------------------
+ Hdl  Type   Mod   Dev   Chn   bBatch   AttachDest   bSh     X     Y  AphF  AphB  Layer  bAQp    QP  bQpDis
+   0     0  VENC     0     0        N         MAIN     Y    22    58     0     0      7     N     0       N
+   1     0  VENC     0     0        N         MAIN     Y    22  1440     0     0      7     N     0       N
+  11     0  VENC     0     3        N         MAIN     Y    22    58     0     0      7     N     0       N
+  12     0  VENC     0     3        N         MAIN     Y    22  1440     0     0      7     N     0       N
+
+-----REGION STATUS OF COVEREX------------------------------------------------------------
+ Hdl     Type     Used
+   3        2        N
+   4        2        N
+   5        2        N
+   6        2        N
+   7        2        N
+   8        2        N
+   9        2        N
+  10        2        N
+
+-----REGION CHN STATUS OF RECT COVEREX---------------------------------------------------
+ Hdl    Type     Mod     Dev     Chn   bShow       X       Y       W       H   Field    Color   Layer
+
+-----REGION CHN STATUS OF QUAD_RANGLE COVEREX--------------------------------------------
+ Hdl  Type   Mod   Dev   Chn bShow    X0    Y0    X1    Y1    X2    Y2    X3    Y3 Solid Thick Shape Field    Color Layer
+   3     2  VPSS     0     2     Y   132   618   162   618   132   622   162   622     N     4     1 frame     ff00     0
+   4     2  VPSS     0     2     Y   132   618   136   618   132   648   136   648     N     4     1 frame     ff00     0
+   5     2  VPSS     0     2     Y   132   758   136   758   132   788   136   788     N     4     1 frame     ff00     0
+   6     2  VPSS     0     2     Y   132   784   162   784   132   788   162   788     N     4     1 frame     ff00     0
+   7     2  VPSS     0     2     Y   264   784   294   784   264   788   294   788     N     4     1 frame     ff00     0
+   8     2  VPSS     0     2     Y   290   758   294   758   290   788   294   788     N     4     1 frame     ff00     0
+   9     2  VPSS     0     2     Y   290   618   294   618   290   648   294   648     N     4     1 frame     ff00     0
+  10     2  VPSS     0     2     Y   264   618   294   618   264   622   294   622     N     4     1 frame     ff00     0
+
+-----REGION STATUS OF OVERLAYEX----------------------------------------------------------
+ Hdl     Type     Used    PiFmt        W        H  BgColor              Phy             Virt   Stride
+   2        3        N       11      520      700        0         a6f71f00         e3968f00     2112
+
+-----REGION STATUS OF OVERLAYEX BUF USED---------------------------------------------------
+ Hdl     Type  CnvsNum     buf0     buf1     buf2     buf3     buf4     buf5
+   2        3        2        0        0        0        0        0        0
+
+-----REGION CALL TDE STATUS OF OVERLAYEX---------------------------------------------------
+ Hdl     CallCnt      JobSuc     JobFail     TaskSuc    TaskFail      EndSuc     EndFail
+   2           1           1           0           1           0           1           0
+
+-----REGION CHN STATUS OF OVERLAYEX------------------------------------------------------
+ Hdl    Type     Mod     Dev     Chn   Field     bSh       X       Y    AphF    AphB   Layer
+   2       3      VO       0       0   frame       Y      40     190       0       0       0
+

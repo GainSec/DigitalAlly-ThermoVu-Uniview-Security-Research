@@ -1,0 +1,1681 @@
+12-01 00:00:01 997[I][drv_hisi_audio.c-210]Get audio cap ok.
+12-01 00:00:03 686[I][drv_media.c-344]ChannelID 0 VideoNorm Set to [1920 x 1080 @ 25]
+12-01 00:00:03 686[I][drv_common.c-2511]Channel[0] Video norm[1920, 1080, 25]
+12-01 00:00:03 686[I][drv_common.c-2548]Sns gather norm[1920, 1080, 25]
+12-01 00:00:03 686[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 686[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:03 715[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:03 715[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:03 716[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@30 wdr:0]
+12-01 00:00:03 745[I][hilib_vi_base.c-717]unreset sensor done!
+12-01 00:00:03 745[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:03 745[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:03 746[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:03 746[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:03 746[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[0] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[0]
+12-01 00:00:03 747[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:03 747[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:03 747[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@30 wdr:0]
+12-01 00:00:03 765[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:03 765[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 765[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:03 765[I][hilib_vpss_base.c-1337]Vpss chn[5] param sync : size [720 576] m/f[0 0] flag[2]
+12-01 00:00:03 765[I][hilib_vpss_base.c-985]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:03 765[I][hilib_vpss_base.c-1007]Vpss chn[5] update ok
+12-01 00:00:03 765[I][hilib_vpss_base.c-1474]Vpss chn[5] update dynamic param ok
+12-01 00:00:03 765[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [720 576] m/f[0 0] flag[2]
+12-01 00:00:03 765[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:03 766[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:03 766[I][hilib_vda_base.c-3071]vda start
+12-01 00:00:03 766[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:03 766[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 766[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:03 766[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:03 766[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:03 766[I][hilib_vi_base.c-2472]Vi set norm[1920 1080 @ 25] ok
+12-01 00:00:03 766[I][drv_media.c-367]Set video norm ok
+12-01 00:00:03 827[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:03 827[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:03 828[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:03 828[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:03 830[I][hilib_common_platform.c-1163]Set rotate vivpsmode 0, mirrormode 6
+
+12-01 00:00:03 830[I][hilib_common_platform.c-1180]This Product Support ViNum 1
+12-01 00:00:03 830[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 830[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:03 955[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:03 955[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:03 955[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:03 955[I][hilib_vi_base.c-624]Vi dev[0] Input img info same no set mipi
+12-01 00:00:03 956[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:03 956[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:03 956[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:03 957[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:03 957[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[0] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[0]
+12-01 00:00:03 957[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:03 957[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:03 957[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:03 957[I][hilib_vi_hisi3516dv300.c-946]Vi dev[0] Input img info same no set isp pub
+12-01 00:00:03 957[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:03 958[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[0] already stop
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[1] already stop
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[2] already stop
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[3] already stop
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[4] already stop
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[5] already stop
+12-01 00:00:03 958[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:03 958[I][hilib_vpss_base.c-846]Vpss chn[5] disable ok
+12-01 00:00:03 958[I][hilib_vpss_base.c-846]Vpss chn[1] disable ok
+12-01 00:00:03 958[I][hilib_vpss_base.c-1749]Vpss stop chn[5] ok
+12-01 00:00:03 958[I][hilib_vpss_base.c-2073]Vpss que[6] stop ok
+12-01 00:00:03 958[I][hilib_vpss_base.c-2049]Vpss que[7] already stop
+12-01 00:00:03 959[I][hilib_vpss_base.c-308]Vpss destroy grp[0] ok
+12-01 00:00:03 959[I][hilib_vpss_base.c-260]Vpss creat grp[0] ok
+12-01 00:00:03 959[I][hilib_vpss_base.c-383]Vpss set grp[0] param ok
+12-01 00:00:03 959[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:03 960[I][hilib_vpss_base.c-772]que[4294967295] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:03 960[I][hilib_vpss_base.c-803]Vpss chn[1] creat ok
+12-01 00:00:03 960[I][hilib_vpss_base.c-772]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:03 960[I][hilib_vpss_base.c-803]Vpss chn[5] creat ok
+12-01 00:00:03 960[I][hilib_vpss_base.c-1662]Vpss start chn[5] ok
+12-01 00:00:03 960[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [576 720] m/f[0 0] flag[2]
+12-01 00:00:03 960[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:03 960[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:03 960[I][hilib_vda_base.c-3071]vda start
+12-01 00:00:03 960[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:03 960[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 960[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:03 961[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:03 961[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:03 961[I][hilib_vi_base.c-2525]Vi set rotate[1] ok
+12-01 00:00:03 961[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:03 961[I][hilib_vpss_base.c-1337]Vpss chn[5] param sync : size [576 720] m/f[0 1] flag[2]
+12-01 00:00:03 961[I][hilib_vpss_base.c-985]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:03 961[I][hilib_vpss_base.c-1007]Vpss chn[5] update ok
+12-01 00:00:03 961[I][hilib_vpss_base.c-1474]Vpss chn[5] update dynamic param ok
+12-01 00:00:03 961[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [576 720] m/f[0 1] flag[1]
+12-01 00:00:03 961[I][hilib_vpss_base.c-985]que[4294967295] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:03 961[I][hilib_vpss_base.c-1007]Vpss chn[1] update ok
+12-01 00:00:03 961[I][hilib_vpss_base.c-1474]Vpss chn[1] update dynamic param ok
+12-01 00:00:03 961[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:03 961[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:03 961[I][hilib_vda_base.c-3071]vda start
+12-01 00:00:03 962[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:03 962[I][hilib_vpss_base.c-2620]Vpss set mirror ok
+12-01 00:00:03 962[I][drv_media_ex.c-706]Channel[0] Set Mirror Mode[6] done
+12-01 00:00:03 968[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:03 968[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:04 020[I][drv_media.c-635]FrameRate 25
+12-01 00:00:04 025[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:04 025[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:04 025[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:04 025[I][hilib_vi_base.c-624]Vi dev[0] Input img info same no set mipi
+12-01 00:00:04 026[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:04 026[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:04 027[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:04 027[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:04 027[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[50] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[250]
+12-01 00:00:04 027[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:04 027[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:04 027[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:04 027[I][hilib_vi_hisi3516dv300.c-946]Vi dev[0] Input img info same no set isp pub
+12-01 00:00:04 027[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:04 028[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 028[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 028[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:04 028[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:04 028[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:04 028[I][hilib_vi_base.c-2785]Vi set LDC [en: 0 web ratio 5] ok
+12-01 00:00:04 028[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 028[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:04 088[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:04 088[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:04 088[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:04 088[I][hilib_vi_base.c-624]Vi dev[0] Input img info same no set mipi
+12-01 00:00:04 089[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:04 089[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:04 089[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:04 090[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:04 090[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[50] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[250]
+12-01 00:00:04 090[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:04 090[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:04 090[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:04 090[I][hilib_vi_hisi3516dv300.c-946]Vi dev[0] Input img info same no set isp pub
+12-01 00:00:04 090[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:04 090[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 090[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 091[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:04 091[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:04 091[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:04 091[I][hilib_vi_base.c-2844]Vi set Spread[en:0 web ratio:1] ok
+12-01 00:00:04 091[I][drv_media.c-1459]ulStreamID[0] bIsEnable[1] ulPictureSize[1920x1080] ulBitRate[3850] ulFrameRate[25] ulGopType[0] ulIInterval[50] ulSmoothValue[5] ulEncodeFmt[6] ulQuality[5] ulEncMode[0] ulUCodeMode[0]
+12-01 00:00:04 092[I][hilib_vda_base.c-949]Set Ucode[0] ok!
+12-01 00:00:04 092[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 092[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:04 092[I][hilib_vpss_base.c-985]que[0] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:04 092[I][hilib_vpss_base.c-1007]Vpss chn[1] update ok
+12-01 00:00:04 092[I][hilib_vpss_base.c-1474]Vpss chn[1] update dynamic param ok
+12-01 00:00:04 092[I][hilib_vpss_base.c-1876]Vpss chn[1] set param ok
+12-01 00:00:04 092[W][hilib_venc_base.c-395]Venc State 0, 0
+12-01 00:00:04 092[I][hilib_vpss_base.c-2016]Vpss que[0] set param ok
+12-01 00:00:04 092[I][hilib_vpss_base.c-2260]Vpss set que[0] param ok
+12-01 00:00:04 094[I][hilib_venc_hisi3516dv300.c-248]SetEncAdvDynamicParam OK
+12-01 00:00:04 094[I][hilib_venc_base.c-1205]Venc[0] SetEncStaticParam OK
+12-01 00:00:04 094[I][hilib_sys_base.c-966]System Bind [7 0 1] [8 0 0]!
+12-01 00:00:04 094[I][drv_media.c-608]StreamID:0 Set encode param ok.
+12-01 00:00:04 095[I][drv_media.c-635]FrameRate 25
+12-01 00:00:04 095[I][drv_media.c-1519]1st startstream update InputFps[25]
+12-01 00:00:04 095[I][drv_media.c-1564]Set video [0] encoder param ok
+12-01 00:00:04 095[I][drv_media.c-1459]ulStreamID[3] bIsEnable[1] ulPictureSize[1920x1080] ulBitRate[2048] ulFrameRate[25] ulGopType[0] ulIInterval[50] ulSmoothValue[5] ulEncodeFmt[12] ulQuality[5] ulEncMode[1] ulUCodeMode[0]
+12-01 00:00:04 095[I][drv_media_ex.c-96]ulType[0] bIsEnable[1] ulPictureSize[1920, 1080] ulQuality[5] ulEncMode[12]
+12-01 00:00:04 095[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 095[I][hilib_vpss_base.c-772]que[4294967295] ulGrpId[0] ulChnId[0] bNeedCorp: 0, 
+12-01 00:00:04 096[I][hilib_vpss_base.c-803]Vpss chn[0] creat ok
+12-01 00:00:04 096[I][hilib_vpss_base.c-772]que[3] ulGrpId[0] ulChnId[3] bNeedCorp: 0, 
+12-01 00:00:04 096[I][hilib_vpss_base.c-803]Vpss chn[3] creat ok
+12-01 00:00:04 096[I][hilib_vpss_base.c-1662]Vpss start chn[3] ok
+12-01 00:00:04 096[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:04 096[I][hilib_vpss_base.c-1526]Vpss chn[0] reset ok
+12-01 00:00:04 096[I][hilib_vpss_base.c-1876]Vpss chn[3] set param ok
+12-01 00:00:04 096[W][hilib_venc_base.c-395]Venc State 0, 0
+12-01 00:00:04 096[I][hilib_vpss_base.c-2016]Vpss que[3] set param ok
+12-01 00:00:04 096[I][hilib_vpss_base.c-2260]Vpss set que[3] param ok
+12-01 00:00:04 097[I][hilib_venc_base.c-1205]Venc[3] SetEncStaticParam OK
+12-01 00:00:04 097[I][drv_media.c-608]StreamID:3 Set encode param ok.
+12-01 00:00:04 097[I][drv_media_ex.c-114]Smart IPC or ITS capt normally open
+12-01 00:00:04 097[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 097[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:04 098[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 098[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:04 098[I][hilib_vpss_base.c-985]que[4] ulGrpId[0] ulChnId[0] bNeedCorp: 0, 
+12-01 00:00:04 098[I][hilib_vpss_base.c-1007]Vpss chn[0] update ok
+12-01 00:00:04 098[I][hilib_vpss_base.c-1474]Vpss chn[0] update dynamic param ok
+12-01 00:00:04 098[I][hilib_vpss_base.c-1876]Vpss chn[0] set param ok
+12-01 00:00:04 098[I][hilib_vpss_base.c-2016]Vpss que[4] set param ok
+12-01 00:00:04 098[I][hilib_vpss_base.c-2260]Vpss set que[4] param ok
+12-01 00:00:04 098[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 098[E][hilib_vpss_base.c-759]VPSS_SetExtChnAttr failed with [0xa0078003]
+12-01 00:00:04 098[E][hilib_vpss_base.c-1658]Vpss start chn[6] failed
+12-01 00:00:04 098[E][hilib_vpss_base.c-1837]Vpss chn[6] start failed
+12-01 00:00:04 099[E][hilib_vpss_base.c-2004]Vpss set chn[6] param fail
+12-01 00:00:04 099[E][hilib_vpss_base.c-2256]Vpss set que[7] param failed
+12-01 00:00:04 099[E][hilib_vpss_base.c-3513]Vpss cmd[0x4001] do failed
+12-01 00:00:04 099[E][drv_process_qpts.c-1158]Set vpss que[7] param failed
+12-01 00:00:04 099[I][drv_media_ex.c-119]Set Capture stream encoder param ok
+12-01 00:00:04 099[I][drv_media.c-1499]Set Channle:0 CapStreamID:3 encoder param ok
+12-01 00:00:04 177[I][comdrv_osd.c-337]Set invert color[0]
+12-01 00:00:04 220[I][comdrv_osd.c-2980]FontStyle 0 gbEnInvertColor 0
+12-01 00:00:04 231[I][drv_osd_hisi.c-1140]Set Char OSD OK.
+12-01 00:00:04 232[I][drv_osd_hisi.c-1472]Set Cover OSD OK.
+12-01 00:00:04 232[I][hilib_sys_base.c-970]System unBind [7 0 1] [8 0 0]!
+12-01 00:00:04 240[I][hilib_venc_base.c-311]StopRecvAndEncode 0 OK!
+12-01 00:00:04 241[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:04 241[I][hilib_vpss_base.c-985]que[0] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:04 241[I][hilib_vpss_base.c-1007]Vpss chn[1] update ok
+12-01 00:00:04 241[I][hilib_vpss_base.c-1474]Vpss chn[1] update dynamic param ok
+12-01 00:00:04 241[I][hilib_vpss_base.c-1876]Vpss chn[1] set param ok
+12-01 00:00:04 242[I][hilib_venc_hisi3516dv300.c-248]SetEncAdvDynamicParam OK
+12-01 00:00:04 244[I][hilib_venc_base.c-1205]Venc[0] SetEncStaticParam OK
+12-01 00:00:04 244[I][hilib_sys_base.c-966]System Bind [7 0 1] [8 0 0]!
+12-01 00:00:04 244[I][hilib_venc_base.c-444]Venc 0 start ok!
+12-01 00:00:04 244[I][hilib_vpss_base.c-2016]Vpss que[0] set param ok
+12-01 00:00:04 244[I][hilib_vpss_base.c-2715]Vpss set low delay ok
+12-01 00:00:04 268[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:04 275[I][drv_motor_abf.c-545]IF Mode[2]
+12-01 00:00:04 326[I][drv_hisi_audio.c-1364][update]enSamplerate:8000, enBitwidth:1, enSoundmode:0,u32PtNumPerFrm:160, u32ChnCnt:1
+12-01 00:00:04 326[I][drv_hisi_audio.c-1487]Update audio param ok.
+12-01 00:00:04 327[I][drv_hisi_audio.c-930]Start Audio Ao ok
+12-01 00:00:04 365[I][drv_hisi_audio.c-3381]Audio_out_AGC Param for [11]
+12-01 00:00:04 373[I][drv_hisi_audio.c-1633]Start audio ok.
+
+12-01 00:00:04 373[I][drv_hisi_audio.c-3612][DRV_DECODE]enFormat:2, ulBitRate:64000, ulBitsPerSample:16, ulSampleRate:8000, ulRealRate:8000, ulChannels:1, ulPeriodSize:320, ulPeriodTime:40
+12-01 00:00:04 373[I][drv_hisi_audio.c-1364][update]enSamplerate:8000, enBitwidth:1, enSoundmode:0,u32PtNumPerFrm:160, u32ChnCnt:1
+12-01 00:00:04 373[I][drv_hisi_audio.c-1487]Update audio param ok.
+12-01 00:00:04 382[I][drv_hisi_audio.c-821]Start Audio Ai ok
+12-01 00:00:04 402[I][drv_hisi_audio.c-2907]Set Audio Noise Restrain ok
+12-01 00:00:04 425[I][drv_hisi_audio.c-3028]Set Audio Auto Gain ok
+12-01 00:00:04 426[I][drv_hisi_audio.c-1633]Start audio ok.
+
+12-01 00:00:04 426[I][drv_hisi_audio.c-3600][DRV_ENCODE]enFormat:2, ulBitRate:64000, ulBitsPerSample:16, ulSampleRate:8000, ulRealRate:8000, ulChannels:1, ulPeriodSize:320, ulPeriodTime:40
+12-01 00:00:04 427[I][drv_hisi_audio.c-2639]Input ulGain[128]
+12-01 00:00:04 427[I][drv_hisi_audio.c-2686]Set audio chan[0] in gain 184[vol_ctrl:0x1f] ok.
+12-01 00:00:04 427[I][drv_hisi_audio.c-2639]Input ulGain[128]
+12-01 00:00:04 428[I][drv_hisi_audio.c-2686]Set audio chan[1] in gain 184[vol_ctrl:0x1f] ok.
+12-01 00:00:04 443[I][drv_hisi_audio.c-2907]Set Audio Noise Restrain ok
+12-01 00:00:04 443[I][drv_hisi_audio.c-2521]Output ulGain[242]
+12-01 00:00:04 443[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 242[vol_ctrl:0x4] ok.
+12-01 00:00:04 443[I][drv_hisi_audio.c-2521]Output ulGain[242]
+12-01 00:00:04 443[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 242[vol_ctrl:0x4] ok.
+12-01 00:00:04 755[I][drv_hisi_audio.c-876]Stop Audio Ai ok
+12-01 00:00:04 756[I][drv_hisi_audio.c-1723]Stop audio ok.
+12-01 00:00:04 756[I][drv_hisi_audio.c-3737]Audio exit ok
+12-01 00:00:04 775[I][drv_hisi_audio.c-2949]Audio is Close.
+12-01 00:00:04 795[I][hilib_vo_base.c-831]Set Analog 0 in.
+12-01 00:00:04 795[I][hilib_vo_base.c-879]Set Analog Vout Format OK.
+12-01 00:00:04 800[I][hilib_common_platform.c-386]!!!!!!!!!!!!!!![set decode parameter]!!!!!!!!!!!!!
+12-01 00:00:04 800[I][hilib_venc_base.c-1626]Venc Pack_S malloc Ok!
+12-01 00:00:04 802[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:04 802[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:04 802[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:04 802[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:04 920[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[0] mute[0] ok.
+12-01 00:00:04 921[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[1] mute[1] ok.
+12-01 00:00:04 921[I][drv_gpio.c-1470]Set speaker status: 1
+12-01 00:00:04 921[I][drv_hisi_audio.c-291]Set Audio Speaker Out.
+12-01 00:00:04 921[I][drv_hisi_audio.c-2521]Output ulGain[0]
+12-01 00:00:04 921[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 0[vol_ctrl:0x7f] ok.
+12-01 00:00:04 921[I][drv_hisi_audio.c-2521]Output ulGain[0]
+12-01 00:00:04 921[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 0[vol_ctrl:0x7f] ok.
+12-01 00:00:06 234[I][drv_misc_hisi3516dv300.c-232]Mmc[2][/dev/mmcblk2] Total Capacity 3776MB ProductNmae[004GA0] VendorName[0x000011]
+12-01 00:00:06 291[I][drv_misc_hisi3516dv300.c-183]Mount point[/data] Free[2738MB] Capacity[2939MB]
+12-01 00:00:06 405[E][drv_gpio.c-347]IOCTL_ERR DEV_ALM_CTL fail, err[Invalid argument]
+12-01 00:00:06 426[E][drv_gpio.c-347]IOCTL_ERR DEV_ALM_CTL fail, err[Invalid argument]
+12-01 00:00:08 619[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [1000]
+12-01 00:00:08 707[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [1000]
+12-01 00:00:12 050[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:12 068[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:12 668[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:12 756[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:13 285[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:13 000[I][comdrv_osd.c-2980]FontStyle 0 gbEnInvertColor 0
+12-01 00:00:13 000[I][drv_osd_hisi.c-1140]Set Char OSD OK.
+12-01 00:00:14 086[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:14 933[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:14 934[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [2] lihtsrc is [0] lightpower is [500]
+12-01 00:00:15 093[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:15 093[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:15 093[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:15 093[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:15 306[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 306[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 306[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 626[I][hilib_common_platform.c-3075]Small Pic Size(1080 1920) FrameRate[5000]
+12-01 00:00:15 626[I][hilib_common_platform.c-3118]IVA Cap Param FrameRate 5000 SMALL_FRAME 1080 x 1920
+12-01 00:00:15 627[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 627[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:15 627[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 627[I][hilib_vpss_base.c-2244]Vpss que[4] same param, return
+12-01 00:00:15 627[W][hilib_vpss_base.c-2180]Vpss que[7] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:15 627[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 627[I][hilib_vpss_base.c-772]que[7] ulGrpId[0] ulChnId[6] bNeedCorp: 0, 
+12-01 00:00:15 627[I][hilib_vpss_base.c-803]Vpss chn[6] creat ok
+12-01 00:00:15 627[I][hilib_vpss_base.c-1662]Vpss start chn[6] ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:15 628[I][hilib_vpss_base.c-1526]Vpss chn[0] reset ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-1876]Vpss chn[6] set param ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-2016]Vpss que[7] set param ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-2260]Vpss set que[7] param ok
+12-01 00:00:15 629[I][drv_process_qpts.c-2064]Start JPEG_StartFrameGetThread OK!
+12-01 00:00:15 629[I][hilib_common_platform.c-3153]drv Iva Init OK!
+12-01 00:00:15 629[I][drv_process_qpts.c-1701]GetFrame Init Iva FrameRate 5000
+12-01 00:00:15 629[I][drv_process_qpts.c-1411]VI_CMD_GET_NORM stCurNorm 1920 1080 rate 25
+12-01 00:00:15 919[I][drv_osd_hisi.c-1735]CanvasWidth(520) < BmpWidth(524)!!!
+12-01 00:00:16 060[I][drv_osd_hisi.c-1938]Set VO Picture OSD OK.
+12-01 00:00:16 358[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:16 358[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:16 358[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:16 358[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:16 414[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:16 414[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:16 414[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:16 424[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:16 430[I][drv_serialport.c-1210]com1 rs485 will be handled by kernel, tx_en pin[48]
+12-01 00:00:16 447[I][drv_serialport.c-1210]com1 rs485 will be handled by kernel, tx_en pin[48]
+12-01 00:00:16 534[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:16 834[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:16 919[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:16 920[I][drv_net.c-2300]set ip param interface 0 enable 1
+12-01 00:00:19 195[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:19 196[E][drv_gpio.c-1427]errno :22
+12-01 00:00:19 989[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [500]
+12-01 00:00:20 076[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [500]
+12-01 00:00:20 737[I][drv_libfun_ex.c-612]DRV_SetVoParam: ulArg=2200812920
+12-01 00:00:20 737[E][hilib_vo_base.c-1090]pstVideoChninfo width:520 hight:887 startX:40 startY:0
+12-01 00:00:20 737[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:20 738[W][hilib_vpss_base.c-2180]Vpss que[5] size[1080][1920] > max size[1068][600], Use max
+12-01 00:00:20 738[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:20 738[I][hilib_vpss_base.c-772]que[5] ulGrpId[0] ulChnId[2] bNeedCorp: 1, 
+12-01 00:00:20 738[E][hilib_vpss_base.c-776]VPSS_SetChnCrop start
+12-01 00:00:20 738[I][hilib_vpss_base.c-803]Vpss chn[2] creat ok
+12-01 00:00:20 738[I][hilib_vpss_base.c-1662]Vpss start chn[2] ok
+12-01 00:00:20 738[I][hilib_vpss_base.c-1876]Vpss chn[2] set param ok
+12-01 00:00:20 739[I][hilib_vpss_base.c-2016]Vpss que[5] set param ok
+12-01 00:00:20 739[I][hilib_vpss_base.c-2260]Vpss set que[5] param ok
+12-01 00:00:20 766[I][drv_lcd_vo.c-3532]Init HOLITECH 600*1024 screen
+12-01 00:00:21 598[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:21 598[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:21 599[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:21 599[I][drv_common.c-582]from 1 to 1
+12-01 00:00:21 599[I][drv_common.c-446]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:21 599[I][drv_manuparse_hisi3516dv300.c-442]Save Sensor Num[1]
+12-01 00:00:21 599[I][drv_common.c-2402]change g_ulProductType from 0xffffffff to 0xb
+12-01 00:00:21 599[I][drv_fixipc.c-525]Product Type[11]
+12-01 00:00:21 600[I][drv_manuparse_hisi3516dv300.c-130]Sensor[0] type[589826] [sc2310]
+12-01 00:00:21 600[I][drv_manuparse_hisi3516dv300.c-191]Sensor[0] Lane mode type[2] [sc2310]
+12-01 00:00:21 600[I][drv_fixipc.c-555]Product init ok
+12-01 00:00:21 600[I][drv_misc.c-53]Change adapter caller from 0 to 3
+12-01 00:00:21 601[I][drv_gpio.c-780]GPIO init ok.
+12-01 00:00:21 930[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:23 708[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:23 797[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:24 187[I][hilib_sys_base.c-966]System Bind [7 0 2] [15 0 0]!
+12-01 00:00:24 188[I][hilib_vo_base.c-744]Start vout ok.
+12-01 00:00:24 189[I][drv_media_ex.c-550]Set video local [1] ok
+12-01 00:00:24 189[I][drv_libfun_hisi3516dv300.c-536]DRV_SetFbParam:ulCmdType=100b, ulArg=2200812888
+12-01 00:00:24 190[I][drv_libfun_hisi3516dv300.c-536]DRV_SetFbParam:ulCmdType=100e, ulArg=2200812936
+12-01 00:00:27 011[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:28 097[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [500]
+12-01 00:00:28 207[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [500]
+12-01 00:00:29 327[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:30 532[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:32 090[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:37 174[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:42 255[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:46 711[I][hilib_common_platform.c-3075]Small Pic Size(1080 1920) FrameRate[4000]
+12-01 00:00:46 712[I][hilib_common_platform.c-3118]IVA Cap Param FrameRate 4000 SMALL_FRAME 1080 x 1920
+12-01 00:00:46 712[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:46 712[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:46 712[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:46 712[I][hilib_vpss_base.c-2244]Vpss que[4] same param, return
+12-01 00:00:46 712[W][hilib_vpss_base.c-2180]Vpss que[7] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:46 712[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:46 712[I][hilib_vpss_base.c-2244]Vpss que[7] same param, return
+12-01 00:00:47 197[I][drv_process_qpts.c-1701]GetFrame Init Iva FrameRate 4000
+12-01 00:00:47 197[I][drv_process_qpts.c-1411]VI_CMD_GET_NORM stCurNorm 1920 1080 rate 25
+12-01 00:00:47 411[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:47 506[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:47 507[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:47 507[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:47 507[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:49 459[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:49 460[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:49 460[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:49 460[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:52 545[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:57 635[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:02 748[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:07 837[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:12 942[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:18 077[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:23 161[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:28 267[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:33 353[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:38 458[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:43 577[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:48 670[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:53 758[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:58 836[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:03 926[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:09 047[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:14 127[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:19 228[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:24 339[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:29 425[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:34 510[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:39 603[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:44 700[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:49 793[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:54 874[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:59 958[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:05 099[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:10 173[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:15 328[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:20 414[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:25 562[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:30 632[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:35 724[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:40 800[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:45 879[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:50 984[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:56 099[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:01 168[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:06 289[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:11 377[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:16 476[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:21 562[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:26 631[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:31 755[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:36 839[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:41 921[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:47 042[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:52 124[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:57 211[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:02 294[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:07 374[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:12 464[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:17 559[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:22 634[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:27 756[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:32 840[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:37 920[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:43 026[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:47 366[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [480]
+12-01 00:05:47 457[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [460]
+12-01 00:05:47 547[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [440]
+12-01 00:05:47 637[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [420]
+12-01 00:05:47 726[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [400]
+12-01 00:05:47 816[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [380]
+12-01 00:05:47 907[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [360]
+12-01 00:05:47 997[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [340]
+12-01 00:05:48 087[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [320]
+12-01 00:05:48 125[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:48 176[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [300]
+12-01 00:05:48 268[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [280]
+12-01 00:05:48 367[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [260]
+12-01 00:05:48 456[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [240]
+12-01 00:05:48 547[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [220]
+12-01 00:05:48 637[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [200]
+12-01 00:05:48 728[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [180]
+12-01 00:05:48 822[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [160]
+12-01 00:05:48 918[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [140]
+12-01 00:05:49 010[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [120]
+12-01 00:05:49 108[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [100]
+12-01 00:05:49 207[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [80]
+12-01 00:05:49 302[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [60]
+12-01 00:05:49 398[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [40]
+12-01 00:05:49 488[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [20]
+12-01 00:05:49 576[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [10]
+12-01 00:05:53 241[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:58 340[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:03 414[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:08 503[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:13 579[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:18 668[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:23 769[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:28 853[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:33 926[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:39 045[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:44 148[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:49 250[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:54 382[I][drv_misc.c-347]NO dev found!
+
+12-01 00:06:59 503[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:04 588[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:09 672[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:14 765[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:19 839[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:24 938[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:30 038[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:35 130[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:40 231[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:45 339[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:50 437[I][drv_misc.c-347]NO dev found!
+
+12-01 00:07:55 548[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:00 623[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:05 761[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:10 830[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:15 913[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:21 038[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:26 124[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:31 221[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:36 304[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:41 380[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:46 498[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:51 581[I][drv_misc.c-347]NO dev found!
+
+12-01 00:08:56 683[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:01 769[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:06 853[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:11 922[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:17 025[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:22 123[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:27 226[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:32 325[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:37 405[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:42 534[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:47 614[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:52 712[I][drv_misc.c-347]NO dev found!
+
+12-01 00:09:57 799[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:02 878[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:07 997[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:13 114[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:18 201[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:21 717[I][drv_gpio.c-525]Thread[1409] timeout, exit
+12-01 00:10:23 297[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:28 379[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:33 489[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:38 584[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:43 669[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:48 754[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:53 828[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:58 897[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:03 998[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:09 082[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:14 162[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:19 269[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:24 351[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:29 419[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:34 506[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:39 593[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:44 702[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:49 802[I][drv_misc.c-347]NO dev found!
+
+12-01 00:11:54 877[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:00 003[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:05 110[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:10 215[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:15 407[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:20 535[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:25 616[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:30 752[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:35 829[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:40 911[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:46 002[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:51 092[I][drv_misc.c-347]NO dev found!
+
+12-01 00:12:56 167[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:01 293[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:06 372[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:11 450[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:16 573[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:21 653[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:26 784[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:31 863[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:36 959[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:42 102[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:47 182[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:52 310[I][drv_misc.c-347]NO dev found!
+
+12-01 00:13:57 388[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:02 493[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:07 601[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:12 704[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:17 817[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:22 899[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:27 994[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:33 092[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:38 174[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:43 290[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:48 370[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:53 484[I][drv_misc.c-347]NO dev found!
+
+12-01 00:14:58 599[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:03 661[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:08 774[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:13 856[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:18 962[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:24 077[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:29 170[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:34 322[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:39 400[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:44 509[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:49 601[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:54 689[I][drv_misc.c-347]NO dev found!
+
+12-01 00:15:59 818[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:04 906[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:10 023[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:15 146[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:20 271[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:25 357[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:30 455[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:35 559[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:40 641[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:45 750[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:50 823[I][drv_misc.c-347]NO dev found!
+
+12-01 00:16:55 895[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:01 019[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:06 112[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:11 213[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:16 310[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:21 398[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:26 497[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:31 597[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:36 697[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:41 820[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:46 902[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:52 019[I][drv_misc.c-347]NO dev found!
+
+12-01 00:17:57 108[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:02 206[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:07 318[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:12 405[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:17 546[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:22 628[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:27 733[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:32 820[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:37 897[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:43 021[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:48 109[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:53 221[I][drv_misc.c-347]NO dev found!
+
+12-01 00:18:58 338[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:03 425[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:08 544[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:13 634[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:18 763[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:23 855[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:28 931[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:34 031[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:39 108[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:44 220[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:49 342[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:54 429[I][drv_misc.c-347]NO dev found!
+
+12-01 00:19:59 531[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:04 618[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:09 711[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:14 836[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:19 920[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:25 056[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:30 142[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:35 266[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:40 384[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:45 491[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:50 584[I][drv_misc.c-347]NO dev found!
+
+12-01 00:20:55 664[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:00 790[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:05 876[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:10 969[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:16 057[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:21 142[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:26 292[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:31 384[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:36 487[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:41 585[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:46 683[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:51 781[I][drv_misc.c-347]NO dev found!
+
+12-01 00:21:56 849[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:01 932[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:07 055[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:12 133[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:17 240[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:22 339[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:27 425[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:32 532[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:37 608[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:42 712[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:47 833[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:52 915[I][drv_misc.c-347]NO dev found!
+
+12-01 00:22:58 024[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:03 119[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:08 207[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:13 321[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:18 396[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:23 535[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:28 631[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:33 739[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:38 841[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:43 923[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:49 046[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:54 137[I][drv_misc.c-347]NO dev found!
+
+12-01 00:23:59 243[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:04 368[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:09 484[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:14 573[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:19 661[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:24 754[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:29 844[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:34 923[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:40 046[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:45 128[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:50 277[I][drv_misc.c-347]NO dev found!
+
+12-01 00:24:55 392[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:00 492[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:05 585[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:10 670[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:15 765[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:20 851[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:25 926[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:31 048[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:36 128[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:41 210[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:46 326[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:51 411[I][drv_misc.c-347]NO dev found!
+
+12-01 00:25:56 526[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:01 613[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:06 742[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:11 828[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:16 905[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:22 033[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:27 112[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:32 172[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:37 283[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:42 367[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:47 457[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:52 571[I][drv_misc.c-347]NO dev found!
+
+12-01 00:26:57 648[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:02 788[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:07 870[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:12 983[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:18 113[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:23 193[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:28 304[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:33 377[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:38 519[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:43 604[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:48 698[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:53 806[I][drv_misc.c-347]NO dev found!
+
+12-01 00:27:58 889[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:03 994[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:09 100[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:14 178[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:19 320[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:24 408[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:29 524[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:34 608[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:39 722[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:44 827[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:49 907[I][drv_misc.c-347]NO dev found!
+
+12-01 00:28:55 033[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:00 115[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:05 210[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:10 352[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:15 428[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:20 537[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:25 632[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:30 732[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:35 821[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:40 900[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:46 024[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:51 111[I][drv_misc.c-347]NO dev found!
+
+12-01 00:29:56 201[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:01 284[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:06 371[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:11 491[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:16 607[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:21 700[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:26 812[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:31 891[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:37 012[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:42 112[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:47 192[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:52 295[I][drv_misc.c-347]NO dev found!
+
+12-01 00:30:57 366[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:02 479[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:07 590[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:12 672[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:17 782[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:22 863[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:27 959[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:33 066[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:38 149[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:43 272[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:48 362[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:53 445[I][drv_misc.c-347]NO dev found!
+
+12-01 00:31:58 541[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:03 613[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:08 700[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:13 811[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:18 883[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:23 982[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:29 108[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:34 201[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:39 334[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:44 406[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:49 540[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:54 614[I][drv_misc.c-347]NO dev found!
+
+12-01 00:32:59 699[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:04 803[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:09 883[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:14 985[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:20 094[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:25 185[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:30 314[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:35 400[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:40 520[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:45 603[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:50 682[I][drv_misc.c-347]NO dev found!
+
+12-01 00:33:55 780[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:00 865[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:05 978[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:11 093[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:16 188[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:21 282[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:26 366[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:31 474[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:36 572[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:41 656[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:46 777[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:51 861[I][drv_misc.c-347]NO dev found!
+
+12-01 00:34:56 943[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:02 030[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:07 122[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:12 235[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:17 323[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:22 405[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:27 527[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:32 612[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:37 728[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:42 843[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:47 922[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:53 068[I][drv_misc.c-347]NO dev found!
+
+12-01 00:35:58 145[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:03 273[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:08 361[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:13 480[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:18 585[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:23 669[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:28 767[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:33 854[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:38 931[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:44 023[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:49 101[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:54 250[I][drv_misc.c-347]NO dev found!
+
+12-01 00:36:59 330[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:04 401[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:09 534[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:14 603[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:19 682[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:24 808[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:29 890[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:34 977[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:40 095[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:45 260[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:50 375[I][drv_misc.c-347]NO dev found!
+
+12-01 00:37:55 480[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:00 584[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:05 668[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:10 874[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:15 954[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:21 086[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:26 173[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:31 251[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:36 338[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:41 436[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:46 540[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:51 625[I][drv_misc.c-347]NO dev found!
+
+12-01 00:38:56 736[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:01 836[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:06 921[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:12 027[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:17 104[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:22 174[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:27 259[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:32 395[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:37 511[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:42 584[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:47 656[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:52 788[I][drv_misc.c-347]NO dev found!
+
+12-01 00:39:57 871[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:02 935[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:08 038[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:13 122[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:18 195[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:23 294[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:28 376[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:33 501[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:38 582[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:43 679[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:48 764[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:53 843[I][drv_misc.c-347]NO dev found!
+
+12-01 00:40:58 915[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:04 010[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:09 133[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:14 263[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:19 350[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:24 428[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:29 509[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:34 597[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:39 710[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:44 817[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:49 894[I][drv_misc.c-347]NO dev found!
+
+12-01 00:41:54 996[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:00 109[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:05 185[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:10 341[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:15 427[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:20 518[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:25 600[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:30 681[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:35 763[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:40 841[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:45 930[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:51 031[I][drv_misc.c-347]NO dev found!
+
+12-01 00:42:56 110[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:01 186[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:06 281[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:11 351[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:16 451[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:21 549[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:26 635[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:31 748[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:36 842[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:41 918[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:47 033[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:52 135[I][drv_misc.c-347]NO dev found!
+
+12-01 00:43:57 253[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:02 338[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:07 414[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:12 523[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:17 592[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:22 670[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:27 767[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:32 864[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:37 938[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:43 072[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:48 139[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:53 267[I][drv_misc.c-347]NO dev found!
+
+12-01 00:44:58 347[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:03 476[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:08 573[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:13 643[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:18 754[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:23 839[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:28 925[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:34 072[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:39 149[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:44 260[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:49 340[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:54 428[I][drv_misc.c-347]NO dev found!
+
+12-01 00:45:59 538[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:04 616[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:09 732[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:14 817[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:19 889[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:24 998[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:30 141[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:35 235[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:40 361[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:45 465[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:50 562[I][drv_misc.c-347]NO dev found!
+
+12-01 00:46:55 639[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:00 759[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:05 845[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:10 929[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:16 048[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:21 133[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:26 207[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:31 313[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:36 380[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:41 509[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:46 588[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:51 680[I][drv_misc.c-347]NO dev found!
+
+12-01 00:47:56 762[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:01 840[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:06 923[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:12 053[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:17 130[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:22 222[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:27 330[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:32 414[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:37 511[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:42 597[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:47 707[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:52 815[I][drv_misc.c-347]NO dev found!
+
+12-01 00:48:57 887[I][drv_misc.c-347]NO dev found!
+
+12-01 00:49:03 004[I][drv_misc.c-347]NO dev found!
+
+12-01 00:49:08 113[I][drv_misc.c-347]NO dev found!
+
+12-01 00:49:13 200[I][drv_misc.c-347]NO dev found!
+

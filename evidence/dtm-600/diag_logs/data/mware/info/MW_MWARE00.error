@@ -1,0 +1,517 @@
+12-01 00:00:00 047[E(2)][mw_conf_cap.c-11984]Num[5]
+12-01 00:00:00 558[E(1)][mw_ctrl_main.c-59588]open file /config/updatestatus failed
+12-01 00:00:01 864[E(1)][mw_conf_cap.c-7996] stDrvCap.bAlarmInExtend 0
+12-01 00:00:01 947[F(1)][mw_conf_cap.c-9101]Not found path [MWare/Server/VMServer/Mode]
+12-01 00:00:01 980[E(4)][mw_conf.c-29396]get node[MWare/ACS/PeopleLibraries/PermissionList] fail
+12-01 00:00:01 980[E(2)][mw_conf.c-29349]Del Permission Fail
+12-01 00:00:03 732[E(0)][mw_ctrl_main.c-34654]DeviceID:1, DeviceName:1, szDirection:1,To West,2,To East,szRoadID:, szRoadName:road
+12-01 00:00:03 853[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:00:04 492[E(8)][mw_mcp.c-15762]Get PresetOSDInfo fail!
+12-01 00:00:04 492[E(8)][mw_mcp.c-13644]MCP Get PowOffMem Preset OSD Fail!
+12-01 00:00:05 862[E(1)][mp_sd_net_node.c-1194]Failed to set Qos Dscp 46
+12-01 00:00:07 453[E(1)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus Channel 1 Status 0 Fail
+12-01 00:00:07 453[E(1)][mw_alarm_main.c-7577]MW_ALARM_OutputSwitchSpecProc Channel 1 Failed
+12-01 00:00:07 473[E(1)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus Channel 2 Status 0 Fail
+12-01 00:00:07 474[E(1)][mw_alarm_main.c-7577]MW_ALARM_OutputSwitchSpecProc Channel 2 Failed
+12-01 00:00:11 872[E(0)][mw_ctrl_lightapi_func.c-13414]Get Device IP begin
+12-01 00:00:12 437[E(10012)][coredata_device_mgr.c-2587]Failed to get tamper rules, VideoSourceToken:video_source
+12-01 00:00:12 437[E(10012)][coredata_device_mgr.c-2593]Failed to get line rules, VideoSourceToken:video_source
+12-01 00:00:12 493[E(10012)][coredata_device_mgr.c-2611]Failed to get intrusion rules, VideoSourceToken:video_source
+12-01 00:00:12 493[E(10012)][coredata_device_mgr.c-2617]Failed to get scene rules, VideoSourceToken:video_source
+12-01 00:00:12 493[E(10012)][coredata_device_mgr.c-2622]Failed to get focus rules, VideoSourceToken:video_source
+12-01 00:00:12 517[E(1)][coredata_device_mgr.c-3056]EntityIndex error: 1 1
+12-01 00:00:12 517[E(1)][coredata_device_mgr.c-3145]Failed to Create AnalyticsEntity of Video and Audio
+12-01 00:00:12 517[E(1)][coredata_device_mgr.c-3531]
+12-01 00:00:14 344[E(0)][iw_acs_face.c-563][FACE2]Dlsym Fail, Err:/program/lib/libFaceAnalyzeSystemAPI.so: undefined symbol: ISF_UVFACE_Cap
+12-01 00:00:14 404[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:00:16 293[E(9215)][mw_ctrl_main.c-7565]ISP_SetZoomCut wide fail!
+12-01 00:00:16 293[E(9215)][mw_ctrl_main.c-28311]CTRL Init Focal Limit Cfg fail
+12-01 00:00:19 801[E(1)][am_sip_regist_main.c-294]Could not find the client CCB is using To Unreg !
+12-01 00:00:19 802[E(1)][_am_sip_main.c-1646]UNReg fail!
+12-01 00:00:19 819[E(1)][mw_ctrl_utils.c-644]Execute ioctl failed for getting mac
+12-01 00:00:19 819[E(0)][mw_ctrl_ddns.c-1205]DDNS Cfg info is Change
+12-01 00:00:21 102[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:00:21 243[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:00:21 257[E(0)][mw_onvif_func.c-1057]DigestAuth fail, Ret[12]
+12-01 00:00:21 269[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:00:21 288[E(0)][mw_onvif_func.c-1057]DigestAuth fail, Ret[12]
+12-01 00:00:28 246[E(1)][bp_module.c-516][BP_SlabGetBuf]Slab full, Print Slab_*.log. Size=4, Type=1
+12-01 00:00:32 607[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:32 607[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:33 617[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:33 618[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:34 626[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:34 627[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:40 646[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:40 646[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:41 657[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:41 657[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:42 667[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:42 667[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:46 221[E(21)][bp_util.c-10298][BP_ACS_AllLibInfoProc]fopen[/data/WorkLibFile/AllLibInfo.bin] err[No such file or directory]
+12-01 00:00:46 221[E(21)][bp_util.c-10298][BP_ACS_AllLibInfoProc]fopen[/data/WorkLibFile/AllLibInfo_B.bin] err[No such file or directory]
+12-01 00:00:48 687[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:48 687[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:49 696[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:49 696[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:50 707[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:50 707[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:56 727[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:56 728[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:57 736[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:57 737[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:58 747[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:58 747[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:04 767[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:04 767[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:05 777[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:05 778[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:06 797[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:06 797[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:12 817[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:12 818[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:13 826[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:13 827[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:14 836[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:14 837[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:20 858[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:20 858[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:21 866[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:21 866[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:22 876[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:22 911[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:28 926[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:28 927[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:29 937[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:29 937[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:30 946[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:30 946[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:36 966[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:36 967[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:37 977[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:37 977[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:38 988[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:38 989[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:45 007[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:45 007[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:46 016[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:46 017[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:47 026[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:47 027[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:49 708[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:01:49 760[E(460)][bp_util.c-7008]Pass Word Error
+12-01 00:01:49 760[E(1)][bp_util.c-7151]CheckDigestAuth fail, Ret[1]
+12-01 00:01:49 761[E(1)][bp_util.c-7249]PassWD Not Match
+12-01 00:01:49 761[E(12)][bp_util.c-7326]PWD err[460], LoginMode[1]
+12-01 00:01:49 799[E(460)][mw_ctrl_lightapi_func.c-12264]No Vm Sync PWD
+12-01 00:01:49 801[E(460)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:01:52 529[E(460)][bp_util.c-7008]Pass Word Error
+12-01 00:01:52 529[E(1)][bp_util.c-7151]CheckDigestAuth fail, Ret[1]
+12-01 00:01:52 529[E(1)][bp_util.c-7249]PassWD Not Match
+12-01 00:01:52 529[E(12)][bp_util.c-7326]PWD err[460], LoginMode[1]
+12-01 00:01:52 566[E(460)][mw_ctrl_lightapi_func.c-12264]No Vm Sync PWD
+12-01 00:01:52 567[E(460)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:01:53 047[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:53 047[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:54 056[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:54 057[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:55 066[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:55 066[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:01 087[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:01 088[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:02 096[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:02 097[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:03 106[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:03 106[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:09 128[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:09 128[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:10 137[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:10 137[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:11 146[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:11 146[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:17 166[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:17 167[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:18 178[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:18 179[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:19 186[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:19 187[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:25 206[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:25 207[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:26 218[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:26 218[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:27 227[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:27 227[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:33 256[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:33 257[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:34 267[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:34 268[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:35 277[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:35 277[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:41 297[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:41 298[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:42 308[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:42 309[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:43 317[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:43 318[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:43 549[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:02:43 760[E(1)][am_rtsp_main.c-4418]Get RmCcb[0] Fail When Teardown
+12-01 00:02:49 336[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:49 336[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:50 346[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:50 346[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:51 357[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:51 357[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:57 376[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:57 377[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:58 386[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:58 386[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:59 397[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:59 397[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:05 416[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:05 417[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:06 426[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:06 427[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:07 436[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:07 436[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:13 457[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:13 457[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:14 466[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:14 466[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:15 476[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:15 477[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:20 909[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:03:21 498[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:21 498[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:22 507[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:22 508[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:23 517[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:23 517[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:29 536[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:29 537[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:30 546[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:30 547[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:31 556[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:31 557[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:37 577[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:37 577[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:38 587[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:38 587[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:39 598[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:39 598[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:45 616[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:45 617[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:46 626[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:46 626[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:47 636[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:47 637[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:53 656[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:53 657[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:54 666[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:54 666[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:55 681[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:55 681[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:01 701[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:01 701[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:02 706[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:02 707[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:03 716[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:03 716[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:09 736[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:09 737[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:10 746[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:10 747[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:11 757[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:11 757[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:17 777[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:17 777[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:18 788[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:18 789[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:19 796[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:19 797[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:25 816[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:25 817[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:26 837[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:26 838[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:27 846[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:27 847[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:33 867[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:33 867[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:34 877[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:34 878[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:35 886[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:35 886[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:41 906[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:41 906[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:42 916[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:42 917[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:43 927[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:43 928[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:49 946[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:49 947[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:50 956[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:50 956[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:51 967[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:51 968[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:57 986[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:57 987[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:58 996[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:58 996[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:00 006[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:00 007[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:06 026[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:06 027[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:07 038[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:07 038[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:08 057[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:08 058[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:09 949[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:05:14 077[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:14 077[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:15 086[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:15 087[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:15 703[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:05:15 908[E(1)][am_rtsp_main.c-4418]Get RmCcb[1] Fail When Teardown
+12-01 00:05:16 097[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:16 097[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:19 102[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:05:19 307[E(1)][am_rtsp_main.c-4418]Get RmCcb[2] Fail When Teardown
+12-01 00:05:22 117[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:22 117[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:23 126[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:23 127[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:24 137[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:24 137[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:30 043[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:05:30 156[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:30 157[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:30 247[E(1)][am_rtsp_main.c-4418]Get RmCcb[3] Fail When Teardown
+12-01 00:05:31 166[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:31 167[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:32 176[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:32 176[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:38 197[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:38 198[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:39 209[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:39 209[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:40 216[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:40 217[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:46 236[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:46 236[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:47 256[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:47 257[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:48 267[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:48 267[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:54 287[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:54 290[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:55 297[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:55 298[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:56 308[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:56 308[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:02 326[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:02 327[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:03 336[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:03 337[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:04 347[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:04 348[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:10 366[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:10 367[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:11 377[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:11 377[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:12 387[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:12 387[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:18 446[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:18 447[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:19 486[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:19 487[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:20 507[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:20 507[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:26 528[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:26 529[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:27 537[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:27 538[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:28 555[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:28 556[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:34 577[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:34 578[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:35 586[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:35 586[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:36 596[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:36 597[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:42 617[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:42 619[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:43 626[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:43 627[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:44 637[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:44 637[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:50 657[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:50 658[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:51 666[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:51 667[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:52 676[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:52 677[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:55 898[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:06:58 696[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:58 697[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:59 709[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:59 710[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:00 716[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:00 717[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:06 736[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:06 736[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:07 746[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:07 747[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:08 757[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:08 757[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:14 777[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:14 777[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:15 787[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:15 787[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:16 798[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:16 799[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:20 478[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:07:22 816[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:22 817[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:23 827[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:23 827[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:24 836[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:24 837[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:30 856[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:30 857[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:31 866[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:31 867[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:32 876[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:32 876[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:38 897[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:38 898[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:39 906[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:39 907[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:40 920[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:40 920[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:42 678[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:07:46 938[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:46 939[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:47 946[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:47 947[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:48 956[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:48 956[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:54 977[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:54 977[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:55 987[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:55 988[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:56 997[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:56 998[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:03 016[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:03 017[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:04 027[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:04 028[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:05 038[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:05 039[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:11 056[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:11 057[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:12 066[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:12 067[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:13 077[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:13 078[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:19 097[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:19 097[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:20 106[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:20 106[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:21 117[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:21 118[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:25 571[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:08:27 137[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:27 137[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:28 146[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:28 147[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:29 156[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:29 156[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:32 948[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:08:35 178[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:35 178[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:36 197[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:36 202[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:37 218[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:37 219[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:43 236[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:43 237[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:44 246[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:44 246[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:45 257[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:45 258[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:51 277[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:51 277[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:52 286[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:52 287[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:53 297[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:53 297[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:59 317[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:59 318[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:00 327[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:00 327[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:01 336[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:01 337[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:07 357[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:07 358[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:08 367[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:08 367[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:09 376[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:09 377[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:15 396[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:15 397[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:16 407[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:16 407[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:17 416[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:17 417[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:23 436[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:23 436[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:24 446[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:24 447[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:25 458[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:25 458[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:31 476[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:31 476[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:32 486[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:32 487[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:33 497[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:33 497[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:39 517[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:39 517[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:40 526[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:40 527[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:41 538[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:41 538[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:47 556[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:47 557[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:48 566[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:48 567[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:49 576[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:49 577[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:52 067[E(0)][mw_ctrl_lightapi_func.c-2011]Illegal Index[-1]
+12-01 00:09:52 068[E(2)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:09:52 221[E(0)][mw_ctrl_lightapi_func.c-2011]Illegal Index[-1]
+12-01 00:09:52 222[E(2)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:09:52 288[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:09:53 077[E(2)][mw_ctrl_lightapi_func.c-5009]Tmp password or name is NULL in URL
+12-01 00:09:53 079[E(2)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:09:53 520[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:09:55 598[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:55 599[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:56 607[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:56 608[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:57 616[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:57 616[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:03 644[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:03 644[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:04 656[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:04 657[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:05 666[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:05 666[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:07 558[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:10:11 688[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:11 688[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:12 696[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:12 697[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:13 706[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:13 706[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:19 728[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:19 728[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]

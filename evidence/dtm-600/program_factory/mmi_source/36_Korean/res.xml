@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <PAGE_100>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_114><source></source><translation>어서 오십시오.</translation></ITEM_114> 
+        <ITEM_120><source></source><translation>사용자 폴더</translation></ITEM_120> 
+        <ITEM_123><source></source><translation>방문객 폴더</translation></ITEM_123> 
+        <ITEM_133><source></source><translation>가까이 오셔서 정면을 바라봐 주시기 바랍니다.</translation></ITEM_133> 
+        <ITEM_157><source>Please Scan QRCode</source><translation>QR 코드를 스캔하십시오.</translation></ITEM_157>
+        <ITEM_159><source></source><translation>온도 측정 영역</translation></ITEM_159>
+        <ITEM_185><source></source><translation>총 사용자:</translation></ITEM_185>
+        <ITEM_187><source></source><translation>정상 사용자:</translation></ITEM_187>
+    </PAGE_100>  
+    <PAGE_111>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_103><source>Cancle</source><translation>뒤로가기</translation></ITEM_103>         
+        <ITEM_106><source>help</source><translation>도움말</translation></ITEM_106>   
+        <ITEM_107><source>DisCribe</source><translation>세대번호를 입력하시고, [확인] 버튼을 누르세요</translation></ITEM_107>    
+        <ITEM_108><source>DisCribe</source><translation>호출세대 비밀번호 또는 개인비밀번호를 입력하고 [확인] 버튼을 누르세요.</translation></ITEM_108>    
+        <ITEM_111><source>1 Unit</source><translation>Unit 1</translation></ITEM_111>       
+        <ITEM_112><source>2 Unit</source><translation>Unit 2</translation></ITEM_112>       
+        <ITEM_113><source>3 Unit</source><translation>Unit 3</translation></ITEM_113>      
+        <ITEM_115><source>test</source><translation>인식 성공, 문열림</translation></ITEM_115>  
+        <ITEM_116><source>test</source><translation>비밀번호가 맞지않습니다. 다시 시도해주세요.</translation></ITEM_116>
+        <ITEM_118><source>test</source><translation>Unscheduled successfully</translation></ITEM_118>
+        <ITEM_119><source>test</source><translation>인증 성공하였습니다. 체온을 측정하십시오.</translation></ITEM_119> 	
+    </PAGE_111>
+    <PAGE_113>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_102><source>test</source><translation>시스템 구성</translation></ITEM_102>         
+    </PAGE_113> 
+    <PAGE_112>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_111><source></source><translation>호출대기</translation></ITEM_111>
+        <ITEM_112><source></source><translation>통화 중</translation></ITEM_112> 
+        <ITEM_113><source></source><translation>호출 중</translation></ITEM_113> 
+        <ITEM_120><source></source><translation>통화 종료 중</translation></ITEM_120> 
+        <ITEM_121><source></source><translation>호출 거부</translation></ITEM_121> 
+        <ITEM_122><source></source><translation>호출 시간 초과</translation></ITEM_122> 
+        <ITEM_123><source></source><translation>연결할 수 없습니다</translation></ITEM_123> 
+        <ITEM_124><source></source><translation>호출하신 번호는 통화중입니다.</translation></ITEM_124>
+        <ITEM_125><source></source><translation>응답 없음</translation></ITEM_125>
+        <ITEM_126><source></source><translation>네트워크 끊김</translation></ITEM_126>
+        <ITEM_127><source></source><translation>현관 비밀번호가 맞지않습니다.</translation></ITEM_127>
+        <ITEM_130><source></source><translation>관리센터 호출</translation></ITEM_130>
+        <ITEM_131><source></source><translation>리셉션 호출</translation></ITEM_131>
+        <ITEM_132><source></source><translation>디렉터 호출</translation></ITEM_132>
+        <ITEM_133><source></source><translation>세대번호</translation></ITEM_133>
+    </PAGE_112>	
+    <PAGE_114>		
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>기본정보</translation></ITEM_102>
+        <ITEM_103><source></source><translation>모델명</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>펌웨어 버전</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>하드웨어 버전</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>부팅버전</translation></ITEM_106> 
+        <ITEM_107><source></source><translation>시리얼번호</translation></ITEM_107> 
+        <ITEM_108><source></source><translation>네트워크</translation></ITEM_108> 
+        <ITEM_109><source></source><translation>MAC 주소</translation></ITEM_109>
+        <ITEM_110><source></source><translation>시스템 시간</translation></ITEM_110>
+        <ITEM_111><source></source><translation>장치 작동 시간</translation></ITEM_111>
+        <ITEM_112><source></source><translation>관리서버</translation></ITEM_112>
+        <ITEM_113><source></source><translation>엣지 스토리지</translation></ITEM_113>
+        <ITEM_135><source></source><translation>일</translation></ITEM_135>
+        <ITEM_136><source></source><translation>시</translation></ITEM_136>
+        <ITEM_137><source></source><translation>분</translation></ITEM_137>
+        <ITEM_138><source></source><translation>오프라인</translation></ITEM_138>
+        <ITEM_139><source></source><translation>온라인</translation></ITEM_139>
+        <ITEM_140><source></source><translation>부재</translation></ITEM_140>
+        <ITEM_141><source></source><translation>고장</translation></ITEM_141>
+        <ITEM_142><source></source><translation>감지중</translation></ITEM_142>
+        <ITEM_143><source></source><translation>정상</translation></ITEM_143>
+    </PAGE_114>
+    <PAGE_115>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_101><source>test</source><translation>기본정보</translation></ITEM_101>         
+        <ITEM_102><source>test</source><translation>성명</translation></ITEM_102>   
+        <ITEM_103><source>test</source><translation>성별</translation></ITEM_103>    
+        <ITEM_104><source>test</source><translation>카드번호</translation></ITEM_104>    
+        <ITEM_105><source>test</source><translation>주민등록번호</translation></ITEM_105>       
+        <ITEM_106><source>test</source><translation>얼굴사진</translation></ITEM_106>
+        <ITEM_107><source>test</source><translation>남</translation></ITEM_107>       
+        <ITEM_108><source>test</source><translation>여</translation></ITEM_108>
+        <ITEM_109><source>test</source><translation>페이스 라이브러리</translation></ITEM_109>      
+        <ITEM_111><source>test</source><translation> </translation></ITEM_111>       
+        <ITEM_112><source>test</source><translation> </translation></ITEM_112>              
+        <ITEM_120><source>test</source><translation>저장</translation></ITEM_120>      
+        <ITEM_130><source>test</source><translation>사용자 관리</translation></ITEM_130>  		
+    </PAGE_115>  
+    <PAGE_116>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>네트워크 설정</translation></ITEM_102>
+        <ITEM_103><source></source><translation>유선 포트</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>IP 획득 방식</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>듀얼 네프워크 격리</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>IP 주소</translation></ITEM_106> 
+        <ITEM_107><source></source><translation>서브넷 마스크</translation></ITEM_107> 
+        <ITEM_108><source></source><translation>게이트웨이 주소</translation></ITEM_108> 
+    </PAGE_116>
+    <PAGE_117>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_105><source>test</source><translation>상반신을 카메라 정면에 맞추세요</translation></ITEM_105>         
+        <ITEM_106><source>test</source><translation>사진확인</translation></ITEM_106> 		
+    </PAGE_117>  
+    <PAGE_118>
+        <ITEM_0><source></source><translation></translation></ITEM_0>  
+        <ITEM_102><source>test</source><translation>장치위치</translation></ITEM_102>         
+        <ITEM_103><source></source><translation>관리센터 IP 주소</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>단지</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>동</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>구성가능한 Unit 수</translation></ITEM_106>  
+        <ITEM_107><source></source><translation>Unit</translation></ITEM_107>
+        <ITEM_108><source></source><translation>Unit</translation></ITEM_108>
+        <ITEM_109><source></source><translation>Unit</translation></ITEM_109>
+        <ITEM_110><source></source><translation>Unit</translation></ITEM_110>
+    </PAGE_118>
+    <PAGE_119>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>비밀번호 설정</translation></ITEM_102>
+        <ITEM_103><source></source><translation>활성화 여부</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>활성화</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>비활성화</translation></ITEM_105> 
+        <ITEM_106><source></source><translation>비밀번호</translation></ITEM_106> 
+        <ITEM_107><source></source><translation>비밀번호 확인</translation></ITEM_107> 
+        <ITEM_108><source></source><translation>힌트: 8자리 비밀번호를 입력하세요.</translation></ITEM_108> 
+    </PAGE_119>      
+    <PAGE_120>
+        <ITEM_0><source></source><translation></translation></ITEM_0> 
+        <ITEM_102><source></source><translation>비밀번호를 입력하세요.</translation></ITEM_102>
+        <ITEM_103><source></source><translation>비밀번호를 다시 입력하세요.</translation></ITEM_103> 
+        <ITEM_104><source></source><translation>일치하지 않습니다. 다시 입력하세요</translation></ITEM_104> 
+        <ITEM_105><source></source><translation>숫자/영문 대문자,소문자/특수문자(_,-) 중 2가지 이상을 포함하세요.</translation></ITEM_105> 
+        <ITEM_110><source></source><translation>확인</translation></ITEM_110>
+        <ITEM_108><source></source><translation>힌트: 8-32자리 비밀번호를 입력하세요.</translation></ITEM_108>		
+    </PAGE_120> 
+    <PAGE_121>
+         <ITEM_0><source></source><translation></translation></ITEM_0> 
+         <ITEM_101><source></source><translation>비밀번호를 입력하세요.</translation></ITEM_101>
+         <ITEM_103><source></source><translation>비밀번호 오류</translation></ITEM_103> 
+    </PAGE_121>    
+    <PAGE_122>
+         <ITEM_0><source></source><translation></translation></ITEM_0> 
+         <ITEM_101><source></source><translation>이전 비밀번호를 입력하세요.</translation></ITEM_101>
+         <ITEM_102><source></source><translation>새로운 비밀번호를 입력하세요</translation></ITEM_102> 
+         <ITEM_103><source></source><translation>비밀번호 확인</translation></ITEM_103> 
+         <ITEM_104><source></source><translation>숫자/영문 대문자,소문자/특수문자(_,-) 중 2가지 이상을 포함하세요.</translation></ITEM_104> 
+         <ITEM_110><source></source><translation>사용자 비밀번호</translation></ITEM_110> 
+    </PAGE_122>
+	<PAGE_123>
+		<ITEM_0><source></source><translation></translation></ITEM_0>
+		<ITEM_101><source></source><translation>시스템 재부팅</translation></ITEM_101>
+		<ITEM_102><source></source><translation>시스템 설정</translation></ITEM_102>
+		<ITEM_103><source></source><translation>초기화를 진행합니다.</translation></ITEM_103>
+		<ITEM_110><source></source><translation>시스템 유지보수</translation></ITEM_110>
+		<ITEM_111><source></source><translation>재부팅</translation></ITEM_111>
+		<ITEM_112><source></source><translation>기본값 복원</translation></ITEM_112>
+    </PAGE_123>	
+    <PAGE_126>
+         <ITEM_0><source></source><translation></translation></ITEM_0> 
+         <ITEM_102><source></source><translation>인증 방식</translation></ITEM_102>
+         <ITEM_104><source></source><translation>알림: 추가 인증 구성은 웹 브라우저에 로그인하여 설정해주십시오.</translation></ITEM_104> 
+         <ITEM_105><source></source><translation>온도 범위 유효 값</translation></ITEM_105>
+         <ITEM_106><source></source><translation>온도 임계 값</translation></ITEM_106>
+         <ITEM_107><source></source><translation>알림: 온도 임계 값을 초과하면 체온 이상입니다.</translation></ITEM_107> 			
+         <ITEM_108><source></source><translation>온도 측정 방식</translation></ITEM_108>
+         <ITEM_109><source></source><translation>마스크 착용 감지</translation></ITEM_109>			
+         <ITEM_110><source></source><translation>℃ ~</translation></ITEM_110>
+         <ITEM_111><source></source><translation>℃</translation></ITEM_111>	
+         <ITEM_112><source></source><translation>℃</translation></ITEM_112>	
+         <ITEM_115><source></source><translation>온도 단위</translation></ITEM_115>
+         <ITEM_116><source></source><translation>   ℃</translation></ITEM_116>	
+         <ITEM_117><source></source><translation>   °F</translation></ITEM_117>	
+         <ITEM_122><source></source><translation>   이마 온도 측정</translation></ITEM_122>	
+         <ITEM_123><source></source><translation>   손목 온도 측정</translation></ITEM_123>			
+         <ITEM_124><source></source><translation>   체온만 측정</translation></ITEM_124> 
+         <ITEM_125><source></source><translation>   얼굴 인식 + 체온 측정</translation></ITEM_125>
+         <ITEM_126><source></source><translation>   얼굴 인증 + 체온 측정</translation></ITEM_126>	
+         <ITEM_127><source></source><translation>   人证比对测温</translation></ITEM_127>
+    </PAGE_126>  	
+    <ERR>
+        <TEXT_1022>
+            <source>Param failed.</source>
+            <translation>데이터 값 설정 실패</translation>
+        </TEXT_1022>
+    </ERR>	
+    <TIP>
+        <TEXT_1001><source>test</source><translation>인식 성공. 문열림</translation></TEXT_1001>   
+        <TEXT_1002><source>test</source><translation>비밀번호가 맞지 않습니다. 다시 시도해 주십시오.</translation></TEXT_1002> 
+        <TEXT_1003><source>test</source><translation>사용자 등록 성공, 계속 등록하시겠습니까?</translation></TEXT_1003> 
+        <TEXT_1004><source>test</source><translation>사용자 등록 실패</translation></TEXT_1004>   
+        <TEXT_1005><source>test</source><translation>세팅이 변경되었습니다, 저장하시겠습니까?</translation></TEXT_1005>
+        <TEXT_1006><source>test</source><translation>저장성공</translation></TEXT_1006>
+        <TEXT_1007><source>test</source><translation>사용자 인식 실패</translation></TEXT_1007>        
+        <TEXT_1008><source>test</source><translation>이름을 입력하십시오</translation></TEXT_1008>      
+        <TEXT_1009><source>test</source><translation>카드번호/주민등록번호/사진 중에 최소 하나가 필요합니다.</translation></TEXT_1009>  
+        <TEXT_1010><source>test</source><translation>설정이 변경되지 않았습니다.</translation></TEXT_1010> 
+        <TEXT_1011><source>test</source><translation>데이터 값은 비울 수 없습니다.</translation></TEXT_1011>
+        <TEXT_1012><source>test</source><translation>유닛 번호는 중복될 수 없습니다.</translation></TEXT_1012>
+        <TEXT_1013><source>test</source><translation>유닛 번호는 0이 될 수 없습니다.</translation></TEXT_1013>       
+        <TEXT_1014><source>test</source><translation>동번호는 0이 될 수 없습니다.</translation></TEXT_1014>
+        <TEXT_1015><source>test</source><translation>잘못된 IP 주소</translation></TEXT_1015>
+        <TEXT_1016><source>test</source><translation>잘못된 서브넷 마스크</translation></TEXT_1016>
+        <TEXT_1017><source>test</source><translation>잘못된 게이트웨이 주소</translation></TEXT_1017>
+        <TEXT_1018><source>test</source><translation>IP 주소와 서브넷 마스크의 잘못된 조합</translation></TEXT_1018>
+        <TEXT_1019><source>test</source><translation>IP 주소 충돌</translation></TEXT_1019>	
+        <TEXT_1020><source>test</source><translation>관리자 비밀번호는 비울 수 없습니다.</translation></TEXT_1020>
+        <TEXT_1021><source>test</source><translation>입력한 비밀번호가 일치하지 않습니다.</translation></TEXT_1021>
+        <TEXT_1022><source>test</source><translation>비밀번호 오류, 8자리 이상으로 설정하세요.</translation></TEXT_1022> 	  	
+        <TEXT_1023><source>test</source><translation>비밀번호 등급 약함, 다시 설정하세요.</translation></TEXT_1023>        
+        <TEXT_1024><source>test</source><translation>잘못된 비밀번호 형식</translation></TEXT_1024>        
+        <TEXT_1025><source>test</source><translation>이전 비밀번호가 맞지 않습니다.</translation></TEXT_1025>
+        <TEXT_1026><source>test</source><translation>고온 값은 저온 값보다 커야 합니다.</translation></TEXT_1026> 		
+        <TEXT_1027><source>test</source><translation>최저온도 값은 30 ℃ 이상이여야 합니다.</translation></TEXT_1027> 	
+        <TEXT_1028><source>test</source><translation>최고온도 값은 45 ℃ 이상이여야 합니다.</translation></TEXT_1028> 	
+        <TEXT_1029><source>test</source><translation>온도 임계 값은 30 ℃ ~ 45 ℃사이여야 합니다.</translation></TEXT_1029> 	
+        <TEXT_1030><source>test</source><translation>장치가 재부팅됩니다. 계속하시겠습니까?</translation></TEXT_1030> 
+        <TEXT_1031><source>test</source><translation>장치가 기본설정으로 변경 후 재부팅 됩니다. 계속하시겠습니까?</translation></TEXT_1031> 
+        <TEXT_1032><source>test</source><translation>장치가 초기화 후 재부팅 됩니다. 계속하시겠습니까?</translation></TEXT_1032>
+        <TEXT_1033><source>test</source><translation>저온 값은 86℉ 보다 커야 합니다.</translation></TEXT_1033> 	
+        <TEXT_1034><source>test</source><translation>고온 값은 113℉ 이하여야 합니다.</translation></TEXT_1034> 	
+        <TEXT_1035><source>test</source><translation>86℉~113℉ 사이 여야 합니다.</translation></TEXT_1035> 	
+        <TEXT_1036><source>test</source><translation>유효한 범위에 온도값이 여야 합니다.</translation></TEXT_1036>
+        <TEXT_1050><source>test</source><translation>처리실패</translation></TEXT_1050>            
+    </TIP>    
+</root>

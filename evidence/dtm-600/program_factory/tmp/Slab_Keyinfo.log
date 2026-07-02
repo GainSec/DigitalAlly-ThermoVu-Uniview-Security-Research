@@ -1,0 +1,599 @@
+=====/var/log/MW_MWARE00.log=====
+12-01 00:00:13 001[W(2)][mp_sr.c-604]Wrong current capacity[0 MB], Un-Configured, Usable USB NUM:1
+12-01 00:00:13 001[W(2)][mp_sr.c-349]Failed to create a store thread!
+12-01 00:00:13 001[I(1)][mw_stor.c-1624]ActStream>> Channel[0:2] Done !!!
+12-01 00:00:13 002[W(1)][mw_stor.c-2725]Start Channel[0, 2] ulStorType:3 Stor Failed
+12-01 00:00:13 028[I(0)][mw_ctrl_main.c-57785]End execute cmd [ln -sf /tmp/Version.html /www/Version.html 1>/dev/null 2>&1 && ln -sf /tmp/map_ports.html /www/map_ports.html 1>/dev/null 2>&1]
+12-01 00:00:13 029[I(0)][mw_ctrl_ddns.c-1428]Get SerialNumber Start
+12-01 00:00:13 029[I(0)][mw_ctrl_ddns.c-1430]Get SerialNumber() end, ulRet:0, szSerialNumber:210235C4CC3208000045
+12-01 00:00:13 030[I(0)][iw_interface.c-3403]IW msg & Thr Init before other init
+12-01 00:00:13 106[I(0)][iw_smart.c-6146]IW_SmartMsgProcThread begin Mw2Iw MsgId: 0
+12-01 00:00:13 107[I(0)][iw_main.c-2474]IW DRVCom SyncTime begin eSlaveChipType 0
+12-01 00:00:13 108[I(0)][iw_main.c-1680]ProductType:10, Provider:0x0, SupportCapReport:0, SubMode:0, SubGunType:0, SmartMode:0, FaceFuncCap 13 eSlaveChipType 0
+12-01 00:00:13 995[I(0)][mw_mcp.c-22649]DRV_SetIrCtrl Mode:3 [500:0:0] Angle:6000 Enable:1
+12-01 00:00:13 996[I(0)][mw_mcp.c-22669]Set SmartIrParam begin
+12-01 00:00:14 001[I(0)][mw_mcp.c-22671]Set SmartIrParam end[0]
+12-01 00:00:14 056[I(0)][mw_ctrl_main.c-59925]NetReticle Down and Up, Send ARP!
+12-01 00:00:14 350[E(0)][iw_acs_face.c-576][FACE2]Dlsym Fail, Err:/program/lib/libFaceAnalyzeSystemAPI.so: undefined symbol: ISF_UVFACE_Cap
+12-01 00:00:14 363[I(0)][iw_acs_peripheral.c-6243]Version:QPTS-B2209.3.70.CEN001.200707
+12-01 00:00:14 365[I(0)][iw_cfg.c-6562]VideoInMode ulHeight:1080, ulWidth:1920, ulFrameRate:25
+12-01 00:00:14 386[I(0)][iw_cfg.c-2095]szResId:Camera
+12-01 00:00:14 406[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 4 210235C4CC3208000045 OET-213H-NB 0123456789  192.168.30.11 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  192.168.30.11 5198
+12-01 00:00:14 426[I(0)][iw_cfg.c-4085]szTollgateID: 210235C4CC3208000045, ulProtocol:4
+12-01 00:00:14 446[W(0)][mw_ptz_func.c-12302]Unsupport PTZ!
+12-01 00:00:14 933[I(0)][iw_facecommon.c-973]FacePicOpt Ctrl Set 0
+12-01 00:00:14 933[I(0)][iw_facecommon.c-1202][Face CFG]FullArea:1 Sensitivity:56 ANum:1 PNum:4(0 2500) Alarm:0 FeatureCap:1 SwitchOut:0 FaceCap:1 Max(11110 2777) Min(2222 1111) CapMode:1 CapNum:1 FaceCnt:0
+12-01 00:00:14 933[I(0)][iw_facecommon.c-1206][Face CFG]QuallityEn:1 QEMode:2 LastTime:5 IntervalTime:500 FRAttrEn:0 ulPupilDisMin 1111 ulPupilDisMax 5555 CompareEnable 0
+12-01 00:00:14 933[I(0)][iw_facecommon.c-1209][Face CFG]Attr SafetyCap[0] Mask[1]
+12-01 00:00:14 934[I(0)][iw_facecommon.c-1215]DRV_GetLightCap() end[0] LightLampNum[2]
+12-01 00:00:14 934[I(0)][iw_facecommon.c-1232]drv set light ulRet:0, ulLightPower:500
+12-01 00:00:14 946[I(0)][iw_facecommon.c-1051][Face CFG]Update FD Enable:1
+12-01 00:00:15 006[I(0)][iw_cfg.c-2181]Update JpegPrm ulProcQuality 50
+12-01 00:00:15 086[I(0)][iw_cfg.c-4277]UpdateInputSwitchCfg, ulChannel:0
+12-01 00:00:15 086[I(0)][iw_cfg.c-1938]bEnable:0, bIsCircuitDetectEnable:0, ulRunMode:1, szSwitchNameDesc:1
+12-01 00:00:15 086[I(0)][iw_drvmsg.c-186]DRV SetParam(4246) start
+12-01 00:00:15 086[I(0)][iw_drvmsg.c-243]DRV SetParam(4246) end,  ulResult:0
+12-01 00:00:15 086[I(0)][mw_iw_main.c-7381]DRV_GetWorkMode[1]
+12-01 00:00:15 093[I(0)][mw_iw_main.c-7383]DRV_GetWorkMode[1]
+12-01 00:00:15 106[I(0)][iw_acs_msgpro.c-588]Acs Device WorkMode Old:0-New:5
+12-01 00:00:15 146[I(0)][iw_acs_msgpro.c-788]SetCapPicCfg:[Large-Small] Enabled[0-1] Quality[50-30]
+12-01 00:00:15 245[I(0)][mw_stor.c-11340]CustomCfg: APIEnable[1]
+12-01 00:00:15 266[I(0)][mw_conf.c-35268]get PortNum[3]
+12-01 00:00:15 325[I(0)][iw_acs_msgpro.c-294][WiegandSetInputMinGap] Port[1], Time[500]
+12-01 00:00:15 326[I(0)][iw_acs_msgpro.c-296][WiegandSetInputMinGap] end
+12-01 00:00:15 346[I(0)][iw_acs_msgpro.c-870]OpenDoorMode[1]
+12-01 00:00:15 347[I(0)][mw_stor.c-11349]OpenModeCfg Mode[1]
+12-01 00:00:15 466[I(0)][iw_acs_peripheral.c-4278]WeelPlan is not Enable, Turnstiles NoAction
+12-01 00:00:15 466[I(0)][iw_acs_peripheral.c-4370]IW_TurnstilesCheckIsDefend No Action
+12-01 00:00:15 486[I(0)][mw_stor.c-11331]RecordReportCfg bEnable:1,Report(Mode:2,Type:0) Upload(Mode:3 Type:0)
+12-01 00:00:15 547[I(0)][mw_conf.c-35375]get TolNum[1]
+12-01 00:00:15 626[I(0)][iw_acs_face.c-826]DRV SetSmallPictureParam Start
+12-01 00:00:15 629[I(0)][iw_acs_face.c-828]DRV SetSmallPictureParam End
+12-01 00:00:15 706[I(0)][mw_ctrl_acs_func.c-1496]Get HomeIconNum[4]
+12-01 00:00:15 805[I(0)][iw_acs_msgpro.c-2141]HighEnvEnable [1]
+12-01 00:00:15 845[I(0)][iw_acs_face.c-18046]DRV_SetVoOSDParam enable:1, Pic:/program/factory/FaceBox_4mm_7in.png, Start(X:40,Y:190),Width:520, Hight:700
+12-01 00:00:16 076[I(0)][iw_acs_msgpro.c-1135]stTempCompensate body:0.3,original:0.0,motionFilter:0
+12-01 00:00:16 076[I(0)][mw_conf.c-35128]get AlarmOutputNum[4]
+12-01 00:00:16 136[I(0)][iw_acs_msgpro.c-1534]AttrVerifyRuleProc Num[3]
+12-01 00:00:16 136[I(0)][iw_acs_msgpro.c-1562]AttrVerifyRuleProc Mode[1] Enable[0] Door[0]
+12-01 00:00:16 136[I(0)][iw_acs_msgpro.c-1562]AttrVerifyRuleProc Mode[2] Enable[1] Door[0]
+12-01 00:00:16 136[I(0)][iw_acs_msgpro.c-1562]AttrVerifyRuleProc Mode[3] Enable[1] Door[0]
+12-01 00:00:16 136[I(0)][iw_acs_msgpro.c-1594]AttrVerifyRuleProc Type[0] [35.50 42.00] Alarm[37.30] Pre Enable[0] Offset[0.30] Unit[0]
+12-01 00:00:16 155[I(0)][iw_facecommon.c-973]FacePicOpt Ctrl Set 1
+12-01 00:00:16 176[I(0)][mw_iw_main.c-7926]ISP SetImageStableCallback start
+12-01 00:00:16 176[I(0)][mw_iw_main.c-7928]ISP SetImageStableCallback end, ulRet:0
+12-01 00:00:16 176[I(0)][mw_ptz_serial.c-1977]DRV_SetComParam() ComPort[1] SerialType[3] SerialMode[113] BaudRate[115200] DataBit[8] StopBit[1] Parity[0] Flowcontrol[0]
+12-01 00:00:16 177[I(0)][mw_ptz_serial.c-1984]IW_SetComParam RsId[1]
+12-01 00:00:16 177[I(0)][iw_idome.c-2258]MW_CMD_IVA_RULE_METADATA Send Over 
+12-01 00:00:16 178[W(0)][iw_main.c-2554]ACS UnSupport SerialType[115]
+12-01 00:00:16 178[W(0)][iw_main.c-2554]ACS UnSupport SerialType[116]
+12-01 00:00:16 179[W(0)][iw_main.c-2554]ACS UnSupport SerialType[106]
+12-01 00:00:16 179[W(0)][iw_main.c-2554]ACS UnSupport SerialType[107]
+12-01 00:00:16 179[W(0)][iw_main.c-2554]ACS UnSupport SerialType[115]
+12-01 00:00:16 180[I(0)][iw_main.c-2162]SMX IW_GetPDCap [2][13] 
+12-01 00:00:16 180[I(0)][iw_acs_face.c-888]Face GetCap Start:W:1080 H:1920
+12-01 00:00:16 181[I(0)][iw_acs_face.c-890]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 181[I(0)][iw_acs_face.c-888]Face GetCap Start:W:720 H:1280
+12-01 00:00:16 182[I(0)][iw_acs_face.c-890]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 182[I(0)][iw_acs_face.c-888]Face GetCap Start:W:576 H:720
+12-01 00:00:16 182[I(0)][iw_acs_face.c-890]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 183[I(0)][iw_acs_face.c-888]Face GetCap Start:W:288 H:704
+12-01 00:00:16 183[I(0)][iw_acs_face.c-890]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 183[I(0)][iw_acs_face.c-888]Face GetCap Start:W:288 H:352
+12-01 00:00:16 183[I(0)][iw_acs_face.c-890]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 184[I(0)][iw_acs_face.c-678][Face Memory]PicBuf:0xb26217b8 Len:14528 FrmBuf:0x7bf42008 Len:4559168 FaceBuf:0xb2625080 Len:18560 ulBufMaxNum:8 MaxNum:8
+12-01 00:00:16 199[I(0)][iw_acs_memberlib.c-6217]No Need Set Template Default Type[1] Num[1]
+12-01 00:00:16 199[I(0)][iw_acs_memberlib.c-6217]No Need Set Template Default Type[2] Num[1]
+12-01 00:00:16 203[I(0)][iw_acs_format.c-3767]IW_ACS_InitLangResNode ok
+12-01 00:00:16 203[I(0)][iw_acs_pic.c-2089]JpegPicDecodeInit ok
+12-01 00:00:16 206[I(0)][iw_cfg.c-3915]Channel[1] SerialType[3] SerialMode[113]
+12-01 00:00:16 206[I(0)][iw_cfg.c-1848]SerialType[3] SerialMode[113] BaudRate[115200] DataBit[8] StopBit[1] Parity[0] Flowcontrol[0]
+12-01 00:00:16 206[I(0)][iw_cfg.c-3973]UpdateDevice SerialType[3] SerialMode[113]
+12-01 00:00:16 206[I(0)][mw_ptz_serial.c-1998]SetComParam end, ulRet:0
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-2009]DRV_SetComMode() ulPortNum:1 ulComMode:113
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-2019]DRV_SetComMode 1
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-2021]DRV_SetComMode() ulPortNum:1 ulComMode:113
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-2026]DRV_SetComMode() end, ulRet:0
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1940]OpenCom start
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1963]OpenCom end, ulRet:0, ulComPort:54, lFileId:-1
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1977]DRV_SetComParam() ComPort[54] SerialType[1] SerialMode[110] BaudRate[115200] DataBit[8] StopBit[1] Parity[0] Flowcontrol[0]
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1998]SetComParam end, ulRet:0
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-2009]DRV_SetComMode() ulPortNum:54 ulComMode:110
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-2026]DRV_SetComMode() end, ulRet:0
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1940]OpenCom start
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1947]IW_OpenCom 55
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1963]OpenCom end, ulRet:0, ulComPort:55, lFileId:48
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1977]DRV_SetComParam() ComPort[55] SerialType[1] SerialMode[112] BaudRate[19200] DataBit[8] StopBit[1] Parity[0] Flowcontrol[0]
+12-01 00:00:16 207[I(0)][mw_ptz_serial.c-1984]IW_SetComParam RsId[55]
+12-01 00:00:16 208[I(0)][iw_cfg.c-3915]Channel[55] SerialType[1] SerialMode[112]
+12-01 00:00:16 208[I(0)][iw_cfg.c-1848]SerialType[1] SerialMode[112] BaudRate[19200] DataBit[8] StopBit[1] Parity[0] Flowcontrol[0]
+12-01 00:00:16 208[I(0)][iw_cfg.c-3973]UpdateDevice SerialType[1] SerialMode[112]
+12-01 00:00:16 208[I(0)][mw_ptz_serial.c-1998]SetComParam end, ulRet:0
+12-01 00:00:16 208[I(0)][mw_ptz_serial.c-2009]DRV_SetComMode() ulPortNum:55 ulComMode:112
+12-01 00:00:16 208[I(0)][mw_ptz_serial.c-2019]DRV_SetComMode 55
+12-01 00:00:16 208[I(0)][mw_ptz_serial.c-2021]DRV_SetComMode() ulPortNum:55 ulComMode:112
+12-01 00:00:16 208[I(0)][mw_ptz_serial.c-2026]DRV_SetComMode() end, ulRet:0
+12-01 00:00:16 208[I(0)][mw_ptz_serial.c-1894]MW_PTZ_InitSerialParam End[3]
+12-01 00:00:16 226[I(0)][mw_conf_cap.c-10171]i 0 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 227[I(0)][mw_conf_cap.c-10171]i 1 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 227[I(0)][mw_conf_cap.c-10171]i 2 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 227[I(0)][mw_conf_cap.c-10171]i 3 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 227[I(0)][mw_conf_cap.c-10171]i 4 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 280[I(0)][iw_acs_face.c-14500]ACS Compare face modle begin.
+12-01 00:00:16 313[I(0)][iw_acs_face.c-10435]Mode[0]:Value[512] bFinish[0] Rlt[0] Lib[3] CurProc[0] CurProState[0] Time[0-0]
+12-01 00:00:16 313[I(0)][iw_acs_face.c-10447]Proc[9]:Lib[3] LibType[3] bFinish[0] Rlt[0] Describe[TempDet]
+12-01 00:00:16 317[I(0)][mw_ctrl_main.c-52723]Device Donot have Battery Cap
+12-01 00:00:16 318[I(0)][mw_ctrl_main.c-7523]DRV_SetFanGroupCtrl() enable:1
+12-01 00:00:16 319[I(0)][mw_ctrl_main.c-7525]DRV_SetFanGroupCtrl() end, ulRet:0
+12-01 00:00:16 319[E(9215)][mw_ctrl_main.c-7569]ISP_SetZoomCut wide fail!
+12-01 00:00:16 319[E(9215)][mw_ctrl_main.c-28315]CTRL Init Focal Limit Cfg fail
+12-01 00:00:16 319[I(0)][mw_ctrl_main.c-22423]DRV_GetNetIfCap()
+12-01 00:00:16 355[I(0)][mw_communicate.c-29760]DRV_GetWorkMode() Begin
+12-01 00:00:16 358[I(0)][mw_communicate.c-29762]DRV_GetWorkMode() End, ulRet: 0, Work Mode: 1, count: 0
+12-01 00:00:16 392[W(0)][iw_acs_face.c-13311]MirrorMode[6] changed will relinit ISF
+12-01 00:00:16 392[W(0)][iw_acs_face.c-13321]fd cfg changed will relinit ISF
+12-01 00:00:16 392[I(0)][iw_acs_face.c-13599]ISF Init All begin
+12-01 00:00:16 393[I(0)][iw_acs_face.c-13256][FACE]Handle null,no need destory
+12-01 00:00:16 393[I(0)][iw_acs_face.c-13256][FACE]Handle null,no need destory
+12-01 00:00:16 393[I(0)][iw_acs_face.c-13256][FACE]Handle null,no need destory
+12-01 00:00:16 393[I(0)][iw_acs_face.c-13256][FACE]Handle null,no need destory
+12-01 00:00:16 393[I(0)][iw_acs_face.c-11113][FACE2]Alg Global Init begin
+12-01 00:00:16 406[I(0)][mw_communicate.c-29760]DRV_GetWorkMode() Begin
+12-01 00:00:16 416[I(0)][iw_vehicle_detector.c-10838]EntranceGuard bluetooth DRV_BLEOpen & DRV_BLEClose, lBluetoothFd Init -1
+12-01 00:00:16 416[I(0)][iw_vehicle_detector.c-12443]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 416[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:113
+12-01 00:00:16 417[I(0)][iw_vehicle_detector.c-10978]DRV_OpenCom Begin Ch[1] Fd[4294967295]
+12-01 00:00:16 425[I(0)][mw_communicate.c-29762]DRV_GetWorkMode() End, ulRet: 0, Work Mode: 1, count: 0
+12-01 00:00:16 430[I(0)][iw_vehicle_detector.c-10980]DRV_OpenCom End Ch[1] Fd[145]
+12-01 00:00:16 431[W(0)][iw_vehicle_detector.c-2086]IW_GetRadarParam DeviceType[113] No need get
+12-01 00:00:16 431[I(0)][iw_vehicle_detector.c-12443]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 431[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:112
+12-01 00:00:16 431[I(0)][iw_vehicle_detector.c-10992]DRV_OpenCom Begin Ch[55] Fd[-1]
+12-01 00:00:16 433[I(0)][iw_vehicle_detector.c-10994]DRV_OpenCom End Ch[55] Fd[146]
+12-01 00:00:16 433[W(0)][iw_vehicle_detector.c-2086]IW_GetRadarParam DeviceType[112] No need get
+12-01 00:00:16 434[I(0)][iw_vehicle_detector.c-10838]EntranceGuard bluetooth DRV_BLEOpen & DRV_BLEClose, lBluetoothFd Init -1
+12-01 00:00:16 434[I(0)][iw_vehicle_detector.c-12443]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 434[I(0)][iw_vehicle_detector.c-10928]DRV_CloseCom SerialId[145] Begin
+12-01 00:00:16 435[W(0)][iw_acs_face.c-11035]Memory Up Count:0
+12-01 00:00:16 436[I(0)][iw_vehicle_detector.c-10930]DRV_CloseCom SerialId[145] End
+12-01 00:00:16 436[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:113
+12-01 00:00:16 436[I(0)][iw_vehicle_detector.c-10978]DRV_OpenCom Begin Ch[1] Fd[4294967295]
+12-01 00:00:16 447[I(0)][iw_vehicle_detector.c-10980]DRV_OpenCom End Ch[1] Fd[145]
+12-01 00:00:16 447[W(0)][iw_vehicle_detector.c-2086]IW_GetRadarParam DeviceType[113] No need get
+12-01 00:00:16 448[I(0)][iw_vehicle_detector.c-12443]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 448[I(0)][iw_vehicle_detector.c-10928]DRV_CloseCom SerialId[146] Begin
+12-01 00:00:16 448[I(0)][iw_vehicle_detector.c-10930]DRV_CloseCom SerialId[146] End
+12-01 00:00:16 448[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:112
+12-01 00:00:16 448[I(0)][iw_vehicle_detector.c-10992]DRV_OpenCom Begin Ch[55] Fd[-1]
+12-01 00:00:16 448[I(0)][iw_vehicle_detector.c-10994]DRV_OpenCom End Ch[55] Fd[146]
+12-01 00:00:16 448[W(0)][iw_vehicle_detector.c-2086]IW_GetRadarParam DeviceType[112] No need get
+12-01 00:00:16 534[I(0)][mw_ctrl_main.c-22425]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:16 534[I(0)][mw_ctrl_main.c-28328]Start Wired IF DHCP...
+12-01 00:00:16 534[I(0)][mw_ctrl_pppoe.c-282]execute cmd:[mw_udhcpc_wired -i eth0]
+12-01 00:00:16 534[W(0)][mw_ctrl_utils.c-69]execute cmd [mw_udhcpc_wired -i eth0 1>/dev/null 2>/dev/null &].
+12-01 00:00:16 553[W(0)][mw_ctrl_utils.c-74]execute cmd[mw_udhcpc_wired -i eth0 1>/dev/null 2>/dev/null &] ok
+12-01 00:00:16 553[W(0)][mw_ctrl_utils.c-86]execute cmd end [mw_udhcpc_wired -i eth0 1>/dev/null 2>/dev/null &].
+12-01 00:00:16 602[W(0)][mw_ptz_func.c-12591]Unsupport PTZ!
+12-01 00:00:16 618[I(0)][mw_ctrl_main.c-21813]DRV_GetAllSubBoardVer()
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21816]DRV_GetAllSubBoardVer() end, ulRet:0, ulBoardNum:0
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21825]DRV_GetDrvVersion()
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21828]DRV_GetDrvVersion() end, ulRet:0, szBoardType:V1.0
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21836]DRV_GetKernelVersion()
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21839]DRV_GetKernelVersion() end, ulRet:0, szKernelVer:V2.2
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21847]DRV_GetRootFsVersion()
+12-01 00:00:16 619[I(0)][mw_ctrl_main.c-21850]DRV_GetRootFsVersion() end, ulRet:0, szRootfsVer:NA
+12-01 00:00:16 629[I(0)][mw_ctrl_main.c-63100]MWARE start OK, IpAddress:192.168.1.13, IpNetmask:255.255.255.0, IpGateway:192.168.1.1
+12-01 00:00:16 777[I(0)][mw_ctrl_main.c-25115]Start to proccess DHCP Act! result[dev:eth0 ip:192.168.30.178 mask:255.255.255.0 gw:192.168.30.1]
+12-01 00:00:16 784[I(0)][mw_ctrl_main.c-22351]DRV_GetNetIfCap()
+12-01 00:00:16 919[I(0)][mw_ctrl_main.c-22353]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:16 920[I(0)][mw_ctrl_main.c-25127]device get DHCP ACT,its wired
+12-01 00:00:16 920[I(0)][mw_ctrl_main.c-33402]Send UnReg message to AM_SIP
+12-01 00:00:16 920[I(0)][mw_ctrl_main.c-25182]DRV_SetNetIPParam start channel:0
+12-01 00:00:16 920[E(1)][am_sip_regist_main.c-294]Could not find the client CCB is using To Unreg !
+12-01 00:00:16 920[W(1)][am_sip_regist_main.c-2321]No CCB to UNREG, need to REG!
+12-01 00:00:16 921[E(1)][_am_sip_main.c-1646]UNReg fail!
+12-01 00:00:16 921[I(0)][mw_ctrl_main.c-25184]DRV_SetNetIPParam end result:0
+12-01 00:00:16 922[I(0)][mw_ctrl_main.c-7084]New GateWay IP[192.168.30.1]
+12-01 00:00:16 942[E(1)][mw_ctrl_utils.c-644]Execute ioctl failed for getting mac
+12-01 00:00:16 942[E(0)][mw_ctrl_ddns.c-1205]DDNS Cfg info is Change
+12-01 00:00:16 943[I(0)][mw_ctrl_upnp.c-282]MW_Upnp_InitRefresh Do! IP [192.168.30.178]!
+12-01 00:00:19 196[I(0)][iw_acs_peripheral.c-6112]DRV_SetOutputPower INVALID [2]
+12-01 00:00:25 396[E(1)][bp_module.c-516][BP_SlabGetBuf]Slab full, Print Slab_*.log. Size=4, Type=1
+=====/var/log/MW_DRV00.log=====
+12-01 00:00:04 443[I][drv_hisi_audio.c-2907]Set Audio Noise Restrain ok
+12-01 00:00:04 443[I][drv_hisi_audio.c-2521]Output ulGain[242]
+12-01 00:00:04 443[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 242[vol_ctrl:0x4] ok.
+12-01 00:00:04 443[I][drv_hisi_audio.c-2521]Output ulGain[242]
+12-01 00:00:04 443[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 242[vol_ctrl:0x4] ok.
+12-01 00:00:04 755[I][drv_hisi_audio.c-876]Stop Audio Ai ok
+12-01 00:00:04 756[I][drv_hisi_audio.c-1723]Stop audio ok.
+12-01 00:00:04 756[I][drv_hisi_audio.c-3737]Audio exit ok
+12-01 00:00:04 775[I][drv_hisi_audio.c-2949]Audio is Close.
+12-01 00:00:04 795[I][hilib_vo_base.c-831]Set Analog 0 in.
+12-01 00:00:04 795[I][hilib_vo_base.c-879]Set Analog Vout Format OK.
+12-01 00:00:04 800[I][hilib_common_platform.c-386]!!!!!!!!!!!!!!![set decode parameter]!!!!!!!!!!!!!
+12-01 00:00:04 800[I][hilib_venc_base.c-1626]Venc Pack_S malloc Ok!
+12-01 00:00:04 802[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:04 802[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:04 802[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:04 802[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:04 920[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[0] mute[0] ok.
+12-01 00:00:04 921[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[1] mute[1] ok.
+12-01 00:00:04 921[I][drv_gpio.c-1470]Set speaker status: 1
+12-01 00:00:04 921[I][drv_hisi_audio.c-291]Set Audio Speaker Out.
+12-01 00:00:04 921[I][drv_hisi_audio.c-2521]Output ulGain[0]
+12-01 00:00:04 921[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 0[vol_ctrl:0x7f] ok.
+12-01 00:00:04 921[I][drv_hisi_audio.c-2521]Output ulGain[0]
+12-01 00:00:04 921[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 0[vol_ctrl:0x7f] ok.
+12-01 00:00:06 234[I][drv_misc_hisi3516dv300.c-232]Mmc[2][/dev/mmcblk2] Total Capacity 3776MB ProductNmae[004GA0] VendorName[0x000011]
+12-01 00:00:06 291[I][drv_misc_hisi3516dv300.c-183]Mount point[/data] Free[2738MB] Capacity[2939MB]
+12-01 00:00:06 405[E][drv_gpio.c-347]IOCTL_ERR DEV_ALM_CTL fail, err[Invalid argument]
+12-01 00:00:06 426[E][drv_gpio.c-347]IOCTL_ERR DEV_ALM_CTL fail, err[Invalid argument]
+12-01 00:00:08 619[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [1000]
+12-01 00:00:08 707[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [1000]
+12-01 00:00:12 050[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:12 068[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:12 668[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:12 756[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:13 285[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:13 000[I][comdrv_osd.c-2980]FontStyle 0 gbEnInvertColor 0
+12-01 00:00:13 000[I][drv_osd_hisi.c-1140]Set Char OSD OK.
+12-01 00:00:14 086[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:14 933[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:14 934[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [2] lihtsrc is [0] lightpower is [500]
+12-01 00:00:15 093[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:15 093[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:15 093[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:15 093[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:15 306[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 306[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 306[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 626[I][hilib_common_platform.c-3075]Small Pic Size(1080 1920) FrameRate[5000]
+12-01 00:00:15 626[I][hilib_common_platform.c-3118]IVA Cap Param FrameRate 5000 SMALL_FRAME 1080 x 1920
+12-01 00:00:15 627[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 627[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:15 627[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 627[I][hilib_vpss_base.c-2244]Vpss que[4] same param, return
+12-01 00:00:15 627[W][hilib_vpss_base.c-2180]Vpss que[7] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:15 627[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 627[I][hilib_vpss_base.c-772]que[7] ulGrpId[0] ulChnId[6] bNeedCorp: 0, 
+12-01 00:00:15 627[I][hilib_vpss_base.c-803]Vpss chn[6] creat ok
+12-01 00:00:15 627[I][hilib_vpss_base.c-1662]Vpss start chn[6] ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:15 628[I][hilib_vpss_base.c-1526]Vpss chn[0] reset ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-1876]Vpss chn[6] set param ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-2016]Vpss que[7] set param ok
+12-01 00:00:15 628[I][hilib_vpss_base.c-2260]Vpss set que[7] param ok
+12-01 00:00:15 629[I][drv_process_qpts.c-2064]Start JPEG_StartFrameGetThread OK!
+12-01 00:00:15 629[I][hilib_common_platform.c-3153]drv Iva Init OK!
+12-01 00:00:15 629[I][drv_process_qpts.c-1701]GetFrame Init Iva FrameRate 5000
+12-01 00:00:15 629[I][drv_process_qpts.c-1411]VI_CMD_GET_NORM stCurNorm 1920 1080 rate 25
+12-01 00:00:15 919[I][drv_osd_hisi.c-1735]CanvasWidth(520) < BmpWidth(524)!!!
+12-01 00:00:16 060[I][drv_osd_hisi.c-1938]Set VO Picture OSD OK.
+12-01 00:00:16 358[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:16 358[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:16 358[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:16 358[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:16 414[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:16 414[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:16 414[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:16 424[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:16 430[I][drv_serialport.c-1210]com1 rs485 will be handled by kernel, tx_en pin[48]
+12-01 00:00:16 447[I][drv_serialport.c-1210]com1 rs485 will be handled by kernel, tx_en pin[48]
+12-01 00:00:16 534[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:16 834[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:16 919[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:16 920[I][drv_net.c-2300]set ip param interface 0 enable 1
+12-01 00:00:19 195[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:19 196[E][drv_gpio.c-1427]errno :22
+12-01 00:00:19 989[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [500]
+12-01 00:00:20 076[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [500]
+12-01 00:00:20 737[I][drv_libfun_ex.c-612]DRV_SetVoParam: ulArg=2200812920
+12-01 00:00:20 737[E][hilib_vo_base.c-1090]pstVideoChninfo width:520 hight:887 startX:40 startY:0
+12-01 00:00:20 737[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:20 738[W][hilib_vpss_base.c-2180]Vpss que[5] size[1080][1920] > max size[1068][600], Use max
+12-01 00:00:20 738[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:20 738[I][hilib_vpss_base.c-772]que[5] ulGrpId[0] ulChnId[2] bNeedCorp: 1, 
+12-01 00:00:20 738[E][hilib_vpss_base.c-776]VPSS_SetChnCrop start
+12-01 00:00:20 738[I][hilib_vpss_base.c-803]Vpss chn[2] creat ok
+12-01 00:00:20 738[I][hilib_vpss_base.c-1662]Vpss start chn[2] ok
+12-01 00:00:20 738[I][hilib_vpss_base.c-1876]Vpss chn[2] set param ok
+12-01 00:00:20 739[I][hilib_vpss_base.c-2016]Vpss que[5] set param ok
+12-01 00:00:20 739[I][hilib_vpss_base.c-2260]Vpss set que[5] param ok
+12-01 00:00:20 766[I][drv_lcd_vo.c-3532]Init HOLITECH 600*1024 screen
+12-01 00:00:21 598[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:21 598[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:21 599[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:21 599[I][drv_common.c-582]from 1 to 1
+12-01 00:00:21 599[I][drv_common.c-446]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:21 599[I][drv_manuparse_hisi3516dv300.c-442]Save Sensor Num[1]
+12-01 00:00:21 599[I][drv_common.c-2402]change g_ulProductType from 0xffffffff to 0xb
+12-01 00:00:21 599[I][drv_fixipc.c-525]Product Type[11]
+12-01 00:00:21 600[I][drv_manuparse_hisi3516dv300.c-130]Sensor[0] type[589826] [sc2310]
+12-01 00:00:21 600[I][drv_manuparse_hisi3516dv300.c-191]Sensor[0] Lane mode type[2] [sc2310]
+12-01 00:00:21 600[I][drv_fixipc.c-555]Product init ok
+12-01 00:00:21 600[I][drv_misc.c-53]Change adapter caller from 0 to 3
+12-01 00:00:21 601[I][drv_gpio.c-780]GPIO init ok.
+12-01 00:00:21 930[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:23 708[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:23 797[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:24 187[I][hilib_sys_base.c-966]System Bind [7 0 2] [15 0 0]!
+12-01 00:00:24 188[I][hilib_vo_base.c-744]Start vout ok.
+12-01 00:00:24 189[I][drv_media_ex.c-550]Set video local [1] ok
+12-01 00:00:24 189[I][drv_libfun_hisi3516dv300.c-536]DRV_SetFbParam:ulCmdType=100b, ulArg=2200812888
+12-01 00:00:24 190[I][drv_libfun_hisi3516dv300.c-536]DRV_SetFbParam:ulCmdType=100e, ulArg=2200812936
+=====/var/log/ISP_IMG00.log=====
+2011-12-01 00:00:03.828 img_defog.c-131     @SetDefog                 [INF][IMG]Set defog mode 0, level 5.
+2011-12-01 00:00:03.828 isp_libfun.c-210    @IMG_SetLDC               [INF][IMG]SetLDC: bEnable(0), ulRatio(5)
+2011-12-01 00:00:03.889 isp_libfun.c-243    @IMG_SetSpread            [INF][IMG]SetSpread: bEnable(0), ulRatio(1)
+2011-12-01 00:00:03.906 img_defog.c-476     @SaveCfg                  [INF][IMG]Save defog cfg Mode is 0, Level is 5 !
+2011-12-01 00:00:03.906 img_defog.c-595     @DEFOG_Run                [INF][IMG]set defog mode:0, level:5
+2011-12-01 00:00:03.906 img_defog.c-176     @SetOpticalStatus         [INF][IMG]Set defog optical enable 0, ulLevel 5.
+2011-12-01 00:00:03.906 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[0], WDR[0], WB[0], Defog[1], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:03.907 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:03.951 isp_libfun.c-903    @ISP_SetImageVarFn        [WRN][IMG]MsgCmd = 31 nullity
+2011-12-01 00:00:04.105 isp_libfun.c-2969   @ISP_SetLightMode         [INF][IMG]ulLightMode = 1 
+2011-12-01 00:00:04.106 img_led.c-2713      @SetLightMode             [INF][IMG]LED_Ctrl: [Switch Cond: 8 8 8 8]
+2011-12-01 00:00:04.127 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:04.127 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:04.128 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:04.132 isp_libfun.c-2999   @ISP_SetLensIfMode        [INF][IMG]ulLensIfMode = 2
+2011-12-01 00:00:04.133 img_ae.c-2341       @IMG_AE_SetIrisParam      [INF][IMG]Web SetIris LensID=0 IrisMode=0, IrisValue=100
+2011-12-01 00:00:04.216 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[0], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[1], PRH[0]!
+2011-12-01 00:00:04.216 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:05.978 img_awb_uv.c-1857   @AWB_CFG_SetUvAwb4FTK     [WRN][IMG]OET-213H-NB-WH not support Multiple Lens!
+2011-12-01 00:00:13.161 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[2], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:13.162 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:13.162 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:13.216 isp_libfun.c-3121   @ISP_SetInstallHeight     [INF][IMG]Install Height = 600 
+2011-12-01 00:00:13.927 isp_libfun.c-2934   @ISP_SetSmartIrParam      [INF][IMG]ulIrCtrlMode = 3, ulNearIrLed = 500, ulMiddleIrLed = 0, ulFarIrLed = 0, ulLaserAngle = 6000 
+2011-12-01 00:00:13.927 img_led.c-2445      @SetLedCtrlCfg            [INF][IMG]LED_Ctrl: [Method: 0, Strength: 500 0 0 6000] 
+LED_Ctrl: [SrcCond: 6, DestCond: 0]
+2011-12-01 00:00:17.218 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:17.218 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:17.218 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:33.211 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[2], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:33.211 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:33.211 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:37.134 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:37.134 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:37.135 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:43.623 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[2], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:43.623 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:43.623 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:01.058 img_pcr.c-1197      @InitPipeID               [INF][IMG]ulDevType = 0, ViPipe:[0][0][0][0]
+2011-12-01 00:00:01.058 img_pcr.c-1235      @InitVpssGrpID            [INF][IMG]ulDevType = 0, VpssGrpID:[0][0][0][0]
+2011-12-01 00:00:01.058 img_pcr.c-1131      @InitSocCap               [ERR][IMG]ulIpcType = 14
+2011-12-01 00:00:01.058 img_pcr.c-1139      @InitSocCap               [ERR][IMG]ulImgNum = 1
+2011-12-01 00:00:01.058 img_pcr.c-1496      @InitShutCap              [INF][IMG] Shutter unit is 1. (0: us, 1: 1/s)
+2011-12-01 00:00:01.059 img_file.c-153      @FILE_CSV_ParseParamTable [INF][IMG]FILE_CSV_ReadFileName: SensorName:SC2310 ,pcProName:OET-213H-NB-WH, ProNameCsv:OET-213H-NB-WH, pcXmlFile:default_pic_ET-S51H_SC2310.xml, pcCommXmlFile:ET-S51H_SC2310
+2011-12-01 00:00:01.060 img_pcr.c-1647      @FindXmlName              [INF][IMG]Find xml success. PicName = default_pic_ET-S51H_SC2310.xml, CommNode = ET-S51H_SC2310
+2011-12-01 00:00:01.060 img_file.c-331      @FILE_CSV_ParseAdnThrTable [INF][IMG]FILE_CSV_ReadFileName:
+ pcSensorName:SC2310
+ pcProName:OET-213H-NB-WH
+ pcXmlNodeName:ET-S51H_SC2310
+2011-12-01 00:00:01.060 img_pcr.c-1681      @FindAdnThrName           [INF][IMG]Find AdnThrName = ET-S51H_SC2310
+2011-12-01 00:00:01.060 img_pcr.c-1369      @InitLensCap              [INF][IMG]PdtName = OET-213H-NB-WH, ClassType = 0, IrisType = 0, bHcmLens = 0
+2011-12-01 00:00:01.061 img_pcr.c-1316      @InitLensAttr             [INF][IMG]Lens code = 4801C09P
+2011-12-01 00:00:01.061 img_pcr.c-1068      @InitDigHcmCap            [INF][IMG]bDigHcm = 0
+2011-12-01 00:00:01.061 img_pcr.c-959       @InitLedCap               [INF][IMG]LedType = 8
+2011-12-01 00:00:01.061 img_pcr.c-793       @InitFaceCap              [INF][IMG]bFace = 0
+2011-12-01 00:00:01.061 img_pcr.c-830       @InitOpticalDefogCap      [INF][IMG]bOpticalDefog = 0
+2011-12-01 00:00:01.061 img_pcr.c-728       @InitDigZoomCap           [INF][IMG]bDigzoom = 0
+2011-12-01 00:00:01.061 img_pcr.c-1616      @InitCenterMeter          [INF][IMG]bFishEyeMeterWeight = 0
+2011-12-01 00:00:01.061 img_pcr.c-1812      @PCR_InitDevCap           [INF][IMG][ISP PdtCap] PdtName = OET-213H-NB-WH, IspNum = 0, IpcType = 0, SnsType = 589826, SnsName = SC2310, ClassType = 0, IrisType = 0, bHcmLen = 0, bWdrPdt = 1, bOptDfg = 0, bSupSpotPress = 1, bStarLightPdt = 0, bHlcPdt = 0, bLdr = 0, bSupMultLens = 0, LedType = 8, LensType = 0!
+2011-12-01 00:00:01.062 img_pcr.c-2071      @PCR_InitDevMode          [WRN][IMG]Ipctype 14 not support, set to video mode
+2011-12-01 00:00:01.062 img_ae_uv.c-271     @InitSnsExpAttr           [INF][IMG]Sns cfg init ok.
+2011-12-01 00:00:01.062 img_ae_uv.c-3241    @AE_ALG_Register          [WRN][IMG]AE_ALG_Register ulViPipe = 0
+2011-12-01 00:00:01.079 img_awb.c-357       @IMG_AWB_SwitchAlg        [INF][IMG]awb alg switch to uniview_awb_lib ok!
+2011-12-01 00:00:01.085 img_ae_uv.c-1996    @VideoInit                [INF][IMG]ulViPipe 0, ulFrameRate 30, ulHeight 1080, ulWidth 1920
+2011-12-01 00:00:01.105 img_awb_uv.c-422    @LoadAwbCaliXML           [INF][IMG]LensCode=4801C09P SensorName=SC2310
+2011-12-01 00:00:01.106 img_file.c-243      @FILE_CSV_ParseCaliTable  [INF][IMG]FILE_CSV_ReadFileName:
+ pcSensorName:SC2310
+ pcLensCode:4801C09P
+ pcXmlNodeName:SC2310_4801C09P
+2011-12-01 00:00:01.106 img_awb_uv.c-435    @LoadAwbCaliXML           [INF][IMG]XmlNodeName=SC2310_4801C09P
+2011-12-01 00:00:01.121 img_xml.c-2397      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit num 10
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 0: [465,1317,4906,6084] [-22719,16403,-22631,34057] [47,4882,23,6055] 1
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 1: [518,1368,3980,4943] [-17983,14006,-18027,28134] [79,3937,47,4882] 1
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 2: [570,1443,3237,4042] [-9442,9244,-9446,16666] [144,3145,79,3936] 1
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 3: [651,1707,2197,3348] [-2921,5095,-2906,7445] [595,1607,144,3145] 2
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 4: [1016,2049,1450,2602] [-1593,3778,-1044,4347] [1491,-726,595,1607] 16
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 5: [1495,2150,1232,2110] [-646,2394,-708,3457] [2443,-3160,1491,-727] 16
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 6: [1841,2606,1058,1970] [-295,1763,-288,2575] [4946,-10748,2443,-3160] 4
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 7: [2444,3274,938,1842] [-165,1452,-166,2264] [9649,-29123,4946,-10748] 2
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 8: [3190,4313,859,1733] [-74,1168,-73,1966] [19623,-81008,9649,-29123] 1
+2011-12-01 00:00:01.121 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 9: [4272,5717,782,1658] [-55,1089,-55,1889] [38372,-212673,19623,-81008] 1
+2011-12-01 00:00:01.122 img_xml.c-2457      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit num 10
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 0: 1496,34,5470,891,5500
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 1: 1766,62,4292,943,4349
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 2: 2029,99,3577,995,3673
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 3: 2534,197,2700,1099,2912
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 4: 4617,1207,-31,1624,1884
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 5: 5758,1805,-1533,1820,1676
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 6: 6764,3178,-5215,2172,1526
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 7: 8982,7103,-18596,2879,1374
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 8: 10941,12584,-42774,3586,1297
+2011-12-01 00:00:01.122 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 9: 10941,12584,-42774,3586,1297
+2011-12-01 00:00:01.122 img_xml.c-2541      @ISP_CFG_GetUVAwbTuneCoeff [INF][IMG]UVAwb tune coeff GainThr: 2000,1250
+2011-12-01 00:00:01.123 img_xml.c-2548      @ISP_CFG_GetUVAwbTuneCoeff [INF][IMG]UVAwb tune coeff unit 0: 3900,1125,1024,686
+2011-12-01 00:00:01.123 img_xml.c-2548      @ISP_CFG_GetUVAwbTuneCoeff [INF][IMG]UVAwb tune coeff unit 1: 4800,1024,1024,1024
+2011-12-01 00:00:01.123 img_xml.c-2626      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv stGainThr: 1000,850
+2011-12-01 00:00:01.123 img_xml.c-2629      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv stExpTimeThr: 40000,40000
+2011-12-01 00:00:01.123 img_xml.c-2633      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv unit 0: 1631,2648
+2011-12-01 00:00:01.123 img_xml.c-2633      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv unit 1: 1997,1881
+2011-12-01 00:00:01.123 img_xml.c-2633      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv unit 2: 2773,1677
+2011-12-01 00:00:01.123 img_xml.c-2682      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb wzone unit num 5
+2011-12-01 00:00:01.123 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 0: 2534,366,-105,-5,-117,437,-64,-84,-575,915,0,0,0
+2011-12-01 00:00:01.123 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 1: 2926,376,-109,-11,-124,448,-68,-1,-361,618,0,0,0
+2011-12-01 00:00:01.123 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 2: 4617,441,-156,-29,-77,503,-170,20,-254,490,0,0,0
+2011-12-01 00:00:01.123 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 3: 5758,422,-187,21,-79,469,-134,5,-247,498,0,0,0
+2011-12-01 00:00:01.123 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 4: 6764,432,-200,24,-67,461,-138,5,-214,465,0,0,0
+2011-12-01 00:00:01.123 img_awb_uv.c-244    @GetAWBCCMFileParam       [INF][IMG]Open file fail! /calibration/lens.xml
+2011-12-01 00:00:01.359 img_pcr.c-1452      @InitLensType             [INF][IMG]LensType = 61440
+2011-12-01 00:00:01.373 img_wdr.c-1068      @WDR_Init                 [INF][IMG]Wdr init sensor type:589826!
+2011-12-01 00:00:01.388 img_adn.c-1601      @ADN_ALG_Init             [INF][IMG]Adn alg init success.
+2011-12-01 00:00:01.388 img_led.c-2233      @InitLedRunMode           [INF][IMG]LED Run Mode: [0]
+2011-12-01 00:00:01.388 img_led.c-2122      @GetLedMethod             [INF][IMG]LED Method Param: [LedType = 8, Method = 4, MethodParam = (nil)]
+2011-12-01 00:00:01.389 img_led.c-1612      @InitLightCap             [INF][IMG]LightNum: [2], Distype: [0 2 0 0], Srctype: [2 0 0 0]
+2011-12-01 00:00:01.389 img_led.c-1698      @GetCondition             [INF][IMG]LED Cond Cmd: [0, 8, 0, 8]
+2011-12-01 00:00:01.389 img_led.c-2952      @LED_ALG_Init             [INF][IMG]Led alg init Success.
+2011-12-01 00:00:01.389 img_periph.c-3863   @GetPrhCfg                [INF][IMG]product run type 8 not supported!
+2011-12-01 00:00:01.389 img_pcr.c-2120      @PCR_GetVpssAttr          [INF][IMG]ulImgID 0 bind Vpss num 1, GrpId [0, 0]
+2011-12-01 00:00:01.594 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/LIN/Base/CCMCtrl
+2011-12-01 00:00:01.625 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/DWDR/Base/CCMCtrl
+2011-12-01 00:00:01.635 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/OWDR/Base/CCMCtrl
+2011-12-01 00:00:01.650 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/HLC/Base/CCMCtrl
+2011-12-01 00:00:01.658 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/DEFOG/Base/CCMCtrl
+2011-12-01 00:00:01.674 img_xml.c-276       @ISP_CFG_GetAllScene      [INF][IMG]AllScene Get from default_pic_ET-S51H_SC2310.xml success!
+2011-12-01 00:00:01.741 img_xml.c-322       @ISP_CFG_GetCommParam     [INF][IMG]CommParam Get from IspComm/ET-S51H_SC2310 success!
+2011-12-01 00:00:01.742 img_prm.c-2887      @ParseIspPrm              [INF][IMG]Param parse ok
+2011-12-01 00:00:01.742 img_prm.c-2936      @LoadIspPrm               [INF][IMG]Load isp 0 param ok
+2011-12-01 00:00:01.742 img_prm.c-2996      @PRM_Init                 [INF][IMG]Img 0 param init ok.
+2011-12-01 00:00:01.742 img_awb_hisi.c-872  @AWB_HISI_Init            [WRN][IMG]this sensor type 589826 white area not support
+2011-12-01 00:00:01.796 img_xml.c-322       @ISP_CFG_GetCommParam     [INF][IMG]CommParam Get from IspComm/ET-S51H_SC2310 success!
+2011-12-01 00:00:01.797 img_ae_hisi.c-1464  @AE_HISI_Init             [INF][IMG]Sns cfg init ok.
+2011-12-01 00:00:01.798 img_main.c-703      @ImgRunThread             [INF][IMG]create ImgRunThread 0 success!
+2011-12-01 00:00:01.798 img_main.c-851      @IMG_Init                 [INF][IMG]IMG Init ok!
+2011-12-01 00:00:01.888 img_wdr.c-1313      @WDR_Run                  [INF][IMG]Wdr set sensor mode 0 !
+2011-12-01 00:00:01.888 img_wdr.c-1328      @WDR_Run                  [INF][IMG]Enable ae spot suppress mode
+2011-12-01 00:00:01.889 img_defog.c-176     @SetOpticalStatus         [INF][IMG]Set defog optical enable 0, ulLevel 1.
+2011-12-01 00:00:01.889 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:01.890 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[1], WB[0], Defog[1], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:01.890 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 0, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:01.891 img_adn.c-815       @SetFilterColor           [INF][IMG]Set Filter Status: 1
+2011-12-01 00:00:01.986 img_wdr.c-383       @SaveWdrCfg               [WRN][IMG]WDR_Ctrl ulLevel is 5!
+2011-12-01 00:00:01.986 img_wdr.c-390       @SaveWdrCfg               [WRN][IMG]WDR_Ctrl ulOnSensitivity is 5!
+2011-12-01 00:00:01.986 img_wdr.c-397       @SaveWdrCfg               [WRN][IMG]WDR_Ctrl ulOffSensitivity is 5!
+2011-12-01 00:00:01.986 img_wdr.c-422       @SaveWdrCfg               [INF][IMG]Wdr ctrl set wdr ulMode = 0, ulLevel = 5, ulOnSensitivity = 5, ulOffSensitivity = 5
+2011-12-01 00:00:03.719 img_hisi.c-370      @HI_Set3DnrXCfg           [ERR][IMG]ISP[0] HI_MPI_VI_SetPipeNRXParam fail, errno 0xa0108005
+2011-12-01 00:00:03.825 isp_libfun.c-2390   @ISP_SetSceneParam        [INF][IMG]ulSceneType = 2 
+2011-12-01 00:00:03.825 img_cfg.c-431       @CFG_SetSceneInfo         [INF][IMG]Set scene type 2!
+2011-12-01 00:00:03.826 isp_libfun.c-2478   @ISP_SetExposure          [INF][IMG]
+ulMode = 1, lExpCompensate = 0 
+ulShutter = 100, ulSlowShutter = 50, ulFastShutter = 100000 
+ulGain = 0, ulMaxGain = 36, ulMinGain = 0 
+ulIris = 160, ulMaxIris = 160, ulMinIris = 960 
+SlowEn = 0, SlowMaxShutter = 12 
+MeteringMode = 4, TopX = 25, TopY = 25, BotX = 75, BotY = 75 
+WdrMode = 0, WdrExpRatio = 5, OnSense = 5, OffSense = 5 
+DayNightMode = 0, DayNight Sense = 196613 
+2011-12-01 00:00:03.828 img_ae_uv.c-3101    @SetUnAeCfg               [INF][IMG]SetUnAeCfg!
+2011-12-01 00:00:03.828 img_ae_uv.c-3129    @SetUnAeCfg               [INF][IMG]############compensate 43##########
+2011-12-01 00:00:03.828 img_ae_uv.c-3158    @SetUnAeCfg               [INF][IMG]SetUnAeCfg Auto Exp!
+2011-12-01 00:00:03.830 isp_libfun.c-2729   @ISP_SetWhiteBalance      [INF][IMG]ulWBMode = 0, lBlueOffset = 0, lRedOffset = 0 
+2011-12-01 00:00:03.830 isp_libfun.c-2825   @ISP_SetImageEnhance      [INF][IMG]ulBrightness = 128, ulContrast = 128, ulSaturation = 128 
+ulHue = 128, ulSharpness = 128, ul2DLevel = 128, ul3Dlevel = 128, ulMirrorMode = 6 
+2011-12-01 00:00:03.895 img_wdr.c-422       @SaveWdrCfg               [INF][IMG]Wdr ctrl set wdr ulMode = 0, ulLevel = 5, ulOnSensitivity = 5, ulOffSensitivity = 5
+2011-12-01 00:00:03.896 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[1], IE[1], EXP[1], DN[0], WDR[0], WB[1], Defog[0], AF[0], YardHlc[1], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:03.896 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:03.925 img_ae_uv.c-2159    @VideoCtrl                [ERR][IMG]change image size
+2011-12-01 00:00:03.964 img_defog.c-131     @SetDefog                 [INF][IMG]Set defog mode 0, level 5.
+2011-12-01 00:00:03.967 isp_libfun.c-210    @IMG_SetLDC               [INF][IMG]SetLDC: bEnable(0), ulRatio(5)
+2011-12-01 00:00:04.028 isp_libfun.c-243    @IMG_SetSpread            [INF][IMG]SetSpread: bEnable(0), ulRatio(1)
+2011-12-01 00:00:04.056 img_defog.c-476     @SaveCfg                  [INF][IMG]Save defog cfg Mode is 0, Level is 5 !
+2011-12-01 00:00:04.056 img_defog.c-595     @DEFOG_Run                [INF][IMG]set defog mode:0, level:5
+2011-12-01 00:00:04.056 img_defog.c-176     @SetOpticalStatus         [INF][IMG]Set defog optical enable 0, ulLevel 5.
+2011-12-01 00:00:04.056 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[0], WDR[0], WB[0], Defog[1], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:04.056 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:04.091 isp_libfun.c-903    @ISP_SetImageVarFn        [WRN][IMG]MsgCmd = 31 nullity
+2011-12-01 00:00:04.255 isp_libfun.c-2969   @ISP_SetLightMode         [INF][IMG]ulLightMode = 1 
+2011-12-01 00:00:04.255 img_led.c-2713      @SetLightMode             [INF][IMG]LED_Ctrl: [Switch Cond: 8 8 8 8]
+2011-12-01 00:00:04.266 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:04.267 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:04.267 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:04.275 isp_libfun.c-2999   @ISP_SetLensIfMode        [INF][IMG]ulLensIfMode = 2
+2011-12-01 00:00:04.276 img_ae.c-2341       @IMG_AE_SetIrisParam      [INF][IMG]Web SetIris LensID=0 IrisMode=0, IrisValue=100
+2011-12-01 00:00:04.356 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[0], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[1], PRH[0]!
+2011-12-01 00:00:04.356 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:06.138 img_awb_uv.c-1857   @AWB_CFG_SetUvAwb4FTK     [WRN][IMG]OET-213H-NB-WH not support Multiple Lens!
+2011-12-01 00:00:08.618 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[2], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:08.618 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:08.618 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:12.667 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:12.667 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:12.667 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:13.286 isp_libfun.c-3121   @ISP_SetInstallHeight     [INF][IMG]Install Height = 600 
+2011-12-01 00:00:13.996 isp_libfun.c-2934   @ISP_SetSmartIrParam      [INF][IMG]ulIrCtrlMode = 3, ulNearIrLed = 500, ulMiddleIrLed = 0, ulFarIrLed = 0, ulLaserAngle = 6000 
+2011-12-01 00:00:14.001 img_led.c-2445      @SetLedCtrlCfg            [INF][IMG]LED_Ctrl: [Method: 0, Strength: 500 0 0 6000] 
+LED_Ctrl: [SrcCond: 6, DestCond: 0]
+2011-12-01 00:00:19.988 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[2], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:19.988 img_prm.c-1758      @CheckUpdate   

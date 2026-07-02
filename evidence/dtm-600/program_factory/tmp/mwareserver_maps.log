@@ -1,0 +1,886 @@
+00010000-0062e000 r-xp 00000000 103:04 81        /program/bin/mwareserver
+0063d000-0063f000 r--p 0061d000 103:04 81        /program/bin/mwareserver
+0063f000-00671000 rw-p 0061f000 103:04 81        /program/bin/mwareserver
+00671000-01391000 rw-p 00000000 00:00 0          [heap]
+678f6000-678f7000 ---p 00000000 00:00 0 
+678f7000-680f6000 rw-p 00000000 00:00 0 
+680f6000-6831c000 rw-s ae2c2000 00:0e 3144       /dev/mmz_userdev
+6831c000-6831d000 rw-s ae2c1000 00:0e 3144       /dev/mmz_userdev
+6831d000-68327000 rw-s ae2b6000 00:0e 3144       /dev/mmz_userdev
+68327000-68331000 rw-s ae2ac000 00:0e 3144       /dev/mmz_userdev
+68331000-6833b000 rw-s ae2a2000 00:0e 3144       /dev/mmz_userdev
+6833b000-68345000 rw-s ae298000 00:0e 3144       /dev/mmz_userdev
+68345000-6834f000 rw-s ae28e000 00:0e 3144       /dev/mmz_userdev
+6834f000-68359000 rw-s ae284000 00:0e 3144       /dev/mmz_userdev
+68359000-68363000 rw-s ae279000 00:0e 3144       /dev/mmz_userdev
+68363000-6836d000 rw-s ae26f000 00:0e 3144       /dev/mmz_userdev
+6836d000-6845d000 rw-s ae17f000 00:0e 3144       /dev/mmz_userdev
+6845d000-68467000 rw-s ae175000 00:0e 3144       /dev/mmz_userdev
+68467000-68471000 rw-s ae16a000 00:0e 3144       /dev/mmz_userdev
+68471000-6847b000 rw-s ae160000 00:0e 3144       /dev/mmz_userdev
+6847b000-68485000 rw-s ae156000 00:0e 3144       /dev/mmz_userdev
+68485000-6848f000 rw-s ae14c000 00:0e 3144       /dev/mmz_userdev
+6848f000-68499000 rw-s ae142000 00:0e 3144       /dev/mmz_userdev
+68499000-684a3000 rw-s ae138000 00:0e 3144       /dev/mmz_userdev
+684a3000-684ad000 rw-s ae12e000 00:0e 3144       /dev/mmz_userdev
+684ad000-684b7000 rw-s ae124000 00:0e 3144       /dev/mmz_userdev
+684b7000-684cb000 rw-s ae110000 00:0e 3144       /dev/mmz_userdev
+684cb000-684d5000 rw-s ae106000 00:0e 3144       /dev/mmz_userdev
+684d5000-684d6000 ---p 00000000 00:00 0 
+684d6000-69349000 rw-p 00000000 00:00 0 
+69349000-6934a000 ---p 00000000 00:00 0 
+6934a000-69b49000 rw-p 00000000 00:00 0 
+69b49000-69b5e000 rw-s ae0f1000 00:0e 3144       /dev/mmz_userdev
+69b5e000-69b73000 rw-s ae0dc000 00:0e 3144       /dev/mmz_userdev
+69b73000-69b88000 rw-s ae0c7000 00:0e 3144       /dev/mmz_userdev
+69b88000-69b9d000 rw-s ae0b2000 00:0e 3144       /dev/mmz_userdev
+69b9d000-69bb2000 rw-s ae09d000 00:0e 3144       /dev/mmz_userdev
+69bb2000-69bb3000 ---p 00000000 00:00 0 
+69bb3000-6a3b2000 rw-p 00000000 00:00 0 
+6a3b2000-6a3c7000 rw-s ae088000 00:0e 3144       /dev/mmz_userdev
+6a3c7000-6a3dc000 rw-s ae073000 00:0e 3144       /dev/mmz_userdev
+6a3dc000-6a3f1000 rw-s ae05e000 00:0e 3144       /dev/mmz_userdev
+6a3f1000-6a406000 rw-s ae049000 00:0e 3144       /dev/mmz_userdev
+6a406000-6a41b000 rw-s ae034000 00:0e 3144       /dev/mmz_userdev
+6a41b000-6ab23000 rw-s ad92c000 00:0e 3144       /dev/mmz_userdev
+6ab23000-6b22b000 rw-s ad224000 00:0e 3144       /dev/mmz_userdev
+6b22b000-6b933000 rw-s acb1c000 00:0e 3144       /dev/mmz_userdev
+6b933000-6b95d000 rw-s acaf1000 00:0e 3144       /dev/mmz_userdev
+6b95d000-6b987000 rw-s acac6000 00:0e 3144       /dev/mmz_userdev
+6b987000-6b9b1000 rw-s aca9b000 00:0e 3144       /dev/mmz_userdev
+6b9b1000-6bc7d000 rw-s ac7cf000 00:0e 3144       /dev/mmz_userdev
+6bc7d000-6bcc5000 rw-s ac787000 00:0e 3144       /dev/mmz_userdev
+6bcc5000-6bce9000 rw-s ac763000 00:0e 3144       /dev/mmz_userdev
+6bce9000-6bcfb000 rw-s ac751000 00:0e 3144       /dev/mmz_userdev
+6bcfb000-6bdbb000 rw-s ac691000 00:0e 3144       /dev/mmz_userdev
+6bdbb000-6be03000 rw-s ac649000 00:0e 3144       /dev/mmz_userdev
+6be03000-6be27000 rw-s ac625000 00:0e 3144       /dev/mmz_userdev
+6be27000-6be39000 rw-s ac613000 00:0e 3144       /dev/mmz_userdev
+6be39000-6bef9000 rw-s ac553000 00:0e 3144       /dev/mmz_userdev
+6bef9000-6bf41000 rw-s ac50b000 00:0e 3144       /dev/mmz_userdev
+6bf41000-6bf65000 rw-s ac4e7000 00:0e 3144       /dev/mmz_userdev
+6bf65000-6bf77000 rw-s ac4d5000 00:0e 3144       /dev/mmz_userdev
+6bf77000-6c037000 rw-s ac415000 00:0e 3144       /dev/mmz_userdev
+6c037000-6c355000 rw-s ac0f7000 00:0e 3144       /dev/mmz_userdev
+6c355000-6c37e000 rw-s ac0ce000 00:0e 3144       /dev/mmz_userdev
+6c37e000-6c393000 rw-s ac0b9000 00:0e 3144       /dev/mmz_userdev
+6c393000-6c39e000 rw-s ac0ae000 00:0e 3144       /dev/mmz_userdev
+6c39e000-6c40a000 rw-s ac042000 00:0e 3144       /dev/mmz_userdev
+6c40a000-6c433000 rw-s ac019000 00:0e 3144       /dev/mmz_userdev
+6c433000-6c448000 rw-s ac004000 00:0e 3144       /dev/mmz_userdev
+6c448000-6c453000 rw-s abff9000 00:0e 3144       /dev/mmz_userdev
+6c453000-6c4bf000 rw-s abf8d000 00:0e 3144       /dev/mmz_userdev
+6c4bf000-6c4e8000 rw-s abf64000 00:0e 3144       /dev/mmz_userdev
+6c4e8000-6c4fd000 rw-s abf4f000 00:0e 3144       /dev/mmz_userdev
+6c4fd000-6c508000 rw-s abf44000 00:0e 3144       /dev/mmz_userdev
+6c508000-6c574000 rw-s abed8000 00:0e 3144       /dev/mmz_userdev
+6c574000-6c904000 rw-s abb48000 00:0e 3144       /dev/mmz_userdev
+6c904000-6c91c000 rw-s abb2f000 00:0e 3144       /dev/mmz_userdev
+6c91c000-6c934000 rw-s abb16000 00:0e 3144       /dev/mmz_userdev
+6c934000-6ca17000 rw-s aba1a000 00:0e 3144       /dev/mmz_userdev
+6ca17000-6ca41000 rw-s ab9ef000 00:0e 3144       /dev/mmz_userdev
+6ca41000-6ca6b000 rw-s ab9c4000 00:0e 3144       /dev/mmz_userdev
+6ca6b000-6ca95000 rw-s ab999000 00:0e 3144       /dev/mmz_userdev
+6ca95000-6cc14000 rw-s ab81a000 00:0e 3144       /dev/mmz_userdev
+6cc14000-6cc38000 rw-s ab7f4000 00:0e 3144       /dev/mmz_userdev
+6cc38000-6cc5c000 rw-s ab7ce000 00:0e 3144       /dev/mmz_userdev
+6cc5c000-6cc80000 rw-s ab7a8000 00:0e 3144       /dev/mmz_userdev
+6cc80000-6cd45000 rw-s ab6e3000 00:0e 3144       /dev/mmz_userdev
+6cd45000-6cd75000 rw-s ab6b1000 00:0e 3144       /dev/mmz_userdev
+6cd75000-6cda5000 rw-s ab67f000 00:0e 3144       /dev/mmz_userdev
+6cda5000-6cdd5000 rw-s ab64d000 00:0e 3144       /dev/mmz_userdev
+6cdd5000-6ce41000 rw-s ab5e1000 00:0e 3144       /dev/mmz_userdev
+6ce41000-6ceab000 rw-s ab559000 00:0e 3144       /dev/mmz_userdev
+6ceab000-6ced5000 rw-s ab52e000 00:0e 3144       /dev/mmz_userdev
+6ced5000-6ceff000 rw-s ab503000 00:0e 3144       /dev/mmz_userdev
+6ceff000-6cf29000 rw-s ab4d8000 00:0e 3144       /dev/mmz_userdev
+6cf29000-6cf2a000 ---p 00000000 00:00 0 
+6cf2a000-6d729000 rw-p 00000000 00:00 0 
+6d729000-7187a000 rw-s a70db000 00:0e 3144       /dev/mmz_userdev
+7187a000-7187b000 ---p 00000000 00:00 0 
+7187b000-7207a000 rw-p 00000000 00:00 0 
+7207a000-7207b000 ---p 00000000 00:00 0 
+7207b000-7287a000 rw-p 00000000 00:00 0 
+7287a000-7287b000 ---p 00000000 00:00 0 
+7287b000-7307a000 rw-p 00000000 00:00 0 
+7307a000-7307b000 ---p 00000000 00:00 0 
+7307b000-7387a000 rw-p 00000000 00:00 0 
+7387a000-7387b000 ---p 00000000 00:00 0 
+7387b000-7407a000 rw-p 00000000 00:00 0 
+7407a000-7407b000 ---p 00000000 00:00 0 
+7407b000-7487a000 rw-p 00000000 00:00 0 
+7487a000-74d28000 r-xp 00000000 103:04 306       /program/factory/models/TensorEngineEnv/Hisi/libTensorEngineModuleHisi.so
+74d28000-74d37000 ---p 004ae000 103:04 306       /program/factory/models/TensorEngineEnv/Hisi/libTensorEngineModuleHisi.so
+74d37000-74d3d000 r--p 004ad000 103:04 306       /program/factory/models/TensorEngineEnv/Hisi/libTensorEngineModuleHisi.so
+74d3d000-74d48000 rw-p 004b3000 103:04 306       /program/factory/models/TensorEngineEnv/Hisi/libTensorEngineModuleHisi.so
+74d48000-74d4a000 rw-p 00000000 00:00 0 
+74d4a000-74d4b000 ---p 00000000 00:00 0 
+74d4b000-7554a000 rw-p 00000000 00:00 0 
+7554a000-7554b000 ---p 00000000 00:00 0 
+7554b000-75d4a000 rw-p 00000000 00:00 0 
+76047000-76048000 ---p 00000000 00:00 0 
+76048000-76847000 rw-p 00000000 00:00 0 
+76b44000-76b45000 ---p 00000000 00:00 0 
+76b45000-77344000 rw-p 00000000 00:00 0 
+77344000-77345000 ---p 00000000 00:00 0 
+77345000-77b44000 rw-p 00000000 00:00 0 
+77b44000-77b45000 ---p 00000000 00:00 0 
+77b45000-78344000 rw-p 00000000 00:00 0 
+78344000-78345000 ---p 00000000 00:00 0 
+78345000-78b44000 rw-p 00000000 00:00 0 
+78b44000-78b45000 ---p 00000000 00:00 0 
+78b45000-79344000 rw-p 00000000 00:00 0 
+79344000-79345000 ---p 00000000 00:00 0 
+79345000-79b44000 rw-p 00000000 00:00 0 
+79b44000-79b45000 ---p 00000000 00:00 0 
+79b45000-7a344000 rw-p 00000000 00:00 0 
+7a344000-7a345000 ---p 00000000 00:00 0 
+7a345000-7ab44000 rw-p 00000000 00:00 0 
+7ab44000-7ab45000 ---p 00000000 00:00 0 
+7ab45000-7b99e000 rw-p 00000000 00:00 0 
+7b99e000-7b99f000 ---p 00000000 00:00 0 
+7b99f000-7c19e000 rw-p 00000000 00:00 0 
+7c19e000-7c19f000 ---p 00000000 00:00 0 
+7c19f000-7c99e000 rw-p 00000000 00:00 0 
+7c99e000-7c99f000 ---p 00000000 00:00 0 
+7c99f000-7d19e000 rw-p 00000000 00:00 0 
+7d19e000-7d19f000 ---p 00000000 00:00 0 
+7d19f000-7d99e000 rw-p 00000000 00:00 0 
+7d99e000-7d99f000 ---p 00000000 00:00 0 
+7d99f000-7e19e000 rw-p 00000000 00:00 0 
+7e698000-7e799000 rw-p 00000000 00:00 0 
+7e799000-7e79a000 rw-s ae2c0000 00:0e 3144       /dev/mmz_userdev
+7e79a000-7e79b000 rw-s ae283000 00:0e 3144       /dev/mmz_userdev
+7e79b000-7e7b3000 rw-s abafd000 00:0e 3144       /dev/mmz_userdev
+7e7b3000-7e7bc000 rw-s ab5d7000 00:0e 3144       /dev/mmz_userdev
+7e7bc000-7e7c4000 r-xp 00000000 103:04 497       /program/lib/libnnie.so
+7e7c4000-7e7d3000 ---p 00008000 103:04 497       /program/lib/libnnie.so
+7e7d3000-7e7d4000 r--p 00007000 103:04 497       /program/lib/libnnie.so
+7e7d4000-7e7d5000 rw-p 00008000 103:04 497       /program/lib/libnnie.so
+7e7d5000-7e7e3000 r-xp 00000000 103:04 417       /program/lib/libTensorEnginePreprocess.so
+7e7e3000-7e7f3000 ---p 0000e000 103:04 417       /program/lib/libTensorEnginePreprocess.so
+7e7f3000-7e7f4000 r--p 0000e000 103:04 417       /program/lib/libTensorEnginePreprocess.so
+7e7f4000-7e7f5000 rw-p 0000f000 103:04 417       /program/lib/libTensorEnginePreprocess.so
+7e7f5000-7e945000 rw-p 00000000 00:00 0 
+7e945000-7eaaf000 rw-s a6f71000 00:0e 3144       /dev/mmz_userdev
+7eaff000-7ec00000 rw-p 00000000 00:00 0 
+7ecb2000-7edad000 rw-p 00000000 00:00 0 
+7edad000-7edae000 ---p 00000000 00:00 0 
+7edae000-7f5ad000 rw-p 00000000 00:00 0 
+7f5ad000-7f5ae000 ---p 00000000 00:00 0 
+7f5ae000-7fdad000 rw-p 00000000 00:00 0 
+7fdad000-7fdae000 ---p 00000000 00:00 0 
+7fdae000-807af000 rw-p 00000000 00:00 0 
+807af000-807bb000 r-xp 00000000 103:04 441       /program/lib/libboost_date_time.so.1.68.0
+807bb000-807ca000 ---p 0000c000 103:04 441       /program/lib/libboost_date_time.so.1.68.0
+807ca000-807cb000 r--p 0000b000 103:04 441       /program/lib/libboost_date_time.so.1.68.0
+807cb000-807cc000 rw-p 0000c000 103:04 441       /program/lib/libboost_date_time.so.1.68.0
+807cc000-807cd000 r-xp 00000000 103:04 439       /program/lib/libboost_atomic.so.1.68.0
+807cd000-807dc000 ---p 00001000 103:04 439       /program/lib/libboost_atomic.so.1.68.0
+807dc000-807dd000 r--p 00000000 103:04 439       /program/lib/libboost_atomic.so.1.68.0
+807dd000-807de000 rw-p 00001000 103:04 439       /program/lib/libboost_atomic.so.1.68.0
+807de000-80806000 r-xp 00000000 103:04 418       /program/lib/libTensorEngineScheduler.so
+80806000-80816000 ---p 00028000 103:04 418       /program/lib/libTensorEngineScheduler.so
+80816000-80817000 r--p 00028000 103:04 418       /program/lib/libTensorEngineScheduler.so
+80817000-80818000 rw-p 00029000 103:04 418       /program/lib/libTensorEngineScheduler.so
+80818000-80849000 r-xp 00000000 103:04 415       /program/lib/libTensorEngineExecutor.so
+80849000-80859000 ---p 00031000 103:04 415       /program/lib/libTensorEngineExecutor.so
+80859000-8085a000 r--p 00031000 103:04 415       /program/lib/libTensorEngineExecutor.so
+8085a000-8085b000 rw-p 00032000 103:04 415       /program/lib/libTensorEngineExecutor.so
+8085b000-80893000 r-xp 00000000 103:04 413       /program/lib/libTensorEngineAlgorithm.so
+80893000-808a3000 ---p 00038000 103:04 413       /program/lib/libTensorEngineAlgorithm.so
+808a3000-808a4000 r--p 00038000 103:04 413       /program/lib/libTensorEngineAlgorithm.so
+808a4000-808a5000 rw-p 00039000 103:04 413       /program/lib/libTensorEngineAlgorithm.so
+808a5000-808b2000 r-xp 00000000 103:04 416       /program/lib/libTensorEngineLog.so
+808b2000-808c1000 ---p 0000d000 103:04 416       /program/lib/libTensorEngineLog.so
+808c1000-808c2000 r--p 0000c000 103:04 416       /program/lib/libTensorEngineLog.so
+808c2000-808c3000 rw-p 0000d000 103:04 416       /program/lib/libTensorEngineLog.so
+808c3000-80973000 r-xp 00000000 103:04 443       /program/lib/libboost_log.so.1.68.0
+80973000-80983000 ---p 000b0000 103:04 443       /program/lib/libboost_log.so.1.68.0
+80983000-80986000 r--p 000b0000 103:04 443       /program/lib/libboost_log.so.1.68.0
+80986000-80987000 rw-p 000b3000 103:04 443       /program/lib/libboost_log.so.1.68.0
+80987000-80a1f000 r-xp 00000000 103:04 444       /program/lib/libboost_regex.so.1.68.0
+80a1f000-80a2f000 ---p 00098000 103:04 444       /program/lib/libboost_regex.so.1.68.0
+80a2f000-80a31000 r--p 00098000 103:04 444       /program/lib/libboost_regex.so.1.68.0
+80a31000-80a32000 rw-p 0009a000 103:04 444       /program/lib/libboost_regex.so.1.68.0
+80a32000-80a45000 r-xp 00000000 103:04 442       /program/lib/libboost_filesystem.so.1.68.0
+80a45000-80a55000 ---p 00013000 103:04 442       /program/lib/libboost_filesystem.so.1.68.0
+80a55000-80a56000 r--p 00013000 103:04 442       /program/lib/libboost_filesystem.so.1.68.0
+80a56000-80a57000 rw-p 00014000 103:04 442       /program/lib/libboost_filesystem.so.1.68.0
+80a57000-80a71000 r-xp 00000000 103:04 447       /program/lib/libboost_thread.so.1.68.0
+80a71000-80a80000 ---p 0001a000 103:04 447       /program/lib/libboost_thread.so.1.68.0
+80a80000-80a81000 r--p 00019000 103:04 447       /program/lib/libboost_thread.so.1.68.0
+80a81000-80a82000 rw-p 0001a000 103:04 447       /program/lib/libboost_thread.so.1.68.0
+80a82000-80cff000 r-xp 00000000 103:04 503       /program/lib/libopencv_imgcodecs.so.3.4
+80cff000-80d0f000 ---p 0027d000 103:04 503       /program/lib/libopencv_imgcodecs.so.3.4
+80d0f000-80d14000 r--p 0027d000 103:04 503       /program/lib/libopencv_imgcodecs.so.3.4
+80d14000-80d17000 rw-p 00282000 103:04 503       /program/lib/libopencv_imgcodecs.so.3.4
+80d17000-80d1f000 rw-p 00000000 00:00 0 
+80d1f000-81232000 r-xp 00000000 103:04 512       /program/lib/libprotobuf.so.15
+81232000-81242000 ---p 00513000 103:04 512       /program/lib/libprotobuf.so.15
+81242000-81246000 r--p 00513000 103:04 512       /program/lib/libprotobuf.so.15
+81246000-81253000 rw-p 00517000 103:04 512       /program/lib/libprotobuf.so.15
+81253000-81254000 rw-p 00000000 00:00 0 
+81254000-814bb000 r-xp 00000000 103:04 504       /program/lib/libopencv_imgproc.so.3.4
+814bb000-814cb000 ---p 00267000 103:04 504       /program/lib/libopencv_imgproc.so.3.4
+814cb000-814d0000 r--p 00267000 103:04 504       /program/lib/libopencv_imgproc.so.3.4
+814d0000-814d4000 rw-p 0026c000 103:04 504       /program/lib/libopencv_imgproc.so.3.4
+814d4000-81572000 rw-p 00000000 00:00 0 
+81572000-817df000 r-xp 00000000 103:04 499       /program/lib/libopencv_core.so.3.4
+817df000-817ee000 ---p 0026d000 103:04 499       /program/lib/libopencv_core.so.3.4
+817ee000-817f2000 r--p 0026c000 103:04 499       /program/lib/libopencv_core.so.3.4
+817f2000-817f4000 rw-p 00270000 103:04 499       /program/lib/libopencv_core.so.3.4
+817f4000-817f6000 rw-p 00000000 00:00 0 
+817f6000-81834000 r-xp 00000000 103:04 505       /program/lib/libopencv_video.so.3.4
+81834000-81843000 ---p 0003e000 103:04 505       /program/lib/libopencv_video.so.3.4
+81843000-81844000 r--p 0003d000 103:04 505       /program/lib/libopencv_video.so.3.4
+81844000-81845000 rw-p 0003e000 103:04 505       /program/lib/libopencv_video.so.3.4
+81845000-8186b000 r-xp 00000000 103:04 412       /program/lib/libTensorEngine.so
+8186b000-8187a000 ---p 00026000 103:04 412       /program/lib/libTensorEngine.so
+8187a000-8187b000 r--p 00025000 103:04 412       /program/lib/libTensorEngine.so
+8187b000-8187c000 rw-p 00026000 103:04 412       /program/lib/libTensorEngine.so
+8187c000-818b8000 r-xp 00000000 103:04 420       /program/lib/libUltimateLogSystem.so
+818b8000-818c7000 ---p 0003c000 103:04 420       /program/lib/libUltimateLogSystem.so
+818c7000-818c9000 r--p 0003b000 103:04 420       /program/lib/libUltimateLogSystem.so
+818c9000-818ca000 rw-p 0003d000 103:04 420       /program/lib/libUltimateLogSystem.so
+818ca000-818fe000 r-xp 00000000 103:04 411       /program/lib/libOperatorHisi.so
+818fe000-8190e000 ---p 00034000 103:04 411       /program/lib/libOperatorHisi.so
+8190e000-8190f000 r--p 00034000 103:04 411       /program/lib/libOperatorHisi.so
+8190f000-81910000 rw-p 00035000 103:04 411       /program/lib/libOperatorHisi.so
+81910000-8197a000 r-xp 00000000 103:04 414       /program/lib/libTensorEngineCore.so
+8197a000-81989000 ---p 0006a000 103:04 414       /program/lib/libTensorEngineCore.so
+81989000-8198b000 r--p 00069000 103:04 414       /program/lib/libTensorEngineCore.so
+8198b000-8198c000 rw-p 0006b000 103:04 414       /program/lib/libTensorEngineCore.so
+8198c000-81c0a000 r-xp 00000000 103:04 409       /program/lib/libFaceAnalyzeSystemAPI.so
+81c0a000-81c19000 ---p 0027e000 103:04 409       /program/lib/libFaceAnalyzeSystemAPI.so
+81c19000-81c1f000 r--p 0027d000 103:04 409       /program/lib/libFaceAnalyzeSystemAPI.so
+81c1f000-81c20000 rw-p 00283000 103:04 409       /program/lib/libFaceAnalyzeSystemAPI.so
+81c20000-81c3a000 rw-p 00000000 00:00 0 
+81c3a000-81c3b000 ---p 00000000 00:00 0 
+81c3b000-8243a000 rw-p 00000000 00:00 0 
+8243a000-8243b000 ---p 00000000 00:00 0 
+8243b000-82c3a000 rw-p 00000000 00:00 0 
+82c3a000-82c3b000 ---p 00000000 00:00 0 
+82c3b000-8343a000 rw-p 00000000 00:00 0 
+8343a000-8343b000 ---p 00000000 00:00 0 
+8343b000-83c3a000 rw-p 00000000 00:00 0 
+83c3a000-83c3b000 ---p 00000000 00:00 0 
+83c3b000-8443a000 rw-p 00000000 00:00 0 
+8443a000-8443b000 ---p 00000000 00:00 0 
+8443b000-84c3a000 rw-p 00000000 00:00 0 
+84c3a000-84c3b000 ---p 00000000 00:00 0 
+84c3b000-8543a000 rw-p 00000000 00:00 0 
+8543a000-8543b000 ---p 00000000 00:00 0 
+8543b000-85c3a000 rw-p 00000000 00:00 0 
+85c3a000-85c3b000 ---p 00000000 00:00 0 
+85c3b000-8643a000 rw-p 00000000 00:00 0 
+8643a000-8643b000 ---p 00000000 00:00 0 
+8643b000-86c3a000 rw-p 00000000 00:00 0 
+86c3a000-86c3b000 ---p 00000000 00:00 0 
+86c3b000-8743a000 rw-p 00000000 00:00 0 
+8743a000-8743b000 ---p 00000000 00:00 0 
+8743b000-87c3a000 rw-p 00000000 00:00 0 
+87c3a000-87c3b000 ---p 00000000 00:00 0 
+87c3b000-884fb000 rw-p 00000000 00:00 0 
+884fb000-884fc000 ---p 00000000 00:00 0 
+884fc000-88cfb000 rw-p 00000000 00:00 0 
+88cfb000-88cfc000 ---p 00000000 00:00 0 
+88cfc000-89b00000 rw-p 00000000 00:00 0 
+89b00000-89b01000 ---p 00000000 00:00 0 
+89b01000-8a300000 rw-p 00000000 00:00 0 
+8a300000-8a301000 ---p 00000000 00:00 0 
+8a301000-8ab00000 rw-p 00000000 00:00 0 
+8ab00000-8ab01000 ---p 00000000 00:00 0 
+8ab01000-8b300000 rw-p 00000000 00:00 0 
+8b300000-8b330000 rw-p 00000000 00:00 0 
+8b330000-8b400000 ---p 00000000 00:00 0 
+8b400000-8b409000 rw-s ab5cd000 00:0e 3144       /dev/mmz_userdev
+8b409000-8b40c000 r-xp 00000000 103:04 448       /program/lib/libboost_timer.so.1.68.0
+8b40c000-8b41b000 ---p 00003000 103:04 448       /program/lib/libboost_timer.so.1.68.0
+8b41b000-8b41c000 r--p 00002000 103:04 448       /program/lib/libboost_timer.so.1.68.0
+8b41c000-8b41d000 rw-p 00003000 103:04 448       /program/lib/libboost_timer.so.1.68.0
+8b41d000-8b422000 r-xp 00000000 103:04 440       /program/lib/libboost_chrono.so.1.68.0
+8b422000-8b431000 ---p 00005000 103:04 440       /program/lib/libboost_chrono.so.1.68.0
+8b431000-8b432000 r--p 00004000 103:04 440       /program/lib/libboost_chrono.so.1.68.0
+8b432000-8b433000 rw-p 00005000 103:04 440       /program/lib/libboost_chrono.so.1.68.0
+8b433000-8b45d000 rw-p 00000000 00:00 0 
+8b45d000-8b45e000 ---p 00000000 00:00 0 
+8b45e000-8bc5d000 rw-p 00000000 00:00 0 
+8bc5d000-8bc5e000 ---p 00000000 00:00 0 
+8bc5e000-8c492000 rw-p 00000000 00:00 0 
+8c492000-8c493000 ---p 00000000 00:00 0 
+8c493000-8c592000 rw-p 00000000 00:00 0 
+8c592000-8c593000 ---p 00000000 00:00 0 
+8c593000-8c692000 rw-p 00000000 00:00 0 
+8c692000-8c693000 ---p 00000000 00:00 0 
+8c693000-8c792000 rw-p 00000000 00:00 0 
+8c792000-8c793000 ---p 00000000 00:00 0 
+8c793000-8c892000 rw-p 00000000 00:00 0 
+8c892000-8c893000 ---p 00000000 00:00 0 
+8c893000-8c992000 rw-p 00000000 00:00 0 
+8c992000-8c993000 ---p 00000000 00:00 0 
+8c993000-8ca92000 rw-p 00000000 00:00 0 
+8ca92000-8ca93000 ---p 00000000 00:00 0 
+8ca93000-8cb92000 rw-p 00000000 00:00 0 
+8cb92000-8cb93000 ---p 00000000 00:00 0 
+8cb93000-8cc92000 rw-p 00000000 00:00 0 
+8cc92000-8cc93000 ---p 00000000 00:00 0 
+8cc93000-8cd92000 rw-p 00000000 00:00 0 
+8cd92000-8cd93000 ---p 00000000 00:00 0 
+8cd93000-8ce92000 rw-p 00000000 00:00 0 
+8ce92000-8ce93000 ---p 00000000 00:00 0 
+8ce93000-8cf92000 rw-p 00000000 00:00 0 
+8cf92000-8cf93000 ---p 00000000 00:00 0 
+8cf93000-8d092000 rw-p 00000000 00:00 0 
+8d092000-8d093000 ---p 00000000 00:00 0 
+8d093000-8d192000 rw-p 00000000 00:00 0 
+8d192000-8d193000 ---p 00000000 00:00 0 
+8d193000-8d292000 rw-p 00000000 00:00 0 
+8d292000-8d293000 ---p 00000000 00:00 0 
+8d293000-8d392000 rw-p 00000000 00:00 0 
+8d392000-8d393000 ---p 00000000 00:00 0 
+8d393000-8d492000 rw-p 00000000 00:00 0 
+8d492000-8d493000 ---p 00000000 00:00 0 
+8d493000-8d592000 rw-p 00000000 00:00 0 
+8d592000-8d593000 ---p 00000000 00:00 0 
+8d593000-8d692000 rw-p 00000000 00:00 0 
+8d692000-8d693000 ---p 00000000 00:00 0 
+8d693000-8d792000 rw-p 00000000 00:00 0 
+8d792000-8d793000 ---p 00000000 00:00 0 
+8d793000-8d892000 rw-p 00000000 00:00 0 
+8d892000-8d893000 ---p 00000000 00:00 0 
+8d893000-8d992000 rw-p 00000000 00:00 0 
+8d992000-8d993000 ---p 00000000 00:00 0 
+8d993000-8da92000 rw-p 00000000 00:00 0 
+8da92000-8da93000 ---p 00000000 00:00 0 
+8da93000-8db92000 rw-p 00000000 00:00 0 
+8db92000-8db93000 ---p 00000000 00:00 0 
+8db93000-8dc92000 rw-p 00000000 00:00 0 
+8dc92000-8dc93000 ---p 00000000 00:00 0 
+8dc93000-8dd92000 rw-p 00000000 00:00 0 
+8dd92000-8dd93000 ---p 00000000 00:00 0 
+8dd93000-8de92000 rw-p 00000000 00:00 0 
+8de92000-8de93000 ---p 00000000 00:00 0 
+8de93000-8df92000 rw-p 00000000 00:00 0 
+8df92000-8df93000 ---p 00000000 00:00 0 
+8df93000-8e092000 rw-p 00000000 00:00 0 
+8e092000-8e093000 ---p 00000000 00:00 0 
+8e093000-8e192000 rw-p 00000000 00:00 0 
+8e192000-8e193000 ---p 00000000 00:00 0 
+8e193000-8e292000 rw-p 00000000 00:00 0 
+8e292000-8e293000 ---p 00000000 00:00 0 
+8e293000-8e392000 rw-p 00000000 00:00 0 
+8e392000-8e393000 ---p 00000000 00:00 0 
+8e393000-8e492000 rw-p 00000000 00:00 0 
+8e492000-8e493000 ---p 00000000 00:00 0 
+8e493000-8e592000 rw-p 00000000 00:00 0 
+8e592000-8e593000 ---p 00000000 00:00 0 
+8e593000-8e692000 rw-p 00000000 00:00 0 
+8e692000-8e69b000 r-xp 00000000 00:02 675        /lib/libnss_files-2.24.so
+8e69b000-8e6aa000 ---p 00009000 00:02 675        /lib/libnss_files-2.24.so
+8e6aa000-8e6ab000 r--p 00008000 00:02 675        /lib/libnss_files-2.24.so
+8e6ab000-8e6ac000 rw-p 00009000 00:02 675        /lib/libnss_files-2.24.so
+8e6ac000-8e6b2000 rw-p 00000000 00:00 0 
+8e6b2000-8e6b3000 ---p 00000000 00:00 0 
+8e6b3000-8eeb2000 rw-p 00000000 00:00 0 
+8eeb2000-8eeb3000 ---p 00000000 00:00 0 
+8eeb3000-8f6b2000 rw-p 00000000 00:00 0 
+8f6b2000-8f6b3000 ---p 00000000 00:00 0 
+8f6b3000-8feb2000 rw-p 00000000 00:00 0 
+8feb2000-8feb3000 ---p 00000000 00:00 0 
+8feb3000-906b2000 rw-p 00000000 00:00 0 
+906b2000-906b3000 ---p 00000000 00:00 0 
+906b3000-90eb2000 rw-p 00000000 00:00 0 
+90eb2000-90eb3000 ---p 00000000 00:00 0 
+90eb3000-916b2000 rw-p 00000000 00:00 0 
+916b2000-916b3000 ---p 00000000 00:00 0 
+916b3000-91eb2000 rw-p 00000000 00:00 0 
+91eb2000-91eb3000 ---p 00000000 00:00 0 
+91eb3000-92da1000 rw-p 00000000 00:00 0 
+92da1000-92da2000 ---p 00000000 00:00 0 
+92da2000-935a1000 rw-p 00000000 00:00 0 
+935a1000-935a2000 ---p 00000000 00:00 0 
+935a2000-93da1000 rw-p 00000000 00:00 0 
+93da1000-93da2000 ---p 00000000 00:00 0 
+93da2000-945a1000 rw-p 00000000 00:00 0 
+945a1000-945a2000 rw-s ae174000 00:0e 3144       /dev/mmz_userdev
+945a2000-945a3000 rw-s acb1b000 00:0e 3144       /dev/mmz_userdev
+945a3000-945a4000 rw-s acaf0000 00:0e 3144       /dev/mmz_userdev
+945a4000-945a5000 rw-s acac5000 00:0e 3144       /dev/mmz_userdev
+945a5000-945a6000 rw-s abb47000 00:0e 3144       /dev/mmz_userdev
+945a6000-945af000 rw-s ab5c3000 00:0e 3144       /dev/mmz_userdev
+945af000-945c1000 r-xp 00000000 00:02 674        /lib/libnsl-2.24.so
+945c1000-945d0000 ---p 00012000 00:02 674        /lib/libnsl-2.24.so
+945d0000-945d1000 r--p 00011000 00:02 674        /lib/libnsl-2.24.so
+945d1000-945d2000 rw-p 00012000 00:02 674        /lib/libnsl-2.24.so
+945d2000-945d4000 rw-p 00000000 00:00 0 
+945d4000-945d5000 ---p 00000000 00:00 0 
+945d5000-94dd4000 rw-p 00000000 00:00 0 
+94dd4000-94dd5000 rw-s abb2e000 00:0e 3144       /dev/mmz_userdev
+94dd5000-94dd6000 rw-s abb15000 00:0e 3144       /dev/mmz_userdev
+94dd6000-94dd7000 rw-s aba19000 00:0e 3144       /dev/mmz_userdev
+94dd7000-94dd8000 rw-s ab9ee000 00:0e 3144       /dev/mmz_userdev
+94dd8000-94de2000 r-xp 00000000 00:02 673        /lib/libnss_nis-2.24.so
+94de2000-94df1000 ---p 0000a000 00:02 673        /lib/libnss_nis-2.24.so
+94df1000-94df2000 r--p 00009000 00:02 673        /lib/libnss_nis-2.24.so
+94df2000-94df3000 rw-p 0000a000 00:02 673        /lib/libnss_nis-2.24.so
+94df3000-94df8000 r-xp 00000000 103:04 472       /program/lib/libhive_common.so
+94df8000-94e07000 ---p 00005000 103:04 472       /program/lib/libhive_common.so
+94e07000-94e08000 r--p 00004000 103:04 472       /program/lib/libhive_common.so
+94e08000-94e09000 rw-p 00005000 103:04 472       /program/lib/libhive_common.so
+94e09000-94e10000 r-xp 00000000 103:04 467       /program/lib/libhive_ANR.so
+94e10000-94e1f000 ---p 00007000 103:04 467       /program/lib/libhive_ANR.so
+94e1f000-94e20000 r--p 00006000 103:04 467       /program/lib/libhive_ANR.so
+94e20000-94e21000 rw-p 00007000 103:04 467       /program/lib/libhive_ANR.so
+94e21000-94e22000 ---p 00000000 00:00 0 
+94e22000-95621000 rw-p 00000000 00:00 0 
+95621000-95622000 ---p 00000000 00:00 0 
+95622000-95e21000 rw-p 00000000 00:00 0 
+95e21000-95e24000 r-xp 00000000 103:04 446       /program/lib/libboost_system.so.1.68.0
+95e24000-95e33000 ---p 00003000 103:04 446       /program/lib/libboost_system.so.1.68.0
+95e33000-95e34000 r--p 00002000 103:04 446       /program/lib/libboost_system.so.1.68.0
+95e34000-95e35000 rw-p 00003000 103:04 446       /program/lib/libboost_system.so.1.68.0
+95e35000-95e37000 r-xp 00000000 103:04 469       /program/lib/libhive_HPF.so
+95e37000-95e46000 ---p 00002000 103:04 469       /program/lib/libhive_HPF.so
+95e46000-95e47000 r--p 00001000 103:04 469       /program/lib/libhive_HPF.so
+95e47000-95e48000 rw-p 00002000 103:04 469       /program/lib/libhive_HPF.so
+95e48000-96621000 rw-p 00000000 00:00 0 
+96621000-96622000 ---p 00000000 00:00 0 
+96622000-96e21000 rw-p 00000000 00:00 0 
+96e21000-96e22000 ---p 00000000 00:00 0 
+96e22000-97621000 rw-p 00000000 00:00 0 
+97621000-97622000 rw-s ab9c3000 00:0e 3144       /dev/mmz_userdev
+97622000-97623000 rw-s ab819000 00:0e 3144       /dev/mmz_userdev
+97623000-97624000 rw-s ab818000 00:0e 3144       /dev/mmz_userdev
+97624000-97625000 rw-s ab7f3000 00:0e 3144       /dev/mmz_userdev
+97625000-97626000 rw-s ab7f2000 00:0e 3144       /dev/mmz_userdev
+97626000-97627000 rw-s ab7cd000 00:0e 3144       /dev/mmz_userdev
+97627000-97628000 rw-s ab7cc000 00:0e 3144       /dev/mmz_userdev
+97628000-97629000 rw-s ab6e2000 00:0e 3144       /dev/mmz_userdev
+97629000-97a25000 rw-s a6c04000 00:0e 3235       /dev/venc
+97a25000-97e21000 rw-s a633c000 00:0e 3235       /dev/venc
+97e21000-97e22000 ---p 00000000 00:00 0 
+97e22000-99540000 rw-p 00000000 00:00 0 
+99540000-99541000 ---p 00000000 00:00 0 
+99541000-99d40000 rw-p 00000000 00:00 0 
+99d40000-99d41000 ---p 00000000 00:00 0 
+99d41000-9a540000 rw-p 00000000 00:00 0 
+9a540000-9a541000 ---p 00000000 00:00 0 
+9a541000-9ad40000 rw-p 00000000 00:00 0 
+9ad40000-9ad41000 ---p 00000000 00:00 0 
+9ad41000-9b540000 rw-p 00000000 00:00 0 
+9b540000-9b541000 ---p 00000000 00:00 0 
+9b541000-9bd40000 rw-p 00000000 00:00 0 
+9bd40000-9bd41000 ---p 00000000 00:00 0 
+9bd41000-9c540000 rw-p 00000000 00:00 0 
+9c540000-9c541000 ---p 00000000 00:00 0 
+9c541000-9cd40000 rw-p 00000000 00:00 0 
+9cd40000-9cd41000 ---p 00000000 00:00 0 
+9cd41000-9d540000 rw-p 00000000 00:00 0 
+9d540000-9d541000 ---p 00000000 00:00 0 
+9d541000-9dd40000 rw-p 00000000 00:00 0 
+9dd40000-9dd41000 ---p 00000000 00:00 0 
+9dd41000-9e540000 rw-p 00000000 00:00 0 
+9e540000-9e541000 ---p 00000000 00:00 0 
+9e541000-9ed40000 rw-p 00000000 00:00 0 
+9ed40000-9ed41000 ---p 00000000 00:00 0 
+9ed41000-9f540000 rw-p 00000000 00:00 0 
+9f540000-9f541000 ---p 00000000 00:00 0 
+9f541000-9fd40000 rw-p 00000000 00:00 0 
+9fd40000-9fd41000 ---p 00000000 00:00 0 
+9fd41000-a0540000 rw-p 00000000 00:00 0 
+a0540000-a0541000 ---p 00000000 00:00 0 
+a0541000-a0d40000 rw-p 00000000 00:00 0 
+a0d40000-a0d41000 ---p 00000000 00:00 0 
+a0d41000-a1540000 rw-p 00000000 00:00 0 
+a1540000-a1541000 ---p 00000000 00:00 0 
+a1541000-a1d40000 rw-p 00000000 00:00 0 
+a1d40000-a1d41000 ---p 00000000 00:00 0 
+a1d41000-a2540000 rw-p 00000000 00:00 0 
+a2540000-a2541000 ---p 00000000 00:00 0 
+a2541000-a2d40000 rw-p 00000000 00:00 0 
+a2d40000-a2d41000 ---p 00000000 00:00 0 
+a2d41000-a3540000 rw-p 00000000 00:00 0 
+a3540000-a3541000 ---p 00000000 00:00 0 
+a3541000-a3d40000 rw-p 00000000 00:00 0 
+a3d40000-a3d41000 ---p 00000000 00:00 0 
+a3d41000-a4540000 rw-p 00000000 00:00 0 
+a4540000-a4572000 rw-s a62dc000 00:0e 3144       /dev/mmz_userdev
+a4572000-a458b000 rw-s a62c1000 00:0e 3144       /dev/mmz_userdev
+a458b000-a45a4000 rw-s a62a8000 00:0e 3144       /dev/mmz_userdev
+a45a4000-a45d6000 rw-s a6276000 00:0e 3144       /dev/mmz_userdev
+a45d6000-a4621000 rw-s a622b000 00:0e 3144       /dev/mmz_userdev
+a4621000-a4685000 rw-s a61c7000 00:0e 3144       /dev/mmz_userdev
+a4685000-a469e000 rw-s a61ae000 00:0e 3144       /dev/mmz_userdev
+a469e000-a469f000 ---p 00000000 00:00 0 
+a469f000-a4f9c000 rw-p 00000000 00:00 0 
+a4f9c000-a4f9d000 ---p 00000000 00:00 0 
+a4f9d000-a579c000 rw-p 00000000 00:00 0 
+a579c000-a579d000 ---p 00000000 00:00 0 
+a579d000-a5f9c000 rw-p 00000000 00:00 0 
+a5f9c000-a5f9d000 ---p 00000000 00:00 0 
+a5f9d000-a679c000 rw-p 00000000 00:00 0 
+a679c000-a679d000 ---p 00000000 00:00 0 
+a679d000-a6f9c000 rw-p 00000000 00:00 0 
+a6f9c000-a6fd0000 rw-s a617a000 00:0e 3144       /dev/mmz_userdev
+a6fd0000-a6fe9000 rw-s a615b000 00:0e 3144       /dev/mmz_userdev
+a6fe9000-a7002000 rw-s a6142000 00:0e 3144       /dev/mmz_userdev
+a7002000-a7003000 ---p 00000000 00:00 0 
+a7003000-a7802000 rw-p 00000000 00:00 0 
+a7802000-a7825000 r-xp 00000000 103:04 460       /program/lib/libdspvideomjpeg.so
+a7825000-a7834000 ---p 00023000 103:04 460       /program/lib/libdspvideomjpeg.so
+a7834000-a7835000 r--p 00022000 103:04 460       /program/lib/libdspvideomjpeg.so
+a7835000-a7836000 rw-p 00023000 103:04 460       /program/lib/libdspvideomjpeg.so
+a7836000-a7838000 rw-p 00000000 00:00 0 
+a7838000-a7839000 ---p 00000000 00:00 0 
+a7839000-a8038000 rw-p 00000000 00:00 0 
+a8038000-a8058000 rw-s 11320000 00:0e 1000       /dev/mem
+a8058000-a8079000 rw-p 00000000 00:00 0 
+a8079000-a81c3000 rw-s a5c3a000 00:0e 3155       /dev/sys
+a81c3000-a87b2000 rw-s a4dcd000 00:0e 3144       /dev/mmz_userdev
+a87b2000-a997f000 rw-s a3bff000 00:0e 3144       /dev/mmz_userdev
+a997f000-a9d23000 rw-s a385a000 00:0e 3144       /dev/mmz_userdev
+a9d23000-accff000 rw-s a087d000 00:0e 3144       /dev/mmz_userdev
+accff000-acd00000 ---p 00000000 00:00 0 
+acd00000-ad4ff000 rw-p 00000000 00:00 0 
+ad4ff000-ad500000 ---p 00000000 00:00 0 
+ad500000-adcff000 rw-p 00000000 00:00 0 
+adcff000-add00000 ---p 00000000 00:00 0 
+add00000-ae4ff000 rw-p 00000000 00:00 0 
+ae4ff000-ae500000 ---p 00000000 00:00 0 
+ae500000-aecff000 rw-p 00000000 00:00 0 
+aecff000-aed00000 ---p 00000000 00:00 0 
+aed00000-af4ff000 rw-p 00000000 00:00 0 
+af4ff000-af500000 ---p 00000000 00:00 0 
+af500000-afcff000 rw-p 00000000 00:00 0 
+afcff000-afd00000 ---p 00000000 00:00 0 
+afd00000-b04ff000 rw-p 00000000 00:00 0 
+b04ff000-b0500000 ---p 00000000 00:00 0 
+b0500000-b0cff000 rw-p 00000000 00:00 0 
+b0cff000-b0d00000 ---p 00000000 00:00 0 
+b0d00000-b14ff000 rw-p 00000000 00:00 0 
+b14ff000-b1500000 ---p 00000000 00:00 0 
+b1500000-b1cff000 rw-p 00000000 00:00 0 
+b1cff000-b1d00000 ---p 00000000 00:00 0 
+b1d00000-b2600000 rw-p 00000000 00:00 0 
+b2600000-b2631000 rw-p 00000000 00:00 0 
+b2631000-b2700000 ---p 00000000 00:00 0 
+b2700000-b2800000 rw-p 00000000 00:00 0 
+b2800000-b2900000 rw-p 00000000 00:00 0 
+b2900000-b2901000 rw-s ab6e1000 00:0e 3144       /dev/mmz_userdev
+b2901000-b2902000 rw-s ab6b0000 00:0e 3144       /dev/mmz_userdev
+b2902000-b2903000 rw-s ab6af000 00:0e 3144       /dev/mmz_userdev
+b2903000-b2904000 rw-s ab67e000 00:0e 3144       /dev/mmz_userdev
+b2904000-b2905000 rw-s ab67d000 00:0e 3144       /dev/mmz_userdev
+b2905000-b2906000 rw-s ab5e0000 00:0e 3144       /dev/mmz_userdev
+b2906000-b2907000 rw-s ab5d6000 00:0e 3144       /dev/mmz_userdev
+b2907000-b2908000 rw-s ab5cc000 00:0e 3144       /dev/mmz_userdev
+b2908000-b2909000 rw-s ab558000 00:0e 3144       /dev/mmz_userdev
+b2909000-b290a000 rw-s ab52d000 00:0e 3144       /dev/mmz_userdev
+b290a000-b290b000 rw-s ab502000 00:0e 3144       /dev/mmz_userdev
+b290b000-b290d000 rw-s 00000000 00:0f 4283       /tmp/threadRunStutas
+b290d000-b2910000 rw-s a613f000 00:0e 3144       /dev/mmz_userdev
+b2910000-b2912000 rw-s a62da000 00:0e 3144       /dev/mmz_userdev
+b2912000-b2913000 rw-s a6179000 00:0e 3144       /dev/mmz_userdev
+b2913000-b2917000 rw-s a6175000 00:0e 3144       /dev/mmz_userdev
+b2917000-b2918000 rw-s a6174000 00:0e 3144       /dev/mmz_userdev
+b2918000-b291e000 rw-s a5da9000 00:0e 3144       /dev/mmz_userdev
+b291e000-b291f000 rw-s a5e04000 00:0e 3144       /dev/mmz_userdev
+b291f000-b2920000 rw-s a5e03000 00:0e 3144       /dev/mmz_userdev
+b2920000-b2950000 rw-p 00000000 00:00 0 
+b2950000-b2957000 rw-s a5dfc000 00:0e 3144       /dev/mmz_userdev
+b2957000-b2958000 rw-s a5dfc000 00:0e 3144       /dev/mmz_userdev
+b2958000-b2959000 rw-s a5dfb000 00:0e 3144       /dev/mmz_userdev
+b2959000-b295a000 rw-s a5dfb000 00:0e 3144       /dev/mmz_userdev
+b295a000-b295b000 rw-s a5dfb000 00:0e 3144       /dev/mmz_userdev
+b295b000-b295c000 rw-s a5dfb000 00:0e 3144       /dev/mmz_userdev
+b295c000-b295e000 rw-s a5df9000 00:0e 3144       /dev/mmz_userdev
+b295e000-b298c000 rw-s a5dcb000 00:0e 3155       /dev/sys
+b298c000-b29ac000 rw-s a5c1a000 00:0e 3144       /dev/mmz_userdev
+b29ac000-b29ad000 ---p 00000000 00:00 0 
+b29ad000-b31ac000 rw-p 00000000 00:00 0 
+b31ac000-b31ad000 ---p 00000000 00:00 0 
+b31ad000-b39ef000 rw-p 00000000 00:00 0 
+b39ef000-b3a8a000 r-xp 00000000 103:04 421       /program/lib/libUnvAlg.so
+b3a8a000-b3a99000 ---p 0009b000 103:04 421       /program/lib/libUnvAlg.so
+b3a99000-b3a9a000 r--p 0009a000 103:04 421       /program/lib/libUnvAlg.so
+b3a9a000-b3b3c000 rw-p 0009b000 103:04 421       /program/lib/libUnvAlg.so
+b3b3c000-b4049000 rw-p 00000000 00:00 0 
+b4049000-b40a1000 r-xp 00000000 103:04 474       /program/lib/libia.so
+b40a1000-b40b0000 ---p 00058000 103:04 474       /program/lib/libia.so
+b40b0000-b40b1000 r--p 00057000 103:04 474       /program/lib/libia.so
+b40b1000-b40b3000 rw-p 00058000 103:04 474       /program/lib/libia.so
+b40b3000-b4eec000 rw-p 00000000 00:00 0 
+b4eec000-b4eff000 r-xp 00000000 103:04 545       /program/lib/libzip.so
+b4eff000-b4f0e000 ---p 00013000 103:04 545       /program/lib/libzip.so
+b4f0e000-b4f0f000 r--p 00012000 103:04 545       /program/lib/libzip.so
+b4f0f000-b4f10000 rw-p 00013000 103:04 545       /program/lib/libzip.so
+b4f10000-b4f3e000 r-xp 00000000 103:04 546       /program/lib/libzkident.so
+b4f3e000-b4f4d000 ---p 0002e000 103:04 546       /program/lib/libzkident.so
+b4f4d000-b4f4f000 rw-p 0002d000 103:04 546       /program/lib/libzkident.so
+b4f4f000-b4f70000 r-xp 00000000 103:04 544       /program/lib/libzbar.so.0
+b4f70000-b4f7f000 ---p 00021000 103:04 544       /program/lib/libzbar.so.0
+b4f7f000-b4f80000 r--p 00020000 103:04 544       /program/lib/libzbar.so.0
+b4f80000-b4f81000 rw-p 00021000 103:04 544       /program/lib/libzbar.so.0
+b4f81000-b4f82000 r-xp 00000000 103:04 536       /program/lib/libwltdecode.so
+b4f82000-b4f89000 ---p 00001000 103:04 536       /program/lib/libwltdecode.so
+b4f89000-b4f8a000 rw-p 00000000 103:04 536       /program/lib/libwltdecode.so
+b4f8a000-b4fa0000 r-xp 00000000 103:04 535       /program/lib/libwlt.so
+b4fa0000-b4fa7000 ---p 00016000 103:04 535       /program/lib/libwlt.so
+b4fa7000-b4fa9000 rw-p 00015000 103:04 535       /program/lib/libwlt.so
+b4fa9000-b4fb9000 rw-p 00000000 00:00 0 
+b4fb9000-b4fbe000 r-xp 00000000 103:04 488       /program/lib/libled.so
+b4fbe000-b4fcd000 ---p 00005000 103:04 488       /program/lib/libled.so
+b4fcd000-b4fce000 r--p 00004000 103:04 488       /program/lib/libled.so
+b4fce000-b4fcf000 rw-p 00005000 103:04 488       /program/lib/libled.so
+b4fcf000-b4fe0000 r-xp 00000000 103:04 434       /program/lib/libadn.so
+b4fe0000-b4fef000 ---p 00011000 103:04 434       /program/lib/libadn.so
+b4fef000-b4ff0000 r--p 00010000 103:04 434       /program/lib/libadn.so
+b4ff0000-b4ff6000 rw-p 00011000 103:04 434       /program/lib/libadn.so
+b4ff6000-b5061000 r-xp 00000000 103:04 436       /program/lib/libaf.so
+b5061000-b5071000 ---p 0006b000 103:04 436       /program/lib/libaf.so
+b5071000-b5072000 r--p 0006b000 103:04 436       /program/lib/libaf.so
+b5072000-b507e000 rw-p 0006c000 103:04 436       /program/lib/libaf.so
+b507e000-b509b000 r-xp 00000000 103:04 438       /program/lib/libawb.so
+b509b000-b50aa000 ---p 0001d000 103:04 438       /program/lib/libawb.so
+b50aa000-b50ab000 r--p 0001c000 103:04 438       /program/lib/libawb.so
+b50ab000-b50b8000 rw-p 0001d000 103:04 438       /program/lib/libawb.so
+b50b8000-b50db000 r-xp 00000000 103:04 435       /program/lib/libae2.so
+b50db000-b50ea000 ---p 00023000 103:04 435       /program/lib/libae2.so
+b50ea000-b50eb000 r--p 00022000 103:04 435       /program/lib/libae2.so
+b50eb000-b50ec000 rw-p 00023000 103:04 435       /program/lib/libae2.so
+b50ec000-b510d000 r-xp 00000000 103:04 480       /program/lib/libispbp.so
+b510d000-b511c000 ---p 00021000 103:04 480       /program/lib/libispbp.so
+b511c000-b511d000 r--p 00020000 103:04 480       /program/lib/libispbp.so
+b511d000-b511e000 rw-p 00021000 103:04 480       /program/lib/libispbp.so
+b511e000-b5120000 rw-p 00000000 00:00 0 
+b5120000-b513c000 r-xp 00000000 103:04 425       /program/lib/lib_hiawb_natura.so
+b513c000-b514b000 ---p 0001c000 103:04 425       /program/lib/lib_hiawb_natura.so
+b514b000-b514c000 r--p 0001b000 103:04 425       /program/lib/lib_hiawb_natura.so
+b514c000-b514d000 rw-p 0001c000 103:04 425       /program/lib/lib_hiawb_natura.so
+b514d000-b51dc000 rw-p 00000000 00:00 0 
+b51dc000-b51f3000 r-xp 00000000 103:04 542       /program/lib/libz.so.1.2.11
+b51f3000-b5202000 ---p 00017000 103:04 542       /program/lib/libz.so.1.2.11
+b5202000-b5203000 r--p 00016000 103:04 542       /program/lib/libz.so.1.2.11
+b5203000-b5204000 rw-p 00017000 103:04 542       /program/lib/libz.so.1.2.11
+b5204000-b5279000 r-xp 00000000 103:04 462       /program/lib/libfreetype.so.6
+b5279000-b5288000 ---p 00075000 103:04 462       /program/lib/libfreetype.so.6
+b5288000-b528c000 rw-p 00074000 103:04 462       /program/lib/libfreetype.so.6
+b528c000-b5294000 r-xp 00000000 103:04 464       /program/lib/libhi_cipher.so
+b5294000-b52a3000 ---p 00008000 103:04 464       /program/lib/libhi_cipher.so
+b52a3000-b52a4000 r--p 00007000 103:04 464       /program/lib/libhi_cipher.so
+b52a4000-b52a5000 rw-p 00008000 103:04 464       /program/lib/libhi_cipher.so
+b52a5000-b52be000 r-xp 00000000 103:04 429       /program/lib/libaaccomm.so
+b52be000-b52cd000 ---p 00019000 103:04 429       /program/lib/libaaccomm.so
+b52cd000-b52ce000 r--p 00018000 103:04 429       /program/lib/libaaccomm.so
+b52ce000-b52cf000 rw-p 00019000 103:04 429       /program/lib/libaaccomm.so
+b52cf000-b52f7000 r-xp 00000000 103:04 430       /program/lib/libaacdec.so
+b52f7000-b5307000 ---p 00028000 103:04 430       /program/lib/libaacdec.so
+b5307000-b5308000 r--p 00028000 103:04 430       /program/lib/libaacdec.so
+b5308000-b5309000 rw-p 00029000 103:04 430       /program/lib/libaacdec.so
+b5309000-b5340000 r-xp 00000000 103:04 431       /program/lib/libaacenc.so
+b5340000-b534f000 ---p 00037000 103:04 431       /program/lib/libaacenc.so
+b534f000-b5350000 r--p 00036000 103:04 431       /program/lib/libaacenc.so
+b5350000-b5351000 rw-p 00037000 103:04 431       /program/lib/libaacenc.so
+b5351000-b5357000 r-xp 00000000 103:04 422       /program/lib/libVoiceEngine.so
+b5357000-b5366000 ---p 00006000 103:04 422       /program/lib/libVoiceEngine.so
+b5366000-b5367000 r--p 00005000 103:04 422       /program/lib/libVoiceEngine.so
+b5367000-b5368000 rw-p 00006000 103:04 422       /program/lib/libVoiceEngine.so
+b5368000-b537c000 r-xp 00000000 103:04 520       /program/lib/libsns_sc2310.so
+b537c000-b538b000 ---p 00014000 103:04 520       /program/lib/libsns_sc2310.so
+b538b000-b538c000 r--p 00013000 103:04 520       /program/lib/libsns_sc2310.so
+b538c000-b538d000 rw-p 00014000 103:04 520       /program/lib/libsns_sc2310.so
+b538d000-b5391000 r-xp 00000000 103:04 428       /program/lib/lib_hildci.so
+b5391000-b53a0000 ---p 00004000 103:04 428       /program/lib/lib_hildci.so
+b53a0000-b53a1000 r--p 00003000 103:04 428       /program/lib/lib_hildci.so
+b53a1000-b53a2000 rw-p 00004000 103:04 428       /program/lib/lib_hildci.so
+b53a2000-b53a9000 r-xp 00000000 103:04 426       /program/lib/lib_hidehaze.so
+b53a9000-b53b8000 ---p 00007000 103:04 426       /program/lib/lib_hidehaze.so
+b53b8000-b53b9000 r--p 00006000 103:04 426       /program/lib/lib_hidehaze.so
+b53b9000-b53ba000 rw-p 00007000 103:04 426       /program/lib/lib_hidehaze.so
+b53ba000-b53c3000 r-xp 00000000 103:04 427       /program/lib/lib_hidrc.so
+b53c3000-b53d2000 ---p 00009000 103:04 427       /program/lib/lib_hidrc.so
+b53d2000-b53d3000 r--p 00008000 103:04 427       /program/lib/lib_hidrc.so
+b53d3000-b53d4000 rw-p 00009000 103:04 427       /program/lib/lib_hidrc.so
+b53d4000-b5501000 r-xp 00000000 00:02 688        /lib/libstdc++.so.6.0.22
+b5501000-b5510000 ---p 0012d000 00:02 688        /lib/libstdc++.so.6.0.22
+b5510000-b5515000 r--p 0012c000 00:02 688        /lib/libstdc++.so.6.0.22
+b5515000-b5517000 rw-p 00131000 00:02 688        /lib/libstdc++.so.6.0.22
+b5517000-b5519000 rw-p 00000000 00:00 0 
+b5519000-b5525000 r-xp 00000000 103:04 515       /program/lib/libsecurec.so
+b5525000-b5534000 ---p 0000c000 103:04 515       /program/lib/libsecurec.so
+b5534000-b5535000 r--p 0000b000 103:04 515       /program/lib/libsecurec.so
+b5535000-b5536000 rw-p 0000c000 103:04 515       /program/lib/libsecurec.so
+b5536000-b5539000 r-xp 00000000 103:04 529       /program/lib/libtde.so
+b5539000-b5548000 ---p 00003000 103:04 529       /program/lib/libtde.so
+b5548000-b5549000 r--p 00002000 103:04 529       /program/lib/libtde.so
+b5549000-b554a000 rw-p 00003000 103:04 529       /program/lib/libtde.so
+b554a000-b554f000 r-xp 00000000 103:04 532       /program/lib/libupvqe.so
+b554f000-b555f000 ---p 00005000 103:04 532       /program/lib/libupvqe.so
+b555f000-b5560000 r--p 00005000 103:04 532       /program/lib/libupvqe.so
+b5560000-b5561000 rw-p 00006000 103:04 532       /program/lib/libupvqe.so
+b5561000-b5565000 r-xp 00000000 103:04 458       /program/lib/libdnvqe.so
+b5565000-b5574000 ---p 00004000 103:04 458       /program/lib/libdnvqe.so
+b5574000-b5575000 r--p 00003000 103:04 458       /program/lib/libdnvqe.so
+b5575000-b5576000 rw-p 00004000 103:04 458       /program/lib/libdnvqe.so
+b5576000-b557d000 r-xp 00000000 103:04 490       /program/lib/libmd.so
+b557d000-b558c000 ---p 00007000 103:04 490       /program/lib/libmd.so
+b558c000-b558d000 r--p 00006000 103:04 490       /program/lib/libmd.so
+b558d000-b558e000 rw-p 00007000 103:04 490       /program/lib/libmd.so
+b558e000-b5592000 rw-p 00000000 00:00 0 
+b5592000-b55a7000 r-xp 00000000 103:04 424       /program/lib/lib_hiawb.so
+b55a7000-b55b6000 ---p 00015000 103:04 424       /program/lib/lib_hiawb.so
+b55b6000-b55b7000 r--p 00014000 103:04 424       /program/lib/lib_hiawb.so
+b55b7000-b55b8000 rw-p 00015000 103:04 424       /program/lib/lib_hiawb.so
+b55b8000-b55ba000 rw-p 00000000 00:00 0 
+b55ba000-b55e0000 r-xp 00000000 103:04 423       /program/lib/lib_hiae.so
+b55e0000-b55ef000 ---p 00026000 103:04 423       /program/lib/lib_hiae.so
+b55ef000-b55f0000 r--p 00025000 103:04 423       /program/lib/lib_hiae.so
+b55f0000-b55f1000 rw-p 00026000 103:04 423       /program/lib/lib_hiae.so
+b55f1000-b55fb000 rw-p 00000000 00:00 0 
+b55fb000-b5668000 r-xp 00000000 103:04 479       /program/lib/libisp.so
+b5668000-b5678000 ---p 0006d000 103:04 479       /program/lib/libisp.so
+b5678000-b5679000 r--p 0006d000 103:04 479       /program/lib/libisp.so
+b5679000-b567c000 rw-p 0006e000 103:04 479       /program/lib/libisp.so
+b567c000-b5681000 rw-p 00000000 00:00 0 
+b5681000-b569d000 r-xp 00000000 103:04 481       /program/lib/libive.so
+b569d000-b56ac000 ---p 0001c000 103:04 481       /program/lib/libive.so
+b56ac000-b56ad000 r--p 0001b000 103:04 481       /program/lib/libive.so
+b56ad000-b56ae000 rw-p 0001c000 103:04 481       /program/lib/libive.so
+b56ae000-b56f2000 r-xp 00000000 103:04 491       /program/lib/libmpi.so
+b56f2000-b5701000 ---p 00044000 103:04 491       /program/lib/libmpi.so
+b5701000-b5702000 r--p 00043000 103:04 491       /program/lib/libmpi.so
+b5702000-b5703000 rw-p 00044000 103:04 491       /program/lib/libmpi.so
+b5703000-b5710000 rw-p 00000000 00:00 0 
+b5710000-b5794000 r-xp 00000000 103:04 451       /program/lib/libcommondrv.so
+b5794000-b57a4000 ---p 00084000 103:04 451       /program/lib/libcommondrv.so
+b57a4000-b57a5000 r--p 00084000 103:04 451       /program/lib/libcommondrv.so
+b57a5000-b57a7000 rw-p 00085000 103:04 451       /program/lib/libcommondrv.so
+b57a7000-b5c02000 rw-p 00000000 00:00 0 
+b5c02000-b5d30000 r-xp 00000000 00:02 490        /lib/libc-2.24.so
+b5d30000-b5d40000 ---p 0012e000 00:02 490        /lib/libc-2.24.so
+b5d40000-b5d42000 r--p 0012e000 00:02 490        /lib/libc-2.24.so
+b5d42000-b5d43000 rw-p 00130000 00:02 490        /lib/libc-2.24.so
+b5d43000-b5d46000 rw-p 00000000 00:00 0 
+b5d46000-b5d62000 r-xp 00000000 00:02 491        /lib/libgcc_s.so.1
+b5d62000-b5d71000 ---p 0001c000 00:02 491        /lib/libgcc_s.so.1
+b5d71000-b5d72000 r--p 0001b000 00:02 491        /lib/libgcc_s.so.1
+b5d72000-b5d73000 rw-p 0001c000 00:02 491        /lib/libgcc_s.so.1
+b5d73000-b5d9b000 r-xp 00000000 103:04 487       /program/lib/libkdmkey.so
+b5d9b000-b5daa000 ---p 00028000 103:04 487       /program/lib/libkdmkey.so
+b5daa000-b5dab000 r--p 00027000 103:04 487       /program/lib/libkdmkey.so
+b5dab000-b5dac000 rw-p 00028000 103:04 487       /program/lib/libkdmkey.so
+b5dac000-b5db1000 r-xp 00000000 103:04 534       /program/lib/libviscacommon.so
+b5db1000-b5dc0000 ---p 00005000 103:04 534       /program/lib/libviscacommon.so
+b5dc0000-b5dc1000 r--p 00004000 103:04 534       /program/lib/libviscacommon.so
+b5dc1000-b5dc2000 rw-p 00005000 103:04 534       /program/lib/libviscacommon.so
+b5dc2000-b5dea000 r-xp 00000000 103:04 533       /program/lib/libviid.so
+b5dea000-b5df1000 ---p 00028000 103:04 533       /program/lib/libviid.so
+b5df1000-b5df2000 rw-p 00027000 103:04 533       /program/lib/libviid.so
+b5df2000-b5e2b000 r-xp 00000000 103:04 477       /program/lib/libiconv.so.2.6.0
+b5e2b000-b5e3a000 ---p 00039000 103:04 477       /program/lib/libiconv.so.2.6.0
+b5e3a000-b5e3b000 r--p 00038000 103:04 477       /program/lib/libiconv.so.2.6.0
+b5e3b000-b5e3c000 rw-p 00039000 103:04 477       /program/lib/libiconv.so.2.6.0
+b5e3c000-b5e7e000 r-xp 00000000 103:04 455       /program/lib/libcurl.so.4.5.0
+b5e7e000-b5e8e000 ---p 00042000 103:04 455       /program/lib/libcurl.so.4.5.0
+b5e8e000-b5e8f000 r--p 00042000 103:04 455       /program/lib/libcurl.so.4.5.0
+b5e8f000-b5e90000 rw-p 00043000 103:04 455       /program/lib/libcurl.so.4.5.0
+b5e90000-b5ec6000 r-xp 00000000 103:04 509       /program/lib/libpcap.so.1.7.4
+b5ec6000-b5ed6000 ---p 00036000 103:04 509       /program/lib/libpcap.so.1.7.4
+b5ed6000-b5ed7000 r--p 00036000 103:04 509       /program/lib/libpcap.so.1.7.4
+b5ed7000-b5ed8000 rw-p 00037000 103:04 509       /program/lib/libpcap.so.1.7.4
+b5ed8000-b5edc000 r-xp 00000000 103:04 530       /program/lib/libulink.so
+b5edc000-b5eeb000 ---p 00004000 103:04 530       /program/lib/libulink.so
+b5eeb000-b5eec000 r--p 00003000 103:04 530       /program/lib/libulink.so
+b5eec000-b5eed000 rw-p 00004000 103:04 530       /program/lib/libulink.so
+b5eed000-b5ef6000 r-xp 00000000 103:04 496       /program/lib/libnmea.so
+b5ef6000-b5f05000 ---p 00009000 103:04 496       /program/lib/libnmea.so
+b5f05000-b5f06000 r--p 00008000 103:04 496       /program/lib/libnmea.so
+b5f06000-b5f07000 rw-p 00009000 103:04 496       /program/lib/libnmea.so
+b5f07000-b60a4000 r-xp 00000000 103:04 483       /program/lib/libiware.so
+b60a4000-b60b4000 ---p 0019d000 103:04 483       /program/lib/libiware.so
+b60b4000-b60b5000 r--p 0019d000 103:04 483       /program/lib/libiware.so
+b60b5000-b60b9000 rw-p 0019e000 103:04 483       /program/lib/libiware.so
+b60b9000-b6389000 rw-p 00000000 00:00 0 
+b6389000-b6399000 r-xp 00000000 00:02 488        /lib/libresolv-2.24.so
+b6399000-b63a8000 ---p 00010000 00:02 488        /lib/libresolv-2.24.so
+b63a8000-b63a9000 r--p 0000f000 00:02 488        /lib/libresolv-2.24.so
+b63a9000-b63aa000 rw-p 00010000 00:02 488        /lib/libresolv-2.24.so
+b63aa000-b63ac000 rw-p 00000000 00:00 0 
+b63ac000-b6415000 r-xp 00000000 103:04 539       /program/lib/libwolfssl.so.14.0.0
+b6415000-b6424000 ---p 00069000 103:04 539       /program/lib/libwolfssl.so.14.0.0
+b6424000-b6425000 r--p 00068000 103:04 539       /program/lib/libwolfssl.so.14.0.0
+b6425000-b6426000 rw-p 00069000 103:04 539       /program/lib/libwolfssl.so.14.0.0
+b6426000-b64be000 rw-p 00000000 00:00 0 
+b64be000-b65c3000 r-xp 00000000 103:04 525       /program/lib/libstdprotocol.so
+b65c3000-b65d2000 ---p 00105000 103:04 525       /program/lib/libstdprotocol.so
+b65d2000-b65d3000 r--p 00104000 103:04 525       /program/lib/libstdprotocol.so
+b65d3000-b65dd000 rw-p 00105000 103:04 525       /program/lib/libstdprotocol.so
+b65dd000-b665d000 r-xp 00000000 103:04 489       /program/lib/liblightapi.so
+b665d000-b666c000 ---p 00080000 103:04 489       /program/lib/liblightapi.so
+b666c000-b666d000 r--p 0007f000 103:04 489       /program/lib/liblightapi.so
+b666d000-b6691000 rw-p 00080000 103:04 489       /program/lib/liblightapi.so
+b6691000-b669c000 rw-p 00000000 00:00 0 
+b669c000-b66a7000 r-xp 00000000 103:04 516       /program/lib/libserialization.so
+b66a7000-b66b6000 ---p 0000b000 103:04 516       /program/lib/libserialization.so
+b66b6000-b66b7000 r--p 0000a000 103:04 516       /program/lib/libserialization.so
+b66b7000-b66b8000 rw-p 0000b000 103:04 516       /program/lib/libserialization.so
+b66b8000-b6a04000 r-xp 00000000 103:04 514       /program/lib/libsdkserver.so
+b6a04000-b6a13000 ---p 0034c000 103:04 514       /program/lib/libsdkserver.so
+b6a13000-b6a16000 r--p 0034b000 103:04 514       /program/lib/libsdkserver.so
+b6a16000-b6a1c000 rw-p 0034e000 103:04 514       /program/lib/libsdkserver.so
+b6a1c000-b6a4f000 rw-p 00000000 00:00 0 
+b6a4f000-b6a66000 r-xp 00000000 00:02 682        /lib/libpthread-2.24.so
+b6a66000-b6a75000 ---p 00017000 00:02 682        /lib/libpthread-2.24.so
+b6a75000-b6a76000 r--p 00016000 00:02 682        /lib/libpthread-2.24.so
+b6a76000-b6a77000 rw-p 00017000 00:02 682        /lib/libpthread-2.24.so
+b6a77000-b6a79000 rw-p 00000000 00:00 0 
+b6a79000-b6a83000 r-xp 00000000 103:04 493       /program/lib/libmxml.so
+b6a83000-b6a93000 ---p 0000a000 103:04 493       /program/lib/libmxml.so
+b6a93000-b6a94000 r--p 0000a000 103:04 493       /program/lib/libmxml.so
+b6a94000-b6a95000 rw-p 0000b000 103:04 493       /program/lib/libmxml.so
+b6a95000-b6aec000 r-xp 00000000 103:04 478       /program/lib/libimg.so
+b6aec000-b6afb000 ---p 00057000 103:04 478       /program/lib/libimg.so
+b6afb000-b6afc000 r--p 00056000 103:04 478       /program/lib/libimg.so
+b6afc000-b6b05000 rw-p 00057000 103:04 478       /program/lib/libimg.so
+b6b05000-b6b66000 rw-p 00000000 00:00 0 
+b6b66000-b6b6c000 r-xp 00000000 103:04 513       /program/lib/libqueue.so
+b6b6c000-b6b7b000 ---p 00006000 103:04 513       /program/lib/libqueue.so
+b6b7b000-b6b7c000 r--p 00005000 103:04 513       /program/lib/libqueue.so
+b6b7c000-b6b7d000 rw-p 00006000 103:04 513       /program/lib/libqueue.so
+b6b7d000-b6c95000 r-xp 00000000 103:04 459       /program/lib/libdriver.so
+b6c95000-b6ca4000 ---p 00118000 103:04 459       /program/lib/libdriver.so
+b6ca4000-b6ca5000 r--p 00117000 103:04 459       /program/lib/libdriver.so
+b6ca5000-b6cb5000 rw-p 00118000 103:04 459       /program/lib/libdriver.so
+b6cb5000-b6e58000 rw-p 00000000 00:00 0 
+b6e58000-b6eab000 r-xp 00000000 103:04 449       /program/lib/libbp.so
+b6eab000-b6eba000 ---p 00053000 103:04 449       /program/lib/libbp.so
+b6eba000-b6ebb000 r--p 00052000 103:04 449       /program/lib/libbp.so
+b6ebb000-b6ebf000 rw-p 00053000 103:04 449       /program/lib/libbp.so
+b6ebf000-b6efa000 rw-p 00000000 00:00 0 
+b6efa000-b6efc000 r-xp 00000000 103:04 492       /program/lib/libmw.so
+b6efc000-b6f0b000 ---p 00002000 103:04 492       /program/lib/libmw.so
+b6f0b000-b6f0c000 r--p 00001000 103:04 492       /program/lib/libmw.so
+b6f0c000-b6f0d000 rw-p 00002000 103:04 492       /program/lib/libmw.so
+b6f0d000-b6f0f000 r-xp 00000000 00:02 697        /lib/libdl-2.24.so
+b6f0f000-b6f1e000 ---p 00002000 00:02 697        /lib/libdl-2.24.so
+b6f1e000-b6f1f000 r--p 00001000 00:02 697        /lib/libdl-2.24.so
+b6f1f000-b6f20000 rw-p 00002000 00:02 697        /lib/libdl-2.24.so
+b6f20000-b6f26000 r-xp 00000000 00:02 677        /lib/librt-2.24.so
+b6f26000-b6f35000 ---p 00006000 00:02 677        /lib/librt-2.24.so
+b6f35000-b6f36000 r--p 00005000 00:02 677        /lib/librt-2.24.so
+b6f36000-b6f37000 rw-p 00006000 00:02 677        /lib/librt-2.24.so
+b6f37000-b6fa9000 r-xp 00000000 00:02 492        /lib/libm-2.24.so
+b6fa9000-b6fb8000 ---p 00072000 00:02 492        /lib/libm-2.24.so
+b6fb8000-b6fb9000 r--p 00071000 00:02 492        /lib/libm-2.24.so
+b6fb9000-b6fba000 rw-p 00072000 00:02 492        /lib/libm-2.24.so
+b6fba000-b6fda000 r-xp 00000000 00:02 708        /lib/ld-2.24.so
+b6fda000-b6fdb000 rw-s a5dfb000 00:0e 3144       /dev/mmz_userdev
+b6fdb000-b6fea000 rw-p 00000000 00:00 0 
+b6fea000-b6feb000 r--p 00020000 00:02 708        /lib/ld-2.24.so
+b6feb000-b6fec000 rw-p 00021000 00:02 708        /lib/ld-2.24.so
+beab7000-bead8000 rw-p 00000000 00:00 0          [stack]
+beb66000-beb67000 r-xp 00000000 00:00 0          [sigpage]
+beb67000-beb68000 r--p 00000000 00:00 0          [vvar]
+beb68000-beb69000 r-xp 00000000 00:00 0          [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]

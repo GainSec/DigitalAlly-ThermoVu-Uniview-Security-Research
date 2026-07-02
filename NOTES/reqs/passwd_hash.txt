@@ -1,0 +1,7 @@
+# DES crypt password hash from /etc/passwd
+# SHA256 of source file: d5930116132aa94aa5bdfa7e916a6a31bf357e5b905e17d646e7fc2ae36c9fee
+# Format: DES crypt (13 chars)
+# Salt: 6K
+# Crackable with: john --format=descrypt hash.txt
+
+root:6KQ1AHrE6DoCg:0:0::/root:/usr/bin/uvsh

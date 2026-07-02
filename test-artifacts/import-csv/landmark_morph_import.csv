@@ -1,0 +1,12 @@
+"Required Fields","Required Fields","Picture Path","Card Type","Card No.","Card Type","Card No.","Effective Time","Expiration Time","Template Name","Comment"
+*No.,*Name,Face Picture,Card Type 1,Card No. 1,Card Type 2,Card No. 2,Effective Time,Expiration Time,Time Template Name,Comment
+91001,morph_cover50pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover50pct.jpg,,,,,,,,landmark_morph
+91002,morph_cover55pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover55pct.jpg,,,,,,,,landmark_morph
+91003,morph_cover60pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover60pct.jpg,,,,,,,,landmark_morph
+91004,morph_cover65pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover65pct.jpg,,,,,,,,landmark_morph
+91005,morph_cover70pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover70pct.jpg,,,,,,,,landmark_morph
+91006,morph_cover75pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover75pct.jpg,,,,,,,,landmark_morph
+91007,morph_cover80pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover80pct.jpg,,,,,,,,landmark_morph
+91008,morph_cover85pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover85pct.jpg,,,,,,,,landmark_morph
+91009,morph_cover90pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover90pct.jpg,,,,,,,,landmark_morph
+91010,morph_cover95pct,<RELEASE_ROOT>/LANDMARK_MORPH/morph_cover95pct.jpg,,,,,,,,landmark_morph

@@ -1,0 +1,49 @@
+
+[HIFB] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:56]
+
+layer name                 	 :layer_0 
+Open count                 	 :1
+Show state                 	 :ON
+Start position             	 :(0, 0)
+xres, yres                 	 :(600, 1024)
+xres_virtual, yres_virtual 	 :(600, 2048)
+xoffset, yoffset           	 :(0, 0)
+fix.line_length            	 :1200
+Mem size:                  	 :2400 KB
+Layer Scale (hw):          	 :YES 
+ColorFormat:               	 :ARGB1555
+Alpha Enable               	 :ON
+AlphaChannel Enable        	 :OFF
+Alpha0, Alpha1             	 :255, 0
+Alpha Global               	 :0
+Colorkey Enable            	 :OFF
+Colorkey value             	 :0x0
+Mirror Mode:            	 :NONE
+Dynamic Range:            	 :SDR8
+Deflicker Mode:            	 :NONE
+Rotation mode:             	 :0
+Deflicker Level:           	 :AUTO
+HiFB mode:                  	 :STANDARD
+Display Buffer mode(+UsrBuf)	 :unkown
+Displaying addr (register) 	 :0xa05cb000
+display buffer[0] addr     	 :0xa05cb000
+display buffer[1] addr     	 :0xa06f7000
+Be PreMul Mode:            	 :NO
+displayrect                	 :(600, 1024)
+screenrect                 	 :(600, 1024)
+device max resolution      	 :600, 1024
+IsNeedFlip(2buf)           	 :NO
+BufferIndexDisplaying(2buf)	 :0
+refresh request num(2buf)  	 :0
+switch buf num(2buf)       	 :0
+union rect (2buf)          	 :(0,0,0,0)
+canavas updated addr       	 :0xa05cb000
+canavas updated (w, h)     	 :600,1024 
+canvas width               	 :600
+canvas height              	 :1024
+canvas pitch               	 :1200
+canvas format              	 :ARGB1555
+IsCompress                 	 :NO
+Is DDR Dettect             	 :NO
+DDR Detect Zones           	 :0
+PreMul Enable                 	 :OFF

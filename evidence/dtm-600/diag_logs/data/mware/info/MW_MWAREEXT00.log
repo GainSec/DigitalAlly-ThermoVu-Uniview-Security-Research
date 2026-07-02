@@ -1,0 +1,20 @@
+12-01 00:00:04 039[I(0)][queue.c-1172]this is QUEUE_Init frist run,gpstLoopBufInfo:0x98dc3008
+12-01 00:00:04 048[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(0) pcDataBuff:0x98dc446c,
+12-01 00:00:04 048[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(1) pcDataBuff:0x995c446c,
+12-01 00:00:04 048[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:-1
+12-01 00:00:04 049[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(2) pcDataBuff:0x995cb99c,
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:0 Fifo, ReadFd:48 WriteFd:49
+12-01 00:00:04 049[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(3) pcDataBuff:0x995d2ecc,
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:-1 WriteFd:51
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:-1 WriteFd:50
+12-01 00:00:04 049[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(4) pcDataBuff:0x997d2ecc,
+12-01 00:00:04 049[I(0)][queue.c-379]ulLogicChlId:2 Fifo, ReadFd:52 WriteFd:51
+12-01 00:00:04 050[I(0)][queue.c-404]QUEUE_LoopFrameBufInit ulLogicChlId(5) pcDataBuff:0x99cda490,
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:-1 WriteFd:55
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:4 Fifo, ReadFd:54 WriteFd:55
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:1 Fifo, ReadFd:53 WriteFd:50
+12-01 00:00:04 050[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:-1
+12-01 00:00:04 051[I(0)][queue.c-379]ulLogicChlId:3 Fifo, ReadFd:58 WriteFd:57
+12-01 00:00:04 051[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:-1
+12-01 00:00:04 051[I(0)][queue.c-379]ulLogicChlId:5 Fifo, ReadFd:59 WriteFd:56
+12-01 00:00:04 071[I(0)][queue.c-1217]QUEUE_Init end

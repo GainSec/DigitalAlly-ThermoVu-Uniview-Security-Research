@@ -1,0 +1,155 @@
+2011-12-01 00:00:00.905 img_pcr.c-1197      @InitPipeID               [INF][IMG]ulDevType = 0, ViPipe:[0][0][0][0]
+2011-12-01 00:00:00.905 img_pcr.c-1235      @InitVpssGrpID            [INF][IMG]ulDevType = 0, VpssGrpID:[0][0][0][0]
+2011-12-01 00:00:00.905 img_pcr.c-1131      @InitSocCap               [ERR][IMG]ulIpcType = 14
+2011-12-01 00:00:00.905 img_pcr.c-1139      @InitSocCap               [ERR][IMG]ulImgNum = 1
+2011-12-01 00:00:00.905 img_pcr.c-1496      @InitShutCap              [INF][IMG] Shutter unit is 1. (0: us, 1: 1/s)
+2011-12-01 00:00:00.907 img_file.c-153      @FILE_CSV_ParseParamTable [INF][IMG]FILE_CSV_ReadFileName: SensorName:SC2310 ,pcProName:OET-213H-NB-WH, ProNameCsv:OET-213H-NB-WH, pcXmlFile:default_pic_ET-S51H_SC2310.xml, pcCommXmlFile:ET-S51H_SC2310
+2011-12-01 00:00:00.907 img_pcr.c-1647      @FindXmlName              [INF][IMG]Find xml success. PicName = default_pic_ET-S51H_SC2310.xml, CommNode = ET-S51H_SC2310
+2011-12-01 00:00:00.908 img_file.c-331      @FILE_CSV_ParseAdnThrTable [INF][IMG]FILE_CSV_ReadFileName:
+ pcSensorName:SC2310
+ pcProName:OET-213H-NB-WH
+ pcXmlNodeName:ET-S51H_SC2310
+2011-12-01 00:00:00.908 img_pcr.c-1681      @FindAdnThrName           [INF][IMG]Find AdnThrName = ET-S51H_SC2310
+2011-12-01 00:00:00.908 img_pcr.c-1369      @InitLensCap              [INF][IMG]PdtName = OET-213H-NB-WH, ClassType = 0, IrisType = 0, bHcmLens = 0
+2011-12-01 00:00:00.908 img_pcr.c-1316      @InitLensAttr             [INF][IMG]Lens code = 4801C09P
+2011-12-01 00:00:00.908 img_pcr.c-1068      @InitDigHcmCap            [INF][IMG]bDigHcm = 0
+2011-12-01 00:00:00.908 img_pcr.c-959       @InitLedCap               [INF][IMG]LedType = 8
+2011-12-01 00:00:00.908 img_pcr.c-793       @InitFaceCap              [INF][IMG]bFace = 0
+2011-12-01 00:00:00.908 img_pcr.c-830       @InitOpticalDefogCap      [INF][IMG]bOpticalDefog = 0
+2011-12-01 00:00:00.908 img_pcr.c-728       @InitDigZoomCap           [INF][IMG]bDigzoom = 0
+2011-12-01 00:00:00.908 img_pcr.c-1616      @InitCenterMeter          [INF][IMG]bFishEyeMeterWeight = 0
+2011-12-01 00:00:00.908 img_pcr.c-1812      @PCR_InitDevCap           [INF][IMG][ISP PdtCap] PdtName = OET-213H-NB-WH, IspNum = 0, IpcType = 0, SnsType = 589826, SnsName = SC2310, ClassType = 0, IrisType = 0, bHcmLen = 0, bWdrPdt = 1, bOptDfg = 0, bSupSpotPress = 1, bStarLightPdt = 0, bHlcPdt = 0, bLdr = 0, bSupMultLens = 0, LedType = 8, LensType = 0!
+2011-12-01 00:00:00.909 img_pcr.c-2071      @PCR_InitDevMode          [WRN][IMG]Ipctype 14 not support, set to video mode
+2011-12-01 00:00:00.909 img_ae_uv.c-271     @InitSnsExpAttr           [INF][IMG]Sns cfg init ok.
+2011-12-01 00:00:00.909 img_ae_uv.c-3241    @AE_ALG_Register          [WRN][IMG]AE_ALG_Register ulViPipe = 0
+2011-12-01 00:00:00.925 img_awb.c-357       @IMG_AWB_SwitchAlg        [INF][IMG]awb alg switch to uniview_awb_lib ok!
+2011-12-01 00:00:00.931 img_ae_uv.c-1996    @VideoInit                [INF][IMG]ulViPipe 0, ulFrameRate 30, ulHeight 1080, ulWidth 1920
+2011-12-01 00:00:00.951 img_awb_uv.c-422    @LoadAwbCaliXML           [INF][IMG]LensCode=4801C09P SensorName=SC2310
+2011-12-01 00:00:00.952 img_file.c-243      @FILE_CSV_ParseCaliTable  [INF][IMG]FILE_CSV_ReadFileName:
+ pcSensorName:SC2310
+ pcLensCode:4801C09P
+ pcXmlNodeName:SC2310_4801C09P
+2011-12-01 00:00:00.952 img_awb_uv.c-435    @LoadAwbCaliXML           [INF][IMG]XmlNodeName=SC2310_4801C09P
+2011-12-01 00:00:00.967 img_xml.c-2397      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit num 10
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 0: [465,1317,4906,6084] [-22719,16403,-22631,34057] [47,4882,23,6055] 1
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 1: [518,1368,3980,4943] [-17983,14006,-18027,28134] [79,3937,47,4882] 1
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 2: [570,1443,3237,4042] [-9442,9244,-9446,16666] [144,3145,79,3936] 1
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 3: [651,1707,2197,3348] [-2921,5095,-2906,7445] [595,1607,144,3145] 2
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 4: [1016,2049,1450,2602] [-1593,3778,-1044,4347] [1491,-726,595,1607] 16
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 5: [1495,2150,1232,2110] [-646,2394,-708,3457] [2443,-3160,1491,-727] 16
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 6: [1841,2606,1058,1970] [-295,1763,-288,2575] [4946,-10748,2443,-3160] 4
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 7: [2444,3274,938,1842] [-165,1452,-166,2264] [9649,-29123,4946,-10748] 2
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 8: [3190,4313,859,1733] [-74,1168,-73,1966] [19623,-81008,9649,-29123] 1
+2011-12-01 00:00:00.967 img_xml.c-2408      @ISP_CFG_GetUVAwbWZone    [INF][IMG]UVAwb wzone unit 9: [4272,5717,782,1658] [-55,1089,-55,1889] [38372,-212673,19623,-81008] 1
+2011-12-01 00:00:00.968 img_xml.c-2457      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit num 10
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 0: 1496,34,5470,891,5500
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 1: 1766,62,4292,943,4349
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 2: 2029,99,3577,995,3673
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 3: 2534,197,2700,1099,2912
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 4: 4617,1207,-31,1624,1884
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 5: 5758,1805,-1533,1820,1676
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 6: 6764,3178,-5215,2172,1526
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 7: 8982,7103,-18596,2879,1374
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 8: 10941,12584,-42774,3586,1297
+2011-12-01 00:00:00.968 img_xml.c-2464      @ISP_CFG_GetUVAwbCTemp    [INF][IMG]UVAwb CTemp unit 9: 10941,12584,-42774,3586,1297
+2011-12-01 00:00:00.968 img_xml.c-2541      @ISP_CFG_GetUVAwbTuneCoeff [INF][IMG]UVAwb tune coeff GainThr: 2000,1250
+2011-12-01 00:00:00.968 img_xml.c-2548      @ISP_CFG_GetUVAwbTuneCoeff [INF][IMG]UVAwb tune coeff unit 0: 3900,1125,1024,686
+2011-12-01 00:00:00.969 img_xml.c-2548      @ISP_CFG_GetUVAwbTuneCoeff [INF][IMG]UVAwb tune coeff unit 1: 4800,1024,1024,1024
+2011-12-01 00:00:00.969 img_xml.c-2626      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv stGainThr: 1000,850
+2011-12-01 00:00:00.969 img_xml.c-2629      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv stExpTimeThr: 40000,40000
+2011-12-01 00:00:00.969 img_xml.c-2633      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv unit 0: 1631,2648
+2011-12-01 00:00:00.969 img_xml.c-2633      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv unit 1: 1997,1881
+2011-12-01 00:00:00.969 img_xml.c-2633      @ISP_CFG_GetUVAwbGRemv    [INF][IMG]UVAwb GRemv unit 2: 2773,1677
+2011-12-01 00:00:00.969 img_xml.c-2682      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb wzone unit num 5
+2011-12-01 00:00:00.969 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 0: 2534,366,-105,-5,-117,437,-64,-84,-575,915,0,0,0
+2011-12-01 00:00:00.969 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 1: 2926,376,-109,-11,-124,448,-68,-1,-361,618,0,0,0
+2011-12-01 00:00:00.969 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 2: 4617,441,-156,-29,-77,503,-170,20,-254,490,0,0,0
+2011-12-01 00:00:00.969 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 3: 5758,422,-187,21,-79,469,-134,5,-247,498,0,0,0
+2011-12-01 00:00:00.969 img_xml.c-2694      @ISP_CFG_GetUVCcmCoeff    [INF][IMG]UVAwb CCM unit 4: 6764,432,-200,24,-67,461,-138,5,-214,465,0,0,0
+2011-12-01 00:00:00.969 img_awb_uv.c-244    @GetAWBCCMFileParam       [INF][IMG]Open file fail! /calibration/lens.xml
+2011-12-01 00:00:01.214 img_pcr.c-1452      @InitLensType             [INF][IMG]LensType = 61440
+2011-12-01 00:00:01.230 img_wdr.c-1068      @WDR_Init                 [INF][IMG]Wdr init sensor type:589826!
+2011-12-01 00:00:01.244 img_adn.c-1601      @ADN_ALG_Init             [INF][IMG]Adn alg init success.
+2011-12-01 00:00:01.244 img_led.c-2233      @InitLedRunMode           [INF][IMG]LED Run Mode: [0]
+2011-12-01 00:00:01.244 img_led.c-2122      @GetLedMethod             [INF][IMG]LED Method Param: [LedType = 8, Method = 4, MethodParam = (nil)]
+2011-12-01 00:00:01.244 img_led.c-1612      @InitLightCap             [INF][IMG]LightNum: [2], Distype: [0 2 0 0], Srctype: [2 0 0 0]
+2011-12-01 00:00:01.244 img_led.c-1698      @GetCondition             [INF][IMG]LED Cond Cmd: [0, 8, 0, 8]
+2011-12-01 00:00:01.245 img_led.c-2952      @LED_ALG_Init             [INF][IMG]Led alg init Success.
+2011-12-01 00:00:01.245 img_periph.c-3863   @GetPrhCfg                [INF][IMG]product run type 8 not supported!
+2011-12-01 00:00:01.245 img_pcr.c-2120      @PCR_GetVpssAttr          [INF][IMG]ulImgID 0 bind Vpss num 1, GrpId [0, 0]
+2011-12-01 00:00:01.459 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/LIN/Base/CCMCtrl
+2011-12-01 00:00:01.489 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/DWDR/Base/CCMCtrl
+2011-12-01 00:00:01.501 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/OWDR/Base/CCMCtrl
+2011-12-01 00:00:01.511 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/HLC/Base/CCMCtrl
+2011-12-01 00:00:01.524 img_xml.c-815       @ISP_CFG_GetSceneParam    [INF][IMG]acNodePath = ISP/IMG0/DEFOG/Base/CCMCtrl
+2011-12-01 00:00:01.535 img_xml.c-276       @ISP_CFG_GetAllScene      [INF][IMG]AllScene Get from default_pic_ET-S51H_SC2310.xml success!
+2011-12-01 00:00:01.598 img_xml.c-322       @ISP_CFG_GetCommParam     [INF][IMG]CommParam Get from IspComm/ET-S51H_SC2310 success!
+2011-12-01 00:00:01.598 img_prm.c-2887      @ParseIspPrm              [INF][IMG]Param parse ok
+2011-12-01 00:00:01.599 img_prm.c-2936      @LoadIspPrm               [INF][IMG]Load isp 0 param ok
+2011-12-01 00:00:01.599 img_prm.c-2996      @PRM_Init                 [INF][IMG]Img 0 param init ok.
+2011-12-01 00:00:01.599 img_awb_hisi.c-872  @AWB_HISI_Init            [WRN][IMG]this sensor type 589826 white area not support
+2011-12-01 00:00:01.655 img_xml.c-322       @ISP_CFG_GetCommParam     [INF][IMG]CommParam Get from IspComm/ET-S51H_SC2310 success!
+2011-12-01 00:00:01.657 img_ae_hisi.c-1464  @AE_HISI_Init             [INF][IMG]Sns cfg init ok.
+2011-12-01 00:00:01.658 img_main.c-703      @ImgRunThread             [INF][IMG]create ImgRunThread 0 success!
+2011-12-01 00:00:01.658 img_main.c-851      @IMG_Init                 [INF][IMG]IMG Init ok!
+2011-12-01 00:00:01.744 img_wdr.c-1313      @WDR_Run                  [INF][IMG]Wdr set sensor mode 0 !
+2011-12-01 00:00:01.744 img_wdr.c-1328      @WDR_Run                  [INF][IMG]Enable ae spot suppress mode
+2011-12-01 00:00:01.745 img_defog.c-176     @SetOpticalStatus         [INF][IMG]Set defog optical enable 0, ulLevel 1.
+2011-12-01 00:00:01.746 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:01.747 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[1], WB[0], Defog[1], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:01.747 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 0, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:01.748 img_adn.c-815       @SetFilterColor           [INF][IMG]Set Filter Status: 1
+2011-12-01 00:00:01.843 img_wdr.c-383       @SaveWdrCfg               [WRN][IMG]WDR_Ctrl ulLevel is 5!
+2011-12-01 00:00:01.843 img_wdr.c-390       @SaveWdrCfg               [WRN][IMG]WDR_Ctrl ulOnSensitivity is 5!
+2011-12-01 00:00:01.843 img_wdr.c-397       @SaveWdrCfg               [WRN][IMG]WDR_Ctrl ulOffSensitivity is 5!
+2011-12-01 00:00:01.843 img_wdr.c-422       @SaveWdrCfg               [INF][IMG]Wdr ctrl set wdr ulMode = 0, ulLevel = 5, ulOnSensitivity = 5, ulOffSensitivity = 5
+2011-12-01 00:00:04.643 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:04.643 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:04.643 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 0, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:04.882 isp_libfun.c-2390   @ISP_SetSceneParam        [INF][IMG]ulSceneType = 2 
+2011-12-01 00:00:04.882 img_cfg.c-431       @CFG_SetSceneInfo         [INF][IMG]Set scene type 2!
+2011-12-01 00:00:04.883 isp_libfun.c-2478   @ISP_SetExposure          [INF][IMG]
+ulMode = 1, lExpCompensate = 0 
+ulShutter = 100, ulSlowShutter = 50, ulFastShutter = 100000 
+ulGain = 0, ulMaxGain = 36, ulMinGain = 0 
+ulIris = 160, ulMaxIris = 160, ulMinIris = 960 
+SlowEn = 0, SlowMaxShutter = 12 
+MeteringMode = 4, TopX = 25, TopY = 25, BotX = 75, BotY = 75 
+WdrMode = 0, WdrExpRatio = 5, OnSense = 5, OffSense = 5 
+DayNightMode = 0, DayNight Sense = 196613 
+2011-12-01 00:00:04.885 img_ae_uv.c-3101    @SetUnAeCfg               [INF][IMG]SetUnAeCfg!
+2011-12-01 00:00:04.885 img_ae_uv.c-3129    @SetUnAeCfg               [INF][IMG]############compensate 71##########
+2011-12-01 00:00:04.885 img_ae_uv.c-3158    @SetUnAeCfg               [INF][IMG]SetUnAeCfg Auto Exp!
+2011-12-01 00:00:04.886 isp_libfun.c-2729   @ISP_SetWhiteBalance      [INF][IMG]ulWBMode = 0, lBlueOffset = 0, lRedOffset = 0 
+2011-12-01 00:00:04.887 isp_libfun.c-2825   @ISP_SetImageEnhance      [INF][IMG]ulBrightness = 128, ulContrast = 128, ulSaturation = 128 
+ulHue = 128, ulSharpness = 128, ul2DLevel = 128, ul3Dlevel = 128, ulMirrorMode = 6 
+2011-12-01 00:00:04.912 img_wdr.c-422       @SaveWdrCfg               [INF][IMG]Wdr ctrl set wdr ulMode = 0, ulLevel = 5, ulOnSensitivity = 5, ulOffSensitivity = 5
+2011-12-01 00:00:04.913 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[1], IE[1], EXP[1], DN[0], WDR[0], WB[1], Defog[0], AF[0], YardHlc[1], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:04.913 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:04.982 img_ae_uv.c-2159    @VideoCtrl                [ERR][IMG]change image size
+2011-12-01 00:00:05.015 img_hisi.c-370      @HI_Set3DnrXCfg           [ERR][IMG]ISP[0] HI_MPI_VI_SetPipeNRXParam fail, errno 0xa0108005
+2011-12-01 00:00:05.025 img_defog.c-131     @SetDefog                 [INF][IMG]Set defog mode 0, level 5.
+2011-12-01 00:00:05.025 isp_libfun.c-210    @IMG_SetLDC               [INF][IMG]SetLDC: bEnable(0), ulRatio(5)
+2011-12-01 00:00:05.085 isp_libfun.c-243    @IMG_SetSpread            [INF][IMG]SetSpread: bEnable(0), ulRatio(1)
+2011-12-01 00:00:05.103 img_defog.c-476     @SaveCfg                  [INF][IMG]Save defog cfg Mode is 0, Level is 5 !
+2011-12-01 00:00:05.103 img_defog.c-595     @DEFOG_Run                [INF][IMG]set defog mode:0, level:5
+2011-12-01 00:00:05.103 img_defog.c-176     @SetOpticalStatus         [INF][IMG]Set defog optical enable 0, ulLevel 5.
+2011-12-01 00:00:05.103 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[0], WDR[0], WB[0], Defog[1], AF[0], YardHlc[0], RoadHlc[0], IRIS[0], PRH[0]!
+2011-12-01 00:00:05.103 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:05.148 isp_libfun.c-903    @ISP_SetImageVarFn        [WRN][IMG]MsgCmd = 31 nullity
+2011-12-01 00:00:05.328 isp_libfun.c-2969   @ISP_SetLightMode         [INF][IMG]ulLightMode = 1 
+2011-12-01 00:00:05.328 img_led.c-2713      @SetLightMode             [INF][IMG]LED_Ctrl: [Switch Cond: 8 8 8 8]
+2011-12-01 00:00:05.342 isp_libfun.c-2999   @ISP_SetLensIfMode        [INF][IMG]ulLensIfMode = 2
+2011-12-01 00:00:05.343 img_ae.c-2341       @IMG_AE_SetIrisParam      [INF][IMG]Web SetIris LensID=0 IrisMode=0, IrisValue=100
+2011-12-01 00:00:05.413 img_adn.c-1078      @UpAdnRelatedStatus       [INF][IMG]Set Adn ProcessResult: DayNight[1], IrCut Status[1], updateDN:[1]
+2011-12-01 00:00:05.413 img_prm.c-1758      @CheckUpdate              [INF][IMG]Web configs is changed, Scene[0], IE[1], EXP[0], DN[1], WDR[0], WB[0], Defog[0], AF[0], YardHlc[0], RoadHlc[0], IRIS[1], PRH[0]!
+2011-12-01 00:00:05.413 img_prm.c-1453      @FindLinWdrCfgIdx         [INF][IMG]Wdr mode 0, level 5, lock mode 0, achv mode 0, node sel LIN, node id 5
+2011-12-01 00:00:07.195 img_awb_uv.c-1857   @AWB_CFG_SetUvAwb4FTK     [WRN][IMG]OET-213H-NB-WH not support Multiple Lens!
+2011-12-01 00:00:13.962 isp_libfun.c-3121   @ISP_SetInstallHeight     [INF][IMG]Install Height = 600 
+2011-12-01 00:00:14.387 isp_libfun.c-2934   @ISP_SetSmartIrParam      [INF][IMG]ulIrCtrlMode = 3, ulNearIrLed = 500, ulMiddleIrLed = 0, ulFarIrLed = 0, ulLaserAngle = 6000 
+2011-12-01 00:00:14.387 img_led.c-2445      @SetLedCtrlCfg            [INF][IMG]LED_Ctrl: [Method: 0, Strength: 500 0 0 6000] 
+LED_Ctrl: [SrcCond: 6, DestCond: 0]
+2011-12-01 00:02:15.142 img_iq.c-593        @GenIQDebugInfo           [INF][IMG]Get IQDebug info len 1323.
+2011-12-01 00:02:15.142 isp_libfun.c-772    @ISP_GetImageVarFn        [ERR][IMG]Get AF Debug Info fail, err:9215
+2011-12-01 00:05:20.130 img_iq.c-593        @GenIQDebugInfo           [INF][IMG]Get IQDebug info len 1323.
+2011-12-01 00:10:11.381 img_iq.c-593        @GenIQDebugInfo           [INF][IMG]Get IQDebug info len 1321.

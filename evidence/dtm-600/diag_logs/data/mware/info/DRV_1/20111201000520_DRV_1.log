@@ -1,0 +1,1080 @@
+01-01 00:00:18 351[I][drv_comm.c-135]Register isp callback ok.
+01-01 00:00:18 356[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+01-01 00:00:18 356[E][drv_common.c-664]parse failed! lParseRet = 1
+01-01 00:00:18 356[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+01-01 00:00:18 356[I][drv_common.c-582]from 1 to 1
+01-01 00:00:18 356[I][drv_common.c-446]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+01-01 00:00:18 358[I][drv_manuparse_hisi3516dv300.c-442]Save Sensor Num[1]
+01-01 00:00:18 360[I][drv_common.c-2402]change g_ulProductType from 0xffffffff to 0xb
+01-01 00:00:18 360[I][drv_fixipc.c-525]Product Type[11]
+01-01 00:00:18 360[I][drv_manuparse_hisi3516dv300.c-130]Sensor[0] type[589826] [sc2310]
+01-01 00:00:18 361[I][drv_manuparse_hisi3516dv300.c-191]Sensor[0] Lane mode type[2] [sc2310]
+01-01 00:00:18 361[I][drv_fixipc.c-555]Product init ok
+01-01 00:00:18 361[I][drv_misc.c-53]Change adapter caller from 0 to 1
+01-01 00:00:18 361[I][drv_fixipc.c-956]=== Base Bode ===
+01-01 00:00:18 361[I][drv_fixipc.c-986]== Drv Init OK ==
+12-01 00:00:00 059[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:00 059[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:00 059[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:00 059[I][drv_common.c-582]from 1 to 1
+12-01 00:00:00 060[I][drv_common.c-446]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:00 060[I][drv_manuparse_hisi3516dv300.c-442]Save Sensor Num[1]
+12-01 00:00:00 060[I][drv_common.c-2402]change g_ulProductType from 0xffffffff to 0xb
+12-01 00:00:00 060[I][drv_fixipc.c-525]Product Type[11]
+12-01 00:00:00 060[I][drv_manuparse_hisi3516dv300.c-130]Sensor[0] type[589826] [sc2310]
+12-01 00:00:00 061[I][drv_manuparse_hisi3516dv300.c-191]Sensor[0] Lane mode type[2] [sc2310]
+12-01 00:00:00 061[I][drv_fixipc.c-555]Product init ok
+12-01 00:00:00 061[I][drv_misc.c-53]Change adapter caller from 0 to 1
+12-01 00:00:00 061[I][drv_fixipc.c-956]=== Base Bode ===
+12-01 00:00:00 061[I][drv_fixipc.c-986]== Drv Init OK ==
+12-01 00:00:00 559[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:00 560[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:00 560[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:00 560[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:00 677[I][drv_misc.c-341]No 4G module
+12-01 00:00:00 714[I][drv_misc.c-341]No 4G module
+12-01 00:00:00 849[I][drv_misc.c-341]No 4G module
+12-01 00:00:00 850[I][drv_osd.c-5048]Set osd font type 1
+12-01 00:00:00 855[I][drv_comm.c-135]Register isp callback ok.
+12-01 00:00:00 857[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:00 857[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:00 857[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:00 857[I][drv_common.c-582]from 1 to 1
+12-01 00:00:00 857[I][drv_common.c-446]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:00 858[I][drv_manuparse_hisi3516dv300.c-442]Save Sensor Num[1]
+12-01 00:00:00 858[I][drv_common.c-2402]change g_ulProductType from 0xb to 0xb
+12-01 00:00:00 858[I][drv_fixipc.c-525]Product Type[11]
+12-01 00:00:00 858[I][drv_manuparse_hisi3516dv300.c-130]Sensor[0] type[589826] [sc2310]
+12-01 00:00:00 858[I][drv_manuparse_hisi3516dv300.c-191]Sensor[0] Lane mode type[2] [sc2310]
+12-01 00:00:00 858[I][drv_fixipc.c-555]Product init ok
+12-01 00:00:00 858[I][drv_misc.c-53]Change adapter caller from 1 to 0
+12-01 00:00:00 858[I][drv_fixipc.c-161]The IPC is PTS Single Sensor.
+12-01 00:00:00 858[I][drv_common.c-2465]Set Encode Profile 0
+12-01 00:00:00 858[W][drv_general.c-911]Change log file size from 256000 to 256000
+12-01 00:00:00 859[I][drv_fixipc.c-704]Common init ok
+12-01 00:00:00 859[I][drv_gpio.c-780]GPIO init ok.
+12-01 00:00:00 859[I][drv_fixipc.c-585]isp cmos start
+12-01 00:00:00 864[I][hilib_vi_base.c-3950]ulViLinkId[0] register OK!
+12-01 00:00:00 865[I][hilib_vi_base.c-3950]ulViLinkId[1] register OK!
+12-01 00:00:00 865[I][hilib_vi_base.c-3953]Vilink init success
+12-01 00:00:00 867[I][hilib_vpss_base.c-3555]ulVpssLinkId[0] register OK!
+12-01 00:00:00 867[I][hilib_vpss_base.c-3555]ulVpssLinkId[1] register OK!
+12-01 00:00:00 867[I][hilib_vpss_base.c-3555]ulVpssLinkId[2] register OK!
+12-01 00:00:00 868[I][hilib_vpss_base.c-3558]VpssLink init success
+12-01 00:00:00 869[I][hilib_vda_base.c-3138]VdaLink init success
+12-01 00:00:00 869[I][hilib_vdec_base.c-1707] Vdec Link Init OK 
+12-01 00:00:00 870[I][system_common.c-31]SYSTEM: System Common Init Done !!!
+12-01 00:00:00 875[I][hilib_sys_base.c-436]Sys link create success
+12-01 00:00:00 875[I][hilib_common_platform.c-1831]QPTS single sensor Link Creat!!!
+12-01 00:00:00 875[I][hilib_vi_base.c-3465]init Vi obj IspDev 0 ViDev 0 ViPhyChn 0 ViExtChn 1
+12-01 00:00:00 875[I][drv_common.c-2548]Sns gather norm[1920, 1080, 30]
+12-01 00:00:00 876[I][drv_common.c-2511]Channel[0] Video norm[1920, 1080, 30]
+12-01 00:00:00 876[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:00 876[I][hilib_vi_base.c-550]current capture norm[1920*1080@30 wdr:0], last capture norm[0*0@0 wdr:0]
+12-01 00:00:00 902[I][hilib_vi_base.c-717]unreset sensor done!
+12-01 00:00:00 903[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:00 903[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:00 903[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:00 904[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:00 904[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[0] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[0]
+12-01 00:00:00 904[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:00 904[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:00 905[I][hilib_vi_base.c-112]Vi isp[0] snsbus type[0] id[0]
+12-01 00:00:00 931[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:01 063[I][hilib_vi_base.c-328]Vi_RunIspThread[0] creat OK
+12-01 00:00:01 063[I][hilib_vi_base.c-2151]Vi dev[0] init isp ok
+12-01 00:00:01 064[I][hilib_vi_base.c-3653]Vi dev[0] link create ok
+12-01 00:00:01 064[I][hilib_vpss_base.c-3050]Vpss set chn bind map ok
+12-01 00:00:01 064[I][hilib_vpss_base.c-3158]Vpss init chn param ok
+12-01 00:00:01 064[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:01 064[I][hilib_vpss_base.c-286]Vpss grp[0] already destroy
+12-01 00:00:01 065[I][hilib_vpss_base.c-260]Vpss creat grp[0] ok
+12-01 00:00:01 065[I][hilib_vpss_base.c-383]Vpss set grp[0] param ok
+12-01 00:00:01 065[I][hilib_vpss_base.c-443]Vpss set grp [0] ok
+12-01 00:00:01 065[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:01 065[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:01 065[I][hilib_vpss_base.c-3302]Vpss link creat ok
+12-01 00:00:01 072[I][hilib_vdec_base.c-1442]Vdec_DeJpegPicInit The SoftDecode Func Point Assignment Succeed
+
+12-01 00:00:01 072[I][hilib_vdec_base.c-1116]Start Vdec_StartDcodeThread OK!
+12-01 00:00:01 072[I][hilib_venc_base.c-2118]VencLink 0 Create OK
+12-01 00:00:01 072[I][hilib_venc_base.c-2118]VencLink 1 Create OK
+12-01 00:00:01 073[I][hilib_venc_base.c-2118]VencLink 2 Create OK
+12-01 00:00:01 073[I][hilib_venc_base.c-2118]VencLink 3 Create OK
+12-01 00:00:01 073[I][hilib_vo_base.c-952]DisplayLink Create OK
+12-01 00:00:01 073[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:01 073[W][hilib_vpss_base.c-2180]Vpss que[6] size[1920][1080] > max size[720][576], Use max
+12-01 00:00:01 073[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:01 073[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:01 073[I][hilib_vpss_base.c-772]que[4294967295] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:01 074[I][hilib_vpss_base.c-803]Vpss chn[1] creat ok
+12-01 00:00:01 074[I][hilib_vpss_base.c-772]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:01 083[I][drv_media.c-635]FrameRate 30
+12-01 00:00:01 122[I][hilib_vpss_base.c-803]Vpss chn[5] creat ok
+12-01 00:00:01 122[I][hilib_vpss_base.c-1662]Vpss start chn[5] ok
+12-01 00:00:01 122[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [720 576] m/f[0 0] flag[2]
+12-01 00:00:01 122[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:01 123[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:01 123[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:01 123[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:01 123[I][hilib_vpss_base.c-2260]Vpss set que[6] param ok
+12-01 00:00:01 124[I][hilib_vda_base.c-583]CreateMDChn[0] OK
+12-01 00:00:01 124[I][hilib_vda_base.c-1716]Vda_StartMdGetRstProcThd[2800997456] ok.
+12-01 00:00:01 125[I][hilib_vda_base.c-1751]Vda_StartMdDalRstProcThd[2792608848] ok.
+12-01 00:00:01 125[I][hilib_vda_base.c-2844]Vda link creat ok
+12-01 00:00:01 125[I][drv_common.c-2511]Channel[0] Video norm[1920, 1080, 30]
+12-01 00:00:01 126[I][drv_process_qpts.c-3348]Start JPEG_StartEncodeThread OK!
+12-01 00:00:01 126[I][drv_media.c-1414]VideoResourceInit ok.
+12-01 00:00:01 187[I][drv_misc.c-341]No 4G module
+12-01 00:00:01 187[I][drv_fixipc_hisi3516dv300.c-217]Net device numeber is 1
+12-01 00:00:01 188[I][drv_fixipc_hisi3516dv300.c-249]Serial init ok
+12-01 00:00:01 213[I][drv_motor.c-157]Is Abf Motor Type!
+12-01 00:00:01 214[I][drv_motor_abf.c-371]Open /dev/motor success,fd[44]
+
+12-01 00:00:01 214[I][drv_motor_abf.c-398][DRV_MOTOR]: ioctl motor init ok!
+12-01 00:00:01 214[I][drv_motor_abf.c-434][MOTOR]: DRV_MOTOR_Init ok !
+12-01 00:00:01 214[I][drv_fixipc.c-641]ImgInit 0xb6de8c74 0xb6a5af68 0
+12-01 00:00:01 230[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:01 244[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:01 748[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:01 768[I][drv_net.c-6764]USB WIFI No: []
+12-01 00:00:01 768[I][drv_fixipc_ex.c-137]Misc init ok
+12-01 00:00:01 768[I][drv_fixipc.c-665]Device init ok.
+12-01 00:00:01 768[I][drv_fixipc.c-883]Media Init OK
+12-01 00:00:01 768[I][drv_fixipc.c-986]== Drv Init OK ==
+12-01 00:00:01 776[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:01 838[I][drv_misc.c-341]No 4G module
+12-01 00:00:01 844[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:01 862[I][drv_hisi_audio.c-209]AudioInNum[1] AudioOutNum[1].
+12-01 00:00:01 862[I][drv_hisi_audio.c-210]Get audio cap ok.
+12-01 00:00:04 733[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:04 753[I][drv_media.c-344]ChannelID 0 VideoNorm Set to [1920 x 1080 @ 25]
+12-01 00:00:04 753[I][drv_common.c-2511]Channel[0] Video norm[1920, 1080, 25]
+12-01 00:00:04 753[I][drv_common.c-2548]Sns gather norm[1920, 1080, 25]
+12-01 00:00:04 753[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 753[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:04 772[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:04 772[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:04 772[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@30 wdr:0]
+12-01 00:00:04 802[I][hilib_vi_base.c-717]unreset sensor done!
+12-01 00:00:04 803[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:04 803[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:04 803[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:04 803[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:04 804[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[0] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[0]
+12-01 00:00:04 804[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:04 804[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:04 804[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@30 wdr:0]
+12-01 00:00:04 822[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:04 822[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 822[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:04 822[I][hilib_vpss_base.c-1337]Vpss chn[5] param sync : size [720 576] m/f[0 0] flag[2]
+12-01 00:00:04 823[I][hilib_vpss_base.c-985]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:04 823[I][hilib_vpss_base.c-1007]Vpss chn[5] update ok
+12-01 00:00:04 823[I][hilib_vpss_base.c-1474]Vpss chn[5] update dynamic param ok
+12-01 00:00:04 823[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [720 576] m/f[0 0] flag[2]
+12-01 00:00:04 823[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:04 823[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:04 823[I][hilib_vda_base.c-3071]vda start
+12-01 00:00:04 823[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:04 823[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 823[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:04 823[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:04 823[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:04 823[I][hilib_vi_base.c-2472]Vi set norm[1920 1080 @ 25] ok
+12-01 00:00:04 824[I][drv_media.c-367]Set video norm ok
+12-01 00:00:04 884[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:04 885[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:04 885[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:04 885[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:04 887[I][hilib_common_platform.c-1163]Set rotate vivpsmode 0, mirrormode 6
+
+12-01 00:00:04 887[I][hilib_common_platform.c-1180]This Product Support ViNum 1
+12-01 00:00:04 887[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:04 887[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:05 016[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:05 016[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:05 016[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:05 016[I][hilib_vi_base.c-624]Vi dev[0] Input img info same no set mipi
+12-01 00:00:05 016[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:05 016[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:05 017[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:05 017[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:05 017[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[0] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[0]
+12-01 00:00:05 017[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:05 017[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:05 018[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:05 018[I][hilib_vi_hisi3516dv300.c-946]Vi dev[0] Input img info same no set isp pub
+12-01 00:00:05 018[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:05 018[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 018[I][hilib_vpss_base.c-2049]Vpss que[0] already stop
+12-01 00:00:05 018[I][hilib_vpss_base.c-2049]Vpss que[1] already stop
+12-01 00:00:05 018[I][hilib_vpss_base.c-2049]Vpss que[2] already stop
+12-01 00:00:05 018[I][hilib_vpss_base.c-2049]Vpss que[3] already stop
+12-01 00:00:05 018[I][hilib_vpss_base.c-2049]Vpss que[4] already stop
+12-01 00:00:05 018[I][hilib_vpss_base.c-2049]Vpss que[5] already stop
+12-01 00:00:05 019[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:05 019[I][hilib_vpss_base.c-846]Vpss chn[5] disable ok
+12-01 00:00:05 019[I][hilib_vpss_base.c-846]Vpss chn[1] disable ok
+12-01 00:00:05 019[I][hilib_vpss_base.c-1749]Vpss stop chn[5] ok
+12-01 00:00:05 019[I][hilib_vpss_base.c-2073]Vpss que[6] stop ok
+12-01 00:00:05 019[I][hilib_vpss_base.c-2049]Vpss que[7] already stop
+12-01 00:00:05 019[I][hilib_vpss_base.c-308]Vpss destroy grp[0] ok
+12-01 00:00:05 020[I][hilib_vpss_base.c-260]Vpss creat grp[0] ok
+12-01 00:00:05 020[I][hilib_vpss_base.c-383]Vpss set grp[0] param ok
+12-01 00:00:05 020[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:05 020[I][hilib_vpss_base.c-772]que[4294967295] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:05 020[I][hilib_vpss_base.c-803]Vpss chn[1] creat ok
+12-01 00:00:05 021[I][hilib_vpss_base.c-772]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:05 021[I][hilib_vpss_base.c-803]Vpss chn[5] creat ok
+12-01 00:00:05 021[I][hilib_vpss_base.c-1662]Vpss start chn[5] ok
+12-01 00:00:05 021[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [576 720] m/f[0 0] flag[2]
+12-01 00:00:05 021[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:05 021[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:05 021[I][hilib_vda_base.c-3071]vda start
+12-01 00:00:05 021[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:05 021[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 021[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:05 021[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:05 021[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:05 021[I][hilib_vi_base.c-2525]Vi set rotate[1] ok
+12-01 00:00:05 021[I][hilib_vda_base.c-3077]vda stop
+12-01 00:00:05 022[I][hilib_vpss_base.c-1337]Vpss chn[5] param sync : size [576 720] m/f[0 1] flag[2]
+12-01 00:00:05 022[I][hilib_vpss_base.c-985]que[6] ulGrpId[0] ulChnId[5] bNeedCorp: 0, 
+12-01 00:00:05 022[I][hilib_vpss_base.c-1007]Vpss chn[5] update ok
+12-01 00:00:05 022[I][hilib_vpss_base.c-1474]Vpss chn[5] update dynamic param ok
+12-01 00:00:05 022[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [576 720] m/f[0 1] flag[1]
+12-01 00:00:05 022[I][hilib_vpss_base.c-985]que[4294967295] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:05 022[I][hilib_vpss_base.c-1007]Vpss chn[1] update ok
+12-01 00:00:05 022[I][hilib_vpss_base.c-1474]Vpss chn[1] update dynamic param ok
+12-01 00:00:05 022[I][hilib_vpss_base.c-1526]Vpss chn[1] reset ok
+12-01 00:00:05 022[I][hilib_vpss_base.c-1876]Vpss chn[5] set param ok
+12-01 00:00:05 022[I][hilib_vda_base.c-3071]vda start
+12-01 00:00:05 023[I][hilib_vpss_base.c-2016]Vpss que[6] set param ok
+12-01 00:00:05 023[I][hilib_vpss_base.c-2620]Vpss set mirror ok
+12-01 00:00:05 023[I][drv_media_ex.c-706]Channel[0] Set Mirror Mode[6] done
+12-01 00:00:05 025[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 025[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:05 077[I][drv_media.c-635]FrameRate 25
+12-01 00:00:05 082[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:05 082[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:05 082[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:05 083[I][hilib_vi_base.c-624]Vi dev[0] Input img info same no set mipi
+12-01 00:00:05 083[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:05 083[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:05 084[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:05 084[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:05 084[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[50] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[250]
+12-01 00:00:05 084[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:05 084[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:05 084[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:05 084[I][hilib_vi_hisi3516dv300.c-946]Vi dev[0] Input img info same no set isp pub
+12-01 00:00:05 084[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:05 085[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 085[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 085[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:05 085[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:05 085[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:05 085[I][hilib_vi_base.c-2785]Vi set LDC [en: 0 web ratio 5] ok
+12-01 00:00:05 085[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 085[I][hilib_sys_base.c-970]System unBind [16 0 0] [7 0 0]!
+12-01 00:00:05 145[I][hilib_vi_base.c-1833]Vi dev[0] stop ok
+12-01 00:00:05 145[I][hilib_vi_base.c-1864]Vi dev[0] sensor mode [9]
+12-01 00:00:05 145[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:05 145[I][hilib_vi_base.c-624]Vi dev[0] Input img info same no set mipi
+12-01 00:00:05 146[I][hilib_vi_base.c-880]VI start ViDev[0] OK
+12-01 00:00:05 146[I][hilib_vi_base.c-1561]HI_MPI_VI_SetDevBindPipe vi[0] pipe[0]
+12-01 00:00:05 146[I][hilib_vi_base.c-65]Vi bIsNeedExtChn [0]
+12-01 00:00:05 147[I][hilib_vi_base.c-986]ulPipeId[0] ViPhyChn[0] W[1920] H[1080]
+12-01 00:00:05 147[I][hilib_vi_base.c-1130]ulPipeId[0] ViPhyChn[0] bEnable[0] bAspect[1] s32XYRatio[50] s32CenterXOffset[0] s32CenterYOffset[0] s32DistortionRatio[250]
+12-01 00:00:05 147[I][hilib_vi_base.c-1167]Vi needn't use vi ext chn
+12-01 00:00:05 147[I][hilib_vi_base.c-1492]Vi chn[0 1] enable OK!
+12-01 00:00:05 147[I][hilib_vi_base.c-550]current capture norm[1920*1080@25 wdr:0], last capture norm[1920*1080@25 wdr:0]
+12-01 00:00:05 147[I][hilib_vi_hisi3516dv300.c-946]Vi dev[0] Input img info same no set isp pub
+12-01 00:00:05 147[I][hilib_vi_base.c-2287]Vi dev[0] set isp param ok
+12-01 00:00:05 147[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 147[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 147[I][hilib_sys_base.c-966]System Bind [16 0 0] [7 0 0]!
+12-01 00:00:05 148[I][hilib_vpss_base.c-2417]Vpss link start ok
+12-01 00:00:05 148[I][hilib_vi_base.c-2395]Vi dev[0] set ok
+12-01 00:00:05 148[I][hilib_vi_base.c-2844]Vi set Spread[en:0 web ratio:1] ok
+12-01 00:00:05 148[I][drv_media.c-1459]ulStreamID[0] bIsEnable[1] ulPictureSize[1920x1080] ulBitRate[3850] ulFrameRate[25] ulGopType[0] ulIInterval[50] ulSmoothValue[5] ulEncodeFmt[6] ulQuality[5] ulEncMode[0] ulUCodeMode[0]
+12-01 00:00:05 149[I][hilib_vda_base.c-949]Set Ucode[0] ok!
+12-01 00:00:05 149[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 149[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:05 149[I][hilib_vpss_base.c-985]que[0] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:05 149[I][hilib_vpss_base.c-1007]Vpss chn[1] update ok
+12-01 00:00:05 149[I][hilib_vpss_base.c-1474]Vpss chn[1] update dynamic param ok
+12-01 00:00:05 149[I][hilib_vpss_base.c-1876]Vpss chn[1] set param ok
+12-01 00:00:05 149[W][hilib_venc_base.c-395]Venc State 0, 0
+12-01 00:00:05 149[I][hilib_vpss_base.c-2016]Vpss que[0] set param ok
+12-01 00:00:05 149[I][hilib_vpss_base.c-2260]Vpss set que[0] param ok
+12-01 00:00:05 151[I][hilib_venc_hisi3516dv300.c-248]SetEncAdvDynamicParam OK
+12-01 00:00:05 151[I][hilib_venc_base.c-1205]Venc[0] SetEncStaticParam OK
+12-01 00:00:05 152[I][hilib_sys_base.c-966]System Bind [7 0 1] [8 0 0]!
+12-01 00:00:05 152[I][drv_media.c-608]StreamID:0 Set encode param ok.
+12-01 00:00:05 152[I][drv_media.c-635]FrameRate 25
+12-01 00:00:05 152[I][drv_media.c-1519]1st startstream update InputFps[25]
+12-01 00:00:05 152[I][drv_media.c-1564]Set video [0] encoder param ok
+12-01 00:00:05 153[I][drv_media.c-1459]ulStreamID[3] bIsEnable[1] ulPictureSize[1920x1080] ulBitRate[2048] ulFrameRate[25] ulGopType[0] ulIInterval[50] ulSmoothValue[5] ulEncodeFmt[12] ulQuality[5] ulEncMode[1] ulUCodeMode[0]
+12-01 00:00:05 153[I][drv_media_ex.c-96]ulType[0] bIsEnable[1] ulPictureSize[1920, 1080] ulQuality[5] ulEncMode[12]
+12-01 00:00:05 153[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 153[I][hilib_vpss_base.c-772]que[4294967295] ulGrpId[0] ulChnId[0] bNeedCorp: 0, 
+12-01 00:00:05 153[I][hilib_vpss_base.c-803]Vpss chn[0] creat ok
+12-01 00:00:05 153[I][hilib_vpss_base.c-772]que[3] ulGrpId[0] ulChnId[3] bNeedCorp: 0, 
+12-01 00:00:05 153[I][hilib_vpss_base.c-803]Vpss chn[3] creat ok
+12-01 00:00:05 154[I][hilib_vpss_base.c-1662]Vpss start chn[3] ok
+12-01 00:00:05 154[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:05 154[I][hilib_vpss_base.c-1526]Vpss chn[0] reset ok
+12-01 00:00:05 154[I][hilib_vpss_base.c-1876]Vpss chn[3] set param ok
+12-01 00:00:05 154[W][hilib_venc_base.c-395]Venc State 0, 0
+12-01 00:00:05 154[I][hilib_vpss_base.c-2016]Vpss que[3] set param ok
+12-01 00:00:05 154[I][hilib_vpss_base.c-2260]Vpss set que[3] param ok
+12-01 00:00:05 155[I][hilib_venc_base.c-1205]Venc[3] SetEncStaticParam OK
+12-01 00:00:05 155[I][drv_media.c-608]StreamID:3 Set encode param ok.
+12-01 00:00:05 155[I][drv_media_ex.c-114]Smart IPC or ITS capt normally open
+12-01 00:00:05 155[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 155[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:05 155[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 155[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:05 156[I][hilib_vpss_base.c-985]que[4] ulGrpId[0] ulChnId[0] bNeedCorp: 0, 
+12-01 00:00:05 156[I][hilib_vpss_base.c-1007]Vpss chn[0] update ok
+12-01 00:00:05 156[I][hilib_vpss_base.c-1474]Vpss chn[0] update dynamic param ok
+12-01 00:00:05 156[I][hilib_vpss_base.c-1876]Vpss chn[0] set param ok
+12-01 00:00:05 156[I][hilib_vpss_base.c-2016]Vpss que[4] set param ok
+12-01 00:00:05 156[I][hilib_vpss_base.c-2260]Vpss set que[4] param ok
+12-01 00:00:05 156[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:05 156[E][hilib_vpss_base.c-759]VPSS_SetExtChnAttr failed with [0xa0078003]
+12-01 00:00:05 156[E][hilib_vpss_base.c-1658]Vpss start chn[6] failed
+12-01 00:00:05 156[E][hilib_vpss_base.c-1837]Vpss chn[6] start failed
+12-01 00:00:05 156[E][hilib_vpss_base.c-2004]Vpss set chn[6] param fail
+12-01 00:00:05 156[E][hilib_vpss_base.c-2256]Vpss set que[7] param failed
+12-01 00:00:05 157[E][hilib_vpss_base.c-3513]Vpss cmd[0x4001] do failed
+12-01 00:00:05 157[E][drv_process_qpts.c-1158]Set vpss que[7] param failed
+12-01 00:00:05 157[I][drv_media_ex.c-119]Set Capture stream encoder param ok
+12-01 00:00:05 157[I][drv_media.c-1499]Set Channle:0 CapStreamID:3 encoder param ok
+12-01 00:00:05 234[I][comdrv_osd.c-337]Set invert color[0]
+12-01 00:00:05 273[I][comdrv_osd.c-2980]FontStyle 0 gbEnInvertColor 0
+12-01 00:00:05 287[I][drv_osd_hisi.c-1140]Set Char OSD OK.
+12-01 00:00:05 287[I][drv_osd_hisi.c-1472]Set Cover OSD OK.
+12-01 00:00:05 288[I][hilib_sys_base.c-970]System unBind [7 0 1] [8 0 0]!
+12-01 00:00:05 301[I][hilib_venc_base.c-311]StopRecvAndEncode 0 OK!
+12-01 00:00:05 301[I][hilib_vpss_base.c-1337]Vpss chn[1] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:05 301[I][hilib_vpss_base.c-985]que[0] ulGrpId[0] ulChnId[1] bNeedCorp: 0, 
+12-01 00:00:05 301[I][hilib_vpss_base.c-1007]Vpss chn[1] update ok
+12-01 00:00:05 301[I][hilib_vpss_base.c-1474]Vpss chn[1] update dynamic param ok
+12-01 00:00:05 301[I][hilib_vpss_base.c-1876]Vpss chn[1] set param ok
+12-01 00:00:05 303[I][hilib_venc_hisi3516dv300.c-248]SetEncAdvDynamicParam OK
+12-01 00:00:05 305[I][hilib_venc_base.c-1205]Venc[0] SetEncStaticParam OK
+12-01 00:00:05 305[I][hilib_sys_base.c-966]System Bind [7 0 1] [8 0 0]!
+12-01 00:00:05 305[I][hilib_venc_base.c-444]Venc 0 start ok!
+12-01 00:00:05 305[I][hilib_vpss_base.c-2016]Vpss que[0] set param ok
+12-01 00:00:05 305[I][hilib_vpss_base.c-2715]Vpss set low delay ok
+12-01 00:00:05 342[I][drv_motor_abf.c-545]IF Mode[2]
+12-01 00:00:05 397[I][drv_hisi_audio.c-1364][update]enSamplerate:8000, enBitwidth:1, enSoundmode:0,u32PtNumPerFrm:160, u32ChnCnt:1
+12-01 00:00:05 398[I][drv_hisi_audio.c-1487]Update audio param ok.
+12-01 00:00:05 399[I][drv_hisi_audio.c-930]Start Audio Ao ok
+12-01 00:00:05 414[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:05 428[I][drv_hisi_audio.c-3381]Audio_out_AGC Param for [11]
+12-01 00:00:05 438[I][drv_hisi_audio.c-1633]Start audio ok.
+
+12-01 00:00:05 438[I][drv_hisi_audio.c-3612][DRV_DECODE]enFormat:2, ulBitRate:64000, ulBitsPerSample:16, ulSampleRate:8000, ulRealRate:8000, ulChannels:1, ulPeriodSize:320, ulPeriodTime:40
+12-01 00:00:05 438[I][drv_hisi_audio.c-1364][update]enSamplerate:8000, enBitwidth:1, enSoundmode:0,u32PtNumPerFrm:160, u32ChnCnt:1
+12-01 00:00:05 438[I][drv_hisi_audio.c-1487]Update audio param ok.
+12-01 00:00:05 445[I][drv_hisi_audio.c-821]Start Audio Ai ok
+12-01 00:00:05 464[I][drv_hisi_audio.c-2907]Set Audio Noise Restrain ok
+12-01 00:00:05 479[I][drv_hisi_audio.c-3028]Set Audio Auto Gain ok
+12-01 00:00:05 479[I][drv_hisi_audio.c-1633]Start audio ok.
+
+12-01 00:00:05 479[I][drv_hisi_audio.c-3600][DRV_ENCODE]enFormat:2, ulBitRate:64000, ulBitsPerSample:16, ulSampleRate:8000, ulRealRate:8000, ulChannels:1, ulPeriodSize:320, ulPeriodTime:40
+12-01 00:00:05 480[I][drv_hisi_audio.c-2639]Input ulGain[128]
+12-01 00:00:05 480[I][drv_hisi_audio.c-2686]Set audio chan[0] in gain 184[vol_ctrl:0x1f] ok.
+12-01 00:00:05 480[I][drv_hisi_audio.c-2639]Input ulGain[128]
+12-01 00:00:05 480[I][drv_hisi_audio.c-2686]Set audio chan[1] in gain 184[vol_ctrl:0x1f] ok.
+12-01 00:00:05 492[I][drv_hisi_audio.c-2907]Set Audio Noise Restrain ok
+12-01 00:00:05 493[I][drv_hisi_audio.c-2521]Output ulGain[242]
+12-01 00:00:05 493[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 242[vol_ctrl:0x4] ok.
+12-01 00:00:05 493[I][drv_hisi_audio.c-2521]Output ulGain[242]
+12-01 00:00:05 493[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 242[vol_ctrl:0x4] ok.
+12-01 00:00:05 806[I][drv_hisi_audio.c-876]Stop Audio Ai ok
+12-01 00:00:05 807[I][drv_hisi_audio.c-1723]Stop audio ok.
+12-01 00:00:05 807[I][drv_hisi_audio.c-3737]Audio exit ok
+12-01 00:00:05 822[I][drv_hisi_audio.c-2949]Audio is Close.
+12-01 00:00:05 843[I][hilib_vo_base.c-831]Set Analog 0 in.
+12-01 00:00:05 843[I][hilib_vo_base.c-879]Set Analog Vout Format OK.
+12-01 00:00:05 853[I][hilib_common_platform.c-386]!!!!!!!!!!!!!!![set decode parameter]!!!!!!!!!!!!!
+12-01 00:00:05 853[I][hilib_venc_base.c-1626]Venc Pack_S malloc Ok!
+12-01 00:00:05 856[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:05 856[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:05 856[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:05 857[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:05 935[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[0] mute[0] ok.
+12-01 00:00:05 936[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[1] mute[1] ok.
+12-01 00:00:05 936[I][drv_gpio.c-1470]Set speaker status: 1
+12-01 00:00:05 936[I][drv_hisi_audio.c-291]Set Audio Speaker Out.
+12-01 00:00:05 936[I][drv_hisi_audio.c-2521]Output ulGain[255]
+12-01 00:00:05 936[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 255[vol_ctrl:0x3] ok.
+12-01 00:00:05 936[I][drv_hisi_audio.c-2521]Output ulGain[255]
+12-01 00:00:05 936[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 255[vol_ctrl:0x3] ok.
+12-01 00:00:07 300[I][drv_misc_hisi3516dv300.c-232]Mmc[2][/dev/mmcblk2] Total Capacity 3776MB ProductNmae[004GA0] VendorName[0x000011]
+12-01 00:00:07 362[I][drv_misc_hisi3516dv300.c-183]Mount point[/data] Free[2766MB] Capacity[2939MB]
+12-01 00:00:07 452[E][drv_gpio.c-347]IOCTL_ERR DEV_ALM_CTL fail, err[Invalid argument]
+12-01 00:00:07 473[E][drv_gpio.c-347]IOCTL_ERR DEV_ALM_CTL fail, err[Invalid argument]
+12-01 00:00:12 698[I][drv_misc.c-341]No 4G module
+12-01 00:00:12 699[I][drv_misc.c-341]No 4G module
+12-01 00:00:13 922[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:13 000[I][comdrv_osd.c-2980]FontStyle 0 gbEnInvertColor 0
+12-01 00:00:13 001[I][drv_osd_hisi.c-1140]Set Char OSD OK.
+12-01 00:00:14 397[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [0] lihtsrc is [2] lightpower is [0]
+12-01 00:00:14 922[I][drv_manuparse_hisi3516dv300.c-991]Light num[2] Distype [0] [2] [0] Srctype [2] [0] [0]
+12-01 00:00:14 922[I][drv_gpio.c-1113]2018-12-25 problem check : in arg display LightDist is [2] lihtsrc is [0] lightpower is [500]
+12-01 00:00:15 080[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:15 080[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:15 080[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:15 080[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:15 256[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 257[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 257[E][drv_gpio.c-215]IOCTL_ERR DEV_RUN_LED_CTL Fail fail, err[Operation not permitted]
+12-01 00:00:15 576[I][hilib_common_platform.c-3075]Small Pic Size(1080 1920) FrameRate[5000]
+12-01 00:00:15 577[I][hilib_common_platform.c-3118]IVA Cap Param FrameRate 5000 SMALL_FRAME 1080 x 1920
+12-01 00:00:15 577[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 577[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:15 577[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 577[I][hilib_vpss_base.c-2244]Vpss que[4] same param, return
+12-01 00:00:15 577[W][hilib_vpss_base.c-2180]Vpss que[7] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:15 577[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:15 577[I][hilib_vpss_base.c-772]que[7] ulGrpId[0] ulChnId[6] bNeedCorp: 0, 
+12-01 00:00:15 577[I][hilib_vpss_base.c-803]Vpss chn[6] creat ok
+12-01 00:00:15 577[I][hilib_vpss_base.c-1662]Vpss start chn[6] ok
+12-01 00:00:15 577[I][hilib_vpss_base.c-1337]Vpss chn[0] param sync : size [1080 1920] m/f[0 1] flag[2]
+12-01 00:00:15 577[I][hilib_vpss_base.c-1526]Vpss chn[0] reset ok
+12-01 00:00:15 578[I][hilib_vpss_base.c-1876]Vpss chn[6] set param ok
+12-01 00:00:15 578[I][hilib_vpss_base.c-2016]Vpss que[7] set param ok
+12-01 00:00:15 578[I][hilib_vpss_base.c-2260]Vpss set que[7] param ok
+12-01 00:00:15 578[I][drv_process_qpts.c-2064]Start JPEG_StartFrameGetThread OK!
+12-01 00:00:15 578[I][hilib_common_platform.c-3153]drv Iva Init OK!
+12-01 00:00:15 578[I][drv_process_qpts.c-1701]GetFrame Init Iva FrameRate 5000
+12-01 00:00:15 578[I][drv_process_qpts.c-1411]VI_CMD_GET_NORM stCurNorm 1920 1080 rate 25
+12-01 00:00:15 881[I][drv_osd_hisi.c-1735]CanvasWidth(520) < BmpWidth(524)!!!
+12-01 00:00:16 026[I][drv_osd_hisi.c-1938]Set VO Picture OSD OK.
+12-01 00:00:16 369[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:16 369[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:16 370[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:16 370[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:16 402[I][drv_serialport.c-1210]com1 rs485 will be handled by kernel, tx_en pin[48]
+12-01 00:00:16 415[I][drv_serialport.c-1210]com1 rs485 will be handled by kernel, tx_en pin[48]
+12-01 00:00:16 458[I][drv_misc.c-341]No 4G module
+12-01 00:00:16 811[I][drv_misc.c-341]No 4G module
+12-01 00:00:19 196[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:19 197[E][drv_gpio.c-1427]errno :22
+12-01 00:00:19 800[I][drv_misc.c-341]No 4G module
+12-01 00:00:19 801[I][drv_net.c-2300]set ip param interface 0 enable 1
+12-01 00:00:20 337[I][drv_libfun_ex.c-612]DRV_SetVoParam: ulArg=2206436728
+12-01 00:00:20 337[E][hilib_vo_base.c-1090]pstVideoChninfo width:520 hight:887 startX:40 startY:0
+12-01 00:00:20 337[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:20 337[W][hilib_vpss_base.c-2180]Vpss que[5] size[1080][1920] > max size[1068][600], Use max
+12-01 00:00:20 337[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:20 338[I][hilib_vpss_base.c-772]que[5] ulGrpId[0] ulChnId[2] bNeedCorp: 1, 
+12-01 00:00:20 338[E][hilib_vpss_base.c-776]VPSS_SetChnCrop start
+12-01 00:00:20 338[I][hilib_vpss_base.c-803]Vpss chn[2] creat ok
+12-01 00:00:20 338[I][hilib_vpss_base.c-1662]Vpss start chn[2] ok
+12-01 00:00:20 338[I][hilib_vpss_base.c-1876]Vpss chn[2] set param ok
+12-01 00:00:20 338[I][hilib_vpss_base.c-2016]Vpss que[5] set param ok
+12-01 00:00:20 338[I][hilib_vpss_base.c-2260]Vpss set que[5] param ok
+12-01 00:00:20 367[I][drv_lcd_vo.c-3532]Init HOLITECH 600*1024 screen
+12-01 00:00:21 050[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:21 051[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:21 051[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:21 051[I][drv_common.c-582]from 1 to 1
+12-01 00:00:21 051[I][drv_common.c-446]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:21 052[I][drv_manuparse_hisi3516dv300.c-442]Save Sensor Num[1]
+12-01 00:00:21 052[I][drv_common.c-2402]change g_ulProductType from 0xffffffff to 0xb
+12-01 00:00:21 052[I][drv_fixipc.c-525]Product Type[11]
+12-01 00:00:21 052[I][drv_manuparse_hisi3516dv300.c-130]Sensor[0] type[589826] [sc2310]
+12-01 00:00:21 053[I][drv_manuparse_hisi3516dv300.c-191]Sensor[0] Lane mode type[2] [sc2310]
+12-01 00:00:21 053[I][drv_fixipc.c-555]Product init ok
+12-01 00:00:21 053[I][drv_misc.c-53]Change adapter caller from 0 to 3
+12-01 00:00:21 054[I][drv_gpio.c-780]GPIO init ok.
+12-01 00:00:21 940[I][drv_misc.c-341]No 4G module
+12-01 00:00:23 841[I][hilib_sys_base.c-966]System Bind [7 0 2] [15 0 0]!
+12-01 00:00:23 843[I][hilib_vo_base.c-744]Start vout ok.
+12-01 00:00:23 843[I][drv_media_ex.c-550]Set video local [1] ok
+12-01 00:00:23 843[I][drv_libfun_hisi3516dv300.c-536]DRV_SetFbParam:ulCmdType=100b, ulArg=2206436696
+12-01 00:00:23 844[I][drv_libfun_hisi3516dv300.c-536]DRV_SetFbParam:ulCmdType=100e, ulArg=2206436744
+12-01 00:00:27 028[I][drv_misc.c-341]No 4G module
+12-01 00:00:32 117[I][drv_misc.c-341]No 4G module
+12-01 00:00:37 204[I][drv_misc.c-341]No 4G module
+12-01 00:00:42 279[I][drv_misc.c-341]No 4G module
+12-01 00:00:46 111[I][hilib_common_platform.c-3075]Small Pic Size(1080 1920) FrameRate[4000]
+12-01 00:00:46 112[I][hilib_common_platform.c-3118]IVA Cap Param FrameRate 4000 SMALL_FRAME 1080 x 1920
+12-01 00:00:46 112[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:46 112[W][hilib_vpss_base.c-2180]Vpss que[4] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:46 112[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:46 112[I][hilib_vpss_base.c-2244]Vpss que[4] same param, return
+12-01 00:00:46 112[W][hilib_vpss_base.c-2180]Vpss que[7] size[1080][1920] > max size[1920][1080], Use max
+12-01 00:00:46 112[I][hilib_vi_base.c-3762]ViLink_getLinkInfo success
+12-01 00:00:46 112[I][hilib_vpss_base.c-2244]Vpss que[7] same param, return
+12-01 00:00:46 579[I][drv_process_qpts.c-1701]GetFrame Init Iva FrameRate 4000
+12-01 00:00:46 580[I][drv_process_qpts.c-1411]VI_CMD_GET_NORM stCurNorm 1920 1080 rate 25
+12-01 00:00:47 369[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:47 419[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:00:47 420[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:00:47 420[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:00:47 420[I][drv_common.c-992]WorkMode is normal.
+12-01 00:00:52 447[I][drv_misc.c-347]NO dev found!
+
+12-01 00:00:57 551[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:02 622[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:07 693[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:12 780[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:17 874[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:22 949[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:28 069[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:33 152[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:38 273[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:43 373[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:48 453[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:53 574[I][drv_misc.c-347]NO dev found!
+
+12-01 00:01:58 648[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:03 732[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:06 428[I][drv_common.c-719]Manuinfo E_LABEL_VER:1.3
+12-01 00:02:06 428[E][drv_common.c-664]parse failed! lParseRet = 1
+12-01 00:02:06 429[I][drv_common.c-869]
+Device Manuinfo:
+DEVICE_NAME:OET-213H-NB
+PROTOTYPE_NAME:OET-213H-NB-WH
+PRODUCT_ID:
+REGION_CODE:IN
+HARD_REVISION:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+DEVICE_BOM:
+MANUFACTURING_DATE:2020-08-03
+VENDOR_NAME:NONE
+CUSTOMER_CODE:00
+szTestTrackingNum:109
+SOFT_NAME:OET-213H-NB
+12-01 00:02:06 429[I][drv_common.c-992]WorkMode is normal.
+12-01 00:02:08 860[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:13 963[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:19 072[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:24 159[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:29 276[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:34 370[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:39 444[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:44 575[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:49 650[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:54 746[I][drv_misc.c-347]NO dev found!
+
+12-01 00:02:59 822[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:04 904[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:09 994[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:15 146[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:20 254[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:25 362[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:30 441[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:35 554[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:40 631[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:45 720[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:50 839[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:53 129[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[0] mute[0] ok.
+12-01 00:03:53 129[I][drv_hisi_audio.c-2739]Set audio output ulChannelID[1] mute[1] ok.
+12-01 00:03:53 130[I][drv_gpio.c-1470]Set speaker status: 1
+12-01 00:03:53 130[I][drv_hisi_audio.c-291]Set Audio Speaker Out.
+12-01 00:03:53 130[I][drv_hisi_audio.c-2521]Output ulGain[0]
+12-01 00:03:53 130[I][drv_hisi_audio.c-2605]Set audio chan[0] out gain 0[vol_ctrl:0x7f] ok.
+12-01 00:03:53 130[I][drv_hisi_audio.c-2521]Output ulGain[0]
+12-01 00:03:53 131[I][drv_hisi_audio.c-2605]Set audio chan[1] out gain 0[vol_ctrl:0x7f] ok.
+12-01 00:03:55 920[I][drv_misc.c-347]NO dev found!
+
+12-01 00:03:56 421[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:01 024[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:06 144[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:11 259[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:16 390[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:21 449[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:26 546[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:31 638[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:36 710[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:41 821[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:46 904[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:51 987[I][drv_misc.c-347]NO dev found!
+
+12-01 00:04:57 111[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:02 187[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:07 340[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:12 416[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:17 491[I][drv_misc.c-347]NO dev found!
+
+12-01 00:05:20 051[I][drv_media.c-1824]ulStreamID:0
+12-01 00:05:20 051[I][hilib_venc_base.c-2167]--------------------------
+12-01 00:05:20 051[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[0]:20490
+12-01 00:05:20 051[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[0]  :20490
+12-01 00:05:20 051[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[1]:20498
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[1]  :20498
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[2]:20497
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[2]  :20497
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[3]:6
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[3]  :20494
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[4]:20495
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[4]  :20495
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[5]:20490
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[5]  :20490
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[6]:20498
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[6]  :20498
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[7]:20497
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[7]  :20497
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[8]:20494
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[8]  :20494
+12-01 00:05:20 052[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[9]:20495
+12-01 00:05:20 052[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[9]  :20495
+12-01 00:05:20 052[I][hilib_venc_base.c-2173]--------------------------
+12-01 00:05:20 053[I][hilib_venc_base.c-2175]Hisi function Return Value :
+12-01 00:05:20 053[I][hilib_venc_base.c-2176]--------------------------
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 053[I][hilib_venc_base.c-2181]--------------------------
+12-01 00:05:20 053[I][hilib_venc_base.c-2182]ulFormat             6
+12-01 00:05:20 053[I][hilib_venc_base.c-2183]ulProfile            0
+12-01 00:05:20 053[I][hilib_venc_base.c-2184]ulMaxWidth           1080
+12-01 00:05:20 053[I][hilib_venc_base.c-2185]ulMaxHeight          1920
+12-01 00:05:20 053[I][hilib_venc_base.c-2186]ulMaxBitRate         3850
+12-01 00:05:20 054[I][hilib_venc_base.c-2187]ulTargetBitRate      0
+12-01 00:05:20 054[I][hilib_venc_base.c-2188]ulIntraFrameInterval 50
+12-01 00:05:20 054[I][hilib_venc_base.c-2189]ulInterFrameInterval 0
+12-01 00:05:20 054[I][hilib_venc_base.c-2190]ulInputFrameRate     25
+12-01 00:05:20 054[I][hilib_venc_base.c-2191]ulOutputFrameRate    25
+12-01 00:05:20 054[I][hilib_venc_base.c-2192]ulRcAlg              0
+12-01 00:05:20 063[I][hilib_venc_base.c-2193]ulStatTime           0
+12-01 00:05:20 064[I][hilib_venc_base.c-2194]ulImgQuality         5
+12-01 00:05:20 065[I][hilib_venc_base.c-2195]ulSmoothValue        5
+12-01 00:05:20 065[I][hilib_venc_base.c-2196]ulSVCMode            0
+12-01 00:05:20 065[I][hilib_venc_base.c-2197]ulWidth              1080
+12-01 00:05:20 065[I][hilib_venc_base.c-2198]ulHeight             1920
+12-01 00:05:20 065[I][hilib_venc_base.c-2199]ulGetStreamCount     7887
+12-01 00:05:20 065[I][hilib_venc_base.c-2200]ulReleaseStreamCount 7887
+12-01 00:05:20 065[I][hilib_venc_base.c-2201]bVencIsRuning        1
+12-01 00:05:20 065[I][hilib_venc_base.c-2202]bVencLinkIsCreate    1
+12-01 00:05:20 065[I][hilib_venc_base.c-2203]bVencIsConfigDone    1
+12-01 00:05:20 065[I][drv_media.c-1824]ulStreamID:1
+12-01 00:05:20 066[I][hilib_venc_base.c-2167]--------------------------
+12-01 00:05:20 066[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[0]:20497
+12-01 00:05:20 066[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[0]  :20497
+12-01 00:05:20 066[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[1]:20495
+12-01 00:05:20 066[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[1]  :20495
+12-01 00:05:20 073[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[2]:20490
+12-01 00:05:20 074[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[2]  :20490
+12-01 00:05:20 074[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[3]:20498
+12-01 00:05:20 074[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[3]  :20498
+12-01 00:05:20 074[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[4]:20497
+12-01 00:05:20 074[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[4]  :20497
+12-01 00:05:20 074[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[5]:6
+12-01 00:05:20 074[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[5]  :20498
+12-01 00:05:20 074[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[6]:20497
+12-01 00:05:20 074[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[6]  :20497
+12-01 00:05:20 075[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[7]:20495
+12-01 00:05:20 075[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[7]  :20495
+12-01 00:05:20 075[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[8]:20490
+12-01 00:05:20 075[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[8]  :20490
+12-01 00:05:20 075[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[9]:20498
+12-01 00:05:20 075[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[9]  :20498
+12-01 00:05:20 075[I][hilib_venc_base.c-2173]--------------------------
+12-01 00:05:20 075[I][hilib_venc_base.c-2175]Hisi function Return Value :
+12-01 00:05:20 075[I][hilib_venc_base.c-2176]--------------------------
+12-01 00:05:20 075[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 075[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 075[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 075[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 075[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 076[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 076[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 076[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 076[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 076[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 076[I][hilib_venc_base.c-2181]--------------------------
+12-01 00:05:20 076[I][hilib_venc_base.c-2182]ulFormat             0
+12-01 00:05:20 079[I][hilib_venc_base.c-2183]ulProfile            0
+12-01 00:05:20 079[I][hilib_venc_base.c-2184]ulMaxWidth           1920
+12-01 00:05:20 079[I][hilib_venc_base.c-2185]ulMaxHeight          1080
+12-01 00:05:20 080[I][hilib_venc_base.c-2186]ulMaxBitRate         0
+12-01 00:05:20 080[I][hilib_venc_base.c-2187]ulTargetBitRate      0
+12-01 00:05:20 080[I][hilib_venc_base.c-2188]ulIntraFrameInterval 0
+12-01 00:05:20 080[I][hilib_venc_base.c-2189]ulInterFrameInterval 0
+12-01 00:05:20 080[I][hilib_venc_base.c-2190]ulInputFrameRate     25
+12-01 00:05:20 080[I][hilib_venc_base.c-2191]ulOutputFrameRate    0
+12-01 00:05:20 080[I][hilib_venc_base.c-2192]ulRcAlg              0
+12-01 00:05:20 080[I][hilib_venc_base.c-2193]ulStatTime           0
+12-01 00:05:20 080[I][hilib_venc_base.c-2194]ulImgQuality         0
+12-01 00:05:20 080[I][hilib_venc_base.c-2195]ulSmoothValue        0
+12-01 00:05:20 080[I][hilib_venc_base.c-2196]ulSVCMode            0
+12-01 00:05:20 080[I][hilib_venc_base.c-2197]ulWidth              0
+12-01 00:05:20 080[I][hilib_venc_base.c-2198]ulHeight             0
+12-01 00:05:20 080[I][hilib_venc_base.c-2199]ulGetStreamCount     0
+12-01 00:05:20 080[I][hilib_venc_base.c-2200]ulReleaseStreamCount 0
+12-01 00:05:20 080[I][hilib_venc_base.c-2201]bVencIsRuning        0
+12-01 00:05:20 080[I][hilib_venc_base.c-2202]bVencLinkIsCreate    1
+12-01 00:05:20 081[I][hilib_venc_base.c-2203]bVencIsConfigDone    0
+12-01 00:05:20 081[I][drv_media.c-1824]ulStreamID:2
+12-01 00:05:20 081[I][hilib_venc_base.c-2167]--------------------------
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[0]:20497
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[0]  :20497
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[1]:20495
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[1]  :20495
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[2]:20490
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[2]  :20490
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[3]:20498
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[3]  :20498
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[4]:20497
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[4]  :20497
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[5]:6
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[5]  :20498
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[6]:20497
+12-01 00:05:20 081[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[6]  :20497
+12-01 00:05:20 081[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[7]:20495
+12-01 00:05:20 082[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[7]  :20495
+12-01 00:05:20 082[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[8]:20490
+12-01 00:05:20 082[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[8]  :20490
+12-01 00:05:20 082[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[9]:20498
+12-01 00:05:20 082[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[9]  :20498
+12-01 00:05:20 082[I][hilib_venc_base.c-2173]--------------------------
+12-01 00:05:20 082[I][hilib_venc_base.c-2175]Hisi function Return Value :
+12-01 00:05:20 082[I][hilib_venc_base.c-2176]--------------------------
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 082[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 083[I][hilib_venc_base.c-2181]--------------------------
+12-01 00:05:20 083[I][hilib_venc_base.c-2182]ulFormat             0
+12-01 00:05:20 083[I][hilib_venc_base.c-2183]ulProfile            0
+12-01 00:05:20 083[I][hilib_venc_base.c-2184]ulMaxWidth           720
+12-01 00:05:20 083[I][hilib_venc_base.c-2185]ulMaxHeight          576
+12-01 00:05:20 083[I][hilib_venc_base.c-2186]ulMaxBitRate         0
+12-01 00:05:20 083[I][hilib_venc_base.c-2187]ulTargetBitRate      0
+12-01 00:05:20 083[I][hilib_venc_base.c-2188]ulIntraFrameInterval 0
+12-01 00:05:20 084[I][hilib_venc_base.c-2189]ulInterFrameInterval 0
+12-01 00:05:20 084[I][hilib_venc_base.c-2190]ulInputFrameRate     25
+12-01 00:05:20 084[I][hilib_venc_base.c-2191]ulOutputFrameRate    0
+12-01 00:05:20 084[I][hilib_venc_base.c-2192]ulRcAlg              0
+12-01 00:05:20 084[I][hilib_venc_base.c-2193]ulStatTime           0
+12-01 00:05:20 084[I][hilib_venc_base.c-2194]ulImgQuality         0
+12-01 00:05:20 084[I][hilib_venc_base.c-2195]ulSmoothValue        0
+12-01 00:05:20 084[I][hilib_venc_base.c-2196]ulSVCMode            0
+12-01 00:05:20 084[I][hilib_venc_base.c-2197]ulWidth              0
+12-01 00:05:20 084[I][hilib_venc_base.c-2198]ulHeight             0
+12-01 00:05:20 084[I][hilib_venc_base.c-2199]ulGetStreamCount     0
+12-01 00:05:20 084[I][hilib_venc_base.c-2200]ulReleaseStreamCount 0
+12-01 00:05:20 084[I][hilib_venc_base.c-2201]bVencIsRuning        0
+12-01 00:05:20 084[I][hilib_venc_base.c-2202]bVencLinkIsCreate    1
+12-01 00:05:20 084[I][hilib_venc_base.c-2203]bVencIsConfigDone    0
+12-01 00:05:20 084[I][drv_media.c-1824]ulStreamID:3
+12-01 00:05:20 085[I][hilib_venc_base.c-2167]--------------------------
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[0]:20483
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[0]  :0
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[1]:20493
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[1]  :20483
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[2]:6
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[2]  :20488
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[3]:20488
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[3]  :20488
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[4]:20500
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[4]  :20500
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[5]:20499
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[5]  :20499
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[6]:20488
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[6]  :20488
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[7]:11
+12-01 00:05:20 085[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[7]  :11
+12-01 00:05:20 085[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[8]:2
+12-01 00:05:20 086[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[8]  :2
+12-01 00:05:20 086[I][hilib_venc_base.c-2170]pstObj->ulVenCmdStart[9]:1
+12-01 00:05:20 086[I][hilib_venc_base.c-2171]pstObj->ulVenCmdEnd[9]  :1
+12-01 00:05:20 086[I][hilib_venc_base.c-2173]--------------------------
+12-01 00:05:20 086[I][hilib_venc_base.c-2175]Hisi function Return Value :
+12-01 00:05:20 086[I][hilib_venc_base.c-2176]--------------------------
+12-01 00:05:20 087[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 087[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 088[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 088[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 088[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 088[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 089[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 089[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 089[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 089[I][hilib_venc_base.c-2179]Line number:[0] Error number:[0] 
+12-01 00:05:20 089[I][hilib_venc_base.c-2181]--------------------------
+12-01 00:05:20 089[I][hilib_venc_base.c-2182]ulFormat             3
+12-01 00:05:20 089[I][hilib_venc_base.c-2183]ulProfile            0
+12-01 00:05:20 089[I][hilib_venc_base.c-2184]ulMaxWidth           1080
+12-01 00:05:20 090[I][hilib_venc_base.c-2185]ulMaxHeight          1920
+12-01 00:05:20 090[I][hilib_venc_base.c-2186]ulMaxBitRate         2048
+12-01 00:05:20 090[I][hilib_venc_base.c-2187]ulTargetBitRate      0
+12-01 00:05:20 090[I][hilib_venc_base.c-2188]ulIntraFrameInterval 1
+12-01 00:05:20 090[I][hilib_venc_base.c-2189]ulInterFrameInterval 0
+12-01 00:05:20 090[I][hilib_venc_base.c-2190]ulInputFrameRate     25
+12-01 00:05:20 090[I][hilib_venc_base.c-2191]ulOutputFrameRate    25
+12-01 00:05:20 090[I][hilib_venc_base.c-2192]ulRcAlg              1
+12-01 00:05:20 090[I][hilib_venc_base.c-2193]ulStatTime           0
+12-01 00:05:20 090[I][hilib_venc_base.c-2194]ulImgQuality         5
+12-01 00:05:20 090[I][hilib_venc_base.c-2195]ulSmoothValue        5
+12-01 00:05:20 090[I][hilib_venc_base.c-2196]ulSVCMode            0
+12-01 00:05:20 091[I][hilib_venc_base.c-2197]ulWidth              1080
+12-01 00:05:20 091[I][hilib_venc_base.c-2198]ulHeight             1920
+12-01 00:05:20 091[I][hilib_venc_base.c-2199]ulGetStreamCount     0
+12-01 00:05:20 091[I][hilib_venc_base.c-2200]ulReleaseStreamCount 0
+12-01 00:05:20 091[I][hilib_venc_base.c-2201]bVencIsRuning        1
+12-01 00:05:20 091[I][hilib_venc_base.c-2202]bVencLinkIsCreate    1
+12-01 00:05:20 091[I][hilib_venc_base.c-2203]bVencIsConfigDone    1
+12-01 00:05:20 091[I][drv_media.c-1824]ulStreamID:4
+12-01 00:05:20 091[E][hilib_venc_base.c-2268]Encode Link Not Create!!!
+12-01 00:05:20 091[I][drv_media.c-1824]ulStreamID:5
+12-01 00:05:20 091[I][drv_media.c-1824]ulStreamID:6
+12-01 00:05:20 091[I][drv_media.c-1824]ulStreamID:7
+12-01 00:05:20 091[I][drv_media.c-1824]ulStreamID:8
+12-01 00:05:20 091[I][drv_hisi_audio.c-127]--------------------------
+12-01 00:05:20 092[I][drv_hisi_audio.c-128]Hisi function Return Value :
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-131]Line number:[0] Error number:[0] 
+12-01 00:05:20 092[I][drv_hisi_audio.c-133]--------------------------
+12-01 00:05:20 092[I][drv_hisi_audio.c-135]      SampleRate        AiChnCnt        AoChnCnt
+12-01 00:05:20 092[I][drv_hisi_audio.c-138]           8000               1               1
+12-01 00:05:20 092[I][drv_hisi_audio.c-139]       BitWidth       SoundMode     PtNumPerFrm
+12-01 00:05:20 092[I][drv_hisi_audio.c-142]              1               0             160
+12-01 00:05:20 092[I][hilib_vpss_base.c-75]--------------------------------------VPSS LOG INFO-----------------------------------

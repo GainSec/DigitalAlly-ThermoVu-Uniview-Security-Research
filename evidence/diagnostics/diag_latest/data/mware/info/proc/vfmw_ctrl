@@ -1,0 +1,28 @@
+
+[VFMW] Version:[Hi3516CV500_MPP_V2.0.1.0 B090 Release] Build Time:[Jan 14 2019, 20:23:45]
+VFMW Version: 2018101001
+
+---- ctrl ------------------------------------------
+    Check1    Check2   State  RefCnt   CtxSize    VirNum    LmtWid    LmtHig    SlcNum    VdhFrm  VdhMem
+  1234abcd  1234abcd       0       0        52         2         0         0         0         0       0
+
+    ChanId      Unid    Prio   State  MaxWid  MaxHig  DecMod  OutMod  Linear   CmpEn  ErrThr
+
+---- fsp -------------------------------------------
+    Check1    Check2   State  RefCnt   CtxSize
+  1234abcd  1234abcd    Open       0       280
+
+    ChanId      Unid   State   Width  Height  ReqFrm  ReqPmv  HavFrm  HavPmv  UseFrm  UsePmv
+
+---- voq -------------------------------------------
+    Check1    Check2   State  RefCnt   CtxSize
+  1234abcd  1234abcd    Open       0       160
+
+    ChanId      Unid   State     Fps    Tail    Head    Hist  InsCnt  RcvTry   RcvOk  RlsTry   RlsOk
+
+---- dps -------------------------------------------
+    Check1    Check2   State  RefCnt   CtxSize  SerMod
+  1234abcd  1234abcd    Open       0       164       0
+
+    ChanId      Unid   State    Tail    Head  MakCnt  RcvTry   RcvOk   RlsOk   Node0
+

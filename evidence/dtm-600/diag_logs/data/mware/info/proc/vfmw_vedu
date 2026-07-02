@@ -1,0 +1,10 @@
+
+---- VEDU Proc Read -------------------------------------------
+    Check1    Check2     Version
+  1234abcd  1234abcd  2017110800
+
+---- chan ------------------------------------------
+   ChnId   State  VidStd  Priority DecParamTry  DecParamOK   DpsRcvTry    DpsRevOK  MemTry   MemOK
+
+---- task ------------------------------------------
+   ChnId   State

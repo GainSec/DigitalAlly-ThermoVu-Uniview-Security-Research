@@ -1,0 +1,334 @@
+12-01 00:03:15 843[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 843[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 843[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 843[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 843[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 843[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 854[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 855[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 855[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 855[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 855[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 855[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 855[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 856[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 856[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 856[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 856[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 856[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 856[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 856[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 856[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 856[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 856[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 856[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 856[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 857[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 857[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 857[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 857[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 857[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 857[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 857[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 857[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 857[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 857[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 857[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 857[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 857[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 858[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 858[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 858[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 858[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 858[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 858[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 858[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 858[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 858[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 858[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 858[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 858[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 859[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 859[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 859[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 859[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 859[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 859[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 859[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 859[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 859[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 859[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 859[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 859[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 860[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 860[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 860[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 860[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 860[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 860[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 860[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 860[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 860[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 860[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 860[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 860[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 861[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 861[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 861[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 861[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 861[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 861[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 861[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 861[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 861[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 861[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 861[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 861[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 862[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 862[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 862[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 862[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 862[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 862[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 862[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 862[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 862[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 863[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 863[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 863[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 863[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 863[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 863[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 863[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 863[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 863[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 863[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 863[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 863[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 885[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 885[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 886[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 886[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 886[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 886[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 886[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 887[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 887[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 887[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 887[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 887[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 888[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 888[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 888[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 890[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 890[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 890[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 890[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 890[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 890[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 890[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 890[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 890[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 891[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 891[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 891[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 891[E][drv_process_qpts.c-1961]Get Frame Failed! ulChnIndex 0
+12-01 00:03:15 891[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 891[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 891[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 891[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 891[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 891[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 891[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 891[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 892[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 892[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 892[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 892[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 892[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 892[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 892[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 892[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 892[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 892[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 903[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 903[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 903[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 903[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 904[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 904[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 905[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 905[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 905[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 905[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 905[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 905[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 905[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 905[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 906[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 906[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 906[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 906[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 906[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 906[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 906[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 906[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 907[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 907[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 907[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 907[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 907[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 907[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 907[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 907[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 907[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 908[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 908[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 908[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 908[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 908[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 908[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 917[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 917[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 917[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 917[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 917[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 917[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 918[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 918[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 918[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 918[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 918[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 918[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 919[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 919[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 919[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 919[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 919[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 919[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 919[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 920[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 920[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 920[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 920[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 920[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 920[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 920[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 921[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 921[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 921[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 921[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 921[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 921[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 922[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 922[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 922[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 922[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 922[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 922[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 922[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 923[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 923[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 923[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 923[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 923[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 923[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 916[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 923[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 935[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 935[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 935[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 935[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 935[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 936[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 936[E][hilib_vpss_base.c-1053]VPSS_SetChnAttr failed with [0xa0078003]
+12-01 00:03:15 942[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 942[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 943[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 943[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 943[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 943[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 943[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 945[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 945[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 945[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 945[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 945[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 946[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 946[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 946[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 946[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 946[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 946[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 946[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 947[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 947[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 947[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 947[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 947[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 948[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 948[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 948[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 948[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 948[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 948[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 948[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 949[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 949[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 949[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 949[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 949[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 949[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 949[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 950[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 950[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 950[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 950[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 950[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 951[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:15 951[E][hilib_venc_base.c-1608]VENC_Query chn[0] failed with 0xa0088005!
+12-01 00:03:15 951[E][hilib_venc_base.c-1828]Venc [0] get encode date failed
+12-01 00:03:18 824[E][hilib_vpss_base.c-759]VPSS_SetExtChnAttr failed with [0xa0078003]
+12-01 00:03:18 825[E][hilib_vpss_base.c-1658]Vpss start chn[6] failed
+12-01 00:03:18 826[E][hilib_vpss_base.c-1837]Vpss chn[6] start failed
+12-01 00:03:18 826[E][hilib_vpss_base.c-2004]Vpss set chn[6] param fail
+12-01 00:03:18 827[E][hilib_vpss_base.c-2256]Vpss set que[7] param failed
+12-01 00:03:18 828[E][hilib_vpss_base.c-3513]Vpss cmd[0x4001] do failed
+12-01 00:03:18 828[E][drv_process_qpts.c-1158]Set vpss que[7] param failed
+12-01 00:03:19 041[E][drv_hisi_audio.c-565]can't open /dev/acodec
+
+12-01 00:03:19 041[E][drv_hisi_audio.c-1552]HisiAudioCfgAcodec Fail.
+12-01 00:03:19 041[E][drv_hisi_audio.c-3699]HisiAudioStart failed!
+12-01 00:03:19 328[E][drv_hisi_audio.c-565]can't open /dev/acodec
+
+12-01 00:03:19 329[E][drv_hisi_audio.c-1552]HisiAudioCfgAcodec Fail.
+12-01 00:03:19 329[E][drv_hisi_audio.c-3699]HisiAudioStart failed!
+12-01 00:00:01 175[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:01 224[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:03 931[E][hilib_vpss_base.c-759]VPSS_SetExtChnAttr failed with [0xa0078003]
+12-01 00:00:03 932[E][hilib_vpss_base.c-1658]Vpss start chn[6] failed
+12-01 00:00:03 932[E][hilib_vpss_base.c-1837]Vpss chn[6] start failed
+12-01 00:00:03 932[E][hilib_vpss_base.c-2004]Vpss set chn[6] param fail
+12-01 00:00:03 932[E][hilib_vpss_base.c-2256]Vpss set que[7] param failed
+12-01 00:00:03 932[E][hilib_vpss_base.c-3513]Vpss cmd[0x4001] do failed
+12-01 00:00:03 932[E][drv_process_qpts.c-1158]Set vpss que[7] param failed
+12-01 00:00:18 088[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:18 088[E][drv_gpio.c-1427]errno :22
+12-01 00:00:20 123[E][hilib_vo_base.c-1090]pstVideoChninfo width:520 hight:887 startX:40 startY:0
+12-01 00:00:20 123[E][hilib_vpss_base.c-776]VPSS_SetChnCrop start
+12-01 00:00:01 225[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:01 273[E][hilib_vda_base.c-3001]Vda module have no creat
+12-01 00:00:03 744[E][hilib_vpss_base.c-759]VPSS_SetExtChnAttr failed with [0xa0078003]
+12-01 00:00:03 744[E][hilib_vpss_base.c-1658]Vpss start chn[6] failed
+12-01 00:00:03 744[E][hilib_vpss_base.c-1837]Vpss chn[6] start failed
+12-01 00:00:03 744[E][hilib_vpss_base.c-2004]Vpss set chn[6] param fail
+12-01 00:00:03 744[E][hilib_vpss_base.c-2256]Vpss set que[7] param failed
+12-01 00:00:03 744[E][hilib_vpss_base.c-3513]Vpss cmd[0x4001] do failed
+12-01 00:00:03 744[E][drv_process_qpts.c-1158]Set vpss que[7] param failed
+12-01 00:00:18 226[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:18 226[E][drv_gpio.c-1427]errno :2
+12-01 00:00:19 236[E][drv_gpio.c-1426]OUTPUT_POWER_CTRL fail:-1
+12-01 00:00:19 236[E][drv_gpio.c-1427]errno :22
+12-01 00:00:20 198[E][hilib_vo_base.c-1090]pstVideoChninfo width:520 hight:887 startX:40 startY:0
+12-01 00:00:20 199[E][hilib_vpss_base.c-776]VPSS_SetChnCrop start
+12-01 00:19:06 973[E][hilib_venc_base.c-2268]Encode Link Not Create!!!

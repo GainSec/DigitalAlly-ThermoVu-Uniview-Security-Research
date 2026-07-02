@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<Year>
+		<source>-</source>
+		<translation>-</translation>
+	</Year>
+	<Month>
+		<source>-</source>
+		<translation>-</translation>
+	</Month>
+	<Day>
+		<source> </source>
+		<translation></translation>
+	</Day>
+	<AM>
+		<source>AM</source>
+		<translation>AM</translation>
+	</AM>
+	<PM>
+		<source>PM</source>
+		<translation>PM</translation>
+	</PM>
+	<Mon>
+		<source>Mo</source>
+		<translation>Mo</translation>
+	</Mon>
+	<Tue>
+		<source>Tu</source>
+		<translation>Tu</translation>
+	</Tue>
+	<Wed>
+		<source>We</source>
+		<translation>We</translation>
+	</Wed>
+	<Thu>
+		<source>Th</source>
+		<translation>Th</translation>
+	</Thu>
+	<Fri>
+		<source>Fr</source>
+		<translation>Fr</translation>
+	</Fri>
+	<Sat>
+		<source>Sa</source>
+		<translation>Sa</translation>
+	</Sat>
+	<Sun>
+		<source>Su</source>
+		<translation>Su</translation>
+	</Sun>
+	<Monday>
+		<source>Mon</source>
+		<translation>Mon</translation>
+	</Monday>
+	<Tuesday>
+		<source>Tue</source>
+		<translation>Tue</translation>
+	</Tuesday>
+	<Wednesday>
+		<source>Wed</source>
+		<translation>Wed</translation>
+	</Wednesday>
+	<Thursday>
+		<source>Thu</source>
+		<translation>Thu</translation>
+	</Thursday>
+	<Friday>
+		<source>Fri</source>
+		<translation>Fri</translation>
+	</Friday>
+	<Saturday>
+		<source>Sat</source>
+		<translation>Sat</translation>
+	</Saturday>
+	<Sunday>
+		<source>Sun</source>
+		<translation>Sun</translation>
+	</Sunday>	
+	<Holiday>
+		<source>Holiday</source>
+		<translation>Holiday</translation>
+	</Holiday>
+	<January>
+		<source>Jan</source>
+		<translation>Jan</translation>
+	</January>
+	<Febuary>
+		<source>Feb</source>
+		<translation>Feb</translation>
+	</Febuary>
+	<March>
+		<source>Mar</source>
+		<translation>Mar</translation>
+	</March>
+	<April>
+		<source>Apr</source>
+		<translation>Apr</translation>
+	</April>
+	<May>
+		<source>May</source>
+		<translation>May</translation>
+	</May>
+	<June>
+		<source>Jun</source>
+		<translation>Jun</translation>
+	</June>
+	<July>
+		<source>Jul</source>
+		<translation>Jul</translation>
+	</July>
+	<August>
+		<source>Aug</source>
+		<translation>Aug</translation>
+	</August>
+	<September>
+		<source>Sept</source>
+		<translation>Sept</translation>
+	</September>
+	<October>
+		<source>Oct</source>
+		<translation>Oct</translation>
+	</October>
+	<November>
+		<source>Nov</source>
+		<translation>Nov</translation>
+	</November>
+	<December>
+		<source>Dec</source>
+		<translation>Dec</translation>
+	</December>
+	<OK>
+		<source>OK</source>
+		<translation>OK</translation>
+	</OK>
+	<Cancel>
+		<source>Cancel</source>
+		<translation>Cancel</translation>
+	</Cancel>
+	<YES>
+		<source>Yes</source>
+		<translation>Yes</translation>
+	</YES>
+	<NO>
+		<source>No</source>
+		<translation>No</translation>
+	</NO>
+	<SYSTIPS>
+		<source>System Message</source>
+		<translation>System Message</translation>
+	</SYSTIPS>
+	<Conventional>
+		<source>Normal</source>
+		<translation>Normal</translation>
+	</Conventional>
+	<Motion>
+		<source>Event</source>
+		<translation>Event</translation>
+	</Motion>
+	<Alarm>
+		<source>Alarm</source>
+		<translation>Alarm</translation>
+	</Alarm>
+	<MotionandAlarm>
+		<source>M and A</source>
+		<translation>M and A</translation>
+	</MotionandAlarm>
+	<MotionorAlarm>
+		<source>M or A</source>
+		<translation>M or A</translation>
+	</MotionorAlarm>
+	<Manual>
+		<source>Manual</source>
+		<translation>Manual</translation>
+	</Manual>
+	<Smart>
+		<source>Smart</source>
+		<translation>Smart</translation>
+	</Smart>
+	<Rece>
+		<source>Receive Rate</source>
+		<translation>Receive Rate</translation>
+	</Rece>
+	<Trans>
+		<source>Transmit Rate</source>
+		<translation>Transmit Rate</translation>
+	</Trans>
+	<WeakPassword>
+		<source>Weak</source>
+		<translation>Weak</translation>
+	</WeakPassword>
+	<MediumPassword>
+		<source>Medium</source>
+		<translation>Medium</translation>
+	</MediumPassword>    
+	<StrongPassword>
+		<source>Strong</source>
+		<translation>Strong</translation>
+	</StrongPassword>
+	<TypeYear>
+		<source>Month</source>
+		<translation>Month</translation>
+	</TypeYear>	
+	<TypeMonth>
+		<source>Day</source>
+		<translation>Day</translation>
+	</TypeMonth>	
+	<TypeWeek>
+		<source>Week</source>
+		<translation>Week</translation>
+	</TypeWeek>	
+	<TypeDay>
+		<source>Hour</source>
+		<translation>Hour</translation>
+	</TypeDay>	
+	<People>
+		<source>People</source>
+		<translation>People</translation>
+	</People>	
+	<Enter>
+		<source>People Entered</source>
+		<translation>People Entered</translation>
+	</Enter>	
+	<Leave>
+		<source>People Left</source>
+		<translation>People Left</translation>
+	</Leave>		
+	<EnterPeople>
+		<source>People Entered: %u</source>
+		<translation>People Entered: %u</translation>
+	</EnterPeople>		
+	<LeavePeople>
+		<source>People Left: %u</source>
+		<translation>People Left: %u</translation>
+	</LeavePeople>	
+	<TotalEnterPeople>
+		<source>Total People Entered: %u</source>
+		<translation>Total People Entered: %u</translation>
+	</TotalEnterPeople>
+	<TotalLeavePeople>
+		<source>Total People Left: %u</source>
+		<translation>Total People Left: %u</translation>
+	</TotalLeavePeople>
+	<TotalPage>
+		<source>Total: %lu  Page:%lu/%lu</source>
+		<translation>Total: %lu  Page:%lu/%lu</translation>
+	</TotalPage>
+	<SelectAll>
+		<source>All</source>
+		<translation>All</translation>
+	</SelectAll>
+</root>

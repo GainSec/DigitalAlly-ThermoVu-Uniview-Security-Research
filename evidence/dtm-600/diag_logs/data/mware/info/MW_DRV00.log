@@ -1,0 +1,121 @@
+12-01 00:10:11 370[I][hilib_vpss_base.c-109]astChnParam[6].ulFrameGetCount                                    [0]
+12-01 00:10:11 371[I][hilib_vpss_base.c-110]astChnParam[6].ulFrameRlsCount                                    [0]
+12-01 00:10:11 371[I][hilib_vpss_base.c-111]astChnParam[6].ulBindPrevId                                       [0]
+12-01 00:10:11 371[I][hilib_vpss_base.c-112]astChnParam[6].stChnDynamicParam.ulInHeight                       [1920]
+12-01 00:10:11 371[I][hilib_vpss_base.c-113]astChnParam[6].stChnDynamicParam.ulInWidth                        [1080]
+12-01 00:10:11 371[I][hilib_vpss_base.c-114]astChnParam[6].stChnDynamicParam.bFlip                            [1]
+12-01 00:10:11 371[I][hilib_vpss_base.c-115]astChnParam[6].stChnDynamicParam.bLowDelay                        [0]
+12-01 00:10:11 372[I][hilib_vpss_base.c-116]astChnParam[6].stChnDynamicParam.bLowDelay                        [0]
+12-01 00:10:11 372[I][hilib_vpss_base.c-117]astChnParam[6].stChnDynamicParam.stFisheyeAttr.ulMountMode        [0]
+12-01 00:10:11 372[I][hilib_vpss_base.c-118]astChnParam[6].stChnDynamicParam.stFisheyeAttr.ulRegionNum        [0]
+12-01 00:10:11 372[I][hilib_vpss_base.c-119]astChnParam[6].stChnDynamicParam.ulInHeigh            [1920]
+12-01 00:10:11 372[I][hilib_vpss_base.c-120]astChnParam[6].stChnDynamicParam.ulInWidth            [1080]
+12-01 00:10:11 372[I][hilib_vpss_base.c-121]astChnParam[6].stChnDynamicParam.ulOutHeight          [1920]
+12-01 00:10:11 372[I][hilib_vpss_base.c-122]astChnParam[6].stChnDynamicParam.ulOutHeight          [1080]
+12-01 00:10:11 372[I][hilib_vpss_base.c-123]astChnParam[6].stChnDynamicParam.ulSrcFrameRate       [25]
+12-01 00:10:11 372[I][hilib_vpss_base.c-124]astChnParam[6].ulFrameSeq                [0]
+12-01 00:10:11 372[I][hilib_vpss_base.c-125]astChnParam[6].ulQueId                   [7]
+12-01 00:10:11 372[I][hilib_vpss_base.c-128]astChnParam[6].aulBindNextId   [4294967295]
+12-01 00:10:11 372[I][hilib_vpss_base.c-128]astChnParam[6].aulBindNextId   [4294967295]
+12-01 00:10:11 372[I][hilib_vpss_base.c-128]astChnParam[6].aulBindNextId   [4294967295]
+12-01 00:10:11 372[I][hilib_vpss_base.c-128]astChnParam[6].aulBindNextId   [4294967295]
+12-01 00:10:11 372[I][hilib_vpss_base.c-128]astChnParam[6].aulBindNextId   [4294967295]
+12-01 00:10:11 372[I][hilib_vpss_base.c-128]astChnParam[6].aulBindNextId   [4294967295]
+12-01 00:10:11 372[I][hilib_vpss_base.c-136]stLinkCreateParam.astQueCreateParam[6].ulMaxHeight                    [1080]
+12-01 00:10:11 372[I][hilib_vpss_base.c-137]stLinkCreateParam.astQueCreateParam[6].ulMaxWidth                     [1920]
+12-01 00:10:11 372[I][hilib_vpss_base.c-138]astQueParam[0].bFlip                     [1]
+12-01 00:10:11 373[I][hilib_vpss_base.c-139]astQueParam[0].bIsCfgDone                [1]
+12-01 00:10:11 373[I][hilib_vpss_base.c-140]astQueParam[0].bLowDelay                 [0]
+12-01 00:10:11 373[I][hilib_vpss_base.c-141]astQueParam[0].bMirror                   [0]
+12-01 00:10:11 373[I][hilib_vpss_base.c-142]astQueParam[0].ulChnId                   [1]
+12-01 00:10:11 373[I][hilib_vpss_base.c-143]astQueParam[0].ulHeight                  [1920]
+12-01 00:10:11 373[I][hilib_vpss_base.c-144]astQueParam[0].ulWidth                   [1080]
+12-01 00:10:11 373[I][hilib_vpss_base.c-136]stLinkCreateParam.astQueCreateParam[6].ulMaxHeight                    [1080]
+12-01 00:10:11 373[I][hilib_vpss_base.c-137]stLinkCreateParam.astQueCreateParam[6].ulMaxWidth                     [1920]
+12-01 00:10:11 373[I][hilib_vpss_base.c-138]astQueParam[3].bFlip                     [1]
+12-01 00:10:11 373[I][hilib_vpss_base.c-139]astQueParam[3].bIsCfgDone                [1]
+12-01 00:10:11 373[I][hilib_vpss_base.c-140]astQueParam[3].bLowDelay                 [0]
+12-01 00:10:11 373[I][hilib_vpss_base.c-141]astQueParam[3].bMirror                   [0]
+12-01 00:10:11 373[I][hilib_vpss_base.c-142]astQueParam[3].ulChnId                   [3]
+12-01 00:10:11 373[I][hilib_vpss_base.c-143]astQueParam[3].ulHeight                  [1920]
+12-01 00:10:11 373[I][hilib_vpss_base.c-144]astQueParam[3].ulWidth                   [1080]
+12-01 00:10:11 373[I][hilib_vpss_base.c-136]stLinkCreateParam.astQueCreateParam[6].ulMaxHeight                    [1080]
+12-01 00:10:11 373[I][hilib_vpss_base.c-137]stLinkCreateParam.astQueCreateParam[6].ulMaxWidth                     [1920]
+12-01 00:10:11 373[I][hilib_vpss_base.c-138]astQueParam[4].bFlip                     [1]
+12-01 00:10:11 374[I][hilib_vpss_base.c-139]astQueParam[4].bIsCfgDone                [1]
+12-01 00:10:11 374[I][hilib_vpss_base.c-140]astQueParam[4].bLowDelay                 [0]
+12-01 00:10:11 374[I][hilib_vpss_base.c-141]astQueParam[4].bMirror                   [0]
+12-01 00:10:11 374[I][hilib_vpss_base.c-142]astQueParam[4].ulChnId                   [0]
+12-01 00:10:11 374[I][hilib_vpss_base.c-143]astQueParam[4].ulHeight                  [1920]
+12-01 00:10:11 374[I][hilib_vpss_base.c-144]astQueParam[4].ulWidth                   [1080]
+12-01 00:10:11 374[I][hilib_vpss_base.c-136]stLinkCreateParam.astQueCreateParam[6].ulMaxHeight                    [600]
+12-01 00:10:11 374[I][hilib_vpss_base.c-137]stLinkCreateParam.astQueCreateParam[6].ulMaxWidth                     [1068]
+12-01 00:10:11 374[I][hilib_vpss_base.c-138]astQueParam[5].bFlip                     [1]
+12-01 00:10:11 374[I][hilib_vpss_base.c-139]astQueParam[5].bIsCfgDone                [1]
+12-01 00:10:11 374[I][hilib_vpss_base.c-140]astQueParam[5].bLowDelay                 [0]
+12-01 00:10:11 374[I][hilib_vpss_base.c-141]astQueParam[5].bMirror                   [0]
+12-01 00:10:11 374[I][hilib_vpss_base.c-142]astQueParam[5].ulChnId                   [2]
+12-01 00:10:11 374[I][hilib_vpss_base.c-143]astQueParam[5].ulHeight                  [1068]
+12-01 00:10:11 374[I][hilib_vpss_base.c-144]astQueParam[5].ulWidth                   [600]
+12-01 00:10:11 374[I][hilib_vpss_base.c-136]stLinkCreateParam.astQueCreateParam[6].ulMaxHeight                    [576]
+12-01 00:10:11 374[I][hilib_vpss_base.c-137]stLinkCreateParam.astQueCreateParam[6].ulMaxWidth                     [720]
+12-01 00:10:11 374[I][hilib_vpss_base.c-138]astQueParam[6].bFlip                     [1]
+12-01 00:10:11 374[I][hilib_vpss_base.c-139]astQueParam[6].bIsCfgDone                [1]
+12-01 00:10:11 374[I][hilib_vpss_base.c-140]astQueParam[6].bLowDelay                 [0]
+12-01 00:10:11 375[I][hilib_vpss_base.c-141]astQueParam[6].bMirror                   [0]
+12-01 00:10:11 375[I][hilib_vpss_base.c-142]astQueParam[6].ulChnId                   [5]
+12-01 00:10:11 375[I][hilib_vpss_base.c-143]astQueParam[6].ulHeight                  [720]
+12-01 00:10:11 375[I][hilib_vpss_base.c-144]astQueParam[6].ulWidth                   [576]
+12-01 00:10:11 375[I][hilib_vpss_base.c-136]stLinkCreateParam.astQueCreateParam[6].ulMaxHeight                    [1080]
+12-01 00:10:11 375[I][hilib_vpss_base.c-137]stLinkCreateParam.astQueCreateParam[6].ulMaxWidth                     [1920]
+12-01 00:10:11 375[I][hilib_vpss_base.c-138]astQueParam[7].bFlip                     [1]
+12-01 00:10:11 375[I][hilib_vpss_base.c-139]astQueParam[7].bIsCfgDone                [1]
+12-01 00:10:11 375[I][hilib_vpss_base.c-140]astQueParam[7].bLowDelay                 [0]
+12-01 00:10:11 375[I][hilib_vpss_base.c-141]astQueParam[7].bMirror                   [0]
+12-01 00:10:11 375[I][hilib_vpss_base.c-142]astQueParam[7].ulChnId                   [6]
+12-01 00:10:11 375[I][hilib_vpss_base.c-143]astQueParam[7].ulHeight                  [1920]
+12-01 00:10:11 375[I][hilib_vpss_base.c-144]astQueParam[7].ulWidth                   [1080]
+12-01 00:10:11 375[I][drv_process_qpts.c-3421]GetYuv Thread Run
+12-01 00:10:11 375[I][drv_process_qpts.c-3423]EncYuv Thread Run
+12-01 00:10:11 375[I][drv_process_qpts.c-3425]     DrvMakeYuv
+12-01 00:10:11 376[I][drv_process_qpts.c-3426]           2255
+12-01 00:10:11 376[I][drv_process_qpts.c-3428]    MwareGetYuv    MwareSendYuv MwareReleaseYuv
+12-01 00:10:11 376[I][drv_process_qpts.c-3430]           2255               0            2254
+12-01 00:10:11 376[I][drv_process_qpts.c-3432]CommMakeSendYuv  CommReleaseYuv
+12-01 00:10:11 377[I][drv_process_qpts.c-3433]              1               1
+12-01 00:10:11 377[I][drv_process_qpts.c-3435] DrvMakeJpegAll  DrvMakeJpegErr    MwareGetJpeg MwareReleaseJpeg
+12-01 00:10:11 377[I][drv_process_qpts.c-3437]              1               0               0               1
+12-01 00:10:11 378[I][drv_process_qpts.c-3446]GetYuvQue : Maxlen[5] FullQueCount[0] EmptyQueCount[3]
+12-01 00:10:11 378[I][drv_process_qpts.c-3446]EncYuvQue : Maxlen[9] FullQueCount[0] EmptyQueCount[9]
+12-01 00:10:11 378[I][drv_process_qpts.c-3446]EncJpegQue : Maxlen[1] FullQueCount[0] EmptyQueCount[1]
+12-01 00:10:11 378[I][hilib_vda_base.c-2929]Area Type Motion Detect Param:
+12-01 00:10:11 378[I][hilib_vda_base.c-2930]------------------------------
+12-01 00:10:11 378[I][hilib_vda_base.c-2931]ulAreaNum:0
+12-01 00:10:11 378[I][hilib_vda_base.c-2942]ulArea[0], bEnable[0], ulSensitivity[0], ulTargetSize[0], stArea[0 0 0 0]
+12-01 00:10:11 378[I][hilib_vda_base.c-2942]ulArea[0], bEnable[0], ulSensitivity[0], ulTargetSize[0], stArea[0 0 0 0]
+12-01 00:10:11 378[I][hilib_vda_base.c-2942]ulArea[0], bEnable[0], ulSensitivity[0], ulTargetSize[0], stArea[0 0 0 0]
+12-01 00:10:11 378[I][hilib_vda_base.c-2942]ulArea[0], bEnable[0], ulSensitivity[0], ulTargetSize[0], stArea[0 0 0 0]
+12-01 00:10:11 378[I][hilib_vda_base.c-2944]------------------------------
+12-01 00:10:11 378[I][hilib_vda_base.c-2946]                                
+12-01 00:10:11 378[I][hilib_vda_base.c-2949]Tamper Detect Param:
+12-01 00:10:11 378[I][hilib_vda_base.c-2950]--------------------------------
+12-01 00:10:11 378[I][hilib_vda_base.c-2954]Tamper Area Enable: 0 Duration:0 Sense:0
+12-01 00:10:11 379[I][hilib_vda_base.c-2955]--------------------------------
+12-01 00:10:11 379[I][hilib_vda_base.c-2956]                                
+12-01 00:10:11 379[I][hilib_vda_base.c-2959]Hisi function Return Value :
+12-01 00:10:11 379[I][hilib_vda_base.c-2960]----------------------------
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2963]Line number:[0] Error number:[0x0]
+12-01 00:10:11 379[I][hilib_vda_base.c-2965]----------------------------
+12-01 00:10:13 855[I][drv_misc.c-347]NO dev found!
+
+12-01 00:10:18 955[I][drv_misc.c-347]NO dev found!
+

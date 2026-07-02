@@ -1,0 +1,130 @@
+12-01 00:00:28 886[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:28 903[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:28 905[E(0)][ui_title.c-723]MMI_Creat_TitleDlg End
+12-01 00:00:29 114[E(0)][ui_mainwndnew.c-3320]Load bmp[8] fail
+12-01 00:00:29 170[E(0)][ui_mainwndnew.c-3320]Load bmp[12] fail
+12-01 00:00:29 213[E(0)][ui_mainwndnew.c-3320]Load bmp[15] fail
+12-01 00:00:29 810[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 00:00:29 812[E(0)][ui_SinglePersonInfo.c-485]MMI_Creat_TitleDlg End
+12-01 00:00:29 812[E(0)][ui_mainwndnew.c-3705][MMI_init_LogoPic] LoadBitmap[/data/GUIFile/WorkLogo.jpg] Fail[4294967295]
+12-01 00:00:29 948[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:29 949[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:49 782[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 00:01:17 544[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 00:01:18 514[E(0)][ui_calling_7in.c-115]MMI_Destroy_Work Param is err
+12-01 00:01:19 153[E(0)][ui_calling_7in.c-115]MMI_Destroy_Work Param is err
+12-01 00:01:19 310[E(0)][ui_mainwndnew.c-2784]FaceDetHalt is Stop  CMD:26
+12-01 00:01:19 501[E(0)][ui_calling_7in.c-115]MMI_Destroy_Work Param is err
+12-01 00:01:21 470[E(0)][ui_mainwndnew.c-2793]QRCodeDetHalt ON, FaceDetHalt OFF CMD:43
+12-01 00:00:29 013[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:29 024[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:29 027[E(0)][ui_title.c-723]MMI_Creat_TitleDlg End
+12-01 00:00:29 332[E(0)][ui_mainwndnew.c-3320]Load bmp[8] fail
+12-01 00:00:29 410[E(0)][ui_mainwndnew.c-3320]Load bmp[12] fail
+12-01 00:00:29 455[E(0)][ui_mainwndnew.c-3320]Load bmp[15] fail
+12-01 00:00:30 228[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 00:00:30 243[E(0)][ui_SinglePersonInfo.c-485]MMI_Creat_TitleDlg End
+12-01 00:00:30 243[E(0)][ui_mainwndnew.c-3705][MMI_init_LogoPic] LoadBitmap[/data/GUIFile/WorkLogo.jpg] Fail[4294967295]
+12-01 00:00:30 374[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:30 374[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 01:06:48 565[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 01:06:50 243[E(0)][ui_calling_7in.c-115]MMI_Destroy_Work Param is err
+12-01 01:06:54 001[E(0)][ui_mainwndnew.c-2793]QRCodeDetHalt ON, FaceDetHalt OFF CMD:43
+12-01 00:00:28 755[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:28 784[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:28 787[E(0)][ui_title.c-723]MMI_Creat_TitleDlg End
+12-01 00:00:29 099[E(0)][ui_mainwndnew.c-3320]Load bmp[8] fail
+12-01 00:00:29 173[E(0)][ui_mainwndnew.c-3320]Load bmp[12] fail
+12-01 00:00:29 235[E(0)][ui_mainwndnew.c-3320]Load bmp[15] fail
+12-01 00:00:30 101[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 00:00:30 104[E(0)][ui_SinglePersonInfo.c-485]MMI_Creat_TitleDlg End
+12-01 00:00:30 104[E(0)][ui_mainwndnew.c-3705][MMI_init_LogoPic] LoadBitmap[/data/GUIFile/WorkLogo.jpg] Fail[4294967295]
+12-01 00:00:30 266[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:30 266[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:28 267[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:28 281[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:28 283[E(0)][ui_title.c-723]MMI_Creat_TitleDlg End
+12-01 00:00:28 481[E(0)][ui_mainwndnew.c-3320]Load bmp[8] fail
+12-01 00:00:28 532[E(0)][ui_mainwndnew.c-3320]Load bmp[12] fail
+12-01 00:00:28 574[E(0)][ui_mainwndnew.c-3320]Load bmp[15] fail
+12-01 00:00:29 174[E(0)][mmi_mw_ctrl.c-812]Open:/data/AutoCall fail
+12-01 00:00:29 185[E(0)][ui_SinglePersonInfo.c-485]MMI_Creat_TitleDlg End
+12-01 00:00:29 186[E(0)][ui_mainwndnew.c-3705][MMI_init_LogoPic] LoadBitmap[/data/GUIFile/WorkLogo.jpg] Fail[4294967295]
+12-01 00:00:29 319[E(0)][ui_title.c-349]_Get_FaceDetStatus_Info 1
+12-01 00:00:29 319[E(0)][ui_title.c-350]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:28 618[E(0)][ui_mainwndnew.c-252]Load [43][/root/mmi/ResetFactory] Fail
+12-01 00:00:28 744[E(0)][ui_title.c-352]_Get_FaceDetStatus_Info 1
+12-01 00:00:28 745[E(0)][ui_title.c-353]4g[2] bluetooth[2] WIFI[2]
+12-01 00:00:28 747[E(0)][ui_title.c-734]MMI_Creat_TitleDlg End
+12-01 00:00:28 952[E(0)][ui_mainwndnew.c-3420]Load bmp[8] fail
+12-01 00:00:29 021[E(0)][ui_mainwndnew.c-3420]Load bmp[12] fail
+12-01 00:00:29 060[E(0)][ui_mainwndnew.c-3420]Load bmp[15] fail
+12-01 00:00:29 702[E(0)][ui_mainwndnew.c-3420]Load bmp[41] fail
+12-01 00:00:29 752[E(0)][ui_mainwndnew.c-3755][MMI_init_LogoPic] LoadBitmap[/data/GUIFile/WorkLogo.jpg] Fail[4294967295]
+12-01 00:00:29 752[E(0)][mmi_mw_ctrl.c-831]Open:/data/AutoCall fail
+12-01 00:00:29 765[E(0)][ui_SinglePersonInfo.c-549]MMI_Creat_TitleDlg End
+12-01 00:00:29 899[E(0)][ui_title.c-352]_Get_FaceDetStatus_Info 1
+12-01 00:00:29 900[E(0)][ui_title.c-353]4g[2] bluetooth[2] WIFI[2]
+12-01 00:12:05 008[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:26
+12-01 00:12:08 356[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:15 388[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:22 416[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:29 450[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:36 476[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:43 507[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:50 536[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:12:57 567[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:04 606[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:11 627[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:18 667[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:25 697[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:32 726[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:39 757[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:46 786[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:13:53 816[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:00 849[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:07 876[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:14 907[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:21 937[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:28 966[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:35 998[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:43 026[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:50 057[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:14:57 087[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:04 125[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:11 158[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:18 188[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:25 216[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:32 246[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:39 277[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:46 306[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:15:53 337[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:00 366[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:07 397[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:14 430[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:21 456[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:28 486[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:35 517[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:42 546[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:49 580[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:16:56 606[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:03 637[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:10 679[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:17 707[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:24 736[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:31 769[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:38 796[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:45 827[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:52 857[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:17:59 886[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:06 918[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:13 946[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:20 977[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:28 010[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:35 036[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:42 066[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:49 097[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:18:56 126[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:19:03 166[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:19:12 594[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46
+12-01 00:19:17 227[E(0)][ui_mainwndnew.c-2858]FaceDetHalt is Stop  CMD:46

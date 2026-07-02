@@ -1,0 +1,28 @@
+
+[JPEGE] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:44]
+
+
+-----MODULE PARAM--------------------------------------------------------------
+        OnePack     JpegeMiniBufMode   JpegClearStreamBuf
+              0                    0                    1
+
+-----ATTRIBUTE1----------------------------------------------------------------
+ID    bMjpeg   PicType  MaxWidth   MaxHeight   Width  Height     BufSize   ByFrm     MCU   Qfactor   C2GEn   DcfEn
+3          Y    YUV420      1080        1920    1080    1920     2088960       Y       0        70       N       N
+
+-----STATUS1-------------------------------------------------------------------
+ID	   BufLen	  FreeLen	  StrmCnt	  MaxStrm	
+ 3	  2088960	  2088896	        0	      200	
+
+-----STATUS2-------------------------------------------------------------------
+ID    PicRec    PicCoded    PicDroped    PicDisc    NoStmCnt    RcFail    PicRecode    UnrdStr      
+3     1         1           0            0          0           0         0            0            
+
+-----STREAM BUFFER-------------------------------------------------------------
+ID  Base                  RdTail      RdHead      WrTail      WrHead      BufLen      DataLen     BufFree   
+3   0xe2f00000            80256       80256       80256       80256       2088960     0           2088896     
+
+
+-----RUN INFO----------------------------------------------------------------
+ID    	   DCFSize	MpfExOffset	   SrcSize	  Mpf0Size	  Mpf1Size	    MpfCnt	  JpegQueueIdx	
+3     	         0	         0	         0	         0	         0	         0	             0	

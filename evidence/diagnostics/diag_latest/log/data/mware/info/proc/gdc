@@ -1,0 +1,45 @@
+
+[GDC] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:44]
+
+
+-----MODULE PARAM-----------------------------
+    max_job_num   max_task_num   max_node_num
+             32             64             64
+
+-----RECENT JOB INFO------------------------------------------------------------------
+   SeqNo ModName  JobHdl TaskNum   State      InSize     OutSize    CostTime    HwTime
+
+-----MAX WASTE TIME JOB INFO----------------------------------------------------------
+   SeqNo ModName  JobHdl TaskNum   State      InSize     OutSize    CostTime    HwTime
+
+-----GDC JOB STATUS--------------------------------------------------------------
+   Success      Fail    Cancel  AllJobNum    FreeNum   BeginNum    BusyNum ProcingNum
+         0         0         0        32        32         0         0         0
+
+-----GDC TASK STATUS-----------------------------------------------------------
+   Success      Fail    Cancel AllTaskNum    FreeNum    BusyNum
+         0         0         0        64        64         0
+
+-----GDC NODE STATUS-----------------------------------------------------------
+   AllNodeNum   BusyNum   MinFree  MaxInJob  SubmitFail   IntFail
+           64         0        64         0           0         0
+
+
+-----GDC INT STATUS------------------------------------------------------------
+    IntNum     IntTm HalProcTm
+         0         0          0
+
+-----GDC CALL VGS COVER STATUS--------------------------------------------------
+    BeginSuc   BeginFail     TaskSuc    TaskFail      EndSuc     EndFail       CbCnt
+           0           0           0           0           0           0           0
+
+
+-----GDC CALL VGS SCALE STATUS--------------------------------------------------
+    BeginSuc   BeginFail     TaskSuc    TaskFail      EndSuc     EndFail       CbCnt
+           0           0           0           0           0           0           0
+
+
+-----GDC CALL CORRECTION STATUS-------------------------------------------------
+    BeginSuc   BeginFail     TaskSuc    TaskFail      EndSuc     EndFail       CbCnt
+           0           0           0           0           0           0           0
+

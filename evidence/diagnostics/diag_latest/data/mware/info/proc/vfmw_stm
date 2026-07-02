@@ -1,0 +1,20 @@
+---- stm -------------------------------------------
+    Check1    Check2   State  RefCnt   CtxSize   HalSize
+  1234abcd  1234abcd       1       0      4136         0
+
+---- thr -------------------------------------------
+   ThrId    Unid     Cmd   State  RunPos    RunCnt  ChanId
+
+---- dev -------------------------------------------
+   DevId    Unid   State     UpMsg     DnMsg    StrCnt    IntCnt    StrSeg    InsSeg  ChanId
+
+---- chan ------------------------------------------
+   ChnId    Unid   State    Prio  RawLst  SegLst  StdVid    BufCfg
+
+---- raw -------------------------------------------
+   ChnId  Tail  Head  Hist PushNum  PushSize HaveNum  HaveSize  NumCnt     SizeCnt FillNew LastCfg    Kbps
+
+---- seg -------------------------------------------
+   ChnId  Tail  Head  Hist   BufSize  NewNum  NumCnt     SizeCnt    RcvTry     RcvOk    RlsTry     RlsOk
+
+

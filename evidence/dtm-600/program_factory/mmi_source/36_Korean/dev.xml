@@ -1,0 +1,4451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DevConfig>
+	<Dev>
+		<DevSupportLanguage>
+            <Item>0</Item>
+            <ItemText>
+                <source>简体中文</source>
+                <translation>简体中文</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>English</source>
+                <translation>English</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>繁體中文</source>
+                <translation>繁體中文</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>日本語</source>
+                <translation>日本語</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>한국의</source>
+                <translation>한국의</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Français</source>
+                <translation>Français</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>Español</source>
+                <translation>Español</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>Pусский</source>
+                <translation>Pусский</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>Deutsch</source>
+                <translation>Deutsch</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>فارسی</source>
+                <translation>فارسی</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>Polski</source>
+                <translation>Polski</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>Indonesian</source>
+                <translation>Indonesian</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>ไทย</source>
+                <translation>ไทย</translation>
+            </ItemText>   
+            <Item>13</Item>
+            <ItemText>
+                <source>Português</source>
+                <translation>Português</translation>
+            </ItemText>   
+            <Item>14</Item>
+            <ItemText>
+                <source>العربية</source>
+                <translation>العربية</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>עברית</source>
+                <translation>עברית</translation>
+            </ItemText>   
+            <Item>16</Item>
+            <ItemText>
+                <source>Italiano</source>
+                <translation>Italiano</translation>
+            </ItemText>   
+            <Item>17</Item>
+            <ItemText>
+                <source>Eλληνικά</source>
+                <translation>Eλληνικά</translation>
+            </ItemText>   
+            <Item>18</Item>
+            <ItemText>
+                <source>Čeština</source>
+                <translation>Čeština</translation>
+            </ItemText>   
+            <Item>19</Item>
+            <ItemText>
+                <source>Türkçe</source>
+                <translation>Türkçe</translation>
+            </ItemText>   
+            <Item>20</Item>
+            <ItemText>
+                <source>Dansk</source>
+                <translation>Dansk</translation>
+            </ItemText>   
+            <Item>21</Item>
+            <ItemText>
+                <source>Norsk bokmål</source>
+                <translation>Norsk bokmål</translation>
+            </ItemText>   
+            <Item>22</Item>
+            <ItemText>
+                <source>Românǎ</source>
+                <translation>Românǎ</translation>
+            </ItemText>   
+            <Item>23</Item>
+            <ItemText>
+                <source>Nederlands</source>
+                <translation>Nederlands</translation>
+            </ItemText>
+            <Item>24</Item>
+            <ItemText>
+                <source>Slovenčina</source>
+                <translation>Slovenčina</translation>
+            </ItemText>
+			<Item>25</Item>
+            <ItemText>
+                <source>Magyar</source>
+                <translation>Magyar</translation>
+            </ItemText>
+            <Item>26</Item>
+            <ItemText>
+                <source>български</source>
+                <translation>български</translation>
+            </ItemText>
+	    <Item>27</Item>
+            <ItemText>
+                <source>Hrvatski</source>
+                <translation>Hrvatski</translation>
+            </ItemText>
+             <Item>28</Item> 
+             <ItemText> 
+             <source>Latvijas</source> 
+            <translation>Latvijas</translation> 
+            </ItemText> 
+            <Item>31</Item>
+	          <ItemText>
+	        	<source>Custom Lang</source>
+		  			<translation>Custom Lang</translation>
+	    			</ItemText>   
+    		 </DevSupportLanguage>
+		 <TimeZone>
+            <Item>0</Item>
+            <ItemText>
+                <source>(GMT-12:00) International Date Line West</source>
+                <translation>(GMT-12:00) International Date Line West</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>(GMT-11:00) Midway Island, Samoa</source>
+                <translation>(GMT-11:00) Midway Island, Samoa</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>(GMT-10:00) Hawaii</source>
+                <translation>(GMT-10:00) Hawaii</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>(GMT-09:00) Alaska</source>
+                <translation>(GMT-09:00) Alaska</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>(GMT-08:00) Pacific Time(U.S., Canada)</source>
+                <translation>(GMT-08:00) Pacific Time(U.S., Canada)</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>(GMT-07:00) Mountain Time(U.S., Canada)</source>
+                <translation>(GMT-07:00) Mountain Time(U.S., Canada)</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>(GMT-06:00) Central Time(U.S., Canada)</source>
+                <translation>(GMT-06:00) Central Time(U.S., Canada)</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>(GMT-05:00) Eastern Time(U.S., Canada)</source>
+                <translation>(GMT-05:00) Eastern Time(U.S., Canada)</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>(GMT-04:30) Caracas</source>
+                <translation>(GMT-04:30) Caracas</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>(GMT-04:00) Atlantic Time(Canada)</source>
+                <translation>(GMT-04:00) Atlantic Time(Canada)</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>(GMT-03:30) Newfoundland</source>
+                <translation>(GMT-03:30) Newfoundland</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>(GMT-03:00) Georgetown, Brasilia</source>
+                <translation>(GMT-03:00) Georgetown, Brasilia</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>(GMT-02:00) Mid-Atlantic</source>
+                <translation>(GMT-02:00) Mid-Atlantic</translation>
+            </ItemText>   
+            <Item>13</Item>
+            <ItemText>
+                <source>(GMT-01:00) Cape Verde Islands, Azores</source>
+                <translation>(GMT-01:00) Cape Verde Islands, Azores</translation>
+            </ItemText>   
+            <Item>14</Item>
+            <ItemText>
+                <source>(GMT+00:00) Dublin, Edinburgh, London</source>
+                <translation>(GMT+00:00) Dublin, Edinburgh, London</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>(GMT+01:00) Amsterdam, Berlin, Rome, Paris</source>
+                <translation>(GMT+01:00) Amsterdam, Berlin, Rome, Paris</translation>
+            </ItemText>   
+            <Item>16</Item>
+            <ItemText>
+                <source>(GMT+02:00) Athens, Jerusalem, Istanbul</source>
+                <translation>(GMT+02:00) Athens, Jerusalem, Istanbul</translation>
+            </ItemText>   
+            <Item>17</Item>
+            <ItemText>
+                <source>(GMT+03:00) Baghdad, Kuwait, Moscow</source>
+                <translation>(GMT+03:00) Baghdad, Kuwait, Moscow</translation>
+            </ItemText>   
+            <Item>18</Item>
+            <ItemText>
+                <source>(GMT+03:30) Tehran</source>
+                <translation>(GMT+03:30) Tehran</translation>
+            </ItemText>   
+            <Item>19</Item>
+            <ItemText>
+                <source>(GMT+04:00) Caucasus Standard Time</source>
+                <translation>(GMT+04:00) Caucasus Standard Time</translation>
+            </ItemText>   
+            <Item>20</Item>
+            <ItemText>
+                <source>(GMT+04:30) Kabul</source>
+                <translation>(GMT+04:30) Kabul</translation>
+            </ItemText>   
+            <Item>21</Item>
+            <ItemText>
+                <source>(GMT+05:00) Islamabad, Karachi, Tashkent</source>
+                <translation>(GMT+05:00) Islamabad, Karachi, Tashkent</translation>
+            </ItemText>   
+            <Item>22</Item>
+            <ItemText>
+                <source>(GMT+05:30) Madras, Bombay, New Delhi</source>
+                <translation>(GMT+05:30) Madras, Bombay, New Delhi</translation>
+            </ItemText>   
+            <Item>23</Item>
+            <ItemText>
+                <source>(GMT+05:45) Kathmandu</source>
+                <translation>(GMT+05:45) Kathmandu</translation>
+            </ItemText>   
+            <Item>24</Item>
+            <ItemText>
+                <source>(GMT+06:00) Almaty, Novosibirsk, Dhaka</source>
+                <translation>(GMT+06:00) Almaty, Novosibirsk, Dhaka</translation>
+            </ItemText>   
+            <Item>25</Item>
+            <ItemText>
+                <source>(GMT+06:30) Yangon</source>
+                <translation>(GMT+06:30) Yangon</translation>
+            </ItemText>   
+            <Item>26</Item>
+            <ItemText>
+                <source>(GMT+07:00) Bangkok, Hanoi, Jakarta</source>
+                <translation>(GMT+07:00) Bangkok, Hanoi, Jakarta</translation>
+            </ItemText>   
+            <Item>27</Item>
+            <ItemText>
+                <source>(GMT+08:00) Beijing, Hong Kong, Urumqi, Singapore, Taipei</source>
+                <translation>(GMT+08:00) Beijing, Hong Kong, Urumqi, Singapore, Taipei</translation>
+            </ItemText>   
+            <Item>28</Item>
+            <ItemText>
+                <source>(GMT+09:00) Seoul, Tokyo, Osaka, Sapporo</source>
+                <translation>(GMT+09:00) Seoul, Tokyo, Osaka, Sapporo</translation>
+            </ItemText>   
+            <Item>29</Item>
+            <ItemText>
+                <source>(GMT+09:30) Adelaide, Darwin</source>
+                <translation>(GMT+09:30) Adelaide, Darwin</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>(GMT+10:00) Melbourne, Sydney, Canberra</source>
+                <translation>(GMT+10:00) Melbourne, Sydney, Canberra</translation>
+            </ItemText>   
+            <Item>31</Item>
+            <ItemText>
+                <source>(GMT+11:00) Magadan, Solomon Islands</source>
+                <translation>(GMT+11:00) Magadan, Solomon Islands</translation>
+            </ItemText>   
+            <Item>32</Item>
+            <ItemText>
+                <source>(GMT+12:00) Auckland, Wellington</source>
+                <translation>(GMT+12:00) Auckland, Wellington</translation>
+            </ItemText>   
+            <Item>33</Item>
+            <ItemText>
+                <source>(GMT+13:00) Nuku'alofa</source>
+                <translation>(GMT+13:00) Nuku'alofa</translation>
+            </ItemText>   
+		 </TimeZone>
+		 <DateFormat>
+            <Item>0</Item>
+            <ItemText>
+                <source>YYYY-MM-DD</source>
+                <translation>YYYY-MM-DD</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>MM-DD-YYYY</source>
+                <translation>MM-DD-YYYY</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>DD-MM-YYYY</source>
+                <translation>DD-MM-YYYY</translation>
+            </ItemText>
+		 </DateFormat>
+		 <TimeFormat>
+            <Item>0</Item>
+            <ItemText>
+                <source>12-hour</source>
+                <translation>12-hour</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>24-hour</source>
+                <translation>24-hour</translation>
+            </ItemText>
+		 </TimeFormat>
+<NTPUpdateMin>
+            <Item>5</Item>
+            <ItemText>
+                <source>5m</source>
+                <translation>5m</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>10m</source>
+                <translation>10m</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>15m</source>
+                <translation>15m</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>30m</source>
+                <translation>30m</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>1h</source>
+                <translation>1h</translation>
+            </ItemText>   
+            <Item>120</Item>
+            <ItemText>
+                <source>2h</source>
+                <translation>2h</translation>
+            </ItemText>   
+            <Item>180</Item>
+            <ItemText>
+                <source>3h</source>
+                <translation>3h</translation>
+            </ItemText>   
+            <Item>360</Item>
+            <ItemText>
+                <source>6h</source>
+                <translation>6h</translation>
+            </ItemText>   
+            <Item>720</Item>
+            <ItemText>
+                <source>12h</source>
+                <translation>12h</translation>
+            </ItemText> 
+            <Item>1440</Item>
+            <ItemText>
+                <source>1day</source>
+                <translation>1day</translation>
+            </ItemText>
+            <Item>10080</Item>
+            <ItemText>
+                <source>1week</source>
+                <translation>1week</translation>
+            </ItemText>
+</NTPUpdateMin>
+		 <ConnectType4g>
+            <Item>0</Item>
+            <ItemText>
+                <source>WCDMA</source>
+                <translation>WCDMA</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>CDMA2000</source>
+                <translation>CDMA2000</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>TD-SCDMA</source>
+                <translation>TD-SCDMA</translation>
+            </ItemText>
+            <Item>3</Item>
+            <ItemText>
+                <source>4G LTE</source>
+                <translation>4G LTE</translation>
+            </ItemText>
+            <Item>4</Item>
+            <ItemText>
+                <source>Custom</source>
+                <translation>Custom</translation>
+            </ItemText>		 		 
+		 </ConnectType4g>		 
+		 <ConsoleBaudRate>
+            <Item>1200</Item>
+            <ItemText>
+                <source>1200</source>
+                <translation>1200</translation>
+            </ItemText>   
+            <Item>2400</Item>
+            <ItemText>
+                <source>2400</source>
+                <translation>2400</translation>
+            </ItemText>   
+            <Item>4800</Item>        			  
+            <ItemText>
+                <source>4800</source>
+                <translation>4800</translation>
+            </ItemText>   
+            <Item>9600</Item>       		           
+            <ItemText>
+                <source>9600</source>
+                <translation>9600</translation>
+            </ItemText>   
+            <Item>19200</Item>                             
+            <ItemText>
+                <source>19200</source>
+                <translation>19200</translation>
+            </ItemText>   
+            <Item>38400</Item>                             
+            <ItemText>
+                <source>38400</source>
+                <translation>38400</translation>
+            </ItemText>   
+            <Item>57600</Item>                             
+            <ItemText>
+                <source>57600</source>
+                <translation>57600</translation>
+            </ItemText>   
+            <Item>115200</Item>                             
+            <ItemText>
+                <source>115200</source>
+                <translation>115200</translation>
+            </ItemText>   
+      		 </ConsoleBaudRate>
+		<ConsoleDataBit>
+            <Item>5</Item>
+            <ItemText>
+                <source>5</source>
+                <translation>5</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>6</source>
+                <translation>6</translation>
+            </ItemText>    
+            <Item>7</Item>		
+            <ItemText>
+                <source>7</source>
+                <translation>7</translation>
+            </ItemText>    
+            <Item>8</Item>
+            <ItemText>
+                <source>8</source>
+                <translation>8</translation>
+            </ItemText>   
+      		</ConsoleDataBit>
+		<ConsoleStopBit>
+            <Item>1</Item>
+            <ItemText>
+                <source>1</source>
+                <translation>1</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>2</source>
+                <translation>2</translation>
+            </ItemText>   
+      		</ConsoleStopBit>
+		<ConsoleParity>
+            <Item>0</Item>
+            <ItemText>
+                <source>None</source>
+                <translation>None</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Odd</source>
+                <translation>Odd</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Even</source>
+                <translation>Even</translation>
+            </ItemText>   
+        			 <Default>0</Default>
+     		 </ConsoleParity>
+		<ConsoleModeForDVR>
+			<Item>1</Item>
+			<ItemText>
+				<source>PTZ Control</source>
+				<translation>PTZ Control</translation>
+			</ItemText>
+			<Item>2</Item>
+			<ItemText>
+				<source>Keyboard</source>
+				<translation>Keyboard</translation>
+			</ItemText>
+			<Default>1</Default>
+		</ConsoleModeForDVR>		
+		<ConsoleModeForNVR>
+			<Item>2</Item>
+			<ItemText>
+				<source>Keyboard</source>
+				<translation>Keyboard</translation>
+			</ItemText>
+			<Default>2</Default>
+		</ConsoleModeForNVR>			
+		 <Resolution>
+            <Item>0</Item>
+            <ItemText>
+                <source>720*576/50Hz</source>
+                <translation>720*576/50Hz</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>720*480/60Hz</source>
+                <translation>720*480/60Hz</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>1280*720/24Hz</source>
+                <translation>1280*720/24Hz</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>1280*720/25Hz</source>
+                <translation>1280*720/25Hz</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>1280*720/30Hz</source>
+                <translation>1280*720/30Hz</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>1280*720/50Hz</source>
+                <translation>1280*720/50Hz</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>1280*720/60Hz</source>
+                <translation>1280*720/60Hz</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>1920*1080/48Hz(1080I)</source>
+                <translation>1920*1080/48Hz(1080I)</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>1920*1080/50Hz(1080I)</source>
+                <translation>1920*1080/50Hz(1080I)</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>1920*1080/60Hz(1080I)</source>
+                <translation>1920*1080/60Hz(1080I)</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>1920*1080/24Hz(1080P)</source>
+                <translation>1920*1080/24Hz(1080P)</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>1920*1080/25Hz(1080P)</source>
+                <translation>1920*1080/25Hz(1080P)</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>1920*1080/30Hz(1080P)</source>
+                <translation>1920*1080/30Hz(1080P)</translation>
+            </ItemText>   
+            <Item>13</Item>
+            <ItemText>
+                <source>1920*1080/50Hz(1080P)</source>
+                <translation>1920*1080/50Hz(1080P)</translation>
+            </ItemText>   
+            <Item>14</Item>
+            <ItemText>
+                <source>1920*1080/60Hz(1080P)</source>
+                <translation>1920*1080/60Hz(1080P)</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>1024*768/60Hz</source>
+                <translation>1024*768/60Hz</translation>
+            </ItemText>   
+            <Item>16</Item>
+            <ItemText>
+                <source>1280*1024/60Hz</source>
+                <translation>1280*1024/60Hz</translation>
+            </ItemText>   
+            <Item>17</Item>
+            <ItemText>
+                <source>1600*1200/60Hz</source>
+                <translation>1600*1200/60Hz</translation>
+            </ItemText>   
+            <Item>18</Item>
+            <ItemText>
+                <source>3840*2160/30Hz(4K)</source>
+                <translation>3840*2160/30Hz(4K)</translation>
+            </ItemText>   
+            <Item>19</Item>
+            <ItemText>
+                <source>3840*2160/60Hz(4K)</source>
+                <translation>3840*2160/60Hz(4K)</translation>
+            </ItemText>   
+     		 </Resolution>
+		 <PreMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>1 Window</source>
+                <translation>1 Window</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>4 Windows</source>
+                <translation>4 Windows</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>6 Windows</source>
+                <translation>6 Windows</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>8 Windows</source>
+                <translation>8 Windows</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>9 Windows</source>
+                <translation>9 Windows</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>16 Windows</source>
+                <translation>16 Windows</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>25 Windows</source>
+                <translation>25 Windows</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>36 Windows</source>
+                <translation>36 Windows</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>Corridor 3 Windows</source>
+                <translation>Corridor 3 Windows</translation>
+            </ItemText>        
+            <Item>9</Item>
+            <ItemText>
+                <source>Corridor 5 Windows</source>
+                <translation>Corridor 5 Windows</translation>
+            </ItemText>      
+            <Item>10</Item>
+            <ItemText>
+                <source>Corridor 7 Windows</source>
+                <translation>Corridor 7 Windows</translation>
+            </ItemText>      
+            <Item>11</Item>
+            <ItemText>
+                <source>64 Windows</source>
+                <translation>64 Windows</translation>
+            </ItemText>    
+            <Item>12</Item>
+            <ItemText>
+                <source>32 Windows</source>
+                <translation>32 Windows</translation>
+            </ItemText>     
+            <Item>14</Item>
+            <ItemText>
+                <source>Corridor 4 Windows</source>
+                <translation>Corridor 4 Windows</translation>
+            </ItemText>        
+            <Item>15</Item>
+            <ItemText>
+                <source>Corridor 9 Windows</source>
+                <translation>Corridor 9 Windows</translation>
+            </ItemText>      
+            <Item>16</Item>
+            <ItemText>
+                <source>Corridor 10 Windows</source>
+                <translation>Corridor 10 Windows</translation>
+            </ItemText>         
+            <Item>17</Item>
+            <ItemText>
+                <source>Corridor 12 Windows</source>
+                <translation>Corridor 12 Windows</translation>
+            </ItemText>        
+            <Item>18</Item>
+            <ItemText>
+                <source>Corridor 16 Windows</source>
+                <translation>Corridor 16 Windows</translation>
+            </ItemText> 
+            <Item>20</Item>
+            <ItemText>
+                <source>Corridor 16 Windows(All)</source>
+                <translation>Corridor 16 Windows(All)</translation>
+            </ItemText>
+            <Item>21</Item>
+            <ItemText>
+                <source>Corridor 32 Windows</source>
+                <translation>Corridor 32 Windows</translation>
+            </ItemText>			
+     		 </PreMode>
+		 <SreenSaveTime>
+            <Item>1</Item>
+            <ItemText>
+                <source>1</source>
+                <translation>1</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>5</source>
+                <translation>5</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>10</source>
+                <translation>10</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>15</source>
+                <translation>15</translation>
+            </ItemText>   
+            <Item>20</Item>
+            <ItemText>
+                <source>20</source>
+                <translation>20</translation>
+            </ItemText>   
+            <Item>25</Item>
+            <ItemText>
+                <source>25</source>
+                <translation>25</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>30</source>
+                <translation>30</translation>
+            </ItemText>   
+            <Item>0</Item>
+            <ItemText>
+                <source>Never</source>
+                <translation>Never</translation>
+            </ItemText>   
+     		 </SreenSaveTime>
+		 <NetWorkMode>
+            <Item>1</Item>
+            <ItemText>
+                <source>Multi-address</source>
+                <translation>Multi-address</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Load Balance</source>
+                <translation>Load Balance</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>Net Fault-tolerance</source>
+                <translation>Net Fault-tolerance</translation>
+            </ItemText>   
+     		 </NetWorkMode>
+		 <NICType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Adaptive</source>
+                <translation>Adaptive</translation>
+            </ItemText>   
+     		 </NICType>
+		 <IPv6Mode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Manual</source>
+                <translation>Manual</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>DHCP</source>
+                <translation>DHCP</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Router Advertisement</source>
+                <translation>Router Advertisement</translation>
+            </ItemText>   
+      </IPv6Mode>
+		<UserRole>
+            <Item>1</Item>
+            <ItemText>
+                <source>Operator</source>
+                <translation>Operator</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Guest</source>
+                <translation>Guest</translation>
+            </ItemText>   
+		</UserRole>
+<DefaultUserRole>
+            <Item>3</Item>
+            <ItemText>
+                <source>Reserved User</source>
+                <translation>Reserved User</translation>
+            </ItemText>   
+</DefaultUserRole>
+		<GuideRecordType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Motion Detection</source>
+                <translation>Motion Detection</translation>
+            </ItemText>   
+      		</GuideRecordType>
+		<AbnormalAlaram>
+            <Item>201</Item>
+            <ItemText>
+                <source>Storage Error</source>
+                <translation>Storage Error</translation>
+            </ItemText> 
+            <Item>203</Item>
+            <ItemText>
+                <source>Anti-disassembly Alarm</source>
+                <translation>Anti-disassembly Alarm</translation>
+            </ItemText>			
+            <Item>204</Item>
+            <ItemText>
+                <source>IP Conflict</source>
+                <translation>IP Conflict</translation>
+            </ItemText>   
+            <Item>205</Item>
+            <ItemText>
+                <source>Network Disconnected</source>
+                <translation>Network Disconnected</translation>
+            </ItemText>
+            <Item>206</Item>
+            <ItemText>
+                <source>Disk Offline</source>
+                <translation>Disk Offline</translation>
+            </ItemText> 
+            <Item>208</Item>
+            <ItemText>
+                <source>High CPU Temperature</source>
+                <translation>High CPU Temperature</translation>
+            </ItemText>
+            <Item>209</Item>
+            <ItemText>
+                <source>High Motherboard Temperature</source>
+                <translation>High Motherboard Temperature</translation>
+            </ItemText>		
+            <Item>403</Item>
+            <ItemText>
+                <source>Disk Abnormal</source>
+                <translation>Disk Abnormal</translation>
+            </ItemText>   
+            <Item>404</Item>
+            <ItemText>
+                <source>Illegal Access</source>
+                <translation>Illegal Access</translation>
+            </ItemText>			
+            <Item>410</Item>
+            <ItemText>
+                <source>Running Out of Space</source>
+                <translation>Running Out of Space</translation>
+            </ItemText>   
+            <Item>411</Item>
+            <ItemText>
+                <source>Space Used Up</source>
+                <translation>Space Used Up</translation>
+            </ItemText>      
+            <Item>417</Item>
+            <ItemText>
+                <source>Recording/Snapshot Abnormal</source>
+                <translation>Recording/Snapshot Abnormal</translation>
+            </ItemText>
+ 		</AbnormalAlaram>
+		<LogSubTypeAll>
+            <Item>257</Item>
+            <ItemText>
+                <source>All Types</source>
+                <translation>All Types</translation>
+            </ItemText>   
+		</LogSubTypeAll>
+		<LogSubTypeAlarm>
+            <Item>257</Item>
+            <ItemText>
+                <source>All Types</source>
+                <translation>All Types</translation>
+            </ItemText>   
+            <Item>350</Item>
+            <ItemText>
+                <source>Motion Detection Started</source>
+                <translation>Motion Detection Started</translation>
+            </ItemText>   
+            <Item>351</Item>
+            <ItemText>
+                <source>Motion Detection Ended</source>
+                <translation>Motion Detection Ended</translation>
+            </ItemText>   
+            <Item>352</Item>
+            <ItemText>
+                <source>Video Loss Started</source>
+                <translation>Video Loss Started</translation>
+            </ItemText>   
+            <Item>353</Item>
+            <ItemText>
+                <source>Video Loss Ended</source>
+                <translation>Video Loss Ended</translation>
+            </ItemText>   
+            <Item>354</Item>
+            <ItemText>
+                <source>Tampering Detection Started</source>
+                <translation>Tampering Detection Started</translation>
+            </ItemText>   
+            <Item>355</Item>
+            <ItemText>
+                <source>Tampering Detection Ended</source>
+                <translation>Tampering Detection Ended</translation>
+            </ItemText>   
+            <Item>356</Item>
+            <ItemText>
+                <source>Input Alarm Started</source>
+                <translation>Input Alarm Started</translation>
+            </ItemText>   
+            <Item>357</Item>
+            <ItemText>
+                <source>Input Alarm Ended</source>
+                <translation>Input Alarm Ended</translation>
+            </ItemText>   
+            <Item>360</Item>
+            <ItemText>
+                <source>Audio Detection Started</source>
+                <translation>Audio Detection Started</translation>
+            </ItemText>
+            <Item>361</Item>
+            <ItemText>
+                <source>Audio Detection Ended</source>
+                <translation>Audio Detection Ended</translation>
+            </ItemText>	     
+            <Item>362</Item>
+            <ItemText>
+                <source>Cross Line Detection Alarm</source>
+                <translation>Cross Line Detection Alarm</translation>
+            </ItemText>
+            <Item>363</Item>
+            <ItemText>
+                <source>Face Detection Alarm</source>
+                <translation>Face Detection Alarm</translation>
+            </ItemText>
+            <Item>364</Item>
+            <ItemText>
+                <source>Intrusion Detection Alarm</source>
+                <translation>Intrusion Detection Alarm</translation>
+            </ItemText>
+            <Item>368</Item>
+            <ItemText>
+                <source>POS Alarm</source>
+                <translation>POS Alarm</translation>
+            </ItemText>
+            <Item>370</Item>
+            <ItemText>
+                <source>Defocus Detection Started</source>
+                <translation>Defocus Detection Started</translation>
+            </ItemText>
+            <Item>371</Item>
+            <ItemText>
+                <source>Defocus Detection Ended</source>
+                <translation>Defocus Detection Ended</translation>
+            </ItemText>
+            <Item>372</Item>
+            <ItemText>
+                <source>Scene Change Alarm</source>
+                <translation>Scene Change Alarm</translation>
+            </ItemText>
+	    <Item>374</Item>
+            <ItemText>
+                <source>Auto Tracking Started</source>
+                <translation>Auto Tracking Started</translation>
+            </ItemText>
+	    <Item>375</Item>
+            <ItemText>
+                <source>Auto Tracking Ended</source>
+                <translation>Auto Tracking Ended</translation>
+            </ItemText>
+            <Item>376</Item>
+            <ItemText>
+                <source>Emergency Bell Alarm Started</source>
+                <translation>Emergency Bell Alarm Started</translation>
+            </ItemText>
+	   <Item>377</Item>
+            <ItemText>
+                <source>Emergency Bell Alarm Ended</source>
+                <translation>Emergency Bell Alarm Ended</translation>
+            </ItemText>
+            <Item>378</Item>
+            <ItemText>
+                <source>Face Recognition Blacklist Alarm Started</source>
+                <translation>Face Recognition Blacklist Alarm Started</translation>
+            </ItemText>
+            <Item>379</Item>
+            <ItemText>
+                <source>Face Recognition Blacklist Alarm Ended</source>
+                <translation>Face Recognition Blacklist Alarm Ended</translation>
+            </ItemText>
+            <Item>380</Item>
+            <ItemText>
+                <source>Face Recognition Whitelist Alarm Started</source>
+                <translation>Face Recognition Whitelist Alarm Started</translation>
+            </ItemText>
+            <Item>381</Item>
+            <ItemText>
+                <source>Face Recognition Whitelist Alarm Ended</source>
+                <translation>Face Recognition Whitelist Alarm Ended</translation>
+            </ItemText>
+</LogSubTypeAlarm>
+<LogSubTypeException>
+            <Item>257</Item>
+            <ItemText>
+                <source>All Types</source>
+                <translation>All Types</translation>
+            </ItemText>   
+            <Item>401</Item>
+            <ItemText>
+                <source>Disk Offline</source>
+                <translation>Disk Offline</translation>
+            </ItemText>   
+            <Item>402</Item>
+            <ItemText>
+                <source>Disk Abnormal</source>
+                <translation>Disk Abnormal</translation>
+            </ItemText>   
+            <Item>405</Item>
+            <ItemText>
+                <source>Scheduled Recording Failure</source>
+                <translation>Scheduled Recording Failure</translation>
+            </ItemText>   
+            <Item>406</Item>
+            <ItemText>
+                <source>Scheduled Recording Failure Cleared</source>
+                <translation>Scheduled Recording Failure Cleared</translation>
+            </ItemText>   
+            <Item>407</Item>
+            <ItemText>
+                <source>Illegal Access</source>
+                <translation>Illegal Access</translation>
+            </ItemText>   
+            <Item>408</Item>
+            <ItemText>
+                <source>IP Conflict</source>
+                <translation>IP Conflict</translation>
+            </ItemText>   
+            <Item>409</Item>
+            <ItemText>
+                <source>Network Disconnected</source>
+                <translation>Network Disconnected</translation>
+            </ItemText>   
+            <Item>415</Item>
+            <ItemText>
+                <source>Running Out of Recording Space</source>
+                <translation>Running Out of Recording Space</translation>
+            </ItemText>   
+            <Item>416</Item>
+            <ItemText>
+                <source>Running Out of Image Space</source>
+                <translation>Running Out of Image Space</translation>
+            </ItemText>   
+            <Item>417</Item>
+            <ItemText>
+                <source>Recording Space Used Up</source>
+                <translation>Recording Space Used Up</translation>
+            </ItemText>   
+            <Item>418</Item>
+            <ItemText>
+                <source>Image Space Used Up</source>
+                <translation>Image Space Used Up</translation>
+            </ItemText> 
+            <Item>419</Item>
+            <ItemText>
+                <source>Anti-disassembly Alarm</source>
+                <translation>Anti-disassembly Alarm</translation>
+            </ItemText>   
+            <Item>420</Item>
+            <ItemText>
+                <source>Anti-disassembly Alarm Cleared</source>
+                <translation>Anti-disassembly Alarm Cleared</translation>
+            </ItemText>
+            <Item>421</Item>
+            <ItemText>
+                <source>Array Damaged</source>
+                <translation>Array Damaged</translation>
+            </ItemText>   
+            <Item>422</Item>
+            <ItemText>
+                <source>Array Degraded</source>
+                <translation>Array Degraded</translation>
+            </ItemText>     
+            <Item>423</Item>
+            <ItemText>
+                <source>Recording/Snapshot Abnormal</source>
+                <translation>Recording/Snapshot Abnormal</translation>
+            </ItemText>
+            <Item>424</Item>
+            <ItemText>
+                <source>Network Disconnected Cleared</source>
+                <translation>Network Disconnected Cleared</translation>
+            </ItemText>
+            <Item>425</Item>
+            <ItemText>
+                <source>IP Conflict Cleared</source>
+                <translation>IP Conflict Cleared</translation>
+            </ItemText>
+	    <Item>426</Item>
+            <ItemText>
+                <source>High CPU Temperature Alarm</source>
+                <translation>High CPU Temperature Alarm</translation>
+            </ItemText>     
+            <Item>427</Item>
+            <ItemText>
+                <source>High CPU Temperature Alarm Cleared</source>
+                <translation>High CPU Temperature Alarm Cleared</translation>
+            </ItemText>
+            <Item>428</Item>
+            <ItemText>
+                <source>High Motherboard Temperature Alarm</source>
+                <translation>High Motherboard Temperature Alarm</translation>
+            </ItemText>
+            <Item>429</Item>
+            <ItemText>
+                <source>High Motherboard Temperature Alarm Cleared</source>
+                <translation>High Motherboard Temperature Alarm Cleared</translation>
+            </ItemText>
+		</LogSubTypeException>
+		<LogSubTypeOperation>
+            <Item>257</Item>
+            <ItemText>
+                <source>All Types</source>
+                <translation>All Types</translation>
+            </ItemText>   
+            <Item>450</Item>
+            <ItemText>
+                <source>Login</source>
+                <translation>Login</translation>
+            </ItemText>   
+            <Item>451</Item>
+            <ItemText>
+                <source>Logout</source>
+                <translation>Logout</translation>
+            </ItemText>   
+            <Item>452</Item>
+            <ItemText>
+                <source>Add User</source>
+                <translation>Add User</translation>
+            </ItemText>   
+            <Item>453</Item>
+            <ItemText>
+                <source>Delete User</source>
+                <translation>Delete User</translation>
+            </ItemText>   
+            <Item>454</Item>
+            <ItemText>
+                <source>Modify User</source>
+                <translation>Modify User</translation>
+            </ItemText>   
+            <Item>455</Item>
+            <ItemText>
+                <source>Start Recording</source>
+                <translation>Start Recording</translation>
+            </ItemText>   
+            <Item>456</Item>
+            <ItemText>
+                <source>End Recording</source>
+                <translation>End Recording</translation>
+            </ItemText>   
+            <Item>457</Item>
+            <ItemText>
+                <source>Playback/Download</source>
+                <translation>Playback/Download</translation>
+            </ItemText>   
+            <Item>458</Item>
+            <ItemText>
+                <source>Download</source>
+                <translation>Download</translation>
+            </ItemText>   
+            <Item>459</Item>
+            <ItemText>
+                <source>Control PTZ</source>
+                <translation>Control PTZ</translation>
+            </ItemText>   
+            <Item>460</Item>
+            <ItemText>
+                <source>Preview Live View</source>
+                <translation>Preview Live View</translation>
+            </ItemText>   
+            <Item>461</Item>
+            <ItemText>
+                <source>Start Patrol Recording</source>
+                <translation>Start Patrol Recording</translation>
+            </ItemText>   
+            <Item>462</Item>
+            <ItemText>
+                <source>End Patrol Recording</source>
+                <translation>End Patrol Recording</translation>
+            </ItemText>   
+            <Item>463</Item>
+            <ItemText>
+                <source>Start Two-Way Audio</source>
+                <translation>Start Two-Way Audio</translation>
+            </ItemText>   
+            <Item>464</Item>
+            <ItemText>
+                <source>Stop Two-Way Audio</source>
+                <translation>Stop Two-Way Audio</translation>
+            </ItemText>   
+            <Item>465</Item>
+            <ItemText>
+                <source>Add IP Camera</source>
+                <translation>Add IP Camera</translation>
+            </ItemText>   
+            <Item>466</Item>
+            <ItemText>
+                <source>Delete IP Camera</source>
+                <translation>Delete IP Camera</translation>
+            </ItemText>   
+            <Item>467</Item>
+            <ItemText>
+                <source>Modify IP Camera</source>
+                <translation>Modify IP Camera</translation>
+            </ItemText>   
+            <Item>468</Item>
+            <ItemText>
+                <source>Quick Search IP Camera</source>
+                <translation>Quick Search IP Camera</translation>
+            </ItemText>   
+            <Item>469</Item>
+            <ItemText>
+                <source>Search IP Camera by Network Segment</source>
+                <translation>Search IP Camera by Network Segment</translation>
+            </ItemText>   
+            <Item>470</Item>
+            <ItemText>
+                <source>Modify IP Camera Addr.</source>
+                <translation>Modify IP Camera Addr.</translation>
+            </ItemText>   
+            <Item>471</Item>
+            <ItemText>
+                <source>Set Auto-Add IP Camera </source>
+                <translation>Set Auto-Add IP Camera </translation>
+            </ItemText>   
+            <Item>472</Item>
+            <ItemText>
+                <source>Recording Backup</source>
+                <translation>Recording Backup</translation>
+            </ItemText>
+            <Item>473</Item>
+            <ItemText>
+	        <source>Set Audio Detection</source>
+		<translation>Set Audio Detection</translation>
+            </ItemText> 	
+            <Item>474</Item>
+            <ItemText>
+		<source>Search Extended Disk</source>
+		<translation>Search Extended Disk</translation>
+            </ItemText>
+            <Item>475</Item>
+            <ItemText>
+		<source>Add Extended Disk</source>
+		<translation>Add Extended Disk</translation>
+            </ItemText>
+            <Item>476</Item>
+            <ItemText>
+		<source>Delete Extended Disk</source>
+		<translation>Delete Extended Disk</translation>
+            </ItemText>
+            <Item>477</Item>
+            <ItemText>
+		<source>Set Extended Disk</source>
+		<translation>Set Extended Disk</translation>
+            </ItemText>
+            <Item>478</Item>
+            <ItemText>
+                <source>Live View by Multicast</source>
+                <translation>Live View by Multicast</translation>
+            </ItemText>
+       <Item>479</Item>
+            <ItemText>
+                <source>Mount Extended Disk</source>
+                <translation>Mount Extended Disk</translation>
+            </ItemText>
+	    <Item>480</Item>
+            <ItemText>
+                <source>Unmount Extended Disk</source>
+                <translation>Unmount Extended Disk</translation>
+            </ItemText>
+            <Item>481</Item>
+            <ItemText>
+                <source>Force User Offline</source>
+                <translation>Force User Offline</translation>
+            </ItemText>	            
+            <Item>500</Item>
+            <ItemText>
+                <source>Set Basic Device Info</source>
+                <translation>Set Basic Device Info</translation>
+            </ItemText>   
+            <Item>501</Item>
+            <ItemText>
+                <source>Set Device Time</source>
+                <translation>Set Device Time</translation>
+            </ItemText>   
+            <Item>502</Item>
+            <ItemText>
+                <source>Set Device Serial</source>
+                <translation>Set Device Serial</translation>
+            </ItemText>   
+            <Item>503</Item>
+            <ItemText>
+                <source>Set OSD</source>
+                <translation>Set OSD</translation>
+            </ItemText>   
+            <Item>504</Item>
+            <ItemText>
+                <source>Set Camera Name</source>
+                <translation>Set Camera Name</translation>
+            </ItemText>   
+            <Item>505</Item>
+            <ItemText>
+                <source>Set Video Encoding</source>
+                <translation>Set Video Encoding</translation>
+            </ItemText>   
+            <Item>506</Item>
+            <ItemText>
+                <source>Set Image Parameters</source>
+                <translation>Set Image Parameters</translation>
+            </ItemText>   
+            <Item>507</Item>
+            <ItemText>
+                <source>Set PTZ</source>
+                <translation>Set PTZ</translation>
+            </ItemText>   
+            <Item>508</Item>
+            <ItemText>
+                <source>Set Preset Patrol</source>
+                <translation>Set Preset Patrol</translation>
+            </ItemText>   
+            <Item>509</Item>
+            <ItemText>
+                <source>Set Preset</source>
+                <translation>Set Preset</translation>
+            </ItemText>   
+            <Item>510</Item>
+            <ItemText>
+                <source>Set Recording Schedule</source>
+                <translation>Set Recording Schedule</translation>
+            </ItemText>   
+            <Item>511</Item>
+            <ItemText>
+                <source>Set Motion Detection</source>
+                <translation>Set Motion Detection</translation>
+            </ItemText>   
+            <Item>512</Item>
+            <ItemText>
+                <source>Set Video Loss</source>
+                <translation>Set Video Loss</translation>
+            </ItemText>   
+            <Item>513</Item>
+            <ItemText>
+                <source>Set Video Tampering</source>
+                <translation>Set Video Tampering</translation>
+            </ItemText>   
+            <Item>514</Item>
+            <ItemText>
+                <source>Set Privacy Mask</source>
+                <translation>Set Privacy Mask</translation>
+            </ItemText>   
+            <Item>515</Item>
+            <ItemText>
+                <source>Set OSD Content</source>
+                <translation>Set OSD Content</translation>
+            </ItemText>   
+            <Item>516</Item>
+            <ItemText>
+                <source>Set Alarm Input</source>
+                <translation>Set Alarm Input</translation>
+            </ItemText>   
+            <Item>517</Item>
+            <ItemText>
+                <source>Set Alarm Output</source>
+                <translation>Set Alarm Output</translation>
+            </ItemText>   
+            <Item>518</Item>
+            <ItemText>
+                <source>Enable Alarm Output</source>
+                <translation>Enable Alarm Output</translation>
+            </ItemText>   
+            <Item>519</Item>
+            <ItemText>
+                <source>Disable Alarm Output</source>
+                <translation>Disable Alarm Output</translation>
+            </ItemText>   
+            <Item>520</Item>
+            <ItemText>
+                <source>Alert</source>
+                <translation>Alert</translation>
+            </ItemText>   
+            <Item>521</Item>
+            <ItemText>
+                <source>Set Hard Disk</source>
+                <translation>Set Hard Disk</translation>
+            </ItemText>   
+            <Item>522</Item>
+            <ItemText>
+                <source>Set TCP/IP</source>
+                <translation>Set TCP/IP</translation>
+            </ItemText>   
+            <Item>523</Item>
+            <ItemText>
+                <source>Set PPPoE</source>
+                <translation>Set PPPoE</translation>
+            </ItemText>   
+            <Item>524</Item>
+            <ItemText>
+                <source>Set Port</source>
+                <translation>Set Port</translation>
+            </ItemText>   
+            <Item>526</Item>
+            <ItemText>
+                <source>Set Preview</source>
+                <translation>Set Preview</translation>
+            </ItemText>   
+            <Item>527</Item>
+            <ItemText>
+                <source>Set Email</source>
+                <translation>Set Email</translation>
+            </ItemText>   
+            <Item>528</Item>
+            <ItemText>
+                <source>Test Email</source>
+                <translation>Test Email</translation>
+            </ItemText>   
+            <Item>529</Item>
+            <ItemText>
+                <source>Set IP Control</source>
+                <translation>Set IP Control</translation>
+            </ItemText>   
+            <Item>530</Item>
+            <ItemText>
+                <source>Set Port Mapping</source>
+                <translation>Set Port Mapping</translation>
+            </ItemText>   
+ 
+            <Item>531</Item>
+            <ItemText>
+                <source>Add Tag</source>
+                <translation>Add Tag</translation>
+            </ItemText>   
+            <Item>532</Item>
+            <ItemText>
+                <source>Delete Tag</source>
+                <translation>Delete Tag</translation>
+            </ItemText>   
+            <Item>533</Item>
+            <ItemText>
+                <source>Modify Tag</source>
+                <translation>Modify Tag</translation>
+            </ItemText>   
+            <Item>534</Item>
+            <ItemText>
+                <source>Lock Recording</source>
+                <translation>Lock Recording</translation>
+            </ItemText>   
+            <Item>535</Item>
+            <ItemText>
+                <source>Unlock Recording</source>
+                <translation>Unlock Recording</translation>
+            </ItemText>   
+            <Item>536</Item>
+            <ItemText>
+                <source>DDNS Configuration</source>
+                <translation>DDNS Configuration</translation>
+            </ItemText>
+            <Item>537</Item>
+            <ItemText>
+                <source>DDNS Update Succeeded</source>
+                <translation>DDNS Update Succeeded</translation>
+            </ItemText>
+            <Item>538</Item>
+            <ItemText>
+                <source>DDNS Update Failed Due to Incorrect Username or Password</source>
+                <translation>DDNS Update Failed Due to Incorrect Username or Password</translation>
+            </ItemText>
+            <Item>539</Item>
+            <ItemText>
+                <source>DDNS Update Failed. The Domain Name Doesn't Exist</source>
+                <translation>DDNS Update Failed. The Domain Name Doesn't Exist</translation>
+            </ItemText>
+            <Item>540</Item>
+            <ItemText>
+                <source>DDNS Update Failed</source>
+                <translation>DDNS Update Failed</translation>
+            </ItemText>   
+            <Item>541</Item>
+            <ItemText>
+                <source>Set HTTPS</source>
+                <translation>Set HTTPS</translation>
+            </ItemText>   
+            <Item>543</Item>
+            <ItemText>
+                <source>Set Telnet</source>
+                <translation>Set Telnet</translation>
+            </ItemText>
+            <Item>544</Item>
+            <ItemText>
+                <source>DDNS Domain Name Test</source>
+                <translation>DDNS Domain Name Test</translation>
+            </ItemText>
+            <Item>545</Item>
+            <ItemText>
+                <source>DDNS Domain Name Conflict</source>
+                <translation>DDNS Domain Name Conflict</translation>
+            </ItemText> 
+            <Item>546</Item>
+            <ItemText>
+                <source>Invalid DDNS Domain Name</source>
+                <translation>Invalid DDNS Domain Name</translation>
+            </ItemText>
+	    <Item>547</Item>
+            <ItemText>
+                <source>Delete Preset</source>
+                <translation>Delete Preset</translation>
+            </ItemText>
+            <Item>551</Item>
+            <ItemText>
+                <source>PTZ 3D Positioning</source>
+                <translation>PTZ 3D Positioning</translation>
+            </ItemText>
+	<Item>552</Item>
+	<ItemText>
+		<source>Set Snapshot Schedule</source>
+		<translation>Set Snapshot Schedule</translation>
+	</ItemText>
+	<Item>553</Item>
+	<ItemText>
+		<source>Set Image Upload Schedule</source>
+		<translation>Set Image Upload Schedule</translation>
+	</ItemText>
+	<Item>554</Item>
+	<ItemText>
+		<source>Set FTP Server</source>
+		<translation>Set FTP Server</translation>
+	</ItemText>
+	<Item>555</Item>
+	<ItemText>
+		<source>Test FTP Server Connection</source>
+		<translation>Test FTP Server Connection</translation>
+	</ItemText>
+	<Item>556</Item>
+	<ItemText>
+		<source>Start Manual Snapshot</source>
+		<translation>Start Manual Snapshot</translation>
+	</ItemText>
+	<Item>557</Item>
+	<ItemText>
+		<source>Stop Manual Snapshot</source>
+		<translation>Stop Manual Snapshot</translation>
+	</ItemText>
+	<Item>558</Item>
+	<ItemText>
+		<source>Set Snapshot</source>
+		<translation>Set Snapshot</translation>
+	</ItemText>
+            <Item>559</Item>
+            <ItemText>
+                <source>Add Holiday</source>
+                <translation>Add Holiday</translation>
+            </ItemText>
+            <Item>560</Item>
+            <ItemText>
+                <source>Delete Holiday</source>
+                <translation>Delete Holiday</translation>
+            </ItemText>
+            <Item>561</Item>
+            <ItemText>
+                <source>Modify Holiday</source>
+                <translation>Modify Holiday</translation>
+            </ItemText>  
+            <Item>562</Item>
+            <ItemText>
+                <source>Enable/Disable Holiday</source>
+                <translation>Enable/Disable Holiday</translation>
+            </ItemText>
+	    <Item>563</Item>
+            <ItemText>
+                <source>Allocate Space</source>
+                <translation>Allocate Space</translation>
+            </ItemText>   
+            <Item>564</Item>
+            <ItemText>
+                <source>HDD Full Policy Configuration</source>
+                <translation>HDD Full Policy Configuration</translation>
+            </ItemText>
+            <Item>565</Item>
+            <ItemText>
+                <source>Set Audio Stream</source>
+                <translation>Set Audio Stream</translation>
+            </ItemText>
+            <Item>566</Item>
+            <ItemText>
+                <source>Set Array Property</source>
+                <translation>Set Array Property</translation>
+            </ItemText>   
+            <Item>567</Item>
+            <ItemText>
+                <source>Set Hot Spare Disk</source>
+                <translation>Set Hot Spare Disk</translation>
+            </ItemText>   
+            <Item>568</Item>
+            <ItemText>
+                <source>Create Array</source>
+                <translation>Create Array</translation>
+            </ItemText>   
+            <Item>569</Item>
+            <ItemText>
+                <source>Create Array by One-Click</source>
+                <translation>Create Array by One-Click</translation>
+            </ItemText>   
+            <Item>570</Item>
+            <ItemText>
+                <source>Rebuild Array</source>
+                <translation>Rebuild Array</translation>
+            </ItemText>   
+            <Item>571</Item>
+            <ItemText>
+                <source>Delete Array</source>
+                <translation>Delete Array</translation>
+            </ItemText>   
+            <Item>572</Item>
+            <ItemText>
+                <source>Enable RAID</source>
+                <translation>Enable RAID</translation>
+            </ItemText>   
+            <Item>573</Item>
+            <ItemText>
+                <source>Disable RAID</source>
+                <translation>Disable RAID</translation>
+            </ItemText> 
+            <Item>574</Item>
+            <ItemText>
+                <source>S.M.A.R.T. Test</source>
+                <translation>S.M.A.R.T. Test</translation>
+            </ItemText> 
+            <Item>575</Item>
+            <ItemText>
+                <source>Set S.M.A.R.T.</source>
+                <translation>Set S.M.A.R.T.</translation>
+            </ItemText> 
+            <Item>576</Item>
+            <ItemText>
+                <source>Detect Bad Sector</source>
+                <translation>Detect Bad Sector</translation>
+            </ItemText> 		   
+            <Item>577</Item>
+            <ItemText>
+                <source>Set Audio Alarm Duration</source>
+                <translation>Set Audio Alarm Duration</translation>
+            </ItemText>
+            <Item>578</Item>
+            <ItemText>
+                <source>Clear Audio Alarm</source>
+                <translation>Clear Audio Alarm</translation>
+           </ItemText>
+           <Item>581</Item>
+            <ItemText>
+                <source>Set Camera Time Sync</source>
+                <translation>Set Camera Time Sync</translation>
+            </ItemText>
+            <Item>582</Item>
+            <ItemText>
+                <source>Enable Disk Group</source>
+                <translation>Enable Disk Group</translation>
+            </ItemText>
+            <Item>583</Item>
+            <ItemText>
+                <source>Disable Disk Group</source>
+                <translation>Disable Disk Group</translation>
+            </ItemText>
+            <Item>584</Item>
+            <ItemText>
+                <source>Set ONVIF Authentication</source>
+                <translation>Set ONVIF Authentication</translation>
+            </ItemText> 
+            <Item>585</Item>
+            <ItemText>
+                <source>Set 802.1x</source>
+                <translation>Set 802.1x</translation>
+            </ItemText>  
+            <Item>586</Item>
+            <ItemText>
+                <source>Set ARP Protection</source>
+                <translation>Set ARP Protection</translation>
+            </ItemText>
+			<Item>587</Item>
+            <ItemText>
+                <source>Set VCA Basic Information</source>
+                <translation>Set VCA Basic Information</translation>
+            </ItemText>
+			<Item>588</Item>
+            <ItemText>
+                <source>Set Cross Line Detection</source>
+                <translation>Set Cross Line Detection</translation>
+            </ItemText>  
+			<Item>589</Item>
+            <ItemText>
+                <source>Set Intrusion Detection</source>
+                <translation>Set Intrusion Detection</translation>
+            </ItemText>  
+			<Item>590</Item>
+            <ItemText>
+                <source>Set People Counting</source>
+                <translation>Set People Counting</translation>
+            </ItemText>  
+			<Item>591</Item>
+            <ItemText>
+                <source>Set Face Detection</source>
+                <translation>Set Face Detection</translation>
+            </ItemText>  			           
+            <Item>593</Item>
+            <ItemText>
+                <source>Set Fisheye</source>
+                <translation>Set Fisheye</translation>
+            </ItemText>
+            <Item>594</Item>
+            <ItemText>
+                <source>Custom Protocol</source>
+                <translation>Custom Protocol</translation>
+            </ItemText>
+            <Item>595</Item>
+            <ItemText>
+                <source>Behavior Search</source>
+                <translation>Behavior Search</translation>
+            </ItemText>  
+            <Item>596</Item>
+            <ItemText>
+                <source>Face Search</source>
+                <translation>Face Search</translation>
+            </ItemText>  
+            <Item>597</Item>
+            <ItemText>
+                <source>People Counting</source>
+                <translation>People Counting</translation>
+            </ItemText>  
+            <Item>598</Item>
+            <ItemText>
+                <source>VCA Backup</source>
+                <translation>VCA Backup</translation>
+            </ItemText>
+            <Item>599</Item>
+            <ItemText>
+                <source>3G/4G Configuration</source>
+                <translation>3G/4G Configuration</translation>
+            </ItemText> 			           
+            <Item>600</Item>
+            <ItemText>
+                <source>Start Up Device</source>
+                <translation>Start Up Device</translation>
+            </ItemText>   
+            <Item>601</Item>
+            <ItemText>
+                <source>Shut Down Device</source>
+                <translation>Shut Down Device</translation>
+            </ItemText>   
+            <Item>602</Item>
+            <ItemText>
+                <source>Restart Device </source>
+                <translation>Restart Device </translation>
+            </ItemText>   
+            <Item>603</Item>
+            <ItemText>
+                <source>Upgrade Version</source>
+                <translation>Upgrade Version</translation>
+            </ItemText>   
+            <Item>604</Item>
+            <ItemText>
+                <source>Export Diagnosis Infor</source>
+                <translation>Export Diagnosis Infor</translation>
+            </ItemText>   
+            <Item>605</Item>
+            <ItemText>
+                <source>Export Configuration File</source>
+                <translation>Export Configuration File</translation>
+            </ItemText>   
+            <Item>606</Item>
+            <ItemText>
+                <source>Import Configuration File</source>
+                <translation>Import Configuration File</translation>
+            </ItemText>   
+            <Item>607</Item>
+            <ItemText>
+                <source>Restore Default</source>
+                <translation>Restore Default</translation>
+            </ItemText>   
+            <Item>608</Item>
+            <ItemText>
+                <source>Restore Factory Default</source>
+                <translation>Restore Factory Default</translation>
+            </ItemText>   
+            <Item>609</Item>
+            <ItemText>
+                <source>Auto-Function</source>
+                <translation>Auto-Function</translation>
+           </ItemText>  
+            <Item>610</Item>
+            <ItemText>
+		<source>Upgrade Camera</source>
+		<translation>Upgrade Camera</translation> 
+            </ItemText>  
+	    <Item>611</Item>
+            <ItemText>
+		<source>Restore Camera Defaults</source>
+		<translation>Restore Camera Defaults</translation>
+            </ItemText>	
+		<Item>612</Item>
+            <ItemText>
+                <source>Add Transaction Settings</source>
+                <translation>Add Transaction Settings</translation>
+            </ItemText>  
+        <Item>613</Item>
+            <ItemText>
+                <source>Modify Transaction Settings</source>
+                <translation>Modify Transaction Settings</translation>
+            </ItemText>  
+        <Item>614</Item>
+            <ItemText>
+                <source>Delete Transaction Settings</source>
+                <translation>Delete Transaction Settings</translation>
+            </ItemText>  
+        <Item>615</Item>
+            <ItemText>
+                <source>Set POS OSD</source>
+                <translation>Set POS OSD</translation>
+            </ItemText>
+       <Item>618</Item>
+            <ItemText>
+                <source>Export History Diagnosis Info</source>
+                <translation>Export History Diagnosis Info</translation>
+            </ItemText>
+           <Item>700</Item>
+            <ItemText>
+                <source>Add Hot Spare Device</source>
+                <translation>Add Hot Spare Device</translation>
+            </ItemText> 
+           <Item>701</Item>
+            <ItemText>
+                <source>Delete Hot Spare Device</source>
+                <translation>Delete Hot Spare Device</translation>
+            </ItemText> 
+            <Item>702</Item>
+            <ItemText>
+                <source>Modify Hot Spare Device</source>
+                <translation>Modify Hot Spare Device</translation>
+            </ItemText> 
+            <Item>703</Item>
+            <ItemText>
+                <source>Delete Working Device</source>
+                <translation>Delete Working Device</translation>
+            </ItemText> 
+            <Item>704</Item>
+            <ItemText>
+                <source>Set Working Mode to Normal</source>
+                <translation>Set Working Mode to Normal</translation>
+            </ItemText> 
+           <Item>705</Item>
+            <ItemText>
+                <source>Set Working Mode to Hot Spare</source>
+                <translation>Set Working Mode to Hot Spare</translation>
+            </ItemText>
+     	    <Item>706</Item>
+            <ItemText>
+				<source>Set Auto Guard</source>
+				<translation>Set Auto Guard</translation>
+            </ItemText>                        
+            <Item>707</Item>
+            <ItemText>
+                <source>Set Multicast</source>
+                <translation>Set Multicast</translation>
+            </ItemText>          
+	    <Item>708</Item>
+            <ItemText>
+                <source>Set Defocus Detection</source>
+                <translation>Set Defocus Detection</translation>
+            </ItemText>
+	    <Item>709</Item>
+            <ItemText>
+                <source>Set Scene Change Detection</source>
+                <translation>Set Scene Change Detection</translation>
+            </ItemText>
+            <Item>711</Item>
+            <ItemText>
+                <source>Set Auto Tracking</source>
+                <translation>Set Auto Tracking</translation>
+            </ItemText>			
+	    <Item>712</Item>
+            <ItemText>
+                <source>Sort Camera</source>
+                <translation>Sort Camera</translation>
+            </ItemText> 
+      <Item>713</Item>
+            <ItemText>
+                <source>Set Watermark</source>
+                <translation>Set Watermark</translation>
+            </ItemText>	
+        <Item>716</Item>
+            <ItemText>
+                <source>Set Secure Password</source>
+                <translation>Set Secure Password</translation>
+            </ItemText>                        
+            <Item>717</Item>
+            <ItemText>
+                <source>Set Emergency Bell</source>
+                <translation>Set Emergency Bell</translation>
+            </ItemText>
+	    <Item>718</Item>
+            <ItemText>
+                <source>Set Face List</source>
+                <translation>Set Face List</translation>
+            </ItemText>
+	    <Item>719</Item>
+            <ItemText>
+                <source>Set List Member</source>
+                <translation>Set List Member</translation>
+            </ItemText>
+	    <Item>720</Item>
+            <ItemText>
+                <source>Set Monitoring</source>
+                <translation>Set Monitoring</translation>
+            </ItemText>
+   <Item>721</Item>
+            <ItemText>
+                <source>Disable Exclusive Smart Function</source>
+                <translation>Disable Exclusive Smart Function</translation>
+            </ItemText>
+	</LogSubTypeOperation>
+	<LogSubTypeNotification>
+            <Item>257</Item>
+            <ItemText>
+                <source>All Types</source>
+                <translation>All Types</translation>
+            </ItemText>   
+            <Item>400</Item>
+            <ItemText>
+                <source>Disk Online</source>
+                <translation>Disk Online</translation>
+            </ItemText>   
+            <Item>304</Item>
+            <ItemText>
+                <source>Camera Online</source>
+                <translation>Camera Online</translation>
+            </ItemText>   
+            <Item>305</Item>
+            <ItemText>
+                <source>Camera Offline</source>
+                <translation>Camera Offline</translation>
+            </ItemText>   
+            <Item>306</Item>
+            <ItemText>
+                <source>Array Recovered</source>
+                <translation>Array Recovered</translation>
+            </ItemText>   
+            <Item>307</Item>
+            <ItemText>
+                <source>Initialize Array</source>
+                <translation>Initialize Array</translation>
+            </ItemText>   
+            <Item>308</Item>
+            <ItemText>
+                <source>Rebuild Array</source>
+                <translation>Rebuild Array</translation>
+            </ItemText>   
+	    <Item>309</Item>
+            <ItemText>
+                <source>PoE Port Status</source>
+                <translation>PoE Port Status</translation>
+            </ItemText>   
+            <Item>310</Item>
+            <ItemText>
+                <source>Network Port Status</source>
+                <translation>Network Port Status</translation>
+            </ItemText>
+		</LogSubTypeNotification>
+<LogExportFormat>
+            <Item>0</Item>
+            <ItemText>
+                <source>*.CSV</source>
+                <translation>*.CSV</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>*.TXT</source>
+                <translation>*.TXT</translation>
+            </ItemText>      
+</LogExportFormat>
+		<DDNSType>
+            <Item>0</Item>
+            <ItemText>
+                <source>DynDNS</source>
+                <translation>DynDNS</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>No-IP</source>
+                <translation>No-IP</translation>
+            </ItemText> 
+            <Item>2</Item>
+            <ItemText>
+                <source>EZDDNS</source>
+                <translation>EZDDNS</translation>
+            </ItemText>  
+            <Item>16</Item>
+            <ItemText>
+                <source>HDCCTVDDNS</source>
+                <translation>HDCCTVDDNS</translation>
+            </ItemText>  
+           <Item>17</Item>
+	   <ItemText>
+		<source>HOMMAX-DDNS</source>
+		<translation>HOMMAX-DDNS</translation>
+            </ItemText> 
+            <Item>18</Item>
+            <ItemText>
+                <source>WATASHIDDNS</source>
+                <translation>WATASHIDDNS</translation>
+            </ItemText>		   
+            <Item>19</Item>
+            <ItemText>
+                <source>CP PLUS DDNS</source>
+                <translation>CP PLUS DDNS</translation>
+            </ItemText>		
+	    <Item>20</Item>
+            <ItemText>
+                <source>Look DDNS</source>
+                <translation>Look DDNS</translation>
+            </ItemText>
+	    <Item>21</Item>
+            <ItemText>
+                <source>EUDDNS</source>
+                <translation>EUDDNS</translation>
+            </ItemText>
+	    <Item>22</Item>
+            <ItemText>
+                <source>autoipset</source>
+                <translation>autoipset</translation>
+            </ItemText>
+	    <Item>23</Item>
+            <ItemText>
+                <source>Eclipse DDNS</source>
+                <translation>Eclipse DDNS</translation>
+            </ItemText>
+           <Item>24</Item>
+            <ItemText>
+                <source>FujikoDDNS</source>
+                <translation>FujikoDDNS</translation>
+            </ItemText>
+	    <Item>25</Item>
+            <ItemText>
+                <source>TelView DDNS</source>
+                <translation>TelView DDNS</translation>
+            </ItemText>      
+</DDNSType>
+<UPnPType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Auto</source>
+                <translation>Auto</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Manual</source>
+                <translation>Manual</translation>
+            </ItemText>   
+		</UPnPType>
+ 
+		<IPLimitType>
+            <Item>1</Item>
+            <ItemText>
+                <source>Blacklist</source>
+                <translation>Blacklist</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Whitelist</source>
+                <translation>Whitelist</translation>
+            </ItemText>
+		</IPLimitType>
+		<GBTransType>
+			<Item>0</Item>
+			<ItemText>
+				<source>UDP</source>
+				<translation>UDP</translation>
+			</ItemText>
+			<Item>1</Item>
+			<ItemText>
+				<source>TCP</source>
+				<translation>TCP</translation>
+			</ItemText>
+		</GBTransType>
+		<GBAlarmLevel>
+			<Item>1</Item>
+			<ItemText>
+				<source>Level 1</source>
+				<translation>Level 1</translation>
+			</ItemText>
+			<Item>2</Item>
+			<ItemText>
+				<source>Level 2</source>
+				<translation>Level 2</translation>
+			</ItemText>
+			<Item>3</Item>
+			<ItemText>
+				<source>Level 3</source>
+				<translation>Level 3</translation>
+			</ItemText>
+			<Item>4</Item>
+			<ItemText>
+				<source>Level 4</source>
+				<translation>Level 4</translation>
+			</ItemText>
+		</GBAlarmLevel>		
+		<PlayBackType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Corridor</source>
+                <translation>Corridor</translation>
+            </ItemText>    
+            <Item>2</Item>
+            <ItemText>
+                <source>Tag</source>
+                <translation>Tag</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>Event</source>
+                <translation>Event</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>Smart</source>
+                <translation>Smart</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>External File</source>
+                <translation>External File</translation>
+            </ItemText>   
+		<Item>6</Item>
+		<ItemText>
+			<source>Image</source>
+			<translation>Image</translation>
+		</ItemText>
+		<Item>7</Item>
+		<ItemText>
+			<source>POS</source>
+			<translation>POS</translation>
+		</ItemText>
+		</PlayBackType>
+           <StreamType>
+            <Item>0</Item>
+            <ItemText>
+                <source>High Definition</source>
+                <translation>High Definition</translation>
+            </ItemText>   
+           <Item>2</Item>
+            <ItemText>
+                <source>Standard Definition</source>
+                <translation>Standard Definition</translation>
+            </ItemText>  
+        </StreamType>
+		<SceneMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Custom</source>
+                <translation>Custom</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Indoor</source>
+                <translation>Indoor</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>General</source>
+                <translation>General</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>License Plate</source>
+                <translation>License Plate</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>Starlight</source>
+                <translation>Starlight</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Test</source>
+                <translation>Test</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>Highly Sensitive</source>
+                <translation>Highly Sensitive</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>Road Highlight Compensation</source>
+                <translation>Road Highlight Compensation</translation>
+            </ItemText> 
+            <Item>8</Item>
+            <ItemText>
+                <source>WDR</source>
+                <translation>WDR</translation>
+            </ItemText>
+            <Item>9</Item>
+            <ItemText>
+                <source>Standard</source>
+                <translation>Standard</translation>
+            </ItemText>
+            <Item>10</Item>
+            <ItemText>
+                <source>Bright</source>
+                <translation>Bright</translation>
+            </ItemText>
+            <Item>11</Item>
+            <ItemText>
+                <source>Vivid</source>
+                <translation>Vivid</translation>
+            </ItemText>
+            <Item>12</Item>
+            <ItemText>
+                <source>Park Highlight Compensation</source>
+                <translation>Park Highlight Compensation</translation>
+            </ItemText>
+		</SceneMode>
+		<DstMonth>
+            <Item>0</Item>
+            <ItemText>
+                <source>Jan</source>
+                <translation>Jan</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Feb</source>
+                <translation>Feb</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Mar</source>
+                <translation>Mar</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>Apr</source>
+                <translation>Apr</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>May</source>
+                <translation>May</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Jun</source>
+                <translation>Jun</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>Jul</source>
+                <translation>Jul</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>Aug</source>
+                <translation>Aug</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>Sep</source>
+                <translation>Sep</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>Oct</source>
+                <translation>Oct</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>Nov</source>
+                <translation>Nov</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>Dec</source>
+                <translation>Dec</translation>
+            </ItemText>   
+        </DstMonth>
+        <DstWeekSelect>
+            <Item>1</Item>
+            <ItemText>
+                <source>1st</source>
+                <translation>1st</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>2nd</source>
+                <translation>2nd</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>3rd</source>
+                <translation>3rd</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>4th</source>
+                <translation>4th</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>last</source>
+                <translation>last</translation>
+            </ItemText>   
+        </DstWeekSelect>
+        <DstWeek>
+            <Item>0</Item>
+            <ItemText>
+                <source>Sun</source>
+                <translation>Sun</translation>
+            </ItemText> 
+            <Item>1</Item>
+            <ItemText>
+                <source>Mon</source>
+                <translation>Mon</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Tue</source>
+                <translation>Tue</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>Wed</source>
+                <translation>Wed</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>Thu</source>
+                <translation>Thu</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Fri</source>
+                <translation>Fri</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>Sat</source>
+                <translation>Sat</translation>
+            </ItemText>  
+        </DstWeek>
+        <DstPeriod>
+            <Item>30</Item>
+            <ItemText>
+                <source>30 Minutes</source>
+                <translation>30 Minutes</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>60 Minutes</source>
+                <translation>60 Minutes</translation>
+            </ItemText>   
+            <Item>90</Item>
+            <ItemText>
+                <source>90 Minutes</source>
+                <translation>90 Minutes</translation>
+            </ItemText>   
+            <Item>120</Item>
+            <ItemText>
+                <source>120 Minutes</source>
+                <translation>120 Minutes</translation>
+            </ItemText>   
+		</DstPeriod>
+                <DstApmSelect>
+            <Item>1</Item>
+            <ItemText>
+                <source>AM</source>
+                <translation>AM</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>PM</source>
+                <translation>PM</translation>
+            </ItemText>   
+                </DstApmSelect>
+		<CapPicInierval>
+            <Item>2</Item>
+            <ItemText>
+                <source>2s</source>
+                <translation>2s</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>3s</source>
+                <translation>3s</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>4s</source>
+                <translation>4s</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>5s</source>
+                <translation>5s</translation>
+            </ItemText>   
+		</CapPicInierval>
+		<RegualrBakRecordType>
+            <Item>11</Item>
+            <ItemText>
+                <source>All</source>
+                <translation>All</translation>
+            </ItemText>   
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Manual</source>
+                <translation>Manual</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>Event</source>
+                <translation>Event</translation>
+            </ItemText>            
+		</RegualrBakRecordType>
+		<RegualrBakEventType>
+             <Item>10</Item>
+            <ItemText>
+                <source>All</source>
+                <translation>All</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Motion</source>
+                <translation>Motion</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Alarm</source>
+                <translation>Alarm</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>M and A</source>
+                <translation>M and A</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>M or A</source>
+                <translation>M or A</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>Video Loss</source>
+                <translation>Video Loss</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>VCA</source>
+                <translation>VCA</translation>
+            </ItemText>    
+            <Item>16</Item>
+            <ItemText>
+                <source>POS</source>
+                <translation>POS</translation>
+            </ItemText>            
+            <Item>20</Item>
+            <ItemText>
+                <source>Emergency Bell</source>
+                <translation>Emergency Bell</translation>
+            </ItemText>           
+		</RegualrBakEventType>
+		<RegualrIntelligentType>
+             <Item>15</Item>
+            <ItemText>
+                <source>All</source>
+                <translation>All</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>Face Detection</source>
+                <translation>Face Detection</translation>
+            </ItemText>   
+            <Item>13</Item>
+            <ItemText>
+                <source>Cross Line Detection</source>
+                <translation>Cross Line Detection</translation>
+            </ItemText>   
+            <Item>14</Item>
+            <ItemText>
+                <source>Intrusion Detection</source>
+                <translation>Intrusion Detection</translation>
+            </ItemText>
+            <Item>9</Item>
+            <ItemText>
+                <source>Audio Detection</source>
+                <translation>Audio Detection</translation>
+            </ItemText>
+            <Item>17</Item>
+            <ItemText>
+                <source>Defocus Detection</source>
+                <translation>Defocus Detection</translation>
+            </ItemText>   
+	          <Item>18</Item>
+            <ItemText>
+                <source>Scene Change Detection</source>
+                <translation>Scene Change Detection</translation>
+            </ItemText> 
+            <Item>19</Item>
+            <ItemText>
+                <source>Auto Tracking</source>
+                <translation>Auto Tracking</translation>
+            </ItemText>			
+</RegualrIntelligentType>
+<RegualrBakFileType>
+            <Item>2</Item>
+            <ItemText>
+                <source>All</source>
+                <translation>All</translation>
+            </ItemText>   
+            <Item>0</Item>
+            <ItemText>
+                <source>Unlocked</source>
+                <translation>Unlocked</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Locked</source>
+                <translation>Locked</translation>
+            </ItemText>   
+		</RegualrBakFileType>
+		<CaptureResolution>
+            <Item>0</Item>
+            <ItemText>
+                <source>720*576(D1)</source>
+                <translation>720*576(D1)</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>352*288(CIF)</source>
+                <translation>352*288(CIF)</translation>
+            </ItemText>   
+		</CaptureResolution>
+		<RepairType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Video Surveillance</source>
+                <translation>Video Surveillance</translation>
+            </ItemText>
+		</RepairType>
+		<FaultType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Video Loss</source>
+                <translation>Video Loss</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>Image Exception</source>
+                <translation>Image Exception</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>Recording Failure</source>
+                <translation>Recording Failure</translation>
+            </ItemText>
+            <Item>3</Item>
+            <ItemText>
+                <source>Playback Failure</source>
+                <translation>Playback Failure</translation>
+            </ItemText>
+            <Item>4</Item>
+            <ItemText>
+                <source>Other</source>
+                <translation>Other</translation>
+            </ItemText>
+		</FaultType>
+		<DeviceMaintain>
+            <Item>1</Item>
+            <ItemText>
+                <source>Maintenance</source>
+                <translation>Maintenance</translation>
+            </ItemText>
+		</DeviceMaintain>
+		<MaintainResult>
+            <Item>5</Item>
+            <ItemText>
+                <source>Recovered</source>
+                <translation>Recovered</translation>
+            </ItemText>
+            <Item>6</Item>
+            <ItemText>
+                <source>Unrecovered</source>
+                <translation>Unrecovered</translation>
+            </ItemText>
+		</MaintainResult>
+		<ManualCapType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Test</source>
+                <translation>Test</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>Acceptance Check</source>
+                <translation>Acceptance Check</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>Maintenance</source>
+                <translation>Maintenance</translation>
+            </ItemText>
+	   </ManualCapType>
+	<EapolVersion>
+	    <Item>1</Item>
+	    <ItemText>
+	        <source>1</source>
+	        <translation>1</translation>
+	    </ItemText>
+	    <Item>2</Item>
+	    <ItemText>
+	        <source>2</source>
+	        <translation>2</translation>
+	    </ItemText>
+	</EapolVersion>
+	<Type8021X>
+	<Item>0</Item>
+	<ItemText>
+	    <source>EAP-MD5</source>
+	    <translation>EAP-MD5</translation>
+	</ItemText>
+	</Type8021X>
+	<RecordType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>Event</source>
+                <translation>Event</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Motion</source>
+                <translation>Motion</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Alarm</source>
+                <translation>Alarm</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>M and A</source>
+                <translation>M and A</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>M or A</source>
+                <translation>M or A</translation>
+            </ItemText>   
+	</RecordType>
+	</Dev>
+	<Channel>
+		<DateFormat>
+            <Item>0</Item>
+            <ItemText>
+                <source>yyyy-MM-dd</source>
+                <translation>yyyy-MM-dd</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>MM-dd-yyyy</source>
+                <translation>MM-dd-yyyy</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>dd-MM-yyyy</source>
+                <translation>dd-MM-yyyy</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>yyyy-MM-dd</source>
+                <translation>yyyy-MM-dd</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>MM-dd-yyyy</source>
+                <translation>MM-dd-yyyy</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>yyyy年MM月dd日</source>
+                <translation>yyyy年MM月dd日</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>MM月dd日yyyy年</source>
+                <translation>MM月dd日yyyy年</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>yyyy年MM月dd日 星期X</source>
+                <translation>yyyy年MM月dd日 星期X</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>MM月dd日yyyy年 星期X</source>
+                <translation>MM月dd日yyyy年 星期X</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>dd/MM/yyyy</source>
+                <translation>dd/MM/yyyy</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>MM/dd/yyyy</source>
+                <translation>MM/dd/yyyy</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>dd MMMM, yyyy</source>
+                <translation>dd MMMM, yyyy</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>MMMM dd, yyyy</source>
+                <translation>MMMM dd, yyyy</translation>
+            </ItemText>   
+            <Item>13</Item>
+            <ItemText>
+                <source>dddd, dd MMMM, yyyy</source>
+                <translation>dddd, dd MMMM, yyyy</translation>
+            </ItemText>   
+            <Item>14</Item>
+            <ItemText>
+                <source>dddd, MMMM dd, yyyy</source>
+                <translation>dddd, MMMM dd, yyyy</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>M/d/yyyy</source>
+                <translation>M/d/yyyy</translation>
+            </ItemText>   
+            <Item>16</Item>
+            <ItemText>
+                <source>MM/dd/yyyy</source>
+                <translation>MM/dd/yyyy</translation>
+            </ItemText>   
+            <Item>17</Item>
+            <ItemText>
+                <source>dd/MM/yyyy</source>
+                <translation>dd/MM/yyyy</translation>
+            </ItemText>   
+            <Item>18</Item>
+            <ItemText>
+                <source>yyyy/MM/dd</source>
+                <translation>yyyy/MM/dd</translation>
+            </ItemText>   
+            <Item>19</Item>
+            <ItemText>
+                <source>yyyy-MM-dd</source>
+                <translation>yyyy-MM-dd</translation>
+            </ItemText>   
+            <Item>20</Item>
+            <ItemText>
+                <source>dddd, MMMM dd, yyyy</source>
+                <translation>dddd, MMMM dd, yyyy</translation>
+            </ItemText>   
+            <Item>21</Item>
+            <ItemText>
+                <source>MMMM dd, yyyy</source>
+                <translation>MMMM dd, yyyy</translation>
+            </ItemText>   
+            <Item>22</Item>
+            <ItemText>
+                <source>dd MMMM, yyyy</source>
+                <translation>dd MMMM, yyyy</translation>
+            </ItemText>   
+            <Item>23</Item>
+            <ItemText>
+                <source>yyyy, MMMM dd</source>
+                <translation>yyyy, MMMM dd</translation>
+            </ItemText>
+            <Item>24</Item>
+            <ItemText>
+                <source>dddd, yy, MM dd</source>
+                <translation>dddd, yy, MM dd</translation>
+            </ItemText>
+		</DateFormat>
+		<TimeFormat>
+            <Item>0</Item>
+            <ItemText>
+                <source>hh:mm:ss tt</source>
+                <translation>hh:mm:ss tt</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>HH:mm:ss</source>
+                <translation>HH:mm:ss</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>HH:mm:ss</source>
+                <translation>HH:mm:ss</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>hh:mm:ss p.m.</source>
+                <translation>hh:mm:ss p.m.</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>hh:mm:ss tt</source>
+                <translation>hh:mm:ss tt</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>tt hh:mm:ss</source>
+                <translation>tt hh:mm:ss</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>tt hh:mm:ss</source>
+                <translation>tt hh:mm:ss</translation>
+            </ItemText>   
+		</TimeFormat>
+		<PtzProtocol>
+            <Item>0</Item>
+            <ItemText>
+                <source>PELCO_D</source>
+                <translation>PELCO_D</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>PELCO_P</source>
+                <translation>PELCO_P</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>ALEC</source>
+                <translation>ALEC</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>VISCA</source>
+                <translation>VISCA</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>ALEC_PELCO_D</source>
+                <translation>ALEC_PELCO_D</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>ALEC_PELCO_P</source>
+                <translation>ALEC_PELCO_P</translation>
+            </ItemText>   
+            <Item>13</Item>
+            <ItemText>
+                <source>MINKING_PELCO_D</source>
+                <translation>MINKING_PELCO_D</translation>
+            </ItemText>   
+            <Item>14</Item>
+            <ItemText>
+                <source>MINKING_PELCO_P</source>
+                <translation>MINKING_PELCO_P</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>CS850</source>
+                <translation>CS850</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>KALATEL</source>
+                <translation>KALATEL</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>SAMSUNG</source>
+                <translation>SAMSUNG</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>BOSCH</source>
+                <translation>BOSCH</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>JINGYANG_DAHUA</source>
+                <translation>JINGYANG_DAHUA</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>JINSANLI_PELCO_D</source>
+                <translation>JINSANLI_PELCO_D</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>JINSANLI_PELCO_P</source>
+                <translation>JINSANLI_PELCO_P</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>YAAN_PELCO_P</source>
+                <translation>YAAN_PELCO_P</translation>
+            </ItemText>   
+            <Item>16</Item>
+            <ItemText>
+                <source>YAAN_PELCO_D</source>
+                <translation>YAAN_PELCO_D</translation>
+            </ItemText>   
+		</PtzProtocol>
+		<PtzAddrCode>
+			<Max>255</Max>
+			<Min>0</Min>
+			<Default>0</Default>	
+		</PtzAddrCode>
+		<IpcProtocolType>
+            <Item>1</Item>
+            <ItemText>
+                <source>ONVIF</source>
+                <translation>ONVIF</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Uniview</source>
+                <translation>Uniview</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>Private</source>
+                <translation>Private</translation>
+            </ItemText>   
+	    <Item>4</Item>
+	    <ItemText>
+	    	 <source>GB28181</source>
+	   	 <translation>GB28181</translation>
+	    </ItemText>
+	    <Item>5</Item>
+	    <ItemText>
+		<source>Custom</source>
+		<translation>Custom</translation>
+            </ItemText>
+			<Default>2</Default>
+		</IpcProtocolType>
+		<ChnCruiseName>
+			<Item>1</Item>
+			<ItemText>
+				<source>Preset Patrol 1</source>
+				<translation>Preset Patrol 1</translation>
+			</ItemText>
+			<Item>2</Item>
+			<ItemText>
+				<source>Preset Patrol 2</source>
+				<translation>Preset Patrol 2</translation>
+			</ItemText>
+			<Item>3</Item>
+			<ItemText>
+				<source>Preset Patrol 3</source>
+				<translation>Preset Patrol 3</translation>
+			</ItemText>
+			<Item>4</Item>
+			<ItemText>
+				<source>Preset Patrol 4</source>
+				<translation>Preset Patrol 4</translation>
+			</ItemText>
+		</ChnCruiseName>
+		<ImageMirrorMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Flip Vertical</source>
+                <translation>Flip Vertical</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Flip Horizontal</source>
+                <translation>Flip Horizontal</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>180°</source>
+                <translation>180°</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>90° CW</source>
+                <translation>90° CW</translation>
+            </ItemText>
+            <Item>5</Item>
+            <ItemText>
+                <source>90° CCW</source>
+                <translation>90° CCW</translation>
+            </ItemText>             
+		</ImageMirrorMode>
+		<ImageExposureMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Automatic</source>
+                <translation>Automatic</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Manual</source>
+                <translation>Manual</translation>
+            </ItemText> 
+            <Item>2</Item>
+            <ItemText>
+                <source>Custom</source>
+                <translation>Custom</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>Shutter Priority</source>
+                <translation>Shutter Priority</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>Iris Priority</source>
+                <translation>Iris Priority</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Gain Priority</source>
+                <translation>Gain Priority</translation>
+            </ItemText> 
+            <Item>6</Item>
+            <ItemText>
+                <source>Indoor 50Hz</source>
+                <translation>Indoor 50Hz</translation>
+            </ItemText> 
+            <Item>7</Item>
+            <ItemText>
+                <source>Indoor 60Hz</source>
+                <translation>Indoor 60Hz</translation>
+            </ItemText> 
+            <Item>8</Item>
+            <ItemText>
+                <source>Low Motion Blur</source>
+                <translation>Low Motion Blur</translation>
+            </ItemText>
+		</ImageExposureMode>
+		<ShutterTime>
+            <Item>1</Item>
+            <ItemText>
+                <source>1/6</source>
+                <translation>1/6</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>1/8</source>
+                <translation>1/8</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>1/10</source>
+                <translation>1/10</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>1/12</source>
+                <translation>1/12</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>1/15</source>
+                <translation>1/15</translation>
+            </ItemText> 
+            <Item>6</Item>
+            <ItemText>
+                <source>1/20</source>
+                <translation>1/20</translation>
+            </ItemText> 
+            <Item>7</Item>
+            <ItemText>
+                <source>1/25</source>
+                <translation>1/25</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>1/30</source>
+                <translation>1/30</translation>
+            </ItemText>   
+            <Item>9</Item>
+            <ItemText>
+                <source>1/50</source>
+                <translation>1/50</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>1/60</source>
+                <translation>1/60</translation>
+            </ItemText>   
+            <Item>11</Item>
+            <ItemText>
+                <source>1/100</source>
+                <translation>1/100</translation>
+            </ItemText> 
+            <Item>12</Item>
+            <ItemText>
+                <source>1/120</source>
+                <translation>1/120</translation>
+            </ItemText> 
+            <Item>13</Item>
+            <ItemText>
+                <source>1/150</source>
+                <translation>1/150</translation>
+            </ItemText> 
+            <Item>14</Item>
+            <ItemText>
+                <source>1/180</source>
+                <translation>1/180</translation>
+            </ItemText>   
+            <Item>15</Item>
+            <ItemText>
+                <source>1/200</source>
+                <translation>1/200</translation>
+            </ItemText>   
+            <Item>16</Item>
+            <ItemText>
+                <source>1/250</source>
+                <translation>1/250</translation>
+            </ItemText>   
+            <Item>17</Item>
+            <ItemText>
+                <source>1/500</source>
+                <translation>1/500</translation>
+            </ItemText> 
+            <Item>18</Item>
+            <ItemText>
+                <source>1/1000</source>
+                <translation>1/1000</translation>
+            </ItemText> 
+            <Item>19</Item>
+            <ItemText>
+                <source>1/2000</source>
+                <translation>1/2000</translation>
+            </ItemText> 
+            <Item>20</Item>
+            <ItemText>
+                <source>1/4000</source>
+                <translation>1/4000</translation>
+            </ItemText>   
+            <Item>21</Item>
+            <ItemText>
+                <source>1/8000</source>
+                <translation>1/8000</translation>
+            </ItemText>
+            <Item>22</Item>
+            <ItemText>
+                <source>1/50000</source>
+                <translation>1/50000</translation>
+            </ItemText> 
+            <Item>23</Item>
+            <ItemText>
+                <source>1/100000</source>
+                <translation>1/100000</translation>
+            </ItemText>
+		</ShutterTime>
+		<DayNightMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Automatic</source>
+                <translation>Automatic</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Day</source>
+                <translation>Day</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>Night</source>
+                <translation>Night</translation>
+            </ItemText>   
+		</DayNightMode>
+		<DayNightSensitivity>
+            <Item>0</Item>
+            <ItemText>
+                <source>Ultra-low</source>
+                <translation>Ultra-low</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Low</source>
+                <translation>Low</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Medium</source>
+                <translation>Medium</translation>
+            </ItemText>
+            <Item>3</Item>
+            <ItemText>
+                <source>High</source>
+                <translation>High</translation>
+            </ItemText>   
+		</DayNightSensitivity>
+		<WDR>
+            <Item>0</Item>
+            <ItemText>
+                <source>Off</source>
+                <translation>Off</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>On</source>
+                <translation>On</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>Automatic</source>
+                <translation>Automatic</translation>
+            </ItemText>   
+		</WDR>
+		<WhiteBalance>
+            <Item>0</Item>
+            <ItemText>
+                <source>Auto</source>
+                <translation>Auto</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Finetune</source>
+                <translation>Finetune</translation>
+            </ItemText> 
+            <Item>2</Item>
+            <ItemText>
+                <source>Indoor</source>
+                <translation>Indoor</translation>
+            </ItemText>
+            <Item>3</Item>
+            <ItemText>
+                <source>Outdoor</source>
+                <translation>Outdoor</translation>
+            </ItemText>
+            <Item>4</Item>
+            <ItemText>
+                <source>Mercury Lamp</source>
+                <translation>Mercury Lamp</translation>
+            </ItemText>
+            <Item>5</Item>
+            <ItemText>
+                <source>Night</source>
+                <translation>Night</translation>
+            </ItemText>
+            <Item>6</Item>
+            <ItemText>
+                <source>Sodium Lamp</source>
+                <translation>Sodium Lamp</translation>
+            </ItemText>
+            <Item>7</Item>
+            <ItemText>
+                <source>Lock</source>
+                <translation>Lock</translation>
+            </ItemText>
+		</WhiteBalance>
+		<Defog>
+            <Item>0</Item>
+            <ItemText>
+                <source>Off</source>
+                <translation>Off</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>On</source>
+                <translation>On</translation>
+            </ItemText> 
+            <Item>2</Item>
+            <ItemText>
+                <source>Auto</source>
+                <translation>Auto</translation>
+            </ItemText> 
+		</Defog>
+		<FisheyeInstallMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Ceiling</source>
+                <translation>Ceiling</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Wall</source>
+                <translation>Wall</translation>
+            </ItemText> 
+            <Item>2</Item>
+            <ItemText>
+                <source>Desktop</source>
+                <translation>Desktop</translation>
+            </ItemText> 
+		</FisheyeInstallMode>
+		<ChannelProperity>
+            <Item>1</Item>
+            <ItemText>
+                <source>Fisheye</source>
+                <translation>Fisheye</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Panoramic</source>
+                <translation>Panoramic</translation>
+            </ItemText> 
+            <Item>4</Item>
+            <ItemText>
+                <source>PTZ1</source>
+                <translation>PTZ1</translation>
+            </ItemText> 
+            <Item>5</Item>
+            <ItemText>
+                <source>PTZ2</source>
+                <translation>PTZ2</translation>
+            </ItemText>
+            <Item>6</Item>
+            <ItemText>
+                <source>PTZ3</source>
+                <translation>PTZ3</translation>
+            </ItemText>
+            <Item>7</Item>
+            <ItemText>
+                <source>PTZ4</source>
+                <translation>PTZ4</translation>
+            </ItemText>
+		</ChannelProperity>
+	</Channel>
+	<Stream>
+		<StreamNumType1>
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Event</source>
+                <translation>Event</translation>
+            </ItemText>   
+		</StreamNumType1>
+		<StreamNumType2>
+            <Item>0</Item>
+            <ItemText>
+                <source>Normal</source>
+                <translation>Normal</translation>
+            </ItemText>   
+		</StreamNumType2>
+		<StreamNumType3>
+            <Item>2</Item>
+            <ItemText>
+                <source>Event</source>
+                <translation>Event</translation>
+            </ItemText>   
+		</StreamNumType3>
+		<StreamNumType4>
+            <Item>1</Item>
+            <ItemText>
+                <source>Sub Stream</source>
+                <translation>Sub Stream</translation>
+            </ItemText>   
+		</StreamNumType4>
+		<StreamIndex1>
+			<VideoType>
+            <Item>0</Item>
+            <ItemText>
+                <source>MPEG1</source>
+                <translation>MPEG1</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>MPEG2</source>
+                <translation>MPEG2</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>MPEG4</source>
+                <translation>MPEG4</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>MJPEG</source>
+                <translation>MJPEG</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>H263</source>
+                <translation>H263</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>H263PLUS</source>
+                <translation>H263PLUS</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>H264</source>
+                <translation>H264</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>H265</source>
+                <translation>H265</translation>
+            </ItemText>   
+			</VideoType>
+			<EnCodeType>
+            <Item>0</Item>
+            <ItemText>
+                <source>CBR</source>
+                <translation>CBR</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>CVBR</source>
+                <translation>CVBR</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>VBR</source>
+                <translation>VBR</translation>
+            </ItemText>   
+			</EnCodeType>
+<BitRateCustom>
+            <Item>0</Item>
+            <ItemText>
+                <source>Custom</source>
+                <translation>Custom</translation>
+            </ItemText>   
+</BitRateCustom>
+<BitRate>
+            <Item>0</Item>
+            <ItemText>
+                <source>128</source>
+                <translation>128</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>160</source>
+                <translation>160</translation>
+            </ItemText>
+            <Item>2</Item>
+            <ItemText>
+                <source>192</source>
+                <translation>192</translation>
+            </ItemText>
+            <Item>3</Item>
+            <ItemText>
+                <source>224</source>
+                <translation>224</translation>
+            </ItemText>
+             <Item>4</Item>
+            <ItemText>
+                <source>256</source>
+                <translation>256</translation>
+            </ItemText>
+            <Item>5</Item>
+            <ItemText>
+                <source>320</source>
+                <translation>320</translation>
+            </ItemText>
+            <Item>6</Item>
+            <ItemText>
+                <source>384</source>
+                <translation>384</translation>
+            </ItemText>
+            <Item>7</Item>
+            <ItemText>
+                <source>448</source>
+                <translation>448</translation>
+            </ItemText>
+            <Item>8</Item>
+            <ItemText>
+                <source>512</source>
+                <translation>512</translation>
+            </ItemText>
+             <Item>9</Item>
+            <ItemText>
+                <source>640</source>
+                <translation>640</translation>
+            </ItemText>
+            <Item>10</Item>
+            <ItemText>
+                <source>768</source>
+                <translation>768</translation>
+            </ItemText>
+            <Item>11</Item>
+            <ItemText>
+                <source>896</source>
+                <translation>896</translation>
+            </ItemText>   
+            <Item>12</Item>
+            <ItemText>
+                <source>1024</source>
+                <translation>1024</translation>
+            </ItemText>
+            <Item>13</Item>
+            <ItemText>
+                <source>1280</source>
+                <translation>1280</translation>
+            </ItemText>
+            <Item>14</Item>
+            <ItemText>
+                <source>1536</source>
+                <translation>1536</translation>
+            </ItemText>
+             <Item>15</Item>
+            <ItemText>
+                <source>1792</source>
+                <translation>1792</translation>
+            </ItemText>
+            <Item>16</Item>
+            <ItemText>
+                <source>2048</source>
+                <translation>2048</translation>
+            </ItemText>
+            <Item>17</Item>
+            <ItemText>
+                <source>3072</source>
+                <translation>3072</translation>
+            </ItemText>
+            <Item>18</Item>
+            <ItemText>
+                <source>4096</source>
+                <translation>4096</translation>
+            </ItemText>
+            <Item>19</Item>
+            <ItemText>
+                <source>5120</source>
+                <translation>5120</translation>
+            </ItemText>
+            <Item>20</Item>
+            <ItemText>
+                <source>6144</source>
+                <translation>6144</translation>
+            </ItemText>
+            <Item>21</Item>
+            <ItemText>
+                <source>7168</source>
+                <translation>7168</translation>
+            </ItemText>
+             <Item>22</Item>
+            <ItemText>
+                <source>8192</source>
+                <translation>8192</translation>
+            </ItemText>
+             <Item>23</Item>
+            <ItemText>
+                <source>9216</source>
+                <translation>9216</translation>
+            </ItemText>
+            <Item>24</Item>
+            <ItemText>
+                <source>10240</source>
+                <translation>10240</translation>
+            </ItemText>
+            <Item>25</Item>
+            <ItemText>
+                <source>12288</source>
+                <translation>12288</translation>
+            </ItemText>
+            <Item>26</Item>
+            <ItemText>
+                <source>14336</source>
+                <translation>14336</translation>
+            </ItemText>
+            <Item>27</Item>
+            <ItemText>
+                <source>16384</source>
+                <translation>16384</translation>
+            </ItemText>
+</BitRate>
+			<ImageQuality>
+            <Item>0</Item>
+            <ItemText>
+                <source>level1(Lowest)</source>
+                <translation>level1(Lowest)</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>level2</source>
+                <translation>level2</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>level3</source>
+                <translation>level3</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>level4</source>
+                <translation>level4</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>level5</source>
+                <translation>level5</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>level6</source>
+                <translation>level6</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>level7</source>
+                <translation>level7</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>level8</source>
+                <translation>level8</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>level9</source>
+                <translation>level9</translation>
+            </ItemText>     
+</ImageQuality>
+<EncodeMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Off</source>
+                <translation>Off</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Basic Mode</source>
+                <translation>Basic Mode</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Advanced Mode</source>
+                <translation>Advanced Mode</translation>
+            </ItemText>   
+			</EncodeMode>
+		</StreamIndex1>
+                  <StoreType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Main Stream</source>
+                <translation>Main Stream</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Sub Stream</source>
+                <translation>Sub Stream</translation>
+            </ItemText>            
+                  </StoreType>
+	</Stream>
+         <HardDiskMgmt>
+                  <HardDiskProperty>
+            <Item>0</Item>
+            <ItemText>
+                <source>Read/Write</source>
+                <translation>Read/Write</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Read Only</source>
+                <translation>Read Only</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Redundant</source>
+                <translation>Redundant</translation>
+            </ItemText>
+                   </HardDiskProperty>
+                   <HardDiskUseType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Recording/Snapshot</source>
+                <translation>Recording/Snapshot</translation>
+            </ItemText>
+            <Item>1</Item>
+            <ItemText>
+                <source>Backup</source>
+                <translation>Backup</translation>
+            </ItemText>
+                   </HardDiskUseType>
+                  <ExtendDiskType>
+            <Item>0</Item>
+            <ItemText>
+                <source>NAS</source>
+                <translation>NAS</translation>
+            </ItemText>
+                   </ExtendDiskType>
+         </HardDiskMgmt>         
+<ArrayMng>
+     <ArrayType>
+            <Item>0</Item>
+            <ItemText>
+                <source>JBOD</source>
+                <translation>JBOD</translation>
+            </ItemText> 
+            <Item>1</Item>
+            <ItemText>
+                <source>RAID 0</source>
+                <translation>RAID 0</translation>
+            </ItemText> 
+            <Item>2</Item>
+            <ItemText>
+                <source>RAID 1</source>
+                <translation>RAID 1</translation>
+            </ItemText> 
+            <Item>3</Item>
+            <ItemText>
+                <source>RAID 5</source>
+                <translation>RAID 5</translation>
+            </ItemText> 
+            <Item>4</Item>
+            <ItemText>
+                <source>RAID 10</source>
+                <translation>RAID 10</translation>
+            </ItemText> 
+            <Item>5</Item>
+            <ItemText>
+                <source>RAID 6</source>
+                <translation>RAID 6</translation>
+            </ItemText> 
+            <Item>6</Item>
+            <ItemText>
+                <source>RAID 50</source>
+                <translation>RAID 50</translation>
+            </ItemText>   
+            <Item>7</Item>
+            <ItemText>
+                <source>RAID 60</source>
+                <translation>RAID 60</translation>
+            </ItemText>   
+    <Default>3</Default>
+    </ArrayType>
+    <InitArrayType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Initialize(quick)</source>
+                <translation>Initialize(quick)</translation>
+            </ItemText>   
+    <Default>0</Default>
+    </InitArrayType>    
+</ArrayMng>
+       <Repaly>
+		<EventType>
+            <Item>1</Item>
+            <ItemText>
+                <source>Alarm Input</source>
+                <translation>Alarm Input</translation>
+            </ItemText>   
+            <Item>0</Item>
+            <ItemText>
+                <source>Motion</source>
+                <translation>Motion</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Video Loss</source>
+                <translation>Video Loss</translation>
+            </ItemText>   
+            <Item>200</Item>
+            <ItemText>
+                <source>VCA</source>
+                <translation>VCA</translation>
+            </ItemText>   
+            <Item>202</Item>
+            <ItemText>
+                <source>Emergency Bell</source>
+                <translation>Emergency Bell</translation>
+            </ItemText>   
+			<Default>0</Default>
+		</EventType>
+		<SubEventType>
+            <Item>200</Item>
+            <ItemText>
+                <source>All</source>
+                <translation>All</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>Face Detection</source>
+                <translation>Face Detection</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>Cross Line Detection</source>
+                <translation>Cross Line Detection</translation>
+            </ItemText>   
+            <Item>6</Item>
+            <ItemText>
+                <source>Intrusion Detection</source>
+                <translation>Intrusion Detection</translation>
+            </ItemText>   
+	          <Item>3</Item>
+            <ItemText>
+                <source>Audio Detection</source>
+                <translation>Audio Detection</translation>
+            </ItemText>
+            <Item>7</Item>
+            <ItemText>
+                <source>Defocus Detection</source>
+                <translation>Defocus Detection</translation>
+            </ItemText>   
+	    <Item>8</Item>
+            <ItemText>
+                <source>Scene Change Detection</source>
+                <translation>Scene Change Detection</translation>
+            </ItemText>  
+            <Item>9</Item>
+            <ItemText>
+                <source>Auto Tracking</source>
+                <translation>Auto Tracking</translation>
+            </ItemText>			
+			<Default>200</Default>
+		</SubEventType>
+		<PictureType>
+		<Item>12</Item>
+			<ItemText>
+				<source>All</source>
+				<translation>All</translation>
+			</ItemText>
+			<Item>0</Item>
+			<ItemText>
+				<source>Normal</source>
+				<translation>Normal</translation>
+			</ItemText>
+			<Item>1</Item>
+			<ItemText>
+				<source>Motion</source>
+				<translation>Motion</translation>
+			</ItemText>
+			<Item>2</Item>
+			<ItemText>
+				<source>Alarm</source>
+				<translation>Alarm</translation>
+			</ItemText>
+			<Item>3</Item>
+			<ItemText>
+				<source>M and A</source>
+				<translation>M and A</translation>
+			</ItemText>
+			<Item>4</Item>
+			<ItemText>
+				<source>M or A</source>
+				<translation>M or A</translation>
+			</ItemText>
+			<Item>5</Item>
+			<ItemText>
+				<source>Video Loss</source>
+				<translation>Video Loss</translation>
+			</ItemText>
+			<Item>6</Item>
+			<ItemText>
+				<source>Manual Snapshot</source>
+				<translation>Manual Snapshot</translation>
+			</ItemText>
+			<Item>7</Item>
+			<ItemText>
+				<source>Playback Snapshot</source>
+				<translation>Playback Snapshot</translation>
+			</ItemText>
+			<Item>8</Item>
+			<ItemText>
+				<source>Preview Snapshot</source>
+				<translation>Preview Snapshot</translation>
+			</ItemText>
+		    <Item>9</Item>
+		    <ItemText>
+			    <source>Audio Detection</source>
+			    <translation>Audio Detection</translation>
+		    </ItemText>		
+		<Item>11</Item>
+		<ItemText>
+			<source>Emergency Bell</source>
+			<translation>Emergency Bell</translation>
+		</ItemText>		
+		<Default>12</Default>
+		</PictureType>
+                  <AdvanceTime>
+            <Item>5</Item>
+            <ItemText>
+                <source>5</source>
+                <translation>5</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>10</source>
+                <translation>10</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>30</source>
+                <translation>30</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>60</source>
+                <translation>60</translation>
+            </ItemText>   
+            <Item>120</Item>
+            <ItemText>
+                <source>120</source>
+                <translation>120</translation>
+            </ItemText>   
+            <Item>300</Item>
+            <ItemText>
+                <source>300</source>
+                <translation>300</translation>
+            </ItemText>   
+            <Item>600</Item>
+            <ItemText>
+                <source>600</source>
+                <translation>600</translation>
+            </ItemText>   
+        			 <Default>30</Default>
+                   </AdvanceTime>
+                  <DelayTime>
+            <Item>5</Item>
+            <ItemText>
+                <source>5</source>
+                <translation>5</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>10</source>
+                <translation>10</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>30</source>
+                <translation>30</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>60</source>
+                <translation>60</translation>
+            </ItemText>   
+            <Item>120</Item>
+            <ItemText>
+                <source>120</source>
+                <translation>120</translation>
+            </ItemText>   
+            <Item>300</Item>
+            <ItemText>
+                <source>300</source>
+                <translation>300</translation>
+            </ItemText>   
+            <Item>600</Item>
+            <ItemText>
+                <source>600</source>
+                <translation>600</translation>
+            </ItemText>   
+        			 <Default>30</Default>
+                   </DelayTime>
+         </Repaly>
+        <VideoCfg>
+<WornPreTime>
+            <Item>0</Item>
+            <ItemText>
+                <source>0</source>
+                <translation>0</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>5</source>
+                <translation>5</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>10</source>
+                <translation>10</translation>
+            </ItemText>   
+            <Item>20</Item>
+            <ItemText>
+                <source>20</source>
+                <translation>20</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>30</source>
+                <translation>30</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>60</source>
+                <translation>60</translation>
+            </ItemText>   
+                   </WornPreTime>
+                  <WornAftTime>
+            <Item>5</Item>
+            <ItemText>
+                <source>5</source>
+                <translation>5</translation>
+            </ItemText>   
+            <Item>10</Item>
+            <ItemText>
+                <source>10</source>
+                <translation>10</translation>
+            </ItemText>   
+            <Item>30</Item>
+            <ItemText>
+                <source>30</source>
+                <translation>30</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>60</source>
+                <translation>60</translation>
+            </ItemText>   
+            <Item>120</Item>
+            <ItemText>
+                <source>120</source>
+                <translation>120</translation>
+            </ItemText>   
+            <Item>300</Item>
+            <ItemText>
+                <source>300</source>
+                <translation>300</translation>
+            </ItemText>   
+            <Item>600</Item>
+            <ItemText>
+                <source>600</source>
+                <translation>600</translation>
+            </ItemText>   
+                   </WornAftTime>
+         </VideoCfg>
+	<Jpg>		
+	<Resolution>
+            <Item>0</Item>
+            <ItemText>
+                <source>Auto</source>
+                <translation>Auto</translation>
+            </ItemText>     
+		</Resolution>
+		<ImageQuality>
+            <Item>0</Item>
+            <ItemText>
+                <source>High</source>
+                <translation>High</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Medium</source>
+                <translation>Medium</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Low</source>
+                <translation>Low</translation>
+            </ItemText>   
+		</ImageQuality>
+		<Interval>
+            <Item>1</Item>
+            <ItemText>
+                <source>1s</source>
+                <translation>1s</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>2s</source>
+                <translation>2s</translation>
+            </ItemText>   
+            <Item>3</Item>
+            <ItemText>
+                <source>3s</source>
+                <translation>3s</translation>
+            </ItemText>   
+            <Item>4</Item>
+            <ItemText>
+                <source>4s</source>
+                <translation>4s</translation>
+            </ItemText>   
+            <Item>5</Item>
+            <ItemText>
+                <source>5s</source>
+                <translation>5s</translation>
+            </ItemText>   
+            <Item>60</Item>
+            <ItemText>
+                <source>1m</source>
+                <translation>1m</translation>
+            </ItemText>   
+            <Item>600</Item>
+            <ItemText>
+                <source>10m</source>
+                <translation>10m</translation>
+            </ItemText>   
+            <Item>1800</Item>
+            <ItemText>
+                <source>30m</source>
+                <translation>30m</translation>
+            </ItemText>   
+            <Item>3600</Item>
+            <ItemText>
+                <source>1h</source>
+                <translation>1h</translation>
+            </ItemText>   
+            <Item>43200</Item>
+            <ItemText>
+                <source>12h</source>
+                <translation>12h</translation>
+            </ItemText>   
+            <Item>86400</Item>
+            <ItemText>
+                <source>24h</source>
+                <translation>24h</translation>
+            </ItemText>   
+		</Interval>
+        </Jpg>
+        <Smart>
+        <BehaviorType>
+            <Item>12</Item>
+            <ItemText>
+                <source>All</source>
+                <translation>All</translation>
+            </ItemText>    
+            <Item>4</Item>
+            <ItemText>
+                <source>Cross Line Detection</source>
+                <translation>Cross Line Detection</translation>
+            </ItemText>   
+            <Item>8</Item>
+            <ItemText>
+                <source>Intrusion Detection</source>
+                <translation>Intrusion Detection</translation>
+            </ItemText>       
+         </BehaviorType>
+         <StatType>
+            <Item>0</Item>
+            <ItemText>
+                <source>People Entered</source>
+                <translation>People Entered</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>People Left</source>
+                <translation>People Left</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Total</source>
+                <translation>Total</translation>
+            </ItemText>    
+         </StatType>
+         <FormType>
+            <Item>0</Item>
+            <ItemText>
+                <source>Daily</source>
+                <translation>Daily</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>Weekly</source>
+                <translation>Weekly</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Monthly</source>
+                <translation>Monthly</translation>
+            </ItemText>
+            <Item>3</Item>
+            <ItemText>
+                <source>Yearly</source>
+                <translation>Yearly</translation>
+            </ItemText>
+        </FormType>
+		<OptimizationMode>
+				<Item>0</Item>
+				<ItemText>
+					<source>Normal Mode</source>
+					<translation>Normal Mode</translation>
+				</ItemText>    
+				<Item>2</Item>
+				<ItemText>
+					<source>Quick Mode</source>
+					<translation>Quick Mode</translation>
+				</ItemText>			
+		</OptimizationMode>		
+        </Smart> 
+	<SmartBar>
+		<SelectType>
+			<Item>0</Item>
+			<ItemText>
+				<source>All Cameras</source>
+				<translation>All Cameras</translation>
+			</ItemText>    
+			<Item>1</Item>
+			<ItemText>
+				<source>Selected Cameras</source>
+				<translation>Selected Cameras</translation>
+			</ItemText>         
+		</SelectType>
+		<CertificateType>
+			<Item>0</Item>
+			<ItemText>
+				<source>ID</source>
+				<translation>ID</translation>
+			</ItemText>    
+			<Item>1</Item>
+			<ItemText>			
+				<source>Passport</source>
+				<translation>Passport</translation>
+			</ItemText> 
+			<Item>2</Item>
+			<ItemText>			
+				<source>Driver's License</source>
+				<translation>Driver's License</translation>
+			</ItemText> 
+			<Item>99</Item>
+			<ItemText>				
+			    <source>Other</source>
+				<translation>Other</translation>
+			</ItemText> 			
+		</CertificateType>
+		<SexType>
+			<Item>0</Item>
+			<ItemText>
+				<source>Female</source>
+				<translation>Female</translation>
+			</ItemText>    
+			<Item>1</Item>
+			<ItemText>
+				<source>Male</source>
+				<translation>Male</translation>
+			</ItemText>         
+		</SexType>		
+	</SmartBar>		
+   <Transaction>
+        <TransProtocol>
+	<Item>0</Item>
+	<ItemText>
+	    <source>POS</source>
+	    <translation>POS</translation>
+	</ItemText>  
+         </TransProtocol>
+        <TransLink>
+	<Item>0</Item>
+	<ItemText>
+	    <source>Network</source>
+	    <translation>Network</translation>
+	</ItemText>  
+         </TransLink>
+        <TransMode>
+	<Item>1</Item>
+	<ItemText>
+	    <source>TCP</source>
+	    <translation>TCP</translation>
+	</ItemText>  
+	<Item>2</Item>
+	<ItemText>
+	    <source>UDP</source>
+	    <translation>UDP</translation>
+	</ItemText>  
+         </TransMode>
+        <FontSize>
+	<Item>0</Item>
+	<ItemText>
+	    <source>X-large</source>
+	    <translation>X-large</translation>
+	</ItemText>  
+	<Item>1</Item>
+	<ItemText>
+	    <source>Large</source>
+	    <translation>Large</translation>
+	</ItemText>  
+	<Item>2</Item>
+	<ItemText>
+	    <source>Medium</source>
+	    <translation>Medium</translation>
+	</ItemText>  
+	<Item>3</Item>
+	<ItemText>
+	    <source>Small</source>
+	    <translation>Small</translation>
+	</ItemText>  
+         </FontSize>
+      <PosPosition>
+	<Item>0</Item>
+	<ItemText>
+	    <source>Upper Left</source>
+	    <translation>Upper Left</translation>
+	</ItemText>  
+	<Item>1</Item>
+	<ItemText>
+	    <source>Lower Left</source>
+	    <translation>Lower Left</translation>
+	</ItemText>  
+	<Item>2</Item>
+	<ItemText>
+	    <source>Upper Center</source>
+	    <translation>Upper Center</translation>
+	</ItemText>  
+	<Item>3</Item>
+	<ItemText>
+	    <source>Lower Center</source>
+	    <translation>Lower Center</translation>
+	</ItemText>  
+	<Item>4</Item>
+	<ItemText>
+	    <source>Upper Right</source>
+	    <translation>Upper Right</translation>
+	</ItemText>  
+	<Item>5</Item>
+	<ItemText>
+	    <source>Lower Right</source>
+	    <translation>Lower Right</translation>
+	</ItemText>  
+         </PosPosition>
+   </Transaction>
+	<Network>
+        <TcpLinkMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Auto-Negotiation</source>
+                <translation>Auto-Negotiation</translation>
+            </ItemText>    
+            <Item>1</Item>
+            <ItemText>
+                <source>Initiated by Sender</source>
+                <translation>Initiated by Sender</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>Initiated by Receiver</source>
+                <translation>Initiated by Receiver</translation>
+            </ItemText>       
+        </TcpLinkMode>
+        <TcpPackMode>
+            <Item>0</Item>
+            <ItemText>
+                <source>Auto-Negotiation</source>
+                <translation>Auto-Negotiation</translation>
+            </ItemText>   
+            <Item>1</Item>
+            <ItemText>
+                <source>2 Bytes+RTP</source>
+                <translation>2 Bytes+RTP</translation>
+            </ItemText>   
+            <Item>2</Item>
+            <ItemText>
+                <source>4 Bytes+RTP</source>
+                <translation>4 Bytes+RTP</translation>
+            </ItemText> 
+			<Item>3</Item>
+            <ItemText>
+                <source>No RTP</source>
+                <translation>No RTP</translation>
+            </ItemText> 
+        </TcpPackMode>
+    </Network>
+   <FaceRecognition>
+        <FaceType>
+	<Item>0</Item>
+	<ItemText>
+	    <source>Blacklist</source>
+	    <translation>Blacklist</translation>
+	</ItemText>
+	<Item>1</Item>
+	<ItemText>
+	    <source>Whitelist</source>
+	    <translation>Whitelist</translation>
+	</ItemText>
+         </FaceType>
+   </FaceRecognition>
+</DevConfig>

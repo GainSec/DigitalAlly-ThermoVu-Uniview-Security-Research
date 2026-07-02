@@ -1,0 +1,1 @@
+var msg=Utils.getparastr("ErrorMsg"),language=Utils.getparastr("langinfo");Utils.loadlanguageFile(language),$(document).ready(function(){Utils.initLang()});

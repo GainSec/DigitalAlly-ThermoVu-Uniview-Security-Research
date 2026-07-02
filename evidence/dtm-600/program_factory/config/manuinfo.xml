@@ -1,0 +1,31 @@
+<ManuInfo>
+	<DeviceName>OET-213H-NB</DeviceName>
+	<PrototypeName>OET-213H-NB-WH</PrototypeName>
+	<SoftName>OET-213H-NB-WH</SoftName>
+	<ProductId></ProductId>
+	<RegionCode>IN</RegionCode>
+	<HardVer>ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y</HardVer>
+	<DeviceBom></DeviceBom>
+	<ManufacturingDate>2020-08-03</ManufacturingDate>
+	<VendorName>NONE</VendorName>
+	<CustomerCode>00</CustomerCode>
+	<TestTrackingNum>109</TestTrackingNum>
+	<ZoomMaxDis></ZoomMaxDis>
+	<GlassHeater></GlassHeater>
+	<ActiveCode>3148ENOOCQUF7E6D7LYQOHXAQ</ActiveCode>
+	<BuildInfo>
+		<SENId></SENId>
+		<ICRId></ICRId>
+		<ENCId></ENCId>
+		<ETHId></ETHId>
+		<CTLId></CTLId>
+		<NDId></NDId>
+		<HFId></HFId>
+		<LEDId></LEDId>
+		<LENSId></LENSId>
+		<MOTId></MOTId>
+		<POWId></POWId>
+	</BuildInfo>
+	<NotHaveManuinfo>0</NotHaveManuinfo>
+	<Language></Language>
+</ManuInfo>

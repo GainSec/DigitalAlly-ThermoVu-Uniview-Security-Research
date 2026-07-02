@@ -1,0 +1,959 @@
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:28.09%, User:19.48%, Sys:7.37%, idle:71.91%, IOw:0.00%, sirq:1.25%, irq:0.00%
+K:   22596 kB
+U:  201228 kB
+V:    7988 kB
+MA: 393724 kB
+MF: 285160 kB
+X:    2900 kB
+VH: 130436 kB
+VR:  71336 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:29.64%, User:21.79%, Sys:6.85%, idle:70.36%, IOw:0.00%, sirq:1.00%, irq:0.00%
+K:   33064 kB
+U:  209248 kB
+V:    7988 kB
+MA: 387188 kB
+MF: 266324 kB
+X:    3248 kB
+VH: 130436 kB
+VR:  73476 kB
+Thu Dec  1 00:12:25 GMT 2011
+totle:29.18%, User:26.18%, Sys:2.87%, idle:70.82%, IOw:0.12%, sirq:0.00%, irq:0.00%
+K:   42728 kB
+U:  214308 kB
+V:    8020 kB
+MA: 383496 kB
+MF: 251672 kB
+X:    3176 kB
+VH: 130436 kB
+VR:  73796 kB
+Thu Dec  1 00:16:25 GMT 2011
+totle:87.30%, User:30.88%, Sys:40.72%, idle:12.70%, IOw:0.00%, sirq:15.69%, irq:0.00%
+Thu Dec  1 00:17:25 GMT 2011
+totle:83.17%, User:34.91%, Sys:38.40%, idle:16.83%, IOw:0.00%, sirq:9.85%, irq:0.00%
+K:   53336 kB
+U:  219584 kB
+V:    8112 kB
+MA: 377424 kB
+MF: 236076 kB
+X:    2888 kB
+VH: 130436 kB
+VR:  74284 kB
+Thu Dec  1 00:18:25 GMT 2011
+totle:84.04%, User:29.93%, Sys:40.52%, idle:15.96%, IOw:0.00%, sirq:13.59%, irq:0.00%
+K:   55808 kB
+U:  219584 kB
+V:    7988 kB
+MA: 378792 kB
+MF: 233184 kB
+X:    3308 kB
+VH: 130436 kB
+VR:  74172 kB
+Thu Dec  1 00:23:26 GMT 2011
+totle:43.39%, User:29.05%, Sys:13.22%, idle:56.61%, IOw:0.00%, sirq:1.12%, irq:0.00%
+K:   61028 kB
+U:  216104 kB
+V:    8004 kB
+MA: 380908 kB
+MF: 231020 kB
+X:    3732 kB
+VH: 130436 kB
+VR:  74324 kB
+Thu Dec  1 00:28:26 GMT 2011
+totle:32.04%, User:28.55%, Sys:2.99%, idle:67.96%, IOw:0.00%, sirq:0.50%, irq:0.00%
+K:   22488 kB
+U:  119960 kB
+V:    7980 kB
+MA: 382232 kB
+MF: 366200 kB
+X:    3236 kB
+VH: 130436 kB
+VR:  73916 kB
+Thu Dec  1 00:33:26 GMT 2011
+totle:35.54%, User:26.06%, Sys:8.23%, idle:64.46%, IOw:0.00%, sirq:1.25%, irq:0.00%
+K:   24000 kB
+U:  119548 kB
+V:    7980 kB
+MA: 382968 kB
+MF: 364964 kB
+X:    3372 kB
+VH: 130436 kB
+VR:  73996 kB
+Thu Dec  1 00:38:26 GMT 2011
+totle:31.17%, User:21.45%, Sys:8.98%, idle:68.83%, IOw:0.00%, sirq:0.75%, irq:0.00%
+K:   25180 kB
+U:  123472 kB
+V:    8196 kB
+MA: 380048 kB
+MF: 360232 kB
+X:    3000 kB
+VH: 130436 kB
+VR:  74000 kB
+Thu Dec  1 00:43:26 GMT 2011
+totle:35.66%, User:27.43%, Sys:7.48%, idle:64.34%, IOw:0.00%, sirq:0.75%, irq:0.00%
+K:   26164 kB
+U:  121772 kB
+V:    7988 kB
+MA: 382520 kB
+MF: 360780 kB
+X:    3168 kB
+VH: 130436 kB
+VR:  76448 kB
+Thu Dec  1 00:48:26 GMT 2011
+totle:38.03%, User:30.67%, Sys:6.23%, idle:61.97%, IOw:0.00%, sirq:1.12%, irq:0.00%
+K:   27620 kB
+U:  126260 kB
+V:    8112 kB
+MA: 379088 kB
+MF: 354672 kB
+X:    3332 kB
+VH: 130436 kB
+VR:  76452 kB
+Thu Dec  1 00:53:27 GMT 2011
+totle:40.40%, User:32.04%, Sys:7.11%, idle:59.60%, IOw:0.12%, sirq:1.12%, irq:0.00%
+K:   28792 kB
+U:  126328 kB
+V:    8124 kB
+MA: 379984 kB
+MF: 353652 kB
+X:    3112 kB
+VH: 130436 kB
+VR:  76580 kB
+Thu Dec  1 00:58:27 GMT 2011
+totle:34.79%, User:27.18%, Sys:6.61%, idle:65.21%, IOw:0.00%, sirq:1.00%, irq:0.00%
+K:   22688 kB
+U:  121420 kB
+V:    7996 kB
+MA: 381024 kB
+MF: 364644 kB
+X:    3132 kB
+VH: 130436 kB
+VR:  76584 kB
+Thu Dec  1 01:03:27 GMT 2011
+totle:39.78%, User:30.05%, Sys:7.86%, idle:60.22%, IOw:0.00%, sirq:1.87%, irq:0.00%
+K:   23864 kB
+U:  125436 kB
+V:    7988 kB
+MA: 377876 kB
+MF: 359464 kB
+X:    3120 kB
+VH: 130436 kB
+VR:  76728 kB
+Thu Dec  1 01:08:27 GMT 2011
+totle:36.28%, User:28.80%, Sys:6.73%, idle:63.72%, IOw:0.12%, sirq:0.62%, irq:0.00%
+K:   25428 kB
+U:  121596 kB
+V:    8332 kB
+MA: 382068 kB
+MF: 361884 kB
+X:    2976 kB
+VH: 130436 kB
+VR:  76932 kB
+Thu Dec  1 01:13:27 GMT 2011
+totle:43.89%, User:36.78%, Sys:6.36%, idle:56.11%, IOw:0.00%, sirq:0.75%, irq:0.00%
+K:   26480 kB
+U:  125360 kB
+V:    7996 kB
+MA: 379272 kB
+MF: 356924 kB
+X:    3120 kB
+VH: 130436 kB
+VR:  77056 kB
+Thu Dec  1 01:18:28 GMT 2011
+totle:42.64%, User:33.54%, Sys:8.48%, idle:57.36%, IOw:0.00%, sirq:0.62%, irq:0.00%
+K:   27856 kB
+U:  125544 kB
+V:    8020 kB
+MA: 379872 kB
+MF: 355248 kB
+X:    3236 kB
+VH: 130436 kB
+VR:  77076 kB
+Thu Dec  1 01:23:28 GMT 2011
+totle:79.68%, User:49.38%, Sys:19.95%, idle:20.32%, IOw:8.10%, sirq:2.24%, irq:0.00%
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:0.62%, User:0.12%, Sys:0.50%, idle:99.38%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21576 kB
+U:  187588 kB
+V:    7980 kB
+MA: 403028 kB
+MF: 299928 kB
+X:    2792 kB
+VH: 121672 kB
+VR:  57120 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:1.00%, User:0.12%, Sys:0.87%, idle:99.00%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21588 kB
+U:  188636 kB
+V:    7980 kB
+MA: 402372 kB
+MF: 299052 kB
+X:    2608 kB
+VH: 121976 kB
+VR:  57648 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:0.62%, User:0.12%, Sys:0.50%, idle:99.38%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21600 kB
+U:  188112 kB
+V:    7980 kB
+MA: 402116 kB
+MF: 299040 kB
+X:    3132 kB
+VH: 121692 kB
+VR:  57156 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:24 GMT 2011
+totle:0.50%, User:0.25%, Sys:0.25%, idle:99.50%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21992 kB
+U:  188712 kB
+V:    7980 kB
+MA: 401316 kB
+MF: 298120 kB
+X:    3060 kB
+VH: 121564 kB
+VR:  56952 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:0.00%, User:0.00%, Sys:0.00%, idle:100.00%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   19288 kB
+U:  166124 kB
+V:    7932 kB
+MA: 426628 kB
+MF: 323432 kB
+X:    3040 kB
+VH: 121564 kB
+VR:  56952 kB
+Thu Dec  1 00:12:25 GMT 2011
+totle:0.00%, User:0.00%, Sys:0.00%, idle:100.00%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   19280 kB
+U:  166128 kB
+V:    7932 kB
+MA: 426644 kB
+MF: 323448 kB
+X:    3028 kB
+VH: 121564 kB
+VR:  56952 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:27.56%, User:23.19%, Sys:4.36%, idle:72.44%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21644 kB
+U:  209344 kB
+V:    7988 kB
+MA: 384692 kB
+MF: 278044 kB
+X:    2852 kB
+VH: 131476 kB
+VR:  73004 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:29.18%, User:24.31%, Sys:4.86%, idle:70.82%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22352 kB
+U:  213800 kB
+V:    7988 kB
+MA: 381060 kB
+MF: 272612 kB
+X:    3120 kB
+VH: 131476 kB
+VR:  74096 kB
+Thu Dec  1 00:12:25 GMT 2011
+totle:27.43%, User:20.82%, Sys:6.23%, idle:72.57%, IOw:0.00%, sirq:0.37%, irq:0.00%
+K:   23084 kB
+U:  216944 kB
+V:    7988 kB
+MA: 377900 kB
+MF: 268752 kB
+X:    3104 kB
+VH: 131476 kB
+VR:  74112 kB
+Thu Dec  1 00:17:26 GMT 2011
+totle:26.81%, User:19.45%, Sys:6.73%, idle:73.19%, IOw:0.00%, sirq:0.62%, irq:0.00%
+K:   23728 kB
+U:  220100 kB
+V:    7988 kB
+MA: 374748 kB
+MF: 264868 kB
+X:    3188 kB
+VH: 131476 kB
+VR:  74116 kB
+Thu Dec  1 00:22:26 GMT 2011
+totle:29.18%, User:21.95%, Sys:6.48%, idle:70.82%, IOw:0.00%, sirq:0.75%, irq:0.00%
+K:   24444 kB
+U:  219188 kB
+V:    7996 kB
+MA: 375636 kB
+MF: 265008 kB
+X:    3244 kB
+VH: 131476 kB
+VR:  74172 kB
+Thu Dec  1 00:27:26 GMT 2011
+totle:27.93%, User:25.19%, Sys:2.74%, idle:72.07%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   25360 kB
+U:  218240 kB
+V:    7988 kB
+MA: 376632 kB
+MF: 265184 kB
+X:    3100 kB
+VH: 131476 kB
+VR:  74336 kB
+Thu Dec  1 00:32:26 GMT 2011
+totle:29.30%, User:23.94%, Sys:5.36%, idle:70.70%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21152 kB
+U:  125924 kB
+V:    8088 kB
+MA: 376592 kB
+MF: 361728 kB
+X:    3080 kB
+VH: 131476 kB
+VR:  75168 kB
+Thu Dec  1 00:37:26 GMT 2011
+totle:25.50%, User:19.38%, Sys:6.12%, idle:74.50%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   66416 kB
+U:  158296 kB
+V:    8012 kB
+MA: 374724 kB
+MF: 284012 kB
+X:    3160 kB
+VH: 131476 kB
+VR:  76428 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:25.53%, User:17.81%, Sys:7.72%, idle:74.47%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21912 kB
+U:  208100 kB
+V:    7988 kB
+MA: 385128 kB
+MF: 279032 kB
+X:    2840 kB
+VH: 131452 kB
+VR:  71548 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:29.18%, User:22.94%, Sys:5.99%, idle:70.82%, IOw:0.25%, sirq:0.00%, irq:0.00%
+K:   22716 kB
+U:  211712 kB
+V:    8208 kB
+MA: 381480 kB
+MF: 274452 kB
+X:    3004 kB
+VH: 131452 kB
+VR:  71972 kB
+Thu Dec  1 00:12:25 GMT 2011
+totle:29.93%, User:25.81%, Sys:4.11%, idle:70.07%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   23072 kB
+U:  214812 kB
+V:    7988 kB
+MA: 378864 kB
+MF: 271136 kB
+X:    2864 kB
+VH: 131452 kB
+VR:  71984 kB
+Thu Dec  1 00:17:25 GMT 2011
+totle:29.05%, User:23.94%, Sys:5.11%, idle:70.95%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24216 kB
+U:  219264 kB
+V:    7988 kB
+MA: 374912 kB
+MF: 265508 kB
+X:    2896 kB
+VH: 131452 kB
+VR:  72848 kB
+Thu Dec  1 00:22:25 GMT 2011
+totle:23.44%, User:18.83%, Sys:4.61%, idle:76.56%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   25256 kB
+U:  219988 kB
+V:    7988 kB
+MA: 375336 kB
+MF: 263580 kB
+X:    3060 kB
+VH: 131452 kB
+VR:  73536 kB
+Thu Dec  1 00:27:25 GMT 2011
+totle:27.81%, User:20.45%, Sys:7.23%, idle:72.19%, IOw:0.12%, sirq:0.00%, irq:0.00%
+K:   25940 kB
+U:  216468 kB
+V:    8096 kB
+MA: 379028 kB
+MF: 266480 kB
+X:    2996 kB
+VH: 131452 kB
+VR:  75372 kB
+Thu Dec  1 00:32:25 GMT 2011
+totle:27.52%, User:24.03%, Sys:3.49%, idle:72.48%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   20644 kB
+U:  125936 kB
+V:    7988 kB
+MA: 375972 kB
+MF: 362328 kB
+X:    2976 kB
+VH: 131452 kB
+VR:  75376 kB
+Thu Dec  1 00:37:26 GMT 2011
+totle:28.68%, User:25.19%, Sys:3.49%, idle:71.32%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21316 kB
+U:  124964 kB
+V:    7988 kB
+MA: 377048 kB
+MF: 362684 kB
+X:    2920 kB
+VH: 131452 kB
+VR:  75380 kB
+Thu Dec  1 00:42:26 GMT 2011
+totle:26.31%, User:21.07%, Sys:5.24%, idle:73.69%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22132 kB
+U:  127996 kB
+V:    8088 kB
+MA: 373716 kB
+MF: 358640 kB
+X:    3116 kB
+VH: 131452 kB
+VR:  75384 kB
+Thu Dec  1 00:47:26 GMT 2011
+totle:26.68%, User:20.20%, Sys:6.48%, idle:73.32%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22716 kB
+U:  127072 kB
+V:    8004 kB
+MA: 374700 kB
+MF: 358904 kB
+X:    3192 kB
+VH: 131452 kB
+VR:  75388 kB
+Thu Dec  1 00:52:26 GMT 2011
+totle:28.30%, User:21.07%, Sys:6.98%, idle:71.70%, IOw:0.25%, sirq:0.00%, irq:0.00%
+K:   23428 kB
+U:  130264 kB
+V:    7988 kB
+MA: 371832 kB
+MF: 355316 kB
+X:    2876 kB
+VH: 131452 kB
+VR:  75392 kB
+Thu Dec  1 00:57:26 GMT 2011
+totle:28.43%, User:24.31%, Sys:4.11%, idle:71.57%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24260 kB
+U:  125216 kB
+V:    7988 kB
+MA: 376564 kB
+MF: 359352 kB
+X:    3056 kB
+VH: 131452 kB
+VR:  75396 kB
+Thu Dec  1 01:02:26 GMT 2011
+totle:28.93%, User:24.69%, Sys:4.24%, idle:71.07%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   20564 kB
+U:  124016 kB
+V:    7988 kB
+MA: 377740 kB
+MF: 364096 kB
+X:    3208 kB
+VH: 131452 kB
+VR:  75400 kB
+Thu Dec  1 01:07:26 GMT 2011
+totle:22.44%, User:16.96%, Sys:5.49%, idle:77.56%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22544 kB
+U:  128536 kB
+V:    8012 kB
+MA: 374792 kB
+MF: 357764 kB
+X:    3040 kB
+VH: 131452 kB
+VR:  75648 kB
+Thu Dec  1 01:12:27 GMT 2011
+totle:31.42%, User:22.57%, Sys:8.85%, idle:68.58%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   23428 kB
+U:  127612 kB
+V:    8012 kB
+MA: 375384 kB
+MF: 357632 kB
+X:    3212 kB
+VH: 131452 kB
+VR:  75652 kB
+Thu Dec  1 01:17:27 GMT 2011
+totle:27.56%, User:23.44%, Sys:4.11%, idle:72.44%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24060 kB
+U:  130740 kB
+V:    7988 kB
+MA: 372240 kB
+MF: 353788 kB
+X:    3296 kB
+VH: 131452 kB
+VR:  75656 kB
+Thu Dec  1 01:22:27 GMT 2011
+totle:28.18%, User:25.19%, Sys:2.99%, idle:71.82%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   25564 kB
+U:  125976 kB
+V:    8320 kB
+MA: 377292 kB
+MF: 357384 kB
+X:    2960 kB
+VH: 131452 kB
+VR:  75660 kB
+Thu Dec  1 01:27:27 GMT 2011
+totle:26.31%, User:21.82%, Sys:4.49%, idle:73.69%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   25860 kB
+U:  129216 kB
+V:    7988 kB
+MA: 374460 kB
+MF: 353828 kB
+X:    2980 kB
+VH: 131452 kB
+VR:  75664 kB
+Thu Dec  1 01:32:27 GMT 2011
+totle:23.57%, User:19.08%, Sys:4.49%, idle:76.43%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   20664 kB
+U:  126440 kB
+V:    7988 kB
+MA: 375320 kB
+MF: 361516 kB
+X:    3264 kB
+VH: 131452 kB
+VR:  75668 kB
+Thu Dec  1 01:37:27 GMT 2011
+totle:5.11%, User:3.87%, Sys:1.25%, idle:94.89%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   32968 kB
+U:  145404 kB
+V:    8028 kB
+MA: 371796 kB
+MF: 330356 kB
+X:    3156 kB
+VH: 131452 kB
+VR:  76148 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:26.31%, User:18.45%, Sys:7.86%, idle:73.69%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22020 kB
+U:  208308 kB
+V:    7988 kB
+MA: 384344 kB
+MF: 278288 kB
+X:    3268 kB
+VH: 130468 kB
+VR:  71464 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:28.30%, User:20.32%, Sys:7.98%, idle:71.70%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21836 kB
+U:  205068 kB
+V:    8020 kB
+MA: 388168 kB
+MF: 281916 kB
+X:    3064 kB
+VH: 132040 kB
+VR:  70956 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:29.93%, User:23.69%, Sys:5.99%, idle:70.07%, IOw:0.12%, sirq:0.12%, irq:0.00%
+K:   23040 kB
+U:  210340 kB
+V:    8156 kB
+MA: 384292 kB
+MF: 275684 kB
+X:    2820 kB
+VH: 132040 kB
+VR:  71268 kB
+Thu Dec  1 00:12:25 GMT 2011
+totle:55.61%, User:30.92%, Sys:8.60%, idle:44.39%, IOw:16.08%, sirq:0.00%, irq:0.00%
+K:   27032 kB
+U:  317920 kB
+V:    8004 kB
+MA: 376532 kB
+MF: 164392 kB
+X:    2540 kB
+VH: 132040 kB
+VR:  71268 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:27.93%, User:23.57%, Sys:4.36%, idle:72.07%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22184 kB
+U:  208864 kB
+V:    7988 kB
+MA: 386748 kB
+MF: 277728 kB
+X:    3104 kB
+VH: 130872 kB
+VR:  70916 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:31.17%, User:26.18%, Sys:4.49%, idle:68.83%, IOw:0.25%, sirq:0.25%, irq:0.00%
+K:   23416 kB
+U:  215324 kB
+V:    8360 kB
+MA: 381772 kB
+MF: 270352 kB
+X:    2788 kB
+VH: 130872 kB
+VR:  72644 kB
+Thu Dec  1 00:12:25 GMT 2011
+totle:33.04%, User:24.31%, Sys:8.73%, idle:66.96%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24048 kB
+U:  219516 kB
+V:    8124 kB
+MA: 378640 kB
+MF: 265592 kB
+X:    2724 kB
+VH: 130872 kB
+VR:  73296 kB
+Thu Dec  1 00:17:25 GMT 2011
+totle:25.94%, User:18.70%, Sys:7.23%, idle:74.06%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24828 kB
+U:  222928 kB
+V:    8020 kB
+MA: 374628 kB
+MF: 260856 kB
+X:    3268 kB
+VH: 130872 kB
+VR:  73292 kB
+Thu Dec  1 00:22:25 GMT 2011
+totle:31.63%, User:24.16%, Sys:7.35%, idle:68.37%, IOw:0.00%, sirq:0.12%, irq:0.00%
+K:   69740 kB
+U:  240768 kB
+V:    8412 kB
+MA: 372876 kB
+MF: 198824 kB
+X:    2548 kB
+VH: 130872 kB
+VR:  74596 kB
+Thu Dec  1 00:27:25 GMT 2011
+totle:33.67%, User:29.43%, Sys:4.24%, idle:66.33%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   69768 kB
+U:  235716 kB
+V:    8244 kB
+MA: 377716 kB
+MF: 203436 kB
+X:    2960 kB
+VH: 130872 kB
+VR:  74592 kB
+Thu Dec  1 00:32:26 GMT 2011
+totle:32.92%, User:26.43%, Sys:6.48%, idle:67.08%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21608 kB
+U:  124736 kB
+V:    8552 kB
+MA: 376292 kB
+MF: 363076 kB
+X:    2460 kB
+VH: 130872 kB
+VR:  74604 kB
+Thu Dec  1 00:37:26 GMT 2011
+totle:25.44%, User:19.95%, Sys:5.36%, idle:74.56%, IOw:0.12%, sirq:0.00%, irq:0.00%
+K:   22204 kB
+U:  123796 kB
+V:    8564 kB
+MA: 377136 kB
+MF: 363232 kB
+X:    2648 kB
+VH: 130872 kB
+VR:  74600 kB
+Thu Dec  1 00:42:26 GMT 2011
+totle:31.05%, User:22.44%, Sys:8.23%, idle:68.95%, IOw:0.25%, sirq:0.12%, irq:0.00%
+K:   23520 kB
+U:  126996 kB
+V:    9148 kB
+MA: 374036 kB
+MF: 359412 kB
+X:    1952 kB
+VH: 130872 kB
+VR:  74612 kB
+Thu Dec  1 00:47:26 GMT 2011
+totle:32.29%, User:27.06%, Sys:5.24%, idle:67.71%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24020 kB
+U:  126056 kB
+V:    8884 kB
+MA: 374960 kB
+MF: 359620 kB
+X:    2184 kB
+VH: 130872 kB
+VR:  74616 kB
+Thu Dec  1 00:52:26 GMT 2011
+totle:32.04%, User:28.68%, Sys:3.37%, idle:67.96%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24004 kB
+U:  125252 kB
+V:    8020 kB
+MA: 375628 kB
+MF: 359596 kB
+X:    3028 kB
+VH: 130872 kB
+VR:  74612 kB
+Thu Dec  1 00:57:26 GMT 2011
+totle:30.55%, User:23.94%, Sys:6.61%, idle:69.45%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24700 kB
+U:  124016 kB
+V:    8124 kB
+MA: 376804 kB
+MF: 360052 kB
+X:    3112 kB
+VH: 130872 kB
+VR:  74624 kB
+Thu Dec  1 01:02:27 GMT 2011
+totle:28.68%, User:21.32%, Sys:7.23%, idle:71.32%, IOw:0.00%, sirq:0.12%, irq:0.00%
+K:   21716 kB
+U:  123152 kB
+V:    8788 kB
+MA: 378040 kB
+MF: 364868 kB
+X:    2144 kB
+VH: 130872 kB
+VR:  74628 kB
+Thu Dec  1 01:07:27 GMT 2011
+totle:33.04%, User:25.56%, Sys:7.48%, idle:66.96%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21736 kB
+U:  126384 kB
+V:    8132 kB
+MA: 374612 kB
+MF: 360728 kB
+X:    3032 kB
+VH: 130872 kB
+VR:  74624 kB
+Thu Dec  1 01:12:27 GMT 2011
+totle:32.79%, User:28.18%, Sys:4.61%, idle:67.21%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22428 kB
+U:  125476 kB
+V:    8124 kB
+MA: 375604 kB
+MF: 361024 kB
+X:    2952 kB
+VH: 130872 kB
+VR:  74636 kB
+Thu Dec  1 01:17:27 GMT 2011
+totle:30.80%, User:26.68%, Sys:4.11%, idle:69.20%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   23304 kB
+U:  125008 kB
+V:    8220 kB
+MA: 376200 kB
+MF: 360900 kB
+X:    2668 kB
+VH: 130872 kB
+VR:  75064 kB
+Thu Dec  1 01:22:27 GMT 2011
+totle:31.12%, User:22.00%, Sys:9.12%, idle:68.88%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24300 kB
+U:  124160 kB
+V:    8436 kB
+MA: 376608 kB
+MF: 360588 kB
+X:    2832 kB
+VH: 130872 kB
+VR:  75076 kB
+Thu Dec  1 01:27:27 GMT 2011
+totle:30.67%, User:22.32%, Sys:8.35%, idle:69.33%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   24948 kB
+U:  127100 kB
+V:    8380 kB
+MA: 373696 kB
+MF: 356900 kB
+X:    2932 kB
+VH: 130872 kB
+VR:  75080 kB
+Thu Dec  1 01:32:28 GMT 2011
+totle:31.80%, User:26.81%, Sys:4.86%, idle:68.20%, IOw:0.00%, sirq:0.12%, irq:0.00%
+K:   21020 kB
+U:  126236 kB
+V:    8176 kB
+MA: 374716 kB
+MF: 361572 kB
+X:    3052 kB
+VH: 130872 kB
+VR:  75084 kB
+Thu Dec  1 01:37:28 GMT 2011
+totle:33.79%, User:28.55%, Sys:4.86%, idle:66.21%, IOw:0.37%, sirq:0.00%, irq:0.00%
+K:   22180 kB
+U:  127632 kB
+V:    8356 kB
+MA: 374192 kB
+MF: 359076 kB
+X:    2992 kB
+VH: 130872 kB
+VR:  75084 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:74.94%, User:53.24%, Sys:17.21%, idle:25.06%, IOw:4.49%, sirq:0.00%, irq:0.00%
+K:   54340 kB
+U:  256460 kB
+V:    7988 kB
+MA: 380588 kB
+MF: 197880 kB
+X:    3200 kB
+VH: 131160 kB
+VR:  74560 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:71.20%, User:0.12%, Sys:26.43%, idle:28.80%, IOw:44.64%, sirq:0.00%, irq:0.00%
+K:  149260 kB
+U:  311536 kB
+V:    7972 kB
+MA: 378212 kB
+MF:  48028 kB
+X:    3056 kB
+VH: 131160 kB
+VR:  74560 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:28.80%, User:21.32%, Sys:7.48%, idle:71.20%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   21760 kB
+U:  207056 kB
+V:    8004 kB
+MA: 386272 kB
+MF: 279876 kB
+X:    3188 kB
+VH: 130748 kB
+VR:  71220 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:28.30%, User:22.69%, Sys:5.24%, idle:71.70%, IOw:0.12%, sirq:0.25%, irq:0.00%
+K:   22384 kB
+U:  210772 kB
+V:    8064 kB
+MA: 382656 kB
+MF: 275688 kB
+X:    3036 kB
+VH: 130748 kB
+VR:  71644 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:27.31%, User:19.45%, Sys:7.73%, idle:72.69%, IOw:0.00%, sirq:0.12%, irq:0.00%
+K:   22452 kB
+U:  208612 kB
+V:    7988 kB
+MA: 385164 kB
+MF: 277548 kB
+X:    3268 kB
+VH: 131120 kB
+VR:  71924 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:30.92%, User:22.57%, Sys:8.23%, idle:69.08%, IOw:0.00%, sirq:0.12%, irq:0.00%
+K:   23052 kB
+U:  211868 kB
+V:    8136 kB
+MA: 382000 kB
+MF: 273820 kB
+X:    3140 kB
+VH: 131120 kB
+VR:  71940 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:27.31%, User:19.33%, Sys:7.61%, idle:72.69%, IOw:0.00%, sirq:0.37%, irq:0.00%
+K:   22624 kB
+U:  208596 kB
+V:    8020 kB
+MA: 385292 kB
+MF: 277752 kB
+X:    2908 kB
+VH: 130980 kB
+VR:  71636 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:28.68%, User:22.57%, Sys:6.11%, idle:71.32%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   23684 kB
+U:  212620 kB
+V:    8512 kB
+MA: 381124 kB
+MF: 272916 kB
+X:    2660 kB
+VH: 130980 kB
+VR:  72460 kB
+Thu Dec  1 00:12:26 GMT 2011
+totle:0.00%, User:0.00%, Sys:0.00%, idle:100.00%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   17792 kB
+U:   35536 kB
+V:    7972 kB
+MA: 445576 kB
+MF: 455496 kB
+X:    3056 kB
+VH: 130980 kB
+VR:  72460 kB
+K-Kernel U-User MA-MemAvailable MF-MemFree V-VmalloUsed VH-VmHWM VR-VmRSS
+Thu Dec  1 00:02:25 GMT 2011
+totle:29.05%, User:19.83%, Sys:9.23%, idle:70.95%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22104 kB
+U:  208100 kB
+V:    8036 kB
+MA: 385652 kB
+MF: 278816 kB
+X:    2860 kB
+VH: 131044 kB
+VR:  71452 kB
+Thu Dec  1 00:07:25 GMT 2011
+totle:30.42%, User:23.82%, Sys:6.61%, idle:69.58%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   22472 kB
+U:  211220 kB
+V:    8040 kB
+MA: 382312 kB
+MF: 274908 kB
+X:    3280 kB
+VH: 131044 kB
+VR:  71464 kB
+Thu Dec  1 00:12:26 GMT 2011
+totle:28.68%, User:24.81%, Sys:3.87%, idle:71.32%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   23348 kB
+U:  214568 kB
+V:    8052 kB
+MA: 379032 kB
+MF: 270832 kB
+X:    3132 kB
+VH: 131044 kB
+VR:  71864 kB
+Thu Dec  1 00:17:26 GMT 2011
+totle:28.05%, User:22.82%, Sys:5.11%, idle:71.95%, IOw:0.00%, sirq:0.12%, irq:0.00%
+K:   24448 kB
+U:  217860 kB
+V:    8084 kB
+MA: 375440 kB
+MF: 266224 kB
+X:    3348 kB
+VH: 131044 kB
+VR:  71880 kB
+Thu Dec  1 00:22:26 GMT 2011
+totle:25.44%, User:17.71%, Sys:7.73%, idle:74.56%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   25228 kB
+U:  216980 kB
+V:    8084 kB
+MA: 376580 kB
+MF: 266636 kB
+X:    3036 kB
+VH: 131044 kB
+VR:  71900 kB
+Thu Dec  1 00:27:26 GMT 2011
+totle:29.05%, User:21.82%, Sys:6.86%, idle:70.95%, IOw:0.12%, sirq:0.25%, irq:0.00%
+K:   26116 kB
+U:  211856 kB
+V:    8324 kB
+MA: 381620 kB
+MF: 270952 kB
+X:    2956 kB
+VH: 131044 kB
+VR:  71896 kB
+Thu Dec  1 00:32:26 GMT 2011
+totle:31.51%, User:24.41%, Sys:6.85%, idle:68.49%, IOw:0.25%, sirq:0.00%, irq:0.00%
+K:   21500 kB
+U:  123372 kB
+V:    8220 kB
+MA: 378420 kB
+MF: 363976 kB
+X:    3032 kB
+VH: 131044 kB
+VR:  71908 kB
+Thu Dec  1 00:37:26 GMT 2011
+totle:30.92%, User:26.81%, Sys:4.11%, idle:69.08%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   25680 kB
+U:  124644 kB
+V:    8084 kB
+MA: 377964 kB
+MF: 358156 kB
+X:    3400 kB
+VH: 131044 kB
+VR:  71904 kB
+Thu Dec  1 00:42:26 GMT 2011
+totle:28.93%, User:21.82%, Sys:7.11%, idle:71.07%, IOw:0.00%, sirq:0.00%, irq:0.00%
+K:   26856 kB
+U:  223200 kB
+V:    8084 kB
+MA: 375200 kB
+MF: 258604 kB
+X:    3220 kB
+VH: 131044 kB
+VR:  71916 kB
+Thu Dec  1 00:47:27 GMT 2011
+totle:26.34%, User:18.85%, Sys:7.37%, idle:73.66%, IOw:0.12%, sirq:0.00%, irq:0.00%
+K:   27736 kB
+U:  318616 kB
+V:    8116 kB
+MA: 325160 kB
+MF: 162364 kB
+X:    3164 kB
+VH: 131044 kB
+VR:  71912 kB

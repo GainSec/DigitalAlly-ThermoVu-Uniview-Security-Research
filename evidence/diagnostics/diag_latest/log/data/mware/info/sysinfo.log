@@ -1,0 +1,662 @@
+****************************dmesg****************************
+Thu Dec  1 00:13:14 GMT 2011
+ 00:13:14 up 13 min,  1 users,  load average: 5.02, 7.84, 5.50
+[    1.207787] Key type id_resolver registered
+[    1.212009] Key type id_legacy registered
+[    1.216056] fuse init (API version 7.26)
+[    1.221241] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    1.228682] io scheduler noop registered
+[    1.232599] io scheduler deadline registered
+[    1.237080] io scheduler cfq registered (default)
+[    1.244553] pl061_gpio 120d0000.gpio_chip: PL061 GPIO chip @0x120d0000 registered
+[    1.252907] pl061_gpio 120d1000.gpio_chip: PL061 GPIO chip @0x120d1000 registered
+[    1.261216] pl061_gpio 120d2000.gpio_chip: PL061 GPIO chip @0x120d2000 registered
+[    1.269520] pl061_gpio 120d3000.gpio_chip: PL061 GPIO chip @0x120d3000 registered
+[    1.277781] pl061_gpio 120d4000.gpio_chip: PL061 GPIO chip @0x120d4000 registered
+[    1.286096] pl061_gpio 120d5000.gpio_chip: PL061 GPIO chip @0x120d5000 registered
+[    1.294442] pl061_gpio 120d6000.gpio_chip: PL061 GPIO chip @0x120d6000 registered
+[    1.302768] pl061_gpio 120d7000.gpio_chip: PL061 GPIO chip @0x120d7000 registered
+[    1.311104] pl061_gpio 120d8000.gpio_chip: PL061 GPIO chip @0x120d8000 registered
+[    1.319431] pl061_gpio 120d9000.gpio_chip: PL061 GPIO chip @0x120d9000 registered
+[    1.327676] pl061_gpio 120da000.gpio_chip: PL061 GPIO chip @0x120da000 registered
+[    1.335938] pl061_gpio 120db000.gpio_chip: PL061 GPIO chip @0x120db000 registered
+[    1.356417] brd: module loaded
+[    1.359719] cma: cma_alloc(cma c105b710, count 2, align 1)
+[    1.359855] cma: cma_alloc(): returned defd1800
+[    1.588199] libphy: hisi_femac_mii_bus: probed
+[    1.592653] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 0
+[    1.604567] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 1
+[    1.611295] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 2
+[    1.617953] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 3
+[    1.629277] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 4
+[    1.635958] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 5
+[    1.642648] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 6
+[    1.649320] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 7
+[    1.655975] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 8
+[    1.662643] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 9
+[    1.669309] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 10
+[    1.676050] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 11
+[    1.682804] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 12
+[    1.689557] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 13
+[    1.696298] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 14
+[    1.703052] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 15
+[    1.709804] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 16
+[    1.716546] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 17
+[    1.723305] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 18
+[    1.730058] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 19
+[    1.736799] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 20
+[    1.743551] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 21
+[    1.750303] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 22
+[    1.757044] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 23
+[    1.763796] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 24
+[    1.770548] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 25
+[    1.777289] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 26
+[    1.784042] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 27
+[    1.790794] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 28
+[    1.797535] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 29
+[    1.804287] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 30
+[    1.811040] mdio_bus 10011100.mdio: scan phy ethernet-phy at address 31
+[    1.818227] libphy: Fixed MDIO Bus: probed
+[    1.918282] Generic PHY 10011100.mdio:00: attached PHY driver [Generic PHY] (mii_bus:phy_addr=10011100.mdio:00, irq=-1)
+[    1.929078] phy_id=0x001cc816, phy_mode=rmii
+[    1.933428] cma: cma_alloc(cma c105b710, count 4, align 2)
+[    1.933528] cma: cma_alloc(): returned defd1880
+[    1.934574] PPP generic driver version 2.4.2
+[    1.939137] PPP BSD Compression module registered
+[    1.943838] PPP Deflate Compression module registered
+[    1.948906] NET: Registered protocol family 24
+[    1.953438] usbcore: registered new interface driver cdc_ether
+[    1.959332] usbcore: registered new interface driver net1080
+[    1.965027] usbcore: registered new interface driver cdc_subset
+[    1.971010] usbcore: registered new interface driver zaurus
+[    1.976650] usbcore: registered new interface driver cdc_ncm
+[    1.982832] xhci-hcd 100e0000.xhci_0: xHCI Host Controller
+[    1.988372] xhci-hcd 100e0000.xhci_0: new USB bus registered, assigned bus number 1
+[    1.996076] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996140] cma: cma_alloc(): returned defd1840
+[    1.996170] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996187] cma: cma_alloc(): returned defd1860
+[    1.996206] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996227] cma: cma_alloc(): returned defd1900
+[    1.996244] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996260] cma: cma_alloc(): returned defd1920
+[    1.996280] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996296] cma: cma_alloc(): returned defd1940
+[    1.996313] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996328] cma: cma_alloc(): returned defd1960
+[    1.996340] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    1.996357] cma: cma_alloc(): returned defd1980
+[    1.996381] xhci-hcd 100e0000.xhci_0: hcc params 0x0220fe6c hci version 0x110 quirks 0x20010010
+[    2.005164] xhci-hcd 100e0000.xhci_0: irq 35, io mem 0x100e0000
+[    2.012088] hub 1-0:1.0: USB hub found
+[    2.015879] hub 1-0:1.0: 1 port detected
+[    2.020285] xhci-hcd 100e0000.xhci_0: xHCI Host Controller
+[    2.025785] xhci-hcd 100e0000.xhci_0: new USB bus registered, assigned bus number 2
+[    2.033562] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    2.042501] hub 2-0:1.0: USB hub found
+[    2.046290] hub 2-0:1.0: config failed, hub doesn't have any ports! (err -19)
+[    2.054034] usbcore: registered new interface driver usb-storage
+[    2.060182] usbcore: registered new interface driver usbserial
+[    2.066050] usbcore: registered new interface driver option
+[    2.071678] usbserial: USB Serial support registered for GSM modem (1-port)
+[    2.079235] mousedev: PS/2 mouse device common for all mice
+[    2.085071] usbcore: registered new interface driver xpad
+[    2.238165] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.238246] cma: cma_alloc(): returned defd19a0
+[    2.238285] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.238319] cma: cma_alloc(): returned defd19c0
+[    2.238339] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.238356] cma: cma_alloc(): returned defd19e0
+[    2.238370] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.238395] cma: cma_alloc(): returned defd1a00
+[    2.258570] hibvt_rtc 12080000.rtc: rtc core: registered 12080000.rtc as rtc0
+[    2.265765] hibvt_rtc 12080000.rtc: RTC driver for hibvt enabled
+[    2.271841] i2c /dev entries driver
+[    2.275866] hibvt-i2c 120b0000.i2c: hibvt-i2c0@100000hz registered
+[    2.282509] hibvt-i2c 120b1000.i2c: hibvt-i2c1@100000hz registered
+[    2.289139] hibvt-i2c 120b2000.i2c: hibvt-i2c2@100000hz registered
+[    2.295676] hibvt-i2c 120b3000.i2c: hibvt-i2c3@100000hz registered
+[    2.302220] hibvt-i2c 120b4000.i2c: hibvt-i2c4@100000hz registered
+[    2.308761] hibvt-i2c 120b5000.i2c: hibvt-i2c5@100000hz registered
+[    2.315291] hibvt-i2c 120b6000.i2c: hibvt-i2c6@100000hz registered
+[    2.321825] hibvt-i2c 120b7000.i2c: hibvt-i2c7@100000hz registered
+[    2.328340] usbcore: registered new interface driver uvcvideo
+[    2.334082] USB Video Class driver (1.1.1)
+[    2.338798] himci: mmc host probe
+[    2.342206] cma: cma_alloc(cma c105b710, count 2, align 1)
+[    2.342269] cma: cma_alloc(): returned defd1a40
+[    2.378087] usb 1-1: new high-speed USB device number 2 using xhci-hcd
+[    2.548138] himci: mmc host probe
+[    2.551550] cma: cma_alloc(cma c105b710, count 2, align 1)
+[    2.551725] cma: cma_alloc(): returned defd1a80
+[    2.551824] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.551855] cma: cma_alloc(): returned defd1a20
+[    2.551871] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.551890] cma: cma_alloc(): returned defd1ac0
+[    2.577969] hub 1-1:1.0: USB hub found
+[    2.582039] hub 1-1:1.0: 4 ports detected
+[    2.586734] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    2.586801] cma: cma_alloc(): returned defd1ae0
+[    2.758136] himci: mmc host probe
+[    2.761542] cma: cma_alloc(cma c105b710, count 2, align 1)
+[    2.763179] cma: cma_alloc(): returned defd1b00
+[    2.968915] usbcore: registered new interface driver usbhid
+[    2.974487] usbhid: USB HID core driver
+[    2.978597] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    2.984762] NET: Registered protocol family 10
+[    2.990353] NET: Registered protocol family 17
+[    2.994856] 8021q: 802.1Q VLAN Support v1.8
+[    2.999111] Key type dns_resolver registered
+[    3.003470] Registering SWP/SWPB emulation handler
+[    3.088127] hibvt_rtc 12080000.rtc: setting system clock to 1970-01-01 02:06:08 UTC (7568)
+[    3.096767] uart-pl011 120a0000.uart: no DMA platform data
+[    3.125540] Freeing unused kernel memory: 8192K (c0800000 - c1000000)
+[    3.402091] NetUserDrv: loading out-of-tree module taints kernel.
+[    3.416664] net_user_init in. 
+[    3.419813] Net GPIO not defined!
+[    3.423144] net_common_init in. 
+[    3.433374] NET_DBG init ok!
+[    3.436277] net common init ok!
+[    3.443152] scan edges:2 p2f:6 f2p:8
+[    3.446764] mix set temp-phase 3
+[    3.597860] scan elemnts: startp:124 endp:118
+[    3.602306] Tuning SampleClock. mix set phase:[03/07] ele:[09/16] 
+[    3.718694] mmc2: new HS200 MMC card at address 0001
+[    3.725879] mmcblk2: mmc2:0001 004GA0 3.69 GiB 
+[    3.730924] mmcblk2boot0: mmc2:0001 004GA0 partition 1 2.00 MiB
+[    3.737232] mmcblk2boot1: mmc2:0001 004GA0 partition 2 2.00 MiB
+[    3.743442] mmcblk2rpmb: mmc2:0001 004GA0 partition 3 512 KiB
+[    3.750086]  mmcblk2: p1(boot) p2(bootlogo) p3(kernel) p4(kernel_bak) p5(config) p6(config_bak) p7(cliinfo) p8(cliinfo_bak) p9(mtd_runtime) p10(calibration) p11(update) p12(program) p13(cache) p14(data)
+[    4.768529] EXT4-fs (mmcblk2p12): mounted filesystem with ordered data mode. Opts: (null)
+[    4.800666] EXT4-fs (mmcblk2p5): recovery complete
+[    4.805913] EXT4-fs (mmcblk2p5): mounted filesystem with ordered data mode. Opts: (null)
+[    4.837744] EXT4-fs (mmcblk2p6): recovery complete
+[    4.843055] EXT4-fs (mmcblk2p6): mounted filesystem with ordered data mode. Opts: (null)
+[    4.862590] EXT4-fs (mmcblk2p10): mounted filesystem with ordered data mode. Opts: (null)
+[    5.199352] random: fast init done
+[    5.224390] EXT4-fs (mmcblk2p14): recovery complete
+[    5.229775] EXT4-fs (mmcblk2p14): mounted filesystem with ordered data mode. Opts: (null)
+[    5.249759] EXT4-fs (mmcblk2p13): recovery complete
+[    5.254659] EXT4-fs (mmcblk2p13): mounted filesystem with ordered data mode. Opts: (null)
+[    5.269405] EXT4-fs (mmcblk2p12): re-mounted. Opts: data=ordered
+[    5.282495] EXT4-fs (mmcblk2p10): re-mounted. Opts: data=ordered
+[    5.304168] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    5.678265] kmanuparse: unknown parameter 'pszPTInfo' ignored
+[    5.684376] [ManuparseInfo][Manuparse_Init@448]:
+[    5.688890] ProductName[OET-213H-NB-WH]
+[    5.692738] 
+[    5.694233] [ManuparseInfo][Manuparse_Init@449]:
+[    5.698703] BuildInfo[ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y]
+[    5.706437] 
+[    5.707934] [ManuparseInfo][Manuparse_AnalysisProductInfo@55]:
+[    5.713603] Product info : Type[11] Class[4] ImgInverse[0] AlarmInInverse[1] AlarmOutInverse[0] AudioIn[2] AudioOut[8] bIsLDR[0]  bIsLDC[1]
+[    5.726120] 
+[    5.727608] [ManuparseInfo][Manuparse_AnalysisDoubleSnsType@102]:
+[    5.733530] Manuparse:OET-213H-NB-WH DoubleSnsType is FALSE SensorNum 1
+[    5.740145] 
+[    5.741641] [ManuparseErr][Manuparse_AnalysisSensorType@63]:
+[    5.747116] Sensor[0] build info not match!
+[    5.751302] 
+[    5.752788] [ManuparseInfo][Manuparse_AnalysisSensorType@128]:
+[    5.758451] One Borad Multi Sensor[0] type[1] name[sc2310] laneMode[2]
+[    5.764970] 
+[    5.766476] [ManuparseInfo][Manuparse_AnalysisLcdAndTPType@100]:
+[    5.772309] Lcd type [1] and LCD name is HOLITECH_600_1024_7inch
+[    5.778316] 
+[    5.779800] [ManuparseInfo][Manuparse_AnalysisLcdAndTPType@101]:
+[    5.785623] TP type [1] and TP name is GT911_600_1024_7inch
+[    5.791196] 
+[    5.792700] [ManuparseInfo][Manuparse_AnalysisLightChipType@51]:
+[    5.798533] Light Chip Type[1]
+[    5.801580] 
+[    5.803072] [ManuparseWarn][Manuparse_AnalysisLensInfo@58]:
+[    5.808471] Lens match failed, default OTHER_LENS LENS_CLASS_HCM
+[    5.814468] 
+[    5.815955] [ManuparseWarn][Manuparse_AnalysisLensCamType@114]:
+[    5.821699] Lens bu bao, default V7R1
+[    5.825353] 
+[    5.826836] [ManuparseInfo][Manuparse_AnalysisLensCamType@117]:
+[    5.832581] Manuparse Lens Cam Type[0x2013000]
+[    5.837016] 
+[    5.838509] [ManuparseInfo][Manuparse_AnalysisIrCutType@153]:
+[    5.844071] Manuparse IrCut type[0]
+[    5.847551] 
+[    5.849069] [ManuparseErr][Manuparse_AnalysisMemSize@178]:
+[    5.854371] Manuparse mem size [1024]
+[    5.858024] 
+[    5.887813] gpio_info[fill_product_pin@1034]: 
+[    5.892171] fill product pin for PRODUCT_TYPE_QPTSV2R2B09
+[    5.897622] gpio_info[periph_pin_mux@615]: 
+[    5.901672] i2c0 mux init ok
+[    5.904552] gpio_info[periph_pin_mux@615]: 
+[    5.908571] i2c2 mux init ok
+[    5.911450] gpio_info[periph_pin_mux@615]: 
+[    5.915450] i2c3 mux init ok
+[    5.918337] gpio_info[periph_pin_mux@615]: 
+[    5.922337] uart1 mux init ok
+[    5.925298] gpio_info[periph_pin_mux@615]: 
+[    5.929305] uart2 mux init ok
+[    5.932266] gpio_info[periph_pin_mux@615]: 
+[    5.936265] uart3 mux init ok
+[    5.939231] gpio_info[periph_pin_mux@615]: 
+[    5.943231] uart4 mux init ok
+[    5.946192] gpio_info[periph_pin_mux@615]: 
+[    5.950198] spi1 mux init ok
+[    5.953072] gpio_info[periph_pin_mux@615]: 
+[    5.957070] pwm0 mux init ok
+[    5.959950] gpio_info[periph_pin_mux@615]: 
+[    5.963949] pwm1 mux init ok
+[    5.966824] gpio_info[periph_pin_mux@615]: 
+[    5.970830] mipi_rx mux init ok
+[    5.973964] gpio_info[periph_pin_mux@615]: 
+[    5.977963] sensor_cfg mux init ok
+[    5.981364] gpio_info[periph_pin_mux@615]: 
+[    5.985364] mipi_tx mux init ok
+[    5.988585] gpio_info[product_pin_mux@651]: 
+[    5.992672] all pin mux success
+[    5.995880] file:/home/jenkins/workspace/IPC_BUILD/QPTSV2R2B09/SRC/DRIVER/drv/gpio/gpio.c fun:gpiodev_init line:3016
+[    6.006812] file:/home/jenkins/workspace/IPC_BUILD/QPTSV2R2B09/SRC/DRIVER/drv/gpio/gpio.c fun:gpiodev_init line:3024
+[    6.017427] file:/home/jenkins/workspace/IPC_BUILD/QPTSV2R2B09/SRC/DRIVER/drv/gpio/gpio.c fun:gpiodev_init line:3032
+[    6.028040] gpio_info[reset_init@353]: 
+[    6.031709] no need to init reset button!
+[    6.035715] file:/home/jenkins/workspace/IPC_BUILD/QPTSV2R2B09/SRC/DRIVER/drv/gpio/gpio.c fun:gpiodev_init line:3042
+[    6.046233] gpio_info[SetAllLedGpio@666]: 
+[    6.050151] no [gstGreenRunLedGpio] led pin
+[    6.054328] gpio_info[SetAllLedGpio@667]: 
+[    6.058250] no [gstRedRunLedGpio] led pin
+[    6.062253] gpio_info[SetAllLedGpio@668]: 
+[    6.066166] no [gstBlueRunLedGpio] led pin
+[    6.070263] gpio_info[Pwm_Init@406]: 
+[    6.073742] pwm channel:1 init
+[    6.076806] gpio_info[Pwm_Init@406]: 
+[    6.080292] pwm channel:0 init
+[    6.083344] gpio_info[PwmLightInit@142]: 
+[    6.087171] Pwm val min[160] max[435]
+[    6.197598] 
+[    6.197598] ==========chip: hi3516dv300==========
+[    6.201241] 
+[    6.201241] ==========sensor0: sc2310==========
+[    6.207272] 
+[    6.207272] ==========sensor1: NULL==========
+[    6.218132] Module himedia: init ok
+[    6.221669] Hisilicon Media Memory Zone Manager
+[    6.226573] hi_osal 1.0 init success!
+[    6.235484] hi3516cv500_base: module license 'Proprietary' taints kernel.
+[    6.242324] Disabling lock debugging due to kernel taint
+[    6.268944] load sys.ko for Hi3516CV500...OK!
+[    6.292512] load tde.ko for Hi3516CV500...OK!
+[    6.314286] load region.ko for Hi3516CV500...OK!
+[    6.336627] load gdc.ko for Hi3516CV500...OK!
+[    6.356354] load vgs.ko for Hi3516CV500...OK!
+[    6.371375] load dis.ko for Hi3516CV500...OK!
+[    6.394061] load vi.ko for Hi3516CV500...OK !
+[    6.410304] ISP Mod init!
+[    6.436599] load vpss.ko for Hi3516CV500...OK!
+[    6.454588] load vo.ko for Hi3516CV500...OK!
+[    6.482645] load hifb.ko OK!
+[    6.503604] load rc.ko for Hi3516CV500...OK!
+[    6.517800] load venc.ko for Hi3516CV500...OK!
+[    6.533143] load chnl.ko for Hi3516CV500...OK!
+[    6.545631] load vedu.ko for Hi3516CV500...OK!
+[    6.559193] load h264e.ko for Hi3516CV500...OK!
+[    6.572656] load h265e.ko for Hi3516CV500...OK!
+[    6.584854] load jpege.ko for Hi3516CV500...OK!
+[    6.596910] load jpegd.ko ....OK!
+[    6.612183] load hi_vfmw.ko ....OK
+[    6.624209] load vdec.ko for Hi3516CV500...fail!
+[    6.640651] load ive.ko for Hi3516CV500...OK!
+[    6.661391] load nnie.ko for Hi3516CV500...OK!
+[    6.687156] load hi_piris.ko OK!!
+[    6.705238] load sensor_spi.ko for Hi3516CV500...OK !
+[    6.895036] load mipi_rx driver successful!
+[    6.912345] load mipi_tx driver successful!
+[    6.928788] register dev
+[    6.931970] default_margin = 60 default_feed = 15 nodeamon = 0 
+[    6.939271] error request_irq for WdtIrq -22 !
+[    6.943759] Hisilicon Watchdog Timer: 0.01 initialized. default_margin=60 sec (nodeamon= 0)
+[    6.952228] hiwtdg init ok. ver=Jun 29 2020, 13:52:24.
+[    6.963684] svprt.ko load succ..!
+[    7.208116] Load hi_cipher.ko success.
+[    7.225539] <<-GTP-INFO->> GTP driver installing...
+[    7.231706] <<-GTP-INFO->> GTP Driver Version: V2.4<2014/11/28>
+[    7.237646] <<-GTP-INFO->> GTP I2C Address: 0x5d
+[    7.242378] <<-GTP-INFO->> Guitar reset
+[    7.409695] <<-GTP-INFO->> IC Version: 911_1060
+[    7.416509] <<-GTP-INFO->> Sensor_ID: 0
+[    7.420372] <<-GTP-INFO->> Config group0 used,length: 186
+[    7.426915] <<-GTP-INFO->> Driver send config.
+[    7.453636] <<-GTP-INFO->> X_MAX: 600, Y_MAX: 1024, TRIGGER: 0x00
+[    7.488093] <<-GTP-INFO->> create proc entry gt9xx_config success
+[    7.494520] input: goodix-ts as /devices/virtual/input/input0
+[    7.501921] <<-GTP-INFO->> GTP works in interrupt mode.
+[    7.523925] CTRL is 0x102
+[    7.526415] irq num:20
+[    7.528944] motor_info[0280 @ Hw_Timer_Init]:	
+[    7.531924] timer6 init ok
+[    7.534846] motor_info[0321 @ WorkQueue_Init]:	
+[    7.537903] Work Queue init
+[    7.540953] motor_info[1150 @ motor_init]:	
+[    7.543668] motor finish init
+[    7.547722] motor_info[0696 @ Zoom_Init]:	
+[    7.550574] unsupport type: 0, or init fail
+[    7.552637] wiegand_info[3078]: 
+[    7.552639] alloc chrdev major[251]
+[    7.552640] 
+[    7.552686] wiegand_debug[0257]: 
+[    7.552688] creating wiegand workqueue...
+[    7.552689] 
+[    7.558198] wiegand_info[2880]: 
+[    7.558200] Adding dev[wiegand1] dir[0]
+[    7.558201] 
+[    7.558227] wiegand_debug[0341]: 
+[    7.558228] setup wiegand work...
+[    7.558229] 
+[    7.558234] wiegand_debug[0182]: 
+[    7.558235] setup wiegand irq info...
+[    7.558236] 
+[    7.558239] wiegand_debug[0186]: 
+[    7.558241] wiegand in irq info setup...
+[    7.558241] 
+[    7.558314] wiegand_debug[0135]: 
+[    7.558316] Setup info: gpio[47]->irqno[118], phyaddr[120d5400], mapaddr[e0daa400]
+[    7.558317] 
+[    7.558328] wiegand_debug[0135]: 
+[    7.558329] Setup info: gpio[46]->irqno[117], phyaddr[120d5400], mapaddr[e0dac400]
+[    7.558330] 
+[    7.558439] wiegand_debug[0219]: 
+[    7.558441] gpio[47] interrupt on...
+[    7.558442] 
+[    7.558449] wiegand_debug[0219]: 
+[    7.558450] gpio[46] interrupt on...
+[    7.558451] 
+[    7.564137] wiegand_info[2876]: 
+[    7.564140] wiegand2 not applied or already inited
+[    7.564141] 
+[    7.564146] wiegand_info[2880]: 
+[    7.564148] Adding dev[wiegand21] dir[1]
+[    7.564149] 
+[    7.663984] uart-pl011 120a1000.uart: DMA channel TX dma1chan19
+[    7.664006] uart-pl011 120a1000.uart: DMA channel RX dma1chan18
+[    7.664019] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    7.683938] motor_info[0689 @ Focus_Init]:	
+[    7.687942] unsupport type: 0, or init fail
+[    7.692136] motor_info[0081 @ LensPortMode_Init]:	
+[    7.695445] Init LensPortMode:0
+[    7.698594] motor_info[0079 @ Iris_RegisterCallback]:	
+[    7.702245] normal ipc cap
+[    7.704953] motor_info[0862 @ Step_MotorInit]:	
+[    7.708002] init without fbk
+[    7.710892] motor_info[0779 @ Step_MotorInitWithOutFbk]:	
+[    7.714803] init dir: Min
+[    7.717420] motor_info[0115 @ Hw_Timer_Start]:	
+[    7.720474] timer start
+[    7.723100] cma: cma_alloc(): returned defd1b40
+[    7.723122] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    7.723143] cma: cma_alloc(): returned defd1b60
+[    7.723464] uart-pl011 120a1000.uart: set rs485 config, gpio[48]
+[    7.978069] wiegand_info[1041]: 
+[    7.981137] [wiegand1] recv timeout, recv[0x1][1/26]
+[    7.986100] 
+[    8.278373] cma: cma_release(page defd1b40)
+[    8.278387] cma: cma_release(page defd1b60)
+[    8.297307] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    8.297705] alloc_contig_range: [9f05a, 9f05b) PFNs busy
+[    8.303058] cma: cma_alloc(): memory range at defd1b40 is busy, retrying
+[    8.303086] cma: cma_alloc(): returned defd1b60
+[    8.303107] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    8.303303] cma: cma_alloc(): memory range at defd1b40 is busy, retrying
+[    8.303327] cma: cma_alloc(): returned defd1b80
+[    8.303629] uart-pl011 120a1000.uart: set rs485 config, gpio[48]
+[    8.438444] hisi-femac 10010000.ethernet eth0: Link is Up - 100Mbps/Full - flow control rx/tx
+[    8.447016] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[    8.558073] motor_info[0115 @ Hw_Timer_Start]:	
+[    8.562428] timer start
+[    9.298194] cma: cma_release(page defd1b60)
+[    9.298208] cma: cma_release(page defd1b80)
+[    9.318863] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    9.319232] cma: cma_alloc(): memory range at defd1b40 is busy, retrying
+[    9.319406] cma: cma_alloc(): memory range at defd1b60 is busy, retrying
+[    9.319450] cma: cma_alloc(): returned defd1b80
+[    9.319469] cma: cma_alloc(cma c105b710, count 1, align 0)
+[    9.319641] cma: cma_alloc(): memory range at defd1b40 is busy, retrying
+[    9.319804] cma: cma_alloc(): memory range at defd1b60 is busy, retrying
+[    9.319821] cma: cma_alloc(): returned defd1ba0
+[    9.320109] uart-pl011 120a1000.uart: set rs485 config, gpio[48]
+[   10.098088] motor_info[0211 @ Piris_Init]:	
+[   10.102107] step iris init
+[   10.104824] motor_info[0212 @ motor_init_thread]:	
+[   10.108161] motor thread init ok
+[   10.328228] cma: cma_release(page defd1b80)
+[   10.328242] cma: cma_release(page defd1ba0)
+[   10.498302] <4>wait for runtime_thread_process thread 
+[   10.503546] <4>wait for runtime_thread_process thread 
+[   10.517533] multisend: driver init successful!
+[   13.873587] EXT4-fs (mmcblk2p10): re-mounted. Opts: data=ordered
+[   13.889856] [ManuparseInfo][Manuparse_UnlockedIoctl@298]:
+[   13.889868] Manuparse build info len 62
+[   13.889872] 
+[   14.807249] EXT4-fs (mmcblk2p10): re-mounted. Opts: data=ordered
+[   15.264761] [ManuparseInfo][Manuparse_UnlockedIoctl@298]:
+[   15.264773] Manuparse build info len 62
+[   15.264778] 
+[   15.983128] phy_net_speed_duplex_set in.
+[   16.164463] [ManuparseInfo][Manuparse_UnlockedIoctl@298]:
+[   16.164474] Manuparse build info len 62
+[   16.164478] 
+[   16.520550] motor_info[0303 @ motor_ioctl]:	
+[   16.520561] Init Status[0]
+[   19.308731] motor_info[0104 @ motor_set_lens_port_mode]:	
+[   19.308743] set mode: 2
+[   19.308757] motor_info[0241 @ Piris_Exit]:	
+[   19.308762] step iris eixt
+[   19.308768] gpio_warn[CommGpioConfig@333]: 
+[   19.308772] !!!!!!!!!!CommGpioGetVaule function have benn abandoned, refer to pin_mux.c/product_pin_mux
+[   19.308783] motor_info[0277 @ DCIris_Init]:	
+[   19.308786] dc iris init
+[   21.409575] gpio_err[gpiodev_unlocked_ioctl@1812]: 
+[   21.409593] stAlarm.ulNum = 1 is not correct!!
+[   21.428467] gpio_err[gpiodev_unlocked_ioctl@1812]: 
+[   21.428481] stAlarm.ulNum = 2 is not correct!!
+[   30.248783] wiegand_info[0928]: 
+[   30.248798] Set dev[wiegand1] min gap: 500 us
+[   30.248801] 
+[   30.378621] wiegand_info[1011]: 
+[   30.378639] set wiegand1 dev protocol: 34
+[   30.378644] 
+[   30.378686] wiegand_info[1011]: 
+[   30.378692] set wiegand21 dev protocol: 34
+[   30.378694] 
+[   31.354294] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.357358] cma: cma_alloc(): returned defd1b40
+[   31.357398] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.357580] cma: cma_alloc(): returned defd1b60
+[   31.360117] uart-pl011 120a1000.uart: set rs485 config, gpio[48]
+[   31.361511] uart-pl011 120a4000.uart: DMA channel TX dma1chan25
+[   31.361536] uart-pl011 120a4000.uart: DMA channel RX dma1chan24
+[   31.361553] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.361848] cma: cma_alloc(): returned defd1b80
+[   31.361875] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.361936] cma: cma_alloc(): returned defd1ba0
+[   31.363267] cma: cma_release(page defd1b40)
+[   31.363283] cma: cma_release(page defd1b60)
+[   31.363667] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.363877] cma: cma_alloc(): returned defd1b40
+[   31.363899] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.364058] cma: cma_alloc(): returned defd1b60
+[   31.375367] uart-pl011 120a1000.uart: set rs485 config, gpio[48]
+[   31.376363] cma: cma_release(page defd1b80)
+[   31.376384] cma: cma_release(page defd1ba0)
+[   31.376911] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.377230] cma: cma_alloc(): returned defd1b80
+[   31.377278] cma: cma_alloc(cma c105b710, count 1, align 0)
+[   31.377318] cma: cma_alloc(): returned defd1ba0
+[   31.574698] sh (1284): drop_caches: 3
+[   34.218290] gpio_err[gpiodev_unlocked_ioctl@2547]: 
+[   34.218304] We have no output_power_5v PIN or output_power_12v PIN or id_power_en PIN or USB Hub Power£¬didn't support OUTPUT_POWER_CTRL!!
+[   37.103665] [ManuparseInfo][Manuparse_UnlockedIoctl@298]:
+[   37.103683] Manuparse build info len 62
+[   37.103688] 
+[   37.116378] gpio_info[reset_status_clear@322]: 
+[   37.116389] clear reset button status!
+[   38.383165] random: crng init done
+[  710.672536] sh (2859): drop_caches: 1
+[  780.822531] EXT4-fs (mmcblk2p12): re-mounted. Opts: data=ordered
+*****************************ps*****************************
+PID   USER     TIME   COMMAND
+    1 root       0:01 init
+    2 root       0:00 [kthreadd]
+    3 root       0:00 [ksoftirqd/0]
+    5 root       0:00 [kworker/0:0H]
+    6 root       0:00 [kworker/u4:0]
+    7 root       0:00 [rcu_sched]
+    8 root       0:00 [rcu_bh]
+    9 root       0:00 [migration/0]
+   10 root       0:00 [lru-add-drain]
+   11 root       0:00 [cpuhp/0]
+   12 root       0:00 [cpuhp/1]
+   13 root       0:00 [migration/1]
+   14 root       0:00 [ksoftirqd/1]
+   15 root       0:00 [kworker/1:0]
+   16 root       0:00 [kworker/1:0H]
+   17 root       0:00 [kdevtmpfs]
+   18 root       0:00 [netns]
+   19 root       0:00 [oom_reaper]
+   20 root       0:00 [writeback]
+   21 root       0:00 [kcompactd0]
+   22 root       0:00 [crypto]
+   23 root       0:00 [bioset]
+   24 root       0:00 [kblockd]
+   25 root       0:00 [spi0]
+   26 root       0:00 [spi1]
+   27 root       0:00 [kworker/0:1]
+   28 root       0:00 [spi2]
+   29 root       0:00 [rpciod]
+   30 root       0:00 [xprtiod]
+   31 root       0:00 [kswapd0]
+   32 root       0:00 [vmstat]
+   33 root       0:00 [nfsiod]
+   41 root       0:00 [bioset]
+   42 root       0:00 [bioset]
+   43 root       0:00 [bioset]
+   44 root       0:00 [bioset]
+   45 root       0:00 [bioset]
+   46 root       0:00 [bioset]
+   47 root       0:00 [bioset]
+   48 root       0:00 [bioset]
+   49 root       0:00 [bioset]
+   50 root       0:00 [bioset]
+   51 root       0:00 [bioset]
+   52 root       0:00 [bioset]
+   53 root       0:00 [bioset]
+   54 root       0:00 [bioset]
+   55 root       0:00 [bioset]
+   56 root       0:00 [bioset]
+   57 root       0:00 [kworker/u4:1]
+   60 root       0:00 [kworker/0:2]
+   61 root       0:00 [kworker/1:1]
+   62 root       0:00 [ipv6_addrconf]
+   65 root       0:00 [pl011_rts]
+   80 root       0:00 udevd --daemon
+  102 root       0:02 telnetd
+  109 root       0:00 [bioset]
+  110 root       0:28 [mmcqd/2]
+  111 root       0:00 [bioset]
+  112 root       0:00 [mmcqd/2boot0]
+  113 root       0:00 [bioset]
+  114 root       0:00 [mmcqd/2boot1]
+  115 root       0:00 [bioset]
+  116 root       0:00 [mmcqd/2rpmb]
+  140 root       0:00 udevd --daemon
+  141 root       0:00 udevd --daemon
+  205 root       0:00 [kworker/0:1H]
+  206 root       0:00 [jbd2/mmcblk2p12]
+  207 root       0:00 [ext4-rsv-conver]
+  211 root       0:01 [jbd2/mmcblk2p5-]
+  212 root       0:00 [ext4-rsv-conver]
+  215 root       0:00 [jbd2/mmcblk2p6-]
+  216 root       0:00 [ext4-rsv-conver]
+  219 root       0:00 [jbd2/mmcblk2p10]
+  220 root       0:00 [ext4-rsv-conver]
+  223 root       0:00 [jbd2/mmcblk2p14]
+  224 root       0:00 [ext4-rsv-conver]
+  227 root       0:00 [jbd2/mmcblk2p13]
+  228 root       0:00 [ext4-rsv-conver]
+  237 root       0:00 /sbin/getty -L ttyS000 115200 vt100
+  319 root       0:00 [LightCtrlThread]
+  396 root       0:03 [irq/52-VI_CAP0]
+  511 root       0:00 [hidog]
+  524 root       0:00 [goodix_wq]
+  533 root       0:00 [motor_queue]
+  538 root       0:00 [wiegand_in_wkqu]
+  550 root       0:00 [kworker/1:1H]
+  571 root       0:00 [runtime_thread_]
+  572 root       0:00 [runtime_mtd_thr]
+ 1270 root       0:00 [pl011_rts]
+ 1275 root       0:00 [pl011_rts]
+ 1295 root       0:00 mw_udhcpc_wired -i eth0
+ 1316 root       0:00 -uvsh
+ 1322 root       0:00 maintain
+ 2762 root       0:16 sdk_update 80 3 0 0
+ 2904 root       0:00 {exe} ash /tmp/bin/reboot.sh
+ 2909 root       0:00 ps
+**************************ifconfig**************************
+eth0      Link encap:Ethernet  HWaddr E4:F1:4C:25:D7:B2  
+          inet addr:192.168.30.178  Bcast:192.168.30.255  Mask:255.255.255.0
+          inet6 addr: fe80::e6f1:4cff:fe25:d7b2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1454  Metric:1
+          RX packets:179376 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:59520 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:252725100 (241.0 MiB)  TX bytes:8905087 (8.4 MiB)
+          Interrupt:31 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:34 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:34 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:15420 (15.0 KiB)  TX bytes:15420 (15.0 KiB)
+
+**********************cat /proc/meminfo**********************
+MemTotal:         511884 kB
+MemFree:          239808 kB
+MemAvailable:     383484 kB
+Buffers:          161588 kB
+Cached:            33316 kB
+SwapCached:            0 kB
+Active:            61280 kB
+Inactive:         187900 kB
+Active(anon):      58084 kB
+Inactive(anon):    26520 kB
+Active(file):       3196 kB
+Inactive(file):   161380 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:         511884 kB
+LowFree:          239808 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                68 kB
+Writeback:             0 kB
+AnonPages:         54256 kB
+Mapped:             5988 kB
+Shmem:             30312 kB
+Slab:              10320 kB
+SReclaimable:       3768 kB
+SUnreclaim:         6552 kB
+KernelStack:         872 kB
+PageTables:          408 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      255940 kB
+Committed_AS:     207620 kB
+VmallocTotal:     507904 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+CmaTotal:          16384 kB
+CmaFree:           15924 kB

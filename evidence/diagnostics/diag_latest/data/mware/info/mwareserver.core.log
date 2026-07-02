@@ -1,0 +1,13 @@
+mwareserver Pid[883]-Tid[1] Signal [11] [Thu Dec  1 00:03:15 2011
+] Addr[0xb7ff2034]
+start dump stack
+find 0 frame from glibc backtrace
+
+glibc backtrace failed, start manually
+pc : 0xb6ab32e4  lr : 0x00000000
+sp : 0xa8036670  ip : 0x00000000  fp : 0xa80366ac
+R10: 0xa80366d8  R9 : 0xa8036868  R8 : 0xb6ab41e4
+R7 : 0x00100000  R6 : 0xb6afc000  R5 : 0xa8036844  R4 : 0x00000000
+R3 : 0x00000000  R2 : 0x00000000  R1 : 0xb7ff2030  R0 : 0xb6b06b08
+get func 1 at address 0xb6ab32e4  /program/lib/libimg.so(+0x1e2e4) [0xb6ab32e4]
+get func 2 at address 0x00000000  [(nil)]

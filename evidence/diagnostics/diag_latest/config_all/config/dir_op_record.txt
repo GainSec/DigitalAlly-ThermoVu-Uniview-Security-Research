@@ -1,0 +1,2 @@
+2011-11-30 16:00:06 remove file:[/data/channel01/sub05/dirinfo.xml] reason:check failed
+2011-11-30 16:00:06 remove file:[/data/channel01/sub07/dirinfo.xml] reason:check failed

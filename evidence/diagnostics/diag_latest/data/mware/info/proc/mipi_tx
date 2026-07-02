@@ -1,0 +1,14 @@
+
+Module: [MIPI_TX], Build Time[Jul  7 2020, 09:34:27]
+----------MIPI_Tx DEV CONFIG---------------------------
+   devno   lane0   lane1   lane2   lane3    output_mode  phy_data_rate pixel_clk(KHz)     video_mode     output_fmt
+       0       0       1       2       3              1            277          46166              0              2
+
+----------MIPI_Tx SYNC CONFIG---------------------------
+      pkt_size    hsa_pixels    hbp_pixels  hline_pixels     vsa_lines     vbp_lines     vfp_lines  active_lines edpi_cmd_size
+           600             4            56           730             4            16            10          1024             0
+
+----------MIPI_Tx DEV STATUS---------------------------
+   width  height HoriAll VertAll
+     600    1024     729    1054
+

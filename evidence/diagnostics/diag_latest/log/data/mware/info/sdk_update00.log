@@ -1,0 +1,16 @@
+12-01 00:39:03 843[I(0)][bp_module.c-2052][BP_MwareInit]current process name is 'sdk_update'.
+12-01 00:39:03 875[I(0)][bp_module.c-1894][BP_ProcInit]socket init 0 127.0.0.1
+12-01 00:39:03 877[I(0)][bp_module.c-2062][BP_MwareInit]BP_MwareInit succeed.
+12-01 00:39:03 988[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 0 bid:744 f:0
+12-01 00:39:04 048[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 2 bid:552 f:0
+12-01 00:39:04 108[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 1 bid:616 f:0
+12-01 00:39:04 168[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 1 bid:616 f:0
+12-01 00:39:04 228[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 6 bid:492 f:0
+12-01 00:10:42 922[I(0)][bp_module.c-2052][BP_MwareInit]current process name is 'sdk_update'.
+12-01 00:10:42 940[I(0)][bp_module.c-1894][BP_ProcInit]socket init 0 127.0.0.1
+12-01 00:10:42 942[I(0)][bp_module.c-2062][BP_MwareInit]BP_MwareInit succeed.
+12-01 00:10:43 071[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 0 bid:744 f:0
+12-01 00:10:43 128[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 2 bid:552 f:0
+12-01 00:10:43 188[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 1 bid:616 f:0
+12-01 00:10:43 268[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 1 bid:616 f:0
+12-01 00:10:43 328[W(1)][bp_module.c-619][BP_SlabFreeBuf]sdk_update buffer has been freed - slab 6 bid:492 f:0

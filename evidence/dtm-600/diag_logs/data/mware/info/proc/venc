@@ -1,0 +1,67 @@
+
+[VENC] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:44]
+
+-----MODULE PARAM--------------------------------------------------------------
+    VencBufferCache   FrameBufRecycle     VencMaxChnNum
+                  0                 0                16
+
+
+-----VENC CHN ATTR 1-----------------------------------------------------------
+      ID   Width  Height  Type  ByFrame    Sequence   LeftBytes     LeftFrm  CurPacks   GopMode  Prio
+       0    1080    1920    96        Y       15413           0           0         1   NormalP     0
+       3    1080    1920  1002        Y           2           0           0         2   NormalP     0
+
+-----VENC CHN ATTR 2-----------------------------------------------------------
+      ID   VeStr   SrcFr   TarFr     Timeref  PixFmt PicAddr      WakeUpFrmCnt
+       0       Y      -1      -1       31068  YVU420  0xa1a6f800           1
+       3       Y      -1      -1       30574  YVU420  0xa2666800           1
+
+-----VENC JPEGE ATTR -----------------------------------------------------------
+      ID    MpfCnt      Mpf0Width     Mpf0Height      Mpf1Width     Mpf1Height
+
+
+-----VENC CHN RECEIVE STAT-----------------------------------------------------
+      ID       Start     StartEx    RecvLeft     EncLeft    JpegEncodeMode
+       0           1           0           0  4294951883                NA
+       3           1           0           0  4294967294                NA
+
+-----VENC VPSS QUERY-----------------------------------------------------------
+      ID       Query     QueryOk     QueryFR       Invld        Full      VbFail   QueryFail     InfoErr        Stop
+       0           0           0           0           0           0           0           0           0           0
+       3           0           0           0           0           0           0           0           0           0
+
+-----VENC SEND1----------------------------------------------------------------
+      ID     VpssSnd     VInfErr     OthrSnd     OInfErr        Send        Stop        Full     CropErr    DrectSnd     SizeErr
+       0       15413           0           0           0       15413           0           0           0       15413           0
+       3           0           0           2           0           2           0           0           0           2           0
+
+-----VENC SEND2----------------------------------------------------------------
+      ID     SendVgs     StartOk   StartFail       IntOk     IntFail      SrcAdd      SrcSub     DestAdd     DestSub
+       0           0           0           0           0           0           0           0           0           0
+       3           0           0           0           0           0           0           0           0           0
+
+-----VENC PIC QUEUE STATE------------------------------------------------------
+      ID    Free    Busy     Vgs  BFrame
+       0       6       0       0       0
+       3       6       0       0       0
+
+-----VENC CHNL INFO------------------------------------------------------------
+      ID         Inq       InqOk       Start     StartOk      Config     VencInt  ChaResLost    OverLoad        Skip
+       0       76193       15413       15413       15413       15413       15413           0           0           0
+       3       61694           2           2           2           2           2           0           0           0
+
+-----VENC CROP INFO------------------------------------------------------------
+      ID  CropEn  StartX  StartY   Width  Height
+       0       N       0       0       0       0
+       3       N       0       0       0       0
+
+
+-----ROI INFO------------------------------------------------------------------
+     ID      Type     Index    bRoiEn    bAbsQp    Qp     Width    Height    StartX    StartY 
+
+
+-----VENC STREAM STATE---------------------------------------------------------
+      ID     FreeCnt     BusyCnt     UserCnt     UserGet     UserRls    GetTimes    Interval   FrameRate
+       0          14           0           0       16340       16340       15413       39846          25
+       3           1           0           0           4           4           2   291153744           0
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1- &lt;   <    小于号
+     2- &gt;   >    大于号 
+     3- &amp;  &    和 
+     4- &apos; '    单引号
+     5- &quot; "    双引号 -->
+<root>
+    <!-- 软件相关 -->
+    <iware>
+	    <!-- 温度相关 -->
+		<Temper>
+			<HeadTip>Please show your forehead</HeadTip>					<!-- 请露出额头测温 -->
+			<Value>Temperature: %.1f %s</Value>								<!-- 温度值格式 -->
+			<AbnormalDet>Abnormal temperature detection</AbnormalDet>
+			<LowValue>Low temperature(%.1f %s)</LowValue>
+			<HeatSourceInterf>Heat source (%.1f %s)</HeatSourceInterf>   <!-- 体表温度偏低温度值格式 -->
+			<Unit_C>°C</Unit_C>   <!-- 摄氏度单位 -->
+			<Unit_F>°F</Unit_F>   <!-- 华氏度单位 -->
+			<OutTime>Timeout,temp:%.1f %s</OutTime>   <!-- 测温超时 -->
+		</Temper>
+		<!-- 核验相关 -->
+		<Check>
+			<SuccessTip>Identified successfully</SuccessTip>
+			<CollectFaceOK>CollectFaceSuccess</CollectFaceOK>
+		</Check>
+		<!-- 记录相关 -->
+		<Record>
+			<NormalTemp>NormalTemperature</NormalTemp>
+			<AbnormalTemp>AbnormalTemperature</AbnormalTemp>
+			<Unregist>Unregistered</Unregist>
+		</Record>
+		<!-- 人员库相关 -->
+		<MemberLib>
+			<EmployeeLib>DefaultEmployeeLib</EmployeeLib>
+			<VisitorLib>DefaultVisitorLib</VisitorLib>
+		</MemberLib>
+	</iware>
+	<!-- 人机相关 -->
+	<mmi>
+	    <!-- 核验模式相关 -->
+		<Check>
+			<TemperMode>Temperature Measurement.</TemperMode>
+			<IDCard>/Face &amp; ID Card.</IDCard>
+			<ICCard>/Card.</ICCard>
+			<Face>/Face.</Face>
+			<Card_Face>/Card + Face.</Card_Face>
+			<Card_IDCard>/Face &amp; ID Card + ID Card No.</Card_IDCard>
+			<IC_ID>/Face &amp; ID Card + Card.</IC_ID>
+			<Code>/Password.</Code>
+		</Check>
+		<!-- 核验提示相关 -->
+		<CheckTip>
+			<NoConfig>Not Configured.</NoConfig>
+			<Face>Please face the camera.</Face>
+			<Card>Please swipe your card.</Card>
+			<Face_ID>Please do face &amp; ID card authentication.</Face_ID>
+			<Card_Face>Swipe card first, then scan face.</Card_Face>
+			<Card_IDCard>Please do face and ID card authentication. </Card_IDCard>
+			<IC_ID>Please do face and ID card authentication first, then swipe your IC card.</IC_ID>
+		</CheckTip>
+		<!-- 日期相关 -->
+		<Week>
+			<Sunday>Sunday</Sunday>
+			<Monday>Monday</Monday>
+			<Tuesday>Tuesday</Tuesday>
+			<Wednesday>Wednesday</Wednesday>
+			<Thursday>Thursday</Thursday>
+			<Friday>Friday</Friday>
+			<Saturday>Saturday</Saturday>
+		</Week>
+		<Year>Year</Year>
+		<Month>Month</Month>
+		<Date>Date</Date>
+		<!-- 月份相关（简写） -->
+		<Month_01>Jan</Month_01>
+		<Month_02>Feb</Month_02>
+		<Month_03>Mar</Month_03>
+		<Month_04>Apr</Month_04>
+		<Month_05>May</Month_05>
+		<Month_06>June</Month_06>
+		<Month_07>July</Month_07>
+		<Month_08>Aug</Month_08>
+		<Month_09>Sept</Month_09>
+		<Month_10>Oct</Month_10>
+		<Month_11>Nov</Month_11>
+		<Month_12>Dec</Month_12>
+		<!-- 密码相关 -->
+		<PIN>
+			<Tip_7>At least two from the following: uppercase letter(A-Z), lowercase letter(a-z), digit(0-9), underscore(_) and hyphen(-).</Tip_7>
+			<Tip_10>At least two from the following are required: uppercase letter(A-Z), lowercase letter(a-z), digit(0-9), underscore(_) and hyphen(-).</Tip_10>
+		</PIN>
+		<!-- 其他 -->
+		<Building>Building</Building>
+		<PreheatCountDown>Preheating countdown</PreheatCountDown>      <!-- 测温预热倒计时 -->
+	</mmi>
+</root>

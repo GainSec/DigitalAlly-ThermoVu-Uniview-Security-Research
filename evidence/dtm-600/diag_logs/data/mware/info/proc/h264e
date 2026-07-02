@@ -1,0 +1,46 @@
+
+[H264E] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:45]
+
+-----MODULE PARAM--------------------------------------------------------------
+      OnePack   H264eVBSource      PowerSaveEn     MiniBufMode     bQpHstgrmEn
+            0               2                1               0               0
+-----CHN ATTR------------------------------------------------------------------
+     ID  MaxWidth MaxHeight     Width    Height   profile   C2GEn   BufSize   ByFrame   GopMode   MaxStrCnt
+      0      1080      1920      1080      1920        hp       N   2088960         Y   NormalP         200
+
+-----PICTURE INFO--------------------------------------------------------------
+     ID     EncdStart   EncdSucceed        Lost        Disc       Pskip      Recode      RlsStr     UnrdStr
+      0         15396         15395           0           0           0           0       15395           0
+
+-----STREAM BUFFER-------------------------------------------------------------
+     ID     Base                  RdTail      RdHead      WrTail      WrHead      DataLen     BufFree     
+      0     0xe3a80000            0xf4800     0xf4800     0xf4800     0xf4800     0           2088896     
+
+-----RefParam INFO--------------------------------------------------------------
+     ID      EnPred        Base     Enhance    RcnRefShareBuf
+      0           Y           1           0                 N
+
+-----ROIBG INFO------------------------------------------------------------------
+     ID   BgSrcFr   BgTarFr
+      0        -1        -1
+
+-----Syntax INFO1--------------------------------------------------------------
+     ID SlcspltEn   Slcsize   IntraRefresh    RefreshMode     RefreshNum   QpOfIDR
+      0         N       N/A              N            N/A            N/A       N/A
+
+-----Syntax INFO2--------------------------------------------------------------
+     ID   profile   EntrpyI   EntrpyP   EntrpyB  Itrans  Ptrans QMatrix   POC   DblkIdc   alpha    beta
+      0        hp     cabac     cabac     cavlc     all     all       N     0         0       0       0
+
+-----Foreground && Scene INFO-------------------------------------------------------------------
+     ID  ForegroundSkipCoef  BackgroundSkipCoef SceneMode
+      0                   8                   8   Scene_0
+
+-----CuPrediction-------------------------------------------------------------------
+     ID  PredMode     Inter8Cost    Inter16Cost     Intra4Cost     Intra8Cost    Intra16Cost 
+      0      AUTO              8              8              8              8              8
+
+-----SkipBias-------------------------------------------------------------------
+     ID     SkipBiasEn      Gain    Offset      ForegroundCost      BackgroundCost
+      0              N         8         8                   0                   0
+

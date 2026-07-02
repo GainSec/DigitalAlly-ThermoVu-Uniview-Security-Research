@@ -1,0 +1,1547 @@
+12-01 00:00:00 002[I(0)][bp_module.c-2052][BP_MwareInit]current process name is 'MW_MWARE'.
+12-01 00:00:00 011[I(0)][bp_module.c-1894][BP_ProcInit]socket init 2048 127.0.0.1
+12-01 00:00:00 012[W(0)][bp_module.c-1986][BP_ProcInit]BP_RegistModule MW_MWARE later!
+12-01 00:00:00 012[I(0)][bp_module.c-2062][BP_MwareInit]BP_MwareInit succeed.
+12-01 00:00:00 047[I(0)][mw_conf_cap.c-12068]GetCap bSupportDoubleEye:0
+12-01 00:00:00 047[I(2)][mw_conf_cap.c-12135]Reader[0]
+12-01 00:00:00 047[E(2)][mw_conf_cap.c-11984]Num[5]
+12-01 00:00:00 055[I(0)][mw_conf_cap.c-11840]AttrMode[1]
+12-01 00:00:00 056[I(0)][mw_conf_cap.c-11840]AttrMode[2]
+12-01 00:00:00 056[I(0)][mw_conf_cap.c-11840]AttrMode[3]
+12-01 00:00:00 061[I(0)][mw_conf_cap.c-12753]GetSceneCap from ISP Start!
+12-01 00:00:00 062[I(0)][mw_conf_cap.c-12760]GetSceneCap from ISP End! Num:5
+12-01 00:00:00 062[I(0)][mw_conf_cap.c-12764]Scene Cap Mode[0]:2
+12-01 00:00:00 062[I(0)][mw_conf_cap.c-12764]Scene Cap Mode[1]:1
+12-01 00:00:00 062[I(0)][mw_conf_cap.c-12764]Scene Cap Mode[2]:30
+12-01 00:00:00 062[I(0)][mw_conf_cap.c-12764]Scene Cap Mode[3]:8
+12-01 00:00:00 062[I(0)][mw_conf_cap.c-12764]Scene Cap Mode[4]:0
+12-01 00:00:00 259[I(0)][mw_conf.c-10797]now entry CFG_TreeInit()
+12-01 00:00:00 268[I(0)][mw_conf.c-10811]build cfg-table succuss.
+12-01 00:00:00 360[I(0)][mw_ctrl_main.c-21628]Default VinMode 1920*1080*25
+12-01 00:00:00 558[I(0)][mw_ctrl_main.c-21672]Change Stream(0) Cfg To DefaultXML 1920 * 1080 * 25
+12-01 00:00:00 558[E(1)][mw_ctrl_main.c-59588]open file /config/updatestatus failed
+12-01 00:00:00 558[I(0)][mw_ctrl_main.c-55217]DRV_GetWorkMode()
+12-01 00:00:00 560[I(0)][mw_ctrl_main.c-55219]DRV_GetWorkMode() End, ulRet: 0, Work Mode: 1
+12-01 00:00:00 560[I(0)][mw_ctrl_main.c-55230]DRV_GetGZMode begin
+12-01 00:00:00 560[I(0)][mw_ctrl_main.c-55232]DRV_GetGZMode end,bGZMode:0
+12-01 00:00:00 575[I(0)][mw_ctrl_main.c-21030]Get config from config file, device id is 25-D7-B2 , server id is iccsid
+12-01 00:00:00 578[I(0)][bp_util.c-12186][BP_ACS_DecodeLangXML]DevName[OET-213H-NB-WH] LangMode[1]
+12-01 00:00:00 578[I(0)][mw_ctrl_main.c-55802][ACS]InitLanguage Cfg[1] Manuinfo[1]
+12-01 00:00:00 578[I(0)][bp_util.c-12010][BP_ACS_SetLanguageMode]Mode[1]
+12-01 00:00:00 579[I(0)][mw_ctrl_main.c-24042]device will init NetIf
+12-01 00:00:00 579[I(0)][mw_ctrl_main.c-24047]Start execute cmd [ln -sf /program/bin/udhcpc_mware /tmp/bin/mw_udhcpc_wired]
+12-01 00:00:00 587[I(0)][mw_ctrl_main.c-24053]Start execute cmd [ln -sf /program/bin/udhcpc_mware /tmp/bin/mw_udhcpc_4G]
+12-01 00:00:00 595[I(0)][mw_ctrl_main.c-24059]Start execute cmd [ln -sf /program/bin/udhcpc_mware /tmp/bin/mw_udhcpc_WiFi]
+12-01 00:00:00 603[I(0)][mw_ctrl_main.c-22769]INIT WIRED NetIf BEGIN
+12-01 00:00:00 638[I(0)][mw_ctrl_main.c-22838]DRV_GetETHPortMode()
+12-01 00:00:00 638[I(0)][mw_ctrl_main.c-22840]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:00:00 639[I(0)][mw_ctrl_main.c-22849]Init Wired Wired and get wired port mod:[0]
+12-01 00:00:00 639[I(0)][mw_ctrl_main.c-3998]DRV_GetNetIfCap()
+12-01 00:00:00 677[I(0)][mw_ctrl_main.c-4000]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4012]0-NetIfPortType[0] ModeCount[7]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]0-ModeInd[2]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]1-ModeInd[1]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]2-ModeInd[6]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]3-ModeInd[4]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]4-ModeInd[3]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]5-ModeInd[7]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-4018]6-ModeInd[0]
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-22876]DRV_SetETHModeParams() Speed&Duplex:0
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-22878]DRV_SetETHModeParams() end, ulRet:0
+12-01 00:00:00 678[I(0)][mw_ctrl_main.c-22419]DRV_GetNetIfCap()
+12-01 00:00:00 714[I(0)][mw_ctrl_main.c-22421]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:00 723[I(0)][mw_ctrl_main.c-22480]execute cmd :[ifconfig eth0 192.168.1.13 netmask 255.255.255.0]
+12-01 00:00:00 731[I(0)][mw_ctrl_main.c-22494]execute cmd :[route del default]
+12-01 00:00:00 740[I(0)][mw_ctrl_main.c-22508]execute cmd :[route add default gw 192.168.1.1 dev eth0]
+12-01 00:00:00 740[I(0)][mw_ctrl_main.c-22892]DRV_SetEthMtu() ulChannelID:0 ulMtuLen:1454
+12-01 00:00:00 748[I(0)][mw_ctrl_main.c-22894]DRV_SetEthMtu() end, ulRet:0
+12-01 00:00:00 812[I(0)][mw_ctrl_upnp.c-210]Upnp is closed
+12-01 00:00:00 812[I(0)][mw_ctrl_main.c-22720]INIT Device Ipv6 Begin
+12-01 00:00:00 812[I(0)][mw_ctrl_main.c-22737]INIT Device Ipv6 End
+12-01 00:00:00 812[I(0)][mw_ctrl_main.c-22922]INIT WIRED NetIf END
+12-01 00:00:00 849[I(0)][mw_ctrl_main.c-24069]DRV_ConfigComplete()
+12-01 00:00:00 849[I(0)][mw_ctrl_main.c-24071]DRV_ConfigComplete() end, ulRet:0
+12-01 00:00:00 849[I(0)][mw_ctrl_main.c-24077]device init NetIf end
+12-01 00:00:00 849[I(0)][mw_ctrl_main.c-24289]DRV_SetViewMode()
+12-01 00:00:00 850[I(0)][mw_ctrl_main.c-24291]DRV_SetViewMode() end, ulRet:0
+12-01 00:00:00 850[I(0)][mw_ctrl_main.c-24151]Drv NotifyFontType Begin ulProvider:0
+12-01 00:00:00 850[I(0)][mw_ctrl_main.c-24166]Drv NotifyFontType End
+12-01 00:00:00 855[I(0)][mw_ctrl_main.c-24614]ProductTye: 10 SubMode: 14
+12-01 00:00:00 855[I(0)][mw_ctrl_main.c-24619]DRV_Load() ulPlatType:0 ulSubMode:14
+12-01 00:00:01 768[I(0)][mw_ctrl_main.c-24621]DRV_Load() end, ulRet:0
+12-01 00:00:01 768[I(0)][mw_ctrl_main.c-24688]DRV_Init()
+12-01 00:00:01 768[I(0)][mw_ctrl_main.c-24690]DRV_Init() end, ulRet:0
+12-01 00:00:01 768[I(0)][mw_ctrl_main.c-24105]ISP_SetLightCtrlCallback  pfnCallback:0x3baf8 
+12-01 00:00:01 769[I(0)][mw_ctrl_main.c-24107]ISP_SetLightCtrlCallback() end, ulRet:0
+12-01 00:00:01 769[I(0)][mw_ctrl_main.c-24118]MW_CTRL_LightGroupCtrl  pfnCallback:0x3bbd8 
+12-01 00:00:01 769[I(0)][mw_ctrl_main.c-24120]MW_CTRL_LightGroupCtrl end, ulRet:0
+12-01 00:00:01 775[I(0)][mw_conf_cap.c-5016]DRV_GetLightCap()
+12-01 00:00:01 776[I(0)][mw_conf_cap.c-5018]DRV_GetLightCap() end[0], Light lamp number[2]
+12-01 00:00:01 776[W(0)][mw_conf_cap.c-4723]Not Need Deal With IrCtrl!
+12-01 00:00:01 776[W(0)][mw_conf_cap.c-4723]Not Need Deal With NoneLedCtrl!
+12-01 00:00:01 776[W(0)][mw_conf_cap.c-4723]Not Need Deal With GunIrCtrl!
+12-01 00:00:01 776[W(0)][mw_conf_cap.c-4723]Not Need Deal With WarmCtrl!
+12-01 00:00:01 777[W(0)][mw_conf_cap.c-4723]Not Need Deal With LaserCtrl!
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-5233]bHaveTheLight[0] ulLightType[0] ulDefaultMode[0] ulCtrlModeNum[1] ulLightNum[0]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-5233]bHaveTheLight[1] ulLightType[1] ulDefaultMode[3] ulCtrlModeNum[2] ulLightNum[1]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-5233]bHaveTheLight[0] ulLightType[2] ulDefaultMode[0] ulCtrlModeNum[1] ulLightNum[1]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-5233]bHaveTheLight[0] ulLightType[100] ulDefaultMode[3] ulCtrlModeNum[1] ulLightNum[0]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-5233]bHaveTheLight[0] ulLightType[3] ulDefaultMode[3] ulCtrlModeNum[1] ulLightNum[0]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-5233]bHaveTheLight[0] ulLightType[5] ulDefaultMode[3] ulCtrlModeNum[1] ulLightNum[0]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-3553]LightMode Change [0]->[1]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-3569]MW_CFG_SetIrCtrl:IREnable[1], IrCtrlMode Change[0]->[3], NearIrLed[500]MiddleIrLed[0], FarIrLed[0], LaserAngle[6000]
+12-01 00:00:01 777[I(0)][mw_conf_cap.c-8538]GetExpModeCap from ISP Start!
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8545]GetExpModeCap from ISP End! Num:6
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8549]ExpModeCap Mode[0]:1
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8549]ExpModeCap Mode[1]:2
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8549]ExpModeCap Mode[2]:3
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8549]ExpModeCap Mode[3]:7
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8549]ExpModeCap Mode[4]:8
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-8549]ExpModeCap Mode[5]:9
+12-01 00:00:01 778[I(0)][mw_conf_cap.c-5316]DRV_GetNetIfCap()
+12-01 00:00:01 838[I(0)][mw_conf_cap.c-5318]DRV_GetNetIfCap() end
+12-01 00:00:01 838[I(0)][mw_conf_cap.c-5326]DRV_GetETHPortMode()
+12-01 00:00:01 838[I(0)][mw_conf_cap.c-5328]DRV_GetETHPortMode(), portType 0
+12-01 00:00:01 839[I(0)][mw_conf_cap.c-5520]Start execute cmd [ln -sf /program/bin/wpa_supplicant /tmp/bin/mw_wpas_8021x]
+12-01 00:00:01 862[I(0)][mw_conf_cap.c-5957]DRV GetAudioCap()
+12-01 00:00:01 862[I(0)][mw_conf_cap.c-5959]DRV GetAudioCap() end[0], ulAudioInNum[1]
+12-01 00:00:01 863[I(0)][mw_conf_cap.c-7648]need not change Resolution
+12-01 00:00:01 863[I(0)][mw_conf_cap.c-7857]DRV_GetDeviceCap
+12-01 00:00:01 863[I(0)][mw_conf_cap.c-7860]DRV_GetDeviceCap end[0], bSupportRemoveSnow[0] UCodeModeCap[2]
+12-01 00:00:01 864[E(1)][mw_conf_cap.c-7996] stDrvCap.bAlarmInExtend 0
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-7145]delete device cap MWare/Network/UNP!
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-13196]Del cap MWare/Server/VMServer from device[IN]!
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-13227]Del cap MWare/Server/BMServer from device[IN]!
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-7163]Add Person Count to device cap /MWare/OSD/InfoOSD/Mode!
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-7224]Add Person Count to device cap /MWare/OSD/InfoOSD/Mode!
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-7249]Del AAC from device[IN] cap MWare/Audio/Mode!
+12-01 00:00:01 864[W(0)][mw_conf_cap.c-7270]Del Serial Tradio from device[IN] cap MWare/Serial/Serial1/Mode!
+12-01 00:00:01 865[I(0)][mw_conf_cap.c-7323]Modify OSDStyle Cap In[/MWare/OSD]
+12-01 00:00:01 865[I(0)][mw_conf.c-20027]Device support WDR sensitivity
+12-01 00:00:01 865[I(0)][mw_conf_cap.c-4369]DRV_GetDeviceCap start
+12-01 00:00:01 865[I(0)][mw_conf_cap.c-4371]DRV_GetDeviceCap end[0]
+12-01 00:00:01 940[I(0)][mw_conf.c-29938]no need comp
+12-01 00:00:01 947[F(1)][mw_conf_cap.c-9101]Not found path [MWare/Server/VMServer/Mode]
+12-01 00:00:01 948[W(4)][mw_conf.c-29032]get the node[MWare/IvaIpc/PeopleCnt/RatioSize]
+12-01 00:00:01 980[E(4)][mw_conf.c-29396]get node[MWare/ACS/PeopleLibraries/PermissionList] fail
+12-01 00:00:01 980[E(2)][mw_conf.c-29349]Del Permission Fail
+12-01 00:00:01 980[W(4)][mw_conf.c-34190]get the node[]
+12-01 00:00:02 010[I(0)][mw_conf.c-31628]ROI cfg no need adjust
+12-01 00:00:02 011[W(4)][mw_conf.c-33470]get the node[MWare/Service/InfoOSD/Channel0/Info0/Base/TopLeftEX] fail
+12-01 00:00:02 011[W(4)][mw_conf.c-33225]get the node[MWare/Service/MotionDetect/Channel0/Area0/TopLeftEX]
+12-01 00:00:02 013[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:00:03 242[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:00:03 334[I(0)][mw_ctrl_main.c-56709]ISP_MessageProcess(), ExtendMode:0 
+12-01 00:00:03 335[I(0)][mw_ctrl_main.c-56711]ISP_MessageProcess() end, ulRet:0
+12-01 00:00:03 338[I(0)][mw_ptz_common.c-3265]MW_PTZ Module Start Begin
+12-01 00:00:03 432[W(0)][mw_ptz_func.c-946]Unsupport PTZ!
+12-01 00:00:03 455[I(0)][mw_ctrl_main.c-16778]Channel 1 Geted:ulSerialType=3 ulSerialMode=113 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:00:03 472[I(0)][mw_ctrl_main.c-16778]Channel 54 Geted:ulSerialType=1 ulSerialMode=110 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:00:03 492[I(0)][mw_ctrl_main.c-16778]Channel 55 Geted:ulSerialType=1 ulSerialMode=112 ulBaudRate=19200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:00:03 592[W(0)][mw_ptz_func.c-18963]Unsupport PTZ!
+12-01 00:00:03 592[I(0)][mw_ptz_common.c-3352]MW_PTZ Module Start Over
+12-01 00:00:03 632[I(0)][mw_stor_mcp_main.c-199]RecordTmpMaxMemory:0, RecordSDMaxMemory:0
+12-01 00:00:03 636[I(0)][mw_ctrl_tollgate.c-4036](Get TrafficParam) IP:0.0.0.0, port:5196, reporttype:0
+12-01 00:00:03 652[I(0)][mw_communicate.c-31041]server ip:0.0.0.0, port:5196, reporttype:0
+12-01 00:00:03 652[I(0)][mw_ctrl_tollgate.c-1442](MW_PrintTrafficParamCfg) bVehicleStatEnable:0, bTrParamEnable:0,ulTrParamTime:60, bVehQueueLenEnable:0
+12-01 00:00:03 672[I(0)][mw_communicate.c-31068]Init Set TrafficParam Cfg  bTrParamEnable:0,bVehicleStatEnable:0, ulTrParamTime:60 
+12-01 00:00:03 692[I(0)][mw_ctrl_tollgate.c-301]videotape:enable:[0], beforetime:[8 s], aftertime:[2 s]
+12-01 00:00:03 712[I(0)][mw_communicate.c-31020]Init Set CaptureImgProcCfg BreaklawRecordSwitch 0,TimeBeforeBreakLawRecord:8, TimeAfterBreakLawRecord:2 
+12-01 00:00:03 713[I(0)][mw_ctrl_tollgate.c-1242]FTPBaseCfg: IPAddr:192.168.0.150, Port:21, UserName:, ServerPassword:,szDirectionID:1, ulDataType:0, acCarPlateInterval:, bPathUtf8Format:0, BreakSign1:-, BreakSign2:-
+12-01 00:00:03 732[E(0)][mw_ctrl_main.c-34654]DeviceID:1, DeviceName:1, szDirection:1,To West,2,To East,szRoadID:, szRoadName:road
+12-01 00:00:03 853[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:00:03 892[I(0)][mw_stor_mcp_main.c-369]PACS cfg, Num[0]
+12-01 00:00:03 972[I(0)][mw_stor_mcp_main.c-512]BasicFTP Cfg init, upload:0, IP:192.168.0.150, port:21, username:. password:
+12-01 00:00:04 032[I(0)][mw_stor_mcp_main.c-564]SansuoMode cfg init, SansuoMode:0
+12-01 00:00:04 038[I(0)][mw_mcp.c-509]chl0 pstQueueNum:1
+12-01 00:00:04 039[I(0)][mw_mcp.c-509]chl1 pstQueueNum:1
+12-01 00:00:04 039[I(0)][mw_mcp.c-509]chl2 pstQueueNum:1
+12-01 00:00:04 039[I(0)][mw_mcp.c-509]chl3 pstQueueNum:1
+12-01 00:00:04 039[I(0)][mw_mcp.c-509]chl4 pstQueueNum:1
+12-01 00:00:04 039[I(0)][mw_mcp.c-509]chl5 pstQueueNum:1
+12-01 00:00:04 039[I(0)][mw_mcp.c-621]init info: ulTalolBuffLen:15848788, pPhyAddr:0, ulTatolQueueNum:6,ulTatolDataSize:15848788
+12-01 00:00:04 122[I(0)][mw_mcp.c-13506]stream[0] enable[1] size[1080, 1920] bitRate[4096] EncMode[0] EncodeFmt[6] FrameRate[25] GopType[0] Interval[50] Quality[5] SmoothValue[5]
+12-01 00:00:04 472[W(0)][mw_ptz_func.c-12004]Unsupport PTZ!
+12-01 00:00:04 492[W(1)][bp_sendmsg.c-828][BP_SendSyncGetMsgWithHeadResp]RespParamIllegal MsgCmd[4045] MsgType[10] Result[8] RespMsgLen:72(ReqMsgLen:0) ExRecvLen[72]
+12-01 00:00:04 492[E(8)][mw_mcp.c-15762]Get PresetOSDInfo fail!
+12-01 00:00:04 492[E(8)][mw_mcp.c-13644]MCP Get PowOffMem Preset OSD Fail!
+12-01 00:00:04 572[I(0)][mw_mcp.c-21617]Send Mode is (1)
+12-01 00:00:04 752[I(0)][mw_mcp.c-15295]Before SetVideoNorm GetLensRatioInfo 0
+12-01 00:00:04 753[I(0)][mw_mcp.c-15300]MW_MCP_SetVideoNorm() VInMode: 1920*1080*25
+12-01 00:00:04 824[I(0)][mw_mcp.c-15253]DRV_SetVideoNorm() end.Ret:0
+12-01 00:00:04 824[I(0)][mw_mcp.c-15303]MW_MCP_SetVideoNorm() end, ulRet:0
+12-01 00:00:04 824[W(0)][mw_ptz_lensfunc.c-112]Unsupport Lens! enMsgCmd 4035
+12-01 00:00:04 882[I(0)][mw_mcp.c-21426]ISP_SetSceneParam(), ulSceneType:2
+12-01 00:00:04 883[I(0)][mw_mcp.c-21428]ISP_SetSceneParam() End, ulRet:0
+12-01 00:00:04 883[I(0)][mw_mcp.c-21471]ISP_SetExposure(), ulChlId:0, enImgType:0
+12-01 00:00:04 886[I(0)][mw_mcp.c-21478]ISP_SetExposure() complete
+12-01 00:00:04 886[I(0)][mw_mcp.c-21480]ISP_SetWhiteBalance(), ulChlId:0, enImgType:0
+12-01 00:00:04 887[I(0)][mw_mcp.c-21487]ISP_SetWhiteBalance() complete
+12-01 00:00:04 887[I(0)][mw_mcp.c-21490]ISP_SetImageEnhance(), ulChlId:0, enImgType:0,Mode:6
+12-01 00:00:05 025[I(0)][mw_mcp.c-21497]ISP_SetImageEnhance() complete
+12-01 00:00:05 025[I(0)][mw_mcp.c-21499]ISP_SetDefog(), ulChlId:0, enImgType:0
+12-01 00:00:05 025[I(0)][mw_mcp.c-21506]ISP_SetDefog() complete
+12-01 00:00:05 025[I(0)][mw_mcp.c-21510]ISP_SetImageVarFn(), ulChlId:0, enImgType:0
+12-01 00:00:05 085[I(0)][mw_mcp.c-21518]ISP_SetImageVarFn() complete
+12-01 00:00:05 085[I(0)][mw_mcp.c-21522]ISP_SetImageVarFn(), ulChlId:0, enImgType:0
+12-01 00:00:05 148[I(0)][mw_mcp.c-21530]ISP_SetImageVarFn() complete
+12-01 00:00:05 148[I(0)][mw_mcp.c-21534]ISP_SetImageVarFn(), ulChlId:0, enImgType:0
+12-01 00:00:05 148[I(0)][mw_mcp.c-21542]ISP_SetImageVarFn() complete
+12-01 00:00:05 148[I(0)][mw_mcp.c-15367]DRV_SetVideoFormat() ulChannelID:0 ulStreamID:0 ulEncodeFmt:6
+12-01 00:00:05 148[I(0)][mw_mcp.c-15370]DRV_SetVideoFormat() end, ulRet:0
+12-01 00:00:05 148[W(0)][mw_mcp.c-14908]MW_ECMCP_TransformVideoMsg() bIsEnable:1, ulCbrEncMode:0, ulEncodeFmt:6, ulGopType:0, Resolution-W:1920, Resolution-H:1080, ulSmoothValue:5, ulBitRate:3850, ulFrameRate:25, ulIInterval:50 ulquality:5
+12-01 00:00:05 148[I(0)][mw_mcp.c-15390]DRV_SetVideoEncodeParam(), ulChlId:0, ulStreamId:0, stResolution[1080][1920], ulBitRate:3850, ulFrameRate:25, ulIInterval:50
+12-01 00:00:05 152[I(0)][mw_mcp.c-15447]DRV Set Video EncodeParam, ulChlId:0, ulStreamId:3
+12-01 00:00:05 157[I(0)][mw_mcp.c-15456]DRV Set Video EncodeParam end
+12-01 00:00:05 157[I(0)][mw_mcp.c-16835]szKey[0] szResId[m]
+12-01 00:00:05 157[I(0)][mw_mcp.c-16835]szKey[0] szResId[e]
+12-01 00:00:05 157[I(0)][mw_mcp.c-16835]szKey[0] szResId[r]
+12-01 00:00:05 157[I(0)][mw_mcp.c-16835]szKey[0] szResId[a]
+12-01 00:00:05 157[I(0)][mw_mcp.c-16839]DRV_SetScrambleCfg Start Enable[0], KeyUpdateCycle[600], KeyLen[4]. key[mera]
+12-01 00:00:05 157[I(0)][mw_mcp.c-16842]DRV_SetScrambleCfg End
+12-01 00:00:05 159[I(0)][mw_ctrl_main.c-59363]ISP_GetZoomRatioCfg()
+12-01 00:00:05 159[I(9215)][mw_ctrl_main.c-59366]ISP_GetZoomRatioCfg() end, Digital Zoom Num[0], Cap[0] [0]
+12-01 00:00:05 159[I(9215)][mw_ctrl_main.c-59371]ISP_GetZoomRatioCfg not support
+12-01 00:00:05 159[I(0)][mw_ctrl_main.c-59489]ISP GetLensType start
+12-01 00:00:05 159[I(0)][mw_ctrl_main.c-59495]ISP GetLensType end, ulAFLensType[9]
+12-01 00:00:05 172[I(0)][mw_ptz_common.c-2360]PTZ Refresh Lens & Ptz Info here!
+12-01 00:00:05 172[W(0)][mw_ptz_lensfunc.c-674]Unsupport Lens!
+12-01 00:00:05 172[W(0)][mw_ptz_func.c-18895]Unsupport PTZ!
+12-01 00:00:05 212[I(0)][mw_mcp.c-22516]DRV_SetROI start
+12-01 00:00:05 212[I(0)][mw_mcp.c-22518]DRV_SetROI end
+12-01 00:00:05 234[I(0)][mw_mcp.c-2679]SetInvertDemoOSDEnable Start, Enable[0]
+12-01 00:00:05 234[I(0)][mw_mcp.c-2681]SetInvertDemoOSDEnable End,ulRet[0]
+12-01 00:00:05 252[I(0)][mw_mcp.c-2736]DRV Set Scramble Version Start Version[2] SubVersion[0]
+12-01 00:00:05 252[I(0)][mw_mcp.c-2738]DRV Set Scramble Version End
+12-01 00:00:05 272[I(0)][mw_mcp.c-12678]DRV_SetCustomOSDFontSize() Start 
+12-01 00:00:05 272[I(0)][mw_mcp.c-12680]DRV_SetCustomOSDFontSize() End ulRet:0!
+12-01 00:00:05 273[I(0)][mw_mcp.c-15608]DRV_SetOSDParam() start, ulChannelID:0
+12-01 00:00:05 287[I(0)][mw_mcp.c-15610]DRV_SetOSDParam() end, ulRet:0
+12-01 00:00:05 287[I(0)][mw_mcp.c-9706]UpdateCoverOsd set 2d Cover here!
+12-01 00:00:05 287[I(0)][mw_mcp.c-9591]Drv SetCoverOSD 2D Start stTopLeft(0, 0), stBotRight(0, 0) enable:0
+12-01 00:00:05 287[I(0)][mw_mcp.c-9599]Drv SetCoverOSD 2D End
+12-01 00:00:05 288[I(0)][mw_mcp.c-21720]DRV_SetLowDelay() ulLowDelay:0
+12-01 00:00:05 328[I(0)][mw_mcp.c-21867]ISP_SetLightMode() ulLightMode:1
+12-01 00:00:05 329[I(0)][mw_mcp.c-21869]ISP_SetLightMode() end 
+12-01 00:00:05 342[I(0)][mw_mcp.c-21914]ISP_SetLensIfMode() ulLensIfMode:2
+12-01 00:00:05 342[I(0)][mw_mcp.c-21916]ISP_SetLensIfMode() end 
+12-01 00:00:05 342[I(0)][mw_mcp.c-21959]ISP_SetLensParam LensID[0] IrisMode[0] IrisValue[100]
+12-01 00:00:05 343[I(0)][mw_mcp.c-21970]ISP_SetLensParam end, ulRet:0
+12-01 00:00:05 362[I(0)][mw_mcp.c-22049]DRV_EnableDCOut() ulDCOutEnable:0
+12-01 00:00:05 363[I(0)][mw_mcp.c-22051]DRV_EnableDCOut() end 
+12-01 00:00:05 382[I(0)][mw_mcp.c-22096]ISP_SetLensType() stLensTypeABF.ulLensType:1
+12-01 00:00:05 382[I(0)][mw_mcp.c-22098]ISP_SetLensType() end 
+12-01 00:00:05 385[I(0)][mw_audio.c-3701]SetTradioMicComCfg, lSerail485Fd:-1, ulSerialMode:0
+12-01 00:00:05 393[W(0)][mp_sd.c-367]The config max send buffer:0 is too small, use default value:131072.
+12-01 00:00:05 393[W(0)][mp_sd.c-388]The config max receive buffer:0 is too small, use default value:131072.
+12-01 00:00:05 393[I(0)][mp_sd.c-594]Open multisend drv success, now the gulOnceSendPktNum is 200.
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [0] startaddr:0x95e024c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [1] startaddr:0x95e824c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [2] startaddr:0x95f024c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [3] startaddr:0x95f824c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [4] startaddr:0x960024c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [5] startaddr:0x960824c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [6] startaddr:0x961024c0, len:524288
+12-01 00:00:05 393[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [7] startaddr:0x961824c0, len:524288
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [8] startaddr:0x962024c0, len:524288
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [9] startaddr:0x962824c0, len:524288
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [10] startaddr:0x963024c0, len:524288
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1551]Video total len:(0x0)8225976, [11] startaddr:0x963824c0, len:524288
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [0] startaddr:0x964024c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [1] startaddr:0x964224c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [2] startaddr:0x964424c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [3] startaddr:0x964624c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [4] startaddr:0x964824c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [5] startaddr:0x964a24c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [6] startaddr:0x964c24c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [7] startaddr:0x964e24c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [8] startaddr:0x965024c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [9] startaddr:0x965224c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [10] startaddr:0x965424c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1563]Audio total len:8225976, [11] startaddr:0x965624c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1576]MetaDa tatotal len:8225976, [0] startaddr:0x965824c0, len:131072
+12-01 00:00:05 394[I(0)][mp_sd_sendbuff.c-1576]MetaDa tatotal len:8225976, [1] startaddr:0x965a24c0, len:131072
+12-01 00:00:05 395[I(0)][mp_sd.c-626]SD module started successfully.
+12-01 00:00:05 396[I(0)][mw_mcp_stream.c-4538]Open file [/data/PassRecord/filesize] fail
+12-01 00:00:05 396[I(0)][mw_mcp.c-5474]LSSKKKK1
+12-01 00:00:05 396[I(0)][mw_audio.c-515]MW_MCP_AUD_InitAudio Begin,Sampling:0,Encformat:2,bMute:0,InputPlus:128
+12-01 00:00:05 397[I(0)][mw_audio.c-1606]DRV_InitAudioDev Begin
+12-01 00:00:05 397[I(0)][mw_audio.c-1614][Audio_Global_Param]bBiAudio:0, bDoCapture:0, bDoPlay:0, bRunAudCaptureThd:0, bRunAudPlayThd:0, bStartAF:0, bPlaybackAFAudio:0
+12-01 00:00:05 397[I(0)][mw_audio.c-1624]enFormat:2, ulBitRate:64000, ulSampleRate:8000,[DRV_ENCODE] enFormat:2, ulBitsPerSample:16, ulChannels:1,  ulPeriodSize:3840, ulPeriodTime:80, ulRealRate:48000
+12-01 00:00:05 397[I(0)][mw_audio.c-1634]enFormat:2, ulBitRate:64000, ulSampleRate:8000,[DRV_DECODE] enFormat:2, ulBitsPerSample:16, ulChannels:1, ulPeriodSize:3840, ulPeriodTime:80, ulRealRate:48000
+12-01 00:00:05 397[I(0)][mw_audio.c-568][AO]DRV_InitAudioDev Begin
+12-01 00:00:05 414[I(0)][mw_mcp.c-5374]LSSHHHH1
+12-01 00:00:05 414[I(0)][mw_mcp.c-5381]LSSHHHH2
+12-01 00:00:05 438[I(0)][mw_audio.c-570][AO]DRV_InitAudioDev End.Ret:0 bInit:1
+12-01 00:00:05 438[I(0)][mw_audio.c-578][AI]DRV_InitAudioDev Begin
+12-01 00:00:05 479[I(0)][mw_audio.c-580][AI]DRV_InitAudioDev End.Ret:0 bInit:1
+12-01 00:00:05 479[I(0)][mw_audio.c-1606]DRV_InitAudioDev End
+12-01 00:00:05 479[I(0)][mw_audio.c-1614][Audio_Global_Param]bBiAudio:0, bDoCapture:0, bDoPlay:0, bRunAudCaptureThd:0, bRunAudPlayThd:0, bStartAF:0, bPlaybackAFAudio:0
+12-01 00:00:05 480[I(0)][mw_audio.c-1624]enFormat:2, ulBitRate:64000, ulSampleRate:8000,[DRV_ENCODE] enFormat:2, ulBitsPerSample:16, ulChannels:1,  ulPeriodSize:320, ulPeriodTime:40, ulRealRate:8000
+12-01 00:00:05 480[I(0)][mw_audio.c-1634]enFormat:2, ulBitRate:64000, ulSampleRate:8000,[DRV_DECODE] enFormat:2, ulBitsPerSample:16, ulChannels:1, ulPeriodSize:320, ulPeriodTime:40, ulRealRate:8000
+12-01 00:00:05 480[I(0)][mw_audio.c-599]DRV SetAudioInDevice AudioDeviceNum[1]
+12-01 00:00:05 480[I(0)][mw_audio.c-601]DRV SetAudioInDevice end:0!
+12-01 00:00:05 480[I(1)][mw_audio.c-619]set AudioChannel[0] sucess
+12-01 00:00:05 480[I(0)][mw_audio.c-622]DRV_SetAudioInPutGain(), Gain:128
+12-01 00:00:05 480[I(0)][mw_audio.c-624]DRV_SetAudioInPutGain() end! ulRet: 0
+12-01 00:00:05 481[I(0)][mw_audio.c-631]DRV_SetAudioNRMode(), ulNREnable:1
+12-01 00:00:05 493[I(0)][mw_audio.c-633]DRV_SetAudioNRMode() end! ulRet: 0
+12-01 00:00:05 493[I(0)][mw_audio.c-640]DRV_SetAudioOutGain(), Gain:242
+12-01 00:00:05 493[I(0)][mw_audio.c-642]DRV_SetAudioOutGain() end! ulRet: 0
+12-01 00:00:05 493[W(0)][mw_audio.c-3726]DRV_SetAudioAFCallback()
+12-01 00:00:05 493[W(0)][mw_audio.c-3747]DRV_SetAudioAFCallback() end:0
+12-01 00:00:05 802[I(0)][mw_audio.c-4154]CloseDevAudio:bOutMute[0] bBiAudio[0] bStartLoopThr[0] bDevAudioOut:0
+12-01 00:00:05 807[I(0)][mw_audio.c-1606]AUD_InitAudio Done
+12-01 00:00:05 807[I(0)][mw_audio.c-1614][Audio_Global_Param]bBiAudio:0, bDoCapture:0, bDoPlay:0, bRunAudCaptureThd:1, bRunAudPlayThd:0, bStartAF:0, bPlaybackAFAudio:0
+12-01 00:00:05 807[I(0)][mw_audio.c-1624]enFormat:2, ulBitRate:64000, ulSampleRate:8000,[DRV_ENCODE] enFormat:2, ulBitsPerSample:16, ulChannels:1,  ulPeriodSize:320, ulPeriodTime:40, ulRealRate:8000
+12-01 00:00:05 807[I(0)][mw_audio.c-1634]enFormat:2, ulBitRate:64000, ulSampleRate:8000,[DRV_DECODE] enFormat:2, ulBitsPerSample:16, ulChannels:1, ulPeriodSize:320, ulPeriodTime:40, ulRealRate:8000
+12-01 00:00:05 822[I(0)][mw_mcp.c-21784]Init Agc Switch:1
+12-01 00:00:05 842[I(0)][mw_mcp.c-6618]DRV_SetAnalogoutFormat() Mode:0
+12-01 00:00:05 843[I(0)][mw_mcp.c-6620]DRV_SetAnalogoutFormat() end,ulRet:0
+12-01 00:00:05 844[I(0)][mp_sd_mixer_mng.c-3179]MP_SD_MixerFwdNodeInit() enStreamDir:1, ulStreamProperty:10, dulMixerId:4, enTransferMode:8, ulConnectType:7, ulStreamType:0
+12-01 00:00:05 844[I(0)][mw_mcp_stream.c-8087]enStreamTranMode:8, ulStreamId:0, ulLogicChlId:4, *phHandle:54
+12-01 00:00:05 844[I(0)][mw_mcp_stream.c-287]ulLogicChlId(4) begin clean FIFO & buffer
+12-01 00:00:05 845[I(0)][mw_mcp_stream.c-301]ulLogicChlId(4) end clean FIFO & buffer
+12-01 00:00:05 845[W(0)][mp_sd_mixer_mng.c-400]MP_SD_CreateMixer() ulHashIndex:4, ulFwdThreadNum:1, ulThreadIndx:0
+12-01 00:00:05 852[I(0)][mw_audio.c-239]Index[0]: LoadGUIFile[/program/factory/PcmSource/EN/Success.pcm]
+12-01 00:00:05 853[I(0)][mw_mcp.c-25119]now start the video capture thread
+12-01 00:00:05 856[I(0)][mw_audio.c-239]Index[1]: LoadGUIFile[/program/factory/PcmSource/EN/TimeFail.pcm]
+12-01 00:00:05 857[W(1)][mw_mcp.c-23772]DRV_GetWorkMode 1
+12-01 00:00:05 858[I(0)][mw_audio.c-239]Index[2]: LoadGUIFile[/program/factory/PcmSource/EN/Fail.pcm]
+12-01 00:00:05 859[I(0)][mw_audio.c-239]Index[3]: LoadGUIFile[/program/factory/PcmSource/EN/IDfail.pcm]
+12-01 00:00:05 860[I(0)][mw_audio.c-239]Index[4]: LoadGUIFile[/program/factory/PcmSource/EN/Invalidcard.pcm]
+12-01 00:00:05 862[E(1)][mp_sd_net_node.c-1194]Failed to set Qos Dscp 46
+12-01 00:00:05 862[W(1)][mp_sd_mixer_mng.c-1117]Add new type Node:0x00d57348 to Mixer:0x00d55fc0, TSHandle:0, RTPHandle:0, TCPHandle:0, StreamType:0, TransferMode:8, SetupStreamType:0
+12-01 00:00:05 862[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00d55ff8->0x00d57348
+12-01 00:00:05 862[I(0)][mp_sd.c-2017]host MP_SD_AddToEpoll pstHostFwdNode:0xd55ff8 hLocal:54 ulStartCnt:0 ulStreamCnt:1
+12-01 00:00:05 863[I(0)][mp_sd.c-2084]SD MP_SD_PlayStream streamNum[0], enTransferMode[8]
+12-01 00:00:05 863[I(0)][mp_sd.c-2624] SD Set stream state start
+12-01 00:00:05 863[I(0)][mw_audio.c-239]Index[5]: LoadGUIFile[/program/factory/PcmSource/EN/IDprompt.pcm]
+12-01 00:00:05 868[I(0)][mw_audio.c-239]Index[6]: LoadGUIFile[/program/factory/PcmSource/EN/NoLiveness.pcm]
+12-01 00:00:05 873[I(0)][mw_audio.c-239]Index[7]: LoadGUIFile[/program/factory/PcmSource/EN/CollectSuccess.pcm]
+12-01 00:00:05 875[I(0)][mw_audio.c-239]Index[8]: LoadGUIFile[/program/factory/PcmSource/EN/CollectFail.pcm]
+12-01 00:00:05 876[I(0)][mw_audio.c-239]Index[9]: LoadGUIFile[/program/factory/PcmSource/EN/ICFail.pcm]
+12-01 00:00:05 878[I(0)][mw_audio.c-239]Index[10]: LoadGUIFile[/program/factory/PcmSource/EN/ICTips.pcm]
+12-01 00:00:05 880[I(0)][mw_audio.c-239]Index[11]: LoadGUIFile[/program/factory/PcmSource/EN/CodeFail.pcm]
+12-01 00:00:05 883[I(0)][mw_audio.c-239]Index[12]: LoadGUIFile[/program/factory/PcmSource/EN/Refuse.pcm]
+12-01 00:00:05 885[I(0)][mw_audio.c-239]Index[13]: LoadGUIFile[/program/factory/PcmSource/EN/WaitAnswer.pcm]
+12-01 00:00:05 887[I(0)][mw_audio.c-239]Index[14]: LoadGUIFile[/program/factory/PcmSource/EN/OpenSucceed.pcm]
+12-01 00:00:05 889[I(0)][mw_audio.c-239]Index[15]: LoadGUIFile[/program/factory/PcmSource/EN/NoSafetyCap.pcm]
+12-01 00:00:05 890[I(0)][mw_audio.c-239]Index[16]: LoadGUIFile[/program/factory/PcmSource/EN/FacePosition.pcm]
+12-01 00:00:05 892[I(0)][mw_audio.c-239]Index[17]: LoadGUIFile[/program/factory/PcmSource/EN/NoMask.pcm]
+12-01 00:00:05 893[I(0)][mw_audio.c-239]Index[18]: LoadGUIFile[/program/factory/PcmSource/EN/NowNeedTmp.pcm]
+12-01 00:00:05 896[I(0)][mw_audio.c-239]Index[19]: LoadGUIFile[/program/factory/PcmSource/EN/Tmp_Abnormal.pcm]
+12-01 00:00:05 898[I(0)][mw_audio.c-239]Index[20]: LoadGUIFile[/program/factory/PcmSource/EN/Access_Tmp.pcm]
+12-01 00:00:05 900[I(0)][mw_audio.c-239]Index[21]: LoadGUIFile[/program/factory/PcmSource/EN/NoAccess_Tmp.pcm]
+12-01 00:00:05 902[I(0)][mw_audio.c-239]Index[22]: LoadGUIFile[/program/factory/PcmSource/EN/NoMask_Tmp.pcm]
+12-01 00:00:05 904[I(0)][mw_audio.c-239]Index[23]: LoadGUIFile[/program/factory/PcmSource/EN/NoAccess.pcm]
+12-01 00:00:05 905[I(0)][mw_audio.c-239]Index[24]: LoadGUIFile[/program/factory/PcmSource/EN/Access.pcm]
+12-01 00:00:05 906[I(0)][mw_audio.c-239]Index[25]: LoadGUIFile[/program/factory/PcmSource/EN/Near.pcm]
+12-01 00:00:05 912[I(0)][mw_audio.c-239]Index[26]: LoadGUIFile[/program/factory/PcmSource/EN/Tmp_collect_fail.pcm]
+12-01 00:00:05 914[I(0)][mw_audio.c-239]Index[27]: LoadGUIFile[/program/factory/PcmSource/EN/Access_Tmp.pcm]
+12-01 00:00:05 914[I(0)][mw_audio.c-239]Index[28]: LoadGUIFile[/program/factory/PcmSource/EN/TempNotOk_ReCheck.pcm]
+12-01 00:00:05 916[I(0)][mw_audio.c-239]Index[29]: LoadGUIFile[/program/factory/PcmSource/EN/IllegalAccess.pcm]
+12-01 00:00:05 918[I(0)][mw_audio.c-239]Index[30]: LoadGUIFile[/program/factory/PcmSource/EN/CodeFailed.pcm]
+12-01 00:00:05 921[I(0)][mw_audio.c-239]Index[31]: LoadGUIFile[/program/factory/PcmSource/EN/GreenCode.pcm]
+12-01 00:00:05 924[I(0)][mw_audio.c-239]Index[32]: LoadGUIFile[/program/factory/PcmSource/EN/YellowCode.pcm]
+12-01 00:00:05 927[I(0)][mw_audio.c-239]Index[33]: LoadGUIFile[/program/factory/PcmSource/EN/RedCode.pcm]
+12-01 00:00:05 929[I(0)][mw_audio.c-239]Index[34]: LoadGUIFile[/program/factory/PcmSource/EN/TemperLow.pcm]
+12-01 00:00:05 930[I(0)][mw_audio.c-239]Index[35]: LoadGUIFile[/program/factory/PcmSource/EN/FailNeedTemp.pcm]
+12-01 00:00:05 932[I(0)][mw_audio.c-239]Index[36]: LoadGUIFile[/program/factory/PcmSource/EN/NoAccess_TmpLow.pcm]
+12-01 00:00:05 933[I(0)][mw_audio.c-239]Index[37]: LoadGUIFile[/program/factory/PcmSource/EN/TmpLow_Nomask.pcm]
+12-01 00:00:05 935[W(0)][mw_audio.c-5097]Not Need DRV_Init Audio Dev bAudioOut:1
+12-01 00:00:05 935[I(0)][mw_audio.c-442]DRV Set Audio Out Device
+12-01 00:00:05 936[I(0)][mw_audio.c-450]DRV Set Audio Out Device end
+12-01 00:00:05 936[I(0)][mw_audio.c-452]DRV Set Audio Out Gain
+12-01 00:00:05 936[I(0)][mw_audio.c-467]DRV Set Audio Out Gain end.Gain:255
+12-01 00:00:06 212[I(0)][mw_ctrl_tollgate.c-301]videotape:enable:[0], beforetime:[8 s], aftertime:[2 s]
+12-01 00:00:06 492[I(0)][mw_ctrl_tollgate.c-301]videotape:enable:[0], beforetime:[8 s], aftertime:[2 s]
+12-01 00:00:07 036[W(0)][mw_stor.c-761]CreateInitiatorFile() Set Initiatorname=
+12-01 00:00:07 052[W(4)][mw_ctrl_main.c-11954]MW_XML_LoadFile /config/ftp.xml Failed !
+12-01 00:00:07 052[W(4)][mw_ctrl_main.c-36389]Get Ftp Name Element Info failed
+12-01 00:00:07 072[W(1)][bp_sendmsg.c-828][BP_SendSyncGetMsgWithHeadResp]RespParamIllegal MsgCmd[3141] MsgType[10] Result[4] RespMsgLen:3056(ReqMsgLen:0) ExRecvLen[3056]
+12-01 00:00:07 072[W(4)][mw_stor.c-17709]Get ftp element info failed
+12-01 00:00:07 072[W(4)][mw_stor.c-15722]Get ftp element info failed
+12-01 00:00:07 112[W(0)][mw_stor.c-701]ulIsUploadEnable 	0
+szUploadServerAddr 	0.0.0.0
+ulWaitTimeCheckEnable 	5
+ulWaitTimeUploadFailed 	20
+ulTimeIntvlProcCallBack 	30
+ulMaxTransRate 	2048
+ulMaxTransTime 	3600
+ulIsHaltCurrUpload 	0
+
+12-01 00:00:07 173[I(0)][mp_sr.c-93]SR's configure params: ulStoreSleepTime:20, ulMaxStoreStreams:11, ulIFrameMaxBuffSize:512, ulStoreMergeEnable:0, ulStoreMergeRatio:0, ulMaxFileSize:500, ulFileStorReserved:50!
+12-01 00:00:07 192[W(1)][mp_sd_mixer_mng.c-1117]Add new type Node:0x00d83cc0 to Mixer:0x00d55fc0, TSHandle:0, RTPHandle:0, TCPHandle:0, StreamType:0, TransferMode:6, SetupStreamType:0
+12-01 00:00:07 192[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00d55ff8->0x00d83cc0->0x00d57348
+12-01 00:00:07 192[I(0)][mp_sd.c-2084]SD MP_SD_PlayStream streamNum[0], enTransferMode[6]
+12-01 00:00:07 192[I(0)][mp_sd.c-2624] SD Set stream state start
+12-01 00:00:07 193[I(0)][mw_communicate.c-24126]IMOS_thr_create() MW_STOR_LYThread() tms:szIPAddr:0.0.0.0, ulProtocol:1083VM:szAddress:0.0.0.0, enMngProtocol:5060 
+12-01 00:00:07 194[W(0)][mw_stor.c-15986]Stor module start success
+12-01 00:00:07 195[I(0)][mw_ctrl_main.c-56764]ISP MessageProcess,SpecialLens:0
+12-01 00:00:07 195[I(0)][mw_ctrl_main.c-56766]ISP MessageProcess end,Ret:0
+12-01 00:00:07 197[W(1074)][bp_timer.c-1249][BP_UnregistTimerProc]MW_MWARE timerid 0 is invalid.
+12-01 00:00:07 230[I(0)][mw_stor_acs_api.c-5336][PR] no need trans
+12-01 00:00:07 247[I(0)][mw_stor.c-17488]DRV_GetLocalDiskMaxNum
+12-01 00:00:07 247[I(0)][mw_stor.c-17490]DRV_GetLocalDiskMaxNum end, DiskNum:1
+12-01 00:00:07 247[I(0)][mw_stor.c-17501]DRV_GetSDState()
+12-01 00:00:07 291[I(0)][mw_stor.c-17504]DRV_GetSDState() end, ulRet:0, SDcard 0 Status:3
+12-01 00:00:07 292[I(0)][mw_stor.c-12770]DRV_OperLocalDisk() enFileSys:1 enOperType:1
+12-01 00:00:07 315[I(0)][mw_audio.c-1455]MW_MCP_AUD_SetAudioDetectParam(), bEnable 0, ulDetectType 0, ulDiffValue 100, ulThreshold 100
+12-01 00:00:07 362[I(0)][mw_stor.c-12798]DRV_GetLocalDiskInfo() end, ulRet:0, DiskNum:0, diskname: /dev/mmcblk2 removeable: 0 ulDevSpace: 3776 enDevType: 1 szProductName: 004GA0 szVendorName: 0x000011
+12-01 00:00:07 382[I(0)][mw_stor.c-12326]disk info:name[/dev/mmcblk2p14], path[/data], total[2939 MB], free[2766 MB]
+12-01 00:00:07 382[I(0)][mw_stor.c-12890]storMode[0],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12890]storMode[1],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12890]storMode[2],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12890]storMode[3],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12890]storMode[4],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12890]storMode[5],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12890]storMode[6],ulDistributeSize:0
+12-01 00:00:07 383[I(0)][mw_stor.c-12896]DistributeSize[0],  Part TotalSpace :2839
+12-01 00:00:07 402[I(0)][mw_stor.c-12957]Total[2839]M Reserve[1324]M Record[303]M RecordBak[1212]M
+12-01 00:00:07 403[W(0)][mw_stor.c-13094]StorDevType:3 StorMode:0 SDPATH:/data SIZE:0MB  DistributeSize(0, 0), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 407[W(0)][mw_stor.c-13094]StorDevType:3 StorMode:1 SDPATH:/data SIZE:303MB  DistributeSize(303, 100), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 407[W(0)][mw_stor.c-13094]StorDevType:4 StorMode:2 SDPATH:/data SIZE:0MB  DistributeSize(0, 0), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 407[W(0)][mw_stor.c-13094]StorDevType:4 StorMode:3 SDPATH:/data SIZE:0MB  DistributeSize(0, 0), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 407[W(0)][mw_stor.c-13094]StorDevType:4 StorMode:4 SDPATH:/data SIZE:0MB  DistributeSize(0, 0), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 409[W(0)][mw_stor.c-13094]StorDevType:3 StorMode:5 SDPATH:/data SIZE:0MB  DistributeSize(0, 0), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 409[W(0)][mw_stor.c-13094]StorDevType:4 StorMode:6 SDPATH:/data SIZE:0MB  DistributeSize(0, 0), sd total space(2839 MB), ulResvSpace(100 MB)
+12-01 00:00:07 410[I(0)][mw_stor.c-14569]MW_STOR_StatSize Path:/data/channel01/sub05/ , ContentSize:224 KB(0 MB)
+12-01 00:00:07 410[I(0)][mw_stor.c-14569]MW_STOR_StatSize Path:/data/channel01/sub05/ , ContentSize:224 KB(0 MB)
+12-01 00:00:07 410[I(0)][mw_stor.c-14569]MW_STOR_StatSize Path:/data/channel01/sub05/ , ContentSize:224 KB(0 MB)
+12-01 00:00:07 411[I(0)][mw_stor.c-14569]MW_STOR_StatSize Path:/data/channel01/sub07/ , ContentSize:224 KB(0 MB)
+12-01 00:00:07 411[W(1)][mw_stor.c-15148]GetDefSubDir failed, Path:/data/channel01/sub07/photo, Size:224 KB
+12-01 00:00:07 411[I(0)][mw_stor.c-3477]start ulChl 0 ulSubChlId 2 Mode:1stor
+12-01 00:00:07 411[I(0)][mw_stor.c-2971]the ulChl 0 ulSubChlId 2 Begin 0 End 90000
+12-01 00:00:07 411[I(0)][mw_stor.c-1328]ActStream>> Channel[0:2] StreamIdx[0] Event[3] Cmd[0] StorMode[1] MixerId[513]
+12-01 00:00:07 412[W(0)][mp_sr.c-284]A new store task! mixerid: 513 ulCurrCapacity:303 MB, enStoreMode: 1 (0 FILE, 1 PIC 2 DEV), ulStorStreamType: 3  acStorePath: /data/channel01/sub05, acChanDesc:Camera, ulDirMaxFileNum:200!
+12-01 00:00:07 412[I(0)][mp_sr.c-609]CreateThreadDesc >> Path:/data/channel01/sub05 Cap:303
+12-01 00:00:07 412[I(0)][mp_sr.c-654]Stor path 0 CapLimit:303M, File Limit:512M
+12-01 00:00:07 412[I(0)][mw_stor.c-1622]ActStream>> Channel[0:2] Done !!!
+12-01 00:00:07 413[I(0)][mw_stor.c-3477]start ulChl 0 ulSubChlId 2 Mode:3stor
+12-01 00:00:07 413[I(0)][mw_stor.c-2971]the ulChl 0 ulSubChlId 2 Begin 0 End 90000
+12-01 00:00:07 413[I(0)][mw_stor.c-1328]ActStream>> Channel[0:2] StreamIdx[0] Event[3] Cmd[0] StorMode[3] MixerId[515]
+12-01 00:00:07 413[W(0)][mp_sr.c-284]A new store task! mixerid: 515 ulCurrCapacity:0 MB, enStoreMode: 3 (0 FILE, 1 PIC 2 DEV), ulStorStreamType: 6  acStorePath: /data/channel01/sub05, acChanDesc:Camera, ulDirMaxFileNum:0!
+12-01 00:00:07 413[W(2)][mp_sr.c-604]Wrong current capacity[0 MB], Un-Configured, Usable USB NUM:1
+12-01 00:00:07 413[W(2)][mp_sr.c-349]Failed to create a store thread!
+12-01 00:00:07 413[I(1)][mw_stor.c-1622]ActStream>> Channel[0:2] Done !!!
+12-01 00:00:07 413[W(1)][mw_stor.c-2723]Start Channel[0, 2] ulStorType:3 Stor Failed
+12-01 00:00:07 413[I(0)][mw_stor.c-3477]start ulChl 0 ulSubChlId 2 Mode:5stor
+12-01 00:00:07 413[I(0)][mw_stor.c-2971]the ulChl 0 ulSubChlId 2 Begin 0 End 90000
+12-01 00:00:07 413[I(0)][mw_stor.c-1328]ActStream>> Channel[0:2] StreamIdx[0] Event[3] Cmd[0] StorMode[5] MixerId[517]
+12-01 00:00:07 414[W(0)][mp_sr.c-284]A new store task! mixerid: 517 ulCurrCapacity:0 MB, enStoreMode: 5 (0 FILE, 1 PIC 2 DEV), ulStorStreamType: 8  acStorePath: /data/channel01/sub07, acChanDesc:Camera, ulDirMaxFileNum:200!
+12-01 00:00:07 414[W(2)][mp_sr.c-604]Wrong current capacity[0 MB], Un-Configured, Usable USB NUM:1
+12-01 00:00:07 414[W(2)][mp_sr.c-349]Failed to create a store thread!
+12-01 00:00:07 414[I(1)][mw_stor.c-1622]ActStream>> Channel[0:2] Done !!!
+12-01 00:00:07 414[W(1)][mw_stor.c-2723]Start Channel[0, 2] ulStorType:3 Stor Failed
+12-01 00:00:07 433[I(0)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus() ulChannelID:0 ulAlarmOutStatus:0
+12-01 00:00:07 433[I(0)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus() end, ulRet:0
+12-01 00:00:07 452[I(0)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus() ulChannelID:1 ulAlarmOutStatus:0
+12-01 00:00:07 453[I(0)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus() end, ulRet:1
+12-01 00:00:07 453[E(1)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus Channel 1 Status 0 Fail
+12-01 00:00:07 453[E(1)][mw_alarm_main.c-7577]MW_ALARM_OutputSwitchSpecProc Channel 1 Failed
+12-01 00:00:07 473[I(0)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus() ulChannelID:2 ulAlarmOutStatus:0
+12-01 00:00:07 473[I(0)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus() end, ulRet:1
+12-01 00:00:07 473[E(1)][mw_alarm_main.c-8872]DRV_SetAlarmOutStatus Channel 2 Status 0 Fail
+12-01 00:00:07 474[E(1)][mw_alarm_main.c-7577]MW_ALARM_OutputSwitchSpecProc Channel 2 Failed
+12-01 00:00:09 812[I(4)][mw_conf.c-8892]string[src:][Dst:] strtok_r with ',' Failed!
+12-01 00:00:09 892[I(4)][mw_conf.c-8892]string[src:][Dst:] strtok_r with ',' Failed!
+12-01 00:00:11 089[I(0)][mw_ctrl_main.c-31930]DRV_GetLocalDiskMaxNum start
+12-01 00:00:11 090[I(0)][mw_ctrl_main.c-31932]DRV_GetLocalDiskMaxNum end DiskMaxNum:1
+12-01 00:00:11 262[W(0)][mw_ctrl_main.c-25650]Control start module snmpd over
+12-01 00:00:11 332[I(0)][mw_newsdk_func.c-4179]gszDeviceIP:192.168.1.13.
+12-01 00:00:11 373[W(0)][mw_newsdk_func.c-4213]gulSDKChlNum[1] gulSDKStreamNum[1] gulSDKUserNum[32] gulSupUserNum[8] gulSDKMaxStreamNum[30]
+12-01 00:00:11 432[I(0)][mw_ptz_lensfunc.c-293]MaxZoomRatio[0]
+12-01 00:00:11 592[I(0)][pt_adapter_ipc.c-35849]onvif:bOnvifEnable 1 bAuthEnable 1 bDiscoveryEnbalbe 1 bSupportJPEG 1 bSupport711U1 bSupportAAC 0 bSupportTamperDetect 0 AlarmIn 4 AlarmOut 3 ZoomRatioMax 0 ZoomRatio 0 bOnvifNoBrandRegister 0 szVendorName NONE DeviceType OET-213H-NB ulZoomCtrl 0 ulPTCtrl 0 bSupportH265 1 ulSnapShot 1 bNoModifyMain 1 bSupportAudio 1 ulInfoOSDAreaNum 8ulCoverOSDMaxNum 8 ulRS485Num 1 bSupportTripWire 0, bSupportPeopleCnt 1bSupportIntrosionZone 0, ulFaceFuncCap 13
+12-01 00:00:11 752[I(0)][pt_adapter_ipc.c-36390]onvif init successful
+12-01 00:00:11 764[I(0)][stdprot_event.c-46]EventType:500.
+12-01 00:00:11 764[I(0)][stdprot_event.c-46]EventType:500.
+12-01 00:00:11 764[W(0)][mw_ctrl_main.c-25650]Control start module sdkserver over
+12-01 00:00:11 765[I(0)][mw_ctrl_web.c-127]Http Serving root[/www/]
+12-01 00:00:11 765[I(0)][mw_ctrl_web.c-136]Http Thread Start Over!
+12-01 00:00:11 767[I(0)][common_serialization.c-1924]now entry SRLZ_TreeInit()
+12-01 00:00:11 773[I(0)][common_serialization.c-1952]build SRLZ-table succuss. ItemNum[5212]
+12-01 00:00:11 812[I(0)][mw_ctrl_lightapi_func.c-13076][FRSub] Num[0]
+12-01 00:00:11 812[I(0)][mw_ctrl_lightapi_func.c-13083][FRSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 812[I(0)][mw_ctrl_lightapi_func.c-13083][FRSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 812[I(0)][mw_ctrl_lightapi_func.c-13083][FRSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 812[I(0)][mw_ctrl_lightapi_func.c-13083][FRSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 813[I(0)][mw_ctrl_lightapi_func.c-13086][CommonSub] Num[0]
+12-01 00:00:11 813[I(0)][mw_ctrl_lightapi_func.c-13093][CommonSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 813[I(0)][mw_ctrl_lightapi_func.c-13093][CommonSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 813[I(0)][mw_ctrl_lightapi_func.c-13093][CommonSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 813[I(0)][mw_ctrl_lightapi_func.c-13093][CommonSub] Index[4294967295] Type[0] IP[] Port[0] Refer[] Permanent[0] AlFlag[0] Flag[0]
+12-01 00:00:11 872[E(0)][mw_ctrl_lightapi_func.c-13414]Get Device IP begin
+12-01 00:00:12 437[E(10012)][coredata_device_mgr.c-2587]Failed to get tamper rules, VideoSourceToken:video_source
+12-01 00:00:12 437[E(10012)][coredata_device_mgr.c-2593]Failed to get line rules, VideoSourceToken:video_source
+12-01 00:00:12 493[E(10012)][coredata_device_mgr.c-2611]Failed to get intrusion rules, VideoSourceToken:video_source
+12-01 00:00:12 493[E(10012)][coredata_device_mgr.c-2617]Failed to get scene rules, VideoSourceToken:video_source
+12-01 00:00:12 493[E(10012)][coredata_device_mgr.c-2622]Failed to get focus rules, VideoSourceToken:video_source
+12-01 00:00:12 517[E(1)][coredata_device_mgr.c-3056]EntityIndex error: 1 1
+12-01 00:00:12 517[E(1)][coredata_device_mgr.c-3145]Failed to Create AnalyticsEntity of Video and Audio
+12-01 00:00:12 517[E(1)][coredata_device_mgr.c-3531]
+12-01 00:00:12 540[I(0)][mw_ctrl_lightapi.c-2842]LightAPI Thread Start Over!
+12-01 00:00:12 540[I(0)][mw_ctrl_lightapi_func.c-15390]LONGALARM Pipe Thread Start!
+12-01 00:00:12 540[I(0)][mw_ctrl_lightapi_func.c-15397]LONGALARM Pipe Thread Start Over!
+12-01 00:00:12 540[I(0)][mw_ctrl_lightapi_func.c-15400]LONGALARM Connect Thread Start!
+12-01 00:00:12 541[I(0)][mw_ctrl_lightapi_func.c-15407]LONGALARM Connect Thread Start Over!
+12-01 00:00:12 543[I(0)][mw_ctrl_listen.c-1659]MW Init Ipv6 Socket success
+12-01 00:00:12 543[I(0)][mw_ctrl_listen.c-1687]Start Listen on port[80] SSL[0]
+12-01 00:00:12 544[I(0)][mw_ctrl_main.c-49781]No need to start a scene timer
+12-01 00:00:12 565[I(0)][mw_ctrl_main.c-3998]DRV_GetNetIfCap()
+12-01 00:00:12 698[I(0)][mw_ctrl_main.c-4000]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:12 698[I(0)][mw_ctrl_main.c-4012]0-NetIfPortType[0] ModeCount[7]
+12-01 00:00:12 698[I(0)][mw_ctrl_main.c-26019]not support wifi
+12-01 00:00:12 700[W(0)][mw_ctrl_main.c-51770]Handle reboot timer Done[0]! Enable[1], Type[1], Frequency[0], StartTime[03:00:00], szEndTime[24:00:00]
+12-01 00:00:12 853[I(0)][mw_stor.c-8516]DRV_GetLocalDiskMaxNum
+12-01 00:00:12 853[I(0)][mw_stor.c-8518]DRV_GetLocalDiskMaxNum end, DiskNum[1]
+12-01 00:00:12 853[I(0)][mw_stor.c-8941]Total[1514/2839]M Pic[302/1515]M Bak[1212/1212]M
+12-01 00:00:12 877[I(0)][mw_stor.c-8516]DRV_GetLocalDiskMaxNum
+12-01 00:00:12 877[I(0)][mw_stor.c-8518]DRV_GetLocalDiskMaxNum end, DiskNum[1]
+12-01 00:00:12 878[I(0)][mw_stor.c-8941]Total[1514/2839]M Pic[302/1515]M Bak[1212/1212]M
+12-01 00:00:12 892[I(0)][am_sip_regist_main.c-172]ulExpire:3600, ulRegMode:0, szDevicever:QPTS-B2209.3.15.CENB02LJ01.200628, szDevTypeDesc:OET-213H-NB-WH, szReplaceName:OET-213H-NB, szProductId:, szRegionCode:IN, szVendorName:NONE, szResolve:HIC1080P, ulPtzfg:0, ulCamform:0, szSrcUAID:1001$25-D7-B2, szDstUAID:1001$iccsid
+12-01 00:00:12 893[I(0)][mw_ctrl_main.c-20706]ulWidth[1920], ulHeight[1080]
+12-01 00:00:12 912[I(0)][am_sip_info_message_main.c-1257]aulFrameRate:25, aulBitRate:4096, aulIInterval:50
+12-01 00:00:12 912[W(1041)][bp_module.c-2484][BP_RegistMsgProc]invalid input module id 90007002.
+12-01 00:00:12 913[W(2)][bp_cmd.c-1025][BP_RegDisplayCmd]fail to BP_RegistMsgProc.
+12-01 00:00:12 913[W(48)][am_radpt_main.c-752]Register [display CC RA cb used] command fail!
+12-01 00:00:12 933[I(24)][_tucl.c-1988][TUCL_OpenSrv]ulTmpCBID=1
+12-01 00:00:12 933[I(0)][am_radpt_tucl.c-219]The openning socket srv port is 10754.
+12-01 00:00:12 933[I(3329)][am_radpt_tucl.c-245]The openning socket srv port is 554.
+12-01 00:00:12 933[I(24)][_tucl.c-1988][TUCL_OpenSrv]ulTmpCBID=2
+12-01 00:00:12 933[I(3329)][am_radpt_tucl.c-388]The openning socket srv port is 554.
+12-01 00:00:12 933[I(0)][am_radpt_main.c-236]STEP3:thread is called! Tucl GrpId=1001.
+12-01 00:00:13 922[I(0)][mw_ctrl_main.c-28174]DRV_SetRunLightStatus() ulSlot:0 ulStatus:1
+12-01 00:00:13 923[I(0)][mw_ctrl_main.c-28176]DRV_SetRunLightStatus() end, ulRet:1
+12-01 00:00:13 923[W(1)][mw_ctrl_main.c-28182]Control set run light to bright failed, slot is 0, status is 1
+12-01 00:00:13 923[W(0)][mw_ctrl_main.c-28193]Control start over
+12-01 00:00:13 963[I(0)][mw_ctrl_main.c-54508]DRV_GetSerialNumber()
+12-01 00:00:13 963[I(0)][mw_ctrl_main.c-54510]DRV_GetSerialNumber() end, ulRet:0, szSerialNumber:210235C4CC3208000045
+12-01 00:00:13 965[I(0)][bp_timer.c-1152][BP_Settimeofday]current time: tv_sec[1322697613], tv_usec[965669]. lSecChange[0], lUsecChange[-965669].
+12-01 00:00:13 000[I(0)][mw_ctrl_main.c-26656]Register DST timer:86400000
+12-01 00:00:13 000[I(0)][mw_mcp.c-15546]DRV_SetOSDParam() start, ulChannelID:0
+12-01 00:00:13 001[I(0)][mw_ctrl_main.c-57691]Start execute cmd [ln -sf /tmp/Version.html /www/Version.html 1>/dev/null 2>&1 && ln -sf /tmp/map_ports.html /www/map_ports.html 1>/dev/null 2>&1]
+12-01 00:00:13 001[I(0)][mw_mcp.c-15548]DRV_SetOSDParam() end, ulRet:0
+12-01 00:00:13 002[I(0)][mw_stor.c-3477]start ulChl 0 ulSubChlId 2 Mode:5stor
+12-01 00:00:13 003[I(0)][mw_stor.c-2971]the ulChl 0 ulSubChlId 2 Begin 0 End 90000
+12-01 00:00:13 003[I(0)][mw_stor.c-1328]ActStream>> Channel[0:2] StreamIdx[0] Event[3] Cmd[0] StorMode[5] MixerId[517]
+12-01 00:00:13 003[W(0)][mp_sr.c-284]A new store task! mixerid: 517 ulCurrCapacity:0 MB, enStoreMode: 5 (0 FILE, 1 PIC 2 DEV), ulStorStreamType: 8  acStorePath: /data/channel01/sub07, acChanDesc:Camera, ulDirMaxFileNum:200!
+12-01 00:00:13 003[W(2)][mp_sr.c-604]Wrong current capacity[0 MB], Un-Configured, Usable USB NUM:1
+12-01 00:00:13 003[W(2)][mp_sr.c-349]Failed to create a store thread!
+12-01 00:00:13 003[I(1)][mw_stor.c-1622]ActStream>> Channel[0:2] Done !!!
+12-01 00:00:13 003[W(1)][mw_stor.c-2723]Start Channel[0, 2] ulStorType:3 Stor Failed
+12-01 00:00:13 005[W(0)][mw_ptz_func.c-4292]Unsupport PTZ!
+12-01 00:00:13 017[I(0)][mw_ctrl_main.c-57693]End execute cmd [ln -sf /tmp/Version.html /www/Version.html 1>/dev/null 2>&1 && ln -sf /tmp/map_ports.html /www/map_ports.html 1>/dev/null 2>&1]
+12-01 00:00:13 018[I(0)][mw_ctrl_ddns.c-1428]Get SerialNumber Start
+12-01 00:00:13 018[I(0)][mw_ctrl_ddns.c-1430]Get SerialNumber() end, ulRet:0, szSerialNumber:210235C4CC3208000045
+12-01 00:00:13 019[I(0)][iw_interface.c-3401]IW msg & Thr Init before other init
+12-01 00:00:13 075[I(0)][iw_smart.c-6146]IW_SmartMsgProcThread begin Mw2Iw MsgId: 0
+12-01 00:00:13 075[I(0)][iw_main.c-2472]IW DRVCom SyncTime begin eSlaveChipType 0
+12-01 00:00:13 076[I(0)][iw_main.c-1678]ProductType:10, Provider:0x0, SupportCapReport:0, SubMode:0, SubGunType:0, SmartMode:0, FaceFuncCap 13 eSlaveChipType 0
+12-01 00:00:13 976[I(0)][mw_ctrl_main.c-59833]NetReticle Down and Up, Send ARP!
+12-01 00:00:14 344[E(0)][iw_acs_face.c-563][FACE2]Dlsym Fail, Err:/program/lib/libFaceAnalyzeSystemAPI.so: undefined symbol: ISF_UVFACE_Cap
+12-01 00:00:14 358[I(0)][iw_cfg.c-6561]VideoInMode ulHeight:1080, ulWidth:1920, ulFrameRate:25
+12-01 00:00:14 376[I(0)][iw_cfg.c-2096]szResId:Camera
+12-01 00:00:14 386[I(0)][mw_mcp.c-22649]DRV_SetIrCtrl Mode:3 [500:0:0] Angle:6000 Enable:1
+12-01 00:00:14 386[I(0)][mw_mcp.c-22669]Set SmartIrParam begin
+12-01 00:00:14 387[I(0)][mw_mcp.c-22671]Set SmartIrParam end[0]
+12-01 00:00:14 404[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:00:14 416[I(0)][iw_cfg.c-4084]szTollgateID: 210235C4CC3208000045, ulProtocol:1083
+12-01 00:00:14 437[W(0)][mw_ptz_func.c-12302]Unsupport PTZ!
+12-01 00:00:14 921[I(0)][iw_facecommon.c-973]FacePicOpt Ctrl Set 0
+12-01 00:00:14 921[I(0)][iw_facecommon.c-1202][Face CFG]FullArea:1 Sensitivity:50 ANum:1 PNum:4(0 2500) Alarm:0 FeatureCap:1 SwitchOut:0 FaceCap:1 Max(11110 2777) Min(2222 1111) CapMode:1 CapNum:1 FaceCnt:0
+12-01 00:00:14 921[I(0)][iw_facecommon.c-1206][Face CFG]QuallityEn:1 QEMode:2 LastTime:5 IntervalTime:500 FRAttrEn:0 ulPupilDisMin 1111 ulPupilDisMax 5555 CompareEnable 0
+12-01 00:00:14 922[I(0)][iw_facecommon.c-1209][Face CFG]Attr SafetyCap[0] Mask[1]
+12-01 00:00:14 922[I(0)][iw_facecommon.c-1215]DRV_GetLightCap() end[0] LightLampNum[2]
+12-01 00:00:14 922[I(0)][iw_facecommon.c-1232]drv set light ulRet:0, ulLightPower:500
+12-01 00:00:14 936[I(0)][iw_facecommon.c-1051][Face CFG]Update FD Enable:1
+12-01 00:00:14 996[I(0)][iw_cfg.c-2182]Update JpegPrm ulProcQuality 50
+12-01 00:00:15 076[I(0)][iw_cfg.c-4276]UpdateInputSwitchCfg, ulChannel:0
+12-01 00:00:15 077[I(0)][iw_cfg.c-1939]bEnable:0, bIsCircuitDetectEnable:0, ulRunMode:1, szSwitchNameDesc:1
+12-01 00:00:15 077[I(0)][iw_drvmsg.c-186]DRV SetParam(4246) start
+12-01 00:00:15 077[I(0)][iw_drvmsg.c-243]DRV SetParam(4246) end,  ulResult:0
+12-01 00:00:15 077[I(0)][mw_iw_main.c-7378]DRV_GetWorkMode[1]
+12-01 00:00:15 080[I(0)][mw_iw_main.c-7380]DRV_GetWorkMode[1]
+12-01 00:00:15 096[I(0)][iw_acs_msgpro.c-569]Acs Device WorkMode Old:0-New:5
+12-01 00:00:15 136[I(0)][iw_acs_msgpro.c-764]SetCapPicCfg:[Large-Small] Enabled[0-1] Quality[50-30]
+12-01 00:00:15 216[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:00:15 237[I(0)][iw_acs_msgpro.c-162][SetMode]begin:SwitchChn[0]
+12-01 00:00:15 237[I(0)][iw_acs_msgpro.c-164][SetMode]end bLevelType[0]
+12-01 00:00:15 237[I(0)][iw_acs_msgpro.c-178][SetMode]begin:SwitchChn[2]
+12-01 00:00:15 237[I(0)][iw_acs_msgpro.c-180][SetMode]end bLevelType[0]
+12-01 00:00:15 276[I(0)][iw_acs_msgpro.c-287][WiegandSetInputMinGap] Port[1], Time[500]
+12-01 00:00:15 277[I(0)][iw_acs_msgpro.c-289][WiegandSetInputMinGap] end
+12-01 00:00:15 296[I(0)][iw_acs_msgpro.c-841]OpenDoorMode[1]
+12-01 00:00:15 297[I(0)][mw_stor.c-11274]OpenModeCfg Mode[1]
+12-01 00:00:15 416[I(0)][iw_acs_peripheral.c-3350]WeelPlan is not Enable, Turnstiles NoAction
+12-01 00:00:15 417[I(0)][iw_acs_peripheral.c-3442]IW_TurnstilesCheckIsDefend No Action
+12-01 00:00:15 437[I(0)][mw_stor.c-11265]RecordReportCfg bEnable:1,Report(Mode:2,Type:0) Upload(Mode:3 Type:0)
+12-01 00:00:15 496[I(0)][mw_conf.c-35359]get TolNum[1]
+12-01 00:00:15 576[I(0)][iw_acs_face.c-813]DRV SetSmallPictureParam Start
+12-01 00:00:15 578[I(0)][iw_acs_face.c-815]DRV SetSmallPictureParam End
+12-01 00:00:15 677[I(0)][mw_ctrl_acs_func.c-1499]Get HomeIconNum[4]
+12-01 00:00:15 777[I(0)][iw_acs_msgpro.c-2073]HighEnvEnable [1]
+12-01 00:00:15 816[I(0)][iw_acs_face.c-17368]DRV_SetVoOSDParam enable:1, Pic:/program/factory/FaceBox_4mm_7in.png, Start(X:40,Y:190),Width:520, Hight:700
+12-01 00:00:16 047[I(0)][iw_acs_msgpro.c-1103]stTempCompensate body:0.3,original:0.0,motionFilter:0
+12-01 00:00:16 048[I(0)][mw_conf.c-35112]get AlarmOutputNum[4]
+12-01 00:00:16 127[I(0)][iw_acs_msgpro.c-1474]AttrVerifyRuleProc Num[3]
+12-01 00:00:16 127[I(0)][iw_acs_msgpro.c-1502]AttrVerifyRuleProc Mode[1] Enable[0] Door[0]
+12-01 00:00:16 127[I(0)][iw_acs_msgpro.c-1502]AttrVerifyRuleProc Mode[2] Enable[1] Door[0]
+12-01 00:00:16 127[I(0)][iw_acs_msgpro.c-1502]AttrVerifyRuleProc Mode[3] Enable[1] Door[0]
+12-01 00:00:16 127[I(0)][iw_acs_msgpro.c-1526]AttrVerifyRuleProc Type[0] [35.50 42.00] Alarm[37.30] Pre Enable[0] Offset[0.30] Unit[0]
+12-01 00:00:16 146[I(0)][iw_facecommon.c-973]FacePicOpt Ctrl Set 1
+12-01 00:00:16 167[I(0)][mw_iw_main.c-7915]ISP SetImageStableCallback start
+12-01 00:00:16 167[I(0)][mw_iw_main.c-7917]ISP SetImageStableCallback end, ulRet:0
+12-01 00:00:16 168[I(0)][mw_ptz_serial.c-1938]OpenCom start
+12-01 00:00:16 168[I(0)][mw_ptz_serial.c-1945]IW_OpenCom 1
+12-01 00:00:16 168[I(0)][iw_idome.c-2258]MW_CMD_IVA_RULE_METADATA Send Over 
+12-01 00:00:16 168[I(0)][mw_ptz_serial.c-1961]OpenCom end, ulRet:0, ulComPort:1, lFileId:141
+12-01 00:00:16 169[I(0)][mw_ptz_serial.c-1975]DRV_SetComParam() ulComPort:1 SerialType:3 SerialMode:113 ulBaudRate:115200 ucDataBit:8 ucStopBit:1 ucParity:0 ucFlowcontrol:0
+12-01 00:00:16 169[I(0)][mw_ptz_serial.c-1982]IW_SetComParam 1
+12-01 00:00:16 171[I(0)][iw_main.c-2160]SMX IW_GetPDCap [2][13] 
+12-01 00:00:16 171[I(0)][iw_acs_face.c-875]Face GetCap Start:W:1080 H:1920
+12-01 00:00:16 172[I(0)][iw_acs_face.c-877]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 172[I(0)][iw_acs_face.c-875]Face GetCap Start:W:720 H:1280
+12-01 00:00:16 172[I(0)][iw_acs_face.c-877]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 172[I(0)][iw_acs_face.c-875]Face GetCap Start:W:576 H:720
+12-01 00:00:16 172[I(0)][iw_acs_face.c-877]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 172[I(0)][iw_acs_face.c-875]Face GetCap Start:W:288 H:704
+12-01 00:00:16 172[I(0)][iw_acs_face.c-877]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 172[I(0)][iw_acs_face.c-875]Face GetCap Start:W:288 H:352
+12-01 00:00:16 173[I(0)][iw_acs_face.c-877]Face GetCap End. PupilDis[185-6018]
+12-01 00:00:16 173[I(0)][iw_acs_face.c-665][Face Memory]PicBuf:0xb271e160 Len:14528 FrmBuf:0x7c0dc008 Len:4550912 FaceBuf:0xb2721a28 Len:18560 ulBufMaxNum:8 MaxNum:8
+12-01 00:00:16 179[I(0)][iw_acs_memberlib.c-6173]No Need Set Template Default Type[1] Num[1]
+12-01 00:00:16 179[I(0)][iw_acs_memberlib.c-6173]No Need Set Template Default Type[2] Num[1]
+12-01 00:00:16 183[I(0)][iw_acs_format.c-3736]IW_ACS_InitLangResNode ok
+12-01 00:00:16 183[I(0)][iw_acs_pic.c-2089]JpegPicDecodeInit ok
+12-01 00:00:16 185[I(0)][iw_cfg.c-3916]ulChannel:1 ulSerialType:3 ulSerialMode:113 
+12-01 00:00:16 185[I(0)][iw_cfg.c-1849]ulSerialType:3, ulSerialMode:113, ulBaudRate:115200, ucDataBit:8, ucStopBit:1, ucParity:0, ucFlowcontrol:0
+12-01 00:00:16 186[I(0)][mw_ptz_serial.c-1996]SetComParam end, ulRet:0
+12-01 00:00:16 186[I(0)][mw_ptz_serial.c-2007]DRV_SetComMode() ulPortNum:1 ulComMode:113
+12-01 00:00:16 186[I(0)][mw_ptz_serial.c-2017]DRV_SetComMode 1
+12-01 00:00:16 186[I(0)][mw_ptz_serial.c-2019]DRV_SetComMode() ulPortNum:1 ulComMode:113
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-2024]DRV_SetComMode() end, ulRet:0
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1938]OpenCom start
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1961]OpenCom end, ulRet:0, ulComPort:54, lFileId:-1
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1975]DRV_SetComParam() ulComPort:54 SerialType:1 SerialMode:110 ulBaudRate:115200 ucDataBit:8 ucStopBit:1 ucParity:0 ucFlowcontrol:0
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1996]SetComParam end, ulRet:0
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-2007]DRV_SetComMode() ulPortNum:54 ulComMode:110
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-2024]DRV_SetComMode() end, ulRet:0
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1938]OpenCom start
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1945]IW_OpenCom 55
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1961]OpenCom end, ulRet:0, ulComPort:55, lFileId:141
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1975]DRV_SetComParam() ulComPort:55 SerialType:1 SerialMode:112 ulBaudRate:19200 ucDataBit:8 ucStopBit:1 ucParity:0 ucFlowcontrol:0
+12-01 00:00:16 187[I(0)][mw_ptz_serial.c-1982]IW_SetComParam 55
+12-01 00:00:16 202[I(0)][iw_cfg.c-3916]ulChannel:55 ulSerialType:1 ulSerialMode:112 
+12-01 00:00:16 203[I(0)][iw_cfg.c-1849]ulSerialType:1, ulSerialMode:112, ulBaudRate:19200, ucDataBit:8, ucStopBit:1, ucParity:0, ucFlowcontrol:0
+12-01 00:00:16 203[I(0)][mw_ptz_serial.c-1996]SetComParam end, ulRet:0
+12-01 00:00:16 203[I(0)][mw_ptz_serial.c-2007]DRV_SetComMode() ulPortNum:55 ulComMode:112
+12-01 00:00:16 203[I(0)][mw_ptz_serial.c-2017]DRV_SetComMode 55
+12-01 00:00:16 203[I(0)][mw_ptz_serial.c-2019]DRV_SetComMode() ulPortNum:55 ulComMode:112
+12-01 00:00:16 204[I(0)][mw_ptz_serial.c-2024]DRV_SetComMode() end, ulRet:0
+12-01 00:00:16 210[I(0)][mw_conf_cap.c-10005]i 0 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 211[I(0)][mw_conf_cap.c-10005]i 1 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 211[I(0)][mw_conf_cap.c-10005]i 2 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 211[I(0)][mw_conf_cap.c-10005]i 3 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 211[I(0)][mw_conf_cap.c-10005]i 4 PupilDistance stor ulMin 185 ulMax 6018
+12-01 00:00:16 278[I(0)][iw_acs_face.c-13965]ACS Compare face modle begin.
+12-01 00:00:16 291[I(0)][mw_ctrl_main.c-52632]Device Donot have Battery Cap
+12-01 00:00:16 292[I(0)][mw_ctrl_main.c-7519]DRV_SetFanGroupCtrl() enable:1
+12-01 00:00:16 292[I(0)][mw_ctrl_main.c-7521]DRV_SetFanGroupCtrl() end, ulRet:0
+12-01 00:00:16 293[E(9215)][mw_ctrl_main.c-7565]ISP_SetZoomCut wide fail!
+12-01 00:00:16 293[E(9215)][mw_ctrl_main.c-28311]CTRL Init Focal Limit Cfg fail
+12-01 00:00:16 293[I(0)][mw_ctrl_main.c-22419]DRV_GetNetIfCap()
+12-01 00:00:16 342[W(0)][iw_acs_face.c-12781]MirrorMode[6] changed will relinit ISF
+12-01 00:00:16 342[W(0)][iw_acs_face.c-12791]fd cfg changed will relinit ISF
+12-01 00:00:16 342[I(0)][iw_acs_face.c-13064]ISF Init All begin
+12-01 00:00:16 342[I(0)][iw_acs_face.c-12726][FACE]Handle null,no need destory
+12-01 00:00:16 342[I(0)][iw_acs_face.c-12726][FACE]Handle null,no need destory
+12-01 00:00:16 343[I(0)][iw_acs_face.c-12726][FACE]Handle null,no need destory
+12-01 00:00:16 343[I(0)][iw_acs_face.c-12726][FACE]Handle null,no need destory
+12-01 00:00:16 343[I(0)][iw_acs_face.c-10590][FACE2]Alg Global Init begin
+12-01 00:00:16 358[I(0)][mw_communicate.c-29679]DRV_GetWorkMode() Begin
+12-01 00:00:16 371[I(0)][mw_communicate.c-29681]DRV_GetWorkMode() End, ulRet: 0, Work Mode: 1, count: 0
+12-01 00:00:16 385[I(0)][iw_acs_face.c-9912]Mode[0]:Value[512] bFinish[0] Rlt[0] Lib[3] CurProc[0] CurProState[0] Time[0-0]
+12-01 00:00:16 385[I(0)][iw_acs_face.c-9924]Proc[9]:Lib[3] LibType[3] bFinish[0] Rlt[0] Describe[TempDet]
+12-01 00:00:16 386[I(0)][iw_vehicle_detector.c-10843]EntranceGuard bluetooth DRV_BLEOpen & DRV_BLEClose, lBluetoothFd Init -1
+12-01 00:00:16 387[I(0)][iw_vehicle_detector.c-12454]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 387[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:113
+12-01 00:00:16 403[W(0)][iw_vehicle_detector.c-2089]No need to get param, ulDeviceType:113
+12-01 00:00:16 403[I(0)][iw_vehicle_detector.c-12454]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 404[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:112
+12-01 00:00:16 414[W(0)][iw_vehicle_detector.c-2089]No need to get param, ulDeviceType:112
+12-01 00:00:16 415[I(0)][iw_vehicle_detector.c-10843]EntranceGuard bluetooth DRV_BLEOpen & DRV_BLEClose, lBluetoothFd Init -1
+12-01 00:00:16 415[I(0)][iw_vehicle_detector.c-12454]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 415[I(0)][iw_vehicle_detector.c-10915]close lSerialId:143
+12-01 00:00:16 415[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:113
+12-01 00:00:16 415[W(0)][iw_vehicle_detector.c-2089]No need to get param, ulDeviceType:113
+12-01 00:00:16 416[I(0)][iw_vehicle_detector.c-12454]ulDetectorPreTimeoutCount:0, ulExDevTimeout:0
+12-01 00:00:16 416[I(0)][iw_vehicle_detector.c-10915]close lSerialId:144
+12-01 00:00:16 421[I(0)][iw_vehicle_detector.c-10947]out device enable, ulDeviceType:112
+12-01 00:00:16 443[W(0)][iw_vehicle_detector.c-2089]No need to get param, ulDeviceType:112
+12-01 00:00:16 458[I(0)][mw_ctrl_main.c-22421]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:16 458[I(0)][mw_ctrl_main.c-28324]Start Wired IF DHCP...
+12-01 00:00:16 458[I(0)][mw_ctrl_pppoe.c-282]execute cmd:[mw_udhcpc_wired -i eth0]
+12-01 00:00:16 458[W(0)][mw_ctrl_utils.c-69]execute cmd [mw_udhcpc_wired -i eth0 1>/dev/null 2>/dev/null &].
+12-01 00:00:16 496[W(0)][mw_ctrl_utils.c-74]execute cmd[mw_udhcpc_wired -i eth0 1>/dev/null 2>/dev/null &] ok
+12-01 00:00:16 496[W(0)][mw_ctrl_utils.c-86]execute cmd end [mw_udhcpc_wired -i eth0 1>/dev/null 2>/dev/null &].
+12-01 00:00:16 506[W(0)][iw_acs_face.c-10512]Memory Up Count:0
+12-01 00:00:16 580[W(0)][mw_ptz_func.c-12591]Unsupport PTZ!
+12-01 00:00:16 607[I(0)][mw_ctrl_main.c-21809]DRV_GetAllSubBoardVer()
+12-01 00:00:16 607[I(0)][mw_ctrl_main.c-21812]DRV_GetAllSubBoardVer() end, ulRet:0, ulBoardNum:0
+12-01 00:00:16 608[I(0)][mw_ctrl_main.c-21821]DRV_GetDrvVersion()
+12-01 00:00:16 608[I(0)][mw_ctrl_main.c-21824]DRV_GetDrvVersion() end, ulRet:0, szBoardType:V1.0
+12-01 00:00:16 608[I(0)][mw_ctrl_main.c-21832]DRV_GetKernelVersion()
+12-01 00:00:16 608[I(0)][mw_ctrl_main.c-21835]DRV_GetKernelVersion() end, ulRet:0, szKernelVer:V2.2
+12-01 00:00:16 608[I(0)][mw_ctrl_main.c-21843]DRV_GetRootFsVersion()
+12-01 00:00:16 608[I(0)][mw_ctrl_main.c-21846]DRV_GetRootFsVersion() end, ulRet:0, szRootfsVer:NA
+12-01 00:00:16 617[I(0)][mw_ctrl_main.c-63008]MWARE start OK, IpAddress:192.168.1.13, IpNetmask:255.255.255.0, IpGateway:192.168.1.1
+12-01 00:00:19 197[I(0)][iw_acs_peripheral.c-5179]DRV_SetOutputPower INVALID [2]
+12-01 00:00:19 678[I(0)][mw_ctrl_main.c-25112]Start to proccess DHCP Act! result[dev:eth0 ip:192.168.30.178 mask:255.255.255.0 gw:192.168.30.1]
+12-01 00:00:19 679[I(0)][mw_ctrl_main.c-22347]DRV_GetNetIfCap()
+12-01 00:00:19 800[I(0)][mw_ctrl_main.c-22349]DRV_GetNetIfCap() end, port num[1]
+12-01 00:00:19 801[I(0)][mw_ctrl_main.c-25124]device get DHCP ACT,its wired
+12-01 00:00:19 801[I(0)][mw_ctrl_main.c-33399]Send UnReg message to AM_SIP
+12-01 00:00:19 801[I(0)][mw_ctrl_main.c-25179]DRV_SetNetIPParam start channel:0
+12-01 00:00:19 801[E(1)][am_sip_regist_main.c-294]Could not find the client CCB is using To Unreg !
+12-01 00:00:19 802[W(1)][am_sip_regist_main.c-2321]No CCB to UNREG, need to REG!
+12-01 00:00:19 802[E(1)][_am_sip_main.c-1646]UNReg fail!
+12-01 00:00:19 802[I(0)][mw_ctrl_main.c-25181]DRV_SetNetIPParam end result:0
+12-01 00:00:19 803[I(0)][mw_ctrl_main.c-7080]New GateWay IP[192.168.30.1]
+12-01 00:00:19 819[E(1)][mw_ctrl_utils.c-644]Execute ioctl failed for getting mac
+12-01 00:00:19 819[E(0)][mw_ctrl_ddns.c-1205]DDNS Cfg info is Change
+12-01 00:00:19 819[I(0)][mw_ctrl_upnp.c-282]MW_Upnp_InitRefresh Do! IP [192.168.30.178]!
+12-01 00:00:21 102[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:00:21 243[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:00:21 257[E(0)][mw_onvif_func.c-1057]DigestAuth fail, Ret[12]
+12-01 00:00:21 269[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:00:21 288[E(0)][mw_onvif_func.c-1057]DigestAuth fail, Ret[12]
+12-01 00:00:28 246[E(1)][bp_module.c-516][BP_SlabGetBuf]Slab full, Print Slab_*.log. Size=4, Type=1
+12-01 00:00:28 658[I(0)][iw_acs_msgpro.c-7166]MMI GetManuinfo succeed,PrototypeName:OET-213H-NB-WH  ENCId:ENC-0302C2S4;SEN-0302C290;LCD-2304C00J;LENS-4801C09P,4801C09Y
+12-01 00:00:28 685[I(0)][iw_acs_msgpro.c-7111]MMI GetCapType succeed,MoCheck:1
+12-01 00:00:28 697[I(0)][iw_acs_msgpro.c-7031]bIsSetPIN[0]
+12-01 00:00:32 607[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:32 607[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:33 617[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:33 618[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:34 626[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:34 627[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:39 011[W(0)][iw_acs_peripheral.c-5518]Start LightUp bFDEnable[1] bFRInit[0]
+12-01 00:00:40 646[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:40 646[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:41 657[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:41 657[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:42 667[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:42 667[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:46 104[I(0)][iw_acs_face.c-10592][FACE2]Alg Global Init end.lRet:0
+12-01 00:00:46 105[W(0)][iw_acs_face.c-12846][FACE2]**Width[1920]-Height[1080]
+12-01 00:00:46 106[I(0)][iw_acs_face.c-12862][FACE2]GetCap Info begin. FrameRate:25 OrgImageWidth:1080,Height:1920
+12-01 00:00:46 111[I(0)][iw_acs_face.c-12866][FACE2]GetCap Info end. FrameRate:4000 SImageWidth:1080,Height:1920
+12-01 00:00:46 111[I(0)][iw_acs_face.c-12878]DRV SetSmallPictureParam Start ulFrameRate:4000 Width:1080 Height:1920
+12-01 00:00:46 112[I(0)][iw_acs_face.c-12880]DRV SetSmallPictureParam End
+12-01 00:00:46 113[I(0)][iw_acs_face.c-12909][FACE2]Init End.Model:(Num:1 FeatureSize0:1024 Version0[10041000] FeatureSize1:0 Version1[])
+12-01 00:00:46 113[I(0)][iw_acs_face.c-12692][FACE2]Alg Param Init Begin,WorkType:5
+12-01 00:00:46 153[I(0)][iw_acs_face.c-12694][FACE2]Alg Param Init End
+12-01 00:00:46 153[I(0)][iw_acs_face.c-12692][FACE2]Alg Param Init Begin,WorkType:6
+12-01 00:00:46 160[I(0)][iw_acs_face.c-12694][FACE2]Alg Param Init End
+12-01 00:00:46 160[I(0)][iw_acs_face.c-12692][FACE2]Alg Param Init Begin,WorkType:7
+12-01 00:00:46 172[I(0)][iw_acs_face.c-12694][FACE2]Alg Param Init End
+12-01 00:00:46 173[I(0)][iw_acs_memberlib.c-5060][IW_LibFileInit] Init Begin
+12-01 00:00:46 197[I(0)][iw_acs_memberlib.c-5377]PeopleLibCapacity MaxUsedNum: Lib[16] People[10000] Face[10000] Card[20000]
+12-01 00:00:46 221[E(21)][bp_util.c-10298][BP_ACS_AllLibInfoProc]fopen[/data/WorkLibFile/AllLibInfo.bin] err[No such file or directory]
+12-01 00:00:46 221[E(21)][bp_util.c-10298][BP_ACS_AllLibInfoProc]fopen[/data/WorkLibFile/AllLibInfo_B.bin] err[No such file or directory]
+12-01 00:00:46 221[I(0)][iw_acs_memberlib.c-5089][IW_LibFileInit]Get LocalAllLibInfo Fail, Try Get Cfg
+12-01 00:00:46 237[I(0)][iw_acs_memberlib.c-5171][IW_LibFileInit]Creat TimingUpdateThread OK
+12-01 00:00:46 237[I(0)][iw_acs_memberlib.c-5176][IW_LibFileInit] Init End
+12-01 00:00:46 238[I(0)][iw_acs_face.c-10891][FD]Light Init begin
+12-01 00:00:46 271[I(0)][iw_acs_face.c-10893][FD]Light Init end Ret:0
+12-01 00:00:46 272[I(0)][iw_acs_face.c-10903][FD]Light Light success
+12-01 00:00:46 272[I(0)][iw_acs_face.c-13245]ISF Init All Ok
+12-01 00:00:46 297[I(0)][iw_acs_face.c-14038]Compare end, start del LibNum[0]
+12-01 00:00:46 297[I(0)][iw_acs_face.c-14046]ACS Compare face modle end
+12-01 00:00:46 360[I(0)][iw_acs_memberlib.c-2995][/data/tmp/LibFile/3/FeatureLib.bin] Can't Access,NoNeed Check
+12-01 00:00:46 630[I(0)][iw_acs_face.c-14423][Apply] [mv -f /data/tmp/LibFile/3/* /data/WorkLibFile/3 1>/dev/null 2>&1] ok
+12-01 00:00:46 641[I(0)][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+12-01 00:00:46 642[I(0)][iw_acs_memberlib.c-696]Load [1]:[/data/WorkLibFile/3/FeatureLib.bin] Feature Begin
+12-01 00:00:46 642[I(0)][iw_acs_memberlib.c-768]Load Num[1] Feature End
+12-01 00:00:46 709[I(0)][iw_acs_memberlib.c-2404]Reset UpStatus OK
+12-01 00:00:46 709[I(0)][iw_acs_face.c-14467][Apply] LibID[3] All Ok
+12-01 00:00:46 724[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:00:47 379[I(0)][mw_communicate.c-29706]MW_STOR_TmsThread 0 start
+12-01 00:00:47 381[W(0)][mw_communicate.c-29806]MW_STOR_TmsThread[0] exit
+12-01 00:00:47 396[W(0)][mw_communicate.c-30222]Wait for Tms[0] Thread exit end
+12-01 00:00:47 412[I(0)][mw_stor_acs_api.c-5336][PR] no need trans
+12-01 00:00:47 412[I(0)][mw_communicate.c-29679]DRV_GetWorkMode() Begin
+12-01 00:00:47 420[I(0)][mw_communicate.c-29681]DRV_GetWorkMode() End, ulRet: 0, Work Mode: 1, count: 0
+12-01 00:00:48 496[W(0)][mw_communicate.c-23974]MW_STOR_LYThread() exit
+12-01 00:00:48 516[W(0)][mw_communicate.c-24114]Wait for MW_STOR_StartLYThread() exit end
+12-01 00:00:48 516[I(0)][mw_communicate.c-24126]IMOS_thr_create() MW_STOR_LYThread() tms:szIPAddr:0.0.0.0, ulProtocol:1083VM:szAddress:0.0.0.0, enMngProtocol:5060 
+12-01 00:00:48 559[I(0)][iw_acs_memberlib.c-2995][/data/tmp/LibFile/4/FeatureLib.bin] Can't Access,NoNeed Check
+12-01 00:00:48 687[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:48 687[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:48 716[I(0)][iw_acs_face.c-14423][Apply] [mv -f /data/tmp/LibFile/4/* /data/WorkLibFile/4 1>/dev/null 2>&1] ok
+12-01 00:00:48 730[I(0)][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+12-01 00:00:48 730[I(0)][iw_acs_memberlib.c-696]Load [1]:[/data/WorkLibFile/4/FeatureLib.bin] Feature Begin
+12-01 00:00:48 730[I(0)][iw_acs_memberlib.c-768]Load Num[1] Feature End
+12-01 00:00:48 787[W(0)][mw_ctrl_main.c-47095]Save config to flash already in other thread now
+12-01 00:00:48 801[I(0)][iw_acs_memberlib.c-2404]Reset UpStatus OK
+12-01 00:00:48 801[I(0)][iw_acs_face.c-14467][Apply] LibID[4] All Ok
+12-01 00:00:48 826[I(0)][iw_acs_memberlib.c-5025][IW_LibFileInit] Set DefaultLib End Ret[0]
+12-01 00:00:48 827[I(0)][iw_acs_face.c-14053][IW_LibFileInit] Set DefaultLib End Ret[0]
+12-01 00:00:49 259[I(0)][iw_acs_memberlib.c-5584]TimingUp[0]:LibID[3] PersonNum[0] updating...
+12-01 00:00:49 261[I(0)][iw_acs_memberlib.c-5637]TimingUp PersonBuf To TmpFile End
+12-01 00:00:49 316[I(0)][iw_acs_memberlib.c-5659]TimingUp[0]:LibID[3] PersonNum[0] UP end
+12-01 00:00:49 319[I(0)][iw_acs_memberlib.c-5584]TimingUp[1]:LibID[4] PersonNum[0] updating...
+12-01 00:00:49 320[I(0)][iw_acs_memberlib.c-5637]TimingUp PersonBuf To TmpFile End
+12-01 00:00:49 331[I(0)][iw_acs_memberlib.c-5659]TimingUp[1]:LibID[4] PersonNum[0] UP end
+12-01 00:00:49 570[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:00:49 696[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:49 696[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:50 707[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:50 707[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:54 199[I(0)][iw_acs_face.c-9912]Mode[0]:Value[4] bFinish[0] Rlt[0] Lib[3] CurProc[0] CurProState[0] Time[0-0]
+12-01 00:00:54 200[I(0)][iw_acs_face.c-9924]Proc[2]:Lib[3] LibType[3] bFinish[0] Rlt[0] Describe[FaceList]
+12-01 00:00:54 200[I(0)][iw_acs_face.c-9912]Mode[1]:Value[4] bFinish[0] Rlt[0] Lib[4] CurProc[0] CurProState[0] Time[0-0]
+12-01 00:00:54 200[I(0)][iw_acs_face.c-9924]Proc[2]:Lib[4] LibType[4] bFinish[0] Rlt[0] Describe[FaceList]
+12-01 00:00:56 727[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:56 728[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:57 736[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:57 737[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:00:58 747[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:00:58 747[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:04 767[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:04 767[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:05 777[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:05 778[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:06 797[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:06 797[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:12 817[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:12 818[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:13 826[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:13 827[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:14 836[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:14 837[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:18 440[I(0)][mw_communicate.c-29706]MW_STOR_TmsThread 0 start
+12-01 00:01:20 858[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:20 858[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:21 866[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:21 866[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:22 876[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:22 911[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:28 926[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:28 927[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:29 937[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:29 937[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:30 946[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:30 946[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:36 966[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:36 967[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:37 977[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:37 977[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:38 988[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:38 989[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:45 007[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:45 007[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:46 016[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:46 017[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:47 026[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:47 027[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:49 708[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:01:49 760[E(460)][bp_util.c-7008]Pass Word Error
+12-01 00:01:49 760[E(1)][bp_util.c-7151]CheckDigestAuth fail, Ret[1]
+12-01 00:01:49 761[E(1)][bp_util.c-7249]PassWD Not Match
+12-01 00:01:49 761[E(12)][bp_util.c-7326]PWD err[460], LoginMode[1]
+12-01 00:01:49 799[E(460)][mw_ctrl_lightapi_func.c-12264]No Vm Sync PWD
+12-01 00:01:49 801[E(460)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:01:52 529[E(460)][bp_util.c-7008]Pass Word Error
+12-01 00:01:52 529[E(1)][bp_util.c-7151]CheckDigestAuth fail, Ret[1]
+12-01 00:01:52 529[E(1)][bp_util.c-7249]PassWD Not Match
+12-01 00:01:52 529[E(12)][bp_util.c-7326]PWD err[460], LoginMode[1]
+12-01 00:01:52 566[E(460)][mw_ctrl_lightapi_func.c-12264]No Vm Sync PWD
+12-01 00:01:52 567[E(460)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:01:53 047[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:53 047[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:54 056[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:54 057[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:01:55 066[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:01:55 066[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:01 087[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:01 088[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:02 096[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:02 097[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:03 106[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:03 106[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:05 157[I(0)][mw_ctrl_lightapi_func.c-12237]Login Digest, Ret[0]
+12-01 00:02:05 917[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/Base
+12-01 00:02:05 918[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/Base
+12-01 00:02:05 918[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg0
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg1
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg2
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg3
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg4
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg5
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg6
+12-01 00:02:05 919[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg0/VehicleTypeCfg7
+12-01 00:02:05 920[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/Base
+12-01 00:02:05 920[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg0
+12-01 00:02:05 921[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg1
+12-01 00:02:05 921[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg2
+12-01 00:02:05 921[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg3
+12-01 00:02:05 921[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg4
+12-01 00:02:05 921[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg5
+12-01 00:02:05 921[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg6
+12-01 00:02:05 922[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg1/VehicleTypeCfg7
+12-01 00:02:05 922[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/Base
+12-01 00:02:05 923[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg0
+12-01 00:02:05 923[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg1
+12-01 00:02:05 923[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg2
+12-01 00:02:05 923[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg3
+12-01 00:02:05 924[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg4
+12-01 00:02:05 924[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg5
+12-01 00:02:05 924[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg6
+12-01 00:02:05 924[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg2/VehicleTypeCfg7
+12-01 00:02:05 925[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/Base
+12-01 00:02:05 925[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg0
+12-01 00:02:05 926[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg1
+12-01 00:02:05 926[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg2
+12-01 00:02:05 928[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg3
+12-01 00:02:05 928[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg4
+12-01 00:02:05 928[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg5
+12-01 00:02:05 928[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg6
+12-01 00:02:05 928[W(5120)][mw_conf.c-11766]AddChildNode form default_cfg  fail! Path=MWare/TgEp/Driveway/DrivewayCfg3/VehicleTypeCfg7
+12-01 00:02:06 958[I(0)][am_radpt_main.c-362]Alloc a new radpt ccb Index:0
+12-01 00:02:07 011[I(0)][am_rtsp_main.c-2718]session:[0eca91d6bcca91d6843d91d60eca91d],setupType:0,AudioIndex:0,streamIndex:0,streamType:8, Protocal:6, bMulticast:0,clientIp:192.168.0.84
+12-01 00:02:07 012[I(0)][mw_mcp.c-28515]create new context(060f7862b40f78628cf87862060f7862e40f7862c8f87862b50f7862e40f786) session(0eca91d6bcca91d6843d91d60eca91d) succeed
+12-01 00:02:07 014[I(0)][mp_sd_mixer_mng.c-3179]MP_SD_MixerFwdNodeInit() enStreamDir:1, ulStreamProperty:2, dulMixerId:0, enTransferMode:3, ulConnectType:6, ulStreamType:8
+12-01 00:02:07 014[I(0)][mw_mcp_stream.c-8087]enStreamTranMode:3, ulStreamId:0, ulLogicChlId:0, *phHandle:48
+12-01 00:02:07 014[I(0)][mw_mcp_stream.c-287]ulLogicChlId(0) begin clean FIFO & buffer
+12-01 00:02:07 015[I(0)][mw_mcp_stream.c-301]ulLogicChlId(0) end clean FIFO & buffer
+12-01 00:02:07 015[W(0)][mp_sd_mixer_mng.c-400]MP_SD_CreateMixer() ulHashIndex:0, ulFwdThreadNum:1, ulThreadIndx:0
+12-01 00:02:07 028[W(1)][mp_sd_mixer_mng.c-1117]Add new type Node:0x00ec7c90 to Mixer:0x00ea6800, TSHandle:0, RTPHandle:0, TCPHandle:0, StreamType:8, TransferMode:5, SetupStreamType:0
+12-01 00:02:07 028[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838->0x00ec7c90
+12-01 00:02:07 028[I(0)][mw_mcp_stream.c-9073]Setup stream succeed
+12-01 00:02:07 028[I(0)][mw_mcp_stream.c-8565]MW_MCP_ECAbilityNegotiate szIpAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:1, max:30, sdkmax:30, OnvifMDStreamNum:0, RtmpStreamNum:0; 
+12-01 00:02:07 029[I(0)][mp_sd.c-2017]host MP_SD_AddToEpoll pstHostFwdNode:0xea6838 hLocal:48 ulStartCnt:0 ulStreamCnt:1
+12-01 00:02:07 029[I(0)][mp_sd.c-2084]SD MP_SD_PlayStream streamNum[0], enTransferMode[5]
+12-01 00:02:07 030[I(0)][mw_mcp.c-28888]PLAY context(060f7862b40f78628cf87862060f7862e40f7862c8f87862b50f7862e40f786) success for channel(0)
+12-01 00:02:07 030[I(0)][mp_sd.c-2624] SD Set stream state start
+12-01 00:02:07 030[I(0)][mw_mcp.c-28995]Play stream succeed, dst ip and port is [192.168.0.84:15801]
+12-01 00:02:07 030[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697727
+12-01 00:02:09 128[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:09 128[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:10 137[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:10 137[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:11 146[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:11 146[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:11 751[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:02:14 694[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:02:17 166[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:17 167[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:18 178[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:18 179[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:19 186[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:19 187[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:25 206[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:25 207[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:26 218[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:26 218[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:27 227[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:27 227[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:33 256[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:33 257[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:34 267[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:34 268[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:35 277[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:35 277[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:41 297[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:41 298[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:42 308[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:42 309[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:43 317[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:43 318[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:43 548[W(3797)][am_radpt_tucl.c-1478]RA recv Disconnect! tucl GroupID:1001, CtrlID is 6.
+12-01 00:02:43 549[I(0)][am_radpt_main.c-501]Destroy RA CCB, ulRAdptIndex= 0 ulTuclCtrlId=6! bRelatedFlag=0
+12-01 00:02:43 549[I(0)][am_radpt_main.c-396]InitAdptCR, ulRAdptIndex= 0 ulTuclCtrlId=6!
+12-01 00:02:43 549[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:02:43 549[W(0)][mp_sd.c-2308]MP_SD_StopProcess() hLocal:48 ulStatus:4 dulMixerId:0, ulStartCnt:0, ulStreamCnt:1, enTransferMode:3
+12-01 00:02:43 557[W(1)][mp_sd_mixer_mng.c-1248]Delete Node:0x00ec7c90 from Mixer:0x00ea6800
+12-01 00:02:43 558[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838
+12-01 00:02:43 558[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:1
+12-01 00:02:43 558[W(0)][mp_sd.c-2186]__MP_SD_StopProcess() hLocal:160 ulStatus:4 dulMixerId:0 ulStartCnt:0 ulStreamCnt:0, enTransferMode:5
+12-01 00:02:43 558[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:0
+12-01 00:02:43 559[I(0)][mp_sd_mixer_mng.c-536]MP_SD_MixerPut() call pstFwdNode->pfnRelease()
+12-01 00:02:43 567[I(0)][mw_mcp_stream.c-8799]MW_MCP_ECDeleteContext  szAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:0, gulRtmpStreamNum:0, max:30, sdkmax:30; 
+12-01 00:02:43 567[I(0)][mw_mcp.c-7723]Stop stream succeed: delete context(060f7862b40f78628cf87862060f7862e40f7862c8f87862b50f7862e40f786) success for channel(0), dst ip and port is [192.168.0.84:15801]
+12-01 00:02:43 567[I(0)][mw_mcp.c-29087]Del Stream DevIp=192.168.0.84 Port=15801 Flag=1
+12-01 00:02:43 567[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697763
+12-01 00:02:43 759[I(0)][am_rtsp_main.c-368]Destroy Rm CCB session:[0eca91d6bcca91d6843d91d60eca91d].index:[0]
+12-01 00:02:43 760[W(1)][am_rtsp_main.c-334]RM CCB[0] has been free
+12-01 00:02:43 760[E(1)][am_rtsp_main.c-4418]Get RmCcb[0] Fail When Teardown
+12-01 00:02:46 560[I(0)][_tucl.c-1481][TUCL_DestroyCB]Destroy TUCL CCB: groupId=1001, blockId=6.
+12-01 00:02:49 336[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:49 336[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:50 346[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:50 346[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:51 357[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:51 357[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:57 376[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:57 377[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:58 386[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:58 386[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:02:59 397[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:02:59 397[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:05 416[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:05 417[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:06 426[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:06 427[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:07 436[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:07 436[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:11 786[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:03:13 457[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:13 457[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:14 466[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:14 466[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:14 675[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:03:15 476[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:15 477[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:16 917[I(0)][mw_ctrl_main.c-3538]DRV_GetETHPortMode()
+12-01 00:03:16 917[I(0)][mw_ctrl_main.c-3540]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:03:20 909[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:03:21 498[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:21 498[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:22 507[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:22 508[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:23 517[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:23 517[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:25 837[I(0)][mw_ctrl_main.c-16778]Channel 1 Geted:ulSerialType=3 ulSerialMode=113 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:03:25 837[I(0)][mw_ctrl_main.c-16778]Channel 55 Geted:ulSerialType=1 ulSerialMode=112 ulBaudRate=19200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:03:29 536[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:29 537[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:30 546[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:30 547[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:31 556[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:31 557[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:32 980[W(1)][mw_ctrl_main.c-25780]Failed to open cfg file reboot_cnt
+12-01 00:03:37 577[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:37 577[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:38 488[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:03:38 587[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:38 587[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:39 598[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:39 598[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:45 616[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:45 617[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:46 626[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:46 626[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:47 636[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:47 637[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:48 112[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:03:53 128[I(0)][mw_mcp.c-17169]DRV Set Audio Out Device
+12-01 00:03:53 130[I(0)][mw_mcp.c-17177]DRV Set Audio Out Device End
+12-01 00:03:53 130[I(0)][mw_mcp.c-17182]DRV Set Audio Out Gain
+12-01 00:03:53 131[I(0)][mw_mcp.c-17197]DRV Set Audio Out Gain: [100] End
+12-01 00:03:53 656[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:53 657[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:54 666[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:54 666[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:55 681[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:03:55 681[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:03:58 697[I(0)][mw_conf.c-35359]get TolNum[1]
+12-01 00:04:01 701[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:01 701[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:02 706[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:02 707[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:03 716[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:03 716[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:09 736[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:09 737[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:10 746[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:10 747[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:11 757[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:11 757[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:11 761[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:04:14 670[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:04:17 777[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:17 777[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:18 788[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:18 789[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:19 796[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:19 797[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:22 099[I(0)][mw_ctrl_main.c-54204]GetActiveCode start
+12-01 00:04:22 099[I(0)][mw_ctrl_main.c-54206]GetActiveCode end:ActiveCode[3148ENOOCQUF7E6D7LYQOHXAQ]!
+12-01 00:04:25 816[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:25 817[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:26 837[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:26 838[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:27 846[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:27 847[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:33 867[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:33 867[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:34 877[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:34 878[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:35 886[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:35 886[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:41 906[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:41 906[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:42 916[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:42 917[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:43 927[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:43 928[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:49 946[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:49 947[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:50 956[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:50 956[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:51 967[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:51 968[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:53 196[W(1)][mw_mcp.c-29803]Open file[/config/marquee.txt] fail, error[No such file or directory]
+12-01 00:04:53 421[I(0)][am_radpt_main.c-362]Alloc a new radpt ccb Index:1
+12-01 00:04:53 457[I(0)][am_rtsp_main.c-2718]session:[4fd5e4c5fdd5e4c5c522e4c54fd5e4c],setupType:0,AudioIndex:0,streamIndex:0,streamType:8, Protocal:6, bMulticast:0,clientIp:192.168.0.84
+12-01 00:04:53 458[I(0)][mw_mcp.c-28515]create new context(3d2842158f284215b7df42153d284215df284215f3df42158e284215df28421) session(4fd5e4c5fdd5e4c5c522e4c54fd5e4c) succeed
+12-01 00:04:53 458[I(0)][mp_sd_mixer_mng.c-3179]MP_SD_MixerFwdNodeInit() enStreamDir:1, ulStreamProperty:2, dulMixerId:0, enTransferMode:3, ulConnectType:6, ulStreamType:8
+12-01 00:04:53 458[I(0)][mw_mcp_stream.c-8087]enStreamTranMode:3, ulStreamId:0, ulLogicChlId:0, *phHandle:48
+12-01 00:04:53 458[I(0)][mw_mcp_stream.c-287]ulLogicChlId(0) begin clean FIFO & buffer
+12-01 00:04:53 458[I(0)][mw_mcp_stream.c-301]ulLogicChlId(0) end clean FIFO & buffer
+12-01 00:04:53 458[W(0)][mp_sd_mixer_mng.c-400]MP_SD_CreateMixer() ulHashIndex:0, ulFwdThreadNum:1, ulThreadIndx:0
+12-01 00:04:53 480[W(1)][mp_sd_mixer_mng.c-1117]Add new type Node:0x00ec7c90 to Mixer:0x00ea6800, TSHandle:0, RTPHandle:0, TCPHandle:0, StreamType:8, TransferMode:5, SetupStreamType:0
+12-01 00:04:53 480[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838->0x00ec7c90
+12-01 00:04:53 480[I(0)][mw_mcp_stream.c-9073]Setup stream succeed
+12-01 00:04:53 480[I(0)][mw_mcp_stream.c-8565]MW_MCP_ECAbilityNegotiate szIpAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:1, max:30, sdkmax:30, OnvifMDStreamNum:0, RtmpStreamNum:0; 
+12-01 00:04:53 481[I(0)][mp_sd.c-2017]host MP_SD_AddToEpoll pstHostFwdNode:0xea6838 hLocal:48 ulStartCnt:0 ulStreamCnt:1
+12-01 00:04:53 481[I(0)][mp_sd.c-2084]SD MP_SD_PlayStream streamNum[0], enTransferMode[5]
+12-01 00:04:53 481[I(0)][mw_mcp.c-28888]PLAY context(3d2842158f284215b7df42153d284215df284215f3df42158e284215df28421) success for channel(0)
+12-01 00:04:53 481[I(0)][mp_sd.c-2624] SD Set stream state start
+12-01 00:04:53 481[I(0)][mw_mcp.c-28995]Play stream succeed, dst ip and port is [192.168.0.84:16007]
+12-01 00:04:53 482[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697893
+12-01 00:04:56 412[I(0)][am_radpt_main.c-362]Alloc a new radpt ccb Index:2
+12-01 00:04:56 447[I(0)][am_rtsp_main.c-2718]session:[b79dcd74059dcd743d6acd74b79dcd7],setupType:0,AudioIndex:0,streamIndex:0,streamType:8, Protocal:6, bMulticast:0,clientIp:192.168.0.84
+12-01 00:04:56 448[I(0)][mw_mcp.c-28515]create new context(e3bb64f651bb64f6694c64f6e3bb64f601bb64f62d4c64f650bb64f601bb64f) session(b79dcd74059dcd743d6acd74b79dcd7) succeed
+12-01 00:04:56 467[I(0)][mp_sd_mixer_mng.c-1001]same stream, dulMixerId:0, ulNodeFlg:0xc0000001, StreamType:8, enTransferMode:5, SetupStreamType::0, AudioIndex:0,  ulStreamCnt::1
+12-01 00:04:56 467[W(1)][mp_sd_mixer_mng.c-1039]Add same type Node:0x00efa2a0 to Mixer:0x00ea6800
+12-01 00:04:56 468[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838->0x00ec7c90->0x00efa2a0
+12-01 00:04:56 468[I(0)][mw_mcp_stream.c-9073]Setup stream succeed
+12-01 00:04:56 468[I(0)][mw_mcp_stream.c-8565]MW_MCP_ECAbilityNegotiate szIpAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:2, max:30, sdkmax:30, OnvifMDStreamNum:0, RtmpStreamNum:0; 
+12-01 00:04:56 469[I(0)][mp_sd.c-2084]SD MP_SD_PlayStream streamNum[0], enTransferMode[5]
+12-01 00:04:56 469[I(0)][mw_mcp.c-28888]PLAY context(e3bb64f651bb64f6694c64f6e3bb64f601bb64f62d4c64f650bb64f601bb64f) success for channel(0)
+12-01 00:04:56 470[I(0)][mp_sd.c-2624] SD Set stream state start
+12-01 00:04:56 470[I(0)][mw_mcp.c-28995]Play stream succeed, dst ip and port is [192.168.0.84:16027]
+12-01 00:04:56 470[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697896
+12-01 00:04:57 986[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:57 987[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:58 996[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:04:58 996[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:04:59 745[I(0)][am_radpt_main.c-362]Alloc a new radpt ccb Index:3
+12-01 00:04:59 777[I(0)][am_rtsp_main.c-2718]session:[97c64ff625c64ff61d314ff697c64ff],setupType:0,AudioIndex:0,streamIndex:0,streamType:8, Protocal:6, bMulticast:0,clientIp:192.168.0.84
+12-01 00:04:59 782[I(0)][mw_mcp.c-28515]create new context(37e5a47685e5a476bd12a47637e5a476d5e5a476f912a47684e5a476d5e5a47) session(97c64ff625c64ff61d314ff697c64ff) succeed
+12-01 00:04:59 797[I(0)][mp_sd_mixer_mng.c-1001]same stream, dulMixerId:0, ulNodeFlg:0xc0000001, StreamType:8, enTransferMode:5, SetupStreamType::0, AudioIndex:0,  ulStreamCnt::2
+12-01 00:04:59 797[W(1)][mp_sd_mixer_mng.c-1039]Add same type Node:0x00f2c8b0 to Mixer:0x00ea6800
+12-01 00:04:59 797[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838->0x00ec7c90->0x00f2c8b0->0x00efa2a0
+12-01 00:04:59 797[I(0)][mw_mcp_stream.c-9073]Setup stream succeed
+12-01 00:04:59 797[I(0)][mw_mcp_stream.c-8565]MW_MCP_ECAbilityNegotiate szIpAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:3, max:30, sdkmax:30, OnvifMDStreamNum:0, RtmpStreamNum:0; 
+12-01 00:04:59 798[I(0)][mp_sd.c-2084]SD MP_SD_PlayStream streamNum[0], enTransferMode[5]
+12-01 00:04:59 799[I(0)][mw_mcp.c-28888]PLAY context(37e5a47685e5a476bd12a47637e5a476d5e5a476f912a47684e5a476d5e5a47) success for channel(0)
+12-01 00:04:59 805[I(0)][mp_sd.c-2624] SD Set stream state start
+12-01 00:04:59 806[I(0)][mw_mcp.c-28995]Play stream succeed, dst ip and port is [192.168.0.84:16045]
+12-01 00:04:59 807[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697899
+12-01 00:05:00 006[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:00 007[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:06 026[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:06 027[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:07 038[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:07 038[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:08 057[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:08 058[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:09 949[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:05:11 759[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:05:14 077[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:14 077[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:15 046[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:05:15 086[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:15 087[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:15 702[W(3797)][am_radpt_tucl.c-1478]RA recv Disconnect! tucl GroupID:1001, CtrlID is 7.
+12-01 00:05:15 703[I(0)][am_radpt_main.c-501]Destroy RA CCB, ulRAdptIndex= 1 ulTuclCtrlId=7! bRelatedFlag=0
+12-01 00:05:15 703[I(0)][am_radpt_main.c-396]InitAdptCR, ulRAdptIndex= 1 ulTuclCtrlId=7!
+12-01 00:05:15 703[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:05:15 703[W(1)][mp_sd_mixer_mng.c-1248]Delete Node:0x00ec7c90 from Mixer:0x00ea6800
+12-01 00:05:15 703[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838->0x00f2c8b0->0x00efa2a0
+12-01 00:05:15 703[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:5
+12-01 00:05:15 704[W(0)][mp_sd.c-2186]__MP_SD_StopProcess() hLocal:159 ulStatus:4 dulMixerId:0 ulStartCnt:2 ulStreamCnt:2, enTransferMode:5
+12-01 00:05:15 704[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:4
+12-01 00:05:15 707[I(0)][mw_mcp_stream.c-8799]MW_MCP_ECDeleteContext  szAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:2, gulRtmpStreamNum:0, max:30, sdkmax:30; 
+12-01 00:05:15 707[I(0)][mw_mcp.c-7723]Stop stream succeed: delete context(3d2842158f284215b7df42153d284215df284215f3df42158e284215df28421) success for channel(0), dst ip and port is [192.168.0.84:16007]
+12-01 00:05:15 707[I(0)][mw_mcp.c-29087]Del Stream DevIp=192.168.0.84 Port=16007 Flag=1
+12-01 00:05:15 708[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697915
+12-01 00:05:15 908[I(0)][am_rtsp_main.c-368]Destroy Rm CCB session:[4fd5e4c5fdd5e4c5c522e4c54fd5e4c].index:[1]
+12-01 00:05:15 908[W(1)][am_rtsp_main.c-334]RM CCB[1] has been free
+12-01 00:05:15 908[E(1)][am_rtsp_main.c-4418]Get RmCcb[1] Fail When Teardown
+12-01 00:05:16 097[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:16 097[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:18 708[I(0)][_tucl.c-1481][TUCL_DestroyCB]Destroy TUCL CCB: groupId=1001, blockId=7.
+12-01 00:05:19 101[W(3797)][am_radpt_tucl.c-1478]RA recv Disconnect! tucl GroupID:1001, CtrlID is 8.
+12-01 00:05:19 101[I(0)][am_radpt_main.c-501]Destroy RA CCB, ulRAdptIndex= 2 ulTuclCtrlId=8! bRelatedFlag=0
+12-01 00:05:19 101[I(0)][am_radpt_main.c-396]InitAdptCR, ulRAdptIndex= 2 ulTuclCtrlId=8!
+12-01 00:05:19 102[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:05:19 102[W(1)][mp_sd_mixer_mng.c-1248]Delete Node:0x00efa2a0 from Mixer:0x00ea6800
+12-01 00:05:19 102[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838->0x00f2c8b0
+12-01 00:05:19 102[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:3
+12-01 00:05:19 102[W(0)][mp_sd.c-2186]__MP_SD_StopProcess() hLocal:160 ulStatus:4 dulMixerId:0 ulStartCnt:1 ulStreamCnt:1, enTransferMode:5
+12-01 00:05:19 103[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:2
+12-01 00:05:19 106[I(0)][mw_mcp_stream.c-8799]MW_MCP_ECDeleteContext  szAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:1, gulRtmpStreamNum:0, max:30, sdkmax:30; 
+12-01 00:05:19 107[I(0)][mw_mcp.c-7723]Stop stream succeed: delete context(e3bb64f651bb64f6694c64f6e3bb64f601bb64f62d4c64f650bb64f601bb64f) success for channel(0), dst ip and port is [192.168.0.84:16027]
+12-01 00:05:19 107[I(0)][mw_mcp.c-29087]Del Stream DevIp=192.168.0.84 Port=16027 Flag=1
+12-01 00:05:19 108[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697919
+12-01 00:05:19 306[I(0)][am_rtsp_main.c-368]Destroy Rm CCB session:[b79dcd74059dcd743d6acd74b79dcd7].index:[2]
+12-01 00:05:19 307[W(1)][am_rtsp_main.c-334]RM CCB[2] has been free
+12-01 00:05:19 307[E(1)][am_rtsp_main.c-4418]Get RmCcb[2] Fail When Teardown
+12-01 00:05:20 050[I(0)][mw_ctrl_lightapi_func.c-2471]DRV_ExportCameraLog begin
+12-01 00:05:20 051[I(0)][mw_ctrl_lightapi_func.c-2473]DRV_ExportCameraLog end
+12-01 00:05:20 051[I(0)][mw_ctrl_main.c-33005]DRV_GetSysLog()
+12-01 00:05:20 125[I(0)][mw_ctrl_main.c-33007]DRV_GetSysLog() end, ulRet:0
+12-01 00:05:20 125[I(0)][mw_ctrl_main.c-33013]ISP_GetSysLog()
+12-01 00:05:20 131[I(0)][mw_ctrl_main.c-33015]ISP_GetSysLog() end, ulRet:0
+12-01 00:05:20 146[I(0)][mw_ctrl_lightapi_func.c-2491]Begin MMI ScreenCapture
+12-01 00:05:20 166[I(0)][mw_ctrl_lightapi_func.c-2500]begin to snapshot
+12-01 00:05:20 167[I(0)][mw_mcp.c-14170]capmode: 0
+12-01 00:05:20 167[I(0)][mw_mcp.c-29968]DRV_EncodeFrame begin
+12-01 00:05:20 168[I(0)][mw_mcp.c-29970]DRV_EncodeFrame leave
+12-01 00:05:20 303[I(0)][mw_mcp.c-23541]Put Image to File : Send mode[7]
+12-01 00:05:22 107[I(0)][_tucl.c-1481][TUCL_DestroyCB]Destroy TUCL CCB: groupId=1001, blockId=8.
+12-01 00:05:22 117[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:22 117[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:23 126[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:23 127[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:24 137[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:24 137[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:30 042[W(3797)][am_radpt_tucl.c-1478]RA recv Disconnect! tucl GroupID:1001, CtrlID is 9.
+12-01 00:05:30 043[I(0)][am_radpt_main.c-501]Destroy RA CCB, ulRAdptIndex= 3 ulTuclCtrlId=9! bRelatedFlag=0
+12-01 00:05:30 043[I(0)][am_radpt_main.c-396]InitAdptCR, ulRAdptIndex= 3 ulTuclCtrlId=9!
+12-01 00:05:30 043[E(3800)][am_radpt_main.c-400]Abnormal free RA ccb, Store Pointer isn't NULL!!
+12-01 00:05:30 043[W(0)][mp_sd.c-2308]MP_SD_StopProcess() hLocal:48 ulStatus:4 dulMixerId:0, ulStartCnt:0, ulStreamCnt:1, enTransferMode:3
+12-01 00:05:30 044[W(1)][mp_sd_mixer_mng.c-1248]Delete Node:0x00f2c8b0 from Mixer:0x00ea6800
+12-01 00:05:30 044[W(1)][mp_sd_mixer_mng.c-1166]The List:0x00ea6838
+12-01 00:05:30 044[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:1
+12-01 00:05:30 044[W(0)][mp_sd.c-2186]__MP_SD_StopProcess() hLocal:161 ulStatus:4 dulMixerId:0 ulStartCnt:0 ulStreamCnt:0, enTransferMode:5
+12-01 00:05:30 044[I(0)][mp_sd_mixer_mng.c-526]MP_SD_MixerPut() ulRefCnt:0
+12-01 00:05:30 045[I(0)][mp_sd_mixer_mng.c-536]MP_SD_MixerPut() call pstFwdNode->pfnRelease()
+12-01 00:05:30 045[I(0)][mw_mcp_stream.c-8799]MW_MCP_ECDeleteContext  szAddr:[192.168.0.84], gulSipStreamNum:0, gulSdkStreamNum:0, gulRtmpStreamNum:0, max:30, sdkmax:30; 
+12-01 00:05:30 045[I(0)][mw_mcp.c-7723]Stop stream succeed: delete context(37e5a47685e5a476bd12a47637e5a476d5e5a476f912a47684e5a476d5e5a47) success for channel(0), dst ip and port is [192.168.0.84:16045]
+12-01 00:05:30 045[I(0)][mw_mcp.c-29087]Del Stream DevIp=192.168.0.84 Port=16045 Flag=1
+12-01 00:05:30 045[W(0)][mw_alarm_main.c-7897]End Alarm report, cmd:601 chl:0 subchl:0 seq:0 time:1322697930
+12-01 00:05:30 156[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:30 157[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:30 247[I(0)][am_rtsp_main.c-368]Destroy Rm CCB session:[97c64ff625c64ff61d314ff697c64ff].index:[3]
+12-01 00:05:30 247[W(1)][am_rtsp_main.c-334]RM CCB[3] has been free
+12-01 00:05:30 247[E(1)][am_rtsp_main.c-4418]Get RmCcb[3] Fail When Teardown
+12-01 00:05:31 166[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:31 167[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:32 176[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:32 176[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:33 050[I(0)][_tucl.c-1481][TUCL_DestroyCB]Destroy TUCL CCB: groupId=1001, blockId=9.
+12-01 00:05:33 597[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:05:36 718[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:05:36 853[W(0)][mw_ctrl_utils.c-277]execute cmd [tar zcf /data/OET-213H-NB_192.168.30.178_config.tgz config_a.xml 1>/dev/null 2>&1].
+12-01 00:05:37 132[W(0)][mw_ctrl_utils.c-285]execute cmd end [tar zcf /data/OET-213H-NB_192.168.30.178_config.tgz config_a.xml 1>/dev/null 2>&1].
+12-01 00:05:37 473[I(0)][mw_ctrl_acs_lightapi_func.c-6765]tar -czf ACSDataInfo.tgz ./ValidationTemplate/* ./TimeTemplate/* EG_Room_IP.xml LibInfo_*.tgz ACSDataInfo.log ScreenCapture.bmp 1>/dev/null 2>&1
+12-01 00:05:38 197[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:38 198[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:39 209[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:39 209[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:40 216[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:40 217[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:46 236[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:46 236[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:47 256[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:47 257[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:48 267[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:48 267[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:54 287[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:54 290[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:55 297[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:55 298[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:05:56 308[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:05:56 308[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:02 326[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:02 327[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:03 336[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:03 337[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:04 347[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:04 348[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:10 366[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:10 367[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:11 377[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:11 377[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:11 567[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:06:12 387[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:12 387[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:14 892[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:06:15 001[W(0)][mw_ctrl_utils.c-277]execute cmd [tar zcf /data/OET-213H-NB_192.168.30.178_config.tgz config_a.xml 1>/dev/null 2>&1].
+12-01 00:06:15 283[W(0)][mw_ctrl_utils.c-285]execute cmd end [tar zcf /data/OET-213H-NB_192.168.30.178_config.tgz config_a.xml 1>/dev/null 2>&1].
+12-01 00:06:15 321[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:06:18 446[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:18 447[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:18 709[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:06:19 486[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:19 487[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:20 507[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:20 507[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:26 528[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:26 529[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:27 537[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:27 538[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:28 555[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:28 556[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:34 577[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:34 578[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:35 586[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:35 586[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:36 596[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:36 597[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:42 617[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:42 619[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:43 626[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:43 627[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:44 637[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:44 637[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:50 657[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:50 658[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:51 666[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:51 667[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:52 676[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:52 677[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:55 898[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:06:56 266[I(0)][mw_ctrl_lightapi_func.c-12237]Login Digest, Ret[0]
+12-01 00:06:58 696[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:58 697[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:06:59 709[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:06:59 710[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:00 716[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:00 717[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:06 736[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:06 736[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:07 746[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:07 747[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:08 757[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:08 757[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:11 799[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:07:14 777[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:14 777[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:15 270[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:07:15 787[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:15 787[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:16 798[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:16 799[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:20 478[E(0)][bp_util.c-7307]Illegal AuthMode[0]
+12-01 00:07:20 856[I(0)][mw_ctrl_lightapi_func.c-12237]Login Digest, Ret[0]
+12-01 00:07:22 816[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:22 817[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:23 827[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:23 827[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:24 836[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:24 837[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:30 856[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:30 857[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:31 866[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:31 867[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:32 876[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:32 876[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:38 897[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:38 898[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:39 906[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:39 907[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:40 920[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:40 920[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:42 678[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:07:42 887[I(0)][mw_stor.c-8516]DRV_GetLocalDiskMaxNum
+12-01 00:07:42 887[I(0)][mw_stor.c-8518]DRV_GetLocalDiskMaxNum end, DiskNum[1]
+12-01 00:07:42 888[I(0)][mw_stor.c-8941]Total[1514/2839]M Pic[302/1515]M Bak[1212/1212]M
+12-01 00:07:46 938[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:46 939[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:47 946[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:47 947[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:48 956[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:48 956[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:50 427[I(0)][mw_ctrl_lightapi_func.c-2036]get tms channel 0
+12-01 00:07:50 466[W(1)][bp_module.c-619][BP_SlabFreeBuf]MW_MWARE buffer has been freed - slab 5 bid:496 f:0
+12-01 00:07:54 977[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:54 977[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:55 987[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:55 988[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:07:56 646[I(0)][mw_ctrl_lightapi_func.c-2036]get tms channel 1
+12-01 00:07:56 687[W(1)][bp_module.c-619][BP_SlabFreeBuf]MW_MWARE buffer has been freed - slab 5 bid:496 f:0
+12-01 00:07:56 997[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:07:56 998[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:03 016[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:03 017[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:04 027[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:04 028[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:05 038[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:05 039[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:05 888[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:08:11 056[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:11 057[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:11 777[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:08:12 066[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:12 067[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:13 077[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:13 078[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:15 170[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:08:16 249[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:08:19 097[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:19 097[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:20 106[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:20 106[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:21 117[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:21 118[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:21 377[I(0)][mw_ctrl_main.c-3538]DRV_GetETHPortMode()
+12-01 00:08:21 377[I(0)][mw_ctrl_main.c-3540]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:08:25 571[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:08:26 041[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:08:27 137[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:27 137[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:28 146[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:28 147[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:29 156[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:29 156[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:32 948[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:08:35 178[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:35 178[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:35 957[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:08:36 197[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:36 202[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:37 218[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:37 219[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:43 236[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:43 237[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:44 246[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:44 246[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:45 257[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:45 258[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:45 957[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:08:51 277[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:51 277[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:52 286[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:52 287[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:53 297[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:53 297[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:55 949[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:08:57 987[I(0)][mw_ctrl_main.c-16778]Channel 1 Geted:ulSerialType=3 ulSerialMode=113 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:08:57 988[I(0)][mw_ctrl_main.c-16778]Channel 55 Geted:ulSerialType=1 ulSerialMode=112 ulBaudRate=19200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:08:59 317[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:08:59 318[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:08:59 417[I(0)][mw_ctrl_main.c-16778]Channel 1 Geted:ulSerialType=3 ulSerialMode=113 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:08:59 417[I(0)][mw_ctrl_main.c-16778]Channel 55 Geted:ulSerialType=1 ulSerialMode=112 ulBaudRate=19200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:09:00 327[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:00 327[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:00 847[I(0)][mw_ctrl_main.c-16778]Channel 1 Geted:ulSerialType=3 ulSerialMode=113 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:09:00 847[I(0)][mw_ctrl_main.c-16778]Channel 55 Geted:ulSerialType=1 ulSerialMode=112 ulBaudRate=19200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:09:01 336[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:01 337[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:06 267[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:07 357[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:07 358[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:08 367[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:08 367[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:09 376[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:09 377[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:11 784[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:09:12 277[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:09:13 057[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:09:13 764[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:09:15 184[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:09:15 396[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:15 397[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:15 947[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:16 407[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:16 407[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:17 416[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:17 417[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:22 037[I(0)][mw_conf.c-35359]get TolNum[1]
+12-01 00:09:23 436[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:23 436[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:24 446[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:24 447[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:25 458[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:25 458[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:26 261[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:31 476[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:31 476[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:32 486[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:32 487[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:33 497[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:33 497[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:36 597[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:39 372[I(0)][mw_ctrl_acs_func.c-1499]Get HomeIconNum[4]
+12-01 00:09:39 517[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:39 517[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:40 526[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:40 527[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:41 538[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:41 538[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:43 797[I(0)][mw_ctrl_acs_func.c-1499]Get HomeIconNum[4]
+12-01 00:09:43 819[I(0)][mw_ctrl_acs_func.c-1465]Set HomeIconNum[4]
+12-01 00:09:45 957[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:47 079[I(0)][mw_ctrl_main.c-3538]DRV_GetETHPortMode()
+12-01 00:09:47 079[I(0)][mw_ctrl_main.c-3540]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:09:47 556[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:47 557[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:48 566[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:48 567[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:49 576[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:49 577[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:51 868[I(0)][mw_ctrl_main.c-16778]Channel 1 Geted:ulSerialType=3 ulSerialMode=113 ulBaudRate=115200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:09:51 868[I(0)][mw_ctrl_main.c-16778]Channel 55 Geted:ulSerialType=1 ulSerialMode=112 ulBaudRate=19200 ucDataBit=8 ucParity=0 ucFlowcontrol=0
+12-01 00:09:51 988[I(0)][mw_stor.c-8516]DRV_GetLocalDiskMaxNum
+12-01 00:09:51 988[I(0)][mw_stor.c-8518]DRV_GetLocalDiskMaxNum end, DiskNum[1]
+12-01 00:09:51 988[I(0)][mw_stor.c-8941]Total[1514/2839]M Pic[302/1515]M Bak[1212/1212]M
+12-01 00:09:52 067[E(0)][mw_ctrl_lightapi_func.c-2011]Illegal Index[-1]
+12-01 00:09:52 068[E(2)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:09:52 221[E(0)][mw_ctrl_lightapi_func.c-2011]Illegal Index[-1]
+12-01 00:09:52 222[E(2)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:09:52 288[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 1083 210235C4CC3208000045 OET-213H-NB 0123456789  0.0.0.0 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  0.0.0.0 5198
+12-01 00:09:52 366[I(0)][mw_conf.c-35359]get TolNum[1]
+12-01 00:09:52 565[I(0)][mw_conf.c-35252]get PortNum[3]
+12-01 00:09:52 717[I(0)][mw_ctrl_main.c-3538]DRV_GetETHPortMode()
+12-01 00:09:52 717[I(0)][mw_ctrl_main.c-3540]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:09:52 918[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:53 077[E(2)][mw_ctrl_lightapi_func.c-5009]Tmp password or name is NULL in URL
+12-01 00:09:53 079[E(2)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:09:53 520[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:09:55 598[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:55 599[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:56 268[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:09:56 607[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:56 608[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:09:57 616[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:09:57 616[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:03 644[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:03 644[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:04 656[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:04 657[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:05 666[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:05 666[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:06 279[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:10:07 558[E(0)][mw_ctrl_main.c-35372]IP:0.0.0.0, Num:1
+12-01 00:10:11 340[I(0)][mw_ctrl_lightapi_func.c-2471]DRV_ExportCameraLog begin
+12-01 00:10:11 340[I(0)][mw_ctrl_lightapi_func.c-2473]DRV_ExportCameraLog end
+12-01 00:10:11 340[I(0)][mw_ctrl_main.c-33005]DRV_GetSysLog()
+12-01 00:10:11 379[I(0)][mw_ctrl_main.c-33007]DRV_GetSysLog() end, ulRet:0
+12-01 00:10:11 379[I(0)][mw_ctrl_main.c-33013]ISP_GetSysLog()
+12-01 00:10:11 381[I(0)][mw_ctrl_main.c-33015]ISP_GetSysLog() end, ulRet:0
+12-01 00:10:11 398[I(0)][mw_ctrl_lightapi_func.c-2491]Begin MMI ScreenCapture
+12-01 00:10:11 416[I(0)][mw_ctrl_lightapi_func.c-2500]begin to snapshot
+12-01 00:10:11 417[I(0)][mw_mcp.c-14170]capmode: 0
+12-01 00:10:11 417[I(0)][mw_mcp.c-29968]DRV_EncodeFrame begin
+12-01 00:10:11 417[I(0)][mw_mcp.c-29970]DRV_EncodeFrame leave
+12-01 00:10:11 430[I(0)][mw_mcp.c-23541]Put Image to File : Send mode[7]
+12-01 00:10:11 688[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:11 688[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:11 773[I(4)][mw_conf.c-6673]MW_CFG_FlushToDisk begin
+12-01 00:10:12 696[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:12 697[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:13 706[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:13 706[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:15 969[I(0)][iw_acs_msgpro.c-693]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:10:16 540[I(4)][mw_conf.c-6675]MW_CFG_FlushToDisk end
+12-01 00:10:19 728[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:19 728[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]
+12-01 00:10:20 738[E(0)][iw_acs_peripheral.c-6630]poll (1S) error:Success, lRet:0
+12-01 00:10:20 739[E(0)][iw_acs_msgpro.c-9280]ProcTemperSerailMsg Fail[1]

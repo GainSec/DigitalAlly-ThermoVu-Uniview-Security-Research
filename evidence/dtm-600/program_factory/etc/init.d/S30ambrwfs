@@ -1,0 +1,139 @@
+#!/bin/sh
+#
+# Check ro file system and ....
+#
+/sbin/mdev -s
+
+CONFIG_MTD=mmcblk2p5
+CONFIG_BAK_MTD=mmcblk2p6
+PROGRAM_MTD=mmcblk2p12
+RUNTIME_MTD=mmcblk2p9
+CLIINFO_MTD=mmcblk2p7
+KERNEL_MTD=mmcblk2p3
+UBOOT_MTD=mmcblk2p1
+BOOTLOGO_MTD=mmcblk2p2
+UPDATEINFO_MTD=mmcblk2p11
+CALIBRATION_MTD=mmcblk2p10
+DATA_MTD=mmcblk2p14
+CACHE_MTD=mmcblk2p13
+
+echo /sbin/mdev >/proc/sys/kernel/hotplug
+ln_sf_link()
+{
+    if [ -e"/dev/ttyAMA0" -a ! -e "/dev/ttyAMBA0" ]; then
+    	ln -sf /dev/ttyAMA0 /dev/ttyAMBA0
+    fi
+    
+    if [ -e "/dev/ttyAMA1" -a ! -e "/dev/ttyAMBA1" ]; then
+    	ln -sf /dev/ttyAMA1 /dev/ttyAMBA1
+    fi
+    
+    if [ -e "/dev/$RUNTIME_MTD" -a ! -e "/dev/mtd_runtime" ]; then
+            ln -sf /dev/$RUNTIME_MTD /dev/mtd_runtime
+    fi
+    
+    if [ -e "/dev/$CONFIG_MTD" -a ! -e "/dev/mtd_config" ]; then
+            ln -sf /dev/$CONFIG_MTD /dev/mtd_config
+    fi
+    
+    if [ -e "/dev/$CONFIG_BAK_MTD" -a ! -e "/dev/mtd_cfgbak" ]; then
+            ln -sf /dev/$CONFIG_BAK_MTD /dev/mtd_cfgbak
+    fi
+    
+    if [ -e "/dev/$CLIINFO_MTD" -a ! -e "/dev/mtd_clinfo" ]; then
+            ln -sf /dev/$CLIINFO_MTD /dev/mtd_clinfo
+    fi
+    
+    if [ -e "/dev/$KERNEL_MTD" -a ! -e "/dev/mtd_kernel" ]; then
+            ln -sf /dev/$KERNEL_MTD /dev/mtd_kernel
+    fi
+
+    if [ -e "/dev/$BOOTLOGO_MTD" -a ! -e "/dev/mtd_bootlogo" ]; then
+            ln -sf /dev/$BOOTLOGO_MTD /dev/mtd_bootlogo
+    fi
+    
+    if [ -e "/dev/$PROGRAM_MTD" -a ! -e "/dev/mtd_program" ]; then
+            ln -sf /dev/$PROGRAM_MTD /dev/mtd_program
+    fi
+    
+    if [ -e "/dev/$UBOOT_MTD" -a ! -e "/dev/mtd_uboot" ]; then
+            ln -sf /dev/$UBOOT_MTD /dev/mtd_uboot
+    fi
+    
+    if [ -e "/dev/$UPDATEINFO_MTD" -a ! -e "/dev/mtd_updateinfo" ]; then
+            ln -sf /dev/$UPDATEINFO_MTD /dev/mtd_updateinfo
+    fi
+
+    if [ -e "/dev/$DATA_MTD" -a ! -e "/dev/mtd_data" ]; then
+            ln -sf /dev/$DATA_MTD /dev/mtd_data
+    fi
+
+    if [ -e "/dev/$CACHE_MTD" -a ! -e "/dev/mtd_cache" ]; then
+            ln -sf /dev/$CACHE_MTD /dev/mtd_cache
+    fi
+    
+	if [ -e "/dev/$CALIBRATION_MTD" -a ! -e "/dev/mtd_calibration" ]; then
+            ln -sf /dev/$CALIBRATION_MTD /dev/mtd_calibration
+    fi
+
+}
+
+mkdir -p /var/run	
+mkdir -p /var/lib
+mkdir -p /var/lock/iscsi
+
+sleep 1;
+if [ -e "/dev/$CONFIG_MTD" -a ! -e "/dev/mtd_config" ] && [ -e "/dev/$PROGRAM_MTD" -a ! -e "/dev/mtd_program" ]; then
+    ln_sf_link;
+else
+    sleep 1;
+    ln_sf_link;
+fi
+
+mkdir -p /program
+mount -t ext4 /dev/$PROGRAM_MTD -o sync,noatime /program
+
+mkdir -p /config
+mount -t ext4 /dev/$CONFIG_MTD -o sync,noatime /config
+
+if [ $? != 0 ]; then
+    mkfs.ext4 /dev/$CONFIG_MTD
+    mount -t ext4 /dev/$CONFIG_MTD -o sync,noatime /config
+    echo "recover config " >> /config/ext4_recover
+fi
+    
+mkdir -p /cfgbak
+mount -t ext4 /dev/$CONFIG_BAK_MTD -o sync,noatime /cfgbak
+
+if [ $? != 0 ]; then
+    mkfs.ext4 /dev/$CONFIG_BAK_MTD
+    mount -t ext4 /dev/$CONFIG_BAK_MTD -o sync,noatime /cfgbak
+    echo "recover cfgbak " >> /cfgbak/ext4_recover
+fi
+
+mkdir -p /calibration
+mount -t ext4 /dev/$CALIBRATION_MTD -o sync,noatime /calibration
+if [ $? != 0 ]; then
+    mkfs.ext4 /dev/$CALIBRATION_MTD
+    mount -t ext4 /dev/$CALIBRATION_MTD -o sync,noatime /calibration
+    echo "recover calibration " >> /calibration/ext4_recover
+fi
+
+mkdir -p /data
+mount -t ext4 /dev/$DATA_MTD -o sync,noatime /data
+if [ $? != 0 ]; then
+    mkfs.ext4 /dev/$DATA_MTD
+    mount -t ext4 /dev/$DATA_MTD -o sync,noatime /data
+    echo "recover data " >> /data/ext4_recover
+fi
+
+mkdir -p /cache
+mount -t ext4 /dev/$CACHE_MTD -o sync,noatime /cache
+if [ $? != 0 ]; then
+    mkfs.ext4 /dev/$CACHE_MTD
+    mount -t ext4 /dev/$CACHE_MTD -o sync,noatime /cache
+    echo "recover cache " >> /cache/ext4_recover
+fi
+
+mount -o remount,ro,sync /program
+mount -o remount,ro,sync /calibration

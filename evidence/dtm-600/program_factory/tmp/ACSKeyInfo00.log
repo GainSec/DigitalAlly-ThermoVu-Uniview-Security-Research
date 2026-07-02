@@ -1,0 +1,41 @@
+[2011-12-01 00:00:46 360][iw_acs_face.c-14389][Apply] LibFile LibID[3] Begin
+[2011-12-01 00:00:46 631][iw_acs_face.c-14423][Apply] [mv -f /data/tmp/LibFile/3/* /data/WorkLibFile/3 1>/dev/null 2>&1] ok
+[2011-12-01 00:00:46 641][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:46 709][iw_acs_face.c-14467][Apply] LibID[3] All Ok
+[2011-12-01 00:00:48 558][iw_acs_face.c-14389][Apply] LibFile LibID[4] Begin
+[2011-12-01 00:00:48 717][iw_acs_face.c-14423][Apply] [mv -f /data/tmp/LibFile/4/* /data/WorkLibFile/4 1>/dev/null 2>&1] ok
+[2011-12-01 00:00:48 730][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:48 801][iw_acs_face.c-14467][Apply] LibID[4] All Ok
+[2011-12-01 00:00:33 829][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:33 831][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:02:35 708][iw_acs_face.c-732]phread index [0] NO response, restart mwareserver by daemon now
+[2011-12-01 00:00:33 708][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:33 709][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:02:35 757][iw_acs_face.c-732]phread index [0] NO response, restart mwareserver by daemon now
+[2011-12-01 00:00:33 687][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:33 689][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:02:35 797][iw_acs_face.c-732]phread index [0] NO response, restart mwareserver by daemon now
+[2011-12-01 00:00:33 688][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:33 690][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:02:35 767][iw_acs_face.c-732]phread index [0] NO response, restart mwareserver by daemon now
+[2011-12-01 00:00:45 837][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:45 845][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:44 951][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:44 956][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 01:38:01 266][iw_acs_face.c-732]phread index [0] NO response, restart mwareserver by daemon now
+[2011-12-01 00:00:41 990][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:41 994][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:46 002][iw_acs_memberlib.c-5538]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:46 006][iw_acs_memberlib.c-5538]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:45 842][iw_acs_memberlib.c-5582]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:45 853][iw_acs_memberlib.c-5582]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:47 711][iw_acs_memberlib.c-5582]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:47 715][iw_acs_memberlib.c-5582]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:45 813][iw_acs_memberlib.c-5582]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:45 815][iw_acs_memberlib.c-5582]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:46 223][iw_acs_memberlib.c-5582]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:46 228][iw_acs_memberlib.c-5582]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:47 223][iw_acs_memberlib.c-5582]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:47 228][iw_acs_memberlib.c-5582]InitPeopleLib LibID[4] PersonNum[0] End
+[2011-12-01 00:00:46 828][iw_acs_memberlib.c-5582]InitPeopleLib LibID[3] PersonNum[0] End
+[2011-12-01 00:00:46 839][iw_acs_memberlib.c-5582]InitPeopleLib LibID[4] PersonNum[0] End

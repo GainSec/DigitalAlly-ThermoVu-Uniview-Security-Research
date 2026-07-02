@@ -1,0 +1,659 @@
+****************************dmesg****************************
+Thu Dec  1 00:14:03 GMT 2011
+ 00:14:03 up 14 min,  1 users,  load average: 3.35, 7.82, 5.78
+[  737.049376] mmz_userdev:mmz_userdev_release: 
+[  737.049380] mmb<0xa622b000> mapped to userspace 0xa4595000 will be unmaped!
+[  737.049384] mmz_userdev:mmz_userdev_release: 
+[  737.049389] MMB LEAK(pid=943): 0xA6276000, 204800 bytes, 'ZOOMSRC'
+[  737.049391] mmz_userdev:mmz_userdev_release: 
+[  737.049396] mmb<0xa6276000> mapped to userspace 0xa4563000 will be unmaped!
+[  737.049400] mmz_userdev:mmz_userdev_release: 
+[  737.049405] MMB LEAK(pid=943): 0xA62A8000, 102400 bytes, 'ZOOMBACK'
+[  737.049407] mmz_userdev:mmz_userdev_release: 
+[  737.049412] mmb<0xa62a8000> mapped to userspace 0xa454a000 will be unmaped!
+[  737.049415] mmz_userdev:mmz_userdev_release: 
+[  737.049421] MMB LEAK(pid=943): 0xA62C1000, 102400 bytes, 'IVESUB'
+[  737.049423] mmz_userdev:mmz_userdev_release: 
+[  737.049428] mmb<0xa62c1000> mapped to userspace 0xa4531000 will be unmaped!
+[  737.049432] mmz_userdev:mmz_userdev_release: 
+[  737.049437] MMB LEAK(pid=943): 0xA62DA000, 204800 bytes, 'IVETD'
+[  737.049439] mmz_userdev:mmz_userdev_release: 
+[  737.049443] mmb<0xa62da000> mapped to userspace 0xa44ff000 will be unmaped!
+[  737.049447] mmz_userdev:mmz_userdev_release: 
+[  737.049452] MMB LEAK(pid=943): 0xA630C000, 8192 bytes, 'IVETD'
+[  737.049454] mmz_userdev:mmz_userdev_release: 
+[  737.049459] mmb<0xa630c000> mapped to userspace 0xa44fd000 will be unmaped!
+[  737.049463] mmz_userdev:mmz_userdev_release: 
+[  737.049468] MMB LEAK(pid=943): 0xA70DB000, 68489216 bytes, 'TE_WKWeights'
+[  737.049470] mmz_userdev:mmz_userdev_release: 
+[  737.049475] mmb<0xa70db000> mapped to userspace 0x6ddba000 will be unmaped!
+[  737.049479] mmz_userdev:mmz_userdev_release: 
+[  737.049484] MMB LEAK(pid=943): 0xAB4D8000, 172032 bytes, 'TE_Classificati'
+[  737.049486] mmz_userdev:mmz_userdev_release: 
+[  737.049491] mmb<0xab4d8000> mapped to userspace 0x7eb9f000 will be unmaped!
+[  737.049495] mmz_userdev:mmz_userdev_release: 
+[  737.049500] MMB LEAK(pid=943): 0xAB502000, 4096 bytes, 'TE_Classificati'
+[  737.049502] mmz_userdev:mmz_userdev_release: 
+[  737.049507] mmb<0xab502000> mapped to userspace 0x96dde000 will be unmaped!
+[  737.049511] mmz_userdev:mmz_userdev_release: 
+[  737.049516] MMB LEAK(pid=943): 0xAB503000, 172032 bytes, 'TE_Classificati'
+[  737.049518] mmz_userdev:mmz_userdev_release: 
+[  737.049523] mmb<0xab503000> mapped to userspace 0x6d590000 will be unmaped!
+[  737.049527] mmz_userdev:mmz_userdev_release: 
+[  737.049532] MMB LEAK(pid=943): 0xAB52D000, 4096 bytes, 'TE_Classificati'
+[  737.049534] mmz_userdev:mmz_userdev_release: 
+[  737.049538] mmb<0xab52d000> mapped to userspace 0x94daa000 will be unmaped!
+[  737.049543] mmz_userdev:mmz_userdev_release: 
+[  737.049548] MMB LEAK(pid=943): 0xAB52E000, 172032 bytes, 'TE_Classificati'
+[  737.049551] mmz_userdev:mmz_userdev_release: 
+[  737.049555] mmb<0xab52e000> mapped to userspace 0x6d566000 will be unmaped!
+[  737.049559] mmz_userdev:mmz_userdev_release: 
+[  737.049564] MMB LEAK(pid=943): 0xAB558000, 4096 bytes, 'TE_Classificati'
+[  737.049566] mmz_userdev:mmz_userdev_release: 
+[  737.049571] mmb<0xab558000> mapped to userspace 0x94da9000 will be unmaped!
+[  737.049574] mmz_userdev:mmz_userdev_release: 
+[  737.049580] MMB LEAK(pid=943): 0xAB559000, 434176 bytes, 'TE_WKWeights'
+[  737.049582] mmz_userdev:mmz_userdev_release: 
+[  737.049586] mmb<0xab559000> mapped to userspace 0x6d4fc000 will be unmaped!
+[  737.049592] mmz_userdev:mmz_userdev_release: 
+[  737.049597] MMB LEAK(pid=943): 0xAB5C3000, 36864 bytes, 'TE_Classificati'
+[  737.049600] mmz_userdev:mmz_userdev_release: 
+[  737.049604] mmb<0xab5c3000> mapped to userspace 0x93507000 will be unmaped!
+[  737.049608] mmz_userdev:mmz_userdev_release: 
+[  737.049613] MMB LEAK(pid=943): 0xAB5CC000, 4096 bytes, 'TE_Classificati'
+[  737.049616] mmz_userdev:mmz_userdev_release: 
+[  737.049620] mmb<0xab5cc000> mapped to userspace 0x93506000 will be unmaped!
+[  737.049624] mmz_userdev:mmz_userdev_release: 
+[  737.049629] MMB LEAK(pid=943): 0xAB5CD000, 36864 bytes, 'TE_Classificati'
+[  737.049631] mmz_userdev:mmz_userdev_release: 
+[  737.049635] mmb<0xab5cd000> mapped to userspace 0x6d4f3000 will be unmaped!
+[  737.049639] mmz_userdev:mmz_userdev_release: 
+[  737.049644] MMB LEAK(pid=943): 0xAB5D6000, 4096 bytes, 'TE_Classificati'
+[  737.049647] mmz_userdev:mmz_userdev_release: 
+[  737.049651] mmb<0xab5d6000> mapped to userspace 0x93505000 will be unmaped!
+[  737.049655] mmz_userdev:mmz_userdev_release: 
+[  737.049660] MMB LEAK(pid=943): 0xAB5D7000, 36864 bytes, 'TE_Classificati'
+[  737.049662] mmz_userdev:mmz_userdev_release: 
+[  737.049666] mmb<0xab5d7000> mapped to userspace 0x6d4ea000 will be unmaped!
+[  737.049671] mmz_userdev:mmz_userdev_release: 
+[  737.049676] MMB LEAK(pid=943): 0xAB5E0000, 4096 bytes, 'TE_Classificati'
+[  737.049679] mmz_userdev:mmz_userdev_release: 
+[  737.049683] mmb<0xab5e0000> mapped to userspace 0x93504000 will be unmaped!
+[  737.049687] mmz_userdev:mmz_userdev_release: 
+[  737.049692] MMB LEAK(pid=943): 0xAB5E1000, 442368 bytes, 'TE_WKWeights'
+[  737.049694] mmz_userdev:mmz_userdev_release: 
+[  737.049699] mmb<0xab5e1000> mapped to userspace 0x6d47e000 will be unmaped!
+[  737.049703] mmz_userdev:mmz_userdev_release: 
+[  737.049708] MMB LEAK(pid=943): 0xAB64D000, 196608 bytes, 'TE_Classificati'
+[  737.049710] mmz_userdev:mmz_userdev_release: 
+[  737.049714] mmb<0xab64d000> mapped to userspace 0x6d44e000 will be unmaped!
+[  737.049718] mmz_userdev:mmz_userdev_release: 
+[  737.049723] MMB LEAK(pid=943): 0xAB67D000, 4096 bytes, 'TE_Classificati'
+[  737.049726] mmz_userdev:mmz_userdev_release: 
+[  737.049730] mmb<0xab67d000> mapped to userspace 0x93503000 will be unmaped!
+[  737.049734] mmz_userdev:mmz_userdev_release: 
+[  737.049739] MMB LEAK(pid=943): 0xAB67E000, 4096 bytes, 'TE_Classificati'
+[  737.049741] mmz_userdev:mmz_userdev_release: 
+[  737.049746] mmb<0xab67e000> mapped to userspace 0x93502000 will be unmaped!
+[  737.049750] mmz_userdev:mmz_userdev_release: 
+[  737.049755] MMB LEAK(pid=943): 0xAB67F000, 196608 bytes, 'TE_Classificati'
+[  737.049757] mmz_userdev:mmz_userdev_release: 
+[  737.049762] mmb<0xab67f000> mapped to userspace 0x6d41e000 will be unmaped!
+[  737.049765] mmz_userdev:mmz_userdev_release: 
+[  737.049771] MMB LEAK(pid=943): 0xAB6AF000, 4096 bytes, 'TE_Classificati'
+[  737.049773] mmz_userdev:mmz_userdev_release: 
+[  737.049777] mmb<0xab6af000> mapped to userspace 0x93501000 will be unmaped!
+[  737.049781] mmz_userdev:mmz_userdev_release: 
+[  737.049786] MMB LEAK(pid=943): 0xAB6B0000, 4096 bytes, 'TE_Classificati'
+[  737.049788] mmz_userdev:mmz_userdev_release: 
+[  737.049792] mmb<0xab6b0000> mapped to userspace 0x93500000 will be unmaped!
+[  737.049796] mmz_userdev:mmz_userdev_release: 
+[  737.049801] MMB LEAK(pid=943): 0xAB6B1000, 196608 bytes, 'TE_Classificati'
+[  737.049804] mmz_userdev:mmz_userdev_release: 
+[  737.049808] mmb<0xab6b1000> mapped to userspace 0x6d3ee000 will be unmaped!
+[  737.049812] mmz_userdev:mmz_userdev_release: 
+[  737.049817] MMB LEAK(pid=943): 0xAB6E1000, 4096 bytes, 'TE_Classificati'
+[  737.049819] mmz_userdev:mmz_userdev_release: 
+[  737.049824] mmb<0xab6e1000> mapped to userspace 0x93305000 will be unmaped!
+[  737.049828] mmz_userdev:mmz_userdev_release: 
+[  737.049833] MMB LEAK(pid=943): 0xAB6E2000, 4096 bytes, 'TE_Classificati'
+[  737.049835] mmz_userdev:mmz_userdev_release: 
+[  737.049839] mmb<0xab6e2000> mapped to userspace 0x93304000 will be unmaped!
+[  737.049843] mmz_userdev:mmz_userdev_release: 
+[  737.049848] MMB LEAK(pid=943): 0xAB6E3000, 806912 bytes, 'TE_WKWeights'
+[  737.049851] mmz_userdev:mmz_userdev_release: 
+[  737.049855] mmb<0xab6e3000> mapped to userspace 0x6d329000 will be unmaped!
+[  737.049860] mmz_userdev:mmz_userdev_release: 
+[  737.049865] MMB LEAK(pid=943): 0xAB7A8000, 147456 bytes, 'TE_Classificati'
+[  737.049867] mmz_userdev:mmz_userdev_release: 
+[  737.049872] mmb<0xab7a8000> mapped to userspace 0x6d305000 will be unmaped!
+[  737.049876] mmz_userdev:mmz_userdev_release: 
+[  737.049882] MMB LEAK(pid=943): 0xAB7CC000, 4096 bytes, 'TE_Classificati'
+[  737.049884] mmz_userdev:mmz_userdev_release: 
+[  737.049888] mmb<0xab7cc000> mapped to userspace 0x93303000 will be unmaped!
+[  737.049892] mmz_userdev:mmz_userdev_release: 
+[  737.049897] MMB LEAK(pid=943): 0xAB7CD000, 4096 bytes, 'TE_Classificati'
+[  737.049900] mmz_userdev:mmz_userdev_release: 
+[  737.049904] mmb<0xab7cd000> mapped to userspace 0x93302000 will be unmaped!
+[  737.049908] mmz_userdev:mmz_userdev_release: 
+[  737.049913] MMB LEAK(pid=943): 0xAB7CE000, 147456 bytes, 'TE_Classificati'
+[  737.049915] mmz_userdev:mmz_userdev_release: 
+[  737.049919] mmb<0xab7ce000> mapped to userspace 0x6d2e1000 will be unmaped!
+[  737.049923] mmz_userdev:mmz_userdev_release: 
+[  737.049928] MMB LEAK(pid=943): 0xAB7F2000, 4096 bytes, 'TE_Classificati'
+[  737.049931] mmz_userdev:mmz_userdev_release: 
+[  737.049935] mmb<0xab7f2000> mapped to userspace 0x93301000 will be unmaped!
+[  737.049939] mmz_userdev:mmz_userdev_release: 
+[  737.049944] MMB LEAK(pid=943): 0xAB7F3000, 4096 bytes, 'TE_Classificati'
+[  737.049946] mmz_userdev:mmz_userdev_release: 
+[  737.049951] mmb<0xab7f3000> mapped to userspace 0x93300000 will be unmaped!
+[  737.049955] mmz_userdev:mmz_userdev_release: 
+[  737.049960] MMB LEAK(pid=943): 0xAB7F4000, 147456 bytes, 'TE_Classificati'
+[  737.049962] mmz_userdev:mmz_userdev_release: 
+[  737.049967] mmb<0xab7f4000> mapped to userspace 0x6d2bd000 will be unmaped!
+[  737.049971] mmz_userdev:mmz_userdev_release: 
+[  737.049976] MMB LEAK(pid=943): 0xAB818000, 4096 bytes, 'TE_Classificati'
+[  737.049978] mmz_userdev:mmz_userdev_release: 
+[  737.049982] mmb<0xab818000> mapped to userspace 0x7eb9e000 will be unmaped!
+[  737.049986] mmz_userdev:mmz_userdev_release: 
+[  737.049991] MMB LEAK(pid=943): 0xAB819000, 4096 bytes, 'TE_Classificati'
+[  737.049994] mmz_userdev:mmz_userdev_release: 
+[  737.049998] mmb<0xab819000> mapped to userspace 0x7eb9d000 will be unmaped!
+[  737.050002] mmz_userdev:mmz_userdev_release: 
+[  737.050007] MMB LEAK(pid=943): 0xAB81A000, 1568768 bytes, 'TE_WKWeights'
+[  737.050009] mmz_userdev:mmz_userdev_release: 
+[  737.050013] mmb<0xab81a000> mapped to userspace 0x6d13e000 will be unmaped!
+[  737.050017] mmz_userdev:mmz_userdev_release: 
+[  737.050022] MMB LEAK(pid=943): 0xAB999000, 172032 bytes, 'TE_Classificati'
+[  737.050025] mmz_userdev:mmz_userdev_release: 
+[  737.050029] mmb<0xab999000> mapped to userspace 0x6d114000 will be unmaped!
+[  737.050033] mmz_userdev:mmz_userdev_release: 
+[  737.050038] MMB LEAK(pid=943): 0xAB9C3000, 4096 bytes, 'TE_Classificati'
+[  737.050041] mmz_userdev:mmz_userdev_release: 
+[  737.050045] mmb<0xab9c3000> mapped to userspace 0x7eb9c000 will be unmaped!
+[  737.050049] mmz_userdev:mmz_userdev_release: 
+[  737.050054] MMB LEAK(pid=943): 0xAB9C4000, 172032 bytes, 'TE_Classificati'
+[  737.050057] mmz_userdev:mmz_userdev_release: 
+[  737.050061] mmb<0xab9c4000> mapped to userspace 0x6d0ea000 will be unmaped!
+[  737.050065] mmz_userdev:mmz_userdev_release: 
+[  737.050071] MMB LEAK(pid=943): 0xAB9EE000, 4096 bytes, 'TE_Classificati'
+[  737.050073] mmz_userdev:mmz_userdev_release: 
+[  737.050077] mmb<0xab9ee000> mapped to userspace 0x7eb9b000 will be unmaped!
+[  737.050082] mmz_userdev:mmz_userdev_release: 
+[  737.050087] MMB LEAK(pid=943): 0xAB9EF000, 172032 bytes, 'TE_Classificati'
+[  737.050090] mmz_userdev:mmz_userdev_release: 
+[  737.050094] mmb<0xab9ef000> mapped to userspace 0x6d0c0000 will be unmaped!
+[  737.050098] mmz_userdev:mmz_userdev_release: 
+[  737.050103] MMB LEAK(pid=943): 0xABA19000, 4096 bytes, 'TE_Classificati'
+[  737.050105] mmz_userdev:mmz_userdev_release: 
+[  737.050109] mmb<0xaba19000> mapped to userspace 0x7eb9a000 will be unmaped!
+[  737.050113] mmz_userdev:mmz_userdev_release: 
+[  737.050118] MMB LEAK(pid=943): 0xABA1A000, 929792 bytes, 'TE_WKWeights'
+[  737.050121] mmz_userdev:mmz_userdev_release: 
+[  737.050125] mmb<0xaba1a000> mapped to userspace 0x6cfdd000 will be unmaped!
+[  737.050129] mmz_userdev:mmz_userdev_release: 
+[  737.050134] MMB LEAK(pid=943): 0xABAFD000, 98304 bytes, 'TE_Classificati'
+[  737.050136] mmz_userdev:mmz_userdev_release: 
+[  737.050140] mmb<0xabafd000> mapped to userspace 0x6cfc5000 will be unmaped!
+[  737.050144] mmz_userdev:mmz_userdev_release: 
+[  737.050149] MMB LEAK(pid=943): 0xABB15000, 4096 bytes, 'TE_Classificati'
+[  737.050152] mmz_userdev:mmz_userdev_release: 
+[  737.050156] mmb<0xabb15000> mapped to userspace 0x7eb99000 will be unmaped!
+[  737.050160] mmz_userdev:mmz_userdev_release: 
+[  737.050165] MMB LEAK(pid=943): 0xABB16000, 98304 bytes, 'TE_Classificati'
+[  737.050167] mmz_userdev:mmz_userdev_release: 
+[  737.050172] mmb<0xabb16000> mapped to userspace 0x6cfad000 will be unmaped!
+[  737.050176] mmz_userdev:mmz_userdev_release: 
+[  737.050181] MMB LEAK(pid=943): 0xABB2E000, 4096 bytes, 'TE_Classificati'
+[  737.050183] mmz_userdev:mmz_userdev_release: 
+[  737.050187] mmb<0xabb2e000> mapped to userspace 0x6cfac000 will be unmaped!
+[  737.050191] mmz_userdev:mmz_userdev_release: 
+[  737.050196] MMB LEAK(pid=943): 0xABB2F000, 98304 bytes, 'TE_Classificati'
+[  737.050198] mmz_userdev:mmz_userdev_release: 
+[  737.050203] mmb<0xabb2f000> mapped to userspace 0x6cf94000 will be unmaped!
+[  737.050206] mmz_userdev:mmz_userdev_release: 
+[  737.050211] MMB LEAK(pid=943): 0xABB47000, 4096 bytes, 'TE_Classificati'
+[  737.050214] mmz_userdev:mmz_userdev_release: 
+[  737.050218] mmb<0xabb47000> mapped to userspace 0x6cf93000 will be unmaped!
+[  737.050223] mmz_userdev:mmz_userdev_release: 
+[  737.050229] MMB LEAK(pid=943): 0xABB48000, 3735552 bytes, 'TE_WKWeights'
+[  737.050231] mmz_userdev:mmz_userdev_release: 
+[  737.050235] mmb<0xabb48000> mapped to userspace 0x6cc03000 will be unmaped!
+[  737.050241] mmz_userdev:mmz_userdev_release: 
+[  737.050246] MMB LEAK(pid=943): 0xABED8000, 442368 bytes, 'TE_faceDetYOLO_'
+[  737.050248] mmz_userdev:mmz_userdev_release: 
+[  737.050253] mmb<0xabed8000> mapped to userspace 0x6cb97000 will be unmaped!
+[  737.050257] mmz_userdev:mmz_userdev_release: 
+[  737.050262] MMB LEAK(pid=943): 0xABF44000, 45056 bytes, 'TE_faceDetYOLO_'
+[  737.050264] mmz_userdev:mmz_userdev_release: 
+[  737.050268] mmb<0xabf44000> mapped to userspace 0x6cb8c000 will be unmaped!
+[  737.050272] mmz_userdev:mmz_userdev_release: 
+[  737.050277] MMB LEAK(pid=943): 0xABF4F000, 86016 bytes, 'TE_faceDetYOLO_'
+[  737.050280] mmz_userdev:mmz_userdev_release: 
+[  737.050284] mmb<0xabf4f000> mapped to userspace 0x6cb77000 will be unmaped!
+[  737.050288] mmz_userdev:mmz_userdev_release: 
+[  737.050293] MMB LEAK(pid=943): 0xABF64000, 167936 bytes, 'TE_faceDetYOLO_'
+[  737.050295] mmz_userdev:mmz_userdev_release: 
+[  737.050300] mmb<0xabf64000> mapped to userspace 0x6cb4e000 will be unmaped!
+[  737.050304] mmz_userdev:mmz_userdev_release: 
+[  737.050309] MMB LEAK(pid=943): 0xABF8D000, 442368 bytes, 'TE_faceDetYOLO_'
+[  737.050311] mmz_userdev:mmz_userdev_release: 
+[  737.050316] mmb<0xabf8d000> mapped to userspace 0x6cae2000 will be unmaped!
+[  737.050320] mmz_userdev:mmz_userdev_release: 
+[  737.050325] MMB LEAK(pid=943): 0xABFF9000, 45056 bytes, 'TE_faceDetYOLO_'
+[  737.050327] mmz_userdev:mmz_userdev_release: 
+[  737.050331] mmb<0xabff9000> mapped to userspace 0x6cad7000 will be unmaped!
+[  737.050335] mmz_userdev:mmz_userdev_release: 
+[  737.050340] MMB LEAK(pid=943): 0xAC004000, 86016 bytes, 'TE_faceDetYOLO_'
+[  737.050342] mmz_userdev:mmz_userdev_release: 
+[  737.050347] mmb<0xac004000> mapped to userspace 0x6cac2000 will be unmaped!
+[  737.050351] mmz_userdev:mmz_userdev_release: 
+[  737.050356] MMB LEAK(pid=943): 0xAC019000, 167936 bytes, 'TE_faceDetYOLO_'
+[  737.050358] mmz_userdev:mmz_userdev_release: 
+[  737.050363] mmb<0xac019000> mapped to userspace 0x6ca99000 will be unmaped!
+[  737.050367] mmz_userdev:mmz_userdev_release: 
+[  737.050372] MMB LEAK(pid=943): 0xAC042000, 442368 bytes, 'TE_faceDetYOLO_'
+[  737.050374] mmz_userdev:mmz_userdev_release: 
+[  737.050379] mmb<0xac042000> mapped to userspace 0x6ca2d000 will be unmaped!
+[  737.050383] mmz_userdev:mmz_userdev_release: 
+[  737.050388] MMB LEAK(pid=943): 0xAC0AE000, 45056 bytes, 'TE_faceDetYOLO_'
+[  737.050390] mmz_userdev:mmz_userdev_release: 
+[  737.050395] mmb<0xac0ae000> mapped to userspace 0x6ca22000 will be unmaped!
+[  737.050399] mmz_userdev:mmz_userdev_release: 
+[  737.050404] MMB LEAK(pid=943): 0xAC0B9000, 86016 bytes, 'TE_faceDetYOLO_'
+[  737.050406] mmz_userdev:mmz_userdev_release: 
+[  737.050410] mmb<0xac0b9000> mapped to userspace 0x6ca0d000 will be unmaped!
+[  737.050415] mmz_userdev:mmz_userdev_release: 
+[  737.050420] MMB LEAK(pid=943): 0xAC0CE000, 167936 bytes, 'TE_faceDetYOLO_'
+[  737.050423] mmz_userdev:mmz_userdev_release: 
+[  737.050427] mmb<0xac0ce000> mapped to userspace 0x6c9e4000 will be unmaped!
+[  737.050432] mmz_userdev:mmz_userdev_release: 
+[  737.050437] MMB LEAK(pid=943): 0xAC0F7000, 3268608 bytes, 'TE_WKWeights'
+[  737.050439] mmz_userdev:mmz_userdev_release: 
+[  737.050444] mmb<0xac0f7000> mapped to userspace 0x6c6c6000 will be unmaped!
+[  737.050449] mmz_userdev:mmz_userdev_release: 
+[  737.050454] MMB LEAK(pid=943): 0xAC415000, 786432 bytes, 'TE_faceDetYOLO_'
+[  737.050456] mmz_userdev:mmz_userdev_release: 
+[  737.050461] mmb<0xac415000> mapped to userspace 0x6c606000 will be unmaped!
+[  737.050465] mmz_userdev:mmz_userdev_release: 
+[  737.050470] MMB LEAK(pid=943): 0xAC4D5000, 73728 bytes, 'TE_faceDetYOLO_'
+[  737.050472] mmz_userdev:mmz_userdev_release: 
+[  737.050476] mmb<0xac4d5000> mapped to userspace 0x6c5f4000 will be unmaped!
+[  737.050481] mmz_userdev:mmz_userdev_release: 
+[  737.050486] MMB LEAK(pid=943): 0xAC4E7000, 147456 bytes, 'TE_faceDetYOLO_'
+[  737.050489] mmz_userdev:mmz_userdev_release: 
+[  737.050493] mmb<0xac4e7000> mapped to userspace 0x6c5d0000 will be unmaped!
+[  737.050497] mmz_userdev:mmz_userdev_release: 
+[  737.050502] MMB LEAK(pid=943): 0xAC50B000, 294912 bytes, 'TE_faceDetYOLO_'
+[  737.050504] mmz_userdev:mmz_userdev_release: 
+[  737.050509] mmb<0xac50b000> mapped to userspace 0x6c588000 will be unmaped!
+[  737.050513] mmz_userdev:mmz_userdev_release: 
+[  737.050518] MMB LEAK(pid=943): 0xAC553000, 786432 bytes, 'TE_faceDetYOLO_'
+[  737.050521] mmz_userdev:mmz_userdev_release: 
+[  737.050525] mmb<0xac553000> mapped to userspace 0x6c4c8000 will be unmaped!
+[  737.050529] mmz_userdev:mmz_userdev_release: 
+[  737.050534] MMB LEAK(pid=943): 0xAC613000, 73728 bytes, 'TE_faceDetYOLO_'
+[  737.050536] mmz_userdev:mmz_userdev_release: 
+[  737.050541] mmb<0xac613000> mapped to userspace 0x6c4b6000 will be unmaped!
+[  737.050545] mmz_userdev:mmz_userdev_release: 
+[  737.050550] MMB LEAK(pid=943): 0xAC625000, 147456 bytes, 'TE_faceDetYOLO_'
+[  737.050552] mmz_userdev:mmz_userdev_release: 
+[  737.050557] mmb<0xac625000> mapped to userspace 0x6c492000 will be unmaped!
+[  737.050561] mmz_userdev:mmz_userdev_release: 
+[  737.050566] MMB LEAK(pid=943): 0xAC649000, 294912 bytes, 'TE_faceDetYOLO_'
+[  737.050568] mmz_userdev:mmz_userdev_release: 
+[  737.050572] mmb<0xac649000> mapped to userspace 0x6c44a000 will be unmaped!
+[  737.050576] mmz_userdev:mmz_userdev_release: 
+[  737.050581] MMB LEAK(pid=943): 0xAC691000, 786432 bytes, 'TE_faceDetYOLO_'
+[  737.050584] mmz_userdev:mmz_userdev_release: 
+[  737.050588] mmb<0xac691000> mapped to userspace 0x6c38a000 will be unmaped!
+[  737.050593] mmz_userdev:mmz_userdev_release: 
+[  737.050597] MMB LEAK(pid=943): 0xAC751000, 73728 bytes, 'TE_faceDetYOLO_'
+[  737.050600] mmz_userdev:mmz_userdev_release: 
+[  737.050604] mmb<0xac751000> mapped to userspace 0x6c378000 will be unmaped!
+[  737.050608] mmz_userdev:mmz_userdev_release: 
+[  737.050613] MMB LEAK(pid=943): 0xAC763000, 147456 bytes, 'TE_faceDetYOLO_'
+[  737.050615] mmz_userdev:mmz_userdev_release: 
+[  737.050620] mmb<0xac763000> mapped to userspace 0x6c354000 will be unmaped!
+[  737.050624] mmz_userdev:mmz_userdev_release: 
+[  737.050630] MMB LEAK(pid=943): 0xAC787000, 294912 bytes, 'TE_faceDetYOLO_'
+[  737.050632] mmz_userdev:mmz_userdev_release: 
+[  737.050636] mmb<0xac787000> mapped to userspace 0x6c30c000 will be unmaped!
+[  737.050640] mmz_userdev:mmz_userdev_release: 
+[  737.050645] MMB LEAK(pid=943): 0xAC7CF000, 2932736 bytes, 'TE_WKWeights'
+[  737.050648] mmz_userdev:mmz_userdev_release: 
+[  737.050652] mmb<0xac7cf000> mapped to userspace 0x6c040000 will be unmaped!
+[  737.050656] mmz_userdev:mmz_userdev_release: 
+[  737.050662] MMB LEAK(pid=943): 0xACA9B000, 172032 bytes, 'TE_Classificati'
+[  737.050664] mmz_userdev:mmz_userdev_release: 
+[  737.050668] mmb<0xaca9b000> mapped to userspace 0x6c016000 will be unmaped!
+[  737.050672] mmz_userdev:mmz_userdev_release: 
+[  737.050677] MMB LEAK(pid=943): 0xACAC5000, 4096 bytes, 'TE_Classificati'
+[  737.050680] mmz_userdev:mmz_userdev_release: 
+[  737.050684] mmb<0xacac5000> mapped to userspace 0x6c015000 will be unmaped!
+[  737.050688] mmz_userdev:mmz_userdev_release: 
+[  737.050693] MMB LEAK(pid=943): 0xACAC6000, 172032 bytes, 'TE_Classificati'
+[  737.050695] mmz_userdev:mmz_userdev_release: 
+[  737.050700] mmb<0xacac6000> mapped to userspace 0x6bfeb000 will be unmaped!
+[  737.050704] mmz_userdev:mmz_userdev_release: 
+[  737.050709] MMB LEAK(pid=943): 0xACAF0000, 4096 bytes, 'TE_Classificati'
+[  737.050711] mmz_userdev:mmz_userdev_release: 
+[  737.050715] mmb<0xacaf0000> mapped to userspace 0x6bfea000 will be unmaped!
+[  737.050719] mmz_userdev:mmz_userdev_release: 
+[  737.050724] MMB LEAK(pid=943): 0xACAF1000, 172032 bytes, 'TE_Classificati'
+[  737.050726] mmz_userdev:mmz_userdev_release: 
+[  737.050731] mmb<0xacaf1000> mapped to userspace 0x6bfc0000 will be unmaped!
+[  737.050735] mmz_userdev:mmz_userdev_release: 
+[  737.050740] MMB LEAK(pid=943): 0xACB1B000, 4096 bytes, 'TE_Classificati'
+[  737.050742] mmz_userdev:mmz_userdev_release: 
+[  737.050746] mmb<0xacb1b000> mapped to userspace 0x6bfbf000 will be unmaped!
+[  737.050750] mmz_userdev:mmz_userdev_release: 
+[  737.050755] MMB LEAK(pid=943): 0xACB1C000, 7372800 bytes, 'TE_CirBuffer_0'
+[  737.050758] mmz_userdev:mmz_userdev_release: 
+[  737.050762] mmb<0xacb1c000> mapped to userspace 0x6b8b7000 will be unmaped!
+[  737.050766] mmz_userdev:mmz_userdev_release: 
+[  737.050771] MMB LEAK(pid=943): 0xAD224000, 7372800 bytes, 'TE_CirBuffer_1'
+[  737.050774] mmz_userdev:mmz_userdev_release: 
+[  737.050778] mmb<0xad224000> mapped to userspace 0x6b1af000 will be unmaped!
+[  737.050783] mmz_userdev:mmz_userdev_release: 
+[  737.050788] MMB LEAK(pid=943): 0xAD92C000, 7372800 bytes, 'TE_CirBuffer_2'
+[  737.050790] mmz_userdev:mmz_userdev_release: 
+[  737.050795] mmb<0xad92c000> mapped to userspace 0x6aaa7000 will be unmaped!
+[  737.050799] mmz_userdev:mmz_userdev_release: 
+[  737.050804] MMB LEAK(pid=943): 0xAE034000, 86016 bytes, 'TE_CirBuffer_0'
+[  737.050806] mmz_userdev:mmz_userdev_release: 
+[  737.050811] mmb<0xae034000> mapped to userspace 0x6aa92000 will be unmaped!
+[  737.050815] mmz_userdev:mmz_userdev_release: 
+[  737.050820] MMB LEAK(pid=943): 0xAE049000, 86016 bytes, 'TE_CirBuffer_1'
+[  737.050822] mmz_userdev:mmz_userdev_release: 
+[  737.050826] mmb<0xae049000> mapped to userspace 0x6aa7d000 will be unmaped!
+[  737.050830] mmz_userdev:mmz_userdev_release: 
+[  737.050835] MMB LEAK(pid=943): 0xAE05E000, 86016 bytes, 'TE_CirBuffer_2'
+[  737.050838] mmz_userdev:mmz_userdev_release: 
+[  737.050842] mmb<0xae05e000> mapped to userspace 0x6aa68000 will be unmaped!
+[  737.050846] mmz_userdev:mmz_userdev_release: 
+[  737.050851] MMB LEAK(pid=943): 0xAE073000, 86016 bytes, 'TE_CirBuffer_3'
+[  737.050853] mmz_userdev:mmz_userdev_release: 
+[  737.050858] mmb<0xae073000> mapped to userspace 0x6aa53000 will be unmaped!
+[  737.050862] mmz_userdev:mmz_userdev_release: 
+[  737.050867] MMB LEAK(pid=943): 0xAE088000, 86016 bytes, 'TE_CirBuffer_4'
+[  737.050869] mmz_userdev:mmz_userdev_release: 
+[  737.050874] mmb<0xae088000> mapped to userspace 0x6aa3e000 will be unmaped!
+[  737.050878] mmz_userdev:mmz_userdev_release: 
+[  737.050883] MMB LEAK(pid=943): 0xAE09D000, 86016 bytes, 'TE_CirBuffer_0'
+[  737.050885] mmz_userdev:mmz_userdev_release: 
+[  737.050889] mmb<0xae09d000> mapped to userspace 0x6a229000 will be unmaped!
+[  737.050893] mmz_userdev:mmz_userdev_release: 
+[  737.050898] MMB LEAK(pid=943): 0xAE0B2000, 86016 bytes, 'TE_CirBuffer_1'
+[  737.050901] mmz_userdev:mmz_userdev_release: 
+[  737.050905] mmb<0xae0b2000> mapped to userspace 0x6a214000 will be unmaped!
+[  737.050909] mmz_userdev:mmz_userdev_release: 
+[  737.050914] MMB LEAK(pid=943): 0xAE0C7000, 86016 bytes, 'TE_CirBuffer_2'
+[  737.050916] mmz_userdev:mmz_userdev_release: 
+[  737.050920] mmb<0xae0c7000> mapped to userspace 0x6a1ff000 will be unmaped!
+[  737.050924] mmz_userdev:mmz_userdev_release: 
+[  737.050929] MMB LEAK(pid=943): 0xAE0DC000, 86016 bytes, 'TE_CirBuffer_3'
+[  737.050932] mmz_userdev:mmz_userdev_release: 
+[  737.050936] mmb<0xae0dc000> mapped to userspace 0x6a1ea000 will be unmaped!
+[  737.050940] mmz_userdev:mmz_userdev_release: 
+[  737.050945] MMB LEAK(pid=943): 0xAE0F1000, 86016 bytes, 'TE_CirBuffer_4'
+[  737.050947] mmz_userdev:mmz_userdev_release: 
+[  737.050951] mmb<0xae0f1000> mapped to userspace 0x6a1d5000 will be unmaped!
+[  737.050955] mmz_userdev:mmz_userdev_release: 
+[  737.050960] MMB LEAK(pid=943): 0xAE106000, 40960 bytes, ''
+[  737.050963] mmz_userdev:mmz_userdev_release: 
+[  737.050967] mmb<0xae106000> mapped to userspace 0x68b57000 will be unmaped!
+[  737.050971] mmz_userdev:mmz_userdev_release: 
+[  737.050976] MMB LEAK(pid=943): 0xAE110000, 81920 bytes, ''
+[  737.050978] mmz_userdev:mmz_userdev_release: 
+[  737.050983] mmb<0xae110000> mapped to userspace 0x68b43000 will be unmaped!
+[  737.050986] mmz_userdev:mmz_userdev_release: 
+[  737.050991] MMB LEAK(pid=943): 0xAE124000, 40960 bytes, ''
+[  737.050994] mmz_userdev:mmz_userdev_release: 
+[  737.050998] mmb<0xae124000> mapped to userspace 0x68b39000 will be unmaped!
+[  737.051002] mmz_userdev:mmz_userdev_release: 
+[  737.051007] MMB LEAK(pid=943): 0xAE12E000, 40960 bytes, ''
+[  737.051009] mmz_userdev:mmz_userdev_release: 
+[  737.051014] mmb<0xae12e000> mapped to userspace 0x68b2f000 will be unmaped!
+[  737.051018] mmz_userdev:mmz_userdev_release: 
+[  737.051022] MMB LEAK(pid=943): 0xAE138000, 40960 bytes, 'facedetection'
+[  737.051025] mmz_userdev:mmz_userdev_release: 
+[  737.051029] mmb<0xae138000> mapped to userspace 0x68b25000 will be unmaped!
+[  737.051033] mmz_userdev:mmz_userdev_release: 
+[  737.051038] MMB LEAK(pid=943): 0xAE142000, 40960 bytes, ''
+[  737.051040] mmz_userdev:mmz_userdev_release: 
+[  737.051045] mmb<0xae142000> mapped to userspace 0x68b1b000 will be unmaped!
+[  737.051049] mmz_userdev:mmz_userdev_release: 
+[  737.051054] MMB LEAK(pid=943): 0xAE14C000, 40960 bytes, ''
+[  737.051056] mmz_userdev:mmz_userdev_release: 
+[  737.051060] mmb<0xae14c000> mapped to userspace 0x68b11000 will be unmaped!
+[  737.051064] mmz_userdev:mmz_userdev_release: 
+[  737.051069] MMB LEAK(pid=943): 0xAE156000, 40960 bytes, 'facedetection'
+[  737.051072] mmz_userdev:mmz_userdev_release: 
+[  737.051076] mmb<0xae156000> mapped to userspace 0x68b07000 will be unmaped!
+[  737.051080] mmz_userdev:mmz_userdev_release: 
+[  737.051085] MMB LEAK(pid=943): 0xAE160000, 40960 bytes, 'facedetection'
+[  737.051088] mmz_userdev:mmz_userdev_release: 
+[  737.051092] mmb<0xae160000> mapped to userspace 0x68afd000 will be unmaped!
+[  737.051096] mmz_userdev:mmz_userdev_release: 
+[  737.051101] MMB LEAK(pid=943): 0xAE16A000, 40960 bytes, 'facedetection'
+[  737.051104] mmz_userdev:mmz_userdev_release: 
+[  737.051108] mmb<0xae16a000> mapped to userspace 0x68af3000 will be unmaped!
+[  737.051113] mmz_userdev:mmz_userdev_release: 
+[  737.051118] MMB LEAK(pid=943): 0xAE174000, 4096 bytes, 'facedetection'
+[  737.051120] mmz_userdev:mmz_userdev_release: 
+[  737.051125] mmb<0xae174000> mapped to userspace 0x68af2000 will be unmaped!
+[  737.051128] mmz_userdev:mmz_userdev_release: 
+[  737.051133] MMB LEAK(pid=943): 0xAE175000, 40960 bytes, 'facedetection'
+[  737.051136] mmz_userdev:mmz_userdev_release: 
+[  737.051140] mmb<0xae175000> mapped to userspace 0x68ae8000 will be unmaped!
+[  737.051144] mmz_userdev:mmz_userdev_release: 
+[  737.051149] MMB LEAK(pid=943): 0xAE17F000, 983040 bytes, ''
+[  737.051151] mmz_userdev:mmz_userdev_release: 
+[  737.051156] mmb<0xae17f000> mapped to userspace 0x689f8000 will be unmaped!
+[  737.051160] mmz_userdev:mmz_userdev_release: 
+[  737.051165] MMB LEAK(pid=943): 0xAE26F000, 40960 bytes, 'facedetection'
+[  737.051167] mmz_userdev:mmz_userdev_release: 
+[  737.051171] mmb<0xae26f000> mapped to userspace 0x689ee000 will be unmaped!
+[  737.051175] mmz_userdev:mmz_userdev_release: 
+[  737.051180] MMB LEAK(pid=943): 0xAE279000, 40960 bytes, 'facedetection'
+[  737.051183] mmz_userdev:mmz_userdev_release: 
+[  737.051187] mmb<0xae279000> mapped to userspace 0x689e4000 will be unmaped!
+[  737.051191] mmz_userdev:mmz_userdev_release: 
+[  737.051196] MMB LEAK(pid=943): 0xAE283000, 4096 bytes, 'facedetection'
+[  737.051198] mmz_userdev:mmz_userdev_release: 
+[  737.051202] mmb<0xae283000> mapped to userspace 0x689e3000 will be unmaped!
+[  737.051206] mmz_userdev:mmz_userdev_release: 
+[  737.051211] MMB LEAK(pid=943): 0xAE284000, 40960 bytes, ''
+[  737.051214] mmz_userdev:mmz_userdev_release: 
+[  737.051218] mmb<0xae284000> mapped to userspace 0x689d9000 will be unmaped!
+[  737.051222] mmz_userdev:mmz_userdev_release: 
+[  737.051227] MMB LEAK(pid=943): 0xAE28E000, 40960 bytes, ''
+[  737.051229] mmz_userdev:mmz_userdev_release: 
+[  737.051234] mmb<0xae28e000> mapped to userspace 0x689cf000 will be unmaped!
+[  737.051238] mmz_userdev:mmz_userdev_release: 
+[  737.051242] MMB LEAK(pid=943): 0xAE298000, 40960 bytes, ''
+[  737.051245] mmz_userdev:mmz_userdev_release: 
+[  737.051249] mmb<0xae298000> mapped to userspace 0x689c5000 will be unmaped!
+[  737.051253] mmz_userdev:mmz_userdev_release: 
+[  737.051258] MMB LEAK(pid=943): 0xAE2A2000, 40960 bytes, ''
+[  737.051260] mmz_userdev:mmz_userdev_release: 
+[  737.051265] mmb<0xae2a2000> mapped to userspace 0x689bb000 will be unmaped!
+[  737.051269] mmz_userdev:mmz_userdev_release: 
+[  737.051274] MMB LEAK(pid=943): 0xAE2AC000, 40960 bytes, ''
+[  737.051276] mmz_userdev:mmz_userdev_release: 
+[  737.051281] mmb<0xae2ac000> mapped to userspace 0x689b1000 will be unmaped!
+[  737.051285] mmz_userdev:mmz_userdev_release: 
+[  737.051289] MMB LEAK(pid=943): 0xAE2B6000, 40960 bytes, ''
+[  737.051292] mmz_userdev:mmz_userdev_release: 
+[  737.051296] mmb<0xae2b6000> mapped to userspace 0x689a7000 will be unmaped!
+[  737.051300] mmz_userdev:mmz_userdev_release: 
+[  737.051305] MMB LEAK(pid=943): 0xAE2C0000, 4096 bytes, ''
+[  737.051308] mmz_userdev:mmz_userdev_release: 
+[  737.051312] mmb<0xae2c0000> mapped to userspace 0x689a6000 will be unmaped!
+[  737.051316] mmz_userdev:mmz_userdev_release: 
+[  737.051320] MMB LEAK(pid=943): 0xAE2C1000, 4096 bytes, ''
+[  737.051323] mmz_userdev:mmz_userdev_release: 
+[  737.051327] mmb<0xae2c1000> mapped to userspace 0x689a5000 will be unmaped!
+[  737.051332] mmz_userdev:mmz_userdev_release: 
+[  737.051337] MMB LEAK(pid=943): 0xAE2C2000, 2252800 bytes, ''
+[  737.051340] mmz_userdev:mmz_userdev_release: 
+[  737.051344] mmb<0xae2c2000> mapped to userspace 0x6877f000 will be unmaped!
+[  738.998604] sh (4161): drop_caches: 1
+[  849.763273] sh (4442): drop_caches: 1
+*****************************ps*****************************
+PID   USER     TIME   COMMAND
+    1 root       0:01 init
+    2 root       0:00 [kthreadd]
+    3 root       0:00 [ksoftirqd/0]
+    5 root       0:00 [kworker/0:0H]
+    7 root       0:00 [rcu_sched]
+    8 root       0:00 [rcu_bh]
+    9 root       0:00 [migration/0]
+   10 root       0:00 [lru-add-drain]
+   11 root       0:00 [cpuhp/0]
+   12 root       0:00 [cpuhp/1]
+   13 root       0:00 [migration/1]
+   14 root       0:00 [ksoftirqd/1]
+   15 root       0:00 [kworker/1:0]
+   16 root       0:00 [kworker/1:0H]
+   17 root       0:00 [kdevtmpfs]
+   18 root       0:00 [netns]
+   19 root       0:00 [oom_reaper]
+   20 root       0:00 [writeback]
+   21 root       0:00 [kcompactd0]
+   22 root       0:00 [crypto]
+   23 root       0:00 [bioset]
+   24 root       0:00 [kblockd]
+   25 root       0:00 [spi0]
+   26 root       0:00 [spi1]
+   27 root       0:00 [kworker/0:1]
+   28 root       0:00 [spi2]
+   29 root       0:00 [rpciod]
+   30 root       0:00 [xprtiod]
+   31 root       0:00 [kswapd0]
+   32 root       0:00 [vmstat]
+   33 root       0:00 [nfsiod]
+   41 root       0:00 [bioset]
+   42 root       0:00 [bioset]
+   43 root       0:00 [bioset]
+   44 root       0:00 [bioset]
+   45 root       0:00 [bioset]
+   46 root       0:00 [bioset]
+   47 root       0:00 [bioset]
+   48 root       0:00 [bioset]
+   49 root       0:00 [bioset]
+   50 root       0:00 [bioset]
+   51 root       0:00 [bioset]
+   52 root       0:00 [bioset]
+   53 root       0:00 [bioset]
+   54 root       0:00 [bioset]
+   55 root       0:00 [bioset]
+   56 root       0:00 [bioset]
+   57 root       0:00 [kworker/u4:1]
+   60 root       0:00 [kworker/0:2]
+   61 root       0:00 [kworker/1:1]
+   62 root       0:00 [ipv6_addrconf]
+   65 root       0:00 [pl011_rts]
+   80 root       0:00 udevd --daemon
+  169 root       0:00 udevd --daemon
+  170 root       0:00 udevd --daemon
+  174 root       0:00 telnetd
+  181 root       0:00 [bioset]
+  182 root       0:03 [mmcqd/2]
+  183 root       0:00 [bioset]
+  184 root       0:00 [mmcqd/2boot0]
+  185 root       0:00 [bioset]
+  186 root       0:00 [mmcqd/2boot1]
+  187 root       0:00 [bioset]
+  188 root       0:00 [mmcqd/2rpmb]
+  272 root       0:00 [kworker/0:1H]
+  273 root       0:00 [jbd2/mmcblk2p12]
+  274 root       0:00 [ext4-rsv-conver]
+  279 root       0:00 [kworker/1:1H]
+  280 root       0:00 [jbd2/mmcblk2p5-]
+  281 root       0:00 [ext4-rsv-conver]
+  284 root       0:00 [jbd2/mmcblk2p6-]
+  285 root       0:00 [ext4-rsv-conver]
+  288 root       0:00 [jbd2/mmcblk2p10]
+  289 root       0:00 [ext4-rsv-conver]
+  292 root       0:00 [jbd2/mmcblk2p14]
+  293 root       0:00 [ext4-rsv-conver]
+  296 root       0:00 [jbd2/mmcblk2p13]
+  297 root       0:00 [ext4-rsv-conver]
+  306 root       0:00 /sbin/getty -L ttyS000 115200 vt100
+  388 root       0:00 [LightCtrlThread]
+  465 root       0:02 [irq/52-VI_CAP0]
+  475 root       0:00 [kworker/u4:2]
+  581 root       0:00 [hidog]
+  594 root       0:00 [goodix_wq]
+  602 root       0:00 [motor_queue]
+  607 root       0:00 [wiegand_in_wkqu]
+  639 root       0:00 [runtime_thread_]
+  640 root       0:00 [runtime_mtd_thr]
+ 1394 root       0:00 mw_udhcpc_wired -i eth0
+ 1414 root       0:00 maintain
+ 2166 root       0:00 -uvsh
+ 4449 root       0:00 {exe} ash /tmp/bin/reboot.sh
+ 4454 root       0:00 ps
+**************************ifconfig**************************
+eth0      Link encap:Ethernet  HWaddr E4:F1:4C:25:D7:B2  
+          inet addr:192.168.30.178  Bcast:192.168.30.255  Mask:255.255.255.0
+          inet6 addr: fe80::e6f1:4cff:fe25:d7b2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1454  Metric:1
+          RX packets:3646 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3140 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:887793 (866.9 KiB)  TX bytes:936772 (914.8 KiB)
+          Interrupt:31 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:24 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:24 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:1864 (1.8 KiB)  TX bytes:1864 (1.8 KiB)
+
+**********************cat /proc/meminfo**********************
+MemTotal:         511880 kB
+MemFree:          455988 kB
+MemAvailable:     445812 kB
+Buffers:             152 kB
+Cached:            32968 kB
+SwapCached:            0 kB
+Active:             7720 kB
+Inactive:          27684 kB
+Active(anon):       6028 kB
+Inactive(anon):    27272 kB
+Active(file):       1692 kB
+Inactive(file):      412 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:         511880 kB
+LowFree:          455988 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                12 kB
+Writeback:             0 kB
+AnonPages:          2224 kB
+Mapped:             4980 kB
+Shmem:             31016 kB
+Slab:               8536 kB
+SReclaimable:       2116 kB
+SUnreclaim:         6420 kB
+KernelStack:         816 kB
+PageTables:          216 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      255940 kB
+Committed_AS:      91096 kB
+VmallocTotal:     507904 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+CmaTotal:          16384 kB
+CmaFree:           16024 kB

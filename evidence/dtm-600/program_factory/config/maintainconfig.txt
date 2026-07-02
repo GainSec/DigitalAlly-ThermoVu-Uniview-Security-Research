@@ -1,0 +1,7 @@
+Username:
+Passwd:
+FTPAddress:
+FTPPort:
+UploadTime:
+Enable:0
+DaemonEn:0

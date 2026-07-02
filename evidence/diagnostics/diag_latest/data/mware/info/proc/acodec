@@ -1,0 +1,6 @@
+
+[ACODEC] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time: [Jan 14 2019, 20:23:45]
+
+-----ACODEC PARAM--------------------------------------------------------------
+   LGain(dB)   RGain(dB) DacLVol(dB) DacRVol(dB) AdcLVol(dB) AdcRVol(dB) MicLMut MicRMut DacLMut DacRMut  BoostL  BoostR
+      20.0      20.0      -121        -121          -1          -1           0       0       0       1       1       1

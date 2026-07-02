@@ -1,0 +1,49 @@
+
+Module: [MIPI_RX], Build Time[Jun 29 2020, 13:52:20]
+
+-----MIPI LANE DIVIDE MODE---------------------------------------------------------------------------------------------
+  MODE         LANE DIVIDE
+     1                 2+2
+
+-----MIPI DEV ATTR-----------------------------------------------------------------------------------------------------
+   Devno  WorkMode  DataRate            DataType   WDRMode    ImgX    ImgY    ImgW    ImgH
+       0      MIPI        X1               RAW12      None       0       0    1920    1080
+
+-----MIPI LANE INFO-----------------------------------------------------------------------------------------------------
+   Devno                  LaneID
+       0         0,  2, -1, -1
+
+-----MIPI PHY DATA INFO------------------------------------------------------
+   PhyId         LaneId            PhyData                MipiData              LvdsData
+       0       0, 1, 2, 3    0x89,0x00,0x87,0x00    0x29,0x00,0x21,0x00    0x12,0x00,0x62,0x00
+
+-----MIPI DETECT INFO----------------------------------------------------
+ Devno VC   width  height
+     0  0    1920    1080
+     0  1       0       0
+     0  2       0       0
+     0  3       0       0
+
+-----PHY CIL ERR INT INFO---------------------------------------------
+   PhyId  Clk2TmOut  ClkTmOut  Lane0TmOut  Lane1TmOut  Lane2TmOut  Lane3TmOut  Clk2Esc  ClkEsc  Lane0Esc  Lane1Esc  Lane2Esc  Lane3Esc
+       0          0         0           0           0           0           0        0       0         0         0         0         0
+
+-----MIPI ERROR INT INFO 1-----------------------------------------------------------
+   Devno  Ecc2  Vc0CRC  Vc1CRC  Vc2CRC  Vc3CRC  Vc0EccCorrct  Vc1EccCorrct  Vc2EccCorrct  Vc3EccCorrct
+       0     0       0       0       0       0             0             0             0             0
+
+-----MIPI ERROR INT INFO 2-----------------------------------------------------------
+   Devno  Vc0Dt  Vc1Dt  Vc2Dt  Vc3Dt  Vc0FrmCrc  Vc1FrmCrc  Vc2FrmCrc  Vc3FrmCrc
+       0      0      0      0      0          0          0          0          0
+
+-----MIPI ERROR INT INFO 3-----------------------------------------------------------
+   Devno  Vc0FrmSeq  Vc1FrmSeq  Vc2FrmSeq  Vc3FrmSeq  Vc0BndryMt  Vc1BndryMt  Vc2BndryMt  Vc3BndryMt
+       0          0          0          0          0           0           0           0           0
+
+-----MIPI ERROR INT INFO 4-----------------------------------------------------------
+   Devno  DataFifoRdErr  CmdFifoRdErr  Vsync  CmdFifoWrErr  DataFifoWrErr
+       0              0             0      0             0              0
+
+-----ALIGN ERROR INT INFO--------------------------------------
+   Devno  FIFO_FullErr  Lane0Err  Lane1Err  Lane2Err  Lane3Err
+       0             0         0         0         0         0

@@ -1,0 +1,14 @@
+"Required Fields","Required Fields","Picture Path","Card Type","Card No.","Card Type","Card No.","Effective Time","Expiration Time","Template Name","Comment"
+*No.,*Name,Face Picture,Card Type 1,Card No. 1,Card Type 2,Card No. 2,Effective Time,Expiration Time,Time Template Name,Comment
+40001,extreme_blur_15,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/extreme_blur_15.jpg,,,,,,,,bypass_test
+40002,extreme_blur_25,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/extreme_blur_25.jpg,,,,,,,,bypass_test
+40003,extreme_blur_35,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/extreme_blur_35.jpg,,,,,,,,bypass_test
+40004,extreme_blur_45,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/extreme_blur_45.jpg,,,,,,,,bypass_test
+40005,extreme_blur_55,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/extreme_blur_55.jpg,,,,,,,,bypass_test
+40006,grayscale,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/grayscale.jpg,,,,,,,,bypass_test
+40007,max_saturation,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/max_saturation.jpg,,,,,,,,bypass_test
+40008,posterize_16,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/posterize_16.jpg,,,,,,,,bypass_test
+40009,posterize_4,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/posterize_4.jpg,,,,,,,,bypass_test
+40010,posterize_8,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/posterize_8.jpg,,,,,,,,bypass_test
+40011,uniform_color,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/uniform_color.jpg,,,,,,,,bypass_test
+40012,very_low_contrast,<RELEASE_ROOT>/UNIVERSAL_BYPASS_CANDIDATES/very_low_contrast.jpg,,,,,,,,bypass_test

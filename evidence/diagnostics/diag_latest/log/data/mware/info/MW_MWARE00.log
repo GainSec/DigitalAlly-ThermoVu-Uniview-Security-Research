@@ -1,0 +1,657 @@
+12-01 00:03:06 976[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:Success, lRet:0
+12-01 00:03:06 986[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:10 779[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:03:12 876[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:13 006[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:13 006[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:13 704[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:03:14 016[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:14 016[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:15 378[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:20 035[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:20 036[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:21 046[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:21 047[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:22 877[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:25 387[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:27 066[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:27 066[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:28 076[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:28 076[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:32 887[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:34 096[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:34 097[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:35 107[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:35 108[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:35 406[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:41 126[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:41 126[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:42 136[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:42 136[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:42 903[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:45 428[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:48 157[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:48 158[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:49 166[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:49 166[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:52 897[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:55 189[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:55 189[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:03:55 430[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:03:56 196[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:03:56 197[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:02 216[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:02 216[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:02 908[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:03 226[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:03 226[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:05 437[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:09 246[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:09 247[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:10 256[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:10 257[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:10 780[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:04:13 941[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:04:14 124[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:15 436[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:16 275[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:16 276[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:17 286[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:17 286[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:22 917[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:23 306[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:23 306[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:24 316[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:24 316[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:25 458[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:30 346[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:30 347[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:31 356[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:31 356[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:32 938[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:35 467[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:37 376[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:37 376[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:38 388[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:38 389[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:42 937[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:44 406[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:44 407[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:45 416[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:45 416[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:45 479[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:51 437[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:51 437[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:52 447[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:52 447[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:52 946[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:55 476[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:04:58 465[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:58 466[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:04:59 475[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:04:59 476[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:02 960[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:05:05 486[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:05:05 497[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:05 497[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:06 506[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:06 506[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:10 752[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:05:12 525[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:12 526[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:12 969[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:05:13 538[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:13 539[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:13 851[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:05:15 490[I(0)][iw_acs_msgpro.c-711]Get Periphreal Info:Type[255] FirmwareVer[] HardwareVer[00] ObjectRatio[0.000000]
+12-01 00:05:19 556[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:19 557[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:20 390[E(0)][bp_util.c-7318]Illegal AuthMode[0]
+12-01 00:05:20 456[I(0)][mw_ctrl_lightapi_func.c-12239]Login Digest, Ret[0]
+12-01 00:05:20 565[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:20 566[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:26 586[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:26 587[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:27 597[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:27 597[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:33 616[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:33 616[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:34 626[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:34 626[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:40 646[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:40 646[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:41 656[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:41 656[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:47 677[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:47 677[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:48 688[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:48 689[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:54 705[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:54 706[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:05:55 716[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:05:55 716[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:01 586[I(0)][mw_stor.c-8518]DRV_GetLocalDiskMaxNum
+12-01 00:06:01 586[I(0)][mw_stor.c-8520]DRV_GetLocalDiskMaxNum end, DiskNum[1]
+12-01 00:06:01 586[I(0)][mw_stor.c-8943]Total[1514/2839]M Pic[302/1515]M Bak[1212/1212]M
+12-01 00:06:01 737[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:01 738[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:02 746[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:02 746[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:08 766[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:08 766[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:09 776[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:09 777[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:10 753[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:06:14 004[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:06:14 337[I(0)][mw_conf.c-35128]get AlarmOutputNum[4]
+12-01 00:06:15 796[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:15 796[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:16 806[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:16 806[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:22 826[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:22 832[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:23 836[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:23 837[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:29 863[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:29 864[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:30 878[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:30 878[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:36 896[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:36 897[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:37 906[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:37 906[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:43 927[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:43 928[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:44 936[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:44 937[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:50 956[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:50 956[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:51 967[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:51 967[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:53 298[E(0)][bp_util.c-7318]Illegal AuthMode[0]
+12-01 00:06:53 355[I(0)][mw_ctrl_lightapi_func.c-12239]Login Digest, Ret[0]
+12-01 00:06:57 985[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:57 986[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:58 996[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:06:58 997[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:06:59 597[W(1)][mw_mcp.c-29803]Open file[/config/marquee.txt] fail, error[No such file or directory]
+12-01 00:07:05 016[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:05 017[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:06 027[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:06 027[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:10 762[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:07:11 436[E(1)][mw_ctrl_acs_lightapi_func.c-6132]File[/data/GUIFile/tmp/PicLogo] not exit
+12-01 00:07:11 436[E(1)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:07:12 045[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:12 046[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:13 056[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:13 057[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:13 889[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:07:14 247[I(0)][mw_ctrl_acs_func.c-1496]Get HomeIconNum[4]
+12-01 00:07:19 078[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:19 078[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:20 086[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:20 086[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:22 776[I(0)][mw_conf.c-35375]get TolNum[1]
+12-01 00:07:26 106[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:26 106[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:27 117[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:27 118[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:30 306[I(0)][mw_ctrl_main.c-16782]Channel[1] SerialType[3] SerialMode[113] BaudRat[115200]DataBit[8] Parity[0] Flowcontrol[0]
+12-01 00:07:30 306[I(0)][mw_ctrl_main.c-16782]Channel[55] SerialType[1] SerialMode[112] BaudRat[19200]DataBit[8] Parity[0] Flowcontrol[0]
+12-01 00:07:32 056[I(0)][mw_conf.c-35268]get PortNum[3]
+12-01 00:07:33 136[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:33 137[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:34 146[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:34 146[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:40 176[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:40 176[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:40 387[I(0)][mw_conf.c-35268]get PortNum[3]
+12-01 00:07:41 185[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:41 186[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:42 096[I(0)][mw_ctrl_main.c-16782]Channel[1] SerialType[3] SerialMode[113] BaudRat[115200]DataBit[8] Parity[0] Flowcontrol[0]
+12-01 00:07:42 097[I(0)][mw_ctrl_main.c-16782]Channel[55] SerialType[1] SerialMode[112] BaudRat[19200]DataBit[8] Parity[0] Flowcontrol[0]
+12-01 00:07:47 206[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:47 207[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:48 217[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:48 218[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:49 876[E(1)][mw_ctrl_tollgate.c-3757]Server1:ulProtocol 4 210235C4CC3208000045 OET-213H-NB 0123456789  192.168.30.11 5196; Server2:ulProtocol 1 EZIPC0 OET-213H-NB 0123456789  192.168.30.11 5198
+12-01 00:07:54 235[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:54 236[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:55 245[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:07:55 246[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:07:59 627[E(0)][mw_ctrl_main.c-35375]IP:0.0.0.0, Num:1
+12-01 00:08:00 577[I(0)][mw_ctrl_main.c-3539]DRV_GetETHPortMode()
+12-01 00:08:00 578[I(0)][mw_ctrl_main.c-3541]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:08:01 267[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:01 268[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:02 275[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:02 276[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:08 295[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:08 296[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:09 307[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:09 308[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:10 756[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:08:13 705[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:08:15 336[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:15 337[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:16 347[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:16 348[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:22 366[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:22 367[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:23 376[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:23 377[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:25 837[E(0)][bp_util.c-7318]Illegal AuthMode[0]
+12-01 00:08:25 899[E(460)][bp_util.c-7019]Pass Word Error
+12-01 00:08:25 900[E(1)][bp_util.c-7162]CheckDigestAuth fail, Ret[1]
+12-01 00:08:25 900[E(1)][bp_util.c-7260]PassWD Not Match
+12-01 00:08:25 900[E(12)][bp_util.c-7337]PWD err[460], LoginMode[1]
+12-01 00:08:25 936[E(460)][mw_ctrl_lightapi_func.c-12266]No Vm Sync PWD
+12-01 00:08:25 936[E(460)][mw_ctrl_lightapi.c-2777]MW_LAPI_ProcessRequst Failed
+12-01 00:08:29 287[I(0)][mw_ctrl_lightapi_func.c-12239]Login Digest, Ret[0]
+12-01 00:08:29 397[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:29 397[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:30 416[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:30 417[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:36 436[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:36 436[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:37 456[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:37 456[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:43 475[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:43 476[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:44 486[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:44 487[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:50 506[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:50 506[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:51 516[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:51 516[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:57 536[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:57 537[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:08:58 547[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:08:58 548[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:04 567[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:04 567[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:05 576[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:05 576[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:10 761[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:09:11 597[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:11 598[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:12 607[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:12 607[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:13 803[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:09:18 625[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:18 626[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:19 638[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:19 639[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:25 657[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:25 657[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:26 666[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:26 666[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:27 517[E(0)][bp_util.c-7318]Illegal AuthMode[0]
+12-01 00:09:27 575[I(0)][mw_ctrl_lightapi_func.c-12239]Login Digest, Ret[0]
+12-01 00:09:32 688[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:32 688[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:33 697[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:33 698[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:39 716[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:39 716[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:40 726[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:40 726[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:40 967[I(0)][mw_conf.c-35375]get TolNum[1]
+12-01 00:09:41 782[I(0)][mw_ctrl_main.c-16782]Channel[1] SerialType[3] SerialMode[113] BaudRat[115200]DataBit[8] Parity[0] Flowcontrol[0]
+12-01 00:09:41 782[I(0)][mw_ctrl_main.c-16782]Channel[55] SerialType[1] SerialMode[112] BaudRat[19200]DataBit[8] Parity[0] Flowcontrol[0]
+12-01 00:09:45 167[E(0)][mw_ctrl_main.c-35375]IP:0.0.0.0, Num:1
+12-01 00:09:45 938[I(0)][mw_ctrl_main.c-3539]DRV_GetETHPortMode()
+12-01 00:09:45 939[I(0)][mw_ctrl_main.c-3541]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:09:46 746[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:46 746[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:47 755[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:47 756[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:53 776[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:53 777[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:09:54 788[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:09:54 789[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:00 806[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:00 806[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:01 816[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:01 816[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:07 836[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:07 837[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:08 846[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:08 847[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:10 766[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:10:13 662[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:10:14 866[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:14 866[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:15 877[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:15 877[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:21 897[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:21 897[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:22 906[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:22 907[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:28 929[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:28 930[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:29 939[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:29 940[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:35 958[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:35 958[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:36 965[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:36 966[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:42 987[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:42 988[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:43 996[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:43 996[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:50 016[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:50 017[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:51 026[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:51 027[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:57 045[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:57 046[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:10:58 056[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:10:58 056[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:04 077[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:04 078[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:05 086[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:05 086[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:11 106[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:11 107[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:12 116[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:12 117[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:18 136[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:18 136[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:19 146[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:19 147[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:25 167[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:25 167[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:26 178[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:26 179[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:32 196[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:32 196[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:33 206[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:33 206[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:39 228[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:39 228[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:40 236[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:40 236[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:46 255[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:46 256[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:47 266[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:47 267[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:47 948[W(1074)][bp_timer.c-1249][BP_UnregistTimerProc]MW_MWARE timerid 35 is invalid.
+12-01 00:11:53 199[I(0)][iw_acs_face.c-5459][Tmper]Highest:0.00 Num:0
+12-01 00:11:53 285[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:53 286[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:54 296[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:11:54 296[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:11:59 496[W(0)][iw_acs_face.c-5677][Tmper]Timeout:HighestNum[0]
+12-01 00:11:59 967[I(0)][iw_acs_face.c-5459][Tmper]Highest:0.00 Num:0
+12-01 00:12:00 316[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:00 316[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:01 326[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:01 326[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:05 006[W(0)][iw_acs_face.c-5503]RoomPage has be changed
+12-01 00:12:07 346[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:07 346[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:08 356[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:08 356[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:14 378[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:14 378[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:15 387[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:15 388[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:21 406[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:21 407[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:22 416[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:22 416[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:28 437[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:28 437[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:29 446[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:29 446[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:35 466[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:35 467[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:36 476[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:36 476[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:37 956[I(0)][iw_acs_msgpro.c-1286]IW_ProcMmi2IwMsg GetDevice Basic Info DeviceModel:[OET-213H-NB]
+12-01 00:12:42 495[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:42 496[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:43 506[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:43 507[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:49 525[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:49 526[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:50 536[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:50 536[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:56 556[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:56 557[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:12:57 566[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:12:57 567[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:03 585[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:03 586[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:04 598[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:04 598[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:05 258[I(0)][mw_ctrl_main.c-3539]DRV_GetETHPortMode()
+12-01 00:13:05 258[I(0)][mw_ctrl_main.c-3541]DRV_GetETHPortMode() end, ulRet:0 Mode:0
+12-01 00:13:10 617[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:10 617[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:11 626[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:11 626[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:17 657[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:17 658[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:18 667[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:18 667[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:24 686[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:24 686[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:25 696[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:25 696[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:31 716[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:31 716[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:32 726[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:32 726[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:38 746[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:38 747[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:39 756[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:39 757[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:45 775[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:45 776[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:46 785[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:46 786[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:52 806[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:52 807[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:53 815[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:53 816[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:13:59 835[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:13:59 836[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:00 847[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:00 848[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:06 866[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:06 867[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:07 876[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:07 876[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:13 896[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:13 897[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:14 906[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:14 906[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:20 926[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:20 926[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:21 936[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:21 936[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:27 956[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:27 956[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:28 965[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:28 966[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:34 987[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:34 987[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:35 997[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:35 997[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:42 016[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:42 016[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:43 026[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:43 026[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:49 046[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:49 047[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:50 056[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:50 056[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:56 076[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:56 076[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:14:57 086[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:14:57 087[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:03 106[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:03 107[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:04 124[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:04 125[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:10 137[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:10 137[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:11 156[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:11 156[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:17 176[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:17 176[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:18 187[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:18 187[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:24 206[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:24 206[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:25 216[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:25 216[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:31 236[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:31 238[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:32 245[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:32 246[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:38 265[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:38 266[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:39 276[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:39 276[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:45 295[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:45 296[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:46 306[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:46 306[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:52 326[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:52 326[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:53 337[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:53 337[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:15:59 355[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:15:59 356[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:00 366[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:00 366[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:06 387[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:06 387[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:07 396[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:07 396[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:13 416[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:13 416[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:14 429[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:14 430[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:20 446[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:20 446[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:21 456[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:21 456[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:27 476[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:27 479[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:28 486[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:28 486[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:34 506[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:34 506[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:35 517[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:35 517[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:41 536[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:41 536[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:42 545[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:42 546[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:48 566[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:48 566[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:49 579[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:49 579[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:55 596[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:55 596[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:16:56 606[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:16:56 606[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:02 626[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:02 627[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:03 636[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:03 636[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:09 656[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:09 656[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:10 677[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:10 678[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:16 695[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:16 696[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:17 706[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:17 707[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:23 726[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:23 726[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:24 736[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:24 736[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:30 756[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:30 757[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:31 767[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:31 768[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:37 786[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:37 786[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:38 796[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:38 796[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:44 817[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:44 818[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:45 826[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:45 826[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:51 846[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:51 846[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:52 856[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:52 857[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:58 876[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:58 877[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:17:59 886[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:17:59 886[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:05 907[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:05 908[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:06 917[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:06 917[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:12 936[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:12 936[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:13 946[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:13 946[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:19 966[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:19 966[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:20 975[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:20 976[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:26 996[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:26 996[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:28 007[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:28 008[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:34 026[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:34 026[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:35 036[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:35 036[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:41 057[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:41 058[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:42 066[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:42 066[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:48 086[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:48 086[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:49 096[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:49 097[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:55 117[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:55 117[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:18:56 126[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:18:56 126[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:19:02 147[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:19:02 148[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:19:03 166[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:19:03 166[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:19:06 951[I(0)][mw_ctrl_lightapi_func.c-2473]DRV_ExportCameraLog begin
+12-01 00:19:06 952[I(0)][mw_ctrl_lightapi_func.c-2475]DRV_ExportCameraLog end
+12-01 00:19:06 952[I(0)][mw_ctrl_main.c-33008]DRV_GetSysLog()
+12-01 00:19:07 005[I(0)][mw_ctrl_main.c-33010]DRV_GetSysLog() end, ulRet:0
+12-01 00:19:07 005[I(0)][mw_ctrl_main.c-33016]ISP_GetSysLog()
+12-01 00:19:07 008[I(0)][mw_ctrl_main.c-33018]ISP_GetSysLog() end, ulRet:0
+12-01 00:19:07 026[I(0)][mw_ctrl_lightapi_func.c-2493]Begin MMI ScreenCapture
+12-01 00:19:07 046[I(0)][mw_ctrl_lightapi_func.c-2502]begin to snapshot
+12-01 00:19:07 046[I(0)][mw_mcp.c-14170]capmode: 0
+12-01 00:19:07 046[I(0)][mw_mcp.c-29968]DRV_EncodeFrame begin
+12-01 00:19:07 046[I(0)][mw_mcp.c-29970]DRV_EncodeFrame leave
+12-01 00:19:07 155[I(0)][mw_mcp.c-23541]Put Image to File : Send mode[7]
+12-01 00:19:09 187[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:19:09 188[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:19:10 199[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:19:10 199[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:19:10 767[I(4)][mw_conf.c-6678]MW_CFG_FlushToDisk begin
+12-01 00:19:16 218[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:19:16 218[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]
+12-01 00:19:16 564[I(4)][mw_conf.c-6680]MW_CFG_FlushToDisk end
+12-01 00:19:17 226[E(0)][iw_acs_peripheral.c-7605]poll (1S) error:No such file or directory, lRet:0
+12-01 00:19:17 226[E(0)][iw_acs_msgpro.c-10425]ProcTemperSerailMsg Fail[1]

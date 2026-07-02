@@ -1,0 +1,17 @@
+
+[DIS] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:23:45]
+
+
+-------------------------------DIS CHN CONFIG INFO-------------------------------------------------------------
+   ChnID        Mode  Motion PdtType      BufNum     CropRatio     FrmRate     GyroRange  GyroBitWidth   CamSteady   Scale
+
+-------------------------------DIS CHN ATTR INFO------------------------------------------------
+   ChnID    Enable      MovSub      Roef     Timelag   ViewAngle  bStillCrop    HorLimit    VerLimit
+
+-------------------------------DIS CHN SYSTERM CONFIG INFO---------------------------------------
+   ChnID    BitWidth   InWidth    InHeight    OutWidth   OutHeight
+
+-------------------------------DIS DEBUG INFO-------------------------------------------------------------
+   ChnID     NodeNum     FreeNum     BusyNum     TaskNum   BypassNum   NormalNum   SubVgsNum   SubGmeNum     FailNum     LostNum
+
+   ChnID       VgsTm       GmeTm     GmeHwTm    VgsMaxTm    GmeMaxTm  GmeHwMaxTm

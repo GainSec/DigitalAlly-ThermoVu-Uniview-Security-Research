@@ -1,0 +1,50 @@
+
+[IVE] Version: [Hi3516CV500_MPP_V2.0.1.0 B090 Release], Build Time[Jan 14 2019, 20:24:08]
+
+
+-------------------------------MODULE PARAM--------------------------------------
+      save_power     max_node_num
+               0              512
+
+-------------------------------IVE QUEUE INFO------------------------------------
+    Wait      Busy   WaitCurId WaitEndId BusyCurId BusyEndId
+      0        -1         0         0         0         0
+
+--------------------------------IVE TASK INFO------------------------------------
+       Hnd   TaskFsh    LastId    TaskId   HndWrap   FshWrap
+      8922      8922         0         0         0         0
+
+-----------------------------------IVE RUN-TIME INFO-----------------------------
+  LastInst  CntPerSec MaxCntPerSec  TotalIntCntLastSec    TotalIntCnt     QTCnt STCnt
+         1          8           18                8918           8922         0     0
+
+    CostTm   MCostTm  CostTmPerSec MCostTmPerSec  TotalIntCostTm       RunTm
+        17        93           189           387          161374  1322690358
+
+----------------------------------IVE INVOKE INFO--------------------------------
+
+       DMA     Filter       CSC    FltCsc     Sobel    MagAng    Dilate     Erode
+         0          0      8922         0         0         0         0         0
+
+    Thresh        And       Sub        Or     Integ      Hist ThreshS16 ThreshU16
+         0          0         0         0         0         0         0         0
+
+     16to8 OrdStatFlt   BernSen       Map    EqualH       Add       Xor       NCC
+         0          0         0         0         0         0         0         0
+
+       CCL        GMM     Canny       LBP  NormGrad        LK ShiTomasi    GradFg
+         0          0         0         0         0         0         0         0
+
+  MatchMod  UpdateMod     Radon       ANN       SVM    AdpThr  LineFltH  NoiseRmH
+         0          0         0         0         0         0         0         0
+
+ PlateChar        SAD      GMM2    Resize       CNN PerspTrans       KCF       HOG
+         0          0         0         0         0          0         0         0 
+
+       XNN
+         0 
+
+----------------------------------IVE UTILI INFO--------------------------------
+
+  Utili  
+    0

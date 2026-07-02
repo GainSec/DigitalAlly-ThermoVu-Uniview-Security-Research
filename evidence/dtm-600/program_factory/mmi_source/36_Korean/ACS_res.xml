@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1- &lt;   <    小于号
+     2- &gt;   >    大于号 
+     3- &amp;  &    和 
+     4- &apos; '    单引号
+     5- &quot; "    双引号 -->
+<root>
+    <!-- 软件相关 -->
+    <iware>
+	    <!-- 温度相关 -->
+		<Temper>
+			<HeadTip>이마를 보여주세요.</HeadTip>					<!-- 请露出额头测温 -->
+			<Value>체온: %.1f %s</Value>								<!-- 温度值格式 -->
+			<AbnormalDet>이상 체온 감지</AbnormalDet>
+			<LowValue>체온이 낮습니다</LowValue>
+			<HeatSourceInterf>열원 간섭(%.1f %s)</HeatSourceInterf>   <!-- 体表温度偏低温度值格式 -->
+			<Unit_C>°C</Unit_C>   <!-- 摄氏度单位 -->
+			<Unit_F>°F</Unit_F>   <!-- 华氏度单位 -->
+			<OutTime>시간 제한, 온도:%.1f %s</OutTime>   <!-- 测温超时 -->
+		</Temper>
+		<!-- 核验相关 -->
+		<Check>
+			<SuccessTip>식별 성공</SuccessTip>
+			<CollectFaceOK>얼굴 수집 성공</CollectFaceOK>
+		</Check>
+		<!-- 记录相关 -->
+		<Record>
+			<NormalTemp>정상체온</NormalTemp>
+			<AbnormalTemp>이상체온</AbnormalTemp>
+			<Unregist>미등록</Unregist>
+		</Record>
+		<!-- 人员库相关 -->
+		<MemberLib>
+			<EmployeeLib>디폴트 사용자 폴더</EmployeeLib>
+			<VisitorLib>디폴트 방문객 폴더</VisitorLib>
+		</MemberLib>
+	</iware>
+	<!-- 人机相关 -->
+	<mmi>
+	    <!-- 核验模式相关 -->
+		<Check>
+			<TemperMode>체온 측정 모드</TemperMode>
+			<IDCard>/얼굴+주민등록번호</IDCard>
+			<ICCard>/카드.</ICCard>
+			<Face>/얼굴</Face>
+			<Card_Face>/카드+얼굴</Card_Face>
+			<Card_IDCard>/Face &amp; ID Card + ID Card No.</Card_IDCard>
+			<IC_ID>/Face &amp; ID Card + Card.</IC_ID>
+			<Code>/비밀번호</Code>
+		</Check>
+		<!-- 核验提示相关 -->
+		<CheckTip>
+			<NoConfig>설정안함</NoConfig>
+			<Face>카메라를 정면으로 바라보세요.</Face>
+			<Card>카드 인증을 해주세요.</Card>
+			<Face_ID>Please do face &amp; ID card authentication.</Face_ID>
+			<Card_Face>카드 인증을 한 후 얼굴 인증을 해주세요.</Card_Face>
+			<Card_IDCard>Please do face and ID card authentication. </Card_IDCard>
+			<IC_ID>Please do face and ID card authentication first, then swipe your IC card.</IC_ID>
+		</CheckTip>
+		<!-- 日期相关 -->
+		<Week>
+			<Sunday>일요일</Sunday>
+			<Monday>월요일</Monday>
+			<Tuesday>화요일</Tuesday>
+			<Wednesday>수요일</Wednesday>
+			<Thursday>목요일</Thursday>
+			<Friday>금요일</Friday>
+			<Saturday>토요일</Saturday>
+		</Week>
+		<Year>년</Year>
+		<Month>월</Month>
+		<Date>일</Date>
+		<!-- 月份相关（简写） -->
+		<Month_01>1월</Month_01>
+		<Month_02>2월</Month_02>
+		<Month_03>3월</Month_03>
+		<Month_04>4월</Month_04>
+		<Month_05>5월</Month_05>
+		<Month_06>6월</Month_06>
+		<Month_07>7월</Month_07>
+		<Month_08>8월</Month_08>
+		<Month_09>9월</Month_09>
+		<Month_10>10월</Month_10>
+		<Month_11>11월</Month_11>
+		<Month_12>12월</Month_12>
+		<!-- 日期相关 -->
+		<PIN>
+			<Tip_7>숫자/영문 대문자, 소문자/특수문자(_,-) 중 2가지 이상을 포함하세요.</Tip_7>
+			<Tip_10>숫자/영문 대문자, 소문자/특수문자(_,-) 중 2가지 이상을 포함하세요.</Tip_10>
+		</PIN>
+		<!-- 其他 -->
+		<Building>동</Building>
+		<PreheatCountDown>온도 측정 예열 카운트다운</PreheatCountDown>      <!-- 测温预热倒计时 -->
+	</mmi>
+</root>

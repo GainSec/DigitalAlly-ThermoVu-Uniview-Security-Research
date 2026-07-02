@@ -1,0 +1,2294 @@
+ONVIF	http://www.onvif.org/ver10/device/wsdl
+	25.06
+Operations
+
+    Port type Device
+        AddIPAddressFilter
+        Description:
+        This operation adds an IP filter address to a device. If the device supports device access control based on IP filtering rules (denied or accepted ranges of IP addresses), the device shall support adding of IP filtering addresses through the AddIPAddressFilter command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/AddIPAddressFilter
+        Input:
+        [AddIPAddressFilter]
+            IPAddressFilter [IPAddressFilter]
+                Type [IPAddressFilterType] - enum { 'Allow', 'Deny' }
+                IPv4Address - optional, unbounded; [PrefixedIPv4Address]
+                    Address [IPv4Address]
+                    IPv4 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                IPv6Address - optional, unbounded; [PrefixedIPv6Address]
+                    Address [IPv6Address]
+                    IPv6 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                Extension - optional; [IPAddressFilterExtension]
+        Output:
+        [AddIPAddressFilterResponse]
+        AddScopes
+        Description:
+        This operation adds new configurable scope parameters to a device. The scope parameters are used in the device discovery to match a probe message. The device shall support addition of discovery scope parameters through the AddScopes command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/AddScopes
+        Input:
+        [AddScopes]
+            ScopeItem - unbounded; [anyURI]
+            Contains a list of new configurable scope parameters that will be added to the existing configurable scope.
+        Output:
+        [AddScopesResponse]
+        CreateCertificate
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/CreateCertificate
+        Input:
+        [CreateCertificate]
+            CertificateID - optional; [token]
+            Certificate id.
+            Subject - optional; [string]
+            Identification of the entity associated with the public-key.
+            ValidNotBefore - optional; [dateTime]
+            Certificate validity start date.
+            ValidNotAfter - optional; [dateTime]
+            Certificate expiry start date.
+        Output:
+        [CreateCertificateResponse]
+            NvtCertificate [Certificate]
+            base64 encoded DER representation of certificate.
+                CertificateID [token]
+                Certificate id.
+                Certificate [BinaryData]
+                base64 encoded DER representation of certificate.
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+        CreateDot1XConfiguration
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/CreateDot1XConfiguration
+        Input:
+        [CreateDot1XConfiguration]
+            Dot1XConfiguration [Dot1XConfiguration]
+                Dot1XConfigurationToken [ReferenceToken]
+                Identity [string]
+                AnonymousID - optional; [string]
+                EAPMethod [int]
+                EAP Method type as defined in IANA EAP Registry.
+                CACertificateID - optional, unbounded; [token]
+                EAPMethodConfiguration - optional; [EAPMethodConfiguration]
+                    TLSConfiguration - optional; [TLSConfiguration]
+                    Confgiuration information for TLS Method.
+                        CertificateID [token]
+                    Password - optional; [string]
+                    Password for those EAP Methods that require a password. The password shall never be returned on a get method.
+                    Extension - optional; [EapMethodExtension]
+                Extension - optional; [Dot1XConfigurationExtension]
+        Output:
+        [CreateDot1XConfigurationResponse]
+        CreateStorageConfiguration
+        Description:
+        This operation creates a new storage configuration. The configuration data shall be created in the device and shall be persistent (remain after reboot).
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/CreateStorageConfiguration
+        Input:
+        [CreateStorageConfiguration]
+            StorageConfiguration [StorageConfigurationData]
+                type - required; [string]
+                tds:StorageType lists the acceptable values for type attribute
+                Region [string]
+                Optional region of the storage server
+                LocalPath - optional; [anyURI]
+                Local path
+                StorageUri - optional; [anyURI]
+                Storage server address
+                User - optional; [UserCredential]
+                User credential for the storage server
+                    UserName [string]
+                    User name
+                    Password - optional; [string]
+                    optional password
+                    Extension - optional;
+                    Token - optional; [string]
+                    optional access token
+                Extension - optional;
+                CertPathValidationPolicyID - optional; [string]
+                The unique identifier of the certification path validation policy to be used for validating the server certificate as declared in the security service.
+                If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                ConfigurationRenewal - optional;
+                    RenewalEndpoint [anyURI]
+                    Remote URL to be queried by the device to renew the storage configuration.
+                    AuthorizationServer [ReferenceToken]
+                    AuthorizationServer token referring to the server that provides access tokens to authorize with the the renewal endpoint.
+                    CertPathValidationPolicyID - optional; [string]
+                    CertPathValidationPolicyID used to validate the renewal endpoint server certificate. If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                    Error - optional; [string]
+                    Optional user readable error information (readonly).
+        Output:
+        [CreateStorageConfigurationResponse]
+            Token [ReferenceToken]
+        CreateUsers
+        Description:
+        This operation creates new device users and corresponding credentials on a device for authentication purposes. The device shall support creation of device users and their credentials through the CreateUsers command. Either all users are created successfully or a fault message shall be returned without creating any user.
+
+        ONVIF compliant devices are recommended to support password length of at least 28 bytes, as clients may follow the password derivation mechanism which results in 'password equivalent' of length 28 bytes, as described in section 3.1.2 of the ONVIF security white paper.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/CreateUsers
+        Input:
+        [CreateUsers]
+            User - unbounded; [User]
+            Creates new device users and corresponding credentials. Each user entry includes: username, password and user level. Either all users are created successfully or a fault message MUST be returned without creating any user. If trying to create several users with exactly the same username the request is rejected and no users are created. If password is missing, then fault message Too weak password is returned.
+                Username [string]
+                Username string.
+                Password - optional; [string]
+                Password string.
+                UserLevel [UserLevel]
+                User level string.
+                - enum { 'Administrator', 'Operator', 'User', 'Anonymous', 'Extended' }
+                Extension - optional; [UserExtension]
+        Output:
+        [CreateUsersResponse]
+        DeleteCertificates
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/DeleteCertificates
+        Input:
+        [DeleteCertificates]
+            CertificateID - unbounded; [token]
+            List of ids of certificates to delete.
+        Output:
+        [DeleteCertificatesResponse]
+        DeleteDot1XConfiguration
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/DeleteDot1XConfiguration
+        Input:
+        [DeleteDot1XConfiguration]
+            Dot1XConfigurationToken - optional, unbounded; [ReferenceToken]
+        Output:
+        [DeleteDot1XConfigurationResponse]
+        DeleteGeoLocation
+        Description:
+        This operation deletes the given geo location entries.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/DeleteGeoLocation
+        Input:
+        [DeleteGeoLocation]
+            Location - unbounded; [LocationEntity]
+        Output:
+        [DeleteGeoLocationResponse]
+        DeleteStorageConfiguration
+        Description:
+        This operation deletes the given storage configuration and configuration change shall always be persistent.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/DeleteStorageConfiguration
+        Input:
+        [DeleteStorageConfiguration]
+            Token [ReferenceToken]
+        Output:
+        [DeleteStorageConfigurationResponse]
+        DeleteUsers
+        Description:
+        This operation deletes users on a device. The device shall support deletion of device users and their credentials through the DeleteUsers command. A device may have one or more fixed users that cannot be deleted to ensure access to the unit. Either all users are deleted successfully or a fault message shall be returned and no users be deleted.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/DeleteUsers
+        Input:
+        [DeleteUsers]
+            Username - unbounded; [string]
+            Deletes users on an device and there may exist users that cannot be deleted to ensure access to the unit. Either all users are deleted successfully or a fault message MUST be returned and no users be deleted. If a username exists multiple times in the request, then a fault message is returned.
+        Output:
+        [DeleteUsersResponse]
+        GetAccessPolicy
+        Description:
+        Access to different services and sub-sets of services should be subject to access control. The WS-Security framework gives the prerequisite for end-point authentication. Authorization decisions can then be taken using an access security policy. This standard does not mandate any particular policy description format or security policy but this is up to the device manufacturer or system provider to choose policy and policy description format of choice. However, an access policy (in arbitrary format) can be requested using this command. If the device supports access policy settings based on WS-Security authentication, then the device shall support this command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetAccessPolicy
+        Input:
+        [GetAccessPolicy]
+        Output:
+        [GetAccessPolicyResponse]
+            PolicyFile [BinaryData]
+                contentType - optional; [contentType]
+                Data - nillable; [base64Binary]
+                base64 encoded binary data.
+        GetAuthFailureWarningConfiguration
+        Description:
+        This method allows retrieval of the current authentication failure warning configuration settings.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetAuthFailureWarningConfiguration
+        Input:
+        [GetAuthFailureWarningConfiguration]
+        Output:
+        [GetAuthFailureWarningConfigurationResponse]
+            Enabled [boolean]
+            MonitorPeriod [int]
+            MaxAuthFailures [int]
+        GetAuthFailureWarningOptions
+        Description:
+        This method allows retrieval of all the available parameters and their valid ranges for the authentication failure warning configuration.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetAuthFailureWarningOptions
+        Input:
+        [GetAuthFailureWarningOptions]
+        Output:
+        [GetAuthFailureWarningOptionsResponse]
+            MonitorPeriodRange [IntRange]
+            AuthFailureRange [IntRange]
+        GetCACertificates
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetCACertificates
+        Input:
+        [GetCACertificates]
+        Output:
+        [GetCACertificatesResponse]
+            CACertificate - optional, unbounded; [Certificate]
+                CertificateID [token]
+                Certificate id.
+                Certificate [BinaryData]
+                base64 encoded DER representation of certificate.
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+        GetCapabilities
+        Description:
+        This method has been replaced by the more generic GetServices method. For capabilities of individual services refer to the GetServiceCapabilities methods.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetCapabilities
+        Input:
+        [GetCapabilities]
+            Category - optional, unbounded; [CapabilityCategory]
+            List of categories to retrieve capability information on.
+            - enum { 'All', 'Analytics', 'Device', 'Events', 'Imaging', 'Media', 'PTZ' }
+        Output:
+        [GetCapabilitiesResponse]
+            Capabilities [Capabilities]
+            Capability information.
+                Analytics - optional; [AnalyticsCapabilities]
+                Analytics capabilities
+                    XAddr [anyURI]
+                    Analytics service URI.
+                    RuleSupport [boolean]
+                    Indicates whether or not rules are supported.
+                    AnalyticsModuleSupport [boolean]
+                    Indicates whether or not modules are supported.
+                Device - optional; [DeviceCapabilities]
+                Device capabilities
+                    XAddr [anyURI]
+                    Device service URI.
+                    Network - optional; [NetworkCapabilities]
+                    Network capabilities.
+                        IPFilter - optional; [boolean]
+                        Indicates whether or not IP filtering is supported.
+                        ZeroConfiguration - optional; [boolean]
+                        Indicates whether or not zeroconf is supported.
+                        IPVersion6 - optional; [boolean]
+                        Indicates whether or not IPv6 is supported.
+                        DynDNS - optional; [boolean]
+                        Indicates whether or not is supported.
+                        Extension - optional; [NetworkCapabilitiesExtension]
+                            Dot11Configuration - optional; [boolean]
+                            Extension - optional; [NetworkCapabilitiesExtension2]
+                    System - optional; [SystemCapabilities]
+                    System capabilities.
+                        DiscoveryResolve [boolean]
+                        Indicates whether or not WS Discovery resolve requests are supported.
+                        DiscoveryBye [boolean]
+                        Indicates whether or not WS-Discovery Bye is supported.
+                        RemoteDiscovery [boolean]
+                        Indicates whether or not remote discovery is supported.
+                        SystemBackup [boolean]
+                        Indicates whether or not system backup is supported.
+                        SystemLogging [boolean]
+                        Indicates whether or not system logging is supported.
+                        FirmwareUpgrade [boolean]
+                        Indicates whether or not firmware upgrade is supported.
+                        SupportedVersions - unbounded; [OnvifVersion]
+                        Indicates supported ONVIF version(s).
+                            Major [int]
+                            Major version number.
+                            Minor [int]
+                            Two digit minor version number. If major version number is less than "16", X.0.1 maps to "01" and X.2.1 maps to "21" where X stands for Major version number. Otherwise, minor number is month of release, such as "06" for June.
+                        Extension - optional; [SystemCapabilitiesExtension]
+                            HttpFirmwareUpgrade - optional; [boolean]
+                            HttpSystemBackup - optional; [boolean]
+                            HttpSystemLogging - optional; [boolean]
+                            HttpSupportInformation - optional; [boolean]
+                            Extension - optional; [SystemCapabilitiesExtension2]
+                    IO - optional; [IOCapabilities]
+                    I/O capabilities.
+                        InputConnectors - optional; [int]
+                        Number of input connectors.
+                        RelayOutputs - optional; [int]
+                        Number of relay outputs.
+                        Extension - optional; [IOCapabilitiesExtension]
+                            Auxiliary - optional; [boolean]
+                            AuxiliaryCommands - optional, unbounded; [AuxiliaryData]
+                            Extension [IOCapabilitiesExtension2]
+                    Security - optional; [SecurityCapabilities]
+                    Security capabilities.
+                        TLS1.1 [boolean]
+                        Indicates whether or not TLS 1.1 is supported.
+                        TLS1.2 [boolean]
+                        Indicates whether or not TLS 1.2 is supported.
+                        OnboardKeyGeneration [boolean]
+                        Indicates whether or not onboard key generation is supported.
+                        AccessPolicyConfig [boolean]
+                        Indicates whether or not access policy configuration is supported.
+                        X.509Token [boolean]
+                        Indicates whether or not WS-Security X.509 token is supported.
+                        SAMLToken [boolean]
+                        Indicates whether or not WS-Security SAML token is supported.
+                        KerberosToken [boolean]
+                        Indicates whether or not WS-Security Kerberos token is supported.
+                        RELToken [boolean]
+                        Indicates whether or not WS-Security REL token is supported.
+                        Extension - optional; [SecurityCapabilitiesExtension]
+                            TLS1.0 [boolean]
+                            Extension - optional; [SecurityCapabilitiesExtension2]
+                                Dot1X [boolean]
+                                SupportedEAPMethod - optional, unbounded; [int]
+                                EAP Methods supported by the device. The int values refer to the IANA EAP Registry.
+                                RemoteUserHandling [boolean]
+                    Extension - optional; [DeviceCapabilitiesExtension]
+                Events - optional; [EventCapabilities]
+                Event capabilities
+                    XAddr [anyURI]
+                    Event service URI.
+                    WSSubscriptionPolicySupport [boolean]
+                    Indicates whether or not WS Subscription policy is supported.
+                    WSPullPointSupport [boolean]
+                    Indicates whether or not WS Pull Point is supported.
+                    WSPausableSubscriptionManagerInterfaceSupport [boolean]
+                    Indicates whether or not WS Pausable Subscription Manager Interface is supported.
+                Imaging - optional; [ImagingCapabilities]
+                Imaging capabilities
+                    XAddr [anyURI]
+                    Imaging service URI.
+                Media - optional; [MediaCapabilities]
+                Media capabilities
+                    XAddr [anyURI]
+                    Media service URI.
+                    StreamingCapabilities [RealTimeStreamingCapabilities]
+                    Streaming capabilities.
+                        RTPMulticast - optional; [boolean]
+                        Indicates whether or not RTP multicast is supported.
+                        RTP_TCP - optional; [boolean]
+                        Indicates whether or not RTP over TCP is supported.
+                        RTP_RTSP_TCP - optional; [boolean]
+                        Indicates whether or not RTP/RTSP/TCP is supported.
+                        Extension - optional; [RealTimeStreamingCapabilitiesExtension]
+                    Extension - optional; [MediaCapabilitiesExtension]
+                        ProfileCapabilities [ProfileCapabilities]
+                            MaximumNumberOfProfiles [int]
+                            Maximum number of profiles.
+                PTZ - optional; [PTZCapabilities]
+                PTZ capabilities
+                    XAddr [anyURI]
+                    PTZ service URI.
+                Extension - optional; [CapabilitiesExtension]
+                    DeviceIO - optional; [DeviceIOCapabilities]
+                        XAddr [anyURI]
+                        VideoSources [int]
+                        VideoOutputs [int]
+                        AudioSources [int]
+                        AudioOutputs [int]
+                        RelayOutputs [int]
+                    Display - optional; [DisplayCapabilities]
+                        XAddr [anyURI]
+                        FixedLayout [boolean]
+                        Indication that the SetLayout command supports only predefined layouts.
+                    Recording - optional; [RecordingCapabilities]
+                        XAddr [anyURI]
+                        ReceiverSource [boolean]
+                        MediaProfileSource [boolean]
+                        DynamicRecordings [boolean]
+                        DynamicTracks [boolean]
+                        MaxStringLength [int]
+                    Search - optional; [SearchCapabilities]
+                        XAddr [anyURI]
+                        MetadataSearch [boolean]
+                    Replay - optional; [ReplayCapabilities]
+                        XAddr [anyURI]
+                        The address of the replay service.
+                    Receiver - optional; [ReceiverCapabilities]
+                        XAddr [anyURI]
+                        The address of the receiver service.
+                        RTP_Multicast [boolean]
+                        Indicates whether the device can receive RTP multicast streams.
+                        RTP_TCP [boolean]
+                        Indicates whether the device can receive RTP/TCP streams
+                        RTP_RTSP_TCP [boolean]
+                        Indicates whether the device can receive RTP/RTSP/TCP streams.
+                        SupportedReceivers [int]
+                        The maximum number of receivers supported by the device.
+                        MaximumRTSPURILength [int]
+                        The maximum allowed length for RTSP URIs.
+                    AnalyticsDevice - optional; [AnalyticsDeviceCapabilities]
+                        XAddr [anyURI]
+                        RuleSupport - optional; [boolean]
+                        Obsolete property.
+                        Extension - optional; [AnalyticsDeviceExtension]
+                    Extensions - optional; [CapabilitiesExtension2]
+        GetCertificateInformation
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetCertificateInformation
+        Input:
+        [GetCertificateInformation]
+            CertificateID [token]
+        Output:
+        [GetCertificateInformationResponse]
+            CertificateInformation [CertificateInformation]
+                CertificateID [token]
+                IssuerDN - optional; [string]
+                SubjectDN - optional; [string]
+                KeyUsage - optional; [CertificateUsage]
+                ExtendedKeyUsage - optional; [CertificateUsage]
+                KeyLength - optional; [int]
+                Version - optional; [string]
+                SerialNum - optional; [string]
+                SignatureAlgorithm - optional; [string]
+                Validity Range is from "NotBefore" to "NotAfter"; the corresponding DateTimeRange is from "From" to "Until"
+                Validity - optional; [DateTimeRange]
+                    From [dateTime]
+                    Until [dateTime]
+                Extension - optional; [CertificateInformationExtension]
+        GetCertificates
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetCertificates
+        Input:
+        [GetCertificates]
+        Output:
+        [GetCertificatesResponse]
+            NvtCertificate - optional, unbounded; [Certificate]
+            Id and base64 encoded DER representation of all available certificates.
+                CertificateID [token]
+                Certificate id.
+                Certificate [BinaryData]
+                base64 encoded DER representation of certificate.
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+        GetCertificatesStatus
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetCertificatesStatus
+        Input:
+        [GetCertificatesStatus]
+        Output:
+        [GetCertificatesStatusResponse]
+            CertificateStatus - optional, unbounded; [CertificateStatus]
+            Indicates if a certificate is used in an optional HTTPS configuration of the device.
+                CertificateID [token]
+                Certificate id.
+                Status [boolean]
+                Indicates whether or not a certificate is used in an HTTPS configuration.
+        GetClientCertificateMode
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetClientCertificateMode
+        Input:
+        [GetClientCertificateMode]
+        Output:
+        [GetClientCertificateModeResponse]
+            Enabled [boolean]
+            Indicates whether or not client certificates are required by device.
+        GetDeviceInformation
+        Description:
+        This operation gets basic device information from the device.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDeviceInformation
+        Input:
+        [GetDeviceInformation]
+        Output:
+        [GetDeviceInformationResponse]
+            Manufacturer [string]
+            The manufactor of the device.
+            Model [string]
+            The device model.
+            FirmwareVersion [string]
+            The firmware version in the device.
+            SerialNumber [string]
+            The serial number of the device.
+            HardwareId [string]
+            The hardware ID of the device.
+        GetDiscoveryMode
+        Description:
+        This operation gets the discovery mode of a device. See Section 7.2 for the definition of the different device discovery modes. The device shall support retrieval of the discovery mode setting through the GetDiscoveryMode command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDiscoveryMode
+        Input:
+        [GetDiscoveryMode]
+        Output:
+        [GetDiscoveryModeResponse]
+            DiscoveryMode [DiscoveryMode]
+            Indicator of discovery mode: Discoverable, NonDiscoverable.
+            - enum { 'Discoverable', 'NonDiscoverable' }
+        GetDNS
+        Description:
+        This operation gets the DNS settings from a device. The device shall return its DNS configurations through the GetDNS command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDNS
+        Input:
+        [GetDNS]
+        Output:
+        [GetDNSResponse]
+            DNSInformation [DNSInformation]
+            DNS information.
+                FromDHCP [boolean]
+                Indicates whether or not DNS information is retrieved from DHCP.
+                SearchDomain - optional, unbounded; [token]
+                Search domain.
+                DNSFromDHCP - optional, unbounded; [IPAddress]
+                List of DNS addresses received from DHCP.
+                    Type [IPType]
+                    Indicates if the address is an IPv4 or IPv6 address.
+                    - enum { 'IPv4', 'IPv6' }
+                    IPv4Address - optional; [IPv4Address]
+                    IPv4 address.
+                    IPv6Address - optional; [IPv6Address]
+                    IPv6 address
+                DNSManual - optional, unbounded; [IPAddress]
+                List of manually entered DNS addresses.
+                    Type [IPType]
+                    Indicates if the address is an IPv4 or IPv6 address.
+                    - enum { 'IPv4', 'IPv6' }
+                    IPv4Address - optional; [IPv4Address]
+                    IPv4 address.
+                    IPv6Address - optional; [IPv6Address]
+                    IPv6 address
+                Extension - optional; [DNSInformationExtension]
+        GetDot11Capabilities
+        Description:
+        This operation returns the IEEE802.11 capabilities. The device shall support this operation.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDot11Capabilities
+        Input:
+        [GetDot11Capabilities]
+        Output:
+        [GetDot11CapabilitiesResponse]
+            Capabilities [Dot11Capabilities]
+                TKIP [boolean]
+                ScanAvailableNetworks [boolean]
+                MultipleConfiguration [boolean]
+                AdHocStationMode [boolean]
+                WEP [boolean]
+        GetDot11Status
+        Description:
+        This operation returns the status of a wireless network interface. The device shall support this command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDot11Status
+        Input:
+        [GetDot11Status]
+            InterfaceToken [ReferenceToken]
+        Output:
+        [GetDot11StatusResponse]
+            Status [Dot11Status]
+                SSID [Dot11SSIDType]
+                BSSID - optional; [string]
+                PairCipher - optional; [Dot11Cipher] - enum { 'CCMP', 'TKIP', 'Any', 'Extended' }
+                GroupCipher - optional; [Dot11Cipher] - enum { 'CCMP', 'TKIP', 'Any', 'Extended' }
+                SignalStrength - optional; [Dot11SignalStrength] - enum { 'None', 'Very Bad', 'Bad', 'Good', 'Very Good', 'Extended' }
+                ActiveConfigAlias [ReferenceToken]
+        GetDot1XConfiguration
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDot1XConfiguration
+        Input:
+        [GetDot1XConfiguration]
+            Dot1XConfigurationToken [ReferenceToken]
+        Output:
+        [GetDot1XConfigurationResponse]
+            Dot1XConfiguration [Dot1XConfiguration]
+                Dot1XConfigurationToken [ReferenceToken]
+                Identity [string]
+                AnonymousID - optional; [string]
+                EAPMethod [int]
+                EAP Method type as defined in IANA EAP Registry.
+                CACertificateID - optional, unbounded; [token]
+                EAPMethodConfiguration - optional; [EAPMethodConfiguration]
+                    TLSConfiguration - optional; [TLSConfiguration]
+                    Confgiuration information for TLS Method.
+                        CertificateID [token]
+                    Password - optional; [string]
+                    Password for those EAP Methods that require a password. The password shall never be returned on a get method.
+                    Extension - optional; [EapMethodExtension]
+                Extension - optional; [Dot1XConfigurationExtension]
+        GetDot1XConfigurations
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDot1XConfigurations
+        Input:
+        [GetDot1XConfigurations]
+        Output:
+        [GetDot1XConfigurationsResponse]
+            Dot1XConfiguration - optional, unbounded; [Dot1XConfiguration]
+                Dot1XConfigurationToken [ReferenceToken]
+                Identity [string]
+                AnonymousID - optional; [string]
+                EAPMethod [int]
+                EAP Method type as defined in IANA EAP Registry.
+                CACertificateID - optional, unbounded; [token]
+                EAPMethodConfiguration - optional; [EAPMethodConfiguration]
+                    TLSConfiguration - optional; [TLSConfiguration]
+                    Confgiuration information for TLS Method.
+                        CertificateID [token]
+                    Password - optional; [string]
+                    Password for those EAP Methods that require a password. The password shall never be returned on a get method.
+                    Extension - optional; [EapMethodExtension]
+                Extension - optional; [Dot1XConfigurationExtension]
+        GetDPAddresses
+        Description:
+        This operation gets the remote DP address or addresses from a device. If the device supports remote discovery, as specified in Section 7.4, the device shall support retrieval of the remote DP address(es) through the GetDPAddresses command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDPAddresses
+        Input:
+        [GetDPAddresses]
+        Output:
+        [GetDPAddressesResponse]
+            DPAddress - optional, unbounded; [NetworkHost]
+                Type [NetworkHostType]
+                Network host type: IPv4, IPv6 or DNS.
+                - enum { 'IPv4', 'IPv6', 'DNS' }
+                IPv4Address - optional; [IPv4Address]
+                IPv4 address.
+                IPv6Address - optional; [IPv6Address]
+                IPv6 address.
+                DNSname - optional; [DNSName]
+                DNS name.
+                Extension - optional; [NetworkHostExtension]
+        GetDynamicDNS
+        Description:
+        This operation gets the dynamic DNS settings from a device. If the device supports dynamic DNS as specified in [RFC 2136] and [RFC 4702], it shall be possible to get the type, name and TTL through the GetDynamicDNS command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetDynamicDNS
+        Input:
+        [GetDynamicDNS]
+        Output:
+        [GetDynamicDNSResponse]
+            DynamicDNSInformation [DynamicDNSInformation]
+            Dynamic DNS information.
+                Type [DynamicDNSType]
+                Dynamic DNS type.
+                - enum { 'NoUpdate', 'ClientUpdates', 'ServerUpdates' }
+                Name - optional; [DNSName]
+                DNS name.
+                TTL - optional; [duration]
+                Time to live.
+                Extension - optional; [DynamicDNSInformationExtension]
+        GetEndpointReference
+        Description:
+        A client can ask for the device service endpoint reference address property that can be used to derive the password equivalent for remote user operation. The device shall support the GetEndpointReference command returning the address property of the device service endpoint reference.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetEndpointReference
+        Input:
+        [GetEndpointReference]
+        Output:
+        [GetEndpointReferenceResponse]
+            GUID [string]
+        GetGeoLocation
+        Description:
+        This operation lists all existing geo location configurations for the device.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetGeoLocation
+        Input:
+        [GetGeoLocation]
+        Output:
+        [GetGeoLocationResponse]
+            Location - optional, unbounded; [LocationEntity]
+        GetHostname
+        Description:
+        This operation is used by an endpoint to get the hostname from a device. The device shall return its hostname configurations through the GetHostname command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetHostname
+        Input:
+        [GetHostname]
+        Output:
+        [GetHostnameResponse]
+            HostnameInformation [HostnameInformation]
+            Contains the hostname information.
+                FromDHCP [boolean]
+                Indicates whether the hostname has been obtained from DHCP or not.
+                Name - optional; [token]
+                Indicates the device hostname or an empty string if no hostname has been assigned.
+                Extension - optional; [HostnameInformationExtension]
+        GetIPAddressFilter
+        Description:
+        This operation gets the IP address filter settings from a device. If the device supports device access control based on IP filtering rules (denied or accepted ranges of IP addresses), the device shall support the GetIPAddressFilter command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetIPAddressFilter
+        Input:
+        [GetIPAddressFilter]
+        Output:
+        [GetIPAddressFilterResponse]
+            IPAddressFilter [IPAddressFilter]
+                Type [IPAddressFilterType] - enum { 'Allow', 'Deny' }
+                IPv4Address - optional, unbounded; [PrefixedIPv4Address]
+                    Address [IPv4Address]
+                    IPv4 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                IPv6Address - optional, unbounded; [PrefixedIPv6Address]
+                    Address [IPv6Address]
+                    IPv6 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                Extension - optional; [IPAddressFilterExtension]
+        GetNetworkDefaultGateway
+        Description:
+        This operation gets the default gateway settings from a device. The device shall support the GetNetworkDefaultGateway command returning configured default gateway address(es).
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetNetworkDefaultGateway
+        Input:
+        [GetNetworkDefaultGateway]
+        Output:
+        [GetNetworkDefaultGatewayResponse]
+            NetworkGateway [NetworkGateway]
+            Gets the default IPv4 and IPv6 gateway settings from the device.
+                IPv4Address - optional, unbounded; [IPv4Address]
+                IPv4 address string.
+                IPv6Address - optional, unbounded; [IPv6Address]
+                IPv6 address string.
+        GetNetworkInterfaces
+        Description:
+        This operation gets the network interface configuration from a device. The device shall support return of network interface configuration settings as defined by the NetworkInterface type through the GetNetworkInterfaces command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetNetworkInterfaces
+        Input:
+        [GetNetworkInterfaces]
+        Output:
+        [GetNetworkInterfacesResponse]
+            NetworkInterfaces - unbounded; [NetworkInterface]
+            List of network interfaces.
+                token - required; [ReferenceToken]
+                Unique identifier referencing the physical entity.
+                Enabled [boolean]
+                Indicates whether or not an interface is enabled.
+                Info - optional; [NetworkInterfaceInfo]
+                Network interface information
+                    Name - optional; [string]
+                    Network interface name, for example eth0.
+                    HwAddress [HwAddress]
+                    Network interface MAC address.
+                    MTU - optional; [int]
+                    Maximum transmission unit.
+                Link - optional; [NetworkInterfaceLink]
+                Link configuration.
+                    AdminSettings [NetworkInterfaceConnectionSetting]
+                    Configured link settings.
+                        AutoNegotiation [boolean]
+                        Auto negotiation on/off.
+                        Speed [int]
+                        Speed.
+                        Duplex [Duplex]
+                        Duplex type, Half or Full.
+                        - enum { 'Full', 'Half' }
+                    OperSettings [NetworkInterfaceConnectionSetting]
+                    Current active link settings.
+                        AutoNegotiation [boolean]
+                        Auto negotiation on/off.
+                        Speed [int]
+                        Speed.
+                        Duplex [Duplex]
+                        Duplex type, Half or Full.
+                        - enum { 'Full', 'Half' }
+                    InterfaceType [IANA-IfTypes]
+                    Integer indicating interface type, for example: 6 is ethernet.
+                IPv4 - optional; [IPv4NetworkInterface]
+                IPv4 network interface configuration.
+                    Enabled [boolean]
+                    Indicates whether or not IPv4 is enabled.
+                    Config [IPv4Configuration]
+                    IPv4 configuration.
+                        Manual - optional, unbounded; [PrefixedIPv4Address]
+                        List of manually added IPv4 addresses.
+                            Address [IPv4Address]
+                            IPv4 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        LinkLocal - optional; [PrefixedIPv4Address]
+                        Link local address.
+                            Address [IPv4Address]
+                            IPv4 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        FromDHCP - optional; [PrefixedIPv4Address]
+                        IPv4 address configured by using DHCP.
+                            Address [IPv4Address]
+                            IPv4 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        DHCP [boolean]
+                        Indicates whether or not DHCP is used.
+                IPv6 - optional; [IPv6NetworkInterface]
+                IPv6 network interface configuration.
+                    Enabled [boolean]
+                    Indicates whether or not IPv6 is enabled.
+                    Config - optional; [IPv6Configuration]
+                    IPv6 configuration.
+                        AcceptRouterAdvert - optional; [boolean]
+                        Indicates whether router advertisment is used.
+                        DHCP [IPv6DHCPConfiguration]
+                        DHCP configuration.
+                        - enum { 'Auto', 'Stateful', 'Stateless', 'Off' }
+                        Manual - optional, unbounded; [PrefixedIPv6Address]
+                        List of manually entered IPv6 addresses.
+                            Address [IPv6Address]
+                            IPv6 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        LinkLocal - optional, unbounded; [PrefixedIPv6Address]
+                        List of link local IPv6 addresses.
+                            Address [IPv6Address]
+                            IPv6 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        FromDHCP - optional, unbounded; [PrefixedIPv6Address]
+                        List of IPv6 addresses configured by using DHCP.
+                            Address [IPv6Address]
+                            IPv6 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        FromRA - optional, unbounded; [PrefixedIPv6Address]
+                        List of IPv6 addresses configured by using router advertisment.
+                            Address [IPv6Address]
+                            IPv6 address
+                            PrefixLength [int]
+                            Prefix/submask length
+                        Extension - optional; [IPv6ConfigurationExtension]
+                Extension - optional; [NetworkInterfaceExtension]
+                    InterfaceType [IANA-IfTypes]
+                    Dot3 - optional, unbounded; [Dot3Configuration]
+                    Extension point prepared for future 802.3 configuration.
+                    Dot11 - optional, unbounded; [Dot11Configuration]
+                        SSID [Dot11SSIDType]
+                        Mode [Dot11StationMode] - enum { 'Ad-hoc', 'Infrastructure', 'Extended' }
+                        Alias [Name]
+                        Priority [NetworkInterfaceConfigPriority]
+                        Security [Dot11SecurityConfiguration]
+                            Mode [Dot11SecurityMode] - enum { 'None', 'WEP', 'PSK', 'Dot1X', 'Extended' }
+                            Algorithm - optional; [Dot11Cipher] - enum { 'CCMP', 'TKIP', 'Any', 'Extended' }
+                            PSK - optional; [Dot11PSKSet]
+                                Key - optional; [Dot11PSK]
+                                According to IEEE802.11-2007 H.4.1 the RSNA PSK consists of 256 bits, or 64 octets when represented in hex
+
+                                Either Key or Passphrase shall be given, if both are supplied Key shall be used by the device and Passphrase ignored.
+                                Passphrase - optional; [Dot11PSKPassphrase]
+                                According to IEEE802.11-2007 H.4.1 a pass-phrase is a sequence of between 8 and 63 ASCII-encoded characters and each character in the pass-phrase must have an encoding in the range of 32 to 126 (decimal),inclusive.
+
+                                If only Passpharse is supplied the Key shall be derived using the algorithm described in IEEE802.11-2007 section H.4
+                                Extension - optional; [Dot11PSKSetExtension]
+                            Dot1X - optional; [ReferenceToken]
+                            Extension - optional; [Dot11SecurityConfigurationExtension]
+                    Extension - optional; [NetworkInterfaceExtension2]
+        GetNetworkProtocols
+        Description:
+        This operation gets defined network protocols from a device. The device shall support the GetNetworkProtocols command returning configured network protocols.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetNetworkProtocols
+        Input:
+        [GetNetworkProtocols]
+        Output:
+        [GetNetworkProtocolsResponse]
+            NetworkProtocols - optional, unbounded; [NetworkProtocol]
+            Contains an array of defined protocols supported by the device. There are three protocols defined; HTTP, HTTPS and RTSP. The following parameters can be retrieved for each protocol: port and enable/disable.
+                Name [NetworkProtocolType]
+                Network protocol type string.
+                - enum { 'HTTP', 'HTTPS', 'RTSP' }
+                Enabled [boolean]
+                Indicates if the protocol is enabled or not.
+                Port - unbounded; [int]
+                The port that is used by the protocol.
+                Extension - optional; [NetworkProtocolExtension]
+        GetNTP
+        Description:
+        This operation gets the NTP settings from a device. If the device supports NTP, it shall be possible to get the NTP server settings through the GetNTP command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetNTP
+        Input:
+        [GetNTP]
+        Output:
+        [GetNTPResponse]
+            NTPInformation [NTPInformation]
+            NTP information.
+                FromDHCP [boolean]
+                Indicates if NTP information is to be retrieved by using DHCP.
+                NTPFromDHCP - optional, unbounded; [NetworkHost]
+                List of NTP addresses retrieved by using DHCP.
+                    Type [NetworkHostType]
+                    Network host type: IPv4, IPv6 or DNS.
+                    - enum { 'IPv4', 'IPv6', 'DNS' }
+                    IPv4Address - optional; [IPv4Address]
+                    IPv4 address.
+                    IPv6Address - optional; [IPv6Address]
+                    IPv6 address.
+                    DNSname - optional; [DNSName]
+                    DNS name.
+                    Extension - optional; [NetworkHostExtension]
+                NTPManual - optional, unbounded; [NetworkHost]
+                List of manually entered NTP addresses.
+                    Type [NetworkHostType]
+                    Network host type: IPv4, IPv6 or DNS.
+                    - enum { 'IPv4', 'IPv6', 'DNS' }
+                    IPv4Address - optional; [IPv4Address]
+                    IPv4 address.
+                    IPv6Address - optional; [IPv6Address]
+                    IPv6 address.
+                    DNSname - optional; [DNSName]
+                    DNS name.
+                    Extension - optional; [NetworkHostExtension]
+                Extension - optional; [NTPInformationExtension]
+        GetPasswordComplexityConfiguration
+        Description:
+        This method allows retrieval of the current password complexity configuration settings.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetPasswordComplexityConfiguration
+        Input:
+        [GetPasswordComplexityConfiguration]
+        Output:
+        [GetPasswordComplexityConfigurationResponse]
+            MinLen - optional; [int]
+            Uppercase - optional; [int]
+            Number - optional; [int]
+            SpecialChars - optional; [int]
+            BlockUsernameOccurrence - optional; [boolean]
+            PolicyConfigurationLocked - optional; [boolean]
+        GetPasswordComplexityOptions
+        Description:
+        This method allows retrieval of all the available parameters and their valid ranges for the password complexity configuration.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetPasswordComplexityOptions
+        Input:
+        [GetPasswordComplexityOptions]
+        Output:
+        [GetPasswordComplexityOptionsResponse]
+            MinLenRange - optional; [IntRange]
+            UppercaseRange - optional; [IntRange]
+            NumberRange - optional; [IntRange]
+            SpecialCharsRange - optional; [IntRange]
+            BlockUsernameOccurrenceSupported - optional; [boolean]
+            PolicyConfigurationLockSupported - optional; [boolean]
+        GetPasswordHistoryConfiguration
+        Description:
+        This method allows retrieval of the current password history configuration settings.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetPasswordHistoryConfiguration
+        Input:
+        [GetPasswordHistoryConfiguration]
+        Output:
+        [GetPasswordHistoryConfigurationResponse]
+            Enabled [boolean]
+            Length [int]
+        GetPkcs10Request
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetPkcs10Request
+        Input:
+        [GetPkcs10Request]
+            CertificateID [token]
+            List of ids of certificates to delete.
+            Subject - optional; [string]
+            Relative Dinstinguished Name(RDN) CommonName(CN).
+            Attributes - optional; [BinaryData]
+            Optional base64 encoded DER attributes.
+                contentType - optional; [contentType]
+                Data - nillable; [base64Binary]
+                base64 encoded binary data.
+        Output:
+        [GetPkcs10RequestResponse]
+            Pkcs10Request [BinaryData]
+            base64 encoded DER representation of certificate.
+                contentType - optional; [contentType]
+                Data - nillable; [base64Binary]
+                base64 encoded binary data.
+        GetRelayOutputs
+        Description:
+        This operation gets a list of all available relay outputs and their settings.
+
+        This method has been depricated with version 2.0. Refer to the DeviceIO service.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetRelayOutputs
+        Input:
+        [GetRelayOutputs]
+        Output:
+        [GetRelayOutputsResponse]
+            RelayOutputs - optional, unbounded; [RelayOutput]
+                token - required; [ReferenceToken]
+                Unique identifier referencing the physical entity.
+                Properties [RelayOutputSettings]
+                    Mode [RelayMode]
+                    'Bistable' or 'Monostable'
+                        Bistable – After setting the state, the relay remains in this state.
+                        Monostable – After setting the state, the relay returns to its idle state after the specified time.
+                    - enum { 'Monostable', 'Bistable' }
+                    DelayTime [duration]
+                    Time after which the relay returns to its idle state if it is in monostable mode. If the Mode field is set to bistable mode the value of the parameter can be ignored.
+                    IdleState [RelayIdleState]
+                    'open' or 'closed'
+                        'open' means that the relay is open when the relay state is set to 'inactive' through the trigger command and closed when the state is set to 'active' through the same command.
+                        'closed' means that the relay is closed when the relay state is set to 'inactive' through the trigger command and open when the state is set to 'active' through the same command.
+                    - enum { 'closed', 'open' }
+        GetRemoteDiscoveryMode
+        Description:
+        This operation gets the remote discovery mode of a device. See Section 7.4 for the definition of remote discovery extensions. A device that supports remote discovery shall support retrieval of the remote discovery mode setting through the GetRemoteDiscoveryMode command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetRemoteDiscoveryMode
+        Input:
+        [GetRemoteDiscoveryMode]
+        Output:
+        [GetRemoteDiscoveryModeResponse]
+            RemoteDiscoveryMode [DiscoveryMode]
+            Indicator of discovery mode: Discoverable, NonDiscoverable.
+            - enum { 'Discoverable', 'NonDiscoverable' }
+        GetRemoteUser
+        Description:
+        This operation returns the configured remote user (if any). A device supporting remote user handling shall support this operation. The user is only valid for the WS-UserToken profile or as an HTTP / RTSP user.
+
+        The algorithm to use for deriving the password is described in section 5.12.2.1 of the core specification.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetRemoteUser
+        Input:
+        [GetRemoteUser]
+        Output:
+        [GetRemoteUserResponse]
+            RemoteUser - optional; [RemoteUser]
+                Username [string]
+                Password - optional; [string]
+                UseDerivedPassword [boolean]
+        GetScopes
+        Description:
+        This operation requests the scope parameters of a device. The scope parameters are used in the device discovery to match a probe message, see Section 7. The Scope parameters are of two different types:
+            Fixed
+            Configurable
+        Fixed scope parameters are permanent device characteristics and cannot be removed through the device management interface. The scope type is indicated in the scope list returned in the get scope parameters response. A device shall support retrieval of discovery scope parameters through the GetScopes command. As some scope parameters are mandatory, the device shall return a non-empty scope list in the response.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetScopes
+        Input:
+        [GetScopes]
+        Output:
+        [GetScopesResponse]
+            Scopes - unbounded; [Scope]
+            Contains a list of URI definining the device scopes. Scope parameters can be of two types: fixed and configurable. Fixed parameters can not be altered.
+                ScopeDef [ScopeDefinition]
+                Indicates if the scope is fixed or configurable.
+                - enum { 'Fixed', 'Configurable' }
+                ScopeItem [anyURI]
+                Scope item URI.
+        GetServiceCapabilities
+        Description:
+        Returns the capabilities of the device service. The result is returned in a typed answer.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetServiceCapabilities
+        Input:
+        [GetServiceCapabilities]
+        Output:
+        [GetServiceCapabilitiesResponse]
+            Capabilities [DeviceServiceCapabilities]
+            The capabilities for the device service is returned in the Capabilities element.
+                Network [NetworkCapabilities]
+                Network capabilities.
+                    IPFilter [boolean]
+                    Indicates support for IP filtering.
+                    ZeroConfiguration [boolean]
+                    Indicates support for zeroconf.
+                    IPVersion6 [boolean]
+                    Indicates support for IPv6.
+                    DynDNS [boolean]
+                    Indicates support for dynamic DNS configuration.
+                    Dot11Configuration [boolean]
+                    Indicates support for IEEE 802.11 configuration.
+                    Dot1XConfigurations [int]
+                    Indicates the maximum number of Dot1X configurations supported by the device
+                    HostnameFromDHCP [boolean]
+                    Indicates support for retrieval of hostname from DHCP.
+                    NTP [int]
+                    Maximum number of NTP servers supported by the devices SetNTP command.
+                    DHCPv6 [boolean]
+                    Indicates support for Stateful IPv6 DHCP.
+                Security [SecurityCapabilities]
+                Security capabilities.
+                    TLS1.0 [boolean]
+                    Indicates support for TLS 1.0.
+                    TLS1.1 [boolean]
+                    Indicates support for TLS 1.1.
+                    TLS1.2 [boolean]
+                    Indicates support for TLS 1.2.
+                    OnboardKeyGeneration [boolean]
+                    Indicates support for onboard key generation.
+                    AccessPolicyConfig [boolean]
+                    Indicates support for access policy configuration.
+                    DefaultAccessPolicy [boolean]
+                    Indicates support for the ONVIF default access policy.
+                    Dot1X [boolean]
+                    Indicates support for IEEE 802.1X configuration.
+                    RemoteUserHandling [boolean]
+                    Indicates support for remote user configuration. Used when accessing another device.
+                    X.509Token [boolean]
+                    Indicates support for WS-Security X.509 token.
+                    SAMLToken [boolean]
+                    Indicates support for WS-Security SAML token.
+                    KerberosToken [boolean]
+                    Indicates support for WS-Security Kerberos token.
+                    UsernameToken [boolean]
+                    Indicates support for WS-Security Username token.
+                    HttpDigest [boolean]
+                    Indicates support for WS over HTTP digest authenticated communication layer.
+                    RELToken [boolean]
+                    Indicates support for WS-Security REL token.
+                    JsonWebToken [boolean]
+                    Indicates support for JWT-based authentication with WS-Security Binary Security token.
+                    SupportedEAPMethods [IntList]
+                    EAP Methods supported by the device. The int values refer to the IANA EAP Registry.
+                    MaxUsers [int]
+                    The maximum number of users that the device supports.
+                    MaxUserNameLength [int]
+                    Maximum number of characters supported for the username by CreateUsers.
+                    MaxPasswordLength [int]
+                    Maximum number of characters supported for the password by CreateUsers and SetUser.
+                    SecurityPolicies [StringList]
+                    Indicates which security policies are supported. Options are: ModifyPassword, PasswordComplexity, AuthFailureWarnings
+                    MaxPasswordHistory [int]
+                    Maximum number of passwords that the device can remember for each user
+                    HashingAlgorithms [StringList]
+                    Supported hashing algorithms as part of HTTP and RTSP Digest authentication.Example: MD5,SHA-256
+                System [SystemCapabilities]
+                System capabilities.
+                    DiscoveryResolve [boolean]
+                    Indicates support for WS Discovery resolve requests.
+                    DiscoveryBye [boolean]
+                    Indicates support for WS-Discovery Bye.
+                    RemoteDiscovery [boolean]
+                    Indicates support for remote discovery.
+                    SystemBackup [boolean]
+                    Indicates support for system backup through MTOM.
+                    SystemLogging [boolean]
+                    Indicates support for retrieval of system logging through MTOM.
+                    FirmwareUpgrade [boolean]
+                    Indicates support for firmware upgrade through MTOM.
+                    HttpFirmwareUpgrade [boolean]
+                    Indicates support for firmware upgrade through HTTP.
+                    HttpSystemBackup [boolean]
+                    Indicates support for system backup through HTTP.
+                    HttpSystemLogging [boolean]
+                    Indicates support for retrieval of system logging through HTTP.
+                    HttpSupportInformation [boolean]
+                    Indicates support for retrieving support information through HTTP.
+                    StorageConfiguration [boolean]
+                    Indicates support for storage configuration interfaces.
+                    MaxStorageConfigurations [int]
+                    Indicates maximum number of storage configurations supported.
+                    StorageConfigurationRenewal [boolean]
+                    Indicates support for renewal of storage configuration.
+                    GeoLocationEntries [int]
+                    If present signals support for geo location. The value signals the supported number of entries.
+                    AutoGeo [StringAttrList]
+                    List of supported automatic GeoLocation adjustment supported by the device. Valid items are defined by tds:AutoGeoMode.
+                    StorageTypesSupported [StringAttrList]
+                    Enumerates the supported StorageTypes, see tds:StorageType.
+                    DiscoveryNotSupported [boolean]
+                    Indicates no support for network discovery.
+                    NetworkConfigNotSupported [boolean]
+                    Indicates no support for network configuration.
+                    UserConfigNotSupported [boolean]
+                    Indicates no support for user configuration.
+                    Addons [StringAttrList]
+                    List of supported Addons by the device.
+                    HardwareType [string]
+                    Indicates what type of device this is. See tt:HardwareTypes for available options.
+                Misc - optional; [MiscCapabilities]
+                Capabilities that do not fit in any of the other categories.
+                    AuxiliaryCommands [StringAttrList]
+                    Lists of commands supported by SendAuxiliaryCommand.
+        GetServices
+        Description:
+        Returns information about services on the device.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetServices
+        Input:
+        [GetServices]
+            IncludeCapability [boolean]
+            Indicates if the service capabilities (untyped) should be included in the response.
+        Output:
+        [GetServicesResponse]
+            Service - unbounded; [Service]
+            Each Service element contains information about one service.
+                Namespace [anyURI]
+                Namespace of the service being described. This parameter allows to match the service capabilities to the service. Note that only one set of capabilities is supported per namespace.
+                XAddr [anyURI]
+                The transport addresses where the service can be reached. The scheme and IP part shall match the one used in the request (i.e. the GetServices request).
+                Capabilities - optional;
+                Version [OnvifVersion]
+                The version of the service (not the ONVIF core spec version).
+                    Major [int]
+                    Major version number.
+                    Minor [int]
+                    Two digit minor version number. If major version number is less than "16", X.0.1 maps to "01" and X.2.1 maps to "21" where X stands for Major version number. Otherwise, minor number is month of release, such as "06" for June.
+        GetStorageConfiguration
+        Description:
+        This operation retrieves the Storage configuration associated with the given storage configuration token.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetStorageConfiguration
+        Input:
+        [GetStorageConfiguration]
+            Token [ReferenceToken]
+        Output:
+        [GetStorageConfigurationResponse]
+            StorageConfiguration [StorageConfiguration]
+                token - required; [ReferenceToken]
+                Unique identifier referencing the physical entity.
+                Data [StorageConfigurationData]
+                    type - required; [string]
+                    tds:StorageType lists the acceptable values for type attribute
+                    Region [string]
+                    Optional region of the storage server
+                    LocalPath - optional; [anyURI]
+                    Local path
+                    StorageUri - optional; [anyURI]
+                    Storage server address
+                    User - optional; [UserCredential]
+                    User credential for the storage server
+                        UserName [string]
+                        User name
+                        Password - optional; [string]
+                        optional password
+                        Extension - optional;
+                        Token - optional; [string]
+                        optional access token
+                    Extension - optional;
+                    CertPathValidationPolicyID - optional; [string]
+                    The unique identifier of the certification path validation policy to be used for validating the server certificate as declared in the security service.
+                    If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                    ConfigurationRenewal - optional;
+                        RenewalEndpoint [anyURI]
+                        Remote URL to be queried by the device to renew the storage configuration.
+                        AuthorizationServer [ReferenceToken]
+                        AuthorizationServer token referring to the server that provides access tokens to authorize with the the renewal endpoint.
+                        CertPathValidationPolicyID - optional; [string]
+                        CertPathValidationPolicyID used to validate the renewal endpoint server certificate. If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                        Error - optional; [string]
+                        Optional user readable error information (readonly).
+        GetStorageConfigurations
+        Description:
+        This operation lists all existing storage configurations for the device.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetStorageConfigurations
+        Input:
+        [GetStorageConfigurations]
+        Output:
+        [GetStorageConfigurationsResponse]
+            StorageConfigurations - optional, unbounded; [StorageConfiguration]
+                token - required; [ReferenceToken]
+                Unique identifier referencing the physical entity.
+                Data [StorageConfigurationData]
+                    type - required; [string]
+                    tds:StorageType lists the acceptable values for type attribute
+                    Region [string]
+                    Optional region of the storage server
+                    LocalPath - optional; [anyURI]
+                    Local path
+                    StorageUri - optional; [anyURI]
+                    Storage server address
+                    User - optional; [UserCredential]
+                    User credential for the storage server
+                        UserName [string]
+                        User name
+                        Password - optional; [string]
+                        optional password
+                        Extension - optional;
+                        Token - optional; [string]
+                        optional access token
+                    Extension - optional;
+                    CertPathValidationPolicyID - optional; [string]
+                    The unique identifier of the certification path validation policy to be used for validating the server certificate as declared in the security service.
+                    If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                    ConfigurationRenewal - optional;
+                        RenewalEndpoint [anyURI]
+                        Remote URL to be queried by the device to renew the storage configuration.
+                        AuthorizationServer [ReferenceToken]
+                        AuthorizationServer token referring to the server that provides access tokens to authorize with the the renewal endpoint.
+                        CertPathValidationPolicyID - optional; [string]
+                        CertPathValidationPolicyID used to validate the renewal endpoint server certificate. If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                        Error - optional; [string]
+                        Optional user readable error information (readonly).
+        GetSystemBackup
+        Description:
+        This operation is retrieves system backup configuration file(s) from a device. The device should support return of back up configuration file(s) through the GetSystemBackup command. The backup is returned with reference to a name and mime-type together with binary data. The exact format of the backup configuration files is outside the scope of this standard.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetSystemBackup
+        Input:
+        [GetSystemBackup]
+        Output:
+        [GetSystemBackupResponse]
+            BackupFiles - unbounded; [BackupFile]
+                Name [string]
+                Data [AttachmentData]
+                    contentType - optional; [contentType]
+                    Include [Include]
+        GetSystemDateAndTime
+        Description:
+        This operation gets the device system date and time. The device shall support the return of the daylight saving setting and of the manual system date and time (if applicable) or indication of NTP time (if applicable) through the GetSystemDateAndTime command.
+
+        A device shall provide the UTCDateTime information.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetSystemDateAndTime
+        Input:
+        [GetSystemDateAndTime]
+        Output:
+        [GetSystemDateAndTimeResponse]
+            SystemDateAndTime [SystemDateTime]
+            Contains information whether system date and time are set manually or by NTP, daylight savings is on or off, time zone in POSIX 1003.1 format and system date and time in UTC and also local system date and time.
+                DateTimeType [SetDateTimeType]
+                Indicates if the time is set manully or through NTP.
+                - enum { 'Manual', 'NTP' }
+                DaylightSavings [boolean]
+                Informative indicator whether daylight savings is currently on/off.
+                TimeZone - optional; [TimeZone]
+                Timezone information in Posix format.
+                    TZ [token]
+                    Posix timezone string.
+                UTCDateTime - optional; [DateTime]
+                Current system date and time in UTC format. This field is mandatory since version 2.0.
+                    Time [Time]
+                        Hour [int]
+                        Range is 0 to 23.
+                        Minute [int]
+                        Range is 0 to 59.
+                        Second [int]
+                        Range is 0 to 61 (typically 59).
+                    Date [Date]
+                        Year [int]
+                        Month [int]
+                        Range is 1 to 12.
+                        Day [int]
+                        Range is 1 to 31.
+                LocalDateTime - optional; [DateTime]
+                Date and time in local format.
+                    Time [Time]
+                        Hour [int]
+                        Range is 0 to 23.
+                        Minute [int]
+                        Range is 0 to 59.
+                        Second [int]
+                        Range is 0 to 61 (typically 59).
+                    Date [Date]
+                        Year [int]
+                        Month [int]
+                        Range is 1 to 12.
+                        Day [int]
+                        Range is 1 to 31.
+                Extension - optional; [SystemDateTimeExtension]
+        GetSystemLog
+        Description:
+        This operation gets a system log from the device. The exact format of the system logs is outside the scope of this standard.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetSystemLog
+        Input:
+        [GetSystemLog]
+            LogType [SystemLogType]
+            Specifies the type of system log to get.
+            - System: Indicates that a system log is requested.
+            - Access: Indicates that a access log is requested.
+        Output:
+        [GetSystemLogResponse]
+            SystemLog [SystemLog]
+            Contains the system log information.
+                Binary - optional; [AttachmentData]
+                The log information as attachment data.
+                    contentType - optional; [contentType]
+                    Include [Include]
+                String - optional; [string]
+                The log information as character data.
+        GetSystemSupportInformation
+        Description:
+        This operation gets arbitary device diagnostics information from the device.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetSystemSupportInformation
+        Input:
+        [GetSystemSupportInformation]
+        Output:
+        [GetSystemSupportInformationResponse]
+            SupportInformation [SupportInformation]
+            Contains the arbitary device diagnostics information.
+                Binary - optional; [AttachmentData]
+                The support information as attachment data.
+                    contentType - optional; [contentType]
+                    Include [Include]
+                String - optional; [string]
+                The support information as character data.
+        GetSystemUris
+        Description:
+        This operation is used to retrieve URIs from which system information may be downloaded using HTTP. URIs may be returned for the following system information:
+
+        System Logs. Multiple system logs may be returned, of different types. The exact format of the system logs is outside the scope of this specification.
+
+        Support Information. This consists of arbitrary device diagnostics information from a device. The exact format of the diagnostic information is outside the scope of this specification.
+
+        System Backup. The received file is a backup file that can be used to restore the current device configuration at a later date. The exact format of the backup configuration file is outside the scope of this specification.
+
+        If the device allows retrieval of system logs, support information or system backup data, it should make them available via HTTP GET. If it does, it shall support the GetSystemUris command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetSystemUris
+        Input:
+        [GetSystemUris]
+        Output:
+        [GetSystemUrisResponse]
+            SystemLogUris - optional; [SystemLogUriList]
+                SystemLog - optional, unbounded; [SystemLogUri]
+                    Type [SystemLogType]
+                    - System: Indicates that a system log is requested.
+                    - Access: Indicates that a access log is requested.
+                    Uri [anyURI]
+            SupportInfoUri - optional; [anyURI]
+            SystemBackupUri - optional; [anyURI]
+            Extension - optional;
+        GetUsers
+        Description:
+        This operation lists the registered users and corresponding credentials on a device. The device shall support retrieval of registered device users and their credentials for the user token through the GetUsers command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetUsers
+        Input:
+        [GetUsers]
+        Output:
+        [GetUsersResponse]
+            User - optional, unbounded; [User]
+            Contains a list of the onvif users and following information is included in each entry: username and user level.
+                Username [string]
+                Username string.
+                Password - optional; [string]
+                Password string.
+                UserLevel [UserLevel]
+                User level string.
+                - enum { 'Administrator', 'Operator', 'User', 'Anonymous', 'Extended' }
+                Extension - optional; [UserExtension]
+        GetWsdlUrl
+        Description:
+        This method allows to provide a URL where product specific WSDL and schema definitions can be retrieved. This method is deprecated.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetWsdlUrl
+        Input:
+        [GetWsdlUrl]
+        Output:
+        [GetWsdlUrlResponse]
+            WsdlUrl [anyURI]
+        GetZeroConfiguration
+        Description:
+        This operation gets the zero-configuration from a device. If the device supports dynamic IP configuration according to [RFC3927], it shall support the return of IPv4 zero configuration address and status through the GetZeroConfiguration command.
+
+        Devices supporting zero configuration on more than one interface shall use the extension to list the additional interface settings.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/GetZeroConfiguration
+        Input:
+        [GetZeroConfiguration]
+        Output:
+        [GetZeroConfigurationResponse]
+            ZeroConfiguration [NetworkZeroConfiguration]
+            Contains the zero-configuration.
+                InterfaceToken [ReferenceToken]
+                Unique identifier of network interface.
+                Enabled [boolean]
+                Indicates whether the zero-configuration is enabled or not.
+                Addresses - optional, unbounded; [IPv4Address]
+                The zero-configuration IPv4 address(es)
+                Extension - optional; [NetworkZeroConfigurationExtension]
+                    Additional - optional, unbounded; [NetworkZeroConfiguration]
+                    Optional array holding the configuration for the second and possibly further interfaces.
+                        InterfaceToken [ReferenceToken]
+                        Unique identifier of network interface.
+                        Enabled [boolean]
+                        Indicates whether the zero-configuration is enabled or not.
+                        Addresses - optional, unbounded; [IPv4Address]
+                        The zero-configuration IPv4 address(es)
+                        Extension - optional; [NetworkZeroConfigurationExtension]
+                            Additional - optional, unbounded; [NetworkZeroConfiguration]
+                            Optional array holding the configuration for the second and possibly further interfaces.
+                                InterfaceToken [ReferenceToken]
+                                Unique identifier of network interface.
+                                Enabled [boolean]
+                                Indicates whether the zero-configuration is enabled or not.
+                                Addresses - optional, unbounded; [IPv4Address]
+                                The zero-configuration IPv4 address(es)
+                                Extension - optional; [NetworkZeroConfigurationExtension]
+                                    Additional - optional, unbounded; [NetworkZeroConfiguration]
+                                    Optional array holding the configuration for the second and possibly further interfaces.
+                                    ... is recursive
+                                    Extension - optional; [NetworkZeroConfigurationExtension2]
+                            Extension - optional; [NetworkZeroConfigurationExtension2]
+                    Extension - optional; [NetworkZeroConfigurationExtension2]
+        LoadCACertificates
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/LoadCACertificates
+        Input:
+        [LoadCACertificates]
+            CACertificate - unbounded; [Certificate]
+                CertificateID [token]
+                Certificate id.
+                Certificate [BinaryData]
+                base64 encoded DER representation of certificate.
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+        Output:
+        [LoadCACertificatesResponse]
+        LoadCertificates
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/LoadCertificates
+        Input:
+        [LoadCertificates]
+            NVTCertificate - unbounded; [Certificate]
+            Optional id and base64 encoded DER representation of certificate.
+                CertificateID [token]
+                Certificate id.
+                Certificate [BinaryData]
+                base64 encoded DER representation of certificate.
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+        Output:
+        [LoadCertificatesResponse]
+        LoadCertificateWithPrivateKey
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/LoadCertificateWithPrivateKey
+        Input:
+        [LoadCertificateWithPrivateKey]
+            CertificateWithPrivateKey - unbounded; [CertificateWithPrivateKey]
+                CertificateID - optional; [token]
+                Certificate [BinaryData]
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+                PrivateKey [BinaryData]
+                    contentType - optional; [contentType]
+                    Data - nillable; [base64Binary]
+                    base64 encoded binary data.
+        Output:
+        [LoadCertificateWithPrivateKeyResponse]
+        RemoveIPAddressFilter
+        Description:
+        This operation deletes an IP filter address from a device. If the device supports device access control based on IP filtering rules (denied or accepted ranges of IP addresses), the device shall support deletion of IP filtering addresses through the RemoveIPAddressFilter command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/RemoveIPAddressFilter
+        Input:
+        [RemoveIPAddressFilter]
+            IPAddressFilter [IPAddressFilter]
+                Type [IPAddressFilterType] - enum { 'Allow', 'Deny' }
+                IPv4Address - optional, unbounded; [PrefixedIPv4Address]
+                    Address [IPv4Address]
+                    IPv4 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                IPv6Address - optional, unbounded; [PrefixedIPv6Address]
+                    Address [IPv6Address]
+                    IPv6 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                Extension - optional; [IPAddressFilterExtension]
+        Output:
+        [RemoveIPAddressFilterResponse]
+        RemoveScopes
+        Description:
+        This operation deletes scope-configurable scope parameters from a device. The scope parameters are used in the device discovery to match a probe message, see Section 7. The device shall support deletion of discovery scope parameters through the RemoveScopes command. Table
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/RemoveScopes
+        Input:
+        [RemoveScopes]
+            ScopeItem - unbounded; [anyURI]
+            Contains a list of URIs that should be removed from the device scope.
+
+            Note that the response message always will match the request or an error will be returned. The use of the response is for that reason deprecated.
+        Output:
+        [RemoveScopesResponse]
+            ScopeItem - optional, unbounded; [anyURI]
+            Contains a list of URIs that has been removed from the device scope
+        RestoreSystem
+        Description:
+        This operation restores the system backup configuration files(s) previously retrieved from a device. The device should support restore of backup configuration file(s) through the RestoreSystem command. The exact format of the backup configuration file(s) is outside the scope of this standard. If the command is supported, it shall accept backup files returned by the GetSystemBackup command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/RestoreSystem
+        Input:
+        [RestoreSystem]
+            BackupFiles - unbounded; [BackupFile]
+                Name [string]
+                Data [AttachmentData]
+                    contentType - optional; [contentType]
+                    Include [Include]
+        Output:
+        [RestoreSystemResponse]
+        ScanAvailableDot11Networks
+        Description:
+        This operation returns a lists of the wireless networks in range of the device. A device should support this operation.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/ScanAvailableDot11Networks
+        Input:
+        [ScanAvailableDot11Networks]
+            InterfaceToken [ReferenceToken]
+        Output:
+        [ScanAvailableDot11NetworksResponse]
+            Networks - optional, unbounded; [Dot11AvailableNetworks]
+                SSID [Dot11SSIDType]
+                BSSID - optional; [string]
+                AuthAndMangementSuite - optional, unbounded; [Dot11AuthAndMangementSuite]
+                See IEEE802.11 7.3.2.25.2 for details.
+                - enum { 'None', 'Dot1X', 'PSK', 'Extended' }
+                PairCipher - optional, unbounded; [Dot11Cipher] - enum { 'CCMP', 'TKIP', 'Any', 'Extended' }
+                GroupCipher - optional, unbounded; [Dot11Cipher] - enum { 'CCMP', 'TKIP', 'Any', 'Extended' }
+                SignalStrength - optional; [Dot11SignalStrength] - enum { 'None', 'Very Bad', 'Bad', 'Good', 'Very Good', 'Extended' }
+                Extension - optional; [Dot11AvailableNetworksExtension]
+        SendAuxiliaryCommand
+        Description:
+        Manage auxiliary commands supported by a device, such as controlling an Infrared (IR) lamp, a heater or a wiper or a thermometer that is connected to the device.
+
+        The supported commands can be retrieved via the AuxiliaryCommands capability.
+
+        Although the name of the auxiliary commands can be freely defined, commands starting with the prefix tt: are reserved to define frequently used commands and these reserved commands shall all share the "tt:command|parameter" syntax.
+            tt:Wiper|On – Request to start the wiper.
+            tt:Wiper|Off – Request to stop the wiper.
+            tt:Washer|On – Request to start the washer.
+            tt:Washer|Off – Request to stop the washer.
+            tt:WashingProcedure|On – Request to start the washing procedure.
+            tt: WashingProcedure |Off – Request to stop the washing procedure.
+            tt:IRLamp|On – Request to turn ON an IR illuminator attached to the unit.
+            tt:IRLamp|Off – Request to turn OFF an IR illuminator attached to the unit.
+            tt:IRLamp|Auto – Request to configure an IR illuminator attached to the unit so that it automatically turns ON and OFF.
+        A device that indicates auxiliary service capability shall support this command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SendAuxiliaryCommand
+        Input:
+        [SendAuxiliaryCommand]
+            AuxiliaryCommand [AuxiliaryData]
+        Output:
+        [SendAuxiliaryCommandResponse]
+            AuxiliaryCommandResponse - optional; [AuxiliaryData]
+        SetAccessPolicy
+        Description:
+        This command sets the device access security policy (for more details on the access security policy see the Get command). If the device supports access policy settings based on WS-Security authentication, then the device shall support this command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetAccessPolicy
+        Input:
+        [SetAccessPolicy]
+            PolicyFile [BinaryData]
+                contentType - optional; [contentType]
+                Data - nillable; [base64Binary]
+                base64 encoded binary data.
+        Output:
+        [SetAccessPolicyResponse]
+        SetAuthFailureWarningConfiguration
+        Description:
+        This method allows setting of the authentication failure warning configuration.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetAuthFailureWarningConfiguration
+        Input:
+        [SetAuthFailureWarningConfiguration]
+            Enabled [boolean]
+            MonitorPeriod [int]
+            MaxAuthFailures [int]
+        Output:
+        [SetAuthFailureWarningConfigurationResponse]
+        SetCertificatesStatus
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetCertificatesStatus
+        Input:
+        [SetCertificatesStatus]
+            CertificateStatus - optional, unbounded; [CertificateStatus]
+            Indicates if a certificate is to be used in an optional HTTPS configuration of the device.
+                CertificateID [token]
+                Certificate id.
+                Status [boolean]
+                Indicates whether or not a certificate is used in an HTTPS configuration.
+        Output:
+        [SetCertificatesStatusResponse]
+        SetClientCertificateMode
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetClientCertificateMode
+        Input:
+        [SetClientCertificateMode]
+            Enabled [boolean]
+            Indicates whether or not client certificates are required by device.
+        Output:
+        [SetClientCertificateModeResponse]
+        SetDiscoveryMode
+        Description:
+        This operation sets the discovery mode operation of a device. See Section 7.2 for the definition of the different device discovery modes. The device shall support configuration of the discovery mode setting through the SetDiscoveryMode command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetDiscoveryMode
+        Input:
+        [SetDiscoveryMode]
+            DiscoveryMode [DiscoveryMode]
+            Indicator of discovery mode: Discoverable, NonDiscoverable.
+            - enum { 'Discoverable', 'NonDiscoverable' }
+        Output:
+        [SetDiscoveryModeResponse]
+        SetDNS
+        Description:
+        This operation sets the DNS settings on a device. It shall be possible to set the device DNS configurations through the SetDNS command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetDNS
+        Input:
+        [SetDNS]
+            FromDHCP [boolean]
+            Indicate if the DNS address is to be retrieved using DHCP.
+            SearchDomain - optional, unbounded; [token]
+            DNS search domain.
+            DNSManual - optional, unbounded; [IPAddress]
+            DNS address(es) set manually.
+                Type [IPType]
+                Indicates if the address is an IPv4 or IPv6 address.
+                - enum { 'IPv4', 'IPv6' }
+                IPv4Address - optional; [IPv4Address]
+                IPv4 address.
+                IPv6Address - optional; [IPv6Address]
+                IPv6 address
+        Output:
+        [SetDNSResponse]
+        SetDot1XConfiguration
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetDot1XConfiguration
+        Input:
+        [SetDot1XConfiguration]
+            Dot1XConfiguration [Dot1XConfiguration]
+                Dot1XConfigurationToken [ReferenceToken]
+                Identity [string]
+                AnonymousID - optional; [string]
+                EAPMethod [int]
+                EAP Method type as defined in IANA EAP Registry.
+                CACertificateID - optional, unbounded; [token]
+                EAPMethodConfiguration - optional; [EAPMethodConfiguration]
+                    TLSConfiguration - optional; [TLSConfiguration]
+                    Confgiuration information for TLS Method.
+                        CertificateID [token]
+                    Password - optional; [string]
+                    Password for those EAP Methods that require a password. The password shall never be returned on a get method.
+                    Extension - optional; [EapMethodExtension]
+                Extension - optional; [Dot1XConfigurationExtension]
+        Output:
+        [SetDot1XConfigurationResponse]
+        SetDPAddresses
+        Description:
+        This operation sets the remote DP address or addresses on a device. If the device supports remote discovery, as specified in Section 7.4, the device shall support configuration of the remote DP address(es) through the SetDPAddresses command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetDPAddresses
+        Input:
+        [SetDPAddresses]
+            DPAddress - optional, unbounded; [NetworkHost]
+                Type [NetworkHostType]
+                Network host type: IPv4, IPv6 or DNS.
+                - enum { 'IPv4', 'IPv6', 'DNS' }
+                IPv4Address - optional; [IPv4Address]
+                IPv4 address.
+                IPv6Address - optional; [IPv6Address]
+                IPv6 address.
+                DNSname - optional; [DNSName]
+                DNS name.
+                Extension - optional; [NetworkHostExtension]
+        Output:
+        [SetDPAddressesResponse]
+        SetDynamicDNS
+        Description:
+        This operation sets the dynamic DNS settings on a device. If the device supports dynamic DNS as specified in [RFC 2136] and [RFC 4702], it shall be possible to set the type, name and TTL through the SetDynamicDNS command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetDynamicDNS
+        Input:
+        [SetDynamicDNS]
+            Type [DynamicDNSType]
+            Dynamic DNS type.
+            - enum { 'NoUpdate', 'ClientUpdates', 'ServerUpdates' }
+            Name - optional; [DNSName]
+            DNS name.
+            TTL - optional; [duration]
+            DNS record time to live.
+        Output:
+        [SetDynamicDNSResponse]
+        SetGeoLocation
+        Description:
+        This operation allows to modify one or more geo configuration entries.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetGeoLocation
+        Input:
+        [SetGeoLocation]
+            Location - unbounded; [LocationEntity]
+        Output:
+        [SetGeoLocationResponse]
+        SetHashingAlgorithm
+        Description:
+        This operation sets the hashing algorithm(s) used in HTTP and RTSP Digest Authentication.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetHashingAlgorithm
+        Input:
+        [SetHashingAlgorithm]
+            Algorithm [StringList]
+            Hashing algorithm(s) used in HTTP and RTSP Digest Authentication.
+        Output:
+        [SetHashingAlgorithmResponse]
+        SetHostname
+        Description:
+        This operation sets the hostname on a device. It shall be possible to set the device hostname configurations through the SetHostname command.
+
+        A device shall accept string formated according to RFC 1123 section 2.1 or alternatively to RFC 952, other string shall be considered as invalid strings.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetHostname
+        Input:
+        [SetHostname]
+            Name [token]
+            The hostname to set.
+        Output:
+        [SetHostnameResponse]
+        SetHostnameFromDHCP
+        Description:
+        This operation controls whether the hostname is set manually or retrieved via DHCP.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetHostnameFromDHCP
+        Input:
+        [SetHostnameFromDHCP]
+            FromDHCP [boolean]
+            True if the hostname shall be obtained via DHCP.
+        Output:
+        [SetHostnameFromDHCPResponse]
+            RebootNeeded [boolean]
+            Indicates whether or not a reboot is required after configuration updates.
+        SetIPAddressFilter
+        Description:
+        This operation sets the IP address filter settings on a device. If the device supports device access control based on IP filtering rules (denied or accepted ranges of IP addresses), the device shall support configuration of IP filtering rules through the SetIPAddressFilter command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetIPAddressFilter
+        Input:
+        [SetIPAddressFilter]
+            IPAddressFilter [IPAddressFilter]
+                Type [IPAddressFilterType] - enum { 'Allow', 'Deny' }
+                IPv4Address - optional, unbounded; [PrefixedIPv4Address]
+                    Address [IPv4Address]
+                    IPv4 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                IPv6Address - optional, unbounded; [PrefixedIPv6Address]
+                    Address [IPv6Address]
+                    IPv6 address
+                    PrefixLength [int]
+                    Prefix/submask length
+                Extension - optional; [IPAddressFilterExtension]
+        Output:
+        [SetIPAddressFilterResponse]
+        SetNetworkDefaultGateway
+        Description:
+        This operation sets the default gateway settings on a device. The device shall support configuration of default gateway through the SetNetworkDefaultGateway command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetNetworkDefaultGateway
+        Input:
+        [SetNetworkDefaultGateway]
+            IPv4Address - optional, unbounded; [IPv4Address]
+            Sets IPv4 gateway address used as default setting.
+            IPv6Address - optional, unbounded; [IPv6Address]
+            Sets IPv6 gateway address used as default setting.
+        Output:
+        [SetNetworkDefaultGatewayResponse]
+        SetNetworkInterfaces
+        Description:
+        This operation sets the network interface configuration on a device. The device shall support network configuration of supported network interfaces through the SetNetworkInterfaces command.
+
+        For interoperability with a client unaware of the IEEE 802.11 extension a device shall retain its IEEE 802.11 configuration if the IEEE 802.11 configuration element isn’t present in the request.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetNetworkInterfaces
+        Input:
+        [SetNetworkInterfaces]
+            InterfaceToken [ReferenceToken]
+            Symbolic network interface name.
+            NetworkInterface [NetworkInterfaceSetConfiguration]
+            Network interface name.
+                Enabled - optional; [boolean]
+                Indicates whether or not an interface is enabled.
+                Link - optional; [NetworkInterfaceConnectionSetting]
+                Link configuration.
+                    AutoNegotiation [boolean]
+                    Auto negotiation on/off.
+                    Speed [int]
+                    Speed.
+                    Duplex [Duplex]
+                    Duplex type, Half or Full.
+                    - enum { 'Full', 'Half' }
+                MTU - optional; [int]
+                Maximum transmission unit.
+                IPv4 - optional; [IPv4NetworkInterfaceSetConfiguration]
+                IPv4 network interface configuration.
+                    Enabled - optional; [boolean]
+                    Indicates whether or not IPv4 is enabled.
+                    Manual - optional, unbounded; [PrefixedIPv4Address]
+                    List of manually added IPv4 addresses.
+                        Address [IPv4Address]
+                        IPv4 address
+                        PrefixLength [int]
+                        Prefix/submask length
+                    DHCP - optional; [boolean]
+                    Indicates whether or not DHCP is used.
+                IPv6 - optional; [IPv6NetworkInterfaceSetConfiguration]
+                IPv6 network interface configuration.
+                    Enabled - optional; [boolean]
+                    Indicates whether or not IPv6 is enabled.
+                    AcceptRouterAdvert - optional; [boolean]
+                    Indicates whether router advertisment is used.
+                    Manual - optional, unbounded; [PrefixedIPv6Address]
+                    List of manually added IPv6 addresses.
+                        Address [IPv6Address]
+                        IPv6 address
+                        PrefixLength [int]
+                        Prefix/submask length
+                    DHCP - optional; [IPv6DHCPConfiguration]
+                    DHCP configuration.
+                    - enum { 'Auto', 'Stateful', 'Stateless', 'Off' }
+                Extension - optional; [NetworkInterfaceSetConfigurationExtension]
+                    Dot3 - optional, unbounded; [Dot3Configuration]
+                    Dot11 - optional, unbounded; [Dot11Configuration]
+                        SSID [Dot11SSIDType]
+                        Mode [Dot11StationMode] - enum { 'Ad-hoc', 'Infrastructure', 'Extended' }
+                        Alias [Name]
+                        Priority [NetworkInterfaceConfigPriority]
+                        Security [Dot11SecurityConfiguration]
+                            Mode [Dot11SecurityMode] - enum { 'None', 'WEP', 'PSK', 'Dot1X', 'Extended' }
+                            Algorithm - optional; [Dot11Cipher] - enum { 'CCMP', 'TKIP', 'Any', 'Extended' }
+                            PSK - optional; [Dot11PSKSet]
+                                Key - optional; [Dot11PSK]
+                                According to IEEE802.11-2007 H.4.1 the RSNA PSK consists of 256 bits, or 64 octets when represented in hex
+
+                                Either Key or Passphrase shall be given, if both are supplied Key shall be used by the device and Passphrase ignored.
+                                Passphrase - optional; [Dot11PSKPassphrase]
+                                According to IEEE802.11-2007 H.4.1 a pass-phrase is a sequence of between 8 and 63 ASCII-encoded characters and each character in the pass-phrase must have an encoding in the range of 32 to 126 (decimal),inclusive.
+
+                                If only Passpharse is supplied the Key shall be derived using the algorithm described in IEEE802.11-2007 section H.4
+                                Extension - optional; [Dot11PSKSetExtension]
+                            Dot1X - optional; [ReferenceToken]
+                            Extension - optional; [Dot11SecurityConfigurationExtension]
+                    Extension - optional; [NetworkInterfaceSetConfigurationExtension2]
+        Output:
+        [SetNetworkInterfacesResponse]
+            RebootNeeded [boolean]
+            Indicates whether or not a reboot is required after configuration updates. If a device responds with RebootNeeded set to false, the device can be reached via the new IP address without further action. A client should be aware that a device may not be responsive for a short period of time until it signals availability at the new address via the discovery Hello messages. If a device responds with RebootNeeded set to true, it will be further available under its previous IP address. The settings will only be activated when the device is rebooted via the SystemReboot command.
+        SetNetworkProtocols
+        Description:
+        This operation configures defined network protocols on a device. The device shall support configuration of defined network protocols through the SetNetworkProtocols command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetNetworkProtocols
+        Input:
+        [SetNetworkProtocols]
+            NetworkProtocols - unbounded; [NetworkProtocol]
+            Configures one or more defined network protocols supported by the device. There are currently three protocols defined; HTTP, HTTPS and RTSP. The following parameters can be set for each protocol: port and enable/disable.
+                Name [NetworkProtocolType]
+                Network protocol type string.
+                - enum { 'HTTP', 'HTTPS', 'RTSP' }
+                Enabled [boolean]
+                Indicates if the protocol is enabled or not.
+                Port - unbounded; [int]
+                The port that is used by the protocol.
+                Extension - optional; [NetworkProtocolExtension]
+        Output:
+        [SetNetworkProtocolsResponse]
+        SetNTP
+        Description:
+        This operation sets the NTP settings on a device. If the device supports NTP, it shall be possible to set the NTP server settings through the SetNTP command.
+
+        A device shall accept string formated according to RFC 1123 section 2.1 or alternatively to RFC 952, other string shall be considered as invalid strings.
+
+        Changes to the NTP server list will not affect the clock mode DateTimeType. Use SetSystemDateAndTime to activate NTP operation.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetNTP
+        Input:
+        [SetNTP]
+            FromDHCP [boolean]
+            Indicate if NTP address information is to be retrieved using DHCP.
+            NTPManual - optional, unbounded; [NetworkHost]
+            Manual NTP settings.
+                Type [NetworkHostType]
+                Network host type: IPv4, IPv6 or DNS.
+                - enum { 'IPv4', 'IPv6', 'DNS' }
+                IPv4Address - optional; [IPv4Address]
+                IPv4 address.
+                IPv6Address - optional; [IPv6Address]
+                IPv6 address.
+                DNSname - optional; [DNSName]
+                DNS name.
+                Extension - optional; [NetworkHostExtension]
+        Output:
+        [SetNTPResponse]
+        SetPasswordComplexityConfiguration
+        Description:
+        This method allows setting of the password complexity configuration.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetPasswordComplexityConfiguration
+        Input:
+        [SetPasswordComplexityConfiguration]
+            MinLen - optional; [int]
+            Uppercase - optional; [int]
+            Number - optional; [int]
+            SpecialChars - optional; [int]
+            BlockUsernameOccurrence - optional; [boolean]
+            PolicyConfigurationLocked - optional; [boolean]
+        Output:
+        [SetPasswordComplexityConfigurationResponse]
+        SetPasswordHistoryConfiguration
+        Description:
+        This method allows setting of the password history configuration.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetPasswordHistoryConfiguration
+        Input:
+        [SetPasswordHistoryConfiguration]
+            Enabled [boolean]
+            Length [int]
+        Output:
+        [SetPasswordHistoryConfigurationResponse]
+        SetRelayOutputSettings
+        Description:
+        This operation sets the settings of a relay output.
+
+        This method has been depricated with version 2.0. Refer to the DeviceIO service.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetRelayOutputSettings
+        Input:
+        [SetRelayOutputSettings]
+            RelayOutputToken [ReferenceToken]
+            Properties [RelayOutputSettings]
+                Mode [RelayMode]
+                'Bistable' or 'Monostable'
+                    Bistable – After setting the state, the relay remains in this state.
+                    Monostable – After setting the state, the relay returns to its idle state after the specified time.
+                - enum { 'Monostable', 'Bistable' }
+                DelayTime [duration]
+                Time after which the relay returns to its idle state if it is in monostable mode. If the Mode field is set to bistable mode the value of the parameter can be ignored.
+                IdleState [RelayIdleState]
+                'open' or 'closed'
+                    'open' means that the relay is open when the relay state is set to 'inactive' through the trigger command and closed when the state is set to 'active' through the same command.
+                    'closed' means that the relay is closed when the relay state is set to 'inactive' through the trigger command and open when the state is set to 'active' through the same command.
+                - enum { 'closed', 'open' }
+        Output:
+        [SetRelayOutputSettingsResponse]
+        SetRelayOutputState
+        Description:
+        This operation sets the state of a relay output.
+
+        This method has been depricated with version 2.0. Refer to the DeviceIO service.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetRelayOutputState
+        Input:
+        [SetRelayOutputState]
+            RelayOutputToken [ReferenceToken]
+            LogicalState [RelayLogicalState] - enum { 'active', 'inactive' }
+        Output:
+        [SetRelayOutputStateResponse]
+        SetRemoteDiscoveryMode
+        Description:
+        This operation sets the remote discovery mode of operation of a device. See Section 7.4 for the definition of remote discovery remote extensions. A device that supports remote discovery shall support configuration of the discovery mode setting through the SetRemoteDiscoveryMode command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetRemoteDiscoveryMode
+        Input:
+        [SetRemoteDiscoveryMode]
+            RemoteDiscoveryMode [DiscoveryMode]
+            Indicator of discovery mode: Discoverable, NonDiscoverable.
+            - enum { 'Discoverable', 'NonDiscoverable' }
+        Output:
+        [SetRemoteDiscoveryModeResponse]
+        SetRemoteUser
+        Description:
+        This operation sets the remote user. A device supporting remote user handling shall support this operation. The user is only valid for the WS-UserToken profile or as an HTTP / RTSP user.
+
+        The password that is set shall always be the original (not derived) password.
+
+        If UseDerivedPassword is set password derivation shall be done by the device when connecting to a remote device.The algorithm to use for deriving the password is described in section 5.12.2.1 of the core specification.
+
+        To remove the remote user SetRemoteUser should be called without the RemoteUser parameter.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetRemoteUser
+        Input:
+        [SetRemoteUser]
+            RemoteUser - optional; [RemoteUser]
+                Username [string]
+                Password - optional; [string]
+                UseDerivedPassword [boolean]
+        Output:
+        [SetRemoteUserResponse]
+        SetScopes
+        Description:
+        This operation sets the scope parameters of a device. The scope parameters are used in the device discovery to match a probe message. This operation replaces all existing configurable scope parameters (not fixed parameters). If this shall be avoided, one should use the scope add command instead. The device shall support configuration of discovery scope parameters through the SetScopes command.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetScopes
+        Input:
+        [SetScopes]
+            Scopes - unbounded; [anyURI]
+            Contains a list of scope parameters that will replace all existing configurable scope parameters.
+        Output:
+        [SetScopesResponse]
+        SetStorageConfiguration
+        Description:
+        This operation modifies an existing Storage configuration.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetStorageConfiguration
+        Input:
+        [SetStorageConfiguration]
+            StorageConfiguration [StorageConfiguration]
+                token - required; [ReferenceToken]
+                Unique identifier referencing the physical entity.
+                Data [StorageConfigurationData]
+                    type - required; [string]
+                    tds:StorageType lists the acceptable values for type attribute
+                    Region [string]
+                    Optional region of the storage server
+                    LocalPath - optional; [anyURI]
+                    Local path
+                    StorageUri - optional; [anyURI]
+                    Storage server address
+                    User - optional; [UserCredential]
+                    User credential for the storage server
+                        UserName [string]
+                        User name
+                        Password - optional; [string]
+                        optional password
+                        Extension - optional;
+                        Token - optional; [string]
+                        optional access token
+                    Extension - optional;
+                    CertPathValidationPolicyID - optional; [string]
+                    The unique identifier of the certification path validation policy to be used for validating the server certificate as declared in the security service.
+                    If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                    ConfigurationRenewal - optional;
+                        RenewalEndpoint [anyURI]
+                        Remote URL to be queried by the device to renew the storage configuration.
+                        AuthorizationServer [ReferenceToken]
+                        AuthorizationServer token referring to the server that provides access tokens to authorize with the the renewal endpoint.
+                        CertPathValidationPolicyID - optional; [string]
+                        CertPathValidationPolicyID used to validate the renewal endpoint server certificate. If not configured, server certificate validation behavior is undefined and the device may either apply a vendor specific default validation policy or skip validation at all.
+                        Error - optional; [string]
+                        Optional user readable error information (readonly).
+        Output:
+        [SetStorageConfigurationResponse]
+        SetSystemDateAndTime
+        Description:
+        This operation sets the device system date and time. The device shall support the configuration of the daylight saving setting and of the manual system date and time (if applicable) or indication of NTP time (if applicable) through the SetSystemDateAndTime command.
+
+        If system time and date are set manually, the client shall include UTCDateTime in the request.
+
+        A TimeZone token which is not formed according to the rules of IEEE 1003.1 section 8.3 is considered as invalid timezone.
+
+        The DayLightSavings flag should be set to true to activate any DST settings of the TimeZone string. Clear the DayLightSavings flag if the DST portion of the TimeZone settings should be ignored.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetSystemDateAndTime
+        Input:
+        [SetSystemDateAndTime]
+            DateTimeType [SetDateTimeType]
+            Defines if the date and time is set via NTP or manually.
+            - enum { 'Manual', 'NTP' }
+            DaylightSavings [boolean]
+            Automatically adjust Daylight savings if defined in TimeZone.
+            TimeZone - optional; [TimeZone]
+            The time zone in POSIX 1003.1 format
+                TZ [token]
+                Posix timezone string.
+            UTCDateTime - optional; [DateTime]
+            Date and time in UTC. If time is obtained via NTP, UTCDateTime has no meaning
+                Time [Time]
+                    Hour [int]
+                    Range is 0 to 23.
+                    Minute [int]
+                    Range is 0 to 59.
+                    Second [int]
+                    Range is 0 to 61 (typically 59).
+                Date [Date]
+                    Year [int]
+                    Month [int]
+                    Range is 1 to 12.
+                    Day [int]
+                    Range is 1 to 31.
+        Output:
+        [SetSystemDateAndTimeResponse]
+        SetSystemFactoryDefault
+        Description:
+        This operation reloads the parameters on the device to their factory default values.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetSystemFactoryDefault
+        Input:
+        [SetSystemFactoryDefault]
+            FactoryDefault [FactoryDefaultType]
+            Specifies the factory default action type.
+            - Hard: Indicates that a hard factory default is requested.
+            - Soft: Indicates that a soft factory default is requested.
+        Output:
+        [SetSystemFactoryDefaultResponse]
+        SetUser
+        Description:
+        This operation updates the settings for one or several users on a device for authentication purposes. The device shall support update of device users and their credentials through the SetUser command. Either all change requests are processed successfully or a fault message shall be returned and no change requests be processed.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetUser
+        Input:
+        [SetUser]
+            User - unbounded; [User]
+            Updates the credentials for one or several users on an device. Either all change requests are processed successfully or a fault message MUST be returned. If the request contains the same username multiple times, a fault message is returned.
+                Username [string]
+                Username string.
+                Password - optional; [string]
+                Password string.
+                UserLevel [UserLevel]
+                User level string.
+                - enum { 'Administrator', 'Operator', 'User', 'Anonymous', 'Extended' }
+                Extension - optional; [UserExtension]
+        Output:
+        [SetUserResponse]
+        SetZeroConfiguration
+        Description:
+        This operation sets the zero-configuration. Use GetCapalities to get if zero-zero-configuration is supported or not.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SetZeroConfiguration
+        Input:
+        [SetZeroConfiguration]
+            InterfaceToken [ReferenceToken]
+            Unique identifier referencing the physical interface.
+            Enabled [boolean]
+            Specifies if the zero-configuration should be enabled or not.
+        Output:
+        [SetZeroConfigurationResponse]
+        StartFirmwareUpgrade
+        Description:
+        This operation initiates a firmware upgrade using the HTTP POST mechanism. The response to the command includes an HTTP URL to which the upgrade file may be uploaded. The actual upgrade takes place as soon as the HTTP POST operation has completed. The device should support firmware upgrade through the StartFirmwareUpgrade command. The exact format of the firmware data is outside the scope of this specification. Firmware upgrade over HTTP may be achieved using the following steps:
+            Client calls StartFirmwareUpgrade.
+            Server responds with upload URI and optional delay value.
+            Client waits for delay duration if specified by server.
+            Client transmits the firmware image to the upload URI using HTTP POST.
+            Server reprograms itself using the uploaded image, then reboots.
+        If the firmware upgrade fails because the upgrade file was invalid, the HTTP POST response shall be “415 Unsupported Media Type”. If the firmware upgrade fails due to an error at the device, the HTTP POST response shall be “500 Internal Server Error”.
+
+        The value of the Content-Type header in the HTTP POST request shall be “application/octetstream”.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/StartFirmwareUpgrade
+        Input:
+        [StartFirmwareUpgrade]
+        Output:
+        [StartFirmwareUpgradeResponse]
+            UploadUri [anyURI]
+            UploadDelay [duration]
+            ExpectedDownTime [duration]
+        StartSystemRestore
+        Description:
+        This operation initiates a system restore from backed up configuration data using the HTTP POST mechanism. The response to the command includes an HTTP URL to which the backup file may be uploaded. The actual restore takes place as soon as the HTTP POST operation has completed. Devices should support system restore through the StartSystemRestore command. The exact format of the backup configuration data is outside the scope of this specification.
+
+        System restore over HTTP may be achieved using the following steps:
+            Client calls StartSystemRestore.
+            Server responds with upload URI.
+            Client transmits the configuration data to the upload URI using HTTP POST.
+            Server applies the uploaded configuration, then reboots if necessary.
+        If the system restore fails because the uploaded file was invalid, the HTTP POST response shall be “415 Unsupported Media Type”. If the system restore fails due to an error at the device, the HTTP POST response shall be “500 Internal Server Error”.
+
+        The value of the Content-Type header in the HTTP POST request shall be “application/octetstream”.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/StartSystemRestore
+        Input:
+        [StartSystemRestore]
+        Output:
+        [StartSystemRestoreResponse]
+            UploadUri [anyURI]
+            ExpectedDownTime [duration]
+        SystemReboot
+        Description:
+        This operation reboots the device.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/SystemReboot
+        Input:
+        [SystemReboot]
+        Output:
+        [SystemRebootResponse]
+            Message [string]
+            Contains the reboot message sent by the device.
+        UpgradeSystemFirmware
+        Description:
+        This operation upgrades a device firmware version. After a successful upgrade the response message is sent before the device reboots. The device should support firmware upgrade through the UpgradeSystemFirmware command. The exact format of the firmware data is outside the scope of this standard.
+        SOAP action:
+        http://www.onvif.org/ver10/device/wsdl/UpgradeSystemFirmware
+        Input:
+        [UpgradeSystemFirmware]
+            Firmware [AttachmentData]
+                contentType - optional; [contentType]
+                Include [Include]
+        Output:
+        [UpgradeSystemFirmwareResponse]
+            Message - optional; [string]
+
+This informative document is based on the ONVIF Core Secification - Copyright ONVIF. 	Page generation based on wsdl-viewer.xsl (http://tomi.vanek.sk) 

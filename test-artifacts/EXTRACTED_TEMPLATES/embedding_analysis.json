@@ -1,0 +1,2212 @@
+{
+  "summary": {
+    "total_templates": 297,
+    "embedding_dim": 256,
+    "template_size_bytes": 1044,
+    "overall_mean_similarity": 0.9594383211111779,
+    "overall_std_similarity": 0.08807260751988306
+  },
+  "by_type": [
+    {
+      "type": "channel_red",
+      "count": 4,
+      "mean_sim": 0.8033001387765367,
+      "min_sim": 0.3122621031573511,
+      "max_sim": 0.9853349902668496,
+      "std_sim": 0.2839878291956078
+    },
+    {
+      "type": "contrast",
+      "count": 20,
+      "mean_sim": 0.8572494487929712,
+      "min_sim": 0.307986577140149,
+      "max_sim": 0.9930548358120139,
+      "std_sim": 0.22799223662482573
+    },
+    {
+      "type": "brightness",
+      "count": 20,
+      "mean_sim": 0.9500624998175319,
+      "min_sim": 0.8682306141187504,
+      "max_sim": 0.9910973673962062,
+      "std_sim": 0.03888182885862929
+    },
+    {
+      "type": "noise_saltpepper",
+      "count": 1,
+      "mean_sim": 0.9580957876293598,
+      "min_sim": 0.9580957876293598,
+      "max_sim": 0.9580957876293598,
+      "std_sim": 0.0
+    },
+    {
+      "type": "combined",
+      "count": 141,
+      "mean_sim": 0.965094302240889,
+      "min_sim": 0.32432134142551927,
+      "max_sim": 0.9932744775411376,
+      "std_sim": 0.061224939633763076
+    },
+    {
+      "type": "occlusion",
+      "count": 19,
+      "mean_sim": 0.9704653064758689,
+      "min_sim": 0.8944739995484615,
+      "max_sim": 0.9921144143578496,
+      "std_sim": 0.027907457605245826
+    },
+    {
+      "type": "noise_gaussian",
+      "count": 3,
+      "mean_sim": 0.9723773551751989,
+      "min_sim": 0.9606651245451054,
+      "max_sim": 0.981067296378768,
+      "std_sim": 0.008598946792711807
+    },
+    {
+      "type": "channel_blue",
+      "count": 4,
+      "mean_sim": 0.9728378893376566,
+      "min_sim": 0.9491824457727298,
+      "max_sim": 0.9901371221933678,
+      "std_sim": 0.017301557834276376
+    },
+    {
+      "type": "blur_gaussian",
+      "count": 15,
+      "mean_sim": 0.9734587724542277,
+      "min_sim": 0.9448281554145889,
+      "max_sim": 0.9917086697608852,
+      "std_sim": 0.01416507568453697
+    },
+    {
+      "type": "channel_green",
+      "count": 4,
+      "mean_sim": 0.9737993302627593,
+      "min_sim": 0.9593831487720529,
+      "max_sim": 0.9857852313331372,
+      "std_sim": 0.009490770923863238
+    },
+    {
+      "type": "gamma",
+      "count": 15,
+      "mean_sim": 0.9769886011181279,
+      "min_sim": 0.9419566922040463,
+      "max_sim": 0.9911610474559125,
+      "std_sim": 0.013117481489831037
+    },
+    {
+      "type": "unknown",
+      "count": 34,
+      "mean_sim": 0.98225837151579,
+      "min_sim": 0.9393641781024621,
+      "max_sim": 0.9916965403699085,
+      "std_sim": 0.013072137900736344
+    },
+    {
+      "type": "blur_box",
+      "count": 4,
+      "mean_sim": 0.9823267601321874,
+      "min_sim": 0.9701778700361403,
+      "max_sim": 0.9924850885805421,
+      "std_sim": 0.008566908937449807
+    },
+    {
+      "type": "quality",
+      "count": 12,
+      "mean_sim": 0.9870470034557908,
+      "min_sim": 0.9771687645872046,
+      "max_sim": 0.9927883277970008,
+      "std_sim": 0.00426427526924317
+    },
+    {
+      "type": "flip",
+      "count": 1,
+      "mean_sim": 0.9874613550196754,
+      "min_sim": 0.9874613550196754,
+      "max_sim": 0.9874613550196754,
+      "std_sim": 0.0
+    }
+  ],
+  "all_results": [
+    {
+      "face_id": 4026532050,
+      "name": "contrast_1.73",
+      "type": "contrast",
+      "similarity": 0.307986577140149,
+      "magnitude": 0.9999997694627691
+    },
+    {
+      "face_id": 4026531890,
+      "name": "channel_red_+50",
+      "type": "channel_red",
+      "similarity": 0.3122621031573511,
+      "magnitude": 0.9999995517013796
+    },
+    {
+      "face_id": 4026532048,
+      "name": "contrast_1.55",
+      "type": "contrast",
+      "similarity": 0.32013253623734717,
+      "magnitude": 0.9999999256044143
+    },
+    {
+      "face_id": 4026532027,
+      "name": "combined_0192",
+      "type": "combined",
+      "similarity": 0.32432134142551927,
+      "magnitude": 0.9999999182908287
+    },
+    {
+      "face_id": 4026532046,
+      "name": "contrast_1.37",
+      "type": "contrast",
+      "similarity": 0.3405638896010516,
+      "magnitude": 0.9999998352776767
+    },
+    {
+      "face_id": 4026532031,
+      "name": "combined_0196",
+      "type": "combined",
+      "similarity": 0.8165211734827567,
+      "magnitude": 0.9999997341502936
+    },
+    {
+      "face_id": 4026532049,
+      "name": "contrast_1.64",
+      "type": "contrast",
+      "similarity": 0.8446841148482551,
+      "magnitude": 0.9999998176824104
+    },
+    {
+      "face_id": 4026531880,
+      "name": "brightness_1.70",
+      "type": "brightness",
+      "similarity": 0.8682306141187504,
+      "magnitude": 1.0000000518923726
+    },
+    {
+      "face_id": 4026531945,
+      "name": "combined_0074",
+      "type": "combined",
+      "similarity": 0.8741861838667772,
+      "magnitude": 0.9999999519014067
+    },
+    {
+      "face_id": 4026531879,
+      "name": "brightness_1.63",
+      "type": "brightness",
+      "similarity": 0.874320855885347,
+      "magnitude": 0.9999999403039385
+    },
+    {
+      "face_id": 4026532047,
+      "name": "contrast_1.46",
+      "type": "contrast",
+      "similarity": 0.8757133458915399,
+      "magnitude": 0.9999996594920284
+    },
+    {
+      "face_id": 4026532000,
+      "name": "combined_0161",
+      "type": "combined",
+      "similarity": 0.8806262807686747,
+      "magnitude": 0.9999998965166271
+    },
+    {
+      "face_id": 4026531878,
+      "name": "brightness_1.55",
+      "type": "brightness",
+      "similarity": 0.8851364054045452,
+      "magnitude": 0.9999998475167801
+    },
+    {
+      "face_id": 4026532076,
+      "name": "occlusion_003",
+      "type": "occlusion",
+      "similarity": 0.8944739995484615,
+      "magnitude": 0.9999999389866835
+    },
+    {
+      "face_id": 4026531877,
+      "name": "brightness_1.48",
+      "type": "brightness",
+      "similarity": 0.8962921016856298,
+      "magnitude": 1.0000000375160394
+    },
+    {
+      "face_id": 4026532051,
+      "name": "contrast_1.82",
+      "type": "contrast",
+      "similarity": 0.8995158764030633,
+      "magnitude": 0.9999999317300222
+    },
+    {
+      "face_id": 4026531934,
+      "name": "combined_0060",
+      "type": "combined",
+      "similarity": 0.9008143549721571,
+      "magnitude": 0.9999998483295713
+    },
+    {
+      "face_id": 4026531958,
+      "name": "combined_0094",
+      "type": "combined",
+      "similarity": 0.9010128787343257,
+      "magnitude": 0.9999998120193877
+    },
+    {
+      "face_id": 4026532045,
+      "name": "contrast_1.28",
+      "type": "contrast",
+      "similarity": 0.9050420529809395,
+      "magnitude": 0.9999999409159579
+    },
+    {
+      "face_id": 4026532025,
+      "name": "combined_0190",
+      "type": "combined",
+      "similarity": 0.9056422817240222,
+      "magnitude": 1.0000001080110787
+    },
+    {
+      "face_id": 4026531923,
+      "name": "combined_0041",
+      "type": "combined",
+      "similarity": 0.9076244783503347,
+      "magnitude": 0.9999997796343719
+    },
+    {
+      "face_id": 4026531953,
+      "name": "combined_0085",
+      "type": "combined",
+      "similarity": 0.9111338345234519,
+      "magnitude": 0.9999999169094127
+    },
+    {
+      "face_id": 4026532017,
+      "name": "combined_0180",
+      "type": "combined",
+      "similarity": 0.9119406494111486,
+      "magnitude": 0.9999999157960626
+    },
+    {
+      "face_id": 4026532080,
+      "name": "occlusion_007",
+      "type": "occlusion",
+      "similarity": 0.9134885084233986,
+      "magnitude": 0.9999998493938667
+    },
+    {
+      "face_id": 4026532009,
+      "name": "combined_0171",
+      "type": "combined",
+      "similarity": 0.9145682545876634,
+      "magnitude": 0.9999997550729706
+    },
+    {
+      "face_id": 4026531960,
+      "name": "combined_0098",
+      "type": "combined",
+      "similarity": 0.9162669215207151,
+      "magnitude": 0.9999996993265676
+    },
+    {
+      "face_id": 4026532018,
+      "name": "combined_0181",
+      "type": "combined",
+      "similarity": 0.9210436432358915,
+      "magnitude": 0.9999999282585682
+    },
+    {
+      "face_id": 4026532032,
+      "name": "combined_0197",
+      "type": "combined",
+      "similarity": 0.9229714169051182,
+      "magnitude": 1.0000000606079764
+    },
+    {
+      "face_id": 4026531931,
+      "name": "combined_0056",
+      "type": "combined",
+      "similarity": 0.9235129513014669,
+      "magnitude": 0.9999998438842921
+    },
+    {
+      "face_id": 4026531959,
+      "name": "combined_0097",
+      "type": "combined",
+      "similarity": 0.9242368885542679,
+      "magnitude": 0.9999999019901414
+    },
+    {
+      "face_id": 4026531909,
+      "name": "combined_0021",
+      "type": "combined",
+      "similarity": 0.9265869522883374,
+      "magnitude": 0.9999996265157662
+    },
+    {
+      "face_id": 4026532074,
+      "name": "occlusion_001",
+      "type": "occlusion",
+      "similarity": 0.9283257950757888,
+      "magnitude": 0.9999998155152684
+    },
+    {
+      "face_id": 4026531972,
+      "name": "combined_0120",
+      "type": "combined",
+      "similarity": 0.9334539676569908,
+      "magnitude": 1.0000001650299293
+    },
+    {
+      "face_id": 4026531862,
+      "name": "brightness_0.37",
+      "type": "brightness",
+      "similarity": 0.9335712951739192,
+      "magnitude": 0.9999999417993309
+    },
+    {
+      "face_id": 4026531876,
+      "name": "brightness_1.41",
+      "type": "brightness",
+      "similarity": 0.9353638833415565,
+      "magnitude": 0.9999999076007015
+    },
+    {
+      "face_id": 4026532002,
+      "name": "combined_0163",
+      "type": "combined",
+      "similarity": 0.9358911780705381,
+      "magnitude": 0.9999998889296202
+    },
+    {
+      "face_id": 4026532005,
+      "name": "combined_0166",
+      "type": "combined",
+      "similarity": 0.9368413360217178,
+      "magnitude": 0.9999998462951288
+    },
+    {
+      "face_id": 4026531950,
+      "name": "combined_0082",
+      "type": "combined",
+      "similarity": 0.9375018531250026,
+      "magnitude": 0.999999664741844
+    },
+    {
+      "face_id": 4026531966,
+      "name": "combined_0111",
+      "type": "combined",
+      "similarity": 0.9383245409238844,
+      "magnitude": 0.9999995466877626
+    },
+    {
+      "face_id": 4026532105,
+      "name": "unknown_4026532105",
+      "type": "unknown",
+      "similarity": 0.9393641781024621,
+      "magnitude": 0.9999998276966333
+    },
+    {
+      "face_id": 4026531892,
+      "name": "channel_red_-50",
+      "type": "channel_red",
+      "similarity": 0.9404837482478015,
+      "magnitude": 1.000000111603548
+    },
+    {
+      "face_id": 4026532069,
+      "name": "gamma_2.50",
+      "type": "gamma",
+      "similarity": 0.9419566922040463,
+      "magnitude": 0.9999999307741987
+    },
+    {
+      "face_id": 4026532106,
+      "name": "unknown_4026532106",
+      "type": "unknown",
+      "similarity": 0.9437479524871106,
+      "magnitude": 0.9999999618924711
+    },
+    {
+      "face_id": 4026531846,
+      "name": "blur_gaussian_0.5",
+      "type": "blur_gaussian",
+      "similarity": 0.9448281554145889,
+      "magnitude": 0.9999999277281004
+    },
+    {
+      "face_id": 4026531863,
+      "name": "brightness_0.45",
+      "type": "brightness",
+      "similarity": 0.9452998529453208,
+      "magnitude": 0.9999998452581438
+    },
+    {
+      "face_id": 4026532044,
+      "name": "contrast_1.19",
+      "type": "contrast",
+      "similarity": 0.9454325045412839,
+      "magnitude": 1.0000000583674162
+    },
+    {
+      "face_id": 4026532052,
+      "name": "contrast_1.91",
+      "type": "contrast",
+      "similarity": 0.9458720817427355,
+      "magnitude": 0.9999998837111758
+    },
+    {
+      "face_id": 4026531861,
+      "name": "brightness_0.30",
+      "type": "brightness",
+      "similarity": 0.9466447662437301,
+      "magnitude": 0.9999997309260917
+    },
+    {
+      "face_id": 4026531989,
+      "name": "combined_0145",
+      "type": "combined",
+      "similarity": 0.9473767311865589,
+      "magnitude": 0.9999996234956486
+    },
+    {
+      "face_id": 4026532033,
+      "name": "combined_0199",
+      "type": "combined",
+      "similarity": 0.947399112361951,
+      "magnitude": 0.9999999571691415
+    },
+    {
+      "face_id": 4026531968,
+      "name": "combined_0114",
+      "type": "combined",
+      "similarity": 0.94867232437797,
+      "magnitude": 0.9999997116466571
+    },
+    {
+      "face_id": 4026531882,
+      "name": "channel_blue_+50",
+      "type": "channel_blue",
+      "similarity": 0.9491824457727298,
+      "magnitude": 0.9999996941275033
+    },
+    {
+      "face_id": 4026531860,
+      "name": "blur_gaussian_5.0",
+      "type": "blur_gaussian",
+      "similarity": 0.9496764843533357,
+      "magnitude": 0.9999998484220645
+    },
+    {
+      "face_id": 4026531922,
+      "name": "combined_0039",
+      "type": "combined",
+      "similarity": 0.9500288015075531,
+      "magnitude": 0.9999998884784169
+    },
+    {
+      "face_id": 4026531995,
+      "name": "combined_0156",
+      "type": "combined",
+      "similarity": 0.9502375603102019,
+      "magnitude": 0.9999997991900775
+    },
+    {
+      "face_id": 4026531992,
+      "name": "combined_0149",
+      "type": "combined",
+      "similarity": 0.9502693258919857,
+      "magnitude": 0.99999987103104
+    },
+    {
+      "face_id": 4026531999,
+      "name": "combined_0160",
+      "type": "combined",
+      "similarity": 0.9506773667869798,
+      "magnitude": 0.9999999017073774
+    },
+    {
+      "face_id": 4026532107,
+      "name": "unknown_4026532107",
+      "type": "unknown",
+      "similarity": 0.9530424448566543,
+      "magnitude": 1.000000053442801
+    },
+    {
+      "face_id": 4026531947,
+      "name": "combined_0077",
+      "type": "combined",
+      "similarity": 0.9563151170597916,
+      "magnitude": 0.9999998521734633
+    },
+    {
+      "face_id": 4026531864,
+      "name": "brightness_0.52",
+      "type": "brightness",
+      "similarity": 0.9568918668103193,
+      "magnitude": 0.9999998440444036
+    },
+    {
+      "face_id": 4026531875,
+      "name": "brightness_1.33",
+      "type": "brightness",
+      "similarity": 0.9570344209251441,
+      "magnitude": 0.9999998005472591
+    },
+    {
+      "face_id": 4026532065,
+      "name": "gamma_1.90",
+      "type": "gamma",
+      "similarity": 0.9579153770782722,
+      "magnitude": 0.9999996245708149
+    },
+    {
+      "face_id": 4026532073,
+      "name": "noise_saltpepper_0.0",
+      "type": "noise_saltpepper",
+      "similarity": 0.9580957876293598,
+      "magnitude": 0.999999991278182
+    },
+    {
+      "face_id": 4026531859,
+      "name": "blur_gaussian_4.7",
+      "type": "blur_gaussian",
+      "similarity": 0.9588952663868269,
+      "magnitude": 0.9999998563924588
+    },
+    {
+      "face_id": 4026532023,
+      "name": "combined_0188",
+      "type": "combined",
+      "similarity": 0.9593031038077814,
+      "magnitude": 0.9999998597572036
+    },
+    {
+      "face_id": 4026531888,
+      "name": "channel_green_-50",
+      "type": "channel_green",
+      "similarity": 0.9593831487720529,
+      "magnitude": 0.9999999224039987
+    },
+    {
+      "face_id": 4026531963,
+      "name": "combined_0102",
+      "type": "combined",
+      "similarity": 0.9597158152806855,
+      "magnitude": 0.9999994922868366
+    },
+    {
+      "face_id": 4026531970,
+      "name": "combined_0116",
+      "type": "combined",
+      "similarity": 0.9598406901546239,
+      "magnitude": 1.0000000147450498
+    },
+    {
+      "face_id": 4026532081,
+      "name": "occlusion_008",
+      "type": "occlusion",
+      "similarity": 0.9603111915660999,
+      "magnitude": 0.999999777459196
+    },
+    {
+      "face_id": 4026532075,
+      "name": "occlusion_002",
+      "type": "occlusion",
+      "similarity": 0.9603665114046708,
+      "magnitude": 0.9999997683659007
+    },
+    {
+      "face_id": 4026532026,
+      "name": "combined_0191",
+      "type": "combined",
+      "similarity": 0.960613237392606,
+      "magnitude": 1.0000000149682353
+    },
+    {
+      "face_id": 4026532070,
+      "name": "noise_gaussian_12.1",
+      "type": "noise_gaussian",
+      "similarity": 0.9606651245451054,
+      "magnitude": 0.9999998156756195
+    },
+    {
+      "face_id": 4026531937,
+      "name": "combined_0064",
+      "type": "combined",
+      "similarity": 0.9614935114429299,
+      "magnitude": 0.999999921074562
+    },
+    {
+      "face_id": 4026532053,
+      "name": "contrast_2.00",
+      "type": "contrast",
+      "similarity": 0.9631323680711104,
+      "magnitude": 1.0000000052651543
+    },
+    {
+      "face_id": 4026531881,
+      "name": "channel_blue_+25",
+      "type": "channel_blue",
+      "similarity": 0.9633999049844407,
+      "magnitude": 1.0000000093738557
+    },
+    {
+      "face_id": 4026532012,
+      "name": "combined_0174",
+      "type": "combined",
+      "similarity": 0.9636928375441765,
+      "magnitude": 0.9999997001265389
+    },
+    {
+      "face_id": 4026531858,
+      "name": "blur_gaussian_4.4",
+      "type": "blur_gaussian",
+      "similarity": 0.9643197444127367,
+      "magnitude": 0.99999987806952
+    },
+    {
+      "face_id": 4026531857,
+      "name": "blur_gaussian_4.0",
+      "type": "blur_gaussian",
+      "similarity": 0.9646289812939056,
+      "magnitude": 0.9999998467542492
+    },
+    {
+      "face_id": 4026532034,
+      "name": "contrast_0.30",
+      "type": "contrast",
+      "similarity": 0.9647628320785248,
+      "magnitude": 0.9999996080978204
+    },
+    {
+      "face_id": 4026532043,
+      "name": "contrast_1.11",
+      "type": "contrast",
+      "similarity": 0.9651709558505062,
+      "magnitude": 1.0000000704068892
+    },
+    {
+      "face_id": 4026531975,
+      "name": "combined_0123",
+      "type": "combined",
+      "similarity": 0.9653806893850205,
+      "magnitude": 0.9999998130426839
+    },
+    {
+      "face_id": 4026531866,
+      "name": "brightness_0.67",
+      "type": "brightness",
+      "similarity": 0.9653861775561439,
+      "magnitude": 1.0000001519320696
+    },
+    {
+      "face_id": 4026532035,
+      "name": "contrast_0.39",
+      "type": "contrast",
+      "similarity": 0.9654537208442495,
+      "magnitude": 0.9999997015689102
+    },
+    {
+      "face_id": 4026532108,
+      "name": "unknown_4026532108",
+      "type": "unknown",
+      "similarity": 0.9657967652306058,
+      "magnitude": 0.999999930965973
+    },
+    {
+      "face_id": 4026531918,
+      "name": "combined_0034",
+      "type": "combined",
+      "similarity": 0.9659841215073525,
+      "magnitude": 1.0000000174145232
+    },
+    {
+      "face_id": 4026531957,
+      "name": "combined_0092",
+      "type": "combined",
+      "similarity": 0.9660998038640414,
+      "magnitude": 0.999999786228608
+    },
+    {
+      "face_id": 4026532077,
+      "name": "occlusion_004",
+      "type": "occlusion",
+      "similarity": 0.9661939819946384,
+      "magnitude": 0.9999997982276523
+    },
+    {
+      "face_id": 4026531967,
+      "name": "combined_0113",
+      "type": "combined",
+      "similarity": 0.9662614056147999,
+      "magnitude": 0.9999999269880939
+    },
+    {
+      "face_id": 4026531865,
+      "name": "brightness_0.59",
+      "type": "brightness",
+      "similarity": 0.9671509397132068,
+      "magnitude": 0.9999995546611181
+    },
+    {
+      "face_id": 4026532109,
+      "name": "unknown_4026532109",
+      "type": "unknown",
+      "similarity": 0.967481849796689,
+      "magnitude": 0.9999998136748839
+    },
+    {
+      "face_id": 4026532066,
+      "name": "gamma_2.05",
+      "type": "gamma",
+      "similarity": 0.967537391160803,
+      "magnitude": 0.9999999799685929
+    },
+    {
+      "face_id": 4026532082,
+      "name": "occlusion_009",
+      "type": "occlusion",
+      "similarity": 0.9681752105923989,
+      "magnitude": 0.9999996115843209
+    },
+    {
+      "face_id": 4026531933,
+      "name": "combined_0059",
+      "type": "combined",
+      "similarity": 0.9685778463106772,
+      "magnitude": 0.9999997167478304
+    },
+    {
+      "face_id": 4026531856,
+      "name": "blur_gaussian_3.7",
+      "type": "blur_gaussian",
+      "similarity": 0.9698319879995425,
+      "magnitude": 0.9999998976019614
+    },
+    {
+      "face_id": 4026531845,
+      "name": "blur_box_7",
+      "type": "blur_box",
+      "similarity": 0.9701778700361403,
+      "magnitude": 0.9999999698898977
+    },
+    {
+      "face_id": 4026531867,
+      "name": "brightness_0.74",
+      "type": "brightness",
+      "similarity": 0.9711501102681607,
+      "magnitude": 0.9999999319035581
+    },
+    {
+      "face_id": 4026531978,
+      "name": "combined_0127",
+      "type": "combined",
+      "similarity": 0.9714800969263218,
+      "magnitude": 0.9999998873684081
+    },
+    {
+      "face_id": 4026532062,
+      "name": "gamma_1.45",
+      "type": "gamma",
+      "similarity": 0.9715198944961111,
+      "magnitude": 1.000000018290969
+    },
+    {
+      "face_id": 4026531977,
+      "name": "combined_0126",
+      "type": "combined",
+      "similarity": 0.9718683202336742,
+      "magnitude": 0.999999930164387
+    },
+    {
+      "face_id": 4026532078,
+      "name": "occlusion_005",
+      "type": "occlusion",
+      "similarity": 0.9719731643401898,
+      "magnitude": 0.9999999232755187
+    },
+    {
+      "face_id": 4026531874,
+      "name": "brightness_1.26",
+      "type": "brightness",
+      "similarity": 0.9720805126436067,
+      "magnitude": 0.9999997872866698
+    },
+    {
+      "face_id": 4026531985,
+      "name": "combined_0139",
+      "type": "combined",
+      "similarity": 0.9726093452953017,
+      "magnitude": 0.999999968295792
+    },
+    {
+      "face_id": 4026531887,
+      "name": "channel_green_-25",
+      "type": "channel_green",
+      "similarity": 0.9733030841614204,
+      "magnitude": 0.9999999786255053
+    },
+    {
+      "face_id": 4026532064,
+      "name": "gamma_1.75",
+      "type": "gamma",
+      "similarity": 0.9733256016800675,
+      "magnitude": 0.9999998967434873
+    },
+    {
+      "face_id": 4026531855,
+      "name": "blur_gaussian_3.4",
+      "type": "blur_gaussian",
+      "similarity": 0.973718997099156,
+      "magnitude": 0.999999766029351
+    },
+    {
+      "face_id": 4026532001,
+      "name": "combined_0162",
+      "type": "combined",
+      "similarity": 0.9739679934210818,
+      "magnitude": 0.9999998012854024
+    },
+    {
+      "face_id": 4026532063,
+      "name": "gamma_1.60",
+      "type": "gamma",
+      "similarity": 0.9739864092472446,
+      "magnitude": 0.9999998980137512
+    },
+    {
+      "face_id": 4026532020,
+      "name": "combined_0184",
+      "type": "combined",
+      "similarity": 0.9742883880971852,
+      "magnitude": 0.9999998745507823
+    },
+    {
+      "face_id": 4026532007,
+      "name": "combined_0168",
+      "type": "combined",
+      "similarity": 0.9743463647772781,
+      "magnitude": 0.9999999222558678
+    },
+    {
+      "face_id": 4026531900,
+      "name": "combined_0010",
+      "type": "combined",
+      "similarity": 0.9746576360494017,
+      "magnitude": 0.9999997959588004
+    },
+    {
+      "face_id": 4026531854,
+      "name": "blur_gaussian_3.1",
+      "type": "blur_gaussian",
+      "similarity": 0.974741463803177,
+      "magnitude": 0.9999997312932108
+    },
+    {
+      "face_id": 4026531906,
+      "name": "combined_0017",
+      "type": "combined",
+      "similarity": 0.9748137795799007,
+      "magnitude": 0.9999998586482136
+    },
+    {
+      "face_id": 4026531907,
+      "name": "combined_0018",
+      "type": "combined",
+      "similarity": 0.975058644281106,
+      "magnitude": 0.9999998407582708
+    },
+    {
+      "face_id": 4026531889,
+      "name": "channel_red_+25",
+      "type": "channel_red",
+      "similarity": 0.975119713434145,
+      "magnitude": 0.9999997948371772
+    },
+    {
+      "face_id": 4026532071,
+      "name": "noise_gaussian_50.0",
+      "type": "noise_gaussian",
+      "similarity": 0.9753996446017229,
+      "magnitude": 0.9999997857586616
+    },
+    {
+      "face_id": 4026532008,
+      "name": "combined_0169",
+      "type": "combined",
+      "similarity": 0.9754742505780946,
+      "magnitude": 0.9999996793867838
+    },
+    {
+      "face_id": 4026532119,
+      "name": "unknown_4026532119",
+      "type": "unknown",
+      "similarity": 0.9758838577301115,
+      "magnitude": 0.9999997884159555
+    },
+    {
+      "face_id": 4026532016,
+      "name": "combined_0179",
+      "type": "combined",
+      "similarity": 0.9760454796012066,
+      "magnitude": 1.0000000143151622
+    },
+    {
+      "face_id": 4026531894,
+      "name": "combined_0001",
+      "type": "combined",
+      "similarity": 0.9766303419076803,
+      "magnitude": 0.9999999110518216
+    },
+    {
+      "face_id": 4026531886,
+      "name": "channel_green_+50",
+      "type": "channel_green",
+      "similarity": 0.976725856784427,
+      "magnitude": 0.9999999051661433
+    },
+    {
+      "face_id": 4026531948,
+      "name": "combined_0078",
+      "type": "combined",
+      "similarity": 0.9767738176044309,
+      "magnitude": 0.9999997673984262
+    },
+    {
+      "face_id": 4026531917,
+      "name": "combined_0032",
+      "type": "combined",
+      "similarity": 0.9769876443723271,
+      "magnitude": 0.999999843477982
+    },
+    {
+      "face_id": 4026531902,
+      "name": "combined_0012",
+      "type": "combined",
+      "similarity": 0.977004172625823,
+      "magnitude": 0.999999944013873
+    },
+    {
+      "face_id": 4026531938,
+      "name": "combined_0066",
+      "type": "combined",
+      "similarity": 0.9770045535455215,
+      "magnitude": 0.9999999274519419
+    },
+    {
+      "face_id": 4026532118,
+      "name": "unknown_4026532118",
+      "type": "unknown",
+      "similarity": 0.9770996386446097,
+      "magnitude": 1.0000000834580376
+    },
+    {
+      "face_id": 4026531911,
+      "name": "combined_0023",
+      "type": "combined",
+      "similarity": 0.9771183858291976,
+      "magnitude": 0.9999998018734243
+    },
+    {
+      "face_id": 4026532101,
+      "name": "quality_58",
+      "type": "quality",
+      "similarity": 0.9771687645872046,
+      "magnitude": 0.9999998176749634
+    },
+    {
+      "face_id": 4026531899,
+      "name": "combined_0009",
+      "type": "combined",
+      "similarity": 0.9771864256026928,
+      "magnitude": 0.9999999213702884
+    },
+    {
+      "face_id": 4026531998,
+      "name": "combined_0159",
+      "type": "combined",
+      "similarity": 0.9774447172226014,
+      "magnitude": 0.9999999877072493
+    },
+    {
+      "face_id": 4026532068,
+      "name": "gamma_2.35",
+      "type": "gamma",
+      "similarity": 0.9775622682879674,
+      "magnitude": 0.9999995947440146
+    },
+    {
+      "face_id": 4026532010,
+      "name": "combined_0172",
+      "type": "combined",
+      "similarity": 0.977588067427698,
+      "magnitude": 0.9999997120119017
+    },
+    {
+      "face_id": 4026532013,
+      "name": "combined_0175",
+      "type": "combined",
+      "similarity": 0.9776056253034187,
+      "magnitude": 0.9999997755846574
+    },
+    {
+      "face_id": 4026531928,
+      "name": "combined_0053",
+      "type": "combined",
+      "similarity": 0.9778611737397336,
+      "magnitude": 1.0000001186780758
+    },
+    {
+      "face_id": 4026531901,
+      "name": "combined_0011",
+      "type": "combined",
+      "similarity": 0.9780857298433845,
+      "magnitude": 0.9999998106507259
+    },
+    {
+      "face_id": 4026531955,
+      "name": "combined_0090",
+      "type": "combined",
+      "similarity": 0.9781362936481585,
+      "magnitude": 0.9999996181066669
+    },
+    {
+      "face_id": 4026531910,
+      "name": "combined_0022",
+      "type": "combined",
+      "similarity": 0.9782948716841755,
+      "magnitude": 0.9999997275761399
+    },
+    {
+      "face_id": 4026531964,
+      "name": "combined_0105",
+      "type": "combined",
+      "similarity": 0.978328766916719,
+      "magnitude": 0.9999999545409515
+    },
+    {
+      "face_id": 4026531844,
+      "name": "blur_box_5",
+      "type": "blur_box",
+      "similarity": 0.9788054393739195,
+      "magnitude": 0.9999999876118397
+    },
+    {
+      "face_id": 4026531954,
+      "name": "combined_0087",
+      "type": "combined",
+      "similarity": 0.9788797783949441,
+      "magnitude": 0.9999997370679327
+    },
+    {
+      "face_id": 4026532036,
+      "name": "contrast_0.48",
+      "type": "contrast",
+      "similarity": 0.9788846898740593,
+      "magnitude": 0.9999998387962672
+    },
+    {
+      "face_id": 4026531942,
+      "name": "combined_0070",
+      "type": "combined",
+      "similarity": 0.9792683583805578,
+      "magnitude": 1.0000000853413773
+    },
+    {
+      "face_id": 4026531905,
+      "name": "combined_0016",
+      "type": "combined",
+      "similarity": 0.9795119957331853,
+      "magnitude": 0.9999999186193125
+    },
+    {
+      "face_id": 4026531852,
+      "name": "blur_gaussian_2.4",
+      "type": "blur_gaussian",
+      "similarity": 0.9795173236363564,
+      "magnitude": 0.9999998639733666
+    },
+    {
+      "face_id": 4026532060,
+      "name": "gamma_1.15",
+      "type": "gamma",
+      "similarity": 0.9795780653592423,
+      "magnitude": 1.0000000917412948
+    },
+    {
+      "face_id": 4026531897,
+      "name": "combined_0006",
+      "type": "combined",
+      "similarity": 0.9797370717780469,
+      "magnitude": 0.9999996740600665
+    },
+    {
+      "face_id": 4026531976,
+      "name": "combined_0124",
+      "type": "combined",
+      "similarity": 0.9798649791567755,
+      "magnitude": 0.999999745736496
+    },
+    {
+      "face_id": 4026531868,
+      "name": "brightness_0.82",
+      "type": "brightness",
+      "similarity": 0.9798749591159286,
+      "magnitude": 0.9999998954677163
+    },
+    {
+      "face_id": 4026532042,
+      "name": "contrast_1.02",
+      "type": "contrast",
+      "similarity": 0.980001096164284,
+      "magnitude": 0.9999999667442276
+    },
+    {
+      "face_id": 4026531853,
+      "name": "blur_gaussian_2.8",
+      "type": "blur_gaussian",
+      "similarity": 0.9800560234454618,
+      "magnitude": 0.999999805953083
+    },
+    {
+      "face_id": 4026532015,
+      "name": "combined_0178",
+      "type": "combined",
+      "similarity": 0.9803601892407808,
+      "magnitude": 0.9999998350409715
+    },
+    {
+      "face_id": 4026532022,
+      "name": "combined_0187",
+      "type": "combined",
+      "similarity": 0.9803892299099382,
+      "magnitude": 0.9999997697022529
+    },
+    {
+      "face_id": 4026531920,
+      "name": "combined_0037",
+      "type": "combined",
+      "similarity": 0.9806254946233337,
+      "magnitude": 0.9999999680631084
+    },
+    {
+      "face_id": 4026531994,
+      "name": "combined_0154",
+      "type": "combined",
+      "similarity": 0.9807907733398549,
+      "magnitude": 0.9999995988877346
+    },
+    {
+      "face_id": 4026532061,
+      "name": "gamma_1.30",
+      "type": "gamma",
+      "similarity": 0.9810278217760411,
+      "magnitude": 1.000000119980071
+    },
+    {
+      "face_id": 4026532072,
+      "name": "noise_gaussian_9.7",
+      "type": "noise_gaussian",
+      "similarity": 0.981067296378768,
+      "magnitude": 0.9999997946910265
+    },
+    {
+      "face_id": 4026532038,
+      "name": "contrast_0.66",
+      "type": "contrast",
+      "similarity": 0.9810977029441548,
+      "magnitude": 0.9999997585083068
+    },
+    {
+      "face_id": 4026532136,
+      "name": "unknown_4026532136",
+      "type": "unknown",
+      "similarity": 0.9811668678226002,
+      "magnitude": 0.999999735058879
+    },
+    {
+      "face_id": 4026531903,
+      "name": "combined_0014",
+      "type": "combined",
+      "similarity": 0.9813146426477408,
+      "magnitude": 0.9999998504137565
+    },
+    {
+      "face_id": 4026531914,
+      "name": "combined_0027",
+      "type": "combined",
+      "similarity": 0.9815028073369052,
+      "magnitude": 0.9999998072943597
+    },
+    {
+      "face_id": 4026531987,
+      "name": "combined_0143",
+      "type": "combined",
+      "similarity": 0.9815972987354252,
+      "magnitude": 0.9999998533484575
+    },
+    {
+      "face_id": 4026532079,
+      "name": "occlusion_006",
+      "type": "occlusion",
+      "similarity": 0.9822617916718431,
+      "magnitude": 0.9999998646236248
+    },
+    {
+      "face_id": 4026531986,
+      "name": "combined_0142",
+      "type": "combined",
+      "similarity": 0.9823391774951492,
+      "magnitude": 0.9999999640310195
+    },
+    {
+      "face_id": 4026531961,
+      "name": "combined_0099",
+      "type": "combined",
+      "similarity": 0.9825341480740444,
+      "magnitude": 0.9999998512418896
+    },
+    {
+      "face_id": 4026531962,
+      "name": "combined_0100",
+      "type": "combined",
+      "similarity": 0.9827374149925874,
+      "magnitude": 1.0000000787310457
+    },
+    {
+      "face_id": 4026532030,
+      "name": "combined_0195",
+      "type": "combined",
+      "similarity": 0.9829916080470464,
+      "magnitude": 0.9999999054612806
+    },
+    {
+      "face_id": 4026531851,
+      "name": "blur_gaussian_2.1",
+      "type": "blur_gaussian",
+      "similarity": 0.9834059309467156,
+      "magnitude": 0.9999999970264589
+    },
+    {
+      "face_id": 4026532122,
+      "name": "unknown_4026532122",
+      "type": "unknown",
+      "similarity": 0.9834086121761202,
+      "magnitude": 0.9999997382090685
+    },
+    {
+      "face_id": 4026532099,
+      "name": "quality_46",
+      "type": "quality",
+      "similarity": 0.9835217252785967,
+      "magnitude": 0.9999997532071897
+    },
+    {
+      "face_id": 4026531940,
+      "name": "combined_0068",
+      "type": "combined",
+      "similarity": 0.983598304049106,
+      "magnitude": 1.0000000386085364
+    },
+    {
+      "face_id": 4026532021,
+      "name": "combined_0185",
+      "type": "combined",
+      "similarity": 0.9837462958430965,
+      "magnitude": 0.9999995406159976
+    },
+    {
+      "face_id": 4026531944,
+      "name": "combined_0072",
+      "type": "combined",
+      "similarity": 0.983755819783793,
+      "magnitude": 0.9999997038139632
+    },
+    {
+      "face_id": 4026532102,
+      "name": "quality_64",
+      "type": "quality",
+      "similarity": 0.9838523276284161,
+      "magnitude": 0.9999997157582071
+    },
+    {
+      "face_id": 4026532059,
+      "name": "gamma_1.00",
+      "type": "gamma",
+      "similarity": 0.9838999097948091,
+      "magnitude": 0.999999951175316
+    },
+    {
+      "face_id": 4026531991,
+      "name": "combined_0148",
+      "type": "combined",
+      "similarity": 0.9839596063587157,
+      "magnitude": 0.9999996946230463
+    },
+    {
+      "face_id": 4026532085,
+      "name": "occlusion_012",
+      "type": "occlusion",
+      "similarity": 0.983993904467593,
+      "magnitude": 1.0000000019095852
+    },
+    {
+      "face_id": 4026531930,
+      "name": "combined_0055",
+      "type": "combined",
+      "similarity": 0.9840649645905056,
+      "magnitude": 0.9999997680339416
+    },
+    {
+      "face_id": 4026532121,
+      "name": "unknown_4026532121",
+      "type": "unknown",
+      "similarity": 0.9841067928750629,
+      "magnitude": 0.9999994674091084
+    },
+    {
+      "face_id": 4026532120,
+      "name": "unknown_4026532120",
+      "type": "unknown",
+      "similarity": 0.9841785020348842,
+      "magnitude": 0.9999997695955998
+    },
+    {
+      "face_id": 4026531912,
+      "name": "combined_0024",
+      "type": "combined",
+      "similarity": 0.984208329160033,
+      "magnitude": 0.9999997905533352
+    },
+    {
+      "face_id": 4026531969,
+      "name": "combined_0115",
+      "type": "combined",
+      "similarity": 0.9842693371938724,
+      "magnitude": 0.999999912360071
+    },
+    {
+      "face_id": 4026531981,
+      "name": "combined_0132",
+      "type": "combined",
+      "similarity": 0.9842839718009345,
+      "magnitude": 1.0000000284361876
+    },
+    {
+      "face_id": 4026531936,
+      "name": "combined_0063",
+      "type": "combined",
+      "similarity": 0.9843725260645246,
+      "magnitude": 0.9999998003173184
+    },
+    {
+      "face_id": 4026532104,
+      "name": "quality_76",
+      "type": "quality",
+      "similarity": 0.9848666267292832,
+      "magnitude": 0.9999997643298365
+    },
+    {
+      "face_id": 4026532006,
+      "name": "combined_0167",
+      "type": "combined",
+      "similarity": 0.9849629157214881,
+      "magnitude": 0.9999997205602775
+    },
+    {
+      "face_id": 4026531984,
+      "name": "combined_0136",
+      "type": "combined",
+      "similarity": 0.9850223132983797,
+      "magnitude": 0.9999996329603128
+    },
+    {
+      "face_id": 4026532090,
+      "name": "occlusion_017",
+      "type": "occlusion",
+      "similarity": 0.9850468069725806,
+      "magnitude": 0.9999996943789285
+    },
+    {
+      "face_id": 4026531891,
+      "name": "channel_red_-25",
+      "type": "channel_red",
+      "similarity": 0.9853349902668496,
+      "magnitude": 0.9999999591948481
+    },
+    {
+      "face_id": 4026531919,
+      "name": "combined_0036",
+      "type": "combined",
+      "similarity": 0.9854959722156107,
+      "magnitude": 0.9999999539826985
+    },
+    {
+      "face_id": 4026532110,
+      "name": "unknown_4026532110",
+      "type": "unknown",
+      "similarity": 0.985496744935285,
+      "magnitude": 1.000000121259272
+    },
+    {
+      "face_id": 4026532037,
+      "name": "contrast_0.57",
+      "type": "contrast",
+      "similarity": 0.9855246673758334,
+      "magnitude": 0.9999998929330467
+    },
+    {
+      "face_id": 4026531893,
+      "name": "combined_0000",
+      "type": "combined",
+      "similarity": 0.9855349541798577,
+      "magnitude": 0.9999999232416394
+    },
+    {
+      "face_id": 4026532123,
+      "name": "unknown_4026532123",
+      "type": "unknown",
+      "similarity": 0.9856712753518526,
+      "magnitude": 0.9999999194716974
+    },
+    {
+      "face_id": 4026531885,
+      "name": "channel_green_+25",
+      "type": "channel_green",
+      "similarity": 0.9857852313331372,
+      "magnitude": 0.9999999339174305
+    },
+    {
+      "face_id": 4026531982,
+      "name": "combined_0133",
+      "type": "combined",
+      "similarity": 0.9858391235971962,
+      "magnitude": 0.9999998076057047
+    },
+    {
+      "face_id": 4026532137,
+      "name": "unknown_4026532137",
+      "type": "unknown",
+      "similarity": 0.9860088774725633,
+      "magnitude": 0.9999996994859721
+    },
+    {
+      "face_id": 4026531952,
+      "name": "combined_0084",
+      "type": "combined",
+      "similarity": 0.9861582620804709,
+      "magnitude": 0.9999998981242948
+    },
+    {
+      "face_id": 4026532058,
+      "name": "gamma_0.85",
+      "type": "gamma",
+      "similarity": 0.9862942042407526,
+      "magnitude": 0.9999996471979755
+    },
+    {
+      "face_id": 4026531850,
+      "name": "blur_gaussian_1.8",
+      "type": "blur_gaussian",
+      "similarity": 0.9862980826863157,
+      "magnitude": 0.9999997760227509
+    },
+    {
+      "face_id": 4026532100,
+      "name": "quality_52",
+      "type": "quality",
+      "similarity": 0.9863825398038786,
+      "magnitude": 0.9999996920749319
+    },
+    {
+      "face_id": 4026532097,
+      "name": "quality_34",
+      "type": "quality",
+      "similarity": 0.9865366012865506,
+      "magnitude": 0.9999999334597532
+    },
+    {
+      "face_id": 4026531943,
+      "name": "combined_0071",
+      "type": "combined",
+      "similarity": 0.9867993195227505,
+      "magnitude": 0.9999996768681171
+    },
+    {
+      "face_id": 4026532117,
+      "name": "unknown_4026532117",
+      "type": "unknown",
+      "similarity": 0.9868228047474141,
+      "magnitude": 0.9999998064013165
+    },
+    {
+      "face_id": 4026532116,
+      "name": "unknown_4026532116",
+      "type": "unknown",
+      "similarity": 0.9868287641365401,
+      "magnitude": 0.9999997754455793
+    },
+    {
+      "face_id": 4026532029,
+      "name": "combined_0194",
+      "type": "combined",
+      "similarity": 0.9868304128416944,
+      "magnitude": 0.9999997201872609
+    },
+    {
+      "face_id": 4026532132,
+      "name": "unknown_4026532132",
+      "type": "unknown",
+      "similarity": 0.9868649843894151,
+      "magnitude": 1.0000000232316753
+    },
+    {
+      "face_id": 4026531904,
+      "name": "combined_0015",
+      "type": "combined",
+      "similarity": 0.9870977934870192,
+      "magnitude": 0.9999997983308355
+    },
+    {
+      "face_id": 4026531979,
+      "name": "combined_0129",
+      "type": "combined",
+      "similarity": 0.9871459071635791,
+      "magnitude": 0.9999996746509227
+    },
+    {
+      "face_id": 4026532133,
+      "name": "unknown_4026532133",
+      "type": "unknown",
+      "similarity": 0.9871737608806278,
+      "magnitude": 0.9999998324473927
+    },
+    {
+      "face_id": 4026532126,
+      "name": "unknown_4026532126",
+      "type": "unknown",
+      "similarity": 0.9871948761966958,
+      "magnitude": 0.9999997464598886
+    },
+    {
+      "face_id": 4026532096,
+      "name": "quality_28",
+      "type": "quality",
+      "similarity": 0.9872778819436683,
+      "magnitude": 0.9999999261163208
+    },
+    {
+      "face_id": 4026531913,
+      "name": "combined_0026",
+      "type": "combined",
+      "similarity": 0.987357945881873,
+      "magnitude": 1.000000058735084
+    },
+    {
+      "face_id": 4026531869,
+      "name": "brightness_0.89",
+      "type": "brightness",
+      "similarity": 0.987412236610381,
+      "magnitude": 0.9999996640919749
+    },
+    {
+      "face_id": 4026532054,
+      "name": "flip_horizontal",
+      "type": "flip",
+      "similarity": 0.9874613550196754,
+      "magnitude": 0.9999998461967776
+    },
+    {
+      "face_id": 4026531973,
+      "name": "combined_0121",
+      "type": "combined",
+      "similarity": 0.9874706903778986,
+      "magnitude": 0.9999999172814464
+    },
+    {
+      "face_id": 4026531926,
+      "name": "combined_0047",
+      "type": "combined",
+      "similarity": 0.9875025520318778,
+      "magnitude": 0.9999998276337886
+    },
+    {
+      "face_id": 4026532024,
+      "name": "combined_0189",
+      "type": "combined",
+      "similarity": 0.9877117643579325,
+      "magnitude": 0.9999998089093829
+    },
+    {
+      "face_id": 4026532067,
+      "name": "gamma_2.20",
+      "type": "gamma",
+      "similarity": 0.9877474046600959,
+      "magnitude": 0.9999999449574714
+    },
+    {
+      "face_id": 4026531915,
+      "name": "combined_0029",
+      "type": "combined",
+      "similarity": 0.9877761672414858,
+      "magnitude": 0.9999999114405695
+    },
+    {
+      "face_id": 4026531843,
+      "name": "blur_box_3",
+      "type": "blur_box",
+      "similarity": 0.987838642538148,
+      "magnitude": 0.9999996773525623
+    },
+    {
+      "face_id": 4026532083,
+      "name": "occlusion_010",
+      "type": "occlusion",
+      "similarity": 0.9878637698367377,
+      "magnitude": 0.9999998321863016
+    },
+    {
+      "face_id": 4026532130,
+      "name": "unknown_4026532130",
+      "type": "unknown",
+      "similarity": 0.9878703310179322,
+      "magnitude": 0.9999998362783667
+    },
+    {
+      "face_id": 4026532128,
+      "name": "unknown_4026532128",
+      "type": "unknown",
+      "similarity": 0.987880962452589,
+      "magnitude": 0.9999999186437166
+    },
+    {
+      "face_id": 4026532098,
+      "name": "quality_40",
+      "type": "quality",
+      "similarity": 0.9880059780765302,
+      "magnitude": 0.9999998711066165
+    },
+    {
+      "face_id": 4026532125,
+      "name": "unknown_4026532125",
+      "type": "unknown",
+      "similarity": 0.9880479917284908,
+      "magnitude": 0.9999999205468253
+    },
+    {
+      "face_id": 4026532131,
+      "name": "unknown_4026532131",
+      "type": "unknown",
+      "similarity": 0.9882498801155963,
+      "magnitude": 0.9999998056001658
+    },
+    {
+      "face_id": 4026531932,
+      "name": "combined_0058",
+      "type": "combined",
+      "similarity": 0.988405637504177,
+      "magnitude": 0.9999999685759348
+    },
+    {
+      "face_id": 4026531873,
+      "name": "brightness_1.18",
+      "type": "brightness",
+      "similarity": 0.9884080959115935,
+      "magnitude": 0.9999996556647781
+    },
+    {
+      "face_id": 4026531884,
+      "name": "channel_blue_-50",
+      "type": "channel_blue",
+      "similarity": 0.9886320844000882,
+      "magnitude": 0.999999799137826
+    },
+    {
+      "face_id": 4026531849,
+      "name": "blur_gaussian_1.5",
+      "type": "blur_gaussian",
+      "similarity": 0.9888576105281275,
+      "magnitude": 0.99999982870768
+    },
+    {
+      "face_id": 4026531871,
+      "name": "brightness_1.04",
+      "type": "brightness",
+      "similarity": 0.9890147919835808,
+      "magnitude": 0.9999997649727518
+    },
+    {
+      "face_id": 4026532115,
+      "name": "unknown_4026532115",
+      "type": "unknown",
+      "similarity": 0.9890912948249032,
+      "magnitude": 0.999999936195195
+    },
+    {
+      "face_id": 4026532134,
+      "name": "unknown_4026532134",
+      "type": "unknown",
+      "similarity": 0.9891445638671506,
+      "magnitude": 0.9999998914390066
+    },
+    {
+      "face_id": 4026532004,
+      "name": "combined_0165",
+      "type": "combined",
+      "similarity": 0.9891511296408209,
+      "magnitude": 0.9999997803830771
+    },
+    {
+      "face_id": 4026531895,
+      "name": "combined_0003",
+      "type": "combined",
+      "similarity": 0.9891694280795622,
+      "magnitude": 0.9999998506645388
+    },
+    {
+      "face_id": 4026531974,
+      "name": "combined_0122",
+      "type": "combined",
+      "similarity": 0.9891757495149246,
+      "magnitude": 0.9999998809391284
+    },
+    {
+      "face_id": 4026531921,
+      "name": "combined_0038",
+      "type": "combined",
+      "similarity": 0.9892194321375214,
+      "magnitude": 0.9999997268184685
+    },
+    {
+      "face_id": 4026532087,
+      "name": "occlusion_014",
+      "type": "occlusion",
+      "similarity": 0.9892261000734439,
+      "magnitude": 0.9999999606852253
+    },
+    {
+      "face_id": 4026531996,
+      "name": "combined_0157",
+      "type": "combined",
+      "similarity": 0.9895215381141084,
+      "magnitude": 0.9999996366641674
+    },
+    {
+      "face_id": 4026532028,
+      "name": "combined_0193",
+      "type": "combined",
+      "similarity": 0.9895709899394646,
+      "magnitude": 1.0000000480829567
+    },
+    {
+      "face_id": 4026532014,
+      "name": "combined_0176",
+      "type": "combined",
+      "similarity": 0.9896922974401896,
+      "magnitude": 0.9999997321855322
+    },
+    {
+      "face_id": 4026531965,
+      "name": "combined_0109",
+      "type": "combined",
+      "similarity": 0.9897149615742066,
+      "magnitude": 0.999999772299346
+    },
+    {
+      "face_id": 4026532086,
+      "name": "occlusion_013",
+      "type": "occlusion",
+      "similarity": 0.9900220989789841,
+      "magnitude": 0.9999998489961079
+    },
+    {
+      "face_id": 4026531883,
+      "name": "channel_blue_-25",
+      "type": "channel_blue",
+      "similarity": 0.9901371221933678,
+      "magnitude": 0.9999996231074478
+    },
+    {
+      "face_id": 4026532111,
+      "name": "unknown_4026532111",
+      "type": "unknown",
+      "similarity": 0.9901548274422176,
+      "magnitude": 0.9999997100623363
+    },
+    {
+      "face_id": 4026532095,
+      "name": "quality_22",
+      "type": "quality",
+      "similarity": 0.9902116054294818,
+      "magnitude": 1.0000000473573432
+    },
+    {
+      "face_id": 4026532135,
+      "name": "unknown_4026532135",
+      "type": "unknown",
+      "similarity": 0.990218960544323,
+      "magnitude": 0.999999967577224
+    },
+    {
+      "face_id": 4026531990,
+      "name": "combined_0147",
+      "type": "combined",
+      "similarity": 0.9902400533781885,
+      "magnitude": 0.9999999511797455
+    },
+    {
+      "face_id": 4026532057,
+      "name": "gamma_0.70",
+      "type": "gamma",
+      "similarity": 0.9902784238350355,
+      "magnitude": 0.9999999164067546
+    },
+    {
+      "face_id": 4026532088,
+      "name": "occlusion_015",
+      "type": "occlusion",
+      "similarity": 0.9903866010940509,
+      "magnitude": 0.9999998616078751
+    },
+    {
+      "face_id": 4026531872,
+      "name": "brightness_1.11",
+      "type": "brightness",
+      "similarity": 0.9908887426175645,
+      "magnitude": 0.9999999080672473
+    },
+    {
+      "face_id": 4026532138,
+      "name": "unknown_4026532138",
+      "type": "unknown",
+      "similarity": 0.9909164308740487,
+      "magnitude": 0.9999996731580183
+    },
+    {
+      "face_id": 4026532129,
+      "name": "unknown_4026532129",
+      "type": "unknown",
+      "similarity": 0.9909574310324003,
+      "magnitude": 0.9999996003826188
+    },
+    {
+      "face_id": 4026532055,
+      "name": "gamma_0.40",
+      "type": "gamma",
+      "similarity": 0.991038505495517,
+      "magnitude": 0.9999998715960972
+    },
+    {
+      "face_id": 4026531870,
+      "name": "brightness_0.96",
+      "type": "brightness",
+      "similarity": 0.9910973673962062,
+      "magnitude": 0.9999999118243159
+    },
+    {
+      "face_id": 4026532084,
+      "name": "occlusion_011",
+      "type": "occlusion",
+      "similarity": 0.9911543488661232,
+      "magnitude": 0.9999997951655126
+    },
+    {
+      "face_id": 4026531896,
+      "name": "combined_0004",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531898,
+      "name": "combined_0008",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531916,
+      "name": "combined_0030",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531924,
+      "name": "combined_0044",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531925,
+      "name": "combined_0046",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531927,
+      "name": "combined_0052",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531929,
+      "name": "combined_0054",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531939,
+      "name": "combined_0067",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531941,
+      "name": "combined_0069",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531946,
+      "name": "combined_0076",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531949,
+      "name": "combined_0079",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531956,
+      "name": "combined_0091",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531980,
+      "name": "combined_0131",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531993,
+      "name": "combined_0152",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026531997,
+      "name": "combined_0158",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026532011,
+      "name": "combined_0173",
+      "type": "combined",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026532056,
+      "name": "gamma_0.55",
+      "type": "gamma",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026532112,
+      "name": "unknown_4026532112",
+      "type": "unknown",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026532127,
+      "name": "unknown_4026532127",
+      "type": "unknown",
+      "similarity": 0.9911610474559125,
+      "magnitude": 0.9999999025425157
+    },
+    {
+      "face_id": 4026532039,
+      "name": "contrast_0.75",
+      "type": "contrast",
+      "similarity": 0.9911975130863697,
+      "magnitude": 0.9999998046970207
+    },
+    {
+      "face_id": 4026532113,
+      "name": "unknown_4026532113",
+      "type": "unknown",
+      "similarity": 0.9912279130662713,
+      "magnitude": 0.99999983692506
+    },
+    {
+      "face_id": 4026531848,
+      "name": "blur_gaussian_1.1",
+      "type": "blur_gaussian",
+      "similarity": 0.9913968650462811,
+      "magnitude": 0.9999999666280084
+    },
+    {
+      "face_id": 4026531908,
+      "name": "combined_0019",
+      "type": "combined",
+      "similarity": 0.9914000435882881,
+      "magnitude": 0.9999999095972669
+    },
+    {
+      "face_id": 4026531951,
+      "name": "combined_0083",
+      "type": "combined",
+      "similarity": 0.9914963310682607,
+      "magnitude": 0.9999999829884434
+    },
+    {
+      "face_id": 4026532089,
+      "name": "occlusion_016",
+      "type": "occlusion",
+      "similarity": 0.9915519711072307,
+      "magnitude": 0.9999998017757543
+    },
+    {
+      "face_id": 4026532114,
+      "name": "unknown_4026532114",
+      "type": "unknown",
+      "similarity": 0.991665859421895,
+      "magnitude": 0.9999997693915177
+    },
+    {
+      "face_id": 4026532124,
+      "name": "unknown_4026532124",
+      "type": "unknown",
+      "similarity": 0.9916965403699085,
+      "magnitude": 0.9999999907580808
+    },
+    {
+      "face_id": 4026531847,
+      "name": "blur_gaussian_0.8",
+      "type": "blur_gaussian",
+      "similarity": 0.9917086697608852,
+      "magnitude": 0.9999999577753288
+    },
+    {
+      "face_id": 4026532041,
+      "name": "contrast_0.93",
+      "type": "contrast",
+      "similarity": 0.9917656143719523,
+      "magnitude": 0.9999998786113852
+    },
+    {
+      "face_id": 4026532092,
+      "name": "occlusion_019",
+      "type": "occlusion",
+      "similarity": 0.9919106526694241,
+      "magnitude": 0.9999998977274046
+    },
+    {
+      "face_id": 4026532093,
+      "name": "quality_10",
+      "type": "quality",
+      "similarity": 0.9919428470811581,
+      "magnitude": 0.9999999060433833
+    },
+    {
+      "face_id": 4026531983,
+      "name": "combined_0135",
+      "type": "combined",
+      "similarity": 0.991966477073742,
+      "magnitude": 0.9999999081172777
+    },
+    {
+      "face_id": 4026532094,
+      "name": "quality_16",
+      "type": "quality",
+      "similarity": 0.9920088158277187,
+      "magnitude": 0.9999996969815488
+    },
+    {
+      "face_id": 4026531988,
+      "name": "combined_0144",
+      "type": "combined",
+      "similarity": 0.9920437440820881,
+      "magnitude": 0.9999997890042284
+    },
+    {
+      "face_id": 4026531935,
+      "name": "combined_0062",
+      "type": "combined",
+      "similarity": 0.9920527601979872,
+      "magnitude": 0.999999746642545
+    },
+    {
+      "face_id": 4026532091,
+      "name": "occlusion_018",
+      "type": "occlusion",
+      "similarity": 0.9921144143578496,
+      "magnitude": 0.9999999306762206
+    },
+    {
+      "face_id": 4026532003,
+      "name": "combined_0164",
+      "type": "combined",
+      "similarity": 0.9921850427810653,
+      "magnitude": 0.9999999002156535
+    },
+    {
+      "face_id": 4026531971,
+      "name": "combined_0118",
+      "type": "combined",
+      "similarity": 0.9924058969324581,
+      "magnitude": 1.000000036667056
+    },
+    {
+      "face_id": 4026531842,
+      "name": "blur_box_2",
+      "type": "blur_box",
+      "similarity": 0.9924850885805421,
+      "magnitude": 0.9999996226116926
+    },
+    {
+      "face_id": 4026532103,
+      "name": "quality_70",
+      "type": "quality",
+      "similarity": 0.9927883277970008,
+      "magnitude": 0.9999999151701853
+    },
+    {
+      "face_id": 4026532040,
+      "name": "contrast_0.84",
+      "type": "contrast",
+      "similarity": 0.9930548358120139,
+      "magnitude": 1.0000000378758511
+    },
+    {
+      "face_id": 4026532019,
+      "name": "combined_0183",
+      "type": "combined",
+      "similarity": 0.9932744775411376,
+      "magnitude": 0.9999999132790216
+    }
+  ]
+}

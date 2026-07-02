@@ -1,0 +1,14 @@
+Current version: QPTS-B2209.3.70.CEN001.200707
+Inner   version: QPTSV200R002B09D003SP70CEN001
+UBOOT   version: V1.13
+Driver  version: V1.0
+Kernel  version: V2.2
+Rootfs  version: NA
+Build      date: 2020-07-07 09:55:07
+Proto      name: OET-213H-NB-WH
+Device     name: OET-213H-NB
+Soft       name: OET-213H-NB-WH
+PCB     version: A
+Serial   number: 210235C4CC3208000045
+ISF     version: DSPTV500R020B05D001SP01 
+FACE    version: DSPTV500R019B01D134SP05 

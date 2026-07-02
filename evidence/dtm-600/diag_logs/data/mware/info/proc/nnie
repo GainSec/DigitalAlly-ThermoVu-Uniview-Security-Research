@@ -1,0 +1,28 @@
+
+[NNIE] Version: [Hi3516CV500_MPP_V1.0.0.0 B010 Release], Build Time[Oct 23 2019, 20:23:25]
+
+
+-------------------------------NNIE MODULE PARAM------------------------------------
+nnie_save_power  nnie_max_tskbuf_num
+              1                   32
+
+-------------------------------NNIE QUEUE INFO------------------------------------
+    CoreId      Wait      Busy WaitCurId WaitEndId BusyCurId BusyEndId
+         0         0        -1         0         0         0         0
+
+--------------------------------NNIE TASK INFO------------------------------------
+    CoreId       Hnd   TaskFsh    LastId    TaskId   HndWrap   FshWrap  FreeTskBufNum   UseTskBufNum
+         0      2310      2310         0         0         0         0             30              2
+
+-----------------------------------NNIE RUN-TIME INFO-----------------------------
+    CoreId  LastInst  CntPerSec  MaxCntPerSec  TotalIntCntLastSec  TotalIntCnt   QTCnt   STCnt    CfgErrCnt
+         0         1          5            11                2307         2310       0       0            0
+
+    CostTm   MCostTm  CostTmPerSec  MCostTmPerSec  TotalIntCostTm       RunTm
+        19       156           131            428           70608  1322698210
+
+----------------------------------NNIE INVOKE INFO--------------------------------
+
+    CoreId   Forward               ForwardWithBbox
+
+         0      2310                             0

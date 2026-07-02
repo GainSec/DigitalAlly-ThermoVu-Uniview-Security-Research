@@ -1,0 +1,35 @@
+[Dec  1 00:03:40  708]: before Detect sleep 1 S.
+[Dec  1 01:25:17  337]: Can't open file /proc/640[Dec  1 01:25:19  738]: DAEMON [mwareserver] exited at [2011-12-01 01:25:19]
+[Dec  1 01:25:21  755]: Begin Collect KeyInfo.
+[Dec  1 01:25:24  757]: Collect KeyInfo Done. errno:0(Success).
+[Dec  1 01:25:24  233]: start mwareserver
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:44  738]: DAEMON [mwareserver] exited at [2011-12-01 00:03:44]
+[Dec  1 00:03:46  755]: Begin Collect KeyInfo.
+[Dec  1 00:03:49  757]: Collect KeyInfo Done. errno:0(Success).
+[Dec  1 00:03:49  233]: start mwareserver
+[Dec  1 00:03:41  708]: before Detect sleep 5 S.
+[Dec  1 00:03:48  738]: DAEMON [mwareserver] exited at [2011-12-01 00:03:48]
+[Dec  1 00:03:50  233]: start mwareserver
+[Dec  1 00:03:41  708]: before Detect sleep 10 S.
+[Dec  1 00:03:53  738]: DAEMON [mwareserver] exited at [2011-12-01 00:03:53]
+[Dec  1 00:03:55  233]: start mwareserver
+[Dec  1 00:03:40  708]: before Detect sleep 600 S.
+[Dec  1 00:13:43  738]: DAEMON [mwareserver] exited at [2011-12-01 00:13:43]
+[Dec  1 00:13:45  233]: start mwareserver
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 01:38:07  337]: Can't open file /proc/877[Dec  1 01:38:09  738]: DAEMON [mwareserver] exited at [2011-12-01 01:38:09]
+[Dec  1 01:38:11  755]: Begin Collect KeyInfo.
+[Dec  1 01:38:15  757]: Collect KeyInfo Done. errno:0(Success).
+[Dec  1 01:38:15  233]: start mwareserver
+[Dec  1 00:03:41  708]: before Detect sleep 5 S.
+[Dec  1 00:03:56  337]: Can't open file /proc/883[Dec  1 00:03:58  738]: DAEMON [mwareserver] exited at [2011-12-01 00:03:58]
+[Dec  1 00:04:00  233]: start mwareserver
+[Dec  1 00:03:40  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
+[Dec  1 00:03:41  708]: before Detect sleep 1 S.
